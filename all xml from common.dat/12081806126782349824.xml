@@ -1,0 +1,173 @@
+<graphickit id="12081806126782349824" name="The Whore" unique="0" kittobone="1">
+	<slot name="bra" position="0" bonename="Spine">
+		<partdatabase name="" weight="0">
+			<part name="SV_Female_Bra_01" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Female_Bra_01.xml" mesh="SV_Female_Bra_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="SV_Female_Bra 01" id="slabreche-M-2012011155101973">
+						<materialdatabase name="" weight="0">
+							<material id="cromagnoli-M-20120417155635" name="SV_Female_WHORE" weight="1" file="graphics\_materials\cromagnoli-M-20120417155635.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="SV_Female_Decals_01" id="slabreche-M-2012011150312069">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="SV_Female_Body_01" id="slabreche-M-2012010963424848">
+						<materialdatabase name="" weight="0">
+							<material id="bgauthierleblanc-M-20120418154517" name="SV_Female_Whore" weight="1" file="graphics\_materials\bgauthierleblanc-M-20120418154517.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="shorts" position="1" bonename="Spine1">
+		<partdatabase name="" weight="0">
+			<part name="SV_Female_Shorts_01" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Female_Shorts_01.xml" mesh="SV_Female_Shorts_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="SV_Female_Decals_01" id="slabreche-M-2012011150312069">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="SV_Female_Pants_01" id="slabreche-M-2012010961940637">
+						<materialdatabase name="" weight="0">
+							<material id="cromagnoli-M-20120417160119" name="SV_Female_Pants_01_WHORE" weight="1" file="graphics\_materials\cromagnoli-M-20120417160119.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="SV_Female_Body_01" id="slabreche-M-2012010963424848">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="head" position="2" bonename="Head">
+		<partdatabase name="" weight="0">
+			<part name="SV_Head" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Head.xml" mesh="SV_Head" weight="1" version="1" allowcullbysize="1">
+				<tag name="head01" type="3" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="SV_Girls_Eye" id="slabreche-M-2012011056458674">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Eye_shadow" id="akotelnikoff-M-2011083067336073">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Kebe_eyelashes" id="akotelnikoff-M-2011093050167052">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Female_Villagers_Sexy_Head_01_AsCopy" id="bwaddingham-M-2012040251755274">
+						<materialdatabase name="" weight="0">
+							<material id="cromagnoli-M-20120417160751" name="Female_Villagers_Sexy_Head_01_whore" weight="1" file="graphics\_materials\cromagnoli-M-20120417160751.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-M-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="SV_Head" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Head.xml" mesh="SV_Head" weight="1" version="1" allowcullbysize="1">
+				<tag name="head02" type="3" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="SV_Girls_Eye" id="slabreche-M-2012011056458674">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Eye_shadow" id="akotelnikoff-M-2011083067336073">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Kebe_eyelashes" id="akotelnikoff-M-2011093050167052">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Female_Villagers_Sexy_Head_01_AsCopy" id="bwaddingham-M-2012040251755274">
+						<materialdatabase name="" weight="0">
+							<material id="cromagnoli-M-20120417160751" name="Female_Villagers_Sexy_Head_01_whore" weight="1" file="graphics\_materials\cromagnoli-M-20120417160751.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-M-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="SV_Head" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Head.xml" mesh="SV_Head" weight="1" version="1" allowcullbysize="1">
+				<tag name="head03" type="3" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="SV_Girls_Eye" id="slabreche-M-2012011056458674">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Eye_shadow" id="akotelnikoff-M-2011083067336073">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Kebe_eyelashes" id="akotelnikoff-M-2011093050167052">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Female_Villagers_Sexy_Head_01_AsCopy" id="bwaddingham-M-2012040251755274">
+						<materialdatabase name="" weight="0">
+							<material id="cromagnoli-M-20120417160751" name="Female_Villagers_Sexy_Head_01_whore" weight="1" file="graphics\_materials\cromagnoli-M-20120417160751.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-M-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="SV_Head" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Head.xml" mesh="SV_Head" weight="1" version="1" allowcullbysize="1">
+				<tag name="head04" type="3" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="SV_Girls_Eye" id="slabreche-M-2012011056458674">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Eye_shadow" id="akotelnikoff-M-2011083067336073">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Kebe_eyelashes" id="akotelnikoff-M-2011093050167052">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Female_Villagers_Sexy_Head_01_AsCopy" id="bwaddingham-M-2012040251755274">
+						<materialdatabase name="" weight="0">
+							<material id="cromagnoli-M-20120417160751" name="Female_Villagers_Sexy_Head_01_whore" weight="1" file="graphics\_materials\cromagnoli-M-20120417160751.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-M-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="hair" position="3" bonename="HeadEnd">
+		<partdatabase name="" weight="0">
+			<part name="SV_Female_Hair_01" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Female_Hair_01.xml" mesh="SV_Female_Hair_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="SV_Female_Hair_02" id="slabreche-M-2012013041776224">
+						<materialdatabase name="" weight="0">
+							<material id="cromagnoli-M-20120314163841" name="SV_Female_Hair_02 - Copy" weight="1" file="graphics\_materials\cromagnoli-M-20120314163841.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="SV_Female_Hair_02" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Female_Hair_02.xml" mesh="SV_Female_Hair_02" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="villagerHair" id="cromagnoli-M-2011101362149785">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="SV_Female_Hair_02" id="slabreche-M-2012013041776224">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="SV_Female_Hair_03" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Female_Hair_03.xml" mesh="SV_Female_Hair_03" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="SV_Female_Hair_02" id="slabreche-M-2012013041776224">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

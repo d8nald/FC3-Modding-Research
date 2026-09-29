@@ -1,0 +1,50 @@
+<graphickit id="12075152479411505664" name="Hurk" unique="0" kittobone="1">
+	<slot name="Slot1" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Hurk" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\Hurk\Hurk.xml" mesh="Hurk" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="bambi_beard_Works" id="slabreche-M-2012060455655693">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="DocE IRIS" id="cromagnoli-M-2011091366758876">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="DocE eye" id="cromagnoli-M-2011091366729470">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Earnhardt_Teeth" id="kosullivan-m-2907201160271758">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Eye_shadow" id="akotelnikoff-M-2011083067336073">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Hurk_Shoes" id="slabreche-M-2012021731936182">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Hurk_Pants" id="slabreche-M-2012021731916625">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Hurk_Shirts" id="slabreche-M-2012021731870954">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Hurk_Body" id="slabreche-M-2012021731848888">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Hurk_Head" id="slabreche-M-2012021731766590">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Slot2" position="1" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot3" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot4" position="3" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

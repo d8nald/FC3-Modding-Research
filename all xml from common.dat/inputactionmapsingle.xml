@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Root>
+    <Import file="ActionMaps\InputActionMapCommon.xml"/>
+
+    <ActionMap name="showconsole" >
+
+        <Import actionmap="common_showconsole"/>
+
+    </ActionMap>
+
+    <ActionMap name="system" resendOnChange="0" >
+        <UnShift />
+        <Import actionmap="showconsole"/>
+		<Import actionmap="common_scry_alwaysactive"/>
+        <Import actionmap="common_system"/>
+
+		    <Binding signal="cheat_StartBuddyRescue">
+			<Input input="kb:rctrl" action="press"/>
+			<Input input="kb:f7" action="press"/>
+		</Binding>
+	    <Binding signal="cheat_StartInfamySpike">
+			<Input input="kb:rshift" action="press"/>
+			<Input input="kb:f7" action="press"/>
+		</Binding>
+        <Binding signal="cheat_StartBuddyRescue">
+			<Input input="kb:lctrl" action="press"/>
+			<Input input="kb:f7" action="press"/>
+		</Binding>
+	    <Binding signal="cheat_StartInfamySpike">
+			<Input input="kb:lshift" action="press"/>
+			<Input input="kb:f7" action="press"/>
+		</Binding>
+
+			<Binding input="kb:tab" action="release" signal="cheat_ToggleRadar"/>
+			<Binding input="kb:]" action="release" signal="fcxaidebug_toggle"/>
+			<Binding input="kb:9" action="release" signal="ingameframecapture_start"/>
+			<Binding input="kb:0" action="release" signal="ingameframecapture_stop"/>
+	  </ActionMap>
+
+    <ActionMap name="quicksaveload" resendOnChange="0" >
+    		<Import actionmap="quicksaveload_remap" optional=""/>
+        <Binding input="kb:f9" action="release" signal="quicksave"/>
+        <Binding input="kb:f11" action="release" signal="quickload"/>
+    </ActionMap>
+
+    <ActionMap name="kb_move" >
+
+        <Import actionmap="system"/>
+
+    </ActionMap>
+
+    <ActionMap name="move" >
+
+        <Import actionmap="common_move"/>
+        <Import actionmap="system"/>
+
+    </ActionMap>
+
+    <ActionMap name="look" >
+
+        <Import actionmap="common_look"/>
+        <Import actionmap="system"/>
+
+		<PadFilter name="right_thumb" device="pad" padAccelerationBoostAmplitude="0" >
+			<IronSightHelper>
+			</IronSightHelper>
+			<ShootCorrectionHelper/>
+			<Binding input="right_thumb_leftright" axis="0" sensitivity="1.0" curve="Weapons:AimCurves/Pad_LookLeftRight"/>
+			<Binding input="right_thumb_updown" axis="1" sensitivity="1.0" curve="Weapons:AimCurves/Pad_LookUpDown"/>
+		</PadFilter>
+		<Binding input="pad:right_thumb" action="update" signal="look"/>
+
+    </ActionMap>
+
+	<ActionMap name="weapon_select_sp">
+		<Import actionmap="common_weapons_remap" optional=""/>
+		<Import actionmap="common_singleplayer_remap" optional=""/>
+
+		<Binding input="kb:-" action="press" signal="select_previous_weapon"/>
+		<Binding input="kb:=" action="press" signal="select_next_weapon"/>
+        <Binding input="kb:x" action="press" signal="select_last_weapon"/>
+        <Binding input="mouse:wheel" action="update" signal="select_throwable_analogue_check"/>
+
+		<Binding input="kb:1" action="press" signal="select_weapon_slot0"/>
+		<Binding input="kb:2" action="press" signal="select_weapon_slot1"/>
+		<Binding input="kb:3" action="press" signal="select_weapon_slot2"/>
+        <Binding input="kb:4" action="press" signal="select_weapon_slot3"/>
+		<Binding input="kb:5" action="press" signal="select_IED_explosive"/>
+		<Binding input="kb:6" action="press" signal="select_proximity_mine"/>
+		<!-- 7 and 8 are to use crafted items, set elsewhere. -->
+		<Binding input="kb:9" action="press" signal="select_grenade"/>
+		<Binding input="kb:0" action="press" signal="select_molotov"/>
+
+		<!-- All weapon keys bring up the inventory wheel if held -->
+		<Binding input="kb:x" action="hold" signal="open_inventory"/>
+		<Binding input="kb:1" action="hold" signal="open_inventory"/>
+		<Binding input="kb:2" action="hold" signal="open_inventory"/>
+		<Binding input="kb:3" action="hold" signal="open_inventory"/>
+        <Binding input="kb:4" action="hold" signal="open_inventory"/>
+		<Binding input="kb:5" action="hold" signal="open_inventory"/>
+		<Binding input="kb:6" action="hold" signal="open_inventory"/>
+		<Binding input="kb:9" action="hold" signal="open_inventory"/>
+		<Binding input="kb:0" action="hold" signal="open_inventory"/>
+
+		<Binding input="kb:x" action="release" signal="close_inventory"/>
+		<Binding input="kb:1" action="release" signal="close_inventory"/>
+		<Binding input="kb:2" action="release" signal="close_inventory"/>
+		<Binding input="kb:3" action="release" signal="close_inventory"/>
+        <Binding input="kb:4" action="release" signal="close_inventory"/>
+		<Binding input="kb:5" action="release" signal="close_inventory"/>
+		<Binding input="kb:6" action="release" signal="close_inventory"/>
+		<Binding input="kb:9" action="release" signal="close_inventory"/>
+		<Binding input="kb:0" action="release" signal="close_inventory"/>
+	</ActionMap>
+
+    <ActionMap name="weapons" >
+        <Import actionmap="common_weapons"/>
+        <Import actionmap="system"/>
+		<Import actionmap="weapon_select_sp"/>
+    </ActionMap>
+
+    <ActionMap name="free_camera" resendOnChange="0">
+
+        <Import actionmap="system"/>
+		<Import actionmap="kb_move"/>
+        <Import actionmap="common_free_camera"/>
+
+    </ActionMap>
+
+    <ActionMap name="market_camera" resendOnChange="0">
+        <Import actionmap="system"/>
+        <Import actionmap="kb_move"/>
+        <Import actionmap="common_marketing_camera"/>
+    </ActionMap>
+
+    <ActionMap name="market_camera_activation" resendOnChange="0">
+        <Binding input="pad:right_thumb_push" action="press" signal="toggle_market_camera_pad"/>
+    </ActionMap>
+
+    <ActionMap name="menus" resendOnChange="0">
+        <Import actionmap="common_menus"/>
+        <Import actionmap="system"/>
+        <Import actionmap="quicksaveload"/>
+		<Import actionmap="common_map_remap" optional=""/>
+
+        <Binding input="kb:escape" action="press" signal="show_pausemenu_fork"/>
+        <NoResend input="kb:escape"/>
+				<Binding input="pad:start" action="press" signal="show_pausemenu_fork"/>
+				<NoResend input="pad:start"/>
+        <Binding input="pad:y" action="press" signal="LoadDefaultValues"/>
+        <Binding input="pad:back" action="press" signal="show_map"/>
+        <NoResend input="pad:back"/>
+        <Binding input="kb:m" action="press" signal="show_map"/>
+        <NoResend input="kb:m"/>
+
+        <Binding input="kb:f5" action="press" signal="show_survival_guide"/>
+        <NoResend input="kb:f5"/>
+        <Binding input="kb:f1" action="press" signal="show_crafting_menu"/>
+        <NoResend input="kb:f1"/>
+        <Binding input="kb:f2" action="press" signal="show_skill_menu"/>
+        <NoResend input="kb:f2"/>
+        <Binding input="kb:f3" action="press" signal="show_rucksack_menu"/>
+        <NoResend input="kb:f3"/>
+        <Binding input="kb:f4" action="press" signal="show_handbook_menu"/>
+        <NoResend input="kb:f4"/>
+
+    </ActionMap>
+
+   <ActionMap name="title_screen" resendOnChange="0">
+    <Import actionmap="showconsole"/>
+		<Binding input="kb:return" action="press" signal="startPressed"/>
+    <Binding input="kb:escape" action="press" signal="startPressed"/>
+    <Binding input="pad:start" action="press" signal="startPressed"/>
+
+</ActionMap>
+
+   <ActionMap name="end_of_game_screen" resendOnChange="0">
+    <Import actionmap="showconsole"/>
+		<Binding input="kb:return" action="press" signal="endofgamedone"/>
+		<NoResend input="kb:return"/>
+    <Binding input="kb:escape" action="press" signal="endofgamedone"/>
+    <NoResend input="kb:escape"/>
+    <Binding input="pad:start" action="press" signal="endofgamedone"/>
+    <NoResend input="pad:start"/>
+
+</ActionMap>
+
+    <ActionMap name="spectator_camera" resendOnChange="0">
+
+        <Import actionmap="kb_move"/>
+        <Import actionmap="common_spectator_camera"/>
+        <Import actionmap="system"/>
+
+    </ActionMap>
+
+    <ActionMap name="gameplay" resendOnChange="1">
+
+			<Import actionmap="move"/>
+			<Import actionmap="look"/>
+			<Import actionmap="weapons"/>
+      <Import actionmap="common_gameplay"/>
+      <Import actionmap="system"/>
+      <Import actionmap="common_WeaponInvProto"/>
+	  <Import actionmap="weapon_select_sp"/>
+	  <Import actionmap="common_singleplayer_remap" optional=""/>
+
+      <Binding input="kb:x" action="press" signal="toggle_gps"/>
+
+      <Binding input="kb:t"  action="press"   signal="throw_rock"/>
+      <Binding input="kb:t"  action="release" signal="release_grenade"/>
+
+      <Binding input="pad:right"  action="press"   signal="throw_rock"/>
+      <Binding input="pad:right"  action="release" signal="release_grenade"/>
+
+      <Binding input="pad:down"  action="release" signal="use_recipe_a"/>
+      <Binding input="pad:left"  action="release" signal="use_recipe_b"/>
+
+      <Binding input="kb:7"  action="release" signal="use_recipe_a"/>
+      <Binding input="kb:8"  action="release" signal="use_recipe_b"/>
+      <!-- Obsolete? <Binding input="kb:7"  action="release" signal="use_recipe_c"/> -->
+      <!-- Obsolete? <Binding input="kb:8"  action="release" signal="use_recipe_d"/> -->
+
+      <!--Binding input="pad:down" action="press"   signal="call_vehicle"/-->
+	</ActionMap>
+
+    <ActionMap name="default" >
+        <Import actionmap="gameplay"/>
+        <Import actionmap="menus"/>
+        <Import actionmap="common_default"/>
+        <Import actionmap="system"/>
+    </ActionMap>
+
+    <ActionMap name="basic" >
+        <Import actionmap="menus"/>
+        <Import actionmap="common_basic"/>
+        <Import actionmap="system"/>
+    </ActionMap>
+
+    <ActionMap name="editor" >
+
+	<Import actionmap="gameplay"/>
+        <Import actionmap="common_editor"/>
+        <Import actionmap="system"/>
+        <Binding input="pad:start" action="press" signal="show_pausemenu_fork"/>
+				<NoResend input="pad:start"/>
+				<Binding input="pad:back" action="press" signal="show_map"/>
+        <NoResend input="pad:back"/>
+    </ActionMap>
+
+    <ActionMap name="WeaponSwitchProto" >
+      <Import actionmap="basic"/>
+      <Import actionmap="move"/>
+	  <Import actionmap="common_WeaponSwitchProto"/>
+	  <Import actionmap="weapon_select_sp"/>
+
+        <Binding input="pad:a"		action="press" 		signal="jump"/>
+        <Binding input="pad:b"		action="press" 		signal="crouch"/>
+        <Binding input="pad:right_shoulder" action="release" signal="release_grenade"/>
+        <Binding input="mouse:mb" action="release" signal="release_grenade"/>
+    </ActionMap>
+
+    <ActionMap name="MessageBox">
+      <Import actionmap="common_showconsole"/>
+      <Import actionmap="common_system"/>
+      <Import actionmap="common_MessageBox"/>
+    </ActionMap>
+
+    <!--In Ironsight-->
+    <ActionMap name="weapons_ironsight" >
+    <Import actionmap="gameplay"/>
+    <Import actionmap="system"/>
+
+    <!--Keyboard-->
+      <Binding input="kb:rshift" action="press" signal="hold_breath"/>
+      <Binding input="kb:rshift" action="hold" signal="hold_breath"/>
+      <Binding input="kb:rshift" action="release" signal="unhold_breath"/>
+      <Binding input="kb:lshift" action="press" signal="hold_breath"/>
+      <Binding input="kb:lshift" action="hold" signal="hold_breath"/>
+      <Binding input="kb:lshift" action="release" signal="unhold_breath"/>
+
+    <!--Gamepad-->
+      <Binding input="pad:right_thumb_push" action="press" signal="hold_breath"/>
+      <Binding input="pad:right_thumb_push" action="hold" signal="hold_breath"/>
+      <Binding input="pad:right_thumb_push" action="release" signal="unhold_breath"/>
+    </ActionMap>
+
+    <ActionMap name="cinematic" >
+
+		<Import actionmap="basic"/>
+        <Import actionmap="common_cinematic"/>
+        <Import actionmap="system"/>
+
+    </ActionMap>
+
+    <ActionMap name="cinematic_nopausemenu" >
+
+        <Import actionmap="common_basic"/>
+        <Import actionmap="common_cinematic"/>
+        <Import actionmap="system"/>
+
+    </ActionMap>
+
+    <ActionMap name="buddydown" resendOnChange="0">
+
+		<Import actionmap="basic"/>
+        <Import actionmap="common_buddydown"/>
+        <Import actionmap="system"/>
+
+    </ActionMap>
+
+    <ActionMap name="buddydown_execute" resendOnChange="0">
+
+		<Import actionmap="buddydown"/>
+        <Import actionmap="common_buddydown_execute"/>
+        <Import actionmap="system"/>
+
+    </ActionMap>
+
+    <ActionMap name="buddydown_cradle" resendOnChange="0">
+
+		<Import actionmap="buddydown"/>
+        <Import actionmap="common_buddydown_cradle"/>
+        <Import actionmap="system"/>
+
+    </ActionMap>
+
+    <ActionMap name="lyingdown" resendOnChange="0">
+
+		<Import actionmap="basic"/>
+		<Import actionmap="look"/>
+        <Import actionmap="common_lyingdown"/>
+        <Import actionmap="system"/>
+
+    </ActionMap>
+
+    <ActionMap name="in_vehicle" >
+
+		<Import actionmap="basic"/>
+        <Import actionmap="common_in_vehicle"/>
+        <Import actionmap="system"/>
+
+    </ActionMap>
+
+    <ActionMap name="driving" >
+		<Import actionmap="in_vehicle"/>
+		<Import actionmap="kb_move"/>
+		<Import actionmap="common_singleplayer_remap" optional=""/>
+		<Import actionmap="common_gadget_remap" optional=""/>
+        <Import actionmap="common_driving"/>
+        <Import actionmap="system"/>
+
+        <Binding input="pad:down"  action="release" signal="use_recipe_a"/>
+      <Binding input="pad:left"  action="release" signal="use_recipe_b"/>
+
+      <Binding input="kb:7"  action="release" signal="use_recipe_a"/>
+      <Binding input="kb:8"  action="release" signal="use_recipe_b"/>
+      <!-- Obsolete? <Binding input="kb:7"  action="release" signal="use_recipe_c"/> -->
+      <!-- Obsolete? <Binding input="kb:8"  action="release" signal="use_recipe_d"/> -->
+    </ActionMap>
+
+  <ActionMap name="drivingminigame" >
+    <Import actionmap="driving"/>
+    <Binding input="pad:start" action="press" signal="quit_minigame"/>
+  </ActionMap>
+
+  <ActionMap name="drivingminigameoutofvehicle" >
+    <Import actionmap="gameplay"/>
+    <Binding input="pad:start" action="press" signal="quit_minigame"/>
+  </ActionMap>
+
+  <ActionMap name="drivingShooting" >
+    <Import actionmap="in_vehicle"/>
+    <Import actionmap="kb_move"/>
+    <Import actionmap="common_gadget_remap" optional=""/>
+    <Import actionmap="common_driving_shooting"/>
+    <Import actionmap="system"/>
+  </ActionMap>
+
+    <ActionMap name="map_driving" >
+    	<Import actionmap="common_weapons_remap" optional=""/>
+        <Import actionmap="driving"/>
+        <Binding input="kb:r" action="press"   signal="flipside"/>
+		<Binding input="pad:x" action="release"   signal="flipside"/>
+		<Binding input="pad:x" action="hold"   signal="exitvehicle"/>
+    </ActionMap>
+
+    <ActionMap name="passenger" >
+		<Import actionmap="basic"/>
+		<Import actionmap="kb_move"/>
+	    <Import actionmap="look"/>
+        <Import actionmap="common_passenger"/>
+        <Import actionmap="system"/>
+        <Import actionmap="common_WeaponInvProto"/>
+		<Import actionmap="weapon_select_sp"/>
+    </ActionMap>
+
+    <ActionMap name="ladder" >
+
+        <Import actionmap="basic"/>
+        <Import actionmap="look"/>
+        <Import actionmap="common_ladder"/>
+        <Import actionmap="system"/>
+
+    </ActionMap>
+
+    <ActionMap name="climbing" >
+
+        <Import actionmap="basic"/>
+        <Import actionmap="look"/>
+        <Import actionmap="common_climbing"/>
+        <Import actionmap="system"/>
+
+    </ActionMap>
+
+
+
+
+  <!--###################################-->
+  <!--#   Bag Off Sequence Action Map   #-->
+  <!--###################################-->
+  <ActionMap name="bag_off_sequence">
+
+    <Import actionmap="common_free_camera"/>
+    <Import actionmap="common_look"/>
+    <Import actionmap="basic"/>
+    <Import actionmap="system"/>
+
+    <Binding input="pad:right_thumb" action="update" signal="look"/>
+
+  </ActionMap>
+
+  <!--###################################-->
+  <!--#   Cenote Action Map             #-->
+  <!--###################################-->
+  <ActionMap name="cenote_exotic_gameplay">
+    <Import actionmap="basic"/>
+    <Import actionmap="common_free_camera"/>
+
+    <Binding input="pad:a"             action="press"   signal="cenote_mash"/>
+    <Binding input="pad:b"             action="press"   signal="cenote_mash"/>
+    <Binding input="pad:x"             action="press"   signal="cenote_mash"/>
+    <Binding input="pad:y"             action="press"   signal="cenote_mash"/>
+    <Binding input="pad:right_trigger" action="press"   signal="cenote_press_RT"/>
+    <Binding input="pad:left_trigger"  action="press"   signal="cenote_press_LT"/>
+    <Binding input="pad:right_trigger" action="release" signal="cenote_release_RT"/>
+    <Binding input="pad:left_trigger"  action="release" signal="cenote_release_LT"/>
+    <Binding input="pad:right_thumb"   action="update"  signal="cenote_RS"/>
+    <Binding input="pad:left_thumb"    action="update"  signal="cenote_LS"/>
+  </ActionMap>
+
+  <!--###################################-->
+  <!--#   Dog Attack Action Map   #-->
+  <!--###################################-->
+  <ActionMap name="dog_attack_exotic_gameplay">
+
+    <Import actionmap="basic"/>
+    <Import actionmap="common_free_camera"/>
+
+    <Binding input="pad:a" action="press" signal="defend_QT_A"/>
+    <Binding input="pad:b" action="press" signal="defend_QT_B"/>
+    <Binding input="pad:x" action="press" signal="defend_QT_X"/>
+    <Binding input="pad:y" action="press" signal="defend_QT_Y"/>
+    <Binding input="pad:right_trigger"  action="press" signal="defend_QT_RT"/>
+    <Binding input="pad:left_trigger"   action="press" signal="defend_QT_LT"/>
+    <Binding input="pad:right_shoulder" action="press" signal="defend_QT_RB"/>
+    <Binding input="pad:left_shoulder"  action="press" signal="defend_QT_LB"/>
+  </ActionMap>
+
+  <!--###################################-->
+  <!--#         Poker Action Map        #-->
+  <!--###################################-->
+  <ActionMap name="poker_exotic_gameplay">
+
+	<Import actionmap="common_system"/>
+	<Import actionmap="narrative_interact"/>
+    <Import actionmap="basic"/>
+    <Import actionmap="system"/>
+
+    <Import actionmap="common_use_remap" optional=""/>
+	<Import actionmap="common_move_remap" optional=""/>
+	<Import actionmap="common_heal_remap" optional=""/>
+    <Import actionmap="common_weapons_remap" optional=""/>
+    <Import actionmap="common_singleplayer_remap" optional=""/>
+    <Import actionmap="common_map_remap" optional=""/>
+
+  </ActionMap>
+
+    <!--##########################-->
+    <!--#   Zipline Action Map   #-->
+    <!--##########################-->
+    <ActionMap name="ziplining">
+        <Import actionmap="basic"/>
+        <Import actionmap="gameplay"/>
+        <Import actionmap="look"/>
+        <Import actionmap="system"/>
+		<Import actionmap="common_ziplining"/>
+    </ActionMap>
+
+  <!--##########################-->
+  <!--#  Takedown Action Map   #-->
+  <!--##########################-->
+
+  <ActionMap name="takedown">
+    <Import actionmap="basic"/>
+    <Import actionmap="gameplay"/>
+    <Import actionmap="look"/>
+    <Import actionmap="system"/>
+    <Import actionmap="common_takedown"/>
+</ActionMap>
+
+    <ActionMap name="monocular" >
+        <Import actionmap="gameplay"/>
+        <MaskOut signal="jump"/>
+        <MaskOut signal="select_next_throwable"/>
+		<Import actionmap="common_map_remap" optional=""/>
+
+        <CompoundInput name="zoom" device="pad">
+            <Input input="right_trigger" axis="0"/>
+            <Input input="left_trigger" axis="0" invert="1"/>
+        </CompoundInput>
+        <CurveFilter input="pad:zoom" sensitivity="1" maxOutput="1" curve="weapons:AimCurves/GenericInputSmoothCurve" />
+
+        <Binding input="pad:zoom" action="update" signal="Zoom"/>
+        <Binding input="mouse:wheel" action="update" signal="Zoom"/>
+        <Binding input="pad:x" action="press" signal="callAirStrike"/>
+        <Binding input="pad:up" action="press" signal="toggle_monocular"/>
+            <NoResend input="pad:up"/>
+       	<Binding input="pad:right_shoulder"  action="press" signal="TakePicture"/>
+	    <NoResend input="pad:b"/>
+        <Binding input="mouse:lb"  action="press" signal="TakePicture"/>
+	    <NoResend input="mouse:lb"/>
+
+      <Binding input="kb:escape" action="press" signal="show_pausemenu_fork"/>
+      <NoResend input="kb:escape"/>
+		  <Binding input="pad:start" action="press" signal="show_pausemenu_fork"/>
+			<NoResend input="pad:start"/>
+      <Binding input="pad:back" action="press" signal="show_map"/>
+      <NoResend input="pad:back"/>
+      <Binding input="kb:m" action="press" signal="show_map"/>
+      <NoResend input="kb:m"/>
+
+    </ActionMap>
+
+    <ActionMap name="monocular_exoticgameplay" >
+        <Import actionmap="look"/>
+        <Import actionmap="basic"/>
+		<Import actionmap="common_map_remap" optional=""/>
+
+        <CompoundInput name="zoom" device="pad">
+            <Input input="right_trigger" axis="0"/>
+            <Input input="left_trigger" axis="0" invert="1"/>
+        </CompoundInput>
+        <CurveFilter input="pad:zoom" sensitivity="1" maxOutput="1" curve="weapons:AimCurves/GenericInputSmoothCurve" />
+
+        <Binding input="pad:zoom" action="update" signal="Zoom"/>
+        <Binding input="mouse:wheel" action="update" signal="Zoom"/>
+        <Binding input="pad:right_shoulder"  action="press" signal="TakePicture"/>
+        <Binding input="mouse:lb"  action="press" signal="TakePicture"/>
+	    <NoResend input="mouse:lb"/>
+
+	      <Binding input="kb:escape" action="press" signal="show_pausemenu_fork"/>
+	      <NoResend input="kb:escape"/>
+			  <Binding input="pad:start" action="press" signal="show_pausemenu_fork"/>
+				<NoResend input="pad:start"/>
+	      <Binding input="pad:back" action="press" signal="show_map"/>
+	      <NoResend input="pad:back"/>
+	      <Binding input="kb:m" action="press" signal="show_map"/>
+	      <NoResend input="kb:m"/>
+
+    </ActionMap>
+
+
+
+	<!--############################-->
+    <!--#    No Jump Action Map    #-->
+    <!--############################-->
+	<ActionMap name="no_jump_gameplay" >
+		<Import actionmap="default"/>
+
+		<MaskOut signal="jump"/>
+    </ActionMap>
+
+	<!--############################-->
+    <!--#    No Sprint No Jump Action Map    #-->
+    <!--############################-->
+	<ActionMap name="no_sprint_no_jump_gameplay" >
+		<Import actionmap="default"/>
+
+		<MaskOut signal="jump"/>
+		<MaskOut signal="sprint"/>
+		<MaskOut signal="lock_sprint"/>
+		<MaskOut signal="select_weapon_slot0"/>
+		<MaskOut signal="select_weapon_slot1"/>
+		<MaskOut signal="select_weapon_slot2"/>
+		<MaskOut signal="select_weapon_slot3"/>
+		<MaskOut signal="console_char_+"/>
+		<MaskOut signal="console_char_-"/>
+		<MaskOut signal="select_last_weapon"/>
+
+    </ActionMap>
+
+	<!--############################-->
+    <!--#    No Sprint Action Map    #-->
+    <!--############################-->
+	<ActionMap name="no_sprint_gameplay" >
+		<Import actionmap="default"/>
+
+		<MaskOut signal="sprint"/>
+		<MaskOut signal="lock_sprint"/>
+    </ActionMap>
+
+
+	<!--############################-->
+    <!--#  1st TakeDown Action Map #-->
+    <!--############################-->
+	<ActionMap name="firstTakeDown" >
+		<Import actionmap="default"/>
+
+		<Binding input="pad:right_thumb_push"	action="press"	signal="firstTakeDown"/>
+		<MaskOut signal="jump"/>
+		<MaskOut signal="sprint"/>
+		<MaskOut signal="lock_sprint"/>
+    </ActionMap>
+
+	<!--############################-->
+    <!--# Tablet (iPad) Action Map #-->
+    <!--############################-->
+	<ActionMap name="tablet" >
+		<Import actionmap="default"/>
+
+		<MaskOut signal="jump"/>
+		<MaskOut signal="crouch"/>
+		<MaskOut signal="open_inventory"/>
+
+		<Binding input="pad:b"		action="press" 		signal="tablet_skip"/>
+		<Binding input="kb:c" 		action="press"		signal="tablet_skip"/>
+    </ActionMap>
+
+    <ActionMap name="ied" >
+        <Import actionmap="basic"/>
+        <Import actionmap="gameplay"/>
+		<Import actionmap="weapons"/>
+        <Import actionmap="common_ied"/>
+        <Import actionmap="system"/>
+    </ActionMap>
+
+    <ActionMap name="mine" >
+        <Import actionmap="basic"/>
+        <Import actionmap="gameplay"/>
+		<Import actionmap="weapons"/>
+        <Import actionmap="common_mine"/>
+        <Import actionmap="system"/>
+    </ActionMap>
+
+    <ActionMap name="ied_in_vehicle">
+        <Import actionmap="passenger"/>
+	</ActionMap>
+
+    <ActionMap name="mortar" >
+
+        <Import actionmap="default"/>
+        <Import actionmap="common_mortar"/>
+        <Import actionmap="system"/>
+
+    </ActionMap>
+
+    <ActionMap name="mapcompass" >
+
+
+		<Import actionmap="weapons"/>
+        <Import actionmap="common_mapcompass"/>
+
+      <Binding input="pad:left"                 action="press"   signal="toggle_left"/>
+      <Binding input="pad:right"                action="press"   signal="toggle_right"/>
+      <Binding input="pad:left_thumb_leftright" action="press"   signal="right_thumb_leftright"/>
+      <Binding input="pad:right_thumb_leftright"    action="press"   signal="right_thumb_leftright"/>
+      <Binding input="pad:a"                    action="press"   signal="mission_selected"/>
+      <NoResend input="pad:a"/>
+      <Binding input="pad:b"                    action="press"   signal="toggle_gadget"/>
+      <NoResend input="pad:b"/>
+      <NoResend input="pad:back"/>
+
+
+      <!-- Map navigation *** KeyBoard *** -->
+
+      <Binding input="kb:up"                    action="press"   signal="domino_navigate_map"/>
+      <Binding input="kb:down"                  action="press"   signal="domino_navigate_map"/>
+      <Binding input="kb:left"                  action="press"   signal="domino_navigate_map"/>
+      <Binding input="kb:right"                 action="press"   signal="domino_navigate_map"/>
+
+
+      <Binding input="kb:5"                    action="press"   signal="toggle_gadget"/>
+      <NoResend input="kb:5"/>
+
+    </ActionMap>
+
+    <ActionMap name="gliderbackpack" resendOnChange="0">
+
+	    <Import actionmap="default"/>
+      <Import actionmap="common_gliderbackpack"/>
+
+    </ActionMap>
+
+    <ActionMap name="paragliderdriving" resendOnChange="0">
+			<Import actionmap="in_vehicle"/>
+			<Import actionmap="kb_move"/>
+			<Import actionmap="common_paragliderdriving"/>
+			<Import actionmap="system"/>
+
+      <!--
+      <Binding input="pad:right_shoulder" action="press" signal="throw_grenade_paraglider"/>
+      <Binding input="kb:q" action="press" signal="throw_grenade_paraglider"/>
+      -->
+
+			<Binding input="pad:right_thumb_push" action="press" signal="glider_takedown"/>
+      <Binding input="mouse:mb" action="press" signal="glider_takedown"/>
+    </ActionMap>
+
+    <ActionMap name="map_driving_paraglider" >
+    	<Import actionmap="common_reload_remap" optional=""/>
+        <Import actionmap="paragliderdriving"/>
+        <Binding input="kb:r" action="press"   signal="flipside"/>
+		<Binding input="pad:x" action="release"   signal="flipside"/>
+		<Binding input="pad:x" action="hold"   signal="exitvehicle"/>
+    </ActionMap>
+
+    <ActionMap name="vehicle_transitions" >
+
+		<Import actionmap="basic"/>
+        <Import actionmap="common_vehicle_transitions"/>
+        <Import actionmap="system"/>
+
+    </ActionMap>
+
+    <ActionMap name="using_mounted_weapon" >
+
+		<Import actionmap="basic"/>
+		<Import actionmap="weapons"/>
+        <Import actionmap="common_using_mounted_weapon"/>
+        <Import actionmap="system"/>
+		<Import actionmap="common_singleplayer_remap" optional=""/>
+
+        <Binding input="pad:down"  action="release" signal="use_recipe_a"/>
+      <Binding input="pad:left"  action="release" signal="use_recipe_b"/>
+
+      <Binding input="kb:7"  action="release" signal="use_recipe_a"/>
+      <Binding input="kb:8"  action="release" signal="use_recipe_b"/>
+      <!-- Obsolete? <Binding input="kb:7"  action="release" signal="use_recipe_c"/> -->
+      <!-- Obsolete? <Binding input="kb:8"  action="release" signal="use_recipe_d"/> -->
+
+    </ActionMap>
+
+    <ActionMap name="healPlayer" >
+
+		<Import actionmap="basic"/>
+        <Import actionmap="common_healPlayer"/>
+        <Import actionmap="system"/>
+
+    </ActionMap>
+
+    <ActionMap name="pausemenu" resendOnChange="0">
+
+        <Import actionmap="showconsole"/>
+        <Import actionmap="common_pausemenu"/>
+        <Import actionmap="system"/>
+
+    </ActionMap>
+
+    <ActionMap name="pausemenu_tutorial" resendOnChange="0">
+
+        <Import actionmap="showconsole"/>
+        <Import actionmap="common_pausemenu"/>
+        <Import actionmap="system"/>
+
+        <MaskOut signal="hide_pause"/>
+        <MaskOut signal="hide_map"/>
+
+    </ActionMap>
+
+    <ActionMap name="initialScreens" resendOnChange="0">
+        <Import actionmap="common_initialScreens"/>
+        <Import actionmap="system"/>
+
+
+	<Binding input="kb:space" action="press" signal="skip_initial_screen"/>
+    <NoResend input="kb:space"/>
+    <Binding input="pad:a" action="press" signal="skip_initial_screen"/>
+    <NoResend input="pad:a"/>
+	<Binding input="pad:start" action="press" signal="initialScreen_pressStart"/>
+    <NoResend input="pad:start"/>
+	<Binding input="kb:return" action="press" signal="initialScreen_pressStart"/>
+	<NoResend input="kb:return"/>
+    </ActionMap>
+
+    <ActionMap name="emptyactionmap" resendOnChange="0">
+
+        <Import actionmap="common_emptyactionmap"/>
+        <Import actionmap="system"/>
+
+    </ActionMap>
+
+    <ActionMap name="machete_finish" >
+
+        <Import actionmap="common_machete_finish"/>
+		<Import actionmap="basic"/>
+        <Import actionmap="system"/>
+
+    </ActionMap>
+
+    <ActionMap name="briefinginteraction" >
+				<Import actionmap="basic"/>
+        <Import actionmap="look"/>
+        <Import actionmap="common_briefinginteraction"/>
+        <Import actionmap="system"/>
+    </ActionMap>
+
+    <ActionMap name="briefing" >
+				<Import actionmap="briefinginteraction"/>
+				<Import actionmap="move"/>
+        <Import actionmap="common_briefing"/>
+        <Import actionmap="system"/>
+        <NoResend input="pad:back"/>
+        <NoResend input="kb:5"/>
+    </ActionMap>
+
+    <ActionMap name="map_briefing">
+    		<Import actionmap="common_reload_remap" optional=""/>
+        <Import actionmap="briefing"/>
+        <Binding input="kb:r" action="press"   signal="flipside"/>
+				<Binding input="pad:x" action="press"   signal="flipside"/>
+    </ActionMap>
+
+   	<ActionMap name="briefing_no_map" >
+				<Import actionmap="look"/>
+				<Import actionmap="move"/>
+        <Import actionmap="basic"/>
+        <Import actionmap="common_interaction"/>
+    </ActionMap>
+
+    <ActionMap name="dominoinputlistener" >
+				<Import actionmap="basic"/>
+				<Import actionmap="move"/>
+        <Import actionmap="common_dominoinputlistener"/>
+        <Import actionmap="system"/>
+    </ActionMap>
+
+    <ActionMap name="watch" >
+
+		<Import actionmap="common_basic"/>
+		<Import actionmap="weapons"/>
+        <Import actionmap="common_watch"/>
+        <Import actionmap="system"/>
+
+    </ActionMap>
+
+    <ActionMap name="magma_dpad" >
+
+        <Import actionmap="common_magma_dpad"/>
+        <Import actionmap="system"/>
+
+    </ActionMap>
+
+    <ActionMap name="scry" >
+		<Import actionmap="common_scry_alwaysactive"/>
+        <Import actionmap="common_scry"/>
+        <Import actionmap="system"/>
+
+    </ActionMap>
+
+    <ActionMap name="cinematic_look" >
+
+      <Import actionmap="common_look"/>
+      <Import actionmap="system"/>
+      <Import actionmap="basic"/>
+
+      <PadFilter name="right_thumb" device="pad" padAccelerationBoostAmplitude="0" >
+        <Binding input="right_thumb_leftright" axis="0" sensitivity="1.0"/>
+        <Binding input="right_thumb_updown" axis="1" sensitivity="1.0"/>
+      </PadFilter>
+      <Binding input="pad:right_thumb" action="update" signal="look"/>
+
+    </ActionMap>
+
+    <ActionMap name="narrative_weaponsafe" >
+      <Import actionmap="basic"/>
+      <Import actionmap="common_briefinginteraction"/>
+      <Import actionmap="system"/>
+      <Import actionmap="look"/>
+      <Import actionmap="move"/>
+    </ActionMap>
+
+  <ActionMap name="villager_zone" >
+    <Import actionmap="basic"/>
+    <Import actionmap="common_briefinginteraction"/>
+    <Import actionmap="common_weapons_remap" optional=""/>
+    <Import actionmap="system"/>
+    <Import actionmap="look"/>
+    <Import actionmap="move"/>
+	<Import actionmap="weapon_select_sp"/>
+
+    <Binding input="pad:a"		action="press" 		signal="jump"/>
+    <Binding input="pad:b"		action="press" 		signal="crouch"/>
+    <Binding input="pad:up"     action="press"		signal="toggle_monocular"/>
+
+    <Binding input="pad:left_shoulder"		action="press"	 signal="open_inventory"/>
+    <Binding input="pad:left_shoulder" 		action="release" signal="close_inventory"/>
+    <Binding input="pad:y"                action="click"   signal="select_last_weapon"/>
+    <Binding input="kb:z" action="press" signal="toggle_monocular"/>
+
+    <Binding input="kb:space" action="press" signal="jump"/>
+    <Binding input="kb:c" action="press" signal="crouch"/>
+
+</ActionMap>
+
+  <ActionMap name="no_weapon_but_rock" >
+    <Import actionmap="basic"/>
+    <Import actionmap="common_briefinginteraction"/>
+    <Import actionmap="system"/>
+    <Import actionmap="look"/>
+    <Import actionmap="move"/>
+	<Import actionmap="common_move_remap" optional="" />
+	<Import actionmap="common_weapons_remap" optional="" />
+	<Import actionmap="common_singleplayer_remap" optional=""/>
+
+    <Binding input="pad:a"				action="press"		signal="jump"/>
+    <Binding input="pad:b"				action="press"		signal="crouch"/>
+	<Binding input="pad:right"  		action="press"		signal="throw_rock"/>
+	<Binding input="pad:right"			action="release"	signal="release_grenade"/>
+	<Binding input="pad:up"     		action="press"		signal="toggle_monocular"/>
+	<Binding input="pad:left_shoulder" 	action="release"	signal="close_inventory"/>
+
+    <Binding input="kb:space"			action="press"		signal="jump"/>
+    <Binding input="kb:c" 				action="press"		signal="crouch"/>
+	<Binding input="kb:t"				action="press"		signal="throw_rock"/>
+	<Binding input="kb:t"				action="release"	signal="release_grenade"/>
+
+	<!-- Put this here just in case common_weapons isn't included and the action map switches while the weapon wheel is up. -->
+	<Binding input="kb:x" action="release" signal="close_inventory"/>
+	<Binding input="kb:1" action="release" signal="close_inventory"/>
+	<Binding input="kb:2" action="release" signal="close_inventory"/>
+	<Binding input="kb:3" action="release" signal="close_inventory"/>
+	<Binding input="kb:4" action="release" signal="close_inventory"/>
+	<Binding input="kb:5" action="release" signal="close_inventory"/>
+	<Binding input="kb:6" action="release" signal="close_inventory"/>
+	<Binding input="kb:9" action="release" signal="close_inventory"/>
+	<Binding input="kb:0" action="release" signal="close_inventory"/>
+  </ActionMap>
+
+    <ActionMap name="narrative_dialog" >
+      <Import actionmap="basic"/>
+      <Import actionmap="common_briefinginteraction"/>
+      <Import actionmap="system"/>
+      <Import actionmap="look"/>
+      <Import actionmap="move"/>
+
+      <Binding input="pad:a" action="press" signal="domino_dialog_yes" />
+	  <Binding input="pad:b" action="press" signal="domino_dialog_no" />
+	  <Binding input="pad:x" action="press" signal="domino_dialog_mission" />
+	  <Binding input="pad:y" action="press" signal="domino_dialog_training" />
+
+    </ActionMap>
+
+    <ActionMap name="narrative_locked" >
+    	<Import actionmap="basic"/>
+    	<Import actionmap="system"/>
+    </ActionMap>
+
+    <ActionMap name="narrative_briefingmap" resendOnChange="0">
+      <Import actionmap="basic"/>
+      <Import actionmap="system"/>
+
+      <!-- Map navigation *** GamePad *** -->
+
+      <Binding input="pad:up"                   action="press"   signal="domino_navigate_map"/>
+      <Binding input="pad:down"                 action="press"   signal="domino_navigate_map"/>
+      <Binding input="pad:left"                 action="press"   signal="toggle_left"/>
+      <Binding input="pad:right"                action="press"   signal="toggle_right"/>
+      <Binding input="pad:left_thumb_leftright" action="press"   signal="right_thumb_leftright"/>
+      <Binding input="pad:right_thumb_leftright"    action="press"   signal="right_thumb_leftright"/>
+      <Binding input="pad:a"                    action="press"   signal="mission_selected"/>
+			<NoResend input="pad:a"/>
+      <Binding input="pad:b"                    action="press"   signal="domino_select_map"/>
+			<NoResend input="pad:b"/>
+
+      <!-- Map navigation *** KeyBoard *** -->
+
+      <Binding input="kb:up"                    action="press"   signal="domino_navigate_map"/>
+        <Binding input="kb:down"                  action="press"   signal="domino_navigate_map"/>
+        <Binding input="kb:left"                  action="press"   signal="domino_navigate_map"/>
+        <Binding input="kb:right"                 action="press"   signal="domino_navigate_map"/>
+        <Binding input="kb:return"                action="press"   signal="domino_select_map"/>
+        <NoResend input="kb:return"/>
+
+      </ActionMap>
+
+    <ActionMap name="narrative_Skip" >
+      <Import actionmap="basic"/>
+      <Import actionmap="system"/>
+      <Binding input="pad:a" action="press" signal="skip" />
+    </ActionMap>
+
+    <ActionMap name="narrative_InteractiveSETest" >
+      <Import actionmap="look"/>
+      <Import actionmap="basic"/>
+      <Import actionmap="system"/>
+      <Binding input="pad:a" action="press" signal="interact" />
+      <Binding input="pad:left_thumb_leftright" action="press"   signal="move"/>
+    </ActionMap>
+
+    <ActionMap name="intoxicated" >
+		<Import actionmap="basic"/>
+		<Import actionmap="common_free_camera"/>
+        <Import actionmap="gameplay"/>
+        <MaskOut signal="jump"/>
+        <Binding input="pad:right_thumb"   action="update"  signal="intoxicated_RS"/>
+        <Binding input="pad:left_thumb"    action="update"  signal="intoxicated_LS"/>
+        <CurveFilter input="pad:zoom" sensitivity="1" maxOutput="1" curve="weapons:AimCurves/GenericInputSmoothCurve" />
+
+        <!-- Fake a use interact with a A button during a certain gameplay. -->
+        <Binding input="pad:x" action="hold" signal="exotic_use"/>
+        <Binding input="kb:e"  action="hold" signal="exotic_use"/>
+
+    </ActionMap>
+
+    <ActionMap name="intoxicated_nomove" >
+		<Import actionmap="basic"/>
+		<Import actionmap="common_free_camera"/>
+        <Import actionmap="look"/>
+		<MaskOut signal="jump"/>
+		<MaskOut signal="crouch"/>
+        <Binding input="pad:right_thumb"   action="update"  signal="intoxicated_RS"/>
+        <Binding input="pad:left_thumb"    action="update"  signal="intoxicated_LS"/>
+        <CurveFilter input="pad:zoom" sensitivity="1" maxOutput="1" curve="weapons:AimCurves/GenericInputSmoothCurve" />
+        <Binding input="pad:a"  action="press" signal="button_A"/>
+        <Binding input="pad:b"  action="press" signal="button_B"/>
+        <Binding input="pad:x"  action="press" signal="button_X"/>
+        <Binding input="pad:y"  action="press" signal="button_Y"/>
+    </ActionMap>
+
+
+  <ActionMap name="mountedshootinggallery_minigame" >
+    <Import actionmap="basic"/>
+    <Import actionmap="system"/>
+    <Import actionmap="weapons"/>
+	<Import actionmap="common_heal_remap" optional=""/>
+
+    <MouseFilter input="mouse:move" curve="Weapons:AimCurves/Mouse_Curve" sensitivity="1.0" maxOutput="10" />
+    <Binding input="mouse:move" action="update" signal="look_mw"/>
+
+    <!--Gamepad-->
+    <PadFilter name="right_thumb" device="pad" padAccelerationBoostAmplitude="0">
+      <IronSightHelper>
+      </IronSightHelper>
+      <ShootCorrectionHelper/>
+      <Binding input="right_thumb_leftright" axis="0" sensitivity="1.0" curve="Weapons:AimCurves/Pad_LookLeftRight_MountedWeapon"/>
+      <Binding input="right_thumb_updown" axis="1" sensitivity="1.0" curve="Weapons:AimCurves/Pad_LookUpDown_MountedWeapon"/>
+    </PadFilter>
+    <Binding input="pad:right_thumb" action="update" signal="look_mw"/>
+
+    <Binding input="pad:y" action="press" signal="heal"/>
+	<Binding input="pad:y" action="release" signal="heal_release"/>
+    <Binding input="kb:q" action="press" signal="heal"/>
+	<Binding input="kb:q" action="release" signal="heal_release"/>
+
+    <!-- Binding input="pad:b" action="press" signal="quit_minigame"/ -->
+
+    <Binding input="pad:a" action="release" 	signal="interact_release_accept" secondary="1"/>
+    <Binding input="pad:a" action="hold" 		signal="interact_hold_accept" secondary="1"/>
+    <Binding input="pad:a" action="press" 		signal="interact_press_accept" secondary="1"/>
+
+    <Binding input="pad:b" action="release" 	signal="interact_release_cancel"/>
+    <Binding input="pad:b" action="hold" 		signal="interact_hold_cancel"/>
+    <Binding input="pad:b" action="press" 		signal="interact_press_cancel"/>
+
+	<!--Keyboard / mouse-->
+	<Binding input="mouse:lb" 		action="press" 		signal="interact_press_righttrigger"/>
+    <Binding input="mouse:lb" 		action="release" 	signal="interact_release_righttrigger"/>
+    <Binding input="mouse:lb" 		action="hold" 	    signal="interact_hold_righttrigger"/>
+
+	<Binding input="kb:return" 		action="release"  	signal="interact_release_accept" secondary="1"/>
+    <Binding input="kb:return" 		action="hold" 		signal="interact_hold_accept" secondary="1"/>
+    <Binding input="kb:return" 		action="press" 		signal="interact_press_accept" secondary="1"/>
+
+    <Binding input="kb:escape" 		action="release" 	signal="interact_release_cancel" secondary="1"/>
+    <Binding input="kb:escape" 		action="hold"  		signal="interact_hold_cancel" secondary="1"/>
+    <Binding input="kb:escape" 		action="press"		signal="interact_press_cancel" secondary="1"/>
+
+  </ActionMap>
+
+  <ActionMap name="shootinggallery_minigame" >
+    <Import actionmap="look"/>
+    <Import actionmap="basic"/>
+    <Import actionmap="system"/>
+    <Import actionmap="common_weapons"/>
+	<Import actionmap="weapon_select_sp"/>
+
+    <Binding input="kb:rshift" action="press" signal="hold_breath"/>
+    <Binding input="kb:rshift" action="release" signal="unhold_breath"/>
+    <Binding input="kb:lshift" action="press" signal="hold_breath"/>
+    <Binding input="kb:lshift" action="release" signal="unhold_breath"/>
+	<Binding input="mouse:wheel" action="update" signal="sniper_switch_fov" secondary="1"/>
+
+    <!--Gamepad-->
+    <Binding input="pad:right_thumb_push" action="press" signal="sniper_switch_fov"/>
+    <Binding input="pad:left_thumb_push" action="press" signal="hold_breath"/>
+    <Binding input="pad:left_thumb_push" action="release" signal="unhold_breath"/>
+
+    <!-- Binding input="pad:b" action="press" signal="quit_minigame"/ -->
+
+    <Binding input="pad:a" action="release" 	signal="interact_release_accept" secondary="1"/>
+    <Binding input="pad:a" action="hold" 		signal="interact_hold_accept" secondary="1"/>
+    <Binding input="pad:a" action="press" 		signal="interact_press_accept" secondary="1"/>
+
+    <Binding input="pad:b" action="release" 	signal="interact_release_cancel"/>
+    <Binding input="pad:b" action="hold" 		signal="interact_hold_cancel"/>
+    <Binding input="pad:b" action="press" 		signal="interact_press_cancel"/>
+
+	<!--Keyboard / mouse-->
+	<Binding input="mouse:lb" 		action="press" 		signal="interact_press_righttrigger"/>
+    <Binding input="mouse:lb" 		action="release" 	signal="interact_release_righttrigger"/>
+    <Binding input="mouse:lb" 		action="hold" 	    signal="interact_hold_righttrigger"/>
+
+	<Binding input="kb:return" 		action="release"  	signal="interact_release_accept" secondary="1"/>
+    <Binding input="kb:return" 		action="hold" 		signal="interact_hold_accept" secondary="1"/>
+    <Binding input="kb:return" 		action="press" 		signal="interact_press_accept" secondary="1"/>
+
+    <Binding input="kb:escape" 		action="release" 	signal="interact_release_cancel" secondary="1"/>
+    <Binding input="kb:escape" 		action="hold"  		signal="interact_hold_cancel" secondary="1"/>
+    <Binding input="kb:escape" 		action="press"		signal="interact_press_cancel" secondary="1"/>
+
+
+  </ActionMap>
+
+    <ActionMap name="snipingchallenge_minigame" >
+    <Import actionmap="look"/>
+    <Import actionmap="basic"/>
+    <Import actionmap="system"/>
+    <Import actionmap="common_weapons"/>
+	<Import actionmap="weapon_select_sp"/>
+    <MaskOut signal="startironsight"/><!--Faked by exoticgaemplay-->
+    <MaskOut signal="stopironsight"/><!--Faked by exoticgaemplay-->
+
+    <Binding input="pad:right_thumb_push" action="press" signal="sniper_switch_fov"/>
+	<Binding input="mouse:wheel" action="update" signal="sniper_switch_fov" secondary="1"/>
+
+    <Binding input="kb:rshift" action="press" signal="hold_breath"/>
+    <Binding input="kb:rshift" action="release" signal="unhold_breath"/>
+    <Binding input="kb:lshift" action="press" signal="hold_breath"/>
+    <Binding input="kb:lshift" action="release" signal="unhold_breath"/>
+
+    <!--Gamepad-->
+    <Binding input="pad:left_thumb_push" action="press" signal="hold_breath"/>
+    <Binding input="pad:left_thumb_push" action="release" signal="unhold_breath"/>
+
+  </ActionMap>
+
+    <ActionMap name="SE_M01B02_HealTutorial" >
+    	<Import actionmap="basic"/>
+    	<Import actionmap="system"/>
+      <Binding input="pad:y" action="hold" signal="healtutorial" />
+    </ActionMap>
+
+    <ActionMap name="SE_M01B02_CrouchTutorial" >
+      <Import actionmap="common_move"/>
+      <Import actionmap="common_interaction"/>
+      <Import actionmap="look"/>
+      <Import actionmap="basic"/>
+    	<Import actionmap="system"/>
+		<Import actionmap="common_heal_remap" optional=""/>
+      <MaskOut signal="jump"/>
+      <MaskOut signal="lock_sprint"/>
+
+        <Binding input="pad:x" 		action="hold" 		signal="use"/>
+        <Binding input="pad:x" 		action="press" 		signal="quickReload"/>
+        <Binding input="pad:x" 		action="release" 	signal="reload"/>
+        <Binding input="pad:y"      action="press"      signal="heal" />
+        <Binding input="pad:y"      action="release"    signal="heal_release" />
+
+        <Binding input="kb:q" action="press" signal="heal"/>
+        <Binding input="kb:q" action="release" signal="heal_release"/>
+
+        <Binding input="pad:b"		action="press" 		signal="crouch"/>
+        <Binding input="pad:right_trigger" action="update" signal="updateshooting"/>
+        <Binding input="pad:left_trigger" action="press" signal="startironsight"/>
+        <Binding input="pad:left_trigger" action="release" signal="stopironsight"/>
+	</ActionMap>
+
+	<ActionMap name="CIT_050_VaasBattle_SlowWalk" >
+
+			<Import actionmap="default"/>
+			<Import actionmap="common_heal_remap" optional=""/>
+
+            <Binding input="kb:q" action="press" signal="heal"/>
+			<Binding input="kb:q" action="release" signal="heal_release"/>
+            <Binding input="pad:y" action="press" signal="heal"/>
+            <Binding input="pad:y" action="release" signal="heal_release"/>
+
+			<PadFilter name="left_thumb" device="pad">
+				<Binding input="left_thumb_leftright" axis="1" sensitivity="0.1" curve="Player:MovementCurves/Movement_leftright"/>
+				<Binding input="left_thumb_updown" axis="0" sensitivity="0.2" curve="Player:MovementCurves/Movement_updown"/>
+			</PadFilter>
+			<Binding input="pad:left_thumb" action="update" signal="move"/>
+
+			<MaskOut signal="jump"/>
+			<MaskOut signal="sprint"/>
+			<MaskOut signal="lock_sprint"/>
+
+	</ActionMap>
+
+    <ActionMap name="PlayerStuck" >
+        <Import actionmap="basic"/>
+        <Import actionmap="system"/>
+        <Import actionmap="look"/>
+        <Import actionmap="weapons"/>
+	</ActionMap>
+  <ActionMap name="WorldMapActionMap" >
+	<Import actionmap="common_map_remap" optional=""/>
+    <Binding input="pad:back" action="press" signal="WorldMapPressed"/>
+	<Binding input="kb:m" action="press" signal="WorldMapPressed"/>
+  </ActionMap>
+
+    <ActionMap name="narrative_interact_qte" >
+    <Import actionmap="basic"/>
+    <Import actionmap="system"/>
+	<Import actionmap="narrative_interact"/>
+	<Import actionmap="common_weapons_remap" optional=""/>
+
+        <MaskOut signal="show_map"/>
+    </ActionMap>
+
+
+  <ActionMap name="narrative_interact" >
+    <Import actionmap="basic"/>
+    <Import actionmap="system"/>
+    <Import actionmap="common_gameplay_remap" optional=""/>
+	<Import actionmap="common_move_remap" optional=""/>
+	<Import actionmap="common_heal_remap" optional=""/>
+	<Import actionmap="common_use_remap" optional=""/>
+
+    <!--*** KeyBoard ***-->
+    <CompoundInput name="interact_update_leftthumbstick" device="kb">
+        <Input input="w" axis="1"/>
+        <Input input="a" axis="0" invert="1"/>
+        <Input input="s" axis="1" invert="1"/>
+        <Input input="d" axis="0"/>
+    </CompoundInput>
+
+	<CompoundInput name="moveleftright" device="kb">
+		<Input input="a" axis="0" invert="1"/>
+		<Input input="d" axis="0"/>
+	</CompoundInput>
+
+	<CompoundInput name="moveforwardback" device="kb">
+		<Input input="w" axis="0"/>
+		<Input input="s" axis="0" invert="1"/>
+	</CompoundInput>
+
+    <Binding input="kb:space" 		action="press"      signal="interact_press_a"/>
+    <Binding input="kb:space" 		action="release"    signal="interact_release_a"/>
+    <Binding input="kb:space" 		action="hold"       signal="interact_hold_a"/>
+
+    <Binding input="kb:c" 		action="press" 		signal="interact_press_b"/>
+    <Binding input="kb:c" 		action="release"    signal="interact_release_b"/>
+    <Binding input="kb:c" 		action="hold"       signal="interact_hold_b"/>
+
+    <Binding input="kb:return" 		action="release"  	signal="interact_release_accept" secondary="1"/>
+    <Binding input="kb:return" 		action="hold" 		signal="interact_hold_accept" secondary="1"/>
+    <Binding input="kb:return" 		action="press" 		signal="interact_press_accept" secondary="1"/>
+
+    <Binding input="kb:escape" 		action="release" 	signal="interact_release_cancel" secondary="1"/>
+    <Binding input="kb:escape" 		action="hold"  		signal="interact_hold_cancel" secondary="1"/>
+    <Binding input="kb:escape" 		action="press"		signal="interact_press_cancel" secondary="1"/>
+
+    <Binding input="kb:e" 		action="press" 		signal="interact_press_x"/>
+    <Binding input="kb:e" 		action="release"    signal="interact_release_x"/>
+    <Binding input="kb:e" 		action="hold"       signal="interact_hold_x"/>
+
+    <Binding input="kb:q" 		action="press" 		signal="interact_press_y"/>
+    <Binding input="kb:q" 		action="release"    signal="interact_release_y"/>
+    <Binding input="kb:q" 		action="hold"       signal="interact_hold_y"/>
+
+	<Binding input="kb:up"		action="press"   	signal="interact_press_dpadup"/>
+	<Binding input="kb:up"		action="release" 	signal="interact_release_dpadup"/>
+	<Binding input="kb:up"		action="hold" 	    signal="interact_hold_dpadup"/>
+	<Binding input="kb:down"	action="press"   	signal="interact_press_dpaddown"/>
+	<Binding input="kb:down"	action="release" 	signal="interact_release_dpaddown"/>
+	<Binding input="kb:down"	action="hold"   	signal="interact_hold_dpaddown"/>
+    <Binding input="kb:left"    action="press"   	signal="interact_press_dpadleft"/>
+	<Binding input="kb:left"    action="release" 	signal="interact_release_dpadleft"/>
+	<Binding input="kb:right"   action="press"   	signal="interact_press_dpadright"/>
+	<Binding input="kb:right"   action="release" 	signal="interact_release_dpadright"/>
+
+    <Binding input="mouse:rb" 		action="press" 		signal="interact_press_lefttrigger"/>
+    <Binding input="mouse:rb" 		action="release" 	signal="interact_release_lefttrigger"/>
+    <Binding input="mouse:rb" 		action="hold" 	    signal="interact_hold_lefttrigger"/>
+
+    <Binding input="mouse:lb" 		action="press" 		signal="interact_press_righttrigger"/>
+    <Binding input="mouse:lb" 		action="release" 	signal="interact_release_righttrigger"/>
+    <Binding input="mouse:lb" 		action="hold" 	    signal="interact_hold_righttrigger"/>
+
+    <Binding input="kb:1"      action="press"	signal="interact_press_leftshoulder"/>
+    <Binding input="kb:1"      action="hold"	signal="interact_hold_leftshoulder"/>
+    <Binding input="kb:1"      action="release"	signal="interact_release_leftshoulder"/>
+
+    <Binding input="mouse:mb"     action="press"	signal="interact_press_rightshoulder"/>
+    <Binding input="mouse:mb"     action="hold"		signal="interact_hold_rightshoulder"/>
+    <Binding input="mouse:mb"     action="release"	signal="interact_release_rightshoulder"/>
+
+	<Binding input="kb:moveleftright"			action="press"		signal="interact_update_leftthumbstickleftright"/>
+	<Binding input="kb:moveleftright"			action="release"	signal="interact_update_leftthumbstickleftright"/>
+	<Binding input="kb:moveforwardback"			action="press"		signal="interact_update_leftthumbstickupdown"/>
+	<Binding input="kb:moveforwardback"			action="release"	signal="interact_update_leftthumbstickupdown"/>
+
+    <!-- Left thumb push is sprint, so use the sprint key -->
+	<Binding input="kb:lshift" 		action="press" 		signal="interact_press_leftthumbstick"/>
+    <Binding input="kb:lshift" 		action="hold" 		signal="interact_hold_leftthumbstick"/>
+    <Binding input="kb:lshift" 		action="release" 	signal="interact_release_leftthumbstick"/>
+
+	<!-- Right thumb push is melee, so use the melee key -->
+	<Binding input="kb:f" 		action="press" 		signal="interact_press_rightthumbstick"/>
+    <Binding input="kb:f" 		action="hold" 		signal="interact_hold_rightthumbstick"/>
+    <Binding input="kb:f" 		action="release" 	signal="interact_release_rightthumbstick"/>
+
+    <!--*** Gamepad ***-->
+    <Binding input="pad:a" action="press" 		signal="interact_press_a" />
+    <Binding input="pad:a" action="hold" 		signal="interact_hold_a" />
+    <Binding input="pad:a" action="release" 	signal="interact_release_a" />
+
+    <Binding input="pad:b" action="press" 		signal="interact_press_b" />
+    <Binding input="pad:b" action="hold" 		signal="interact_hold_b" />
+    <Binding input="pad:b" action="release" 	signal="interact_release_b" />
+
+    <Binding input="pad:a" action="release" 	signal="interact_release_accept" secondary="1"/>
+    <Binding input="pad:a" action="hold" 		signal="interact_hold_accept" secondary="1"/>
+    <Binding input="pad:a" action="press" 		signal="interact_press_accept" secondary="1"/>
+
+    <Binding input="pad:b" action="release" 	signal="interact_release_cancel" secondary="1"/>
+    <Binding input="pad:b" action="hold" 		signal="interact_hold_cancel" secondary="1"/>
+    <Binding input="pad:b" action="press" 		signal="interact_press_cancel" secondary="1"/>
+
+    <Binding input="pad:x" action="press" 		signal="interact_press_x" />
+    <Binding input="pad:x" action="hold" 		signal="interact_hold_x" />
+    <Binding input="pad:x" action="release" 	signal="interact_release_x" />
+
+    <Binding input="pad:y" action="press" 		signal="interact_press_y" />
+    <Binding input="pad:y" action="hold" 		signal="interact_hold_y" />
+    <Binding input="pad:y" action="release" 	signal="interact_release_y" />
+
+    <Binding input="pad:left_thumb_leftright" 	action="update"     signal="interact_update_leftthumbstickleftright"/>
+    <Binding input="pad:left_thumb_updown" 		action="update"     signal="interact_update_leftthumbstickupdown"/>
+    <Binding input="pad:left_thumb" 		    action="update"     signal="interact_update_leftthumbstick"/>
+    <Binding input="pad:left_thumb_push" 		action="press" 		signal="interact_press_leftthumbstick"/>
+    <Binding input="pad:left_thumb_push" 		action="hold" 		signal="interact_hold_leftthumbstick"/>
+    <Binding input="pad:left_thumb_push" 		action="release" 	signal="interact_release_leftthumbstick"/>
+
+    <Binding input="pad:right_thumb_leftright"	action="update" 	signal="interact_update_rightthumbstickleftright"/>
+    <Binding input="pad:right_thumb_updown" 	action="update" 	signal="interact_update_rightthumbstickupdown"/>
+    <Binding input="pad:right_thumb"            action="update"     signal="interact_update_rightthumbstick"/>
+    <Binding input="pad:right_thumb"            action="update"     signal="look"/>
+    <Binding input="pad:right_thumb_push" 		action="press" 		signal="interact_press_rightthumbstick"/>
+    <Binding input="pad:right_thumb_push" 		action="hold" 		signal="interact_hold_rightthumbstick"/>
+    <Binding input="pad:right_thumb_push" 		action="release" 	signal="interact_release_rightthumbstick"/>
+
+    <Binding input="pad:left_trigger" 			action="update" 	signal="interact_update_lefttrigger"/>
+    <Binding input="pad:left_trigger" 			action="press" 		signal="interact_press_lefttrigger"/>
+    <Binding input="pad:left_trigger" 			action="hold" 		signal="interact_hold_lefttrigger"/>
+    <Binding input="pad:left_trigger" 			action="release" 	signal="interact_release_lefttrigger"/>
+
+    <Binding input="pad:right_trigger"			action="update" 	signal="interact_update_righttrigger"/>
+    <Binding input="pad:right_trigger" 			action="press" 		signal="interact_press_righttrigger"/>
+    <Binding input="pad:right_trigger" 			action="hold" 		signal="interact_hold_righttrigger"/>
+    <Binding input="pad:right_trigger" 			action="release" 	signal="interact_release_righttrigger"/>
+
+    <Binding input="pad:left_shoulder"			action="press"		signal="interact_press_leftshoulder"/>
+    <Binding input="pad:left_shoulder"			action="hold"		signal="interact_hold_leftshoulder"/>
+    <Binding input="pad:left_shoulder"			action="release"	signal="interact_release_leftshoulder"/>
+
+    <Binding input="pad:right_shoulder"			action="press"		signal="interact_press_rightshoulder"/>
+    <Binding input="pad:right_shoulder"			action="hold"		signal="interact_hold_rightshoulder"/>
+    <Binding input="pad:right_shoulder"			action="release"	signal="interact_release_rightshoulder"/>
+
+	<Binding input="pad:up"			action="press"   	signal="interact_press_dpadup"/>
+	<Binding input="pad:up"			action="release" 	signal="interact_release_dpadup"/>
+	<Binding input="pad:up"			action="hold" 	    signal="interact_hold_dpadup"/>
+	<Binding input="pad:down"		action="press"   	signal="interact_press_dpaddown"/>
+	<Binding input="pad:down"		action="release" 	signal="interact_release_dpaddown"/>
+	<Binding input="pad:down"		action="hold" 	    signal="interact_hold_dpaddown"/>
+	<Binding input="pad:left"		action="press"   	signal="interact_press_dpadleft"/>
+	<Binding input="pad:left"		action="release" 	signal="interact_release_dpadleft"/>
+	<Binding input="pad:right"      action="press"   	signal="interact_press_dpadright"/>
+	<Binding input="pad:right"      action="release" 	signal="interact_release_dpadright"/>
+
+	<Binding input="pad:back"   action="press"   	signal="interact_press_back"/>
+	<Binding input="pad:back"   action="hold"   	signal="interact_hold_back"/>
+	<Binding input="pad:back"   action="release"    signal="interact_release_back"/>
+
+	<PadFilter name="right_thumb" device="pad" padAccelerationBoostAmplitude="0" >
+		<Binding input="right_thumb_leftright" axis="0" sensitivity="1.0" curve="FC3_ScriptedEvents:Cinema/PadFilter_Cinematic"/>
+		<Binding input="right_thumb_updown" axis="1" sensitivity="1.0" curve="FC3_ScriptedEvents:Cinema/PadFilter_Cinematic"/>
+    </PadFilter>
+
+    <PadFilter name="left_thumb" device="pad" padAccelerationBoostAmplitude="0" >
+		<Binding input="left_thumb_leftright" axis="0" sensitivity="1.0" curve="FC3_ScriptedEvents:Cinema/PadFilter_Cinematic"/>
+		<Binding input="left_thumb_updown" axis="1" sensitivity="1.0" curve="FC3_ScriptedEvents:Cinema/PadFilter_Cinematic"/>
+    </PadFilter>
+
+    <MouseFilter input="mouse:move" curve="Weapons:AimCurves/Mouse_Curve" sensitivity="1.0" maxOutput="1" />
+	<Binding input="mouse:move" action="update" signal="look"/>
+    <Binding input="mouse:move" action="update" signal="interact_update_rightthumbstick"  secondary="1"/>
+
+  </ActionMap>
+</Root>

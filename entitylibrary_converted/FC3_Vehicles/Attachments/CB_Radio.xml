@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7655454066881</field>
+  <field name="Name" type="String">Attachments/CB_Radio</field>
+  <object name="Entity">
+    <field name="hidName" type="String">FC3_Vehicles:Attachments/CB_Radio</field>
+    <field name="disEntityId" type="Int64">14924</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">3</field>
+    <field name="hidPos" type="Vector3">-129,-129,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">-129,-129,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileName" type="String">graphics\__fc3_graphics\_common\vehicles\land\attachments\cb_radio.xml</field>
+        <field name="fileName" type="Hash64">6B6BBA6B287351AD</field>
+        <field name="hidDescriptor" type="Rml">
+          <rml>
+            <hidDescriptor>
+              <component class="GraphicComponent" version="2" detail="0">
+                <object index="0" boneName="CB_Radio_LOD0" bboxMin="-0.222161,-0.079841,-0.0801997" bboxMax="0.111305,0.0708373,0.0717353" />
+                <resource fileName="graphics\__FC3_Graphics\_Common\Vehicles\Land\Attachments\CB_Radio.xbg" bboxMin="-0.222161,-0.079841,-0.0801997" bboxMax="0.111305,0.0708373,0.0717353" />
+                <skeleton_reference_list>
+                  <skeleton name="CB_Radio" index="0" pos="0,0,0" rot="1,-0,-0,-0" />
+                </skeleton_reference_list>
+                <material_reference_list>
+                  <material name="CB_Radio_Metal" shader_name="Generic_FC3" ref_shader_id="fmadore-M-2011060933928260" />
+                  <material name="CB_Radio_Metal" shader_name="Generic_FC3" ref_shader_id="fmadore-M-2011060933928260" />
+                </material_reference_list>
+              </component>
+            </hidDescriptor>
+          </rml>
+        </field>
+        <field name="hidCrcCheck" type="Hash32">FFFFFFFF</field>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bCastShadow" type="Boolean">True</field>
+        <field name="bReceiveShadow" type="Boolean">True</field>
+        <field name="bCastAmbientShadow" type="Boolean">True</field>
+        <field name="olgLightGroup" type="Int32">129</field>
+        <field name="bShowInReflection" type="Boolean">True</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bExcludeFromPortalSystem" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="clrHighLightColor" type="Vector3">1,0.903545,0.604147</field>
+        <field name="clrHighLightColor2" type="Vector3">0,0,0</field>
+        <field name="fHighLightSpeed" type="Float32">1</field>
+        <field name="bLodDitheringEnable" type="Boolean">True</field>
+        <field name="matIntuitionMaterialName" type="String"></field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field name="bAllowCullBySize" type="Boolean">True</field>
+        <field name="bMotionBlurExclusion" type="Boolean">True</field>
+        <field name="bOverrideLODSphere" type="Boolean">False</field>
+        <field name="fLODSphereRadius" type="Float32">0</field>
+        <field name="vectorAdditionalAABBDimensionForSkin" type="Vector3">1,1,0</field>
+        <field name="text_currentSkin" type="String"></field>
+        <field name="currentSkin" type="Hash32">FFFFFFFF</field>
+        <field name="bUseCurrentSkin" type="Boolean">False</field>
+        <object name="MaterialLightSwitch">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">fmadore-m-2011060933928260</field>
+              <field name="disSlotId" type="Hash32">2C177A4B</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="MaterialOverrides">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">fmadore-m-2011060933928260</field>
+              <field name="disSlotId" type="Hash32">2C177A4B</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="SkinList">
+          <object name="Skin">
+            <field name="text_name" type="String"></field>
+            <field name="name" type="Hash32">FFFFFFFF</field>
+            <field name="locSkinNameId" type="Int32">-1</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">0</field>
+          <field name="text_fileModel" type="String">graphics\__fc3_graphics\_common\vehicles\land\attachments\cb_radio.xbg</field>
+          <field name="fileModel" type="Hash64">64322A6B287351AD</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">CB_Radio</field>
+          <field name="hidNodeName" type="Hash32">0BD90703</field>
+          <field name="text_hidNodeNameLOD0" type="String">CB_Radio_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">DF72ADCF</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">1</field>
+          <field name="text_fileModel" type="String"></field>
+          <field name="fileModel" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">CB_Radio</field>
+          <field name="hidNodeName" type="Hash32">0BD90703</field>
+          <field name="text_hidNodeNameLOD0" type="String">CB_Radio_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">DF72ADCF</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+      </object>
+      <object name="CSoundComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="sndptSoundPoint" type="BinHex">FFFFFFFF00000000</field>
+        <field name="bStopSoundOnStateChange" type="Boolean">False</field>
+        <field name="bAlwaysUpdate" type="Boolean">False</field>
+      </object>
+      <object hash="DB997676">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="49BF3666" type="BinHex">00000000</field>
+        <field hash="E5761023" type="BinHex">0000000000000000</field>
+        <field hash="3AFF50FC" type="BinHex">00</field>
+        <field hash="385FC948" type="BinHex">D94C0700</field>
+        <field hash="F1094E9D" type="BinHex">3078303030373443433400</field>
+        <field hash="B2F5C233" type="BinHex">3078303030373443433500</field>
+        <field hash="B1637DFC" type="BinHex">0C000000</field>
+      </object>
+    </object>
+  </object>
+</object>

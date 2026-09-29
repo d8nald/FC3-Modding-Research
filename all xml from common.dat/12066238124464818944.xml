@@ -1,0 +1,206 @@
+<graphickit id="12066238124464818944" name="Villager_Men" unique="0" kittobone="1">
+	<slot name="Head" position="0" bonename="Head">
+		<partdatabase name="" weight="0">
+			<part name="NativeMan_Head02" ref="graphics\__FC3_Graphics\_Common\Characters\Locals\NativeMan_Head02.xml" mesh="NativeMan_Head02" weight="1" version="1" allowcullbysize="1">
+				<tag name="head01" type="3" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-m-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Native Woman Eye" id="slabreche-m-20110719115948">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Native_Body_01" id="slabreche-m-2011071854282475">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Native_Head_01_AsCopy" id="vfortin-M-2011110459040748">
+						<materialdatabase name="" weight="0">
+							<material id="slabreche-M-20110801120840" name="Native_Head_01 - Beard 01" weight="1" file="graphics\_materials\slabreche-M-20110801120840.material.xml" />
+							<material id="slabreche-M-20110801120932" name="Native_Head_01 - Beard 02" weight="1" file="graphics\_materials\slabreche-M-20110801120932.material.xml" />
+							<material id="slabreche-M-20110801130636" name="Native_Head_01 - Beard 03" weight="1" file="graphics\_materials\slabreche-M-20110801130636.material.xml" />
+							<material id="vfortin-M-2012071651102189" name="Native_Head_01_AsCopy" weight="1" file="graphics\_materials\vfortin-M-2012071651102189.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="NativeMan_Head02" ref="graphics\__FC3_Graphics\_Common\Characters\Locals\NativeMan_Head02.xml" mesh="NativeMan_Head02" weight="1" version="1" allowcullbysize="1">
+				<tag name="head02" type="3" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-m-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Native Woman Eye" id="slabreche-m-20110719115948">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Native_Body_01" id="slabreche-m-2011071854282475">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Native_Head_01_AsCopy" id="vfortin-M-2011110459040748">
+						<materialdatabase name="" weight="0">
+							<material id="slabreche-M-20110801130636" name="Native_Head_01 - Beard 03" weight="1" file="graphics\_materials\slabreche-M-20110801130636.material.xml" />
+							<material id="slabreche-M-20110801120932" name="Native_Head_01 - Beard 02" weight="1" file="graphics\_materials\slabreche-M-20110801120932.material.xml" />
+							<material id="slabreche-M-20110801120840" name="Native_Head_01 - Beard 01" weight="1" file="graphics\_materials\slabreche-M-20110801120840.material.xml" />
+							<material id="vfortin-M-2012071651102189" name="Native_Head_01_AsCopy" weight="1" file="graphics\_materials\vfortin-M-2012071651102189.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="NativeMan_Head02" ref="graphics\__FC3_Graphics\_Common\Characters\Locals\NativeMan_Head02.xml" mesh="NativeMan_Head02" weight="1" version="1" allowcullbysize="1">
+				<tag name="head03" type="3" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-m-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Native Woman Eye" id="slabreche-m-20110719115948">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Native_Body_01" id="slabreche-m-2011071854282475">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Native_Head_01_AsCopy" id="vfortin-M-2011110459040748">
+						<materialdatabase name="" weight="0">
+							<material id="vfortin-M-2012071651102189" name="Native_Head_01_AsCopy" weight="1" file="graphics\_materials\vfortin-M-2012071651102189.material.xml" />
+							<material id="slabreche-M-20110801120840" name="Native_Head_01 - Beard 01" weight="1" file="graphics\_materials\slabreche-M-20110801120840.material.xml" />
+							<material id="slabreche-M-20110801120932" name="Native_Head_01 - Beard 02" weight="1" file="graphics\_materials\slabreche-M-20110801120932.material.xml" />
+							<material id="slabreche-M-20110801130636" name="Native_Head_01 - Beard 03" weight="1" file="graphics\_materials\slabreche-M-20110801130636.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Arms" position="1" bonename="Spine2">
+		<partdatabase name="" weight="0">
+			<part name="NativeMan_Arms01" ref="graphics\__FC3_Graphics\_Common\Characters\Locals\NativeMan_Arms01.xml" mesh="NativeMan_Arms01" weight="1" version="1" allowcullbysize="1">
+				<tag name="head01" type="4" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Native_Body_01" id="slabreche-m-2011071854282475">
+						<materialdatabase name="" weight="0">
+							<material id="slabreche-M-2011071854282475" name="Native_Body_01" weight="1" file="graphics\_materials\slabreche-M-2011071854282475.material.xml">
+								<tag name="skindark2" type="4" />
+								<tag name="skindark3" type="4" />
+								<tag name="skindark4" type="4" />
+							</material>
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Shirt" position="2" bonename="Spine1">
+		<partdatabase name="" weight="0">
+			<part name="NativeMan_Shirt01" ref="graphics\__FC3_Graphics\_Common\Characters\Locals\NativeMan_Shirt01.xml" mesh="NativeMan_Shirt01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Rebels_Shirt_01" id="slabreche-m-2011041428698650">
+						<materialdatabase name="" weight="0">
+							<material id="slabreche-M-20110722152128" name="Villager_Shirt_01" weight="1" file="graphics\_materials\slabreche-M-20110722152128.material.xml" />
+							<material id="slabreche-M-20110722152320" name="Villager_Shirt_02" weight="1" file="graphics\_materials\slabreche-M-20110722152320.material.xml" />
+							<material id="slabreche-M-20110722152607" name="Villager_Shirt_03" weight="1" file="graphics\_materials\slabreche-M-20110722152607.material.xml" />
+							<material id="slabreche-M-20110722153012" name="Villager_Shirt_04" weight="1" file="graphics\_materials\slabreche-M-20110722153012.material.xml" />
+							<material id="slabreche-M-20110725141032" name="Villager_Shirt_05" weight="1" file="graphics\_materials\slabreche-M-20110725141032.material.xml" />
+							<material id="cromagnoli-M-20120720152040" name="Villager_Shirt_09 - A" weight="1" file="graphics\_materials\cromagnoli-M-20120720152040.material.xml" />
+							<material id="cromagnoli-M-20120720152045" name="Villager_Shirt_09 - C" weight="1" file="graphics\_materials\cromagnoli-M-20120720152045.material.xml" />
+							<material id="cromagnoli-M-20120720152056" name="Villager_Shirt_09 - D" weight="1" file="graphics\_materials\cromagnoli-M-20120720152056.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="NativeMan_Shirt03" ref="graphics\__FC3_Graphics\_Common\Characters\Locals\NativeMan_Shirt03.xml" mesh="NativeMan_Shirt03" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Rebels_Shirt_02" id="slabreche-m-2011041450133314">
+						<materialdatabase name="" weight="0">
+							<material id="slabreche-M-20110722152128" name="Villager_Shirt_01" weight="1" file="graphics\_materials\slabreche-M-20110722152128.material.xml" />
+							<material id="slabreche-M-20110722152320" name="Villager_Shirt_02" weight="1" file="graphics\_materials\slabreche-M-20110722152320.material.xml" />
+							<material id="slabreche-M-20110722152607" name="Villager_Shirt_03" weight="1" file="graphics\_materials\slabreche-M-20110722152607.material.xml" />
+							<material id="slabreche-M-20110722153012" name="Villager_Shirt_04" weight="1" file="graphics\_materials\slabreche-M-20110722153012.material.xml" />
+							<material id="slabreche-M-20110725141032" name="Villager_Shirt_05" weight="1" file="graphics\_materials\slabreche-M-20110725141032.material.xml" />
+							<material id="cromagnoli-M-20120720152040" name="Villager_Shirt_09 - A" weight="1" file="graphics\_materials\cromagnoli-M-20120720152040.material.xml" />
+							<material id="cromagnoli-M-20120720152051" name="Villager_Shirt_09 - B" weight="1" file="graphics\_materials\cromagnoli-M-20120720152051.material.xml" />
+							<material id="cromagnoli-M-20120720152101" name="Villager_Shirt_09 - F" weight="1" file="graphics\_materials\cromagnoli-M-20120720152101.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Pants" position="3" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="Villager_Male_Pants_01" ref="graphics\__FC3_Graphics\_Common\Characters\Locals\Villager_Male_Pants_01.xml" mesh="Villager_Male_Pants_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="SV_Male_Shoes_01" id="slabreche-M-2012012740181205">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Material #131" id="slabreche-M-2012011958300332">
+						<materialdatabase name="" weight="0">
+							<material id="slabreche-M-2012011958300332" name="SV_Male_Pants_01" weight="1" file="graphics\_materials\slabreche-M-2012011958300332.material.xml" />
+							<material id="cromagnoli-M-20120314173025" name="SV_Male_Pants_03" weight="1" file="graphics\_materials\cromagnoli-M-20120314173025.material.xml" />
+							<material id="cromagnoli-M-20120314172941" name="SV_Male_Pants_02" weight="1" file="graphics\_materials\cromagnoli-M-20120314172941.material.xml" />
+							<material id="cromagnoli-M-20120614133409" name="SV_Male_Pants_04" weight="1" file="graphics\_materials\cromagnoli-M-20120614133409.material.xml" />
+							<material id="cromagnoli-M-20120720135329" name="SV_Male_Pants_05" weight="1" file="graphics\_materials\cromagnoli-M-20120720135329.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Hats" position="4" bonename="Head">
+		<partdatabase name="" weight="0">
+			<part name="NativeMan_Hat01" ref="graphics\__FC3_Graphics\_Common\Characters\Locals\NativeMan_Hat01.xml" mesh="NativeMan_Hat01" weight="2" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="villagerHair." id="cromagnoli-M-2011101361297292">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Natives_Hat_01" id="slabreche-m-2011072042685502">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="NativeMan_Hat02" ref="graphics\__FC3_Graphics\_Common\Characters\Locals\NativeMan_Hat02.xml" mesh="NativeMan_Hat02" weight="2" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="villagerHair." id="cromagnoli-M-2011101361297292">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebels_Hats_01" id="slabreche-m-2011041440486567">
+						<materialdatabase name="" weight="0">
+							<material id="slabreche-M-20110727141525" name="Villager_Cap_Hat_01" weight="1" file="graphics\_materials\slabreche-M-20110727141525.material.xml" />
+							<material id="slabreche-M-20110812090723" name="Villager_Cap_Hat_02" weight="1" file="graphics\_materials\slabreche-M-20110812090723.material.xml" />
+							<material id="slabreche-M-20110812091147" name="Villager_Cap_Hat_03" weight="1" file="graphics\_materials\slabreche-M-20110812091147.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="NativeMan_noHat" ref="graphics\__FC3_Graphics\_Common\Characters\Locals\NativeMan_noHat.xml" mesh="NativeMan_noHat" weight="2" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="villagerHair." id="cromagnoli-M-2011101361297292">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="NativeMan_Hat04" ref="graphics\__FC3_Graphics\_Common\Characters\Locals\NativeMan_Hat04.xml" mesh="NativeMan_Hat04" weight="2" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Rebels_Hats_01" id="slabreche-m-2011041440486567">
+						<materialdatabase name="" weight="0">
+							<material id="slabreche-M-20110727141525" name="Villager_Cap_Hat_01" weight="1" file="graphics\_materials\slabreche-M-20110727141525.material.xml" />
+							<material id="slabreche-M-20110812090723" name="Villager_Cap_Hat_02" weight="1" file="graphics\_materials\slabreche-M-20110812090723.material.xml" />
+							<material id="slabreche-M-20110812091147" name="Villager_Cap_Hat_03" weight="1" file="graphics\_materials\slabreche-M-20110812091147.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="villagerHair." id="cromagnoli-M-2011101361297292">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<materialdescriptor xmlns:xi="#" name="CloudDome" id="#(0x2ae1c8f, 0x858ba254)" version="1">
+    <geometryInputs normal="1" tangent="1" binormal="1" uvChannels="2" />
+    <geometryInputCompressed position="0"/>
+</materialdescriptor>

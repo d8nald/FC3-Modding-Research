@@ -1,0 +1,54 @@
+<graphickit id="12092389531790082560" name="[12092389531790082560, [12092389531790082560, [12092389531790082560, [12092389531790082560, [12092389531790082560, [12092389531790082560, [12092389531790082560, [12092389531790082560, [12092389531790082560, [12092389531790082560, [12092389531790082560, Vaas_Glitters]]]]]]]]]]]" unique="0" kittobone="1">
+	<slot name="Body" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Vaas" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\Vaas\Vaas.xml" mesh="Vaas" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Vaas_stone" id="akotelnikoff-M-2012042558162262">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Vaas_ruban" id="akotelnikoff-M-2012042553876186">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Vaas_arm" id="akotelnikoff-M-2012042553689434">
+						<materialdatabase name="" weight="0">
+							<material id="cromagnoli-M-20120507144049" name="Vaas_arm - gliter" weight="1" file="graphics\_materials\cromagnoli-M-20120507144049.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Vaas_head2" id="akotelnikoff-M-2012042553668676">
+						<materialdatabase name="" weight="0">
+							<material id="cromagnoli-M-20120502155059" name="Vaas_head3_Gliter" weight="1" file="graphics\_materials\cromagnoli-M-20120502155059.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Vaas_shoes" id="akotelnikoff-M-2012042552646358">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Vaas_pants" id="akotelnikoff-M-2012042552628104">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Vaas_ttop" id="akotelnikoff-M-2012042552601028">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Vaas_barb" id="Akotelnikoff-M-2011042942332259">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Eye_shadow" id="akotelnikoff-M-2011083067336073">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Vaas_eyelashes" id="akotelnikoff-M-2012041969344932">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Vaas_hair" id="Akotelnikoff-M-2011042942304367">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Vaas_Eye" id="kosullivan-M-0404201256391188">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-M-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

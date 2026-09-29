@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materialdescriptor xmlns:xi="#" name="Metal" id="#(0x2be2b8e, 0x757ba254)" version="6">
+    <geometryInputs normal="1" tangent="1" binormal="1" color="1" uvChannels="2" />
+
+    <parameter name="AlphaTestEnabled" type="bool" />
+    <parameter name="TwoSided" type="bool" />
+    <parameter name="BlendingType" type="int" />
+    
+    <parameter name="DiffuseTexture1" type="sampler2D" tilingName="DiffuseTiling1" UvName="UVGroupMapChannel1" defaultvalue="graphics\__FC3_Graphics\_Common\_Textures\Generic\Colors\Grey.png" optional="0" />
+    <parameter name="DiffuseTiling1" type="float2" defaultvalue="1,1" />
+    <parameter name="DiffuseColor1" type="color4" defaultvalue="1,1,1,1" multiplier="1" />
+
+    <parameter name="DiffuseTexture2" type="sampler2D" tilingName="DiffuseTextureTiling2" UvName="Diffuse2UV" uvTilingName="Diffuse2UVTiling"  useDefine="DIFFUSE_MAP_DETAIL" />
+    <parameter name="DiffuseTextureTiling2" type="float2" defaultvalue="1,1" />
+    <parameter name="DiffuseColor2" type="color4" defaultvalue="1,1,1,1" multiplier="1" />
+    
+    <parameter name="MaskTexture1" type="sampler2D" tilingName="MaskTiling1" UvName="UVGroupMapChannel0" defaultvalue="graphics\__FC3_Graphics\_Common\_Textures\Generic\Colors\White.png" optional="0" />
+    <parameter name="MaskTiling1" type="float2" ignore="1" defaultvalue="1,1" />
+
+    <parameter name="NormalTexture1" type="sampler2D" tilingName="NormalTiling1" UvName="UVGroupMapChannel3" defaultvalue="graphics\__FC3_Graphics\_Common\_Textures\Generic\Colors\Neutral_NormalMap.png" optional="0" />
+    <parameter name="NormalTiling1" type="float2" defaultvalue="1,1" />
+
+    <parameter name="SpecularMask" type="sampler2D" tilingName="DiffuseTiling2" UvName="UVGroupMapChannel2" useDefine="SPECULARMASK"/>
+    <parameter name="DiffuseTiling2" type="float2" defaultvalue="1,1" />
+
+    <parameter name="UVGroupMapChannel0" type="int" />
+    <parameter name="UVGroupMapChannel1" type="int" />
+    <parameter name="UVGroupMapChannel2" type="int" />
+    <parameter name="UVGroupMapChannel3" type="int" />
+    <parameter name="Diffuse2UV" type="int" />
+
+    <parameter name="DiffuseTiling1AndGroup1" type="float4" defaultvalue="1,1,0,0" provideronly="1" />
+    <parameter name="DiffuseTiling2AndGroup2" type="float4" defaultvalue="1,1,0,0" provideronly="1" />
+    <parameter name="NormalTiling1AndGroup3" type="float4" defaultvalue="1,1,0,0" provideronly="1" />
+    <parameter name="MaskTiling1AndGroup0" type="float4" defaultvalue="1,1,0,0" provideronly="1" />
+    <parameter name="Diffuse2UVTiling" type="float4" defaultvalue="1,1,0,0" provideronly="1" />
+    
+    <parameter name="Normal1Modifier" type="float" defaultvalue="1.0" displayInMax="1"/>
+    <parameter name="Normal2Modifier" type="float" defaultvalue="1.0" displayInMax="1"/>
+
+    <parameter name="Glossiness" type="float2" defaultvalue="1.0, 1.0" displayInMax="1"/>
+    <parameter name="SpecularReflectance" type="float2" defaultvalue="0.03, 0.03" displayInMax="1"/>
+
+     <parameter name="MaskScaleOffset" type="float4" defaultvalue="1.0, 0.0, 0.0, 0.0" displayInMax="1"/>
+   
+    <parameter name="SelfIllumination" type="float" defaultvalue="0.0" displayInMax="1"/>
+
+  <parameterprovider parametersfilename="Mesh_Metal.parameters.inc.fx">
+        <parameter name="DiffuseTexture1">
+            <alias name="DiffuseTexture1Shadow" />
+        </parameter>
+        <parameter name="DiffuseColor2" />
+        <parameter name="DiffuseTexture2"/>
+        <parameter name="SpecularMask"/>
+        <parameter name="DiffuseColor1" />
+        <parameter name="MaskTexture1" />
+        <parameter name="NormalTexture1" />
+        <parameter name="DiffuseTiling1AndGroup1" />
+        <parameter name="NormalTiling1AndGroup3" />
+        <parameter name="DiffuseTiling2AndGroup2" />
+        <parameter name="MaskTiling1AndGroup0" />
+        <parameter name="Diffuse2UVTiling" />
+        <parameter name="Normal1Modifier" />
+        <parameter name="Normal2Modifier" />
+        <parameter name="Glossiness" />
+        <parameter name="SelfIllumination" />
+        <parameter name="SpecularReflectance" />
+        <parameter name="MaskScaleOffset" />
+    </parameterprovider>
+
+    <ui>
+        <xi:include href="../MaterialUIInclude.xml" />
+        
+        <group horizontal="1" label="Settings">
+            <group>
+                <checkbox label="Two sided" dataBindings="TwoSided" />
+                <checkbox label="Alpha test" dataBindings="AlphaTestEnabled" />
+            </group>
+        </group>
+
+        <group label="Mask">
+            <group label="Mask Map Info">
+               <label>r = Glossiness</label>
+               <label>g = Specular Ambient Occlusion</label>
+               <label>b = Diffuse, normal and reflectance maps mask</label>
+           </group>
+            <group horizontal="1">
+                <button dataBindings="MaskTexture1" fill="1" />
+                <textbox dataBindings="UVGroupMapChannel0">
+                    <dataBindings class="UVChannel" />
+                </textbox>
+                <group>
+                    <textbox dataBindings="MaskTiling1.x">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                    <textbox dataBindings="MaskTiling1.y">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                </group>
+            </group>
+            <group horizontal="1">
+                <label>MaskScale</label>
+                <textbox databindings="MaskScaleOffset.x">
+                    <dataBindings defaultvalue="1.0" />
+                </textbox>
+                <label>MaskOffset</label>
+                <textbox databindings="MaskScaleOffset.y">
+                    <dataBindings class="HighPrecisionFloat" defaultvalue="0.0" />
+                </textbox>
+            </group>
+        </group>
+
+        <group label="Diffuse">
+            <group horizontal="1">
+                <button dataBindings="DiffuseColor1" overridableInDerivation="1">
+                    <dataBindings type="color" />
+                </button>
+                <button dataBindings="DiffuseTexture1" fill="1" />
+                <textbox dataBindings="UVGroupMapChannel1">
+                    <dataBindings class="UVChannel" />
+                </textbox>
+                <group>
+                    <textbox dataBindings="DiffuseTiling1.x">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                    <textbox dataBindings="DiffuseTiling1.y">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                </group>
+              <group horizontal="1">
+                <label>Self Illumination</label>
+                <textbox databindings="SelfIllumination" >
+                  <dataBindings minvalue="0.0" maxvalue="1.0" decimals="2" />
+                </textbox>
+              </group>
+            </group>
+            <group horizontal="1">
+                <button dataBindings="DiffuseColor2" overridableInDerivation="1">
+                    <dataBindings type="color" />
+                </button>
+                <button dataBindings="DiffuseTexture2" fill="1" />
+                <textbox dataBindings="Diffuse2UV">
+                    <dataBindings class="UVChannel" />
+                </textbox>
+                <group>
+                    <textbox dataBindings="DiffuseTextureTiling2.x">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                    <textbox dataBindings="DiffuseTextureTiling2.y">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                </group>
+            </group>
+        </group>
+
+        <group label="Normal">
+            <label>Normal 1</label>
+            <group horizontal="1"> 
+                <button dataBindings="NormalTexture1" fill="1" />
+                <textbox dataBindings="UVGroupMapChannel3">
+                    <dataBindings class="UVChannel" />
+                </textbox>
+                <group>
+                    <textbox dataBindings="NormalTiling1.x">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                    <textbox dataBindings="NormalTiling1.y">
+                            <dataBindings class="Tiling" />
+                    </textbox>
+                </group>
+            </group>
+            <group horizontal="1"> 
+                <label>Normal modifier (black mask)</label> 
+                <textbox databindings="Normal1Modifier" />
+                <label>Normal modifier (white mask)</label> 
+                <textbox databindings="Normal2Modifier" />
+            </group>
+        </group>
+        <label>Specular mask red=gloss, green=intensity</label>
+        <group horizontal="1">
+            <button dataBindings="SpecularMask" fill="1" />
+            <textbox dataBindings="UVGroupMapChannel2">
+                <dataBindings class="UVChannel" />
+            </textbox>
+            <group>
+                <textbox dataBindings="DiffuseTiling2.x">
+                    <dataBindings class="Tiling" />
+                </textbox>
+                <textbox dataBindings="DiffuseTiling2.y">
+                    <dataBindings class="Tiling" />
+                </textbox>
+            </group>
+        </group>
+        <group label="Specular">
+            <group horizontal="1">
+                <label>Glossiness (black mask)</label>
+                <textbox databindings="Glossiness.x">
+                    <dataBindings minvalue="0.0" maxvalue="1.0" defaultvalue="1.0" />
+                </textbox>
+                <label>Glossiness (white mask)</label>
+                <textbox databindings="Glossiness.y">
+                    <dataBindings minvalue="0.0" maxvalue="1.0" defaultvalue="1.0" />
+                </textbox>
+            </group>
+            <group>
+                <label>THESE SHOULD BE KEPT AT 0.03 FOR EVERY NON-METAL MATERIAL</label>
+            </group>
+            <group horizontal="1">
+                <label>Specular reflectance (black mask)</label>
+                <textbox databindings="SpecularReflectance.x">
+                    <dataBindings minvalue="0.02" maxvalue="1.0" defaultvalue="0.03" />
+                </textbox>
+                <label>Specular reflectance (white mask)</label>
+                <textbox databindings="SpecularReflectance.y">
+                    <dataBindings minvalue="0.02" maxvalue="1.0" defaultvalue="0.03" />
+                </textbox>
+            </group>
+        </group>
+    </ui>
+</materialdescriptor>

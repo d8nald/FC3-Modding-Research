@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">108093974411603602</field>
+  <field name="Name" type="String">CameraShakeAndRumble/GenericSmallCameraRoll</field>
+  <object name="Entity">
+    <field name="hidName" type="String">Curves:CameraShakeAndRumble/GenericSmallCameraRoll</field>
+    <field name="disEntityId" type="Int64">64</field>
+    <field name="text_hidEntityClass" type="String">CCurve</field>
+    <field name="hidEntityClass" type="Hash32">68745CCF</field>
+    <object name="curveCurve">
+      <field name="hidNumKnots" type="Int32">20</field>
+      <field name="hidAllowedTypes" type="Int32">7</field>
+      <object name="Knots">
+        <object name="Knot">
+          <field name="Value" type="Vector4">0,0,0.5,0</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">0</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">0.0142,0.0022,0.5,0</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">0</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">0.0142,0.0022,0.5,0</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">0</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">0.0299,-0.002,0.5,0</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">0</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">0.0299,-0.002,0.5,0</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">0</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">0.0447,0.0003,0.5,0</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">0</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">0.0447,0.0003,0.5,0</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">0</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">0.0619,-0.0017,0.5,0</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">0</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">0.0619,-0.0017,0.5,0</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">0</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">0.0823,-0.0008,0.5,0</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">0</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">0.0823,-0.0008,0.5,0</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">0</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">0.0966,-0.0019,0.5,0</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">0</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">0.0966,-0.0019,0.5,0</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">0</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">0.1153,-0.0002,0.5,0</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">0</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">0.1153,-0.0002,0.5,0</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">0</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">0.1333,-0.0012,0.5,0</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">0</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">0.1333,-0.0012,0.5,0</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">0</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">0.1674,0.0002,0.5,0</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">0</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">0.1674,0.0002,0.5,0</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">0</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">0.2002,0.0002,0.5,0</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">0</field>
+        </object>
+      </object>
+    </object>
+  </object>
+</object>

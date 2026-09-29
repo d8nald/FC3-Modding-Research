@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<Root>
+
+	<!-- ******************************************************************************** -->
+	<ActionMap name="console" resendOnChange="0">
+
+		<CompoundInput name="leftright" device="kb">
+			<Input input="right" axis="0" />
+			<Input input="numpadright" axis="0" />
+			<Input input="left" axis="0" invert="1" />
+			<Input input="numpadleft" axis="0" invert="1" />
+		</CompoundInput>
+		<CompoundInput name="pgupdown" device="kb">
+			<Input input="pgup" axis="0" />
+			<Input input="numpadpgup" axis="0" />
+			<Input input="pgdown" axis="0" invert="1" />
+			<Input input="numpadpgdown" axis="0" invert="1" />
+		</CompoundInput>
+
+
+		<Binding signal="console_copy">
+			<Input input="kb:lctrl" action="press"/>
+			<Input input="kb:c" action="press"/>
+		</Binding>
+		<Binding signal="console_paste">
+			<Input input="kb:lctrl" action="press"/>
+			<Input input="kb:v" action="press"/>
+		</Binding>
+		<Binding input="mouse:rb" action="press" signal="console_paste" />
+
+        <Binding signal="console_autocompleteprev">
+            <Input input="kb:lshift" action="press"/>
+            <Input input="kb:tab" action="press"/>
+        </Binding>
+		<Binding signal="console_autocompleteprev_release">
+            <Input input="kb:lshift" action="release"/>
+            <Input input="kb:tab" action="release"/>
+        </Binding>
+		
+		<Binding input="kb:tab" action="press" signal="console_autocomplete" />
+		<Binding input="kb:tab" action="release" signal="console_autocomplete_release" />
+		
+		<Binding signal="console_backspace_word">
+			<Input input="kb:lctrl" action="press"/>
+			<Input input="kb:backspace" action="press"/>
+		</Binding>
+		<Binding input="kb:backspace" action="press" signal="console_backspace" />
+		<Binding input="kb:backspace" action="release" signal="console_backspace_release" />
+		
+		<Binding input="kb:delete" action="press" signal="console_delete" />
+		<Binding input="kb:numpaddelete" action="press" signal="console_delete" />
+		<Binding input="kb:return" action="press" signal="console_execute_buffer" />
+		<Binding input="kb:numpadreturn" action="press" signal="console_execute_buffer" />
+        <Binding input="kb:escape" action="press" signal="console_clear_input" />
+
+		<Binding input="kb:end" action="press" signal="console_cursor_end" />
+		<Binding input="kb:home" action="press" signal="console_cursor_start" />
+		<Binding input="kb:leftright" action="press" signal="console_cursor_leftright" />
+		<Binding input="kb:leftright" action="release" signal="console_cursor_leftright_release" />
+		
+		<Binding input="kb:up" action="press" signal="console_cursor_up" />
+		<Binding input="kb:up" action="release" signal="console_cursor_up_release" />
+		<Binding input="kb:down" action="press" signal="console_cursor_down" />
+		<Binding input="kb:down" action="release" signal="console_cursor_down_release" />
+
+		<Binding input="kb:pgupdown" action="press" signal="console_scroll_start" />
+		<Binding input="kb:pgupdown" action="release" signal="console_scroll_stop" />
+		<Binding input="mouse:wheel" action="update" signal="console_scroll" />
+
+		<Binding input="kb:~" action="press" signal="toggle_console" />
+		<Binding input="kb:`" action="press" signal="toggle_console" />
+
+
+		<Binding input="kb:*" action="press" signal="console_char_*" />
+		<Binding input="kb:+" action="press" signal="console_char_+" />
+		<Binding input="kb:_" action="press" signal="console_char__" />
+		<Binding input="kb:-" action="press" signal="console_char_-" />
+		<Binding input="kb:/" action="press" signal="console_char_/" />
+		<Binding input="kb:\" action="press" signal="console_char_\" />
+		<Binding input="kb:=" action="press" signal="console_char_=" />
+		<Binding input="kb:-" action="press" signal="console_char_-" />
+		<Binding input="kb:," action="press" signal="console_char_," />
+		<Binding input="kb:." action="press" signal="console_char_." />
+		<Binding input="kb:(" action="press" signal="console_char_(" />
+		<Binding input="kb:)" action="press" signal="console_char_)" />
+		<Binding input="kb:[" action="press" signal="console_char_[" />
+		<Binding input="kb:]" action="press" signal="console_char_]" />
+		<Binding input="kb:{" action="press" signal="console_char_{" />
+		<Binding input="kb:}" action="press" signal="console_char_}" />
+		<Binding input="kb:!" action="press" signal="console_char_!" />
+		<Binding input="kb:@" action="press" signal="console_char_@" />
+		<Binding input="kb:#" action="press" signal="console_char_#" />
+		<Binding input="kb:$" action="press" signal="console_char_$" />
+		<Binding input="kb:%" action="press" signal="console_char_%" />
+		<Binding input="kb:^" action="press" signal="console_char_^" />
+		<Binding input="kb:&amp;" action="press" signal="console_char_&amp;" />
+		<Binding input="kb::" action="press" signal="console_char_:" />
+		<Binding input="kb:;" action="press" signal="console_char_;" />
+		<Binding input="kb:|" action="press" signal="console_char_|" />
+		<Binding input="kb:&lt;" action="press" signal="console_char_&lt;" />
+		<Binding input="kb:&gt;" action="press" signal="console_char_&gt;" />
+		<Binding input="kb:?" action="press" signal="console_char_?" />
+		<Binding input="kb:&apos;" action="press" signal="console_char_&apos;" />
+		<Binding input="kb:&quot;" action="press" signal="console_char_&quot;" />
+		<Binding input="kb:space" action="press" signal="console_char_space" />
+
+		<Binding input="kb:a" action="press" signal="console_char_a" />
+		<Binding input="kb:b" action="press" signal="console_char_b" />
+		<Binding input="kb:c" action="press" signal="console_char_c" />
+		<Binding input="kb:d" action="press" signal="console_char_d" />
+		<Binding input="kb:e" action="press" signal="console_char_e" />
+		<Binding input="kb:f" action="press" signal="console_char_f" />
+		<Binding input="kb:g" action="press" signal="console_char_g" />
+		<Binding input="kb:h" action="press" signal="console_char_h" />
+		<Binding input="kb:i" action="press" signal="console_char_i" />
+		<Binding input="kb:j" action="press" signal="console_char_j" />
+		<Binding input="kb:k" action="press" signal="console_char_k" />
+		<Binding input="kb:l" action="press" signal="console_char_l" />
+		<Binding input="kb:m" action="press" signal="console_char_m" />
+		<Binding input="kb:n" action="press" signal="console_char_n" />
+		<Binding input="kb:o" action="press" signal="console_char_o" />
+		<Binding input="kb:p" action="press" signal="console_char_p" />
+		<Binding input="kb:q" action="press" signal="console_char_q" />
+		<Binding input="kb:r" action="press" signal="console_char_r" />
+		<Binding input="kb:s" action="press" signal="console_char_s" />
+		<Binding input="kb:t" action="press" signal="console_char_t" />
+		<Binding input="kb:u" action="press" signal="console_char_u" />
+		<Binding input="kb:v" action="press" signal="console_char_v" />
+		<Binding input="kb:w" action="press" signal="console_char_w" />
+		<Binding input="kb:x" action="press" signal="console_char_x" />
+		<Binding input="kb:y" action="press" signal="console_char_y" />
+		<Binding input="kb:z" action="press" signal="console_char_z" />
+
+		<Binding input="kb:A" action="press" signal="console_char_A" />
+		<Binding input="kb:B" action="press" signal="console_char_B" />
+		<Binding input="kb:C" action="press" signal="console_char_C" />
+		<Binding input="kb:D" action="press" signal="console_char_D" />
+		<Binding input="kb:E" action="press" signal="console_char_E" />
+		<Binding input="kb:F" action="press" signal="console_char_F" />
+		<Binding input="kb:G" action="press" signal="console_char_G" />
+		<Binding input="kb:H" action="press" signal="console_char_H" />
+		<Binding input="kb:I" action="press" signal="console_char_I" />
+		<Binding input="kb:J" action="press" signal="console_char_J" />
+		<Binding input="kb:K" action="press" signal="console_char_K" />
+		<Binding input="kb:L" action="press" signal="console_char_L" />
+		<Binding input="kb:M" action="press" signal="console_char_M" />
+		<Binding input="kb:N" action="press" signal="console_char_N" />
+		<Binding input="kb:O" action="press" signal="console_char_O" />
+		<Binding input="kb:P" action="press" signal="console_char_P" />
+		<Binding input="kb:Q" action="press" signal="console_char_Q" />
+		<Binding input="kb:R" action="press" signal="console_char_R" />
+		<Binding input="kb:S" action="press" signal="console_char_S" />
+		<Binding input="kb:T" action="press" signal="console_char_T" />
+		<Binding input="kb:U" action="press" signal="console_char_U" />
+		<Binding input="kb:V" action="press" signal="console_char_V" />
+		<Binding input="kb:W" action="press" signal="console_char_W" />
+		<Binding input="kb:X" action="press" signal="console_char_X" />
+		<Binding input="kb:Y" action="press" signal="console_char_Y" />
+		<Binding input="kb:Z" action="press" signal="console_char_Z" />
+
+		<Binding input="kb:0" action="press" signal="console_char_0" />
+		<Binding input="kb:1" action="press" signal="console_char_1" />
+		<Binding input="kb:2" action="press" signal="console_char_2" />
+		<Binding input="kb:3" action="press" signal="console_char_3" />
+		<Binding input="kb:4" action="press" signal="console_char_4" />
+		<Binding input="kb:5" action="press" signal="console_char_5" />
+		<Binding input="kb:6" action="press" signal="console_char_6" />
+		<Binding input="kb:7" action="press" signal="console_char_7" />
+		<Binding input="kb:8" action="press" signal="console_char_8" />
+		<Binding input="kb:9" action="press" signal="console_char_9" />
+		<Binding input="kb:numpad0" action="press" signal="console_char_0" />
+		<Binding input="kb:numpad1" action="press" signal="console_char_1" />
+		<Binding input="kb:numpad2" action="press" signal="console_char_2" />
+		<Binding input="kb:numpad3" action="press" signal="console_char_3" />
+		<Binding input="kb:numpad4" action="press" signal="console_char_4" />
+		<Binding input="kb:numpad5" action="press" signal="console_char_5" />
+		<Binding input="kb:numpad6" action="press" signal="console_char_6" />
+		<Binding input="kb:numpad7" action="press" signal="console_char_7" />
+		<Binding input="kb:numpad8" action="press" signal="console_char_8" />
+		<Binding input="kb:numpad9" action="press" signal="console_char_9" />
+
+		<Binding input="kb:divide" action="press" signal="console_char_/" />
+		<Binding input="kb:multiply" action="press" signal="console_char_*" />
+		<Binding input="kb:subtract" action="press" signal="console_char_-" />
+		<Binding input="kb:add" action="press" signal="console_char_+" />
+	</ActionMap>
+
+</Root>
+

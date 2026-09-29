@@ -1,0 +1,921 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">738597922243473053</field>
+  <field name="Name" type="String">GameMode/FCXSingle</field>
+  <object name="Entity">
+    <field name="hidName" type="String">engine:GameMode/FCXSingle</field>
+    <field name="disEntityId" type="Int64">292</field>
+    <field name="text_hidEntityClass" type="String">CGameModeEntity</field>
+    <field name="hidEntityClass" type="Hash32">B1CDF40E</field>
+    <field name="hidResourceCount" type="Int32">115</field>
+    <field name="hidPos" type="Vector3">0,0,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">0,0,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CGameModeComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_sName" type="String">Single</field>
+        <field name="sName" type="Hash32">CD0B222F</field>
+        <field name="text_sVoiceIntroEventName" type="String"></field>
+        <field name="sVoiceIntroEventName" type="Hash32">FFFFFFFF</field>
+        <field name="text_sVoiceOutroEventName" type="String"></field>
+        <field name="sVoiceOutroEventName" type="Hash32">FFFFFFFF</field>
+        <field name="text_sVoiceSeparatorEventName" type="String"></field>
+        <field name="sVoiceSeparatorEventName" type="Hash32">FFFFFFFF</field>
+        <object name="CommonSoundEvents">
+          <object name="EventEntry">
+            <field name="text_sName" type="String"></field>
+            <field name="sName" type="Hash32">FFFFFFFF</field>
+            <field name="unPriority" type="UInt32">0</field>
+            <field name="fChildPlayProbability" type="Float32">1</field>
+            <field name="text_sChildEventName" type="String"></field>
+            <field name="sChildEventName" type="Hash32">FFFFFFFF</field>
+            <object name="TeamEntries">
+              <object name="TeamEntry">
+                <field name="text_sTeam" type="String"></field>
+                <field name="sTeam" type="Hash32">FFFFFFFF</field>
+                <object name="SoundEntries">
+                  <object name="SoundEntry">
+                    <field name="sndId" type="String">0xFFFFFFFF</field>
+                    <field name="sndtpType" type="Hash32">FFFFFFFF</field>
+                    <field name="nWeight" type="Int32">1</field>
+                  </object>
+                </object>
+              </object>
+            </object>
+            <object name="SoundOverride">
+              <field name="sndId" type="String">0xFFFFFFFF</field>
+              <field name="sndtpType" type="Hash32">FFFFFFFF</field>
+              <field name="nWeight" type="Int32">1</field>
+            </object>
+          </object>
+        </object>
+        <object name="SpecificSoundEvents">
+          <object name="EventEntry">
+            <field name="text_sName" type="String"></field>
+            <field name="sName" type="Hash32">FFFFFFFF</field>
+            <field name="unPriority" type="UInt32">0</field>
+            <field name="fChildPlayProbability" type="Float32">1</field>
+            <field name="text_sChildEventName" type="String"></field>
+            <field name="sChildEventName" type="Hash32">FFFFFFFF</field>
+            <object name="TeamEntries">
+              <object name="TeamEntry">
+                <field name="text_sTeam" type="String"></field>
+                <field name="sTeam" type="Hash32">FFFFFFFF</field>
+                <object name="SoundEntries">
+                  <object name="SoundEntry">
+                    <field name="sndId" type="String">0xFFFFFFFF</field>
+                    <field name="sndtpType" type="Hash32">FFFFFFFF</field>
+                    <field name="nWeight" type="Int32">1</field>
+                  </object>
+                </object>
+              </object>
+            </object>
+            <object name="SoundOverride">
+              <field name="sndId" type="String">0xFFFFFFFF</field>
+              <field name="sndtpType" type="Hash32">FFFFFFFF</field>
+              <field name="nWeight" type="Int32">1</field>
+            </object>
+          </object>
+        </object>
+        <object name="ArchetypeReferencesResLoaded">
+          <object name="Archetype">
+            <field name="arkName" type="Id64">522425139897539083</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7637475445641</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">0</field>
+          </object>
+        </object>
+        <object name="ArchetypeReferences">
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7656525232264</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7677200127324</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7682173203845</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7682173231340</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7682173286617</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7682173335511</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7682173370573</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7682173538115</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7682173582450</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7682173560019</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7682173393893</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7682173270922</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7682174732948</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7682173484487</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7682173353615</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7682173255252</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7681380677053</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7682173129922</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7682173086956</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7681378159651</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7682173056597</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7682173038134</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7682173021822</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7681380801073</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7681380568032</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7681380737943</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7681380704958</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7681380756744</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7681380782936</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7681380867533</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7682173103171</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7591846880182</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7704240889080</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7704241076424</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7704241092720</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7704241183516</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7704241196869</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7704241245727</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7704241259839</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7704241310249</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7704241340443</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7704241383716</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7704241399925</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7704241520145</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7704241540818</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7704241577115</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7704241607340</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7704241789918</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7704241849094</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7704241873310</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7704241887576</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7703095162016</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7711284616766</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7711284640293</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7711284663428</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7711284717407</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7711284741232</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7711284806604</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7711284819459</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7711284831945</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7711284843480</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7714080453768</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7711689582379</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7702306080641</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7711690071775</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7714080858297</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7711689914232</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7713450245417</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7713573515603</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7715567903791</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7715567973322</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7715568007795</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7715567986402</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7715567877254</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7715567928712</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7714526670033</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7717035951112</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7717035933706</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7717039383864</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7721087420594</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7721087433841</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7722563625045</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7722563668409</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7722563586759</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7722563559306</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7722563455075</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7722561908339</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7722563190978</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7722563506516</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7722572273675</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7722562059884</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7722563265415</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723107145169</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723107194274</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723107196155</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723107198979</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723107232837</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723102432963</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723102466442</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723102468425</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723102470763</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723102650807</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723102993313</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723102996210</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723102351657</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723102403018</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723102405092</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723102406940</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723108664869</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723108699576</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723108701800</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723108704017</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723102998240</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723103064829</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723103066989</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723103068999</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723103127815</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723103165313</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723103167786</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723103169697</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723101244171</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723101341295</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723101343535</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723101345470</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723107287799</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723107410167</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723107412413</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723107418535</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723101102462</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723101205413</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723101207309</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723101209565</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7722281982774</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7713294173125</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7713294275897</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7713294265000</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7713294246208</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7723508203669</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7713294218461</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7713294202389</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7713294191981</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728857257146</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728318112285</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728318198144</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7727410345301</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728318284954</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728318604404</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728318877155</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728318785912</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728318835253</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728318935899</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728319116938</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728319146164</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728319191383</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728319225361</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728319265449</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728319292832</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728319327307</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728319356079</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728319392336</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728319696634</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728320854581</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728320910227</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728320957982</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728321028610</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728321108596</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728321814056</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728321876127</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728321955571</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728321963967</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728321981096</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728322002901</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728322036038</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728322060347</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728322081234</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728322103847</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728322123371</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728322153240</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728322287560</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728322388355</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728322404084</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728322419712</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728319090256</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">270223560996941471</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7715189026287</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7728321028610</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7730065971784</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7713294265000</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7730065936765</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7730066085948</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7730066040589</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7730066128412</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7730066007455</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7733957797823</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7733957858680</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7733957435312</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7733957690531</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7722281982774</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7733957995883</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7733958061561</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7733851144000</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">0</field>
+          </object>
+        </object>
+        <object name="AnimationPackageReferences">
+          <object name="Package">
+            <field name="sName" type="String">PKG_A1LM01_SE01</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A1LM01_SE03</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A1LM01_SE04</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A1LM02_SE01</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A1LM02_SE03</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A1LM03_SE01</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A1LM04_SE01</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A1LM04_SE03</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A1LM05_SE01</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A1LM06_AV01</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A1LM06_SE01</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A2LM07_SE01</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A2LM07_SE03</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A2LM07_SE04</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A2LM08_SE01</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A2LM08_SE03B</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A2LM09_SE01</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A2LM09_SE05</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A2LM10_SE01</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A2LM11_SE01</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A2LM11_SE05</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A2LM12_SE01</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A2LM12_SE03</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A2LM12_SE05</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A1SM01_AV01</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A1SM01_SE01</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A1SM02_SE01_APR</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A1SM02_SE01_UFLL</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A1SM03_SE01</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A1SM03_SE02A</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A1SM03_SE02B</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A2SM04_SE01</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A2SM04_SE03</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A2SM05_SE01A</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A2SM05_SE01B</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A2SM06_SE01_APR</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A2SM06_SE01_UFLL</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A2SM08_SE01_APR</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A2SM08_SE01_UFLL</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A2SM08_SE03_APR</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A2SM08_SE03_UFLL</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A2SM09_SE01</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A2SM09_SE05</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A2SM10_SE02</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A3SM11_SE01_APR</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A3SM11_SE01_UFLL</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A2SM13_SE03</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A3SM16_SE01</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A3SM16_SE02A</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A3SM16_SE02B</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_BARGE</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A3CINE</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_GRIN</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A1GM00_SE02</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String">PKG_A1GM00_SE01</field>
+          </object>
+          <object name="Package">
+            <field name="sName" type="String"></field>
+          </object>
+        </object>
+        <object name="ArchetypesNorth">
+          <object name="Archetype">
+            <field name="arkName" type="Id64">540439538407021067</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7677607100464</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7635727913478</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">531432339152280075</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7654098417013</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">549446737661762059</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">558453936916503051</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">0</field>
+          </object>
+        </object>
+        <object name="ArchetypesSouth">
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7651707090897</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7651707492562</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7651707511658</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7651707692320</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">7651707709303</field>
+          </object>
+          <object name="Archetype">
+            <field name="arkName" type="Id64">0</field>
+          </object>
+        </object>
+      </object>
+    </object>
+  </object>
+</object>

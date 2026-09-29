@@ -1,0 +1,43 @@
+<ActionMapKeyServiceMapping>
+    <Mapping input="a" consolekey="Button1" />
+    <Mapping input="b" consolekey="Button2" />
+    <Mapping input="x" consolekey="Button3" />
+    <Mapping input="y" consolekey="Button4" />
+    
+    <Mapping input="right" consolekey="PadRight" />
+    <Mapping input="down" consolekey="PadDown" />
+    <Mapping input="left" consolekey="PadLeft" />
+    <Mapping input="up" consolekey="PadUp" />
+    
+    <Mapping input="left_shoulder" consolekey="ShoulderLeft2" />
+    <Mapping input="right_shoulder" consolekey="ShoulderRight2" />
+    <Mapping input="left_trigger" consolekey="ShoulderLeft1" />
+    <Mapping input="right_trigger" consolekey="ShoulderRight1" />
+  
+    <Mapping input="left_thumb_push" consolekey="LeftStickPress" /> 
+    <Mapping input="right_thumb_push" consolekey="RightStickPress" />
+    <Mapping input="left_thumb" consolekey="LeftStick" />
+    <Mapping input="right_thumb" consolekey="RightStick" />
+    
+    <Mapping input="right_thumb_leftright" consolekey="RightStick">
+    	<AdditionalMapping consolekey="ThumbstickRight_Left" />
+      <AdditionalMapping consolekey="ThumbstickRight_Right" />
+    </Mapping>  
+    
+    <Mapping input="right_thumb_updown" consolekey="RightStick">
+      <AdditionalMapping consolekey="ThumbstickRight_Up" />
+      <AdditionalMapping consolekey="ThumbstickRight_Down" />     
+    </Mapping>
+    
+    <Mapping input="left_thumb_leftright" consolekey="LeftStick">
+      <AdditionalMapping consolekey="ThumbstickLeft_Left" />
+      <AdditionalMapping consolekey="ThumbstickLeft_Right" /> 
+    </Mapping>
+    <Mapping input="left_thumb_updown" consolekey="LeftStick">
+      <AdditionalMapping consolekey="ThumbstickLeft_Up" />
+      <AdditionalMapping consolekey="ThumbstickLeft_Down" /> 
+    </Mapping>
+    
+    <Mapping input="start" consolekey="Start" />
+    <Mapping input="back" consolekey="Select" />    
+</ActionMapKeyServiceMapping>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7595951918004</field>
+  <field name="Name" type="String">Camera/SupportWeapon</field>
+  <object name="Entity">
+    <field name="hidName" type="String">cameras:Camera/SupportWeapon</field>
+    <field name="disEntityId" type="Int64">22</field>
+    <field name="text_hidEntityClass" type="String">COmniMapEntity</field>
+    <field name="hidEntityClass" type="Hash32">888164B2</field>
+    <field name="hidResourceCount" type="Int32">2</field>
+    <field name="hidPos" type="Vector3">-4999,-4999,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">-4999,-4999,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CFCXSupportWeaponCamera">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="fCameraBlendTime" type="Float32">0</field>
+        <field name="fNearDistance" type="Float32">0.25</field>
+        <field name="fFarDistance" type="Float32">1200</field>
+        <field name="fFOV" type="Float32">75</field>
+        <field name="fNearFOV" type="Float32">30</field>
+        <field name="sndAmbience" type="String">0x000284D6</field>
+        <field name="sndTargetLocked" type="String">0x000284D2</field>
+        <field name="fHeight" type="Float32">260</field>
+        <field name="fSpeed" type="Float32">400</field>
+        <field name="fMovementDamping" type="Float32">15</field>
+        <field name="bUsePosFromEntity" type="Boolean">False</field>
+        <object name="Zoom">
+          <field name="fZoomedHeight" type="Float32">150</field>
+          <field name="fZoomedSpeed" type="Float32">100</field>
+          <field name="fZoomTransitionTime" type="Float32">0.25</field>
+        </object>
+      </object>
+    </object>
+  </object>
+</object>

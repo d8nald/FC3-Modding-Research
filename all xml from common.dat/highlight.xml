@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<materialdescriptor name="Highlight" version="6">
+
+    <parameterprovider parametersfilename="Mesh_Highlight.parameters.inc.fx">
+    </parameterprovider>
+
+    <ui>
+    </ui>
+</materialdescriptor>

@@ -1,0 +1,22 @@
+<WaterInventory>
+	<Entry Id="WaterStandard" Display="Standard 01" Material="graphics\_materials\MA_Water_Standard.material.xml" />
+	<Entry Id="MM-WaterStandard" Display="Standard 02" Material="graphics\_materials\MM_Water_Standard.material.xml" />
+	<Entry Id="MM-LakeShader-NorthRegion" Display="Lake 01" Material="graphics\_materials\jdesousa-M-20110810193934.material.xml" />
+	<Entry Id="MM-LakeShader-SouthRegion" Display="Lake 02" Material="graphics\_materials\jdesousa-M-20120321164318.material.xml" />
+	<Entry Id="MM-LakeShader - Caves" Display="Cave Lake" Material="graphics\_materials\jdesousa-M-20110819162727.material.xml" />
+	<Entry Id="MS-Shipyard_WaterCave" Display="Cave" Material="graphics\_materials\bmwang-M-20120428182006.material.xml" />
+	<Entry Id="SHA_Shipyard_water_PuzzleCave" Display="Cave 02" Material="graphics\_materials\mhlu-M-20120118162900.material.xml" />
+	<Entry Id="Water_J8_Mines" Display="Mines" Material="graphics\_materials\xdong2-M-20120511133955.material.xml" />
+	<Entry Id="water_desert_noreflection" Display="Desert" Material="graphics\_materials\vbernierjean-M-20101221121544.material.xml" />
+	<Entry Id="SHA_Boat_Water_mzhou" Display="Boat" Material="graphics\_materials\mzhou-M-20110805172558.material.xml" />
+	<Entry Id="Blood_Water" Display="Blood" Material="graphics\_materials\jdesousa-M-20120309125718.material.xml" />
+	<Entry Id="ClearWater" Display="Clear" Material="graphics\_materials\thorbjornsorensen-M-20100512110111.material.xml" />
+	<Entry Id="Water_E3_Cenote" Display="Cenote" Material="graphics\_materials\egirard2-M-20110429141852.material.xml" />
+	<Entry Id="Water_FPP_Lagoon" Display="Lagoon" Material="graphics\_materials\njinnah-M-20100506103644.material.xml" />
+	<Entry Id="MM_MurkyWater" Display="Murky" Material="graphics\_materials\jdesousa-M-20120319105820.material.xml" />
+	<Entry Id="Water_paradise" Display="Paradise" Material="graphics\_materials\JasonZhou-M-20100329101535.material.xml" />
+	<Entry Id="Silo_Water" Display="Silo" Material="graphics\_materials\ji-qiangcai-M-20120207111310.material.xml" />
+	<Entry Id="SHA_Shipyard_Water_SubBaseWater01" Display="Sub Base" Material="graphics\_materials\run-cizhou-M-20120109180838.material.xml" />
+	<Entry Id="SHA_Tomb_Water_SulfurWater01" Display="Sulfur 01" Material="graphics\_materials\xiawu-M-20110928144905.material.xml" />
+	<Entry Id="SHA_Tomb_Water_SulfurWaterEscape" Display="Sulfur 02" Material="graphics\_materials\xiawu-M-20120105112559.material.xml" />
+</WaterInventory>

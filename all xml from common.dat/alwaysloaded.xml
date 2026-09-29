@@ -1,0 +1,16 @@
+<AlwaysLoaded>
+    <GameMode ID="Any">
+        <CAIWorkspaceResource ID="engine\scripts\game\newbrains\mercbrain.ai.rml"/>    
+    	<CLuaResource ID="domino\system\lualibraries\lualibevents.lua"/>
+    	<CLuaResource ID="domino\system\lualibraries\lualibstateless.lua"/>
+    	<CLuaResource ID="domino\system\lualibraries\lualibfire.lua"/>
+    	<CLuaResource ID="domino\system\lualibraries\lualibmath.lua"/>
+    	<CLuaResource ID="domino\system\lualibraries\lualibdebug.lua"/>
+    	<CLuaResource ID="domino\system\lualibraries\lualibcore.lua"/>
+    </GameMode>	
+    <GameMode ID="FCXSingle">
+    </GameMode>	
+    <GameMode ID="FCXCoop">
+        <CLuaResource ID="domino\system\coop\lualibraries\lualibcoop.lua" />
+    </GameMode>	
+</AlwaysLoaded>

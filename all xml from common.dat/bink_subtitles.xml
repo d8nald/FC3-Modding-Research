@@ -1,0 +1,21 @@
+<binks>
+	<bink bik="graphics\characters\_common\animations\Narrative\FULLSCREEN_BINKS\fc3_intro_vacation_reel_v06_uncomp_2.bik" subtitles="graphics\characters\_common\animations\Narrative\FULLSCREEN_BINKS\fc3_intro_vacation_reel_v06_uncomp_2.xml"></bink>
+	<bink bik="graphics\characters\_common\animations\Narrative\SKYPE_BINK\E3_VASS_PROJECTED_TEXTURE\Vaas_FuckYou.bik" subtitles="graphics\characters\_common\animations\Narrative\SKYPE_BINK\E3_VASS_PROJECTED_TEXTURE\Vaas_FuckYou.xml"></bink>
+	<bink bik="graphics\characters\_common\animations\Narrative\VLOG_BINKS\JAS_110_C20.bik" subtitles="graphics\characters\_common\animations\Narrative\VLOG_BINKS\JAS_110_C20.xml"></bink>
+	<bink bik="graphics\characters\_common\animations\Narrative\VLOG_BINKS\VLOG_010.bik" subtitles="graphics\characters\_common\animations\Narrative\VLOG_BINKS\VLOG_010.xml"></bink>
+	<bink bik="graphics\characters\_common\animations\Narrative\VLOG_BINKS\VLOG_020.bik" subtitles="graphics\characters\_common\animations\Narrative\VLOG_BINKS\VLOG_020.xml"></bink>
+	<bink bik="graphics\characters\_common\animations\Narrative\VLOG_BINKS\VLOG_030.bik" subtitles="graphics\characters\_common\animations\Narrative\VLOG_BINKS\VLOG_030.xml"></bink>
+	<bink bik="graphics\characters\_common\animations\Narrative\VLOG_BINKS\VLOG_040.bik" subtitles="graphics\characters\_common\animations\Narrative\VLOG_BINKS\VLOG_040.xml"></bink>
+	<bink bik="graphics\characters\_common\animations\Narrative\VLOG_BINKS\JAS_240_B35E_JasonReflection.bik" subtitles="graphics\characters\_common\animations\Narrative\VLOG_BINKS\JAS_240_B35E_JasonReflection.xml"></bink>
+	<bink bik="UI\Multiplayer\Video\Fc3CoopIntro.bik" subtitles="UI\Multiplayer\Video\Fc3CoopIntro.xml"></bink>
+    <bink bik="graphics\characters\_common\animations\Narrative\FULLSCREEN_BINKS\quotes_01.bik" subtitles="graphics\characters\_common\animations\Narrative\FULLSCREEN_BINKS\quotes_01.xml"></bink>
+    <bink bik="graphics\characters\_common\animations\Narrative\FULLSCREEN_BINKS\quotes_03.bik" subtitles="graphics\characters\_common\animations\Narrative\FULLSCREEN_BINKS\quotes_03.xml"></bink>
+    <bink bik="graphics\characters\_common\animations\Narrative\FULLSCREEN_BINKS\quotes_04.bik" subtitles="graphics\characters\_common\animations\Narrative\FULLSCREEN_BINKS\quotes_04.xml"></bink>
+    <bink bik="graphics\characters\_common\animations\Narrative\FULLSCREEN_BINKS\quotes_05.bik" subtitles="graphics\characters\_common\animations\Narrative\FULLSCREEN_BINKS\quotes_05.xml"></bink>
+    <bink bik="graphics\characters\_common\animations\Narrative\FULLSCREEN_BINKS\quotes_06.bik" subtitles="graphics\characters\_common\animations\Narrative\FULLSCREEN_BINKS\quotes_06.xml"></bink>
+    <bink bik="graphics\characters\_common\animations\Narrative\FULLSCREEN_BINKS\quotes_07.bik" subtitles="graphics\characters\_common\animations\Narrative\FULLSCREEN_BINKS\quotes_07.xml"></bink>
+    <bink bik="graphics\characters\_common\animations\Narrative\FULLSCREEN_BINKS\quotes_08.bik" subtitles="graphics\characters\_common\animations\Narrative\FULLSCREEN_BINKS\quotes_08.xml"></bink>
+    <bink bik="graphics\characters\_common\animations\Narrative\FULLSCREEN_BINKS\quotes_09.bik" subtitles="graphics\characters\_common\animations\Narrative\FULLSCREEN_BINKS\quotes_09.xml"></bink>
+    <bink bik="graphics\characters\_common\animations\Narrative\FULLSCREEN_BINKS\quotes_10.bik" subtitles="graphics\characters\_common\animations\Narrative\FULLSCREEN_BINKS\quotes_10.xml"></bink>
+    <bink bik="graphics\characters\_common\animations\Narrative\FULLSCREEN_BINKS\quotes_11.bik" subtitles="graphics\characters\_common\animations\Narrative\FULLSCREEN_BINKS\quotes_11.xml"></bink>
+</binks>

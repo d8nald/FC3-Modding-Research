@@ -1,0 +1,74 @@
+<graphickit id="12092576687137489408" name="Thug02" unique="0" kittobone="1">
+	<slot name="Head" position="0" bonename="Head">
+		<partdatabase name="" weight="0">
+			<part name="SV_Male_Head" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Male_Head.xml" mesh="SV_Male_Head" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-m-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="SV_Male_Head_01" id="slabreche-M-2012011958278199">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Material #125_AsCopy" id="slabreche-M-2012011958287050">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Eyes" position="1" bonename="Head">
+		<partdatabase name="" weight="0">
+			<part name="SV_Male_Eye_01" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Male_Eye_01.xml" mesh="SV_Male_Eye_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="SV_Girls_Eye" id="slabreche-M-2012011056458674">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="SV_Girls_Eye_IRIS" id="slabreche-M-2012011056478514">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Pants" position="2" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="SV_Male_Pants_02" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Male_Pants_02.xml" mesh="SV_Male_Pants_02" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Material #131" id="slabreche-M-2012011958300332">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Shoes" position="3" bonename="RightFoot">
+		<partdatabase name="" weight="0">
+			<part name="SV_Male_Shoes_01" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Male_Shoes_01.xml" mesh="SV_Male_Shoes_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="SV_Male_Shoes_01" id="slabreche-M-2012012740181205">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Shirt" position="4" bonename="Spine2">
+		<partdatabase name="" weight="0">
+			<part name="SV_Male_Shirt_02" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Male_Shirt_02.xml" mesh="SV_Male_Shirt_02" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Material #135_AsCopy" id="slabreche-M-2012011958344325">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Material #125_AsCopy" id="slabreche-M-2012011958287050">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object name="EntityLibrary">
+  <field name="Name" type="String">FC3_STP</field>
+  <object external="Relax\DynamicallySpawned.DynamicMourn_Sit.xml" />
+  <object external="Relax\DynamicallySpawned.DynamicMourn_Stand.xml" />
+  <object external="Relax\DynamicallySpawned.DynamicPokeCorpse.xml" />
+  <object external="Relax_and_Cautious\GenericIdle_FromRoadPatrol.xml" />
+  <object external="Relax_and_Cautious\NeutralGuard_Simple_Close.xml" />
+  <object external="Relax_and_Cautious\SimpleAnimation.Smoke_FromRoadPatrol.xml" />
+  <object external="WildLife\AnimalSimpleAnimation.Carcass.xml" />
+</object>

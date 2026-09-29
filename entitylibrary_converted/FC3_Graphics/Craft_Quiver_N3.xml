@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7723103066989</field>
+  <field name="Name" type="String">Craft_Quiver_N3</field>
+  <object name="Entity">
+    <field name="hidName" type="String">FC3_Graphics:Singleplayer:Menu_Items:Craft_Quiver_N3</field>
+    <field name="disEntityId" type="Int64">9259</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">2</field>
+    <field name="hidPos" type="Vector3">-513,-513,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">-513,-513,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileName" type="String">graphics\__fc3_graphics\singleplayer\menu_items\scenesmax\menu_quiv_lv3.xml</field>
+        <field name="fileName" type="Hash64">4035D8ED2BDBBDF7</field>
+        <field name="hidDescriptor" type="Rml">
+          <rml>
+            <hidDescriptor>
+              <component class="GraphicComponent" version="2" detail="0">
+                <object index="0" boneName="MENU_QUIV_LV3_LOD0" bboxMin="-0.370504,-0.0523695,-0.0709118" bboxMax="0.370504,0.0523311,0.0686927" />
+                <resource fileName="graphics\__FC3_Graphics\SinglePlayer\Menu_Items\ScenesMax\MENU_QUIV_LV3.xbg" bboxMin="-0.370504,-0.0523695,-0.0709118" bboxMax="0.370504,0.0523311,0.0686927" />
+                <skeleton_reference_list>
+                  <skeleton name="MENU_QUIV_LV3" index="0" pos="0,0,0" rot="1,-0,-0,-0" />
+                </skeleton_reference_list>
+                <material_reference_list>
+                  <material name="Accessories" shader_name="Generic_FC3" ref_shader_id="ecourcelles-M-2012050745770886" />
+                  <material name="MENU_Strings" shader_name="Metal" ref_shader_id="grassam-M-1105201238215197" />
+                  <material name="BOW_NEW_ARROW_REG" shader_name="Metal" ref_shader_id="grassam-M-2304201251071615" />
+                  <material name="Quiver_03" shader_name="Metal" ref_shader_id="grassam-M-1405201251875744" />
+                  <material name="Menu_Strings3" shader_name="Metal" ref_shader_id="grassam-M-1405201252446009" />
+                  <material name="Menu_Strings3" shader_name="Metal" ref_shader_id="grassam-M-1405201252446009" />
+                </material_reference_list>
+              </component>
+              <component class="InteriorVolumeComponent" version="1" detail="0" />
+            </hidDescriptor>
+          </rml>
+        </field>
+        <field name="hidCrcCheck" type="Hash32">FFFFFFFF</field>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bCastShadow" type="Boolean">True</field>
+        <field name="bReceiveShadow" type="Boolean">True</field>
+        <field name="bCastAmbientShadow" type="Boolean">True</field>
+        <field name="olgLightGroup" type="Int32">129</field>
+        <field name="bShowInReflection" type="Boolean">True</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bExcludeFromPortalSystem" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="clrHighLightColor" type="Vector3">1,0.903545,0.604147</field>
+        <field name="clrHighLightColor2" type="Vector3">0,0,0</field>
+        <field name="fHighLightSpeed" type="Float32">1</field>
+        <field name="bLodDitheringEnable" type="Boolean">True</field>
+        <field name="matIntuitionMaterialName" type="String"></field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field name="bAllowCullBySize" type="Boolean">True</field>
+        <field name="bMotionBlurExclusion" type="Boolean">False</field>
+        <field name="bOverrideLODSphere" type="Boolean">False</field>
+        <field name="fLODSphereRadius" type="Float32">0</field>
+        <field name="vectorAdditionalAABBDimensionForSkin" type="Vector3">1,1,0</field>
+        <field name="text_currentSkin" type="String"></field>
+        <field name="currentSkin" type="Hash32">FFFFFFFF</field>
+        <field name="bUseCurrentSkin" type="Boolean">False</field>
+        <object name="MaterialLightSwitch">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-1105201238215197</field>
+              <field name="disSlotId" type="Hash32">85954777</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">ecourcelles-m-2012050745770886</field>
+              <field name="disSlotId" type="Hash32">B6284DDA</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-1405201251875744</field>
+              <field name="disSlotId" type="Hash32">E314302B</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-2304201251071615</field>
+              <field name="disSlotId" type="Hash32">E4C8E998</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-1405201252446009</field>
+              <field name="disSlotId" type="Hash32">EFB990CF</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="MaterialOverrides">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-1105201238215197</field>
+              <field name="disSlotId" type="Hash32">85954777</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">ecourcelles-m-2012050745770886</field>
+              <field name="disSlotId" type="Hash32">B6284DDA</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-1405201251875744</field>
+              <field name="disSlotId" type="Hash32">E314302B</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-2304201251071615</field>
+              <field name="disSlotId" type="Hash32">E4C8E998</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-1405201252446009</field>
+              <field name="disSlotId" type="Hash32">EFB990CF</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="SkinList">
+          <object name="Skin">
+            <field name="text_name" type="String"></field>
+            <field name="name" type="Hash32">FFFFFFFF</field>
+            <field name="locSkinNameId" type="Int32">-1</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">0</field>
+          <field name="text_fileModel" type="String">graphics\__fc3_graphics\singleplayer\menu_items\scenesmax\menu_quiv_lv3.xbg</field>
+          <field name="fileModel" type="Hash64">4F6C48ED2BDBBDF7</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">MENU_QUIV_LV3</field>
+          <field name="hidNodeName" type="Hash32">E54722E6</field>
+          <field name="text_hidNodeNameLOD0" type="String">MENU_QUIV_LV3_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">9FDAF1F4</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">1</field>
+          <field name="text_fileModel" type="String"></field>
+          <field name="fileModel" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">MENU_QUIV_LV3</field>
+          <field name="hidNodeName" type="Hash32">E54722E6</field>
+          <field name="text_hidNodeNameLOD0" type="String">MENU_QUIV_LV3_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">9FDAF1F4</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+      </object>
+      <object name="CSimpleAnimationComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileSkeleton" type="String">graphics\characters\_common\singlebone_ref.skeleton</field>
+        <field name="fileSkeleton" type="Hash64">9F5AC43FB55D2FD4</field>
+        <field name="text_sPackage" type="String"></field>
+        <field name="sPackage" type="Hash64">FFFFFFFFFFFFFFFF</field>
+        <field name="AutoApplyDisplacement" type="Boolean">False</field>
+        <field name="sPartName" type="String"></field>
+        <field name="bEnableEvents" type="Boolean">False</field>
+        <field name="bRandomStart" type="Boolean">False</field>
+        <field name="text_Animation" type="String"></field>
+        <field name="Animation" type="Hash64">FFFFFFFFFFFFFFFF</field>
+      </object>
+      <object hash="E683B521">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="2BA6E1A6" type="BinHex">FFFFFFFF00000000</field>
+      </object>
+    </object>
+  </object>
+</object>

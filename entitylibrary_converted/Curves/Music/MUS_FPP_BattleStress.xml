@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7598065746619</field>
+  <field name="Name" type="String">Music/MUS_FPP_BattleStress</field>
+  <object name="Entity">
+    <field name="hidName" type="String">Curves:Music/MUS_FPP_BattleStress</field>
+    <field name="disEntityId" type="Int64">118</field>
+    <field name="text_hidEntityClass" type="String">CCurve</field>
+    <field name="hidEntityClass" type="Hash32">68745CCF</field>
+    <object name="curveCurve">
+      <field name="hidNumKnots" type="Int32">6</field>
+      <field name="hidAllowedTypes" type="Int32">7</field>
+      <object name="Knots">
+        <object name="Knot">
+          <field name="Value" type="Vector4">0,-96,0.999999,0</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">0</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">1,-96,-0.333333,-8.04955</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">0</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">1,-96,0.0646045,1.5601</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">1</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">2,-12,-0.385122,-2.30452</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">1</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">2,-12,0.431808,2.58388</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">1</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">3,0,-0.444443,0</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">1</field>
+        </object>
+      </object>
+    </object>
+  </object>
+</object>

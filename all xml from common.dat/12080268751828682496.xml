@@ -1,0 +1,14 @@
+<graphickit id="12080268751828682496" name="SHA_BlackEagle" unique="0" kittobone="1">
+	<slot name="Mainbody" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Black_Eagle" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Black_Eagle\Black_Eagle.xml" mesh="Black_Eagle" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="black_eagle" id="yanzhou-M-0811201139192440">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

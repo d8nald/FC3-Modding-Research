@@ -1,0 +1,52 @@
+<graphickit id="12066023111959524608" name="SHA_Goat" unique="0" kittobone="1">
+	<slot name="MainBody" position="0" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="Goat" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Goat\Goat.xml" mesh="Goat" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Animal_Grey_ID4" id="yanzhou-M-0602201250999138">
+						<materialdatabase name="" weight="0">
+							<material id="yanzhou-M-20120206141721" name="Goat_ClawA" weight="10" file="graphics\_materials\yanzhou-M-20120206141721.material.xml">
+								<tag name="regular" type="0" />
+								<tag name="painted" type="4" />
+							</material>
+							<material id="yanzhou-M-20120206174615" name="Goat_ClawB" weight="0" file="graphics\_materials\yanzhou-M-20120206174615.material.xml">
+								<tag name="painted" type="0" />
+								<tag name="regular" type="4" />
+							</material>
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Animal_Grey_ID3" id="yanzhou-M-3101201251837020">
+						<materialdatabase name="" weight="0">
+							<material id="yanzhou-M-1407201140655179" name="Goat_Eyes" weight="1" file="graphics\_materials\yanzhou-M-1407201140655179.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Animal_Grey_ID2" id="jli-M-107201151201026">
+						<materialdatabase name="" weight="0">
+							<material id="yanzhou-M-1407201140581578" name="Goat_Fur" weight="7" file="graphics\_materials\yanzhou-M-1407201140581578.material.xml">
+								<tag name="white" type="0" />
+								<tag name="black" type="4" />
+							</material>
+							<material id="yanzhou-M-20120209140524" name="Goat_Fur_Black" weight="3" file="graphics\_materials\yanzhou-M-20120209140524.material.xml">
+								<tag name="black" type="0" />
+								<tag name="white" type="4" />
+							</material>
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Animal_Grey_ID1" id="jli-M-107201142503596">
+						<materialdatabase name="" weight="0">
+							<material id="yanzhou-M-20120208181926" name="Goat_Main_BodyA" weight="7" file="graphics\_materials\yanzhou-M-20120208181926.material.xml">
+								<tag name="white" type="0" />
+								<tag name="black" type="4" />
+							</material>
+							<material id="yanzhou-M-1207201154868770" name="Goat_Main_BodyB" weight="3" file="graphics\_materials\yanzhou-M-1207201154868770.material.xml">
+								<tag name="black" type="0" />
+								<tag name="white" type="4" />
+							</material>
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

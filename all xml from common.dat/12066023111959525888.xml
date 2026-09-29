@@ -1,0 +1,26 @@
+<graphickit id="12066023111959525888" name="SHA_GTortoise" unique="0" kittobone="1">
+	<slot name="MainBody" position="0" bonename="Pelvis">
+		<partdatabase name="" weight="0">
+			<part name="GTortoise" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\GTortoise\GTortoise.xml" mesh="GTortoise" weight="6" version="1" allowcullbysize="1">
+				<tag name="regular" type="0" />
+				<tag name="rare" type="4" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Ground_Tortoise" id="torfrick-M-2009110958301824">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="GTortoise_Old" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\GTortoise\GTortoise_Old.xml" mesh="GTortoise_Old" weight="4" version="1" allowcullbysize="1">
+				<tag name="rare" type="0" />
+				<tag name="regular" type="4" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Ground_Tortoise_Old" id="yanzhou-M-0702201253145895">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

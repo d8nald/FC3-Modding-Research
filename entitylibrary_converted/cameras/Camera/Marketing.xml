@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7679621994639</field>
+  <field name="Name" type="String">Camera/Marketing</field>
+  <object name="Entity">
+    <field name="hidName" type="String">cameras:Camera/Marketing</field>
+    <field name="disEntityId" type="Int64">19</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">0</field>
+    <field name="hidPos" type="Vector3">-385,-385,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">-385,-385,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CCameraMarketingComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="fCameraBlendTime" type="Float32">0</field>
+        <field name="fNearDistance" type="Float32">0.25</field>
+        <field name="fFarDistance" type="Float32">1000</field>
+        <field name="fFOV" type="Float32">75</field>
+        <field name="fNearFOV" type="Float32">65</field>
+        <field name="fDampRelease" type="Float32">0.1</field>
+        <field name="fDampPush" type="Float32">0.2</field>
+        <field name="fFovChangeSpeed" type="Float32">0.349066</field>
+      </object>
+      <object name="CRainComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_psRainEmitter" type="String"></field>
+        <field name="psRainEmitter" type="Hash64">FFFFFFFFFFFFFFFF</field>
+        <field name="text_psRainSplash" type="String"></field>
+        <field name="psRainSplash" type="Hash64">FFFFFFFFFFFFFFFF</field>
+        <field name="bAutoStart" type="Boolean">False</field>
+        <field name="fIntensity" type="Float32">1</field>
+        <field name="fEmitterDistanceOffset" type="Float32">10</field>
+        <object name="SplashSpawningGrid">
+          <field name="text_psWaterBubbles" type="String"></field>
+          <field name="psWaterBubbles" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="iBubbleEmitPerSec" type="Int32">1</field>
+          <field name="uiMaxRaysPerRegion" type="UInt32">25</field>
+          <field name="fRaysPerSecond" type="Float32">10</field>
+          <field name="uiGridSize" type="UInt32">8</field>
+          <field name="uiHalfNumGrids" type="UInt32">2</field>
+          <field name="bClampAboveWaterLevel" type="Boolean">True</field>
+          <field name="bClampUnderWaterLevel" type="Boolean">False</field>
+        </object>
+      </object>
+      <object name="CPersistComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="selLevel" type="Enum">None</field>
+        <field name="bDontPersistIfChild" type="Boolean">True</field>
+        <field name="bIgnoreEntityLimiter" type="Boolean">False</field>
+      </object>
+    </object>
+  </object>
+</object>

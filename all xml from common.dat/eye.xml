@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<materialdescriptor xmlns:xi="#" name="Eye" id="#(0x1af2b8e, 0x857c9254)" version="1">
+    <geometryInputs normal="1" tangent="1" binormal="1" color="1" uvChannels="2" />
+
+    <parameter name="AlphaTestEnabled" type="bool" />
+    <parameter name="TwoSided" type="bool" />
+
+    <parameter name="DiffuseTexture" type="sampler2D" replaceTexture="black" />
+    <parameter name="MaskTexture" type="sampler2D" replaceTexture="white" />
+    <parameter name="NormalTexture" type="sampler2D" replaceTexture="normal" />
+
+    <parameter name="EyeColor" type="color4" defaultvalue="1,1,1,1" />
+    <parameter name="IrisColor" type="color4" defaultvalue="1,1,1,1" />
+
+    <parameter name="Settings" type="float4" defaultvalue="1,1,1,0" />
+    
+    <parameterprovider parametersfilename="Eye.parameters.inc.fx">
+        <parameter name="DiffuseTexture">
+            <alias name="DiffuseTextureShadow" />
+        </parameter>
+        <parameter name="MaskTexture" />
+        <parameter name="NormalTexture" />
+        <parameter name="EyeColor" />
+        <parameter name="IrisColor" />
+        <parameter name="Settings" />
+    </parameterprovider>
+
+    <ui>
+        <xi:include href="../MaterialUIInclude.xml" />
+        
+        <group horizontal="1" label="Settings">
+            <group>
+                <checkbox label="Two sided" dataBindings="TwoSided" />
+                <checkbox label="Alpha test" dataBindings="AlphaTestEnabled" />
+            </group>
+        </group>
+
+        <group label="Tints" horizontal="1">
+            <label>Eye Color</label>
+            <button dataBindings="EyeColor">
+                <dataBindings type="color" />
+            </button>
+            <label>Iris Color</label>
+            <button dataBindings="IrisColor">
+                <dataBindings type="color" />
+            </button>
+        </group>
+
+        <group label="Masks">
+           <group label="Mask Map Info">
+               <label>r = Unused</label>
+               <label>g = Glossiness</label>
+               <label>b = Color mask</label>
+           </group>
+           <group horizontal="1" label="Mask Texture">
+                <button dataBindings="MaskTexture" fill="1" />
+           </group>
+        </group>
+        
+        <group label="Diffuse And Normal maps">
+            <label>Diffuse</label>
+            <group horizontal="1">
+                <button dataBindings="DiffuseTexture" fill="1" />
+            </group>
+            <label>Normal</label>
+            <group horizontal="1">
+                <button dataBindings="NormalTexture" fill="1" />
+            </group>
+            <label>Normal Modifier</label>
+            <textbox dataBindings="Settings.y">
+                <dataBindings type="float" minvalue="0.0" defaultvalue="1.0" />
+            </textbox>
+        </group>
+
+        <group label="Specular">
+            <group horizontal="1">
+                <group horizontal="1">
+                    <label>Glossiness</label>
+                    <textbox databindings="Settings.x">
+                        <dataBindings type="ZeroPositiveCff" minvalue="0.0" maxvalue="1.0" defaultvalue="1.0" />
+                    </textbox>
+                </group>
+            </group>
+        </group>
+        
+    </ui>
+</materialdescriptor>

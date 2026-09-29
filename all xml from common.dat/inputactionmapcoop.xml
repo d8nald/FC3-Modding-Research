@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Root>
+  <ActionMap name="system" resendOnChange="0" >
+    <Copy input="kb:tab" toInput="kb:radar_tab"/>
+    <Binding input="kb:radar_tab" action="release" signal="cheat_ToggleRadar"/>
+  </ActionMap>
+
+  <Import file="ActionMaps\InputActionMapMulti.xml"/>
+
+  <ActionMap name="ability_interaction_popup">
+    <Import actionmap="default"/>
+    <Binding input="pad:b" action="press" signal="DenyInteraction"/>
+    <NoResend input="pad:b"/>
+    <Binding input="kb:h" action="press" signal="DenyInteraction"/>
+    <NoResend input="kb:h"/>
+
+    <Binding input="pad:x" action="press" signal="AcceptInteraction"/>
+    <NoResend input="pad:x"/>
+    <Binding input="kb:e" action="press" signal="AcceptInteraction"/>
+    <NoResend input="kb:e"/>
+
+    <MaskOut signal="crouch"/>
+    <NoResend input="pad:b"/>
+  </ActionMap>
+
+  <ActionMap name="ability_interaction">
+    <Import actionmap="basic"/>
+    <Import actionmap="look"/>
+  </ActionMap>
+  
+  <!--###################################-->
+  <!--#   Dog Attack Action Map   #-->
+  <!--###################################-->
+  <ActionMap name="dog_attack_exotic_gameplay">
+
+	<Import actionmap="system"/>
+	<Import actionmap="menus"/>
+  
+    <Binding input="pad:left_trigger"  action="press" signal="QtE_Left"/>
+    <Binding input="pad:right_trigger"   action="press" signal="QtE_Right"/>
+	
+	<Binding input="kb:a"  action="press" signal="QtE_Left"/>
+    <Binding input="kb:d"  action="press" signal="QtE_Right"/>
+	
+	<Binding input="mouse:lb"  action="press" signal="QtE_Left"/>
+    <Binding input="mouse:rb"  action="press" signal="QtE_Right"/>
+  </ActionMap>
+
+  <ActionMap name="buddy_boost_input">
+	<Import actionmap="look"/>
+    <Import actionmap="system"/>
+	<Import actionmap="common_weapons"/>
+	<Import actionmap="openchat"/>
+	<Import actionmap="menus"/>
+	<Binding input="pad:b" action="press" signal="abort_buddyboost"/>
+	<Binding input="kb:b" action="press" signal="abort_buddyboost"/>
+	
+	<Binding input="pad:right_trigger" action="update" signal="buddy_boost_wave"/>
+	<Binding input="mouse:lb" action="press" signal="buddy_boost_wave"/>
+	
+  </ActionMap>
+  
+  <ActionMap name="coop_pickbuddyboost">
+	<Import actionmap="system"/>
+	<Binding input="mouse:lb" action="release" signal="buddy_boost_pickability"/>
+	<Binding input="pad:a" action="press" signal="buddy_boost_pickability"/>
+	
+	<CompoundInput name="right_thumb" device="pad">
+		<Binding input="right_thumb_leftright" axis="1"/>
+		<Binding input="right_thumb_updown" axis="0"/>
+	</CompoundInput>
+	<Binding input="pad:right_thumb" action="update" signal="left_thumb_move"/>
+	<Binding input="pad:back" action="release" signal="wheel_deactivated"/>
+	<Binding input="kb:x" action="release" signal="wheel_deactivated"/>
+	
+	<MouseFilter input="mouse:move" sensitivity="1.0" maxOutput="15" />
+	<Binding input="mouse:move" action="update" signal="mouse_move"/>
+		
+  </ActionMap>
+  
+  <ActionMap name="coop_trap_input">
+    <Import actionmap="look"/>
+	<Import actionmap="basic"/>
+    <Import actionmap="common_weapons"/>
+    <Binding input="pad:x" action="press" signal="lift_foot"/>
+    <Binding input="kb:e" action="press" signal="lift_foot"/>
+	
+	<Binding input="pad:right_trigger" action="press" signal="attempt_untrap"/>
+	<Binding input="mouse:lb" action="press" signal="attempt_untrap"/>
+	
+	<Binding input="pad:b" action="press" signal="cancel_untrap"/>
+    <Binding input="kb:q" action="press" signal="cancel_untrap"/>
+	
+	<Binding input="pad:left_thumb_leftright" action="update" signal="moveInTrap"/>
+	
+	<CompoundInput name="move" device="kb">
+		<Input input="d" axis="0"/>
+		<Input input="a" axis="0" invert="1"/>
+	</CompoundInput>
+		
+	<Binding input="kb:move" 	action="press" 		signal="moveInTrap"/>
+	<Binding input="kb:move" 	action="release" 	signal="moveInTrap"/>
+  </ActionMap>
+
+  <ActionMap name="look" >
+    <Import actionmap="system"/>
+    <Import actionmap="common_look"/>
+
+    <PadFilter name="right_thumb" device="pad" padAccelerationBoostAmplitude="0" >
+      <IronSightHelper>
+      </IronSightHelper>
+      <ShootCorrectionHelper/>
+      <Binding input="right_thumb_leftright" axis="0" sensitivity="1.0" curve="Weapons:AimCurves/Pad_LookLeftRight"/>
+      <Binding input="right_thumb_updown" axis="1" sensitivity="1.0" curve="Weapons:AimCurves/Pad_LookUpDown"/>
+    </PadFilter>
+    <Binding input="pad:right_thumb" action="update" signal="look"/>
+  </ActionMap>
+  
+	<ActionMap name="dashstore" resendOnChange="0">
+        <CompoundInput name="move" device="kb">
+            <Input input="left" axis="0"/>
+            <Input input="right" axis="0" invert="1"/>
+            <Input input="up" axis="1"/>
+            <Input input="down" axis="1" invert="1"/>
+        </CompoundInput>
+        <Binding input="kb:move" action="press" signal="dashstore_moveselection"/>
+        <Binding input="kb:move" action="hold" signal="dashstore_moveselection"/>
+    </ActionMap>
+	
+	<ActionMap name="openclose_dashstore" >    
+        <Binding input="kb:o" action="release" signal="toggle_dashstore"/>
+    </ActionMap>
+	
+	<ActionMap name="dash_gameplay" >
+    </ActionMap>
+</Root>

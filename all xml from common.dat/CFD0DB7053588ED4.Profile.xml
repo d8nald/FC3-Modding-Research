@@ -1,0 +1,37 @@
+<Profile
+    >
+    <QcConfig 
+        HostIp="localhost" 
+        GatherFPS="1" 
+        GatherAICnt="1" 
+        StatServerIp="10.133.4.114" 
+        IsQcTester="0" />
+
+  <!-- WorldConfig -->
+  <!-- RingData: entities, landmarkNear, landmarkFar, terrain, preload -->
+  <!-- RingLod: Hires, physic -->
+  <!-- RingData="4,5,10,20,1" -->
+    <WorldConfig 
+    RingData="4,1,4,10,1"
+    RingLod="1,4">
+    </WorldConfig>
+    
+    <PhysicConfig 
+        QualitySetting = "Medium">
+    </PhysicConfig>
+    
+    <InputConfig>
+        <PresetList>
+            <Preset File="ActionMaps\Presets\PS3\Default.xml" LocID="156356" />
+            <Preset File="ActionMaps\Presets\PS3\Default2.xml" LocID="172558" />
+            <Preset File="ActionMaps\Presets\PS3\DefaultFlipped.xml" LocID="166530" />
+            <Preset File="ActionMaps\Presets\PS3\LeftyShoulders.xml" LocID="172391" />
+            <Preset File="ActionMaps\Presets\PS3\LeftyShouldersFlipped.xml" LocID="172392" />
+            <Preset File="ActionMaps\Presets\PS3\Lefty.xml" LocID="156372" />
+            <Preset File="ActionMaps\Presets\PS3\LeftyFlipped.xml" LocID="166531" />
+            <Preset File="ActionMaps\Presets\PS3\LeftSticks.xml" LocID="156361" />
+            <Preset File="ActionMaps\Presets\PS3\LeftSticksFlipped.xml" LocID="166532" />
+        </PresetList>
+    </InputConfig>
+
+</Profile>

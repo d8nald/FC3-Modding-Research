@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="utf-8"?>
+<samplerstates>
+
+    <samplerstate name="GenericMaskWrap">
+        <base
+            addressu="wrap" addressv="wrap" addressw="wrap"
+            magfilter="linear" minfilter="linear" mipfilter="linear"
+            mipmaplodbias="0"
+        />
+        <quality level="medium" />
+    </samplerstate>
+    
+    <samplerstate name="AAAColorWrap">
+        <base
+            addressu="wrap" addressv="wrap" addressw="wrap"
+            magfilter="linear" minfilter="linear" mipfilter="linear"
+            mipmaplodbias="0"
+        />
+        <quality level="ultrahigh"
+            minfilter="anisotropic"
+            maxanisotropy="8"
+        />
+        <quality level="high"
+            minfilter="anisotropic"
+            maxanisotropy="2"
+        />
+        <quality level="medium" />
+        <quality level="low" />
+        <quality level="legacy"
+            minfilter="point" mipfilter="point"
+            mipmaplodbias="0.5"
+        />
+    </samplerstate>
+  <samplerstate name="AAAColorClamp">
+    <base
+        addressu="clamp" addressv="clamp" addressw="clamp"
+        magfilter="linear" minfilter="linear" mipfilter="linear"
+        mipmaplodbias="0"
+        />
+    <quality level="ultrahigh"
+        minfilter="anisotropic"
+        maxanisotropy="8"
+        />
+    <quality level="high"
+        minfilter="anisotropic"
+        maxanisotropy="2"
+        />
+    <quality level="medium" />
+    <quality level="low" />
+    <quality level="legacy"
+        minfilter="point" mipfilter="point"
+        mipmaplodbias="0.5"
+        />
+  </samplerstate>
+  <samplerstate name="AAANormalWrap">
+        <base
+            addressu="wrap" addressv="wrap" addressw="wrap"
+            magfilter="linear" minfilter="linear" mipfilter="linear"
+            mipmaplodbias="0"
+        />
+        <quality level="ultrahigh"
+            minfilter="anisotropic"
+            maxanisotropy="8"
+        />
+        <quality level="high"
+            minfilter="anisotropic"
+            maxanisotropy="2"
+        />
+        <quality level="medium" />
+        <quality level="low" />
+        <quality level="legacy"
+            minfilter="point" mipfilter="point"
+            mipmaplodbias="0.5"
+        />
+    </samplerstate>
+
+    <samplerstate name="SkinClothColorWrap">
+        <base
+            addressu="wrap" addressv="wrap" addressw="wrap"
+            magfilter="linear" minfilter="linear" mipfilter="linear"
+            mipmaplodbias="0"
+        />
+        <quality level="ultrahigh"
+            minfilter="anisotropic"
+            maxanisotropy="2"
+        />
+        <quality level="high" />
+        <quality level="medium" />
+        <quality level="low" />
+        <quality level="legacy"
+            minfilter="point" mipfilter="point"
+            mipmaplodbias="0.5"
+        />
+    </samplerstate>
+
+    <samplerstate name="SkinClothNormalWrap">
+        <base
+            addressu="wrap" addressv="wrap" addressw="wrap"
+            magfilter="linear" minfilter="linear" mipfilter="linear"
+            mipmaplodbias="0"
+        />
+        <quality level="ultrahigh"
+            minfilter="anisotropic"
+            maxanisotropy="2"
+        />
+        <quality level="high" />
+        <quality level="medium" />
+        <quality level="low" />
+        <quality level="legacy"
+            minfilter="point" mipfilter="point"
+            mipmaplodbias="0.5"
+        />
+    </samplerstate>
+
+    <samplerstate name="WeaponColorWrap">
+        <base
+            addressu="wrap" addressv="wrap" addressw="wrap"
+            magfilter="linear" minfilter="linear" mipfilter="linear"
+            mipmaplodbias="0"
+        />
+        <quality level="ultrahigh"
+            minfilter="anisotropic"
+            maxanisotropy="8"
+        />
+        <quality level="high"
+            minfilter="anisotropic"
+            maxanisotropy="4"
+        />
+        <quality level="medium"
+            minfilter="anisotropic"
+            maxanisotropy="2"
+        />
+        <quality level="low" />
+        <quality level="legacy"
+            minfilter="point" mipfilter="point"
+            mipmaplodbias="0.5"
+        />
+    </samplerstate>
+
+    <samplerstate name="VehicleColorWrap">
+        <base
+            addressu="wrap" addressv="wrap" addressw="wrap"
+            magfilter="linear" minfilter="linear" mipfilter="linear"
+            mipmaplodbias="0"
+        />
+        <quality level="ultrahigh"
+            minfilter="anisotropic"
+            maxanisotropy="2"
+        />
+        <quality level="high" />
+        <quality level="medium" />
+        <quality level="low" />
+        <quality level="legacy"
+            minfilter="point" mipfilter="point"
+            mipmaplodbias="0.5"
+        />
+    </samplerstate>
+    <samplerstate name="VehicleNormalWrap">
+        <base
+            addressu="wrap" addressv="wrap" addressw="wrap"
+            magfilter="linear" minfilter="linear" mipfilter="linear"
+            mipmaplodbias="0"
+        />
+        <quality level="ultrahigh"
+            minfilter="anisotropic"
+            maxanisotropy="2"
+        />
+        <quality level="high" />
+        <quality level="medium" />
+        <quality level="low" />
+        <quality level="legacy"
+            minfilter="point" mipfilter="point"
+            mipmaplodbias="0.5"
+        />
+    </samplerstate>
+
+    <samplerstate name="LeafWrap">
+        <base
+            addressu="wrap" addressv="wrap" addressw="wrap"
+            magfilter="linear" minfilter="linear" mipfilter="linear"
+            mipmaplodbias="0"
+        />
+        <quality level="ultrahigh"
+            minfilter="anisotropic"
+            maxanisotropy="16"
+        />
+        <quality level="high"
+            minfilter="anisotropic"
+            maxanisotropy="2"
+        />
+        <quality level="medium" 
+        />
+        <quality level="low"
+            mipfilter="point"
+        />
+        <quality level="legacy"
+            minfilter="point" mipfilter="point"
+        />
+    </samplerstate>
+
+    <samplerstate name="LeafClamp">
+        <base
+            addressu="clamp" addressv="clamp" addressw="clamp"
+            magfilter="linear" minfilter="linear" mipfilter="linear"
+            mipmaplodbias="0"
+        />
+        <quality level="ultrahigh"
+            minfilter="anisotropic"
+            maxanisotropy="16"
+        />
+        <quality level="high"
+            minfilter="anisotropic"
+            maxanisotropy="2"
+        />
+        <quality level="medium" 
+            minfilter="anisotropic"
+            maxanisotropy="2"
+        />
+        <quality level="low"
+            mipfilter="point"
+        />
+        <quality level="legacy"
+            minfilter="point" mipfilter="point"
+        />
+    </samplerstate>
+    
+    <samplerstate name="BigLeafColorWrap">
+        <base
+            addressu="wrap" addressv="wrap" addressw="wrap"
+            magfilter="linear" minfilter="linear" mipfilter="linear"
+            mipmaplodbias="0"
+        />
+        <quality level="ultrahigh"
+            minfilter="anisotropic"
+            maxanisotropy="16"
+        />
+        <quality level="high"
+            minfilter="anisotropic"
+            maxanisotropy="2"
+        />
+        <quality level="medium"
+            minfilter="anisotropic"
+            maxanisotropy="2"
+        >
+            <xenon minfilter="linear" />
+        </quality>
+
+        <quality level="low" />
+        <quality level="legacy"
+            minfilter="point" mipfilter="point"
+            mipmaplodbias="0.5"
+        />
+    </samplerstate>
+    <alias name="BigLeafNormalWrap" to="BigLeafColorWrap" />
+    
+    <samplerstate name="ColorClamp2D">
+        <quality
+            level="medium"
+            addressu="clamp"
+            addressv="clamp"
+            addressw="clamp"
+            magfilter="linear"
+            minfilter="linear"
+            mipfilter="none"
+        />
+    </samplerstate>
+    <samplerstate name="ColorPointClamp">
+        <quality
+            level="medium"
+            addressu="clamp"
+            addressv="clamp"
+            addressw="clamp"
+            magfilter="point"
+            minfilter="point"
+            mipfilter="point"
+        />
+    </samplerstate>
+    <samplerstate name="ColorPointClamp2D">
+        <quality
+            level="medium"
+            addressu="clamp"
+            addressv="clamp"
+            addressw="clamp"
+            magfilter="point"
+            minfilter="point"
+            mipfilter="none"
+        />
+    </samplerstate>
+    <samplerstate name="ColorPointWrap">
+        <quality
+            level="medium"
+            addressu="wrap"
+            addressv="wrap"
+            addressw="wrap"
+            magfilter="point"
+            minfilter="point"
+            mipfilter="point"
+        />
+    </samplerstate>
+    <samplerstate name="ColorPointWrapBias">
+        <quality
+            level="medium"
+            addressu="wrap"
+            addressv="wrap"
+            addressw="wrap"
+            magfilter="point"
+            minfilter="point"
+            mipfilter="point"
+            remapbias="1"
+        />
+    </samplerstate>
+    <samplerstate name="ColorMirror">
+        <quality
+            level="medium"
+            addressu="mirror"
+            addressv="mirror"
+            addressw="mirror"
+            magfilter="linear"
+            minfilter="linear"
+            mipfilter="linear"
+        />
+    </samplerstate>
+    <samplerstate name="ColorClamp">
+        <quality
+            level="medium"
+            addressu="clamp"
+            addressv="clamp"
+            addressw="clamp"
+            magfilter="linear"
+            minfilter="linear"
+            mipfilter="linear"
+        />
+    </samplerstate>
+    <samplerstate name="ColorBlackTransparentBorder">
+        <quality
+            level="medium"
+            addressu="border"
+            addressv="border"
+            addressw="border"
+            bordercolor="0"
+            magfilter="linear"
+            minfilter="linear"
+            mipfilter="linear"
+        />
+    </samplerstate>
+    <samplerstate name="ColorWrap">
+        <quality
+            level="medium"
+            addressu="wrap"
+            addressv="wrap"
+            addressw="wrap"
+            magfilter="linear"
+            minfilter="linear"
+            mipfilter="linear"
+        />
+    </samplerstate>
+    <samplerstate name="SkyDomeColorWrap">
+        <quality
+            level="medium"
+            addressu="wrap"
+            addressv="clamp"
+            addressw="clamp"
+            magfilter="linear"
+            minfilter="linear"
+            mipfilter="linear"
+        />
+    </samplerstate>
+    <samplerstate name="NormalClamp">
+        <quality
+            level="medium"
+            addressu="clamp"
+            addressv="clamp"
+            addressw="clamp"
+            magfilter="linear"
+            minfilter="linear"
+            mipfilter="linear"
+        />
+    </samplerstate>
+    <samplerstate name="NormalWrap">
+        <quality
+            level="medium"
+            addressu="wrap"
+            addressv="wrap"
+            addressw="wrap"
+            magfilter="linear"
+            minfilter="linear"
+            mipfilter="linear"
+        />
+    </samplerstate>
+    <samplerstate name="WaterNormal">
+        <quality
+            level="medium"
+            addressu="wrap"
+            addressv="wrap"
+            addressw="wrap"
+            magfilter="linear"
+            minfilter="anisotropic"
+            mipfilter="linear"
+            maxanisotropy="4"
+        />
+      <quality
+            level="ultrahigh"
+            addressu="wrap"
+            addressv="wrap"
+            addressw="wrap"
+            magfilter="linear"
+            minfilter="anisotropic"
+            mipfilter="linear"
+            maxanisotropy="8"
+        />
+    </samplerstate>
+    <samplerstate name="DepthSampler">
+        <quality
+            level="medium"
+            addressu="border"
+            addressv="border"
+            addressw="border"
+            bordercolor="FFFFFFFF"
+            magfilter="point"
+            minfilter="point"
+            mipfilter="none"
+        >
+        </quality>
+    </samplerstate>
+    <samplerstate name="DepthVPSampler">
+        <quality
+            level="medium"
+            addressu="clamp"
+            addressv="clamp"
+            addressw="clamp"
+            magfilter="point"
+            minfilter="point"
+            mipfilter="none"
+            maxanisotropy="1"
+        >
+        </quality>
+    </samplerstate>
+    <samplerstate name="ResolvedDepthVPSampler">
+        <quality
+            level="medium"
+            addressu="clamp"
+            addressv="clamp"
+            addressw="clamp"
+            magfilter="point"
+            minfilter="point"
+            mipfilter="none"
+        >
+        </quality>
+    </samplerstate>
+    <samplerstate name="VSMDepthSampler">
+        <quality
+            level="medium"
+            addressu="border"
+            addressv="border"
+            addressw="border"
+            bordercolor="FFFFFFFF"
+            magfilter="linear"
+            minfilter="linear"
+            mipfilter="none"
+        >
+        </quality>
+    </samplerstate>
+    <samplerstate name="ShadowSampler">
+        <quality
+            level="medium"
+            addressu="clamp"
+            addressv="clamp"
+            addressw="clamp"
+            bordercolor="FFFFFFFF"
+            magfilter="point"
+            minfilter="point"
+            mipfilter="none"
+        >
+            <ps3 magfilter="linear" minfilter="linear" zfunc="gequal" />
+            <win32 fetch4="1" hardwareshadowmap="1" />
+        </quality>
+    </samplerstate>
+    <samplerstate name="ShadowRealSampler">
+        <quality
+            level="medium"
+            addressu="clamp"
+            addressv="clamp"
+            addressw="clamp"
+            bordercolor="FFFFFFFF"
+            magfilter="linear"
+            minfilter="linear"
+            mipfilter="none"
+            comparisonfilter="lequal"
+        >
+        </quality>
+    </samplerstate>
+    <samplerstate name="TerrainColorClamp">
+        <quality
+            level="medium"
+            addressu="clamp"
+            addressv="clamp"
+            addressw="clamp"
+            magfilter="linear"
+            minfilter="linear"
+            mipfilter="point"
+            mipmaplodbias="0"
+        />
+    </samplerstate>
+    <samplerstate name="TerrainColorWrap">
+        <base
+            addressu="wrap"
+            addressv="wrap"
+            addressw="wrap"
+            magfilter="linear"
+            minfilter="linear"
+            mipfilter="linear"
+            mipmaplodbias="0"
+        />
+        <quality
+            level="ultrahigh"
+            minfilter="anisotropic"
+            maxanisotropy="8"
+        />
+        <quality
+            level="high"
+            minfilter="anisotropic"
+            maxanisotropy="4"
+        />
+        <quality
+            level="medium"
+            minfilter="anisotropic"
+            maxanisotropy="2"
+        />
+        <quality
+            level="low"
+        />
+        <quality
+            level="legacy"
+            magfilter="linear"
+            minfilter="point"
+            mipfilter="point"
+            mipmaplodbias="0.5"
+        />
+    </samplerstate>
+    <samplerstate name="TerrainNormalWrap">
+        <base
+            addressu="wrap"
+            addressv="wrap"
+            addressw="wrap"
+            magfilter="linear"
+            minfilter="linear"
+            mipfilter="linear"
+            mipmaplodbias="0"
+        />
+        <quality
+            level="ultrahigh"
+            minfilter="anisotropic"
+            maxanisotropy="16"
+        />
+        <quality
+            level="high"
+            minfilter="anisotropic"
+            maxanisotropy="4"
+        />
+        <quality
+            level="medium"
+            minfilter="anisotropic"
+            maxanisotropy="2"
+        />
+        <quality
+            level="low"
+        />
+        <quality
+            level="legacy"
+            magfilter="linear"
+            minfilter="point"
+            mipfilter="point"
+            mipmaplodbias="0.5"
+        />
+    </samplerstate>
+    <samplerstate name="SectorHemiMapSamplerStateLinear">
+      <quality
+          level="medium"
+          addressu="wrap"
+          addressv="wrap"
+          addressw="wrap"
+          magfilter="linear"
+          minfilter="linear"
+          mipfilter="point"
+          />
+    </samplerstate>
+  <samplerstate name="ColorWrapAniso">
+        <quality
+            level="medium"
+            addressu="wrap"
+            addressv="wrap"
+            addressw="wrap"
+            magfilter="linear"
+            minfilter="anisotropic"
+            mipfilter="linear"
+        />
+    </samplerstate>
+
+    <samplerstate name="RoadColorWrap">
+        <base
+            addressu="wrap" addressv="wrap" addressw="wrap"
+            magfilter="linear" minfilter="linear" mipfilter="linear"
+            mipmaplodbias="0"
+        />
+        <quality level="ultrahigh"
+            minfilter="anisotropic"
+            maxanisotropy="8"
+        />
+        <quality level="high"
+            minfilter="anisotropic"
+            maxanisotropy="4"
+        />
+        <quality level="medium"
+            minfilter="anisotropic"
+            maxanisotropy="2"
+        />
+        <quality level="low" />
+        <quality level="legacy"
+            minfilter="point" mipfilter="point"
+            mipmaplodbias="0.5"
+        />
+    </samplerstate>
+    
+    <samplerstate name="RoadNormalWrap">
+        <base
+            addressu="wrap" addressv="wrap" addressw="wrap"
+            magfilter="linear" minfilter="linear" mipfilter="linear"
+            mipmaplodbias="0"
+        />
+        <quality level="ultrahigh"
+            minfilter="anisotropic"
+            maxanisotropy="8"
+        />
+        <quality level="high"
+            minfilter="anisotropic"
+            maxanisotropy="4"
+        />
+        <quality level="medium"
+           minfilter="anisotropic"
+           maxanisotropy="2"
+        />
+        <quality level="low" />
+        <quality level="legacy"
+            minfilter="point" mipfilter="point"
+            mipmaplodbias="0.5"
+        />
+    </samplerstate>
+    <samplerstate name="Resolve">
+                <base
+            addressu="clamp" addressv="clamp" addressw="clamp"
+            magfilter="linear" minfilter="linear" mipfilter="linear"
+            mipmaplodbias="0"
+            convfilter="quincunx"
+        />
+        <quality level="ultrahigh"
+            minfilter="anisotropic"
+            maxanisotropy="1"
+        />
+        <quality level="high"
+            minfilter="anisotropic"
+            maxanisotropy="1"
+        />
+        <quality level="medium"
+           minfilter="anisotropic"
+           maxanisotropy="1"
+        />
+        <quality level="low" />
+        <quality level="legacy"
+            minfilter="point" mipfilter="point"
+            mipmaplodbias="0.5"
+        />
+    </samplerstate>
+    <samplerstate name="DiffuseLightingTexture">
+      <quality
+          level="medium"
+          addressu="clamp"
+          addressv="clamp"
+          addressw="clamp"
+          magfilter="point"
+          minfilter="point"
+          mipfilter="none"
+      />
+    </samplerstate>
+  
+    <samplerstate name="SpecularLightingTexture">
+      <quality
+          level="medium"
+          addressu="clamp"
+          addressv="clamp"
+          addressw="clamp"
+          magfilter="point"
+          minfilter="point"
+          mipfilter="none"
+      />
+    </samplerstate>
+
+    <samplerstate name="LinearZSampler">
+      <quality
+          level="medium"
+          addressu="clamp"
+          addressv="clamp"
+          addressw="clamp"
+          magfilter="point"
+          minfilter="point"
+          mipfilter="none"
+      />
+    </samplerstate>
+
+        <samplerstate name="NormalWSTexture">
+      <quality
+          level="medium"
+          addressu="clamp"
+          addressv="clamp"
+          addressw="clamp"
+          magfilter="linear"
+          minfilter="linear"
+          mipfilter="none"
+      />
+    </samplerstate>
+
+  <samplerstate name="DeferredAmbientTexture">
+    <quality
+        level="medium"
+        addressu="clamp"
+        addressv="clamp"
+        addressw="clamp"
+        magfilter="linear"
+        minfilter="linear"
+        mipfilter="none"
+      />
+  </samplerstate>
+
+  <samplerstate name="DeferredReflectedAmbientTexture">
+    <quality
+        level="medium"
+        addressu="clamp"
+        addressv="clamp"
+        addressw="clamp"
+        magfilter="linear"
+        minfilter="linear"
+        mipfilter="none"
+      />
+  </samplerstate>
+
+  <samplerstate name="DeferredShadowTexture">
+      <quality
+          level="medium"
+          addressu="clamp"
+          addressv="clamp"
+          addressw="clamp"
+          magfilter="point"
+          minfilter="point"
+          mipfilter="none"
+      />
+    </samplerstate>
+    
+    <samplerstate name="FogNoiseVolumeSampler">
+        <quality
+            level="medium"
+            addressu="wrap"
+            addressv="wrap"
+            addressw="wrap"
+            magfilter="linear"
+            minfilter="linear"
+            mipfilter="linear"
+            />
+    </samplerstate>
+  
+    <samplerstate name="ColorRemapVolumeSampler">
+        <quality
+            level="medium"
+            addressu="clamp"
+            addressv="clamp"
+            addressw="clamp"
+            magfilter="linear"
+            minfilter="linear"
+            mipfilter="linear"
+            />
+    </samplerstate>
+
+  <samplerstate name="LinearVolumeSamplerState">
+    <quality
+        level="medium"
+        addressu="clamp"
+        addressv="clamp"
+        addressw="clamp"
+        magfilter="linear"
+        minfilter="linear"
+        mipfilter="linear"
+        maxanisotropy="1"
+            />
+  </samplerstate>
+
+  <samplerstate name="LinearWrapVolumeSamplerState">
+    <quality
+        level="medium"
+        addressu="wrap"
+        addressv="wrap"
+        addressw="wrap"
+        magfilter="linear"
+        minfilter="linear"
+        mipfilter="linear"
+          />
+  </samplerstate>
+
+  <samplerstate name="GlobalIBLAmbientTexture">
+      <quality
+          level="medium"
+          addressu="clamp"
+          addressv="clamp"
+          addressw="clamp"
+          magfilter="linear"
+          minfilter="linear"
+          mipfilter="linear"
+        />
+    </samplerstate>
+
+  <samplerstate name="BFNTexture">
+    <quality
+        level="medium"
+        addressu="clamp"
+        addressv="clamp"
+        addressw="clamp"
+        magfilter="linear"
+        minfilter="linear"
+        mipfilter="point"
+        />
+  </samplerstate>
+    
+    <samplerstate name="LightmapTexture">
+      <quality
+          level="medium"
+          addressu="clamp"
+          addressv="clamp"
+          addressw="clamp"
+          magfilter="linear"
+          minfilter="linear"
+          mipfilter="linear"
+          />
+    </samplerstate>
+
+    <samplerstate name="LightmapGradientTexture">
+        <quality
+            level="medium"
+            addressu="clamp"
+            addressv="clamp"
+            addressw="clamp"
+            magfilter="linear"
+            minfilter="linear"
+            mipfilter="linear"
+            />
+    </samplerstate>
+
+    <samplerstate name="EnvironmentMapTexture">
+        <quality
+            level="medium"
+            addressu="clamp"
+            addressv="clamp"
+            addressw="clamp"
+            magfilter="linear"
+            minfilter="linear"
+            mipfilter="linear"
+            />
+    </samplerstate>
+</samplerstates>

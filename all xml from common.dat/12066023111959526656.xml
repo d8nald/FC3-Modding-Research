@@ -1,0 +1,30 @@
+<graphickit id="12066023111959526656" name="SHA_Lizard" unique="0" kittobone="1">
+	<slot name="MainBody" position="0" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="Lizard_01" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Lizard\Lizard_01.xml" mesh="Lizard_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Animal_Grey_ID1" id="jli-M-107201142503596">
+						<materialdatabase name="" weight="0">
+							<material id="yanzhou-M-1606201135521842" name="Lizard_01" weight="7" file="graphics\_materials\yanzhou-M-1606201135521842.material.xml">
+								<tag name="type_a" type="0" />
+								<tag name="type_b" type="4" />
+								<tag name="type_c" type="4" />
+							</material>
+							<material id="yanzhou-M-1606201137311623" name="Lizard_02" weight="3" file="graphics\_materials\yanzhou-M-1606201137311623.material.xml">
+								<tag name="type_b" type="0" />
+								<tag name="type_c" type="4" />
+								<tag name="type_a" type="4" />
+							</material>
+							<material id="yanzhou-M-1606201137445357" name="Lizard_03" weight="0" file="graphics\_materials\yanzhou-M-1606201137445357.material.xml">
+								<tag name="type_c" type="0" />
+								<tag name="type_b" type="4" />
+								<tag name="type_a" type="4" />
+							</material>
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

@@ -1,0 +1,59 @@
+<graphickit id="12109452433982226688" name="Privateer_Defender_Commander" unique="0" kittobone="1">
+	<slot name="Body" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Privateer_Defender_Commander" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Privateers\Privateer_Defender_Commander.xml" mesh="Privateer_Defender_Commander" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="eye" id="cromagnoli-M-2011120962900465">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privater_RPG_shirt_AsCopy_AsCopy" id="cromagnoli-M-2012080249188745">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privateer_Heavy_Vest_AsCopy" id="cromagnoli-M-2012080248346531">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="VIP_Face_01_AsCopy" id="cromagnoli-M-2012080248619858">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Body_Generic_AsCopy" id="cromagnoli-M-2012080248628864">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privateer_beard" id="akotelnikoff-M-2012052459382907">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privater_Sniper_Pants_Commander" id="cromagnoli-M-2012080248292715">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privater_Sniper_Jacke_AsCopy_AsCopy" id="cromagnoli-M-2012080248318088">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privater_Defender_Commander_Shirt" id="cromagnoli-M-2012080249919273">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Shoes_03_AsCopy" id="cromagnoli-M-2011121341310943">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privater_RPG_Helmet" id="cromagnoli-M-2011120952033140">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privateer_Defender_Commander_Scarf" id="cromagnoli-M-2012080243224105">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privater_Sniper_Jacke" id="cromagnoli-M-2011121240285009">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privater_Sniper_Jacke_Commander" id="cromagnoli-M-2012070639608141">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Body_Generic_AsCopy_AsCopy" id="cromagnoli-M-2012080249905448">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privater_RPG_shirt_AsCopy_AsCopy_AsCopy" id="cromagnoli-M-2012070639685447">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

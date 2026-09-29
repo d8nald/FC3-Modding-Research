@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<materialdescriptor xmlns:xi="#" name="Skin_Advanced" id="#(0x759b4c7b, 0x5e18d6e8)" version="7">
+    <geometryInputs normal="1" tangent="1" binormal="1" color="1" uvChannels="2" />
+    <features rimLighting="1" />
+    
+    <!--   Vertex color :
+         - Mask Texture: RED - Detail Mask
+         - Mask channel: GREEN - RimLight mask
+         - Mask channel: BLUE
+    -->
+    <!-- Textrues -->
+    <parameter name="DiffuseTexture" type="sampler2D" UvName="UVGroupMapChannel0" />
+    <parameter name="NormalTexture" type="sampler2D" UvName="UVGroupMapChannel0" useDefine="NORMALMAP" />
+    <parameter name="DiffuseMap2" type="sampler2D" UvName="UVGroupMapChannel1" replaceTexture="white" />    
+    <parameter name="LargeSpecularTexture" type="sampler2D" UvName="UVGroupMapChannel0" replaceTexture="white" />
+    <parameter name="DetailSpecularTexture" type="sampler2D" tilingName="DetailSpecularTiling" UvName="UVGroupMapChannel0" replaceTexture="black" />
+    <parameter name="DetailDiffuseTexture" type="sampler2D" tilingName="DetailDiffuseTiling" UvName="UVGroupMapChannel0" useDefine="DETAIL_MAP"  />
+    <parameter name="DetailNormalTexture" type="sampler2D" tilingName="DetailNormalTiling" UvName="UVGroupMapChannel0" useDefine="NORMALMAP2" />
+    
+    <!-- Uv group and tiling -->
+    <parameter name="UVGroupMapChannel0" type="int" />
+    <parameter name="UVGroupMapChannel1" type="int" />
+    <parameter name="UVGroupMapChannel2" type="int" />
+    <parameter name="DetailDiffuseTiling" type="float2" defaultvalue="1,1" />
+    <parameter name="DetailSpecularTiling" type="float2" defaultvalue="1,1" />
+    
+    <parameter name="DiffuseTiling1AndGroup1" type="float4" defaultvalue="1,1,0,0" provideronly="1" />
+    <parameter name="DiffuseTiling2AndGroup2" type="float4" defaultvalue="1,1,0,0" provideronly="1" />
+    <parameter name="SpecularTiling1AndGroup1" type="float4" defaultvalue="1,1,0,0" provideronly="1" />
+    <parameter name="DetailDiffuseTiling" type="float2" defaultvalue="1,1" />
+    <parameter name="DetailNormalTiling" type="float2" defaultvalue="1,1" />
+    
+    <!-- Colors and spec params -->
+    <parameter name="SkinColor" type="color4" defaultvalue="1,1,1,1" />
+    <parameter name="LargeSpecularColor" type="color4" />
+    <parameter name="DetailSpecularColor" type="color4" />
+    <parameter name="LargeSpecularGloss" type="float" defaultvalue="16" displayInMax="1" />
+    <parameter name="LargeSpecularIntensity" type="float" defaultvalue="1" displayInMax="1" />
+    <parameter name="GlossIntensity" type="float" defaultvalue="1" displayInMax="1" />
+
+    <parameter name="AmbientSpecularColor" type="color4" defaultvalue="1,1,1,1" />
+    <parameter name="AmbientSpecularIntensity" type="float" defaultValue="0" />
+    <parameter name="AmbientSpecularPower" type="float" defaultvalue="4" />
+
+    <parameter name="DetailSpecularIntensity" type="float" defaultvalue="1" displayInMax="1" />
+    <parameter name="DetailDiffuseIntensity" type="float" defaultvalue="1" displayInMax="1" />
+    <parameter name="DetailNormalIntensity" type="float" defaultvalue="1" displayInMax="1" />
+    <parameter name="NormalIntensity" type="float" defaultvalue="1" displayInMax="1" />
+    
+    <parameter name="RimLightColor" type="color4" defaultvalue="0.5, 0.5, 0.5, 1.0" />
+    <parameter name="RimLightBias" type="float" defaultvalue="1" />
+    <parameter name="RimLightEnable" type="bool" defaultvalue="0" />
+
+    <parameter name="TattooEnable" type="bool" defaultvalue="0" />
+    <parameter name="TattooUV" type="int" defaultvalue="1" />
+    <parameter name="TattooTexture" type="sampler2D" replaceTexture="transparent" />
+    <parameter name="AllowDistanceBoost" type="bool" defaultvalue="1" useDefine="ALLOWDISTANCEBOOST" />
+ 
+    <parameterprovider parametersfilename="Mesh_Skin_Advanced.parameters.inc.fx">
+        <!-- Textures -->
+        <parameter name="DiffuseTexture" />
+        <parameter name="NormalTexture" />
+        <parameter name="DiffuseMap2" />
+        <parameter name="DetailDiffuseTexture" />
+        <parameter name="LargeSpecularTexture" />
+        <parameter name="DetailSpecularTexture" />
+        <parameter name="DetailNormalTexture" />
+        
+        <parameter name="DiffuseTiling1AndGroup1" />
+        <parameter name="SpecularTiling1AndGroup1" />
+        <parameter name="DiffuseTiling2AndGroup2" />
+
+        <parameter name="DetailSpecularTiling" />
+        <parameter name="DetailDiffuseTiling" />
+        <parameter name="DetailNormalTiling" />
+        
+        <parameter name="SkinColor" />
+        <parameter name="LargeSpecularColor" />
+        <parameter name="LargeSpecularGloss" />
+        <parameter name="LargeSpecularIntensity" />
+        <parameter name="GlossIntensity" />
+
+        <parameter name="AmbientSpecularColor" />
+        <parameter name="AmbientSpecularIntensity" />
+        <parameter name="AmbientSpecularPower" />
+
+        <parameter name="DetailSpecularColor"/>
+        <parameter name="DetailSpecularIntensity" />
+
+        <parameter name="DetailDiffuseIntensity" />
+        <parameter name="DetailNormalIntensity" />
+        <parameter name="NormalIntensity" />
+        
+        <parameter name="RimLightColor" />
+        <parameter name="RimLightBias" />
+        <parameter name="RimLightEnable" />
+
+        <parameter name="TattooEnable" />
+        <parameter name="TattooUV" />
+        <parameter name="TattooTexture" />
+		<parameter name="AllowDistanceBoost" />
+    </parameterprovider>
+
+    <ui>
+        <xi:include href="../MaterialUIInclude.xml" />
+        
+        <group label="Vertex Mask Info">
+            <label>r = DetaiMap mask</label>
+            <label>g = RimLight + DetailNormal mask</label>
+            <label>b = DetailSpec mask</label>
+        </group>
+            
+        <!-- Diffuses -->
+        <group label="Diffuse Textures" horizontal="0">
+            <label>Diffuse</label>
+            <group horizontal="1">
+                <button dataBindings="SkinColor" >
+                    <dataBindings type="color" />
+                </button>
+                <button dataBindings="DiffuseTexture" fill="1" />
+            </group>
+            <label>Diffuse2 - Uv channel 2 - Multiply Blend</label>
+            <group horizontal="1">
+                <button dataBindings="DiffuseMap2" fill="1" />
+            </group>
+            
+            <label>Detail Diffuse</label>
+            <group horizontal="1" >
+                <button dataBindings="DetailDiffuseTexture" fill="1" />
+                <group>
+                    <textbox dataBindings="DetailDiffuseTiling.x">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                    <textbox dataBindings="DetailDiffuseTiling.y">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                </group>
+            </group>
+            <group horizontal="1" >
+                <label>Intensity</label>
+                <textbox databindings="DetailDiffuseIntensity">
+                    <dataBindings class="ZeroPositiveCff" />
+                </textbox>
+            </group>
+        </group>
+        
+        <!-- Normals -->
+        <group horizontal="0" label="Normals">
+            <label>Normal</label>
+            <group horizontal="1">
+                <button dataBindings="NormalTexture" fill="1" />
+            </group>
+          <group horizontal="1" >
+            <label>Intensity</label>
+            <textbox databindings="NormalIntensity">
+              <dataBindings class="ZeroPositiveCff" />
+            </textbox>
+          </group>
+          <group horizontal="0" label="Detail">
+            <label>Detail Normal</label>
+              <group horizontal="1" >
+                  <button dataBindings="DetailNormalTexture" fill="1" />
+                  <group>
+                      <textbox dataBindings="DetailNormalTiling.x">
+                          <dataBindings class="Tiling" />
+                      </textbox>
+                      <textbox dataBindings="DetailNormalTiling.y">
+                          <dataBindings class="Tiling" />
+                      </textbox>
+                  </group>
+              </group>
+              <group horizontal="1" >
+                  <label>Intensity</label>
+                  <textbox databindings="DetailNormalIntensity">
+                      <dataBindings class="ZeroPositiveCff" />
+                  </textbox>
+              </group>
+            </group>
+          </group>
+        
+        <!-- Large Specular -->
+        <group label="Specular" horizontal="0">
+            <label>Large Specular : r = spec mask, g = gloss</label>
+            <button dataBindings="LargeSpecularTexture" fill="1" />
+            <group horizontal="1">\
+                <label>Color</label>
+                <button dataBindings="LargeSpecularColor" >
+                    <dataBindings type="color" />
+                </button>
+                <label>Large Specular Intensity</label>
+                <textbox databindings="LargeSpecularIntensity">
+                    <dataBindings class="ZeroPositiveCff" />
+                </textbox>
+                <label>Gloss Intensity</label>
+                <textbox databindings="GlossIntensity">
+                    <dataBindings class="ZeroPositiveCff" />
+                </textbox>
+            </group>
+            <label>AmbientSpecular</label>
+            <group horizontal="1" >
+                <label>Color</label>
+                <button dataBindings="AmbientSpecularColor" >
+                    <dataBindings type="color" />
+                </button>
+                <label>Intensity</label>
+                <textbox databindings="AmbientSpecularIntensity">
+                    <dataBindings class="ZeroPositiveCff" />
+                </textbox>
+                <label>Power</label>
+                <textbox databindings="AmbientSpecularPower">
+                    <dataBindings class="ZeroPositiveCff" />
+                </textbox>
+            </group>
+            <label>Detail Specular</label>
+            <group horizontal="1" >
+                <button dataBindings="DetailSpecularTexture" fill="1" />
+                <group>
+                    <textbox dataBindings="DetailSpecularTiling.x">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                    <textbox dataBindings="DetailSpecularTiling.y">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                </group>
+            </group>
+            <group horizontal="1" >
+                <label>Color</label>
+                <button dataBindings="DetailSpecularColor" >
+                    <dataBindings type="color" />
+                </button>
+                <label>Intensity</label>
+                <textbox databindings="DetailSpecularIntensity">
+                    <dataBindings class="ZeroPositiveCff" />
+                </textbox>
+            </group>
+        </group>
+        
+        <group horizontal="1" label="Rim lighting">
+            <checkbox label="Enable" dataBindings="RimLightEnable" tooltip="Enable rim lighting." />
+            <label>Color</label>
+            <button dataBindings="RimLightColor" >
+                <dataBindings type="color" />
+            </button>
+            <label>Bias</label> <textbox databindings="RimLightBias" minvalue="0.01" maxvalue="5.00" defaultvalue="1" />
+        </group>
+
+        <group horizontal="1" label="Tattoo">
+            <checkbox label="Enable" dataBindings="TattooEnable" tooltop="Enable Tattoo" />
+            <label>UV</label>
+            <combobox dataBindings="TattooUV">
+                <comboboxitem value="1">UV2</comboboxitem>
+                <comboboxitem value="2">UV3</comboboxitem>
+            </combobox>
+        </group>
+        
+		  <group horizontal="1" label="AllowDistanceBoost">
+            <checkbox label="Enable" dataBindings="AllowDistanceBoost" tooltop="Allow distance boost" />
+        </group>
+		
+    </ui>
+</materialdescriptor>

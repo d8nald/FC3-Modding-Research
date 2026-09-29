@@ -1,0 +1,20 @@
+<graphickit id="12066023111959526912" name="SHA_Hyena" unique="0" kittobone="1">
+	<slot name="MainBody" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Hyena" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Hyena\Hyena.xml" mesh="Hyena" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Hyena_eyes" id="yanzhou-M-3008201153802738">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Hyena_alpha" id="yanzhou-M-3008201153019398">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Hyena_main_Body" id="yanzhou-M-3008201152705106">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

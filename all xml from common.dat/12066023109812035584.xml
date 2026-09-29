@@ -1,0 +1,5 @@
+<graphickit id="12066023109812035584" name="Amputee_NoArms" unique="0" kittobone="1">
+	<slot name="Body" position="0" bonename="Hips">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

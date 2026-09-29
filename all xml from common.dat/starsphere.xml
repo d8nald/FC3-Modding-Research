@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<materialdescriptor name="StarSphere" version="6">
+    <geometryInputs normal="1" tangent="0" binormal="0" color="0" uvChannels="1" />
+
+    <!-- As of 2009/06/04, the starsphere shader uses no mask or vertex painting -->
+
+    <parameter name="DiffuseTexture1" type="sampler2D"/>
+    
+    <parameterprovider parametersfilename="StarSphere.parameters.inc.fx">
+        <parameter name="DiffuseTexture1" />
+        <parameter name="Multipliers" />
+    </parameterprovider>
+
+    <parameter name="Multipliers" type="float2" defaultvalue="1, 0" />
+
+    <ui>
+        <group label="Diffuse texture">
+            <button dataBindings="DiffuseTexture1" fill="1" />
+        </group>
+        <group horizontal="1">
+            <label>HDR Multiplier</label>
+            <textbox dataBindings="Multipliers.x" />
+            <label>Opacity Multiplier</label>
+            <textbox dataBindings="Multipliers.y" />
+        </group>
+    </ui>
+    
+</materialdescriptor>

@@ -1,0 +1,77 @@
+<graphickit id="12066023109812037632" name="Rebel_Sniper" unique="0" kittobone="1">
+	<slot name="Body" position="-2" bonename="Spine">
+		<partdatabase name="" weight="0">
+			<part name="Rebel_Sniper" ref="graphics\__FC3_Graphics\_Common\Characters\Rebels\Rebel_Sniper.xml" mesh="Rebel_Sniper" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="RebelsBackPack" id="vrizzi-M-1409201149909650">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebels_Cloth" id="vrizzi-M-1909201140288176">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="RebelsCloak" id="vrizzi-M-1409201150015924">
+						<materialdatabase name="" weight="0">
+							<material id="bgauthierleblanc-M-20120413160739" name="RebelsCloak - Copy" weight="1" file="graphics\_materials\bgauthierleblanc-M-20120413160739.material.xml" />
+							<material id="vrizzi-M-1409201150015924" name="RebelsCloak" weight="1" file="graphics\_materials\vrizzi-M-1409201150015924.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Rebels_Head_Tattoos_01_AsCopy" id="vfortin-M-2011110751380215">
+						<materialdatabase name="" weight="0">
+							<material id="cromagnoli-M-20120426165504" name="Rebels_Head_Tattoos_01b" weight="1" file="graphics\_materials\cromagnoli-M-20120426165504.material.xml" />
+							<material id="cromagnoli-M-20120426165458" name="Rebels_Head_Tattoos_01c" weight="1" file="graphics\_materials\cromagnoli-M-20120426165458.material.xml" />
+							<material id="cromagnoli-M-20120426165718" name="Rebels_Head_Tattoos_01d" weight="1" file="graphics\_materials\cromagnoli-M-20120426165718.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Rebels_Assaulter_Body_01" id="slabreche-m-2011090259311431">
+						<materialdatabase name="" weight="0">
+							<material id="cromagnoli-M-20120426171708" name="Rebels_Assaulter_Body_01b" weight="1" file="graphics\_materials\cromagnoli-M-20120426171708.material.xml" />
+							<material id="slabreche-M-2011090259311431" name="Rebels_Assaulter_Body_01" weight="1" file="graphics\_materials\slabreche-M-2011090259311431.material.xml" />
+							<material id="vfortin-M-20120308140518" name="Rebels_Assaulter_Body_01_NoTattoo" weight="1" file="graphics\_materials\vfortin-M-20120308140518.material.xml" />
+							<material id="cromagnoli-M-20120426171712" name="Rebels_Assaulter_Body_01c" weight="1" file="graphics\_materials\cromagnoli-M-20120426171712.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Material #1328_AsCopy" id="slabreche-m-2011090151899407">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Villager_Hair_01" id="slabreche-m-2011081036340506">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Native Woman Eye" id="slabreche-m-20110719115948">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="eyelashes_man" id="akotelnikoff-m-2011041436994776">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Natives_Hat_01" id="slabreche-m-2011072042685502">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-m-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Pants" position="1" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="Rebel_Pants" ref="graphics\__FC3_Graphics\_Common\Characters\Rebels\Rebel_Pants.xml" mesh="Rebel_Pants" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Rebels_NPC_Pants_01" id="slabreche-M-2011111751362114">
+						<materialdatabase name="" weight="0">
+							<material id="slabreche-M-2011111751362114" name="Rebels_NPC_Pants_01" weight="1" file="graphics\_materials\slabreche-M-2011111751362114.material.xml" />
+							<material id="bgauthierleblanc-M-20120413151331" name="Rebels_NPC_Pants_02" weight="1" file="graphics\_materials\bgauthierleblanc-M-20120413151331.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Material #1328_AsCopy" id="slabreche-m-2011090151899407">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebels_Assaulter_Body_01" id="slabreche-m-2011090259311431">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

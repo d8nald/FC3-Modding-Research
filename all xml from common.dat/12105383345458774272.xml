@@ -1,0 +1,53 @@
+<graphickit id="12105383345458774272" name="Race_Queen" unique="0" kittobone="1">
+	<slot name="Body" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Flag_Girl" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\Flag_Girl.xml" mesh="Flag_Girl" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="SV_Female_Hair_02" id="slabreche-M-2012013041776224">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="SVF_Beads" id="slabreche-M-2012011155231236">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="SV_Female_Pants_01_AsCopy" id="vfortin-M-2012071161035814">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="SV_Female_Pareo_01_AsCopy" id="vfortin-M-2012071161061342">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="SV_Female_Shirts_01_AsCopy" id="vfortin-M-2012071161005324">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="SV_Female_Body_01" id="slabreche-M-2012010963424848">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Hair_Hibiscus_AsCopy" id="vfortin-M-2012071160969075">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-M-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="SV_Girls_Eye" id="slabreche-M-2012011056458674">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="SV_Girls_Eye_IRIS" id="slabreche-M-2012011056478514">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Kebe_eyelashes" id="akotelnikoff-M-2011093050167052">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Eye_shadow" id="akotelnikoff-M-2011083067336073">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Female_Villagers_Sexy_Head_01_AsCopy" id="bwaddingham-M-2012040251755274">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Shoes" id="vfortin-M-2012071251465270">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7659413964971</field>
+  <field name="Name" type="String">WildLife/AnimalSimpleAnimation.Carcass</field>
+  <object name="Entity">
+    <field name="hidName" type="String">FC3_STP:WildLife/AnimalSimpleAnimation.Carcass</field>
+    <field name="disEntityId" type="Int64">14831</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">2</field>
+    <field name="hidPos" type="Vector3">-641,-641,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">-641,-641,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object hash="BA1DD7BB">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="49BF3666" type="BinHex">03000000</field>
+        <field hash="7D4FB7FC" type="BinHex">00</field>
+        <field hash="43140C6E" type="BinHex">00000000</field>
+        <field hash="34A69254" type="BinHex">616E696D616C5F6561745F636F7270736500</field>
+        <field hash="24E01207" type="BinHex">B8CE2186</field>
+        <field hash="F40CCD04" type="BinHex">01</field>
+        <field hash="09ED45C2" type="BinHex">00</field>
+        <field hash="D2D2FC59" type="BinHex">01</field>
+        <field hash="B47B31AD" type="BinHex">01000000</field>
+        <field hash="CC8DD18C" type="BinHex">00</field>
+        <field hash="D54F0DD2" type="BinHex">656E67696E655C736372697074735C67616D655C636F6E7465787475616C616374696F6E5C7374705C616E696D616C73696D706C65616E696D6174696F6E2E61692E726D6C00</field>
+        <field hash="3F116DF6" type="BinHex">237B8540BDC91841</field>
+        <field hash="5CC4DE62" type="BinHex">3A3A416E696D616C53696D706C65416E696D6174696F6E2F416E696D616C53696D706C65416E696D6174696F6E00</field>
+        <field hash="C03ED7F8" type="BinHex">E7B92E3B</field>
+        <object hash="7C161A2B">
+          <field hash="3CD06B6C" type="BinHex">00008042</field>
+          <field hash="6B5100F5" type="BinHex">0000F041</field>
+          <field hash="7F2C5982" type="BinHex">02000000</field>
+          <field hash="4AEB350B" type="BinHex">01</field>
+          <field hash="F007646B" type="BinHex">00</field>
+          <field hash="ED138EAA" type="BinHex">00</field>
+          <field hash="7EB58A0C" type="BinHex">00</field>
+          <field hash="F223B268" type="BinHex">00</field>
+          <field hash="0D018660" type="BinHex">00</field>
+          <field hash="DD4A25E8" type="BinHex">00000000</field>
+          <object hash="112A7174">
+            <field hash="33723F9E" type="BinHex">01</field>
+            <field hash="1CEECF6D" type="BinHex">00</field>
+            <field hash="892CADB4" type="BinHex">00</field>
+            <field hash="F91A123C" type="BinHex">01</field>
+            <field hash="99036EEC" type="BinHex">01</field>
+          </object>
+          <object hash="BEBF56A7">
+            <field hash="B37C8714" type="BinHex">01</field>
+            <field hash="1AFE8264" type="BinHex">01</field>
+            <field hash="DF00DDC4" type="BinHex">01</field>
+            <field hash="9784F7E5" type="BinHex">01</field>
+          </object>
+          <object hash="6869B740">
+            <field hash="16AC26ED" type="BinHex">01</field>
+            <field hash="A0167C21" type="BinHex">01</field>
+          </object>
+        </object>
+        <object hash="49CE4B2E">
+          <field hash="18366F1F" type="BinHex">00</field>
+          <field hash="49F0A130" type="BinHex">616E696D616C5F6561745F636F7270736500</field>
+          <field hash="FFB22D22" type="BinHex">2E451A97D71922AF</field>
+          <field hash="145FF7BE" type="BinHex">01</field>
+          <field hash="7F29E296" type="BinHex">00001644</field>
+          <field hash="0C70D8B7" type="BinHex">01</field>
+          <field hash="C2B0FB15" type="BinHex">1F856B3F</field>
+          <field hash="1794DEF6" type="BinHex">00</field>
+          <field hash="3335F1C9" type="BinHex">FFFFFFFFFFFFFFFF</field>
+          <field hash="418902A7" type="BinHex">00000000</field>
+          <field hash="2BCD0065" type="BinHex">01</field>
+          <field hash="219515F9" type="BinHex">7B146E3F</field>
+          <field hash="1D7A8546" type="BinHex">00</field>
+          <field hash="D7329A9C" type="BinHex">01</field>
+          <field hash="46555BD4" type="BinHex">00008040</field>
+          <field hash="FEFA05E0" type="BinHex">00</field>
+          <field hash="0DF53624" type="BinHex">FFFFFFFFFFFFFFFF</field>
+          <field hash="FEF804BF" type="BinHex">FFFFFFFFFFFFFFFF</field>
+          <field hash="8A5820DB" type="BinHex">00000041</field>
+          <field hash="9B36E44B" type="BinHex">00</field>
+          <field hash="6839D78F" type="BinHex">FFFFFFFFFFFFFFFF</field>
+          <object hash="2649EC03">
+            <field hash="FE11D138" type="BinHex">416C6C6F774C61796572416374696F6E00</field>
+            <field hash="2CECF817" type="BinHex">01</field>
+          </object>
+          <object hash="2649EC03">
+            <field hash="FE11D138" type="BinHex">6D6F76654C6F6F7000</field>
+            <field hash="2CECF817" type="BinHex">0E</field>
+          </object>
+          <object hash="2649EC03">
+            <field hash="FE11D138" type="BinHex">496E74657272616374696F6E456E746974794D757374426556616C696400</field>
+            <field hash="2CECF817" type="BinHex">01</field>
+          </object>
+          <object hash="2649EC03">
+            <field hash="FE11D138" type="BinHex">4475726174696F6E00</field>
+            <field hash="2CECF817" type="BinHex">05</field>
+          </object>
+          <object hash="2649EC03">
+            <field hash="FE11D138" type="BinHex">537769746368546F5265647563656453656E736F727900</field>
+            <field hash="2CECF817" type="BinHex">01</field>
+          </object>
+          <object hash="2649EC03">
+            <field hash="FE11D138" type="BinHex">54776F53746167654D6F76654D6178436F73696E6500</field>
+            <field hash="2CECF817" type="BinHex">05</field>
+          </object>
+          <object hash="2649EC03">
+            <field hash="FE11D138" type="BinHex">6D6F7665456E6400</field>
+            <field hash="2CECF817" type="BinHex">0E</field>
+          </object>
+          <object hash="2649EC03">
+            <field hash="FE11D138" type="BinHex">44657374696E6174696F6E52656163686564546F6C6572616E636500</field>
+            <field hash="2CECF817" type="BinHex">05</field>
+          </object>
+          <object hash="2649EC03">
+            <field hash="FE11D138" type="BinHex">4F7269656E7448656164546F7761726453545000</field>
+            <field hash="2CECF817" type="BinHex">01</field>
+          </object>
+          <object hash="2649EC03">
+            <field hash="FE11D138" type="BinHex">4F7269656E74546F776172644D6178436F73696E6500</field>
+            <field hash="2CECF817" type="BinHex">05</field>
+          </object>
+          <object hash="2649EC03">
+            <field hash="FE11D138" type="BinHex">4F7269656E74546F7761726400</field>
+            <field hash="2CECF817" type="BinHex">01</field>
+          </object>
+          <object hash="2649EC03">
+            <field hash="FE11D138" type="BinHex">54776F53746167654D6F766500</field>
+            <field hash="2CECF817" type="BinHex">01</field>
+          </object>
+          <object hash="2649EC03">
+            <field hash="FE11D138" type="BinHex">54776F53746167654D6F76654D696E44697374616E636500</field>
+            <field hash="2CECF817" type="BinHex">05</field>
+          </object>
+          <object hash="2649EC03">
+            <field hash="FE11D138" type="BinHex">6D6F7665537461727400</field>
+            <field hash="2CECF817" type="BinHex">0E</field>
+          </object>
+          <object hash="2649EC03">
+            <field hash="FE11D138" type="BinHex">496E74657272616374696F6E456E74697479496400</field>
+            <field hash="2CECF817" type="BinHex">0F</field>
+          </object>
+          <object hash="2649EC03">
+            <field hash="FE11D138" type="BinHex">54776F53746167654D6F76654D617844697374616E636500</field>
+            <field hash="2CECF817" type="BinHex">05</field>
+          </object>
+          <object hash="2649EC03">
+            <field hash="FE11D138" type="BinHex">6D6F766541626F727400</field>
+            <field hash="2CECF817" type="BinHex">0E</field>
+          </object>
+        </object>
+        <object hash="5C899720">
+          <object hash="5C899720">
+            <field hash="DF90D40B" type="BinHex">616E696D616C5F6561745F636F7270736500</field>
+            <field hash="5C899720" type="BinHex">2E451A97D71922AF</field>
+          </object>
+          <object hash="5C899720">
+            <field hash="DF90D40B" type="BinHex">00</field>
+            <field hash="5C899720" type="BinHex">FFFFFFFFFFFFFFFF</field>
+          </object>
+          <object hash="5C899720">
+            <field hash="DF90D40B" type="BinHex">00</field>
+            <field hash="5C899720" type="BinHex">FFFFFFFFFFFFFFFF</field>
+          </object>
+          <object hash="5C899720">
+            <field hash="DF90D40B" type="BinHex">00</field>
+            <field hash="5C899720" type="BinHex">FFFFFFFFFFFFFFFF</field>
+          </object>
+        </object>
+        <object hash="BB3B0A79">
+          <field hash="39886E63" type="BinHex">00002041</field>
+          <field hash="E16F0B94" type="BinHex">0000C841</field>
+        </object>
+      </object>
+      <object name="CGroupComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="hidInjected" type="Boolean">True</field>
+        <object name="Groups">
+          <object name="group">
+            <field name="text_group" type="String"></field>
+            <field name="group" type="Hash32">FFFFFFFF</field>
+          </object>
+        </object>
+      </object>
+    </object>
+  </object>
+</object>

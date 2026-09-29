@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7707117663611</field>
+  <field name="Name" type="String">BrStatic_WoodFence_01</field>
+  <object name="Entity">
+    <field name="hidName" type="String">FC3_Graphics:Singleplayer:Generic:BreakableStatic:BrStatic_WoodFence_01</field>
+    <field name="disEntityId" type="Int64">8280</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">2</field>
+    <field name="hidPos" type="Vector3">-129,-129,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">-129,-129,0</field>
+    <field name="hidConstEntity" type="Boolean">True</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileName" type="String">graphics\__fc3_graphics\singleplayer\infrastructures\fences\brstatic_woodfence_01.xml</field>
+        <field name="fileName" type="Hash64">8836AD6B0E0A5FAC</field>
+        <field name="hidDescriptor" type="Rml">
+          <rml>
+            <hidDescriptor>
+              <component class="GraphicComponent" version="2" detail="0">
+                <object index="0" boneName="BrStatic_WoodFence_01_LOD0" bboxMin="-1.00356,-0.0769613,-0.00751631" bboxMax="0.995834,0.0402749,0.462517" />
+                <resource fileName="graphics\__FC3_Graphics\SinglePlayer\InfraStructures\Fences\BrStatic_WoodFence_01.xbg" bboxMin="-3.20818,-0.0769614,-0.00751631" bboxMax="0.995834,0.0402749,1.27267" />
+                <skeleton_reference_list>
+                  <skeleton name="BrStatic_WoodFence_01" index="0" pos="0,0,0" rot="1,-0,-0,-0" />
+                </skeleton_reference_list>
+                <material_reference_list>
+                  <material name="WoodCratesPainted" shader_name="Generic_FC3" ref_shader_id="MM_Generic_Wood_CratesWood02" />
+                </material_reference_list>
+              </component>
+              <component class="InteriorVolumeComponent" version="1" detail="0" />
+              <component class="StaticPhysComponent">
+                <resource fileName="graphics\__FC3_Graphics\SinglePlayer\InfraStructures\Fences\BrStatic_WoodFence_01.hkx" />
+              </component>
+            </hidDescriptor>
+          </rml>
+        </field>
+        <field name="hidCrcCheck" type="Hash32">FFFFFFFF</field>
+      </object>
+      <object hash="FE7AD4CF">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">True</field>
+        <field name="hidComponentClassName" type="BinHex">4353746174696347726170686963436F6D706F6E656E7400</field>
+        <field name="bCastShadow" type="Boolean">True</field>
+        <field name="bReceiveShadow" type="Boolean">True</field>
+        <field name="bCastAmbientShadow" type="Boolean">True</field>
+        <field name="olgLightGroup" type="Int32">129</field>
+        <field name="bShowInReflection" type="Boolean">False</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bExcludeFromPortalSystem" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="clrHighLightColor" type="Vector3">1,0.9,0.6</field>
+        <field name="clrHighLightColor2" type="Vector3">1,0.9,0.6</field>
+        <field name="fHighLightSpeed" type="Float32">1</field>
+        <field name="bLodDitheringEnable" type="Boolean">True</field>
+        <field name="matIntuitionMaterialName" type="String"></field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field hash="6CF79F05" type="BinHex">00000000</field>
+        <field hash="3182766C" type="BinHex">67726170686963735C5F5F6663335F67726170686963735C73696E676C65706C617965725C696E667261737472756374757265735C66656E6365735C62727374617469635F776F6F6466656E63655F30312E78626700</field>
+        <field hash="C28D45A8" type="BinHex">AC5F0A0E6B3D6F87</field>
+        <field hash="3D5AC03A" type="BinHex">00</field>
+        <object name="MaterialLightSwitch">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">mm_generic_wood_crateswood02</field>
+              <field name="disSlotId" type="Hash32">01C2CB20</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="MaterialOverrides">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">mm_generic_wood_crateswood02</field>
+              <field name="disSlotId" type="Hash32">01C2CB20</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object hash="0C176DC5" />
+        <object hash="E1FF9F74" />
+      </object>
+      <object hash="037FB709">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="527E7674" type="BinHex">67726170686963735C5F5F6663335F67726170686963735C73696E676C65706C617965725C696E667261737472756374757265735C66656E6365735C62727374617469635F776F6F6466656E63655F30312E686B7800</field>
+        <field hash="2E50EB85" type="BinHex">AC5F0A0E6B16F395</field>
+        <field hash="5BABAAC6" type="BinHex">00</field>
+        <field hash="CFA0AA41" type="BinHex">01</field>
+        <field hash="706E541C" type="BinHex">00000000</field>
+        <field hash="0C838A6E" type="BinHex">00</field>
+        <field hash="C784A41F" type="BinHex">00</field>
+        <field hash="BF1EB181" type="BinHex">00</field>
+        <field hash="28429047" type="BinHex">00</field>
+        <field hash="DFF6CC88" type="BinHex">00</field>
+        <field hash="703D17B2" type="BinHex">00</field>
+        <field hash="245BEC5F" type="BinHex">00</field>
+        <field hash="387811D0" type="BinHex">00</field>
+        <field hash="A8699EF0" type="BinHex">00000000</field>
+        <field hash="622700D2" type="BinHex">00</field>
+        <object hash="18327EA1" />
+      </object>
+      <object hash="2D40B333">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <object hash="F721F484">
+          <object hash="4CC9A9C1">
+            <field hash="8DCCF32F" type="BinHex">01</field>
+            <field hash="C7C8897C" type="BinHex">01</field>
+            <field hash="B554C78E" type="BinHex">0000803F000000000000000000000000000000000000803F000000000000000000000000000000000000803F000000000000000000000000000000000000803F</field>
+            <field hash="5AA72CCC" type="BinHex">00000000</field>
+            <object hash="BB6282B1">
+              <object hash="4F172AFF">
+                <object hash="618C7EC1">
+                  <field hash="6252FDFF" type="BinHex">FFFFFFFF</field>
+                  <object hash="F5506EC1" />
+                  <object hash="36E7B43E" />
+                  <object hash="9BDE1331" />
+                </object>
+              </object>
+            </object>
+          </object>
+        </object>
+      </object>
+      <object hash="0C5A5F7D">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <object hash="D89DA0E2">
+          <field hash="66DF97F5" type="BinHex">01000000</field>
+          <field hash="EB9B8FFE" type="BinHex">00000000</field>
+          <field hash="49B9C770" type="BinHex">00000000</field>
+          <field hash="734518AB" type="BinHex">00000000</field>
+        </object>
+      </object>
+      <object hash="D5CB8253">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="3182766C" type="BinHex">00</field>
+        <field hash="C28D45A8" type="BinHex">FFFFFFFFFFFFFFFF</field>
+        <field hash="E57468B1" type="BinHex">FFFFFFFF00000000</field>
+      </object>
+      <object hash="E683B521">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="2BA6E1A6" type="BinHex">FFFFFFFF00000000</field>
+      </object>
+    </object>
+  </object>
+</object>

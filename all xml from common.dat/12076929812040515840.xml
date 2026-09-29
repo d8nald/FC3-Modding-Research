@@ -1,0 +1,32 @@
+<graphickit id="12076929812040515840" name="Captain_Dead" unique="0" kittobone="1">
+	<slot name="Body" position="0" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="Captain_Dead" ref="graphics\__FC3_Graphics\_Common\Characters\Multiplayer\Coop\Captain\Captain_Dead.xml" mesh="Captain_Dead" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Captain_Dead_Shirt" id="oskarlundqvist-M-2012020948757375">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Captain_Dead_Pants" id="oskarlundqvist-M-2012020948777913">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Captain_Dead_Head" id="oskarlundqvist-M-2012020948703560">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Captain_Dead_Body" id="oskarlundqvist-M-2012020948731870">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Captain Iris" id="oskarlundqvist-M-2012020940252515">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Captain Eye" id="oskarlundqvist-M-2012020940247742">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Coop_Teeth" id="oskarlundqvist-M-2011101953276037">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

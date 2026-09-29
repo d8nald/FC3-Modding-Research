@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materialdescriptor xmlns:xi="#" name="Metal_Advanced" id="#(0x2bf4a8e, 0x727ba214)" version="1">
+    <geometryInputs normal="1" tangent="1" binormal="1" color="1" uvChannels="2" />
+
+    <parameter name="AlphaTestEnabled" type="bool" />
+    <parameter name="TwoSided" type="bool" />
+    <parameter name="BlendingType" type="int" />
+    <parameter name="ReflectionPower" type="float" defaultvalue="1" />
+    
+    <parameter name="DiffuseTexture1" type="sampler2D" tilingName="DiffuseTiling1" UvName="UVGroupMapChannel1" defaultvalue="graphics\__FC3_Graphics\_Common\_Textures\Generic\Colors\Grey.png" optional="0" />
+    <parameter name="DiffuseTiling1" type="float2" defaultvalue="1,1" />
+    <parameter name="DiffuseColor1" type="color4" defaultvalue="1,1,1,1" />
+
+    <parameter name="DiffuseTexture2" type="sampler2D" tilingName="DiffuseTiling2" UvName="UVGroupMapChannel2" replaceTexture="transparent" />
+    <parameter name="DiffuseTiling2" type="float2" defaultvalue="1,1" />
+    
+    <parameter name="DirtTexture" type="sampler2D" tilingName="DiffuseTiling1" UvName="UVGroupMapChannel1" replaceTexture="white" />
+     
+    <parameter name="MaskTexture1" type="sampler2D" tilingName="MaskTiling1" UvName="UVGroupMapChannel0" defaultvalue="graphics\__FC3_Graphics\_Common\_Textures\Generic\Colors\White.png" optional="0" />
+    <parameter name="MaskTiling1" type="float2" ignore="1" defaultvalue="1,1" />
+    <parameter name="DirtTiling" type="float2" defaultvalue="1,1" />
+
+    <parameter name="SpecularColor1" type="color4" defaultvalue="1,1,1,1" />
+    <parameter name="SpecularPower" type="float" defaultvalue="16" displayInMax="1" />
+
+    <parameter name="SelfIllumColor" type="color4" defaultvalue="0,0,0,1" />
+
+    <!-- self illumination power -->
+    <parameter name="SelfIlluminationParams" type="float" defaultvalue="1" />
+    
+    <parameter name="NormalTexture1" type="sampler2D" tilingName="NormalTiling1" UvName="UVGroupMapChannel3" defaultvalue="graphics\__FC3_Graphics\_Common\_Textures\Generic\Colors\Neutral_NormalMap.png" optional="0" />
+    <parameter name="NormalTexture2" type="sampler2D" tilingName="DiffuseTiling2" UvName="UVGroupMapChannel2" VCMaskChannel="9" />
+    <parameter name="NormalTiling1" type="float2" defaultvalue="1,1" />
+    <parameter name="ReflectionTexture" type="samplerCUBE" tilingName="DiffuseTiling1" UvName="UVGroupMapChannel1" defaultvalue="graphics\__FC3_Graphics\_Common\_Textures\Generic\Cubemap\Cube_Map_Gen_03.png" optional="0" />
+
+    <parameter name="UVGroupMapChannel0" type="int" />
+    <parameter name="UVGroupMapChannel1" type="int" />
+    <parameter name="UVGroupMapChannel2" type="int" />
+    <parameter name="UVGroupMapChannel3" type="int" />
+
+    <parameter name="DiffuseTiling1AndGroup1" type="float4" defaultvalue="1,1,0,0" provideronly="1" />
+    <parameter name="DiffuseTiling2AndGroup2" type="float4" defaultvalue="1,1,0,0" provideronly="1" />
+    <parameter name="NormalTiling1AndGroup3" type="float4" defaultvalue="1,1,0,0" provideronly="1" />
+    <parameter name="MaskTiling1AndGroup0" type="float4" defaultvalue="1,1,0,0" provideronly="1" />
+    
+      <parameter name="SpecMultiplier" type="float" defaultvalue="1.0" displayInMax="1"/>
+      <parameter name="Normal1Modifier" type="float" defaultvalue="1.0" displayInMax="1"/>
+    <parameter name="Normal2Modifier" type="float" defaultvalue="1.0" displayInMax="1"/>
+
+
+    <parameterprovider parametersfilename="Mesh_Metal_Advanced.parameters.inc.fx">
+        <parameter name="ReflectionPower" />
+        <parameter name="DiffuseTexture1">
+            <alias name="DiffuseTexture1Shadow" />
+        </parameter>
+        <parameter name="DirtTexture" />
+        <parameter name="DiffuseTexture2" />
+        <parameter name="DiffuseColor1" />
+        <parameter name="MaskTexture1" />
+        <parameter name="SpecularColor1" />
+        <parameter name="SpecularPower" />
+        <parameter name="NormalTexture1" />
+        <parameter name="NormalTexture2" />
+        <parameter name="ReflectionTexture" />
+        <parameter name="DiffuseTiling1AndGroup1" />
+        <parameter name="DiffuseTiling2AndGroup2" />
+        <parameter name="NormalTiling1AndGroup3" />
+        <parameter name="MaskTiling1AndGroup0" />
+        <parameter name="SpecMultiplier" />
+        <parameter name="Normal1Modifier" />
+        <parameter name="Normal2Modifier" />
+        <parameter name="SelfIllumColor" />
+        <parameter name="SelfIlluminationParams" />
+        <parameter name="DirtTiling" />
+    </parameterprovider>
+
+    <ui>
+        <xi:include href="../MaterialUIInclude.xml" />
+        
+        <group horizontal="1" label="Settings">
+            <group>
+                <checkbox label="Two sided" dataBindings="TwoSided" />
+                <checkbox label="Alpha test" dataBindings="AlphaTestEnabled" />
+            </group>
+        </group>
+
+        <group label="Mask">
+            <group>
+                <label>r = specular mask</label>
+                <label>g = Cube map mask</label>
+                <label>b = Normal 2 overlay factor</label>
+                <label>a = Self illumination</label>
+            </group>
+            <group horizontal="1">
+                <label>Specular color</label>
+                <button dataBindings="SpecularColor1">
+                    <dataBindings type="color" />
+                </button>
+                   <button dataBindings="MaskTexture1" fill="1"/>
+                <textbox dataBindings="UVGroupMapChannel0">
+                    <dataBindings class="UVChannel" />
+                </textbox>
+                <group>
+                    <textbox dataBindings="MaskTiling1.x">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                    <textbox dataBindings="MaskTiling1.y">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                </group>
+            </group>
+            <group horizontal="1">
+                <label>Gloss</label>
+                <textbox databindings="SpecularPower">
+                    <dataBindings class="ZeroPositiveCff" />
+                </textbox>
+                <label>spec multiplier</label> 
+                <textbox databindings="SpecMultiplier" minvalue="0.01" defaultvalue="1" />
+            </group>
+        </group>
+
+        <group label=" Self Illumination - Illumination map in the alpha channel of the mask" >
+            <group horizontal="1">
+                <label>Tint color</label>
+                <button dataBindings="SelfIllumColor">
+                    <dataBindings type="color" />
+                </button>
+                <label>Self illumination Multiplier</label>
+                <textbox dataBindings="SelfIlluminationParams" />
+            </group>
+        </group>
+        <group label="Diffuse">
+            <label>Diffuse 1</label>
+            <group horizontal="1">
+                <button dataBindings="DiffuseColor1">
+                    <dataBindings type="color" />
+                </button>
+                <button dataBindings="DiffuseTexture1" fill="1" />
+                <textbox dataBindings="UVGroupMapChannel1">
+                    <dataBindings class="UVChannel" />
+                </textbox>
+                <group>
+                    <textbox dataBindings="DiffuseTiling1.x">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                    <textbox dataBindings="DiffuseTiling1.y">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                </group>
+            </group>
+            <label>Dirt Map - UV channel 1 - Multiply Mode - Masked by R channel of the vertex color</label>
+            <group horizontal="1">
+                <button dataBindings="DirtTexture" fill="1" />
+                <group>
+                    <textbox dataBindings="DirtTiling.x">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                    <textbox dataBindings="DirtTiling.y">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                </group>
+            </group>
+            <label>Diffuse 2 -  Alpha Mode</label>
+            <group horizontal="1">
+                <button dataBindings="DiffuseTexture2" fill="1" />
+                <textbox dataBindings="UVGroupMapChannel2">
+                    <dataBindings class="UVChannel" />
+                </textbox>
+                <group>
+                    <textbox dataBindings="DiffuseTiling2.x">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                    <textbox dataBindings="DiffuseTiling2.y">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                </group>
+            </group>
+        </group>
+
+        <group label="Normal">
+            <label>Normal 1</label>
+            <group horizontal="1"> 
+                <button dataBindings="NormalTexture1" fill="1" />
+                <textbox dataBindings="UVGroupMapChannel3">
+                    <dataBindings class="UVChannel" />
+                </textbox>
+                <group>
+                    <textbox dataBindings="NormalTiling1.x">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                    <textbox dataBindings="NormalTiling1.y">
+                            <dataBindings class="Tiling" />
+                    </textbox>
+                </group>
+            </group>
+            <label>Normal 2</label>
+            <group horizontal="1"> 
+                <button dataBindings="NormalTexture2" fill="1" />
+                <textbox dataBindings="UVGroupMapChannel2">
+                    <dataBindings class="UVChannel" />
+                </textbox>
+                <group>
+                    <textbox dataBindings="DiffuseTiling2.x">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                    <textbox dataBindings="DiffuseTiling2.y">
+                            <dataBindings class="Tiling" />
+                    </textbox>
+                </group>
+            </group>
+            <group horizontal="1"> 
+                  <label>Normal1 modifier</label> 
+                  <textbox databindings="Normal1Modifier" />
+                  <label>Normal2 modifier</label> 
+                  <textbox databindings="Normal2Modifier" />
+              </group>
+    </group>
+        <group label="Fake Reflection">
+      <group horizontal="1"> 
+        <button dataBindings="ReflectionTexture" fill="1" />
+      </group>
+            <label>ReflectionPower</label>
+            <textbox databindings="ReflectionPower" minvalue="0.0" />
+        </group>
+    </ui>
+</materialdescriptor>

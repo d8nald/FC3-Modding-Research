@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">441360346988760601</field>
+  <field name="Name" type="String">FC3/RPG-7</field>
+  <object name="Entity">
+    <field name="hidName" type="String">weapons:FC3/RPG-7</field>
+    <field name="disEntityId" type="Int64">20247</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">8</field>
+    <field name="hidPos" type="Vector3">0,0,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">0,0,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileName" type="String">graphics\__fc3_graphics\_common\weapons\rpg7\rpg7.xml</field>
+        <field name="fileName" type="Hash64">1AAE32DFAA4CCDA2</field>
+        <field name="hidDescriptor" type="Rml">
+          <rml>
+            <hidDescriptor>
+              <component class="GraphicComponent" version="2" detail="0">
+                <object index="0" meshName="FRAME" boneName="FRAME" bboxMin="-0.0572799,-0.338637,-0.062648" bboxMax="0.0564169,0.603874,0.194024" />
+                <resource fileName="graphics\__FC3_Graphics\_Common\Weapons\RPG7\RPG7.xbg" bboxMin="-0.0572799,-0.739092,-0.0508541" bboxMax="0.0564169,0.203419,0.205818" />
+                <skeleton_reference_list>
+                  <skeleton name="RPG7" index="0" pos="0,0,0" rot="1,-0,-0,-0">
+                    <bone name="FX_FIRE" pos="-0.00012,-0.760125,0.10983" rot="1,0,0,0" />
+                    <bone name="RPG7_ROCKET" pos="-0.00012,0.210453,0.112512" rot="1,0,0,0" />
+                    <bone name="FRAME" pos="0,-0.400455,0.011794" rot="1,0,0,0" />
+                    <bone name="IRONSIGHT" pos="-0.012607,0.172617,0.174501" rot="1,0,0,0" />
+                  </skeleton>
+                </skeleton_reference_list>
+                <material_reference_list>
+                  <material name="RPG7" shader_name="Metal" ref_shader_id="torfrick-M-2009112753374428" />
+                </material_reference_list>
+              </component>
+              <component class="InteriorVolumeComponent" version="1" detail="0" />
+              <component class="RigidPhysComponent">
+                <resource fileName="graphics\__FC3_Graphics\_Common\Weapons\RPG7\RPG7.hkx" />
+              </component>
+            </hidDescriptor>
+          </rml>
+        </field>
+        <field name="hidCrcCheck" type="Hash32">FFFFFFFF</field>
+      </object>
+      <object name="CModelSelectorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_DefaultModel" type="String"></field>
+        <field name="DefaultModel" type="Hash32">FFFFFFFF</field>
+        <object name="hidHighResModelInfo">
+          <field name="Detail" type="Boolean">False</field>
+          <field name="Version" type="Int32">2</field>
+          <field name="BBoxMin" type="Vector3">-0.0572799,-0.739092,-0.0508541</field>
+          <field name="BBoxMax" type="Vector3">0.0564169,0.203419,0.205818</field>
+          <field name="text_ModelPath" type="String">graphics\__fc3_graphics\_common\weapons\rpg7\rpg7.xbg</field>
+          <field name="ModelPath" type="Hash64">15F7A2DFAA4CCDA2</field>
+          <field name="text_DescriptorPath" type="String"></field>
+          <field name="DescriptorPath" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <object name="ModelObjectInfos">
+            <object name="Object">
+              <field name="Slot" type="Int32">0</field>
+              <field name="BBoxMin" type="Vector3">-0.0572799,-0.338637,-0.062648</field>
+              <field name="BBoxMax" type="Vector3">0.0564169,0.603874,0.194024</field>
+              <field name="MeshName" type="String">FRAME</field>
+              <field name="text_BoneID" type="String">FRAME</field>
+              <field name="BoneID" type="Hash32">42ACFE7D</field>
+              <field name="text_BoneIDLOD0" type="String">FRAME_LOD0</field>
+              <field name="BoneIDLOD0" type="Hash32">117FF4BB</field>
+            </object>
+            <object name="Object">
+              <field name="Slot" type="Int32">0</field>
+              <field name="BBoxMin" type="Vector3">0,0,0</field>
+              <field name="BBoxMax" type="Vector3">0,0,0</field>
+              <field name="MeshName" type="String"></field>
+              <field name="text_BoneID" type="String"></field>
+              <field name="BoneID" type="Hash32">FFFFFFFF</field>
+              <field name="text_BoneIDLOD0" type="String"></field>
+              <field name="BoneIDLOD0" type="Hash32">FFFFFFFF</field>
+            </object>
+          </object>
+          <object name="ModelMaterialInfos">
+            <object name="Material">
+              <field name="text_Name" type="String">RPG7</field>
+              <field name="Name" type="Hash32">2B794A48</field>
+              <field name="RefShaderID" type="String">torfrick-M-2009112753374428</field>
+            </object>
+            <object name="Material">
+              <field name="text_Name" type="String"></field>
+              <field name="Name" type="Hash32">FFFFFFFF</field>
+              <field name="RefShaderID" type="String"></field>
+            </object>
+          </object>
+        </object>
+        <object name="Models">
+          <object name="Model">
+            <field name="text_Name" type="String"></field>
+            <field name="Name" type="Hash32">FFFFFFFF</field>
+            <field name="text_filePath" type="String">graphics\__fc3_graphics\_common\weapons\rpg7\rpg7_tp.xml</field>
+            <field name="filePath" type="Hash64">36EEA195DFC9DF1A</field>
+          </object>
+          <object name="Model">
+            <field name="text_Name" type="String"></field>
+            <field name="Name" type="Hash32">FFFFFFFF</field>
+            <field name="text_filePath" type="String"></field>
+            <field name="filePath" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          </object>
+        </object>
+        <object name="hidInfos">
+          <object name="ModelInfo">
+            <field name="Detail" type="Boolean">False</field>
+            <field name="Version" type="Int32">2</field>
+            <field name="BBoxMin" type="Vector3">-0.0583868,-0.739278,-0.0505434</field>
+            <field name="BBoxMax" type="Vector3">0.0560913,0.203455,0.205795</field>
+            <field name="text_ModelPath" type="String">graphics\__fc3_graphics\_common\weapons\rpg7\rpg7_tp.xbg</field>
+            <field name="ModelPath" type="Hash64">39B73195DFC9DF1A</field>
+            <field name="text_DescriptorPath" type="String">graphics\__fc3_graphics\_common\weapons\rpg7\rpg7_tp.xml</field>
+            <field name="DescriptorPath" type="Hash64">36EEA195DFC9DF1A</field>
+            <object name="ModelObjectInfos">
+              <object name="Object">
+                <field name="Slot" type="Int32">0</field>
+                <field name="BBoxMin" type="Vector3">-0.0583868,-0.338823,-0.0614937</field>
+                <field name="BBoxMax" type="Vector3">0.0560913,0.603909,0.193901</field>
+                <field name="MeshName" type="String">FRAME</field>
+                <field name="text_BoneID" type="String">FRAME</field>
+                <field name="BoneID" type="Hash32">42ACFE7D</field>
+                <field name="text_BoneIDLOD0" type="String">FRAME_LOD0</field>
+                <field name="BoneIDLOD0" type="Hash32">117FF4BB</field>
+              </object>
+              <object name="Object">
+                <field name="Slot" type="Int32">0</field>
+                <field name="BBoxMin" type="Vector3">0,0,0</field>
+                <field name="BBoxMax" type="Vector3">0,0,0</field>
+                <field name="MeshName" type="String"></field>
+                <field name="text_BoneID" type="String"></field>
+                <field name="BoneID" type="Hash32">FFFFFFFF</field>
+                <field name="text_BoneIDLOD0" type="String"></field>
+                <field name="BoneIDLOD0" type="Hash32">FFFFFFFF</field>
+              </object>
+            </object>
+            <object name="ModelMaterialInfos">
+              <object name="Material">
+                <field name="text_Name" type="String">RPG7</field>
+                <field name="Name" type="Hash32">2B794A48</field>
+                <field name="RefShaderID" type="String">torfrick-M-2009112753374428</field>
+              </object>
+              <object name="Material">
+                <field name="text_Name" type="String"></field>
+                <field name="Name" type="Hash32">FFFFFFFF</field>
+                <field name="RefShaderID" type="String"></field>
+              </object>
+            </object>
+          </object>
+          <object name="ModelInfo">
+            <field name="Detail" type="Boolean">False</field>
+            <field name="Version" type="Int32">-1</field>
+            <field name="BBoxMin" type="Vector3">0,0,0</field>
+            <field name="BBoxMax" type="Vector3">0,0,0</field>
+            <field name="text_ModelPath" type="String"></field>
+            <field name="ModelPath" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            <field name="text_DescriptorPath" type="String"></field>
+            <field name="DescriptorPath" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            <object name="ModelObjectInfos">
+              <object name="Object">
+                <field name="Slot" type="Int32">0</field>
+                <field name="BBoxMin" type="Vector3">0,0,0</field>
+                <field name="BBoxMax" type="Vector3">0,0,0</field>
+                <field name="MeshName" type="String"></field>
+                <field name="text_BoneID" type="String"></field>
+                <field name="BoneID" type="Hash32">FFFFFFFF</field>
+                <field name="text_BoneIDLOD0" type="String"></field>
+                <field name="BoneIDLOD0" type="Hash32">FFFFFFFF</field>
+              </object>
+            </object>
+            <object name="ModelMaterialInfos">
+              <object name="Material">
+                <field name="text_Name" type="String"></field>
+                <field name="Name" type="Hash32">FFFFFFFF</field>
+                <field name="RefShaderID" type="String"></field>
+              </object>
+            </object>
+          </object>
+        </object>
+        <object name="FirstPersonModelSkinList">
+          <object name="Skin">
+            <field name="text_Name" type="String"></field>
+            <field name="Name" type="Hash32">FFFFFFFF</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bCastShadow" type="Boolean">True</field>
+        <field name="bReceiveShadow" type="Boolean">True</field>
+        <field name="bCastAmbientShadow" type="Boolean">True</field>
+        <field name="olgLightGroup" type="Int32">1281</field>
+        <field name="bShowInReflection" type="Boolean">False</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bExcludeFromPortalSystem" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="clrHighLightColor" type="Vector3">1,0.9,0.6</field>
+        <field name="clrHighLightColor2" type="Vector3">0,0,0</field>
+        <field name="fHighLightSpeed" type="Float32">1</field>
+        <field name="bLodDitheringEnable" type="Boolean">True</field>
+        <field name="matIntuitionMaterialName" type="String">graphics\_materials\jprajotte-M-20100916104744.material.xml</field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field name="bAllowCullBySize" type="Boolean">True</field>
+        <field name="bMotionBlurExclusion" type="Boolean">False</field>
+        <field name="bOverrideLODSphere" type="Boolean">False</field>
+        <field name="fLODSphereRadius" type="Float32">0</field>
+        <field name="vectorAdditionalAABBDimensionForSkin" type="Vector3">0.1,0.1,0</field>
+        <field name="text_currentSkin" type="String"></field>
+        <field name="currentSkin" type="Hash32">FFFFFFFF</field>
+        <field name="bUseCurrentSkin" type="Boolean">True</field>
+        <object name="MaterialLightSwitch">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">torfrick-m-2009112753374428</field>
+              <field name="disSlotId" type="Hash32">E04C601E</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="MaterialOverrides">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">torfrick-m-2009112753374428</field>
+              <field name="disSlotId" type="Hash32">E04C601E</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="SkinList">
+          <object name="Skin">
+            <field name="text_name" type="String"></field>
+            <field name="name" type="Hash32">FFFFFFFF</field>
+            <field name="locSkinNameId" type="Int32">-1</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">0</field>
+          <field name="text_fileModel" type="String">graphics\__fc3_graphics\_common\weapons\rpg7\rpg7_tp.xbg</field>
+          <field name="fileModel" type="Hash64">39B73195DFC9DF1A</field>
+          <field name="hidMeshName" type="String">FRAME</field>
+          <field name="text_hidNodeName" type="String">FRAME</field>
+          <field name="hidNodeName" type="Hash32">42ACFE7D</field>
+          <field name="text_hidNodeNameLOD0" type="String">FRAME_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">117FF4BB</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">1</field>
+          <field name="text_fileModel" type="String"></field>
+          <field name="fileModel" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">FRAME</field>
+          <field name="hidNodeName" type="Hash32">42ACFE7D</field>
+          <field name="text_hidNodeNameLOD0" type="String">FRAME_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">117FF4BB</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+      </object>
+      <object name="CSimpleAnimationComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileSkeleton" type="String">graphics\__fc3_graphics\_common\weapons\rpg7\rpg7_ref.skeleton</field>
+        <field name="fileSkeleton" type="Hash64">C9D279B32998A2ED</field>
+        <field name="text_sPackage" type="String">rpg7</field>
+        <field name="sPackage" type="Hash64">294E514260000000</field>
+        <field name="AutoApplyDisplacement" type="Boolean">False</field>
+        <field name="sPartName" type="String">rpg7</field>
+        <field name="bEnableEvents" type="Boolean">False</field>
+        <field name="bRandomStart" type="Boolean">False</field>
+        <field name="text_Animation" type="String"></field>
+        <field name="Animation" type="Hash64">FFFFFFFFFFFFFFFF</field>
+      </object>
+      <object name="CFCXWeapon">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="iAnimationValue" type="Int32">15</field>
+        <field name="bByPassLockHiresCustom" type="Boolean">False</field>
+        <field hash="44532B61" type="BinHex">7F7F7F7F7F7F7F7F</field>
+        <field name="bUseHiResScope" type="Boolean">False</field>
+        <field name="fHiResLowResScopeSwitchTransitionPoint" type="Float32">0.5</field>
+        <object hash="E348155E" />
+        <object hash="F4872553">
+          <field hash="38A2468A" type="BinHex">00</field>
+          <field hash="CF1DBEC6" type="BinHex">00</field>
+          <field hash="8D69DE67" type="BinHex">00000000</field>
+          <field hash="AA1EF64D" type="BinHex">00000000</field>
+        </object>
+        <object hash="919A5D44">
+          <field hash="D212B7B7" type="BinHex">00</field>
+          <field hash="795F32D4" type="BinHex">00</field>
+          <field hash="CF1DBEC6" type="BinHex">FFFFFFFF</field>
+          <field hash="C1406A0D" type="BinHex">000000000000000000000000</field>
+          <field hash="5EA6CFE6" type="BinHex">000000000000000000000000</field>
+        </object>
+        <object hash="194EAF85">
+          <object hash="194EAF85">
+            <field hash="795F32D4" type="BinHex">00</field>
+            <field hash="CF1DBEC6" type="BinHex">FFFFFFFF</field>
+            <field hash="C1406A0D" type="BinHex">000000000000000000000000</field>
+            <field hash="5EA6CFE6" type="BinHex">000000000000000000000000</field>
+          </object>
+        </object>
+      </object>
+      <object name="CWeaponNetworkComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+      </object>
+      <object name="CCountersComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+      </object>
+      <object name="CFCXWikiItemEntryComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="hidInjected" type="Boolean">True</field>
+        <field name="wikiItemId" type="BinHex">43000000</field>
+        <field name="bShouldNotifyHud" type="Boolean">True</field>
+      </object>
+    </object>
+  </object>
+</object>

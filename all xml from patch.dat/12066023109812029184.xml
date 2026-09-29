@@ -1,0 +1,207 @@
+<graphickit id="12066023109812029184" name="Pirate_Assault" unique="0" kittobone="1">
+	<slot name="Head" position="0" bonename="Head">
+		<partdatabase name="" weight="0">
+			<part name="Pirate_Assault_Head01" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Pirate_Assault_Head01.xml" mesh="Pirate_Assault_Head01" weight="1" version="1" allowcullbysize="0">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Rebels_Eye" id="slabreche-m-2011041449846022">
+						<materialdatabase name="" weight="0">
+							<material id="slabreche-M-20110512155823" name="Pirates_Eyes" weight="1" file="graphics\_materials\slabreche-M-20110512155823.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Pirates_Benchmark_Face_2" id="cromagnoli-M-2011110260867829">
+						<materialdatabase name="" weight="0">
+							<material id="cromagnoli-M-2011110260867829" name="Generic_Head_Black" weight="1" file="graphics\_materials\cromagnoli-M-2011110260867829.material.xml">
+								<tag name="black" type="0" />
+								<tag name="white" type="4" />
+								<tag name="brown" type="4" />
+							</material>
+							<material id="cromagnoli-M-20120302151336" name="Generic_Head_Brown" weight="1" file="graphics\_materials\cromagnoli-M-20120302151336.material.xml">
+								<tag name="brown" type="0" />
+								<tag name="white" type="4" />
+								<tag name="black" type="4" />
+							</material>
+							<material id="cromagnoli-M-2011121537518234" name="Generic_Head_White" weight="1" file="graphics\_materials\cromagnoli-M-2011121537518234.material.xml">
+								<tag name="white" type="0" />
+								<tag name="brown" type="4" />
+								<tag name="black" type="4" />
+							</material>
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Pirates_ASSAULT_TopCloth 2" id="slabreche-m-2011040837806271">
+						<materialdatabase name="" weight="0">
+							<material id="cromagnoli-M-20120730134627" name="Pirates_ASSAULT_TopCloth 2 NEW" weight="1" file="graphics\_materials\cromagnoli-M-20120730134627.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Arms" position="1" bonename="Spine2">
+		<partdatabase name="" weight="0">
+			<part name="Pirate_Assault_Amrs01" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Pirate_Assault_Amrs01.xml" mesh="Pirate_Assault_Amrs01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Pirates_Body_Generic" id="slabreche-m-2011041129267145">
+						<materialdatabase name="" weight="0">
+							<material id="slabreche-M-2011041129267145" name="Generic_Torso_Black" weight="1" file="graphics\_materials\slabreche-M-2011041129267145.material.xml">
+								<tag name="black" type="2" />
+								<tag name="black" type="1" />
+							</material>
+							<material id="cromagnoli-M-20120302151311" name="Generic_Torso_Brown" weight="1" file="graphics\_materials\cromagnoli-M-20120302151311.material.xml">
+								<tag name="brown" type="2" />
+								<tag name="brown" type="1" />
+							</material>
+							<material id="cromagnoli-M-2011121343191460" name="Generic_Torso_White" weight="1" file="graphics\_materials\cromagnoli-M-2011121343191460.material.xml">
+								<tag name="white" type="2" />
+								<tag name="white" type="1" />
+							</material>
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Torso" position="2" bonename="Spine">
+		<partdatabase name="" weight="0">
+			<part name="Pirate_Assault_Torso01" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Pirate_Assault_Torso01.xml" mesh="Pirate_Assault_Torso01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Pirates_ASSAULT_Shirt_A" id="slabreche-m-2011040835398385">
+						<materialdatabase name="" weight="0">
+							<material id="slabreche-m-2011080330264360" name="Pirates_ASSAULT_TopCloth 2 NEW" weight="0" file="graphics\_materials\slabreche-m-2011080330264360.material.xml" />
+							<material id="slabreche-M-20110502131307" name="Pirates_SNIPER_Shirt_02" weight="1" file="graphics\_materials\slabreche-M-20110502131307.material.xml" />
+							<material id="slabreche-m-20110804090737" name="VIP_01_Shirt_02" weight="1" file="graphics\_materials\slabreche-m-20110804090737.material.xml" />
+							<material id="cromagnoli-M-20120821134850" name="Pirates_SNIPER_Shirt_02 - Copy" weight="0" file="graphics\_materials\cromagnoli-M-20120821134850.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Pirates_Shoes_03" id="slabreche-m-2011040741635817">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Pants" position="3" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="Pirate_Pants01" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Pirate_Pants01.xml" mesh="Pirate_Pants01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Pirates_Straps_Trim" id="cromagnoli-M-2011111061597741">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Accessories_04" id="cromagnoli-M-2011111061269757">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Shoes_03" id="cromagnoli-M-2011111062641074">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirate_pants_AsCopy" id="cromagnoli-M-2011111062719075">
+						<materialdatabase name="" weight="0">
+							<material id="cromagnoli-M-2011111062719075" name="Pirate_pants_assaulter" weight="1" file="graphics\_materials\cromagnoli-M-2011111062719075.material.xml" />
+							<material id="cromagnoli-M-20120724114715" name="Pirate_pants_assaulter - Copy - Copy" weight="1" file="graphics\_materials\cromagnoli-M-20120724114715.material.xml" />
+							<material id="cromagnoli-M-20120724114708" name="Pirate_pants_assaulter - Copy" weight="1" file="graphics\_materials\cromagnoli-M-20120724114708.material.xml" />
+							<material id="cromagnoli-M-20120731140253" name="Pirate_pants_assaulter - Copy - Copy - Copy" weight="0" file="graphics\_materials\cromagnoli-M-20120731140253.material.xml" />
+							<material id="cromagnoli-M-20120731140247" name="Pirate_pants_assaulter - Copy - Copy (2)" weight="0" file="graphics\_materials\cromagnoli-M-20120731140247.material.xml" />
+							<material id="cromagnoli-M-20120731140241" name="Pirate_pants_assaulter - Copy (2)" weight="0" file="graphics\_materials\cromagnoli-M-20120731140241.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Accessories" position="4" bonename="Head">
+		<partdatabase name="" weight="0">
+			<part name="Pirate_Assault_Glasses" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Pirate_Assault_Glasses.xml" mesh="Pirate_Assault_Glasses" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Pirates_Headwraper 01" id="cromagnoli-M-2011100545728328">
+						<materialdatabase name="" weight="0">
+						<material id="cromagnoli-M-20120730134627" name="Pirates_ASSAULT_TopCloth 2 NEW" weight="1" file="graphics\_materials\cromagnoli-M-20120730134627.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Pirate_Pilot_Lens" id="bwaddingham-m-2011040852435361">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirate_Pilot_metal" id="bwaddingham-m-2011040851748947">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="Pirate_Assault_NoHair" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Pirate_Assault_NoHair.xml" mesh="Pirate_Assault_NoHair" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Pirates_ASSAULT_Shirt_A" id="slabreche-m-2011040835398385">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+		<slot name="Hat" position="6" bonename="Head">
+		<partdatabase name="" weight="0">
+			<part name="Pirate_Assault_NoHair" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Pirate_Assault_NoHair.xml" mesh="Pirate_Assault_NoHair" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Pirates_ASSAULT_Shirt_A" id="slabreche-m-2011040835398385">
+						<materialdatabase name="" weight="0">
+						<material id="cromagnoli-M-20120730134627" name="Pirates_ASSAULT_TopCloth 2 NEW" weight="1" file="graphics\_materials\cromagnoli-M-20120730134627.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="Pirate_Assault_Afro_01" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Pirate_Assault_Afro_01.xml" mesh="Pirate_Assault_Afro_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="LeonGakumba_Hairs_AsCopy" id="cromagnoli-M-2012072548071712">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="Pirate_Assault_Afro_02" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Pirate_Assault_Afro_02.xml" mesh="Pirate_Assault_Afro_02" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Pirate_ShotGunner_Bandana_01_AsCopy" id="cromagnoli-m-2011061062177915">
+						<materialdatabase name="" weight="0">
+						<material id="cromagnoli-M-20120730134627" name="Pirates_ASSAULT_TopCloth 2 NEW" weight="1" file="graphics\_materials\cromagnoli-M-20120730134627.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="LeonGakumba_Hairs_AsCopy" id="cromagnoli-M-2012072548071712">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="Pirate_Assault_Bandana_01" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Pirate_Assault_Bandana_01.xml" mesh="Pirate_Assault_Bandana_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Pirates_Headwraper 01" id="cromagnoli-M-2011100545728328">
+						<materialdatabase name="" weight="0">
+						<material id="cromagnoli-M-20120730134627" name="Pirates_ASSAULT_TopCloth 2 NEW" weight="1" file="graphics\_materials\cromagnoli-M-20120730134627.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Pirates_Benchmark_Face_2" id="cromagnoli-M-2011110260867829">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="Pirate_Assaulter_Mohawk" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Pirate_Assaulter_Mohawk.xml" mesh="Pirate_Assaulter_Mohawk" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="LeonGakumba_Hairs_AsCopy" id="cromagnoli-M-2012072548071712">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="Pirate_Assault_Hat_01" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Pirate_Assault_Hat_01.xml" mesh="Pirate_Assault_Hat_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Pirates_ASSAULT_TopCloth 2" id="slabreche-m-2011040837806271">
+						<materialdatabase name="" weight="0">
+						<material id="cromagnoli-M-20120730134627" name="Pirates_ASSAULT_TopCloth 2 NEW" weight="1" file="graphics\_materials\cromagnoli-M-20120730134627.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

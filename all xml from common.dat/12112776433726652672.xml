@@ -1,0 +1,56 @@
+<graphickit id="12112776433726652672" name="Liza_Fire" unique="0" kittobone="0">
+	<slot name="Slot1" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Liza_Fire" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\Liza\Liza_Fire.xml" mesh="Liza_Fire" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Eye_shadow" id="akotelnikoff-M-2011083067336073">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Daisy_eyelashes" id="akotelnikoff-M-2012021439064065">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Lisa_eyes_AsCopy" id="cromagnoli-M-2012080753779411">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-M-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Liza_head_mirror_dirty_AsCopy" id="cromagnoli-M-2012080750879630">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Daisy_eye_AsCopy_AsCopy" id="cromagnoli-M-2012080753510165">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Liza_shoes_Dirt_AsCopy" id="cromagnoli-M-2012080750841582">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="daisy_metal_AsCopy" id="cromagnoli-M-2012080750835558">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Liza_Shirt_Dirt_AsCopy" id="cromagnoli-M-2012080750829407">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Liza_pants_Dirt_AsCopy" id="cromagnoli-M-2012080750822462">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Liza_BodySkin_Dirt_AsCopy" id="cromagnoli-M-2012080750817045">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Liza_Hair_AsCopy" id="cromagnoli-M-2012080754548560">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Slot2" position="1" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot3" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot4" position="3" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

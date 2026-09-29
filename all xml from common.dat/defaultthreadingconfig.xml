@@ -1,0 +1,20 @@
+<!--
+        CThreadingConfig::GetInstance()->GetIdealThreadCount(const char* setting)    
+        {
+            IF RelativeToCoreCnt == 1 RETURN
+                Clamp(HwNbCore - ThreadCnt,MinThreadCnt,MaxThreadCnt)
+            ELSE RETURN
+                Clamp(ThreadCnt,MinThreadCnt,MaxThreadCnt)
+        }
+    
+        Example :
+            For a quad core, GetIdealThreadCount("PHYSIC_THREADS") = Clamp(4 - 2,0,3) = 2 Physics threads.
+-->
+<Profile>
+    <ThreadSettings>
+            <ThreadSetting id="PHYSIC_TIMESTEP_THREAD" Active="1"/>
+            <ThreadSetting id="RENDER_THREAD" RelativeToCoreCnt="0" MinThreadCnt="0" MaxThreadCnt="1" ThreadCnt="1"/>
+            <ThreadSetting id="PHYSIC_THREADS" RelativeToCoreCnt="1" MinThreadCnt="0" MaxThreadCnt="3" ThreadCnt="4"/>
+            <ThreadSetting id="JOB_THREADS" RelativeToCoreCnt="1" MinThreadCnt="0" MaxThreadCnt="4" ThreadCnt="3"/>
+    </ThreadSettings>
+</Profile>

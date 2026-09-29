@@ -1,0 +1,106 @@
+<Profile 
+    TimeOutEnabled="1"
+    LogEnabled="1"
+    MigrationEnabled="1"
+    ObjectTrafficStatsEnabled="0"
+    EnableNatTraversal="1"
+    SecureSocketEnabled="1"
+    MaximumPeerCount="25"
+    EmulatorEnabled="0"
+    EmulatorProfile=""
+    TrafficFeedEnabled="0"
+    MainSocketEncrypted="1"
+    VoiceChatEnabled="1"
+    DownloadCustomMapEnabled="1"
+    DownloadCustomMapFromWebEnabled="1"
+    DownloadCustomMapFromHostEnabled="1"
+    ServeCustomMapEnabled="1"
+    CustomMapMaxUploadRateInBitsLan="10240000"
+    CustomMapMaxUploadRateInBitsOnline="10240000"
+    OnlineEnginePort="9000"
+    OnlineServicePort="9001"
+    FileTransferHostPort="9002"
+    FileTransferClientPort="9003"
+    LanHostBroadcastPort="9004"
+    LanClientBroadcastPort="9005"
+    ScanPortStart="9000"
+    ScanFreePorts="1"
+    ScanPortRange="1000"
+    MaxUploadInbpsOnline="10240000"
+    
+    >
+    <NetworkLog>
+        <LogFilters>
+            <filter IdName="trace"                  Active="0"/>
+            <filter IdName="default"                Active="0"/>
+            <filter IdName="netobject"                Active="0"/>
+            <filter IdName="packer"                 Active="0"/>
+            <filter IdName="connection"             Active="0"/>
+            <filter IdName="handshaking"            Active="0"/>
+            <filter IdName="netagent"               Active="0"/>
+            <filter IdName="streamsize"             Active="0"/>
+            <filter IdName="socket"                 Active="0"/>
+            <filter IdName="nettests"               Active="0"/>
+            <filter IdName="nomgrstats"             Active="0"/>
+            <filter IdName="nettrafficstats"        Active="0"/>
+            <filter IdName="netobjectstats"         Active="0"/>
+            <filter IdName="netchannel"             Active="0"/>
+            <filter IdName="voice"                  Active="0"/>
+            <filter IdName="filedownload"           Active="0"/>
+            <filter IdName="bandwidth"              Active="0"/>
+            <filter IdName="session"                Active="0"/>
+            <filter IdName="emulator"               Active="0"/>
+            <filter IdName="peermanager"            Active="0"/>
+            <filter IdName="objectchannelmanager"      Active="0"/>
+            <filter IdName="streampacker"              Active="0"/>
+            <filter IdName="eventdispatcher"          Active="0"/>
+            <filter IdName="packet"                  Active="0"/>
+            <filter IdName="lanmanager"              Active="0"/>
+            <filter IdName="securekey"              Active="0"/>
+            <filter IdName="banmanager"             Active="0"/>
+            <filter IdName="assert"                 Active="1"/>
+            <filter IdName="error"                  Active="1"/>
+            <filter IdName="eresult"                Active="0"/>
+            <filter IdName="timer"                    Active="0"/>
+        </LogFilters>
+    </NetworkLog>
+        
+    <NetworkEmulatorProfiles>
+        <!--
+        <drop_send_packet>
+        percent : 0.0 = no drop packets. 1.0 = drop all packets.
+                
+        <duplicate_send_packet>
+        percent : 0.0 = no duplication. 1.0 = duplicate all packets.
+                
+        <delay_send_packet>
+        percent : 0.0 = no delay packets. 1.0 = delay all packets. 
+        drop_first : Discard first or last packet if the delay buffer is full.
+        
+        <reorder_send_packet>
+        percent : 0.0 = no reorder. 1.0 = reorder all packets.
+        drop_first : Discard first or last packet if the delay reorder is full.
+        -->
+        
+        <emulator_profile name="moderate">
+            <drop_send_packet percent="0.05"/>
+            <duplicate_send_packet percent="0.01" minimum_duplicate_packet_count="2" maximum_duplicate_packet_count="2"/>
+            <delay_send_packet percent="1.0" minimum_time_delay_ms="0" maximum_time_delay_ms="200" drop_first="1"/>
+            <reorder_send_packet percent="0.01" minimum_time_delay_ms="100" maximum_time_delay_ms="250" drop_first="1"/>
+        </emulator_profile>
+        
+        <emulator_profile name="high">
+            <drop_send_packet percent="0.2"/>
+            <duplicate_send_packet percent="0.01" minimum_duplicate_packet_count="2" maximum_duplicate_packet_count="2"/>
+            <delay_send_packet percent="1.0" minimum_time_delay_ms="100" maximum_time_delay_ms="300" drop_first="1"/>
+            <reorder_send_packet percent="0.01" minimum_time_delay_ms="100" maximum_time_delay_ms="250" drop_first="1"/>
+        </emulator_profile>
+    </NetworkEmulatorProfiles>
+        
+    <Files>
+        <file Type="netchannels"              Path="engine/online/OnlineEngine/default.netchannel.xml" active="1"/>
+        <file Type="netpeerchanneltypes"       Path="engine/online/OnlineEngine/session.netpeerchannel.xml" active="1"/>
+        <file Type="netsimulationtypes"          Path="engine/online/OnlineEngine/default.netsimulation.xml" active="1"/>
+    </Files>
+</Profile>
+

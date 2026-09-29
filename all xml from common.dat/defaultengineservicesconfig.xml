@@ -1,0 +1,50 @@
+<Profile
+    DemoMode="0"
+    ServerNotificationIp="10.3.21.0"
+    >
+    <!-- CrashHandlerConfig -->
+    <CrashHandlerConfig 
+        IsActive="1"
+        IsDebug="0"
+        PCInGameEditorExecNamePrefix="fc3editor"
+        PCEditorExecNamePrefix="editor"
+        PCEngineExecNamePrefix="farcry3"
+        SymbolPath="srv*D:\Temp\Symbols*\\Ubisoft.org\Projects\Farcry3\Dump\CrashDump\Symbols;srv*D:\Temp\Symbols*http://msdl.microsoft.com/download/symbols;srv*"
+        CrashReporterApplicationName="bloomberg.reporter.crash.exe"
+        CrashListenerApplicationName="bloomberg.listener.crash.exe"
+        CrashServerRepository="\\ubisoft.org\projects\Farcry3\Dump\CrashDump\TemporaryStore"/>
+
+    <!-- BloombergConfig -->
+    <BloombergConfig            
+        ServerIP="fc3-bloomberg-server.ubisoft.org"
+        ServerPort="11234"
+        ReporterPort="14555"
+        BinaryServerPort="21234"
+        FpsSamplingRateMs="3000"
+        FpsAvgPenalization="0.75"
+        FpsThreshold="30"
+        StatsEnable="0"
+        >
+        <AlternateServerConfigs>
+            <AlternateServerConfig
+        	      Name="Massive"
+        	      Port="11234" 
+        	      Adress="10.35.0.112"
+        	      IPRange="10.35."
+						/>
+            <AlternateServerConfig
+        	      Name="Bucarest"
+        	      Port="11160" 
+        	      Adress="buc-proxy-bloomberg.ubisoft.org"
+        	      IPRange="10.18."
+						/>
+            <AlternateServerConfig
+        	      Name="Shanghai"
+        	      Port="14555" 
+        	      Adress="sha-bloomberg-proxy.ubisoft.org"
+        	      IPRange="10.192.;10.194.;10.195."
+						/>												
+		</AlternateServerConfigs>						
+        	      
+	</BloombergConfig>
+</Profile> 

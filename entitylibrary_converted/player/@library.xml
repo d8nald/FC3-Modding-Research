@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object name="EntityLibrary">
+  <field name="Name" type="String">player</field>
+  <object external="MainCharacter\PawnPlayer.xml" />
+  <object external="MainCharacter\PawnPlayer.PawnPlayer_MissingFinger.xml" />
+  <object external="MainCharacter\PawnPlayer.PawnPlayer_Privateer.xml" />
+  <object external="MainCharacter\PawnPlayer.PawnPlayer_Privateer_MissingFinger.xml" />
+  <object external="MainCharacter\PawnPlayer.PawnPlayer_Privateer_MissingFinger_Bandaged.xml" />
+  <object external="MainCharacter\PawnPlayer.PawnPlayer_Skydiving.xml" />
+  <object external="MovementCurves\Air_Vehicle_SIXAXIS.xml" />
+  <object external="MovementCurves\DiveCurve.xml" />
+  <object external="MovementCurves\Land_Vehicle_SIXAXIS_ps3.xml" />
+  <object external="MovementCurves\Movement_leftright.xml" />
+  <object external="MovementCurves\Movement_leftright_PS3.xml" />
+  <object external="MovementCurves\Movement_updown.xml" />
+  <object external="MovementCurves\Movement_updown_PS3.xml" />
+  <object external="MovementCurves\Sound_Player_Movement.xml" />
+  <object external="MovementCurves\SwimCurve.xml" />
+  <object external="MovementCurves\Water_Vehicle_SIXAXIS.xml" />
+</object>

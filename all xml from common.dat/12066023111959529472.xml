@@ -1,0 +1,23 @@
+<graphickit id="12066023111959529472" name="Clone02" unique="0" kittobone="1">
+	<slot name="Slot1" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Generic_Clone_02" ref="graphics\__FC3_Graphics\_Common\Characters\Generic\Generic_Clone_02.xml" mesh="Generic_Clone_02" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Generic_Test_02" id="vfortin-M-2011120755406883">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Slot2" position="1" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot3" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot4" position="3" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

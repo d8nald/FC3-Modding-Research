@@ -1,0 +1,35 @@
+<graphickit id="12066023111959524864" name="SHA_KomodoDragon" unique="0" kittobone="1">
+	<slot name="MainBody" position="0" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="komodoDragon01" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\KomodoDragon\komodoDragon01.xml" mesh="komodoDragon01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Animal_Grey_ID2" id="jli-M-107201151201026">
+						<materialdatabase name="" weight="0">
+							<material id="Vfortin-M-2010120863940176" name="KomodoDragon" weight="3" file="graphics\_materials\Vfortin-M-2010120863940176.material.xml">
+								<tag name="regular" type="0" />
+								<tag name="rare" type="4" />
+								<tag name="blood" type="4" />
+							</material>
+							<material id="yanzhou-M-1507201165433794" name="KomodoDragon02" weight="3" file="graphics\_materials\yanzhou-M-1507201165433794.material.xml">
+								<tag name="regular" type="0" />
+								<tag name="rare" type="4" />
+								<tag name="blood" type="4" />
+							</material>
+							<material id="yanzhou-M-20120221164454" name="KomodoDragon_Green" weight="4" file="graphics\_materials\yanzhou-M-20120221164454.material.xml">
+								<tag name="rare" type="0" />
+								<tag name="blood" type="4" />
+								<tag name="regular" type="4" />
+							</material>
+							<material id="yanzhou-M-2406201153009080" name="KomodoDragon_Blood" weight="1" file="graphics\_materials\yanzhou-M-2406201153009080.material.xml">
+								<tag name="blood" type="0" />
+								<tag name="rare" type="4" />
+								<tag name="regular" type="4" />
+							</material>
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

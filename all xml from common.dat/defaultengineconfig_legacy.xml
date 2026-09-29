@@ -1,0 +1,60 @@
+<config>
+    <settings>
+        <setting id="PhysicDebug"                 string="1"/>
+        <setting id="PhysicTimers"                string="0"/>      
+        <setting id="BarkSoundType"               string="4"/>
+        <setting id="AllowDebugInError"           string="0"/>
+        <setting id="DisableEAX"                  string="0"/>
+    </settings>
+
+    <paths>
+        <path id="Levels"                         string="Levels"/>
+    </paths>
+    
+    <Stats>
+        <setting id="ResetFrame"                  string="80"    console="Reset stats at each N frames"/>
+        <setting id="MinValue"                    string="0"     console="Minimum value displayed"/>
+        <setting id="MinValueRed"                 string="1000"  console="Minimum value displayed in red"/> 
+        <setting id="Filter"                      string=""      console="Filter name to apply to get visible samples"/> 
+        <setting id="Trace"                       string="0"     console="(hit ';' for quick output) Outputs current stats in the debug output window next N frames"/> 
+        <!-- Multiplayer -->
+        <setting id="NetShow"                     string="0"     console="Show networks stats"/> 
+        
+        <xmlinfo>
+            <Filters>
+                <Filter Name="world">
+                    <Stat Name="World Deactivate sector" />
+                    <Stat Name="World Activate sector" />
+                    <Stat Name="CWorld_Update" />
+                    <Stat Name="CWorld_DoUpdateEntitySector" />
+                </Filter>
+            </Filters>
+        </xmlinfo>
+    </Stats>
+
+    <Localization>
+        <xmlinfo>
+            <!-- List all the localization files that need to be loaded on game start -->
+            <LocFile filename="oasisstrings.xml"/>
+        </xmlinfo>
+    </Localization>
+    
+    <DebugView>
+        <xmlinfo>
+
+                <!-- List all the filters that should be automatically turned on -->
+                <Filters>
+                        <!--Filter type="radius" distance="40"/-->
+                        <!--Filter type="frustrum" distance="40"/-->
+                        <!--Filter type="targeted" distance="150"/-->
+                </Filters>
+
+                <!-- List all the debug views that should be automatically turned on -->
+            <DebugViews>
+                    <!--DebugView dvName="" componentName="" entityName=""/-->
+                    <!--DebugView dvId="" componentId="" entityId=""/-->
+            </DebugViews>
+
+        </xmlinfo>
+    </DebugView>
+</config>

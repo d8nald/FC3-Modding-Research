@@ -1,0 +1,91 @@
+<graphickit id="12100305759959515648" name="Tisha_DLC_01" unique="0" kittobone="1">
+	<slot name="3RD" position="0" bonename="Spine2">
+		<partdatabase name="" weight="0">
+			<part name="Coop_Trish2" ref="graphics\__FC3_Graphics\_Common\Characters\Multiplayer\Coop\Trish2\Coop_Trish2.xml" mesh="Coop_Trish2" weight="1" version="1" allowcullbysize="1">
+				<tag name="firstperson" type="4" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Coop_Teeth" id="oskarlundqvist-M-2011101953276037">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Trish2_Shoes" id="ecourcelles-M-20120606132832">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Trish2_Arms" id="ecourcelles-M-20120607125452">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Trish2_Hair" id="ecourcelles-M-20120523172640">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Tisha_Clothes" id="nicholascort-m-2011020337394079">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Tisha Iris" id="oskarlundqvist-M-2011111652887284">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Tisha_eyes" id="NicholasCort-M-2011020353441289">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Trish2_Head" id="ecourcelles-M-20120523153819">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Trish2_Strap" id="ecourcelles-M-20120605163532">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Kebe_gears" id="akotelnikoff-M-2011092961010966">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Trish2_Shirt" id="ecourcelles-M-20120530141054">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Trish2_Pants" id="ecourcelles-M-20120605170040">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Trish2_Body" id="ecourcelles-M-20120606132657">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="FPS" position="1" bonename="Spine2">
+		<partdatabase name="" weight="0">
+			<part name="Coop_Trish2_FPS" ref="graphics\__FC3_Graphics\_Common\Characters\Multiplayer\Coop\Trish2\Coop_Trish2_FPS.xml" mesh="Coop_Trish2_FPS" weight="1" version="1" allowcullbysize="1">
+				<tag name="firstperson" type="2" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Trish2_Shoes" id="ecourcelles-M-20120606132832">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Trish2_Arms" id="ecourcelles-M-20120607125452">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Trish2_Hair" id="ecourcelles-M-20120523172640">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Trish2_Strap" id="ecourcelles-M-20120605163532">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Kebe_gears" id="akotelnikoff-M-2011092961010966">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Trish2_Shirt" id="ecourcelles-M-20120530141054">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Trish2_Pants" id="ecourcelles-M-20120605170040">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Trish2_Body" id="ecourcelles-M-20120606132657">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Slot3" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot4" position="3" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

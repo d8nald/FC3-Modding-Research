@@ -1,0 +1,76 @@
+<graphickit id="12066023109812027904" name="Tisha" unique="0" kittobone="1">
+	<slot name="3RD" position="0" bonename="Spine2">
+		<partdatabase name="" weight="0">
+			<part name="Tisha_3RD" ref="graphics\__FC3_Graphics\_Common\Characters\Multiplayer\Coop\Tisha\Tisha_3RD.xml" mesh="Tisha_3RD" weight="1" version="1" allowcullbysize="1">
+				<tag name="firstperson" type="4" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Coop_Teeth" id="oskarlundqvist-M-2011101953276037">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Tisha Iris" id="oskarlundqvist-M-2011111652887284">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Tisha_eyes" id="NicholasCort-M-2011020353441289">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Tisha_TankTop" id="oskarlundqvist-M-2012010540899059">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Tisha_Accessories" id="oskarlundqvist-M-2011091555087099">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Tisha_Clothes" id="nicholascort-m-2011020337394079">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="TishaDogTag" id="OskarLundqvist-M-2012041160214242">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Tisha_hair" id="nicholascort-m-2011030548530311">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Tisha_Arms" id="nicholascort-m-2011020337310420">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Tisha_Head" id="nicholascort-m-2011020336183569">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Tisha_Knife" id="oskarlundqvist-M-2012060751744494">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Coop_Eyelashes_Female" id="oskarlundqvist-M-20120716142611">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="FPS" position="1" bonename="Spine2">
+		<partdatabase name="" weight="0">
+			<part name="Tisha_FPS" ref="graphics\__FC3_Graphics\_Common\Characters\Multiplayer\Coop\Tisha\Tisha_FPS.xml" mesh="Tisha_FPS" weight="1" version="1" allowcullbysize="1">
+				<tag name="firstperson" type="2" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Tisha_Accessories" id="oskarlundqvist-M-2011091555087099">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Tisha_Clothes" id="nicholascort-m-2011020337394079">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Tisha_Arms_FPS" id="oskarlundqvist-m-2011041253800380">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Tisha_TankTop" id="oskarlundqvist-M-2012010540899059">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Slot3" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot4" position="3" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

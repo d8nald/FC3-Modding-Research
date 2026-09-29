@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<materialdescriptor name="FakeTerrain" version="6">
+
+    <!-- As of 2009/06/04, the faketerrain shader uses no masks or vertex painting -->
+
+    <parameter name="DiffuseTexture1" type="sampler2D" />
+    <parameter name="DiffuseTiling1" type="float" />
+
+    <parameter name="SpecularTexture1" type="sampler2D" />
+    <parameter name="SpecularTiling1" type="float" />
+    <parameter name="SpecularColor1" type="color4" defaultvalue="0,0,0,0" />
+    <parameter name="SpecularPower" type="float" defaultvalue="16" />
+
+    <parameter name="NormalTexture1" type="sampler2D" />
+    <parameter name="NormalTiling1" type="float" />
+
+    <parameterprovider parametersfilename="FakeTerrain.parameters.inc.fx">
+        <parameter name="DiffuseTexture1" />
+        <parameter name="DiffuseTiling1" />
+        <parameter name="SpecularTexture1" />
+        <parameter name="SpecularTiling1" />
+        <parameter name="SpecularColor1" />
+        <parameter name="SpecularPower" />
+        <parameter name="NormalTexture1" />
+        <parameter name="NormalTiling1" />
+    </parameterprovider>
+    
+    <ui>
+        <group horizontal="1" label="Diffuse">
+            <button dataBindings="DiffuseTexture1" fill="1" />
+            <textbox dataBindings="DiffuseTiling1">
+                <dataBindings type="int" />
+            </textbox>
+        </group>
+
+        <group label="Specular">
+            <group horizontal="1">
+                <button dataBindings="SpecularColor1">
+                    <dataBindings type="color" />
+                </button>
+                <button dataBindings="SpecularTexture1" fill="1" />
+                <textbox dataBindings="SpecularTiling1">
+                    <dataBindings type="int" />
+                </textbox>
+            </group>
+
+            <group horizontal="1">
+                <label>Power</label>
+                <textbox databindings="SpecularPower" />
+            </group>
+        </group>
+
+        <group horizontal="1" label="Normal">
+            <button dataBindings="NormalTexture1" fill="1" />
+            <textbox dataBindings="NormalTiling1">
+                <dataBindings type="int" />
+            </textbox>
+        </group>
+    </ui>
+</materialdescriptor>

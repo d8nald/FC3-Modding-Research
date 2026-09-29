@@ -1,0 +1,32 @@
+<graphickit id="12066023111959523584" name="SHA_boar" unique="0" kittobone="1">
+	<slot name="MainBody" position="0" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="boar" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Boar\Boar.xml" mesh="boar" weight="10" version="1" allowcullbysize="1">
+				<tag name="regular" type="0" />
+				<tag name="rare" type="4" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Boar_Main_Body" id="yanzhou-M-2306201137373655">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Boar_eye" id="yanzhou-M-2306201139109059">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="boar_boss" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Boar\boar_boss.xml" mesh="boar_boss" weight="1" version="1" allowcullbysize="1">
+				<tag name="rare" type="0" />
+				<tag name="regular" type="4" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Boar_eye" id="yanzhou-M-2306201139109059">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="BoarBoss" id="yanzhou-M-1602201254481035">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

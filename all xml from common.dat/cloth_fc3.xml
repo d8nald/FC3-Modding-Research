@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<materialdescriptor xmlns:xi="#" name="Cloth_FC3" id="#(0x543bdc8e, 0x6852d3d2)" version="6">
+    <features rimLighting="1" />
+    
+    <geometryInputs normal="1" tangent="1" binormal="1" color="1" uvChannels="2" />
+
+    <parameter name="AlphaTestEnabled" type="bool" />
+    <parameter name="TwoSided" type="bool" />
+
+    <parameter name="DiffuseTexture" type="sampler2D" UvName="UVGroupMapChannel0" replaceTexture="black"/>
+    <parameter name="ClothColorRedChannel" type="color4" defaultvalue="0.5, 0.5, 0.5, 1.0" displayInMax="1" color="1" />
+    <parameter name="ClothColorGreenChannel" type="color4" defaultvalue="0.5, 0.5, 0.5, 1.0" displayInMax="1" color="1" />
+    <parameter name="ClothColorBlueChannel" type="color4" defaultvalue="0.5, 0.5, 0.5, 1.0" displayInMax="1" color="1" />
+
+    <parameter name="DiffuseTexture2" type="sampler2D" UvName="UVGroupMapChannel1" useDefine="DIFFUSE2" />
+    <parameter name="UseAlphaPrint" type="bool" defaultvalue="1" useDefine="DIFFUSE2_USE_ALPHA" dependency="DiffuseTexture2" />
+
+    <parameter name="DirtTexture" type="sampler2D" UvName="UVGroupMapChannel0"  replaceTexture="white"/>
+    <parameter name="EnableDirtVertexMask" type="bool" defaultvalue="1" />
+    
+    <parameter name="DirtTiling" type="float2" defaultvalue="1,1" />
+    <parameter name="DirtModifier" type="float" defaultvalue="1" />
+   
+    <parameter name="DetailTexture" type="sampler2D" UvName="UVGroupMapChannel0" replaceTexture="white" />
+    <parameter name="DetailTiling" type="float2" displayInMax="1" defaultvalue="1,1"/>
+    <parameter name="DetailMultiplier" type="float3" displayInMax="1" defaultvalue="1,1,1" />
+    <parameter name="NormalDetailTexture" type="sampler2D" UvName="UVGroupMapChannel0" useDefine="NORMAL_DETAIL_TEXTURE" />
+    <parameter name="DetailNormalMultiplier" type="float" displayInMax="1" defaultvalue="1" />
+        
+    <parameter name="MaskTexture" type="sampler2D" UvName="UVGroupMapChannel0" replaceTexture="white"/>
+    <parameter name="NormalTexture" type="sampler2D" UvName="UVGroupMapChannel0" replaceTexture="normal"/>
+    <parameter name="NormalModifier" type="float" displayInMax="1" defaultvalue="1" />
+    
+    <parameter name="UVGroupMapChannel0" type="float" />
+    <parameter name="UVGroupMapChannel1" type="float" />
+    
+    <parameter name="RimLightColor" type="color4" defaultvalue="0.5, 0.5, 0.5, 1.0" />
+    <parameter name="RimLightBias" type="float" defaultvalue="1" />
+    <parameter name="RimLightEnable" type="bool" defaultvalue="0"/>
+
+    <parameter name="SpecularSettings" type="float4" defaultvalue="0.2, 0.0, 0.0, 0.0" />
+    <parameter name="AllowDistanceBoost" type="bool" defaultvalue="1" useDefine="ALLOWDISTANCEBOOST" />
+    <parameterprovider parametersfilename="Mesh_Cloth_FC3.parameters.inc.fx">
+        <parameter name="DiffuseTexture" />
+        <parameter name="ClothColorRedChannel" />
+        <parameter name="ClothColorGreenChannel" />
+        <parameter name="ClothColorBlueChannel" />
+        <parameter name="DiffuseTexture2" />
+        <parameter name="DirtTexture" />
+        <parameter name="DirtTiling" />
+        <parameter name="DetailTexture" />
+        <parameter name="DetailTiling" />
+        <parameter name="MaskTexture" />
+        <parameter name="NormalTexture" />
+        <parameter name="UVGroupMapChannel0" />
+        <parameter name="UVGroupMapChannel1" />
+        <parameter name="RimLightColor" />
+        <parameter name="RimLightBias" />
+        <parameter name="DetailMultiplier" />
+        <parameter name="NormalModifier" />
+        <parameter name="DirtModifier" />
+        <parameter name="UseAlphaPrint" />
+        <parameter name="EnableDirtVertexMask" />
+        <parameter name="NormalDetailTexture" />
+        <parameter name="DetailNormalMultiplier" />
+        <parameter name="SpecularSettings" />
+        <parameter name="AllowDistanceBoost"/>
+    </parameterprovider>
+    
+    <ui>
+        <xi:include href="../MaterialUIInclude.xml" />
+      
+        <group horizontal="1">
+            <checkbox label="Two sided" dataBindings="TwoSided" />
+            <checkbox label="Alpha test" dataBindings="AlphaTestEnabled" />
+        </group>
+
+        <group label="Vertex Mask Info">
+            <checkbox label="r = Dirt mask, Disable vertex mask if unchecked" tooltip="when unchecked, Vertex mask for dirt is ignored." dataBindings="EnableDirtVertexMask" />
+            <label>g = RimLight mask</label>
+        </group>
+        
+        <group label="Diffuse and mask" horizontal="0">
+            <label>Diffuse Texture</label>
+            <button dataBindings="DiffuseTexture" fill="1" />
+            <label>Mask Texture</label>
+            <button dataBindings="MaskTexture" fill="1" />
+            <group label="Cloth Colors" horizontal="1">
+                <label>Red Mask</label> 
+                <button dataBindings="ClothColorRedChannel" >
+                    <dataBindings type="color" />
+                </button>
+                <label>Green Mask</label> 
+                <button dataBindings="ClothColorGreenChannel" >
+                    <dataBindings type="color" />
+                </button>
+            </group>
+        </group>
+
+        <group label="Detail" horizontal="1">
+            <button dataBindings="DetailTexture" fill="1" />
+            <group>
+                <textbox dataBindings="DetailTiling.x">
+                    <dataBindings type="int" />
+                </textbox>
+                <textbox dataBindings="DetailTiling.y">
+                    <dataBindings type="int" />
+                </textbox>
+            </group>
+        </group>
+        
+        <group label="Detail Mutiplier by channel" horizontal="1">
+            <label>Red Channel</label> 
+            <textbox dataBindings="DetailMultiplier.x">
+                <dataBindings type="float" minvalue="0.0" maxvalue="1.0"/>
+            </textbox>
+            <label>Green Channel</label> 
+            <textbox dataBindings="DetailMultiplier.y">
+                <dataBindings type="float" minvalue="0.0" maxvalue="1.0"/>
+            </textbox>
+        </group>
+
+        <group label="Normal textures">
+            <label>Normal map</label>
+            <button dataBindings="NormalTexture" fill="1" />
+            <label>Normal Modifier</label>
+            <textbox dataBindings="NormalModifier">
+                <dataBindings type="float" />
+            </textbox>
+            <label>Detail Normal map - used in green mask channel only</label>
+            <button dataBindings="NormalDetailTexture" fill="1" />
+            <label>Normal Detail Modifier</label>
+            <textbox dataBindings="DetailNormalMultiplier">
+                <dataBindings type="float" />
+            </textbox>
+        </group>
+        
+        <group label="Print (diffuse 2)" horizontal="1">
+            <checkbox label="Use alpha" tooltip="when unchecked, a multiply operation is used." dataBindings="UseAlphaPrint" />
+            <button dataBindings="DiffuseTexture2" fill="1" />
+        </group>
+
+        <group label="Dirt" horizontal="1">
+            <button dataBindings="DirtTexture" fill="1" />
+            <group>
+                <textbox dataBindings="DirtTiling.x">
+                    <dataBindings type="int" />
+                </textbox>
+                <textbox dataBindings="DirtTiling.y">
+                    <dataBindings type="int" />
+                </textbox>
+            </group>
+            <label>Dirt Modifier</label>
+            <textbox dataBindings="DirtModifier">
+                <dataBindings type="float" />
+            </textbox>
+        </group>
+
+        <group label="Specular">
+            <group horizontal="1">
+                <label>Glossiness (Black Mask)</label>
+                <textbox dataBindings="SpecularSettings.y">
+                    <dataBindings minvalue="0.0" maxvalue="1.0" defaultvalue="0.0" />
+                </textbox>
+                <label>Glossiness (White Mask)</label>
+                <textbox dataBindings="SpecularSettings.x">
+                    <dataBindings minvalue="0.0" maxvalue="1.0" defaultvalue="0.2" />
+                </textbox>
+            </group>
+        </group>
+        
+        <group horizontal="1" label="Rim lighting">
+            <label>Color</label>
+            <button dataBindings="RimLightColor" >
+                <dataBindings type="color" />
+            </button>
+            <label>Bias</label> <textbox databindings="RimLightBias" minvalue="0.01" maxvalue="5.00" defaultvalue="1" />
+        </group>
+     <group horizontal="1" label="AllowDistanceBoost">
+            <checkbox label="Enable" dataBindings="AllowDistanceBoost" tooltop="Allow distance boost" />
+        </group>
+    </ui>
+        
+</materialdescriptor>

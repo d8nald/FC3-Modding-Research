@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">531432339384430221</field>
+  <field name="Name" type="String">Camera/Editor</field>
+  <object name="Entity">
+    <field name="hidName" type="String">cameras:Camera/Editor</field>
+    <field name="disEntityId" type="Int64">15</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">2</field>
+    <field name="hidPos" type="Vector3">0,0,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">0,0,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CCameraEditorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="fCameraBlendTime" type="Float32">0.5</field>
+        <field name="fNearDistance" type="Float32">0.1</field>
+        <field name="fFarDistance" type="Float32">1000</field>
+        <field name="fFOV" type="Float32">75</field>
+        <field name="fNearFOV" type="Float32">65</field>
+      </object>
+      <object name="CZoneInfoComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="fSamplingRadius" type="Float32">25</field>
+        <field name="uiGridSubdivisions" type="UInt32">8</field>
+        <field name="fDensityAdjustmentSpeed" type="Float32">0.1</field>
+        <field name="fWeightScale" type="Float32">1.5</field>
+        <field name="fWeightDistributionPower" type="Float32">1</field>
+      </object>
+      <object name="CFCXParticleAmbianceComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="zoneExclusionRegion" type="Int32">255</field>
+        <field name="fExclusionRegionThreshold" type="Float32">0</field>
+        <object name="Regions">
+          <object name="Region">
+            <field name="zoneRegion" type="Int32">255</field>
+            <object name="ParticleSystems">
+              <object name="ParticleSystem">
+                <field name="text_psParticleSystem" type="String"></field>
+                <field name="psParticleSystem" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                <object name="curveIntensity">
+                  <field name="hidNumKnots" type="Int32">2</field>
+                  <field name="hidAllowedTypes" type="Int32">7</field>
+                  <object name="Knots">
+                    <object name="Knot">
+                      <field name="Value" type="Vector4">0,0,0.5,0</field>
+                      <field name="Info" type="Vector4">1,1,0,0</field>
+                      <field name="Type" type="Int32">0</field>
+                    </object>
+                    <object name="Knot">
+                      <field name="Value" type="Vector4">1,1,0.5,0</field>
+                      <field name="Info" type="Vector4">1,1,0,0</field>
+                      <field name="Type" type="Int32">0</field>
+                    </object>
+                  </object>
+                </object>
+                <object name="curveTimeOfDayIntensity">
+                  <field name="hidNumKnots" type="Int32">2</field>
+                  <field name="hidAllowedTypes" type="Int32">7</field>
+                  <object name="Knots">
+                    <object name="Knot">
+                      <field name="Value" type="Vector4">0,1,0.5,0</field>
+                      <field name="Info" type="Vector4">1,1,0,0</field>
+                      <field name="Type" type="Int32">0</field>
+                    </object>
+                    <object name="Knot">
+                      <field name="Value" type="Vector4">1,1,0.5,0</field>
+                      <field name="Info" type="Vector4">1,1,0,0</field>
+                      <field name="Type" type="Int32">0</field>
+                    </object>
+                  </object>
+                </object>
+              </object>
+            </object>
+          </object>
+        </object>
+        <object name="WindParticleSystems">
+          <object name="ParticleSystemRegion">
+            <field name="zoneRegion" type="Int32">255</field>
+            <object name="ParticleSystems">
+              <object name="ParticleSystem">
+                <field name="text_psParticleSystem" type="String"></field>
+                <field name="psParticleSystem" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                <object name="curveIntensity">
+                  <field name="hidNumKnots" type="Int32">2</field>
+                  <field name="hidAllowedTypes" type="Int32">7</field>
+                  <object name="Knots">
+                    <object name="Knot">
+                      <field name="Value" type="Vector4">0,0,0.5,0</field>
+                      <field name="Info" type="Vector4">1,1,0,0</field>
+                      <field name="Type" type="Int32">0</field>
+                    </object>
+                    <object name="Knot">
+                      <field name="Value" type="Vector4">1,1,0.5,0</field>
+                      <field name="Info" type="Vector4">1,1,0,0</field>
+                      <field name="Type" type="Int32">0</field>
+                    </object>
+                  </object>
+                </object>
+                <object name="curveTimeOfDayIntensity">
+                  <field name="hidNumKnots" type="Int32">2</field>
+                  <field name="hidAllowedTypes" type="Int32">7</field>
+                  <object name="Knots">
+                    <object name="Knot">
+                      <field name="Value" type="Vector4">0,1,0.5,0</field>
+                      <field name="Info" type="Vector4">1,1,0,0</field>
+                      <field name="Type" type="Int32">0</field>
+                    </object>
+                    <object name="Knot">
+                      <field name="Value" type="Vector4">1,1,0.5,0</field>
+                      <field name="Info" type="Vector4">1,1,0,0</field>
+                      <field name="Type" type="Int32">0</field>
+                    </object>
+                  </object>
+                </object>
+              </object>
+            </object>
+          </object>
+        </object>
+      </object>
+      <object name="CRainComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_psRainEmitter" type="String">fc3_environment.weather_fx.fc3_rain</field>
+        <field name="psRainEmitter" type="Hash64">9F42E1CC3B21E04C</field>
+        <field name="text_psRainSplash" type="String">fc3_environment.weather_fx.fc3_rain_splash</field>
+        <field name="psRainSplash" type="Hash64">382084836671C94F</field>
+        <field name="bAutoStart" type="Boolean">False</field>
+        <field name="fIntensity" type="Float32">1</field>
+        <field name="fEmitterDistanceOffset" type="Float32">10</field>
+        <object name="SplashSpawningGrid">
+          <field name="text_psWaterBubbles" type="String">fc3_environment.weather_fx.fc3_rain_splash</field>
+          <field name="psWaterBubbles" type="Hash64">382084836671C94F</field>
+          <field name="iBubbleEmitPerSec" type="Int32">1</field>
+          <field name="uiMaxRaysPerRegion" type="UInt32">10</field>
+          <field name="fRaysPerSecond" type="Float32">10</field>
+          <field name="uiGridSize" type="UInt32">8</field>
+          <field name="uiHalfNumGrids" type="UInt32">2</field>
+          <field name="bClampAboveWaterLevel" type="Boolean">True</field>
+          <field name="bClampUnderWaterLevel" type="Boolean">False</field>
+        </object>
+      </object>
+      <object name="CPersistComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="selLevel" type="Enum">Limited</field>
+        <field name="bDontPersistIfChild" type="Boolean">False</field>
+        <field name="bIgnoreEntityLimiter" type="Boolean">False</field>
+      </object>
+    </object>
+  </object>
+</object>

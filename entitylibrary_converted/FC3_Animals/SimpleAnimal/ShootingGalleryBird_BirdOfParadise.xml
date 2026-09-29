@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7659864507018</field>
+  <field name="Name" type="String">SimpleAnimal/ShootingGalleryBird_BirdOfParadise</field>
+  <object name="Entity">
+    <field name="hidName" type="String">FC3_Animals:SimpleAnimal/ShootingGalleryBird_BirdOfParadise</field>
+    <field name="disEntityId" type="Int64">454</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">3</field>
+    <field name="hidPos" type="Vector3">-769,-769,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">-769,-769,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CSoundComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="sndptSoundPoint" type="BinHex">FFFFFFFF00000000</field>
+        <field name="bStopSoundOnStateChange" type="Boolean">False</field>
+        <field name="bAlwaysUpdate" type="Boolean">False</field>
+      </object>
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileName" type="String">graphics\__fc3_graphics\_common\characters\animals\bird\bird_shootingrange01.xml</field>
+        <field name="fileName" type="Hash64">D8725E018D3D31C1</field>
+        <field name="hidDescriptor" type="Rml">
+          <rml>
+            <hidDescriptor>
+              <component class="GraphicComponent" version="2" detail="0">
+                <object index="0" boneName="Bird_ShootingRange01_LOD0" bboxMin="-0.652399,-0.44199,0.000509567" bboxMax="0.652399,0.213814,0.393996" />
+                <resource fileName="graphics\__FC3_Graphics\_Common\Characters\Animals\Bird\Bird_ShootingRange01.xbg" bboxMin="-0.652399,-0.44199,0.000509567" bboxMax="0.652399,0.213814,0.393996" />
+                <skeleton_reference_list>
+                  <skeleton name="Bird_ShootingRange01" index="0" pos="0,0,0" rot="1,-0,-0,-0">
+                    <bone name="Hips" pos="0,-0.112415,0.126372" rot="0.390609,0.589427,0.390609,0.589427">
+                      <bone name="Spine" pos="0.077895,-0,0" rot="0.99964,0,-0,0.0268335">
+                        <bone name="Neck" pos="0.125174,0,0" rot="0.993166,-0,0,0.116713">
+                          <bone name="Head" pos="0.04903,0,0" rot="0.952211,-1.22176e-006,-6.10882e-007,-0.305441" />
+                        </bone>
+                        <bone name="LeftArm" pos="0.083432,-0.005101,0" rot="0.841819,-0.239869,0.264349,0.404874">
+                          <bone name="LeftForearm" pos="0.13628,0,-0" rot="0.986849,-0.000823734,0.161534,0.0058927">
+                            <bone name="LeftHand" pos="0.158174,0,-0" rot="0.970178,4.8479e-007,0.242395,2.42395e-007" />
+                          </bone>
+                        </bone>
+                        <bone name="RightArm" pos="0.083432,-0.005101,-0" rot="-0.239869,0.841819,0.404874,0.264349">
+                          <bone name="RightForearm" pos="0.13628,-0,-0" rot="0.986063,0.000574643,0.166197,-0.00758">
+                            <bone name="RightHand" pos="0.160742,0,-0" rot="0.971346,0.000516696,0.237661,0.00206916" />
+                          </bone>
+                        </bone>
+                      </bone>
+                      <bone name="Tail" pos="-0.009503,0.000491,-0" rot="0.0849707,-0,9.96383e-007,0.996383">
+                        <bone name="Tail_nub" pos="0.334769,0,0" rot="1,0,0,0" />
+                      </bone>
+                      <bone name="RightUpperLeg" pos="0.049588,-0.032848,0.03337" rot="0.730838,0,-0,-0.682551" />
+                      <bone name="LeftUpperLeg" pos="0.049588,-0.032848,-0.03337" rot="-1.62921e-007,0.730838,-0.682551,0" />
+                    </bone>
+                  </skeleton>
+                </skeleton_reference_list>
+                <material_reference_list>
+                  <material name="testBird" shader_name="Generic_FC3" ref_shader_id="Vfortin-M-2011032246212114" />
+                </material_reference_list>
+              </component>
+              <component class="RigidPhysComponent">
+                <resource fileName="graphics\__FC3_Graphics\_Common\Characters\Animals\Bird\Bird_ShootingRange01.hkx" />
+              </component>
+            </hidDescriptor>
+          </rml>
+        </field>
+        <field name="hidCrcCheck" type="Hash32">FFFFFFFF</field>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bCastShadow" type="Boolean">True</field>
+        <field name="bReceiveShadow" type="Boolean">True</field>
+        <field name="bCastAmbientShadow" type="Boolean">True</field>
+        <field name="olgLightGroup" type="Int32">129</field>
+        <field name="bShowInReflection" type="Boolean">True</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bExcludeFromPortalSystem" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="clrHighLightColor" type="Vector3">0.4,0.364706,0.27451</field>
+        <field name="clrHighLightColor2" type="Vector3">0,0,0</field>
+        <field name="fHighLightSpeed" type="Float32">1</field>
+        <field name="bLodDitheringEnable" type="Boolean">True</field>
+        <field name="matIntuitionMaterialName" type="String"></field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field name="bAllowCullBySize" type="Boolean">True</field>
+        <field name="bMotionBlurExclusion" type="Boolean">False</field>
+        <field name="bOverrideLODSphere" type="Boolean">False</field>
+        <field name="fLODSphereRadius" type="Float32">0</field>
+        <field name="vectorAdditionalAABBDimensionForSkin" type="Vector3">1,1,0</field>
+        <field name="text_currentSkin" type="String"></field>
+        <field name="currentSkin" type="Hash32">FFFFFFFF</field>
+        <field name="bUseCurrentSkin" type="Boolean">False</field>
+        <object name="MaterialLightSwitch">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">vfortin-m-2011032246212114</field>
+              <field name="disSlotId" type="Hash32">B8271FE3</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="MaterialOverrides">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">vfortin-m-2011032246212114</field>
+              <field name="disSlotId" type="Hash32">B8271FE3</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="SkinList">
+          <object name="Skin">
+            <field name="text_name" type="String"></field>
+            <field name="name" type="Hash32">FFFFFFFF</field>
+            <field name="locSkinNameId" type="Int32">-1</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">0</field>
+          <field name="text_fileModel" type="String">graphics\__fc3_graphics\_common\characters\animals\bird\bird_shootingrange01.xbg</field>
+          <field name="fileModel" type="Hash64">D72BCE018D3D31C1</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">Bird_ShootingRange01</field>
+          <field name="hidNodeName" type="Hash32">86F8694E</field>
+          <field name="text_hidNodeNameLOD0" type="String">Bird_ShootingRange01_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">134A7BD6</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">1</field>
+          <field name="text_fileModel" type="String"></field>
+          <field name="fileModel" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">Bird_ShootingRange01</field>
+          <field name="hidNodeName" type="Hash32">86F8694E</field>
+          <field name="text_hidNodeNameLOD0" type="String">Bird_ShootingRange01_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">134A7BD6</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+      </object>
+      <object name="CSimpleAnimationComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileSkeleton" type="String">graphics\__fc3_graphics\_common\characters\animals\bird\hips_ref.skeleton</field>
+        <field name="fileSkeleton" type="Hash64">EBBE94D30497AB69</field>
+        <field name="text_sPackage" type="String"></field>
+        <field name="sPackage" type="Hash64">FFFFFFFFFFFFFFFF</field>
+        <field name="AutoApplyDisplacement" type="Boolean">False</field>
+        <field name="sPartName" type="String"></field>
+        <field name="bEnableEvents" type="Boolean">False</field>
+        <field name="bRandomStart" type="Boolean">False</field>
+        <field name="text_Animation" type="String"></field>
+        <field name="Animation" type="Hash64">FFFFFFFFFFFFFFFF</field>
+      </object>
+      <object hash="40B958BA">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="527E7674" type="BinHex">67726170686963735C5F5F6663335F67726170686963735C5F636F6D6D6F6E5C636861726163746572735C616E696D616C735C626972645C626972645F73686F6F74696E6772616E676530312E686B7800</field>
+        <field hash="2E50EB85" type="BinHex">C1313D8D01E5B7C5</field>
+        <field hash="EFFCA0CA" type="BinHex">00</field>
+        <field hash="976F114C" type="BinHex">00</field>
+        <field hash="1CFFDBEC" type="BinHex">00</field>
+        <field hash="68C1CF4F" type="BinHex">00</field>
+        <field hash="6EB9AFAA" type="BinHex">01</field>
+        <field hash="CAA1B825" type="BinHex">01</field>
+        <field hash="CD8C3274" type="BinHex">00</field>
+        <field hash="5BABAAC6" type="BinHex">00</field>
+        <field hash="0DBE2127" type="BinHex">0000A040</field>
+        <field hash="43EBE31F" type="BinHex">00007A44</field>
+        <field hash="9EBBF0BE" type="BinHex">00004843</field>
+        <field hash="5E9FE0F4" type="BinHex">01000000</field>
+        <field hash="A0C9D351" type="BinHex">00000000</field>
+        <field hash="3D255EB4" type="BinHex">000080BF</field>
+        <field hash="6979CD98" type="BinHex">000080BF</field>
+        <field hash="10544067" type="BinHex">0000803F</field>
+        <field hash="19373762" type="BinHex">0000803F</field>
+        <field hash="6C655DC9" type="BinHex">000000000000000000000000</field>
+        <field hash="2FAB0399" type="BinHex">CDCCCC3D</field>
+        <field hash="4B920C34" type="BinHex">00000040</field>
+        <field hash="E7CD1E54" type="BinHex">00007A44</field>
+        <field hash="377CBB2A" type="BinHex">3078464646464646464600</field>
+        <field hash="46C19CCF" type="BinHex">FFFFFFFF</field>
+        <field hash="1B5C5211" type="BinHex">00</field>
+        <field hash="B2AC9745" type="BinHex">00</field>
+        <object hash="18327EA1" />
+        <object hash="F8CD54EF" />
+        <object hash="2C3872D7">
+          <field hash="1BD9687D" type="BinHex">01</field>
+          <field hash="3CC3447B" type="BinHex">0000803F</field>
+          <field hash="A82A04B0" type="BinHex">01</field>
+          <field hash="7E69602B" type="BinHex">0000803F</field>
+          <field hash="2CE04FBD" type="BinHex">01</field>
+          <field hash="0FD3A7FE" type="BinHex">0000803F</field>
+          <field hash="66E259A4" type="BinHex">01</field>
+          <field hash="AF05B5DA" type="BinHex">0000803F</field>
+          <field hash="D0D0214E" type="BinHex">01</field>
+          <field hash="EF60D3E5" type="BinHex">0000803F</field>
+          <field hash="84C61665" type="BinHex">01</field>
+          <field hash="0E383244" type="BinHex">0000803F</field>
+          <field hash="F5A437A9" type="BinHex">01</field>
+          <field hash="2E4EF419" type="BinHex">0000803F</field>
+          <field hash="CD44BAF4" type="BinHex">00</field>
+          <field hash="B400C023" type="BinHex">0000803F</field>
+          <field hash="D5DFD00B" type="BinHex">01</field>
+          <field hash="331A65A7" type="BinHex">0000803F</field>
+          <field hash="D8CE60FD" type="BinHex">01</field>
+          <field hash="EC4E2508" type="BinHex">0000803F</field>
+          <field hash="7B2F6D28" type="BinHex">0000803F</field>
+          <field hash="FA5898B1" type="BinHex">0000803F</field>
+        </object>
+      </object>
+      <object hash="28DB2B66">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="D31D8CE5" type="BinHex">0000803F</field>
+        <field hash="27099C90" type="BinHex">00</field>
+        <field hash="DE6FE9FB" type="BinHex">FFFFFFFF</field>
+        <field hash="3DED5A88" type="BinHex">00</field>
+        <field hash="C729E709" type="BinHex">00</field>
+        <field hash="0E37A34A" type="BinHex">00</field>
+        <field hash="2D6DDF89" type="BinHex">0000803F</field>
+        <field hash="F0A9E476" type="BinHex">00</field>
+        <field hash="C8758EE0" type="BinHex">00000000</field>
+        <field hash="4ECA9E52" type="BinHex">00008040</field>
+        <field hash="2B41D37D" type="BinHex">0000803F</field>
+        <field hash="FFEEA751" type="BinHex">0000C842</field>
+        <field hash="BD8D62E9" type="BinHex">0000803F</field>
+        <object hash="A568BA00">
+          <object hash="0395B00E">
+            <field hash="16ACDBFE" type="BinHex">0000803F</field>
+            <field hash="FB47F10E" type="BinHex">0000803F</field>
+            <field hash="9DB86C1E" type="BinHex">0000803F</field>
+            <field hash="CC048305" type="BinHex">0000803F</field>
+            <field hash="DBDC55DD" type="BinHex">0000803F</field>
+            <field hash="A4626FBC" type="BinHex">0000803F</field>
+            <field hash="B6A61D80" type="BinHex">0000803F</field>
+            <field hash="73EB1AFE" type="BinHex">0000803F</field>
+            <field hash="2E762191" type="BinHex">0000803F</field>
+            <field hash="0DB52D6D" type="BinHex">0000803F</field>
+          </object>
+        </object>
+      </object>
+      <object name="CFCXPawnLootComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="hidInjected" type="Boolean">True</field>
+        <field name="fLootRadius" type="Float32">2</field>
+        <field name="sndPickupAmmoSound" type="String">0xFFFFFFFF</field>
+        <field name="sndtpRareAnimalSoundType" type="Hash32">FFFFFFFF</field>
+        <field name="sndRareAnimalSound" type="String">0xFFFFFFFF</field>
+        <field name="selObjectType" type="Enum">Generic</field>
+        <field name="text_Bone1" type="String">Head</field>
+        <field name="Bone1" type="Hash32">07C159A2</field>
+        <field name="text_Bone2" type="String">Spine</field>
+        <field name="Bone2" type="Hash32">530EC1CB</field>
+        <field name="text_BloodMaterial" type="String"></field>
+        <field name="BloodMaterial" type="Hash32">FFFFFFFF</field>
+        <field name="locidLootPromptId" type="Int32">104575</field>
+        <object name="LootGroups">
+          <object name="Group">
+            <field name="percent" type="Float32">-1</field>
+            <field name="lootGroup" type="Int32">0</field>
+          </object>
+        </object>
+        <object name="AlternativeBloodMaterials">
+          <object name="AlternativeBloodMaterial">
+            <field name="text_AlternativeBloodMaterial" type="String"></field>
+            <field name="AlternativeBloodMaterial" type="Hash32">FFFFFFFF</field>
+          </object>
+        </object>
+        <object name="LootMultipliers">
+          <field name="bForceAlwaysLootable" type="BinHex">00</field>
+          <object name="StimTypeMultipliers">
+            <object name="StimTypeMultiplier">
+              <field hash="01A1F2E2" type="BinHex">00000000</field>
+              <field hash="7B69D7B1" type="BinHex">00000000</field>
+              <field hash="9C3C1047" type="BinHex">000080BF</field>
+              <field hash="DBAB2F6A" type="BinHex">01000000</field>
+            </object>
+          </object>
+          <object name="HitLocationMultipliers">
+            <object name="HitLocationMultiplier">
+              <field hash="57CDD6A0" type="BinHex">00000000</field>
+              <field hash="DBAB2F6A" type="BinHex">01000000</field>
+            </object>
+          </object>
+        </object>
+      </object>
+      <object name="CTaggableComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="hidInjected" type="Boolean">True</field>
+        <field name="fIdentificationRadiusModifier" type="Float32">1</field>
+        <field name="bEnable" type="Boolean">True</field>
+        <field name="bDisableTaggingByCameraAndIronsight" type="Boolean">True</field>
+        <field name="fHighlightFadeOutTime" type="Float32">2</field>
+        <field name="selTagType" type="Enum">Animal</field>
+        <object name="TagIndicator">
+          <field name="bSizeDependsOnDistance" type="Boolean">False</field>
+          <field name="text_sTexturePath" type="String"></field>
+          <field name="sTexturePath" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="fScaleX" type="Float32">0.04</field>
+          <field name="fScaleY" type="Float32">0.04</field>
+          <field name="fVerticalOffset" type="Float32">0.5</field>
+          <field name="sMinimapFrameLabel" type="String"></field>
+        </object>
+      </object>
+    </object>
+  </object>
+</object>

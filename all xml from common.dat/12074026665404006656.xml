@@ -1,0 +1,35 @@
+<graphickit id="12074026665404006656" name="Giant" unique="0" kittobone="1">
+	<slot name="Body" position="0" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="Giant" ref="graphics\__FC3_Graphics\_Common\Characters\Giant\Giant.xml" mesh="Giant" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Giant_monster_LAVA" id="ecourcelles-M-2012041362240344">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Giant_monster_Eyes" id="cromagnoli-M-2012041352915601">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Giant_monster_Body" id="cromagnoli-M-2012041352813591">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Giant_monster_HEAD" id="cromagnoli-M-2012041352607265">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="GiantIris" id="ecourcelles-M-2012070338974772">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Slot2" position="1" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot3" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot4" position="3" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

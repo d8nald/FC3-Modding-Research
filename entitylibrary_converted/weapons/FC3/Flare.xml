@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">513417941026688537</field>
+  <field name="Name" type="String">FC3/Flare</field>
+  <object name="Entity">
+    <field name="hidName" type="String">weapons:FC3/Flare</field>
+    <field name="disEntityId" type="Int64">20108</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">6</field>
+    <field name="hidPos" type="Vector3">0,0,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">0,0,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileName" type="String">graphics\__fc3_graphics\_common\weapons\flare_gun\flare.xml</field>
+        <field name="fileName" type="Hash64">8D2083C88B82FE97</field>
+        <field name="hidDescriptor" type="Rml">
+          <rml>
+            <hidDescriptor>
+              <component class="GraphicComponent" version="2" detail="0">
+                <object index="0" boneName="FLARE_LOD0" bboxMin="-0.0158861,0.0146019,-0.0169788" bboxMax="0.0158861,0.0625699,0.0147934" />
+                <resource fileName="graphics\__FC3_Graphics\_Common\Weapons\Flare_Gun\FLARE.xbg" bboxMin="-0.0158861,0.0146019,-0.0169788" bboxMax="0.0158861,0.0625699,0.0147934" />
+                <skeleton_reference_list>
+                  <skeleton name="FLARE" index="0" pos="0,0,0" rot="1,-0,-0,-0" />
+                </skeleton_reference_list>
+                <material_reference_list>
+                  <material name="MS_Generic_Metal_Brake01" shader_name="Generic_FC3" ref_shader_id="MS_Generic_Metal_Brake01" />
+                </material_reference_list>
+              </component>
+              <component class="InteriorVolumeComponent" version="1" detail="0" />
+              <component class="RigidPhysComponent">
+                <resource fileName="graphics\__FC3_Graphics\_Common\Weapons\Flare_Gun\FLARE.hkx" />
+              </component>
+            </hidDescriptor>
+          </rml>
+        </field>
+        <field name="hidCrcCheck" type="Hash32">FFFFFFFF</field>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bCastShadow" type="Boolean">True</field>
+        <field name="bReceiveShadow" type="Boolean">True</field>
+        <field name="bCastAmbientShadow" type="Boolean">True</field>
+        <field name="olgLightGroup" type="Int32">1281</field>
+        <field name="bShowInReflection" type="Boolean">True</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bExcludeFromPortalSystem" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="clrHighLightColor" type="Vector3">1,0.894118,0.6</field>
+        <field name="clrHighLightColor2" type="Vector3">0,0,0</field>
+        <field name="fHighLightSpeed" type="Float32">1</field>
+        <field name="bLodDitheringEnable" type="Boolean">True</field>
+        <field name="matIntuitionMaterialName" type="String">graphics\_materials\jprajotte-M-20100916104744.material.xml</field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field name="bAllowCullBySize" type="Boolean">True</field>
+        <field name="bMotionBlurExclusion" type="Boolean">False</field>
+        <field name="bOverrideLODSphere" type="Boolean">False</field>
+        <field name="fLODSphereRadius" type="Float32">0</field>
+        <field name="vectorAdditionalAABBDimensionForSkin" type="Vector3">0.1,0.1,0</field>
+        <field name="text_currentSkin" type="String"></field>
+        <field name="currentSkin" type="Hash32">FFFFFFFF</field>
+        <field name="bUseCurrentSkin" type="Boolean">False</field>
+        <object name="MaterialLightSwitch">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">ms_generic_metal_brake01</field>
+              <field name="disSlotId" type="Hash32">67032862</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="MaterialOverrides">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">ms_generic_metal_brake01</field>
+              <field name="disSlotId" type="Hash32">67032862</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="SkinList">
+          <object name="Skin">
+            <field name="text_name" type="String"></field>
+            <field name="name" type="Hash32">FFFFFFFF</field>
+            <field name="locSkinNameId" type="Int32">-1</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">0</field>
+          <field name="text_fileModel" type="String">graphics\__fc3_graphics\_common\weapons\flare_gun\flare.xbg</field>
+          <field name="fileModel" type="Hash64">827913C88B82FE97</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">FLARE</field>
+          <field name="hidNodeName" type="Hash32">3F30D04F</field>
+          <field name="text_hidNodeNameLOD0" type="String">FLARE_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">E4EB817F</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">1</field>
+          <field name="text_fileModel" type="String"></field>
+          <field name="fileModel" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">FLARE</field>
+          <field name="hidNodeName" type="Hash32">3F30D04F</field>
+          <field name="text_hidNodeNameLOD0" type="String">FLARE_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">E4EB817F</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+      </object>
+      <object name="CSoundComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="sndptSoundPoint" type="BinHex">FFFFFFFF00000000</field>
+        <field name="bStopSoundOnStateChange" type="Boolean">False</field>
+        <field name="bAlwaysUpdate" type="Boolean">False</field>
+      </object>
+      <object name="CSimpleAnimationComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileSkeleton" type="String">graphics\characters\_common\singlebone_ref.skeleton</field>
+        <field name="fileSkeleton" type="Hash64">9F5AC43FB55D2FD4</field>
+        <field name="text_sPackage" type="String"></field>
+        <field name="sPackage" type="Hash64">FFFFFFFFFFFFFFFF</field>
+        <field name="AutoApplyDisplacement" type="Boolean">False</field>
+        <field name="sPartName" type="String">flare</field>
+        <field name="bEnableEvents" type="Boolean">False</field>
+        <field name="bRandomStart" type="Boolean">False</field>
+        <field name="text_Animation" type="String"></field>
+        <field name="Animation" type="Hash64">FFFFFFFFFFFFFFFF</field>
+      </object>
+      <object name="CFCXAIComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_Type" type="String">CVisibleObject</field>
+        <field name="Type" type="Hash32">88597E7D</field>
+        <field name="selCharacterType" type="Enum">GenericNPC</field>
+        <field name="selGenderType" type="Enum">Male</field>
+        <field name="selMetaCharacterType" type="Enum">None</field>
+        <field name="arkPistolTakedownArchetype" type="Id64">0</field>
+        <field name="fMaxLookAngle" type="Float32">90</field>
+        <field name="fMaxAimAngle" type="Float32">90</field>
+        <object name="AIObject">
+          <object hash="88597E7D">
+            <field hash="955661EF" type="BinHex">0A000000</field>
+            <field hash="6F8C4C70" type="BinHex">000080BF</field>
+          </object>
+        </object>
+      </object>
+      <object hash="F7891387">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="251F04A3" type="BinHex">506C6179657253686F74466C61726500</field>
+        <field hash="3C8B7089" type="BinHex">94A2919404070000</field>
+        <object hash="4EA4BBD9">
+          <field hash="6D69FB3D" type="BinHex">00</field>
+          <field hash="DB2B772F" type="BinHex">FFFFFFFFFFFFFFFF</field>
+          <field hash="8448BEBC" type="BinHex">6663335F776561706F6E666972655F67656E657269632E666C6172652E666C6172655F6D697373696C6500</field>
+          <field hash="D2FC04E1" type="BinHex">CB016FB807905A63</field>
+          <field hash="C1D8B8A3" type="BinHex">00</field>
+          <field hash="32D78B67" type="BinHex">FFFFFFFFFFFFFFFF</field>
+          <field hash="61957EFA" type="BinHex">6663335F776561706F6E666972655F67656E657269632E666C6172652E666C6172655F66616C6C696E6700</field>
+          <field hash="929A4D3E" type="BinHex">9B8EF23A15F03960</field>
+        </object>
+        <object hash="E1AAE399">
+          <field hash="7504BC3A" type="BinHex">0000A040</field>
+          <field hash="0F036648" type="BinHex">CDCCCC3D</field>
+          <field hash="368057A5" type="BinHex">00000000</field>
+        </object>
+        <object hash="CEE7D1F2">
+          <field hash="BAD355C1" type="BinHex">00002043</field>
+          <field hash="7B6AB510" type="BinHex">000080BF</field>
+        </object>
+        <object hash="394FEC80">
+          <field hash="E7C07B4E" type="BinHex">3078464646464646464600</field>
+          <field hash="19140B13" type="BinHex">3078464646464646464600</field>
+          <field hash="07DA5E66" type="BinHex">3078464646464646464600</field>
+          <field hash="35293D38" type="BinHex">0A000000</field>
+          <field hash="DCF7F315" type="BinHex">FFFFFFFF</field>
+        </object>
+        <object hash="F560B23A">
+          <field hash="F26659EE" type="BinHex">0000A041</field>
+          <field hash="F8186C6E" type="BinHex">0000403F</field>
+          <field hash="9A6EC8E4" type="BinHex">0AD7233C</field>
+          <field hash="6EF63477" type="BinHex">CDCC4C3D</field>
+          <field hash="4CE2BE74" type="BinHex">0AD7233C</field>
+        </object>
+      </object>
+      <object name="CParticlePhysComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_hidResourceId" type="String"></field>
+        <field name="hidResourceId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+        <field name="bDisabledAtStart" type="BinHex">01</field>
+        <field name="bSendStimOnWaterCollision" type="BinHex">00</field>
+        <object name="LogicMaterialOverrides" />
+        <object hash="8C296190">
+          <field hash="3D255EB4" type="BinHex">0000A040</field>
+          <field hash="F8186C6E" type="BinHex">CDCCCC3D</field>
+          <field hash="472849B4" type="BinHex">0000003F</field>
+          <field hash="1E091121" type="BinHex">0000803F</field>
+          <field hash="E1982D2F" type="BinHex">0000803F</field>
+          <field hash="F5C425C9" type="BinHex">00</field>
+          <field hash="B6E76F80" type="BinHex">00000000</field>
+          <field hash="9947AA27" type="BinHex">01</field>
+          <field hash="F718AEDA" type="BinHex">00</field>
+          <field hash="529925EF" type="BinHex">00</field>
+          <field hash="48B5E31B" type="BinHex">0000803F</field>
+        </object>
+      </object>
+      <object name="CCountersComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+      </object>
+      <object name="CProjectileNetworkComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+      </object>
+      <object name="CObjectSoundAndFXComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <object name="Impact">
+          <field name="matimpDropImpact" type="BinHex">A71B0C3700000000</field>
+          <field name="fSpeedForMaxDropImpactVolume" type="BinHex">00000000</field>
+          <field name="fMinimalCollisionSpeed" type="BinHex">0000803F</field>
+          <field name="bIsSingleDropImpactObject" type="BinHex">00</field>
+          <object name="MovementSound">
+            <field name="sndRollingSound" type="BinHex">3078464646464646464600</field>
+            <field name="sndRollingSoundEnd" type="BinHex">3078464646464646464600</field>
+            <field name="sndtpRollingSoundType" type="BinHex">FFFFFFFF</field>
+            <field name="sndSlidingSound" type="BinHex">3078464646464646464600</field>
+            <field name="sndSlidingSoundEnd" type="BinHex">3078464646464646464600</field>
+            <field name="sndtpSlidingSoundType" type="BinHex">FFFFFFFF</field>
+            <field name="sndmlObjectMovementMultilayer" type="BinHex">FFFFFFFF</field>
+          </object>
+        </object>
+        <object name="Falling">
+          <field name="bAllowAfterCollision" type="BinHex">00</field>
+          <field name="sndFallingSound" type="BinHex">3078464646464646464600</field>
+          <field name="sndtpFallingType" type="BinHex">0B000000</field>
+          <field name="fSpeedToPlayFallingSound" type="BinHex">00000000</field>
+          <field name="FallingSoundTimeTrigger" type="BinHex">00000000</field>
+        </object>
+        <object name="Water">
+          <field name="fZMinSpeedToTriggerSplash" type="BinHex">0000803F</field>
+          <field name="fZMaxSpeedToTriggerSplash" type="BinHex">0000A040</field>
+          <field name="fZMinSplashScale" type="BinHex">0000803F</field>
+          <field name="fZMaxSplashScale" type="BinHex">9A99993F</field>
+          <field name="fZSpeedForMaxSplashVolume" type="BinHex">00000000</field>
+        </object>
+      </object>
+    </object>
+  </object>
+</object>

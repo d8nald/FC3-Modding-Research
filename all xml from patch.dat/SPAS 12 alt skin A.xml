@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="72DE4948">
+  <field name="hidSingleObject" type="Boolean">False</field>
+  <field name="bCanBeShared" type="Boolean">True</field>
+  <field name="text_hidName" type="String">Shotguns/SPAS 12 alt skin A</field>
+  <field name="hidName" type="Hash32">DA7ECF0A</field>
+  <field name="disId" type="UInt16">412</field>
+  <field name="locidItemNameId" type="Int32">167200</field>
+  <field name="shpcatCategory" type="UInt8">11</field>
+  <field name="shpscataSubCategory1" type="UInt8">150</field>
+  <field name="shpscatbSubCategory2" type="UInt8">90</field>
+  <field name="shpitpeItemType" type="UInt8">68</field>
+  <field name="shpisubtpeItemSubType" type="UInt8">255</field>
+  <field name="locidDescriptionId" type="Int32">82936</field>
+  <field name="selAttachmentType" type="Enum">None</field>
+  <field name="text_ammoAmmoType" type="String">none</field>
+  <field name="ammoAmmoType" type="Hash32">7F9000CF</field>
+  <field name="iAmmoAmount" type="Int32">0</field>
+  <field name="selGadgetType" type="Enum">None</field>
+  <field name="arkArchetype" type="Id64">0</field>
+  <field name="arkDisplayArchetype" type="Id64">0</field>
+  <field name="fRotationSpeed" type="Float32">0.2</field>
+  <field name="fRotationAmplitude" type="Float32">0.03</field>
+  <field name="text_sName" type="String"></field>
+  <field name="sName" type="Hash32">FFFFFFFF</field>
+  <field name="iCost" type="Int32">200</field>
+  <field name="fRefillAllAmmoCostMultiplier" type="Float32">1</field>
+  <field name="iXPOnLoot" type="Int32">0</field>
+  <field name="iSortId" type="Int32">11</field>
+  <field name="UnlockOnMissionComplete" type="String"></field>
+  <field name="UnlockFromScript" type="String"></field>
+  <field name="bVisibleInInventory" type="Boolean">False</field>
+  <field name="bShowCurrentCount" type="Boolean">False</field>
+  <field name="sShopIconName" type="String"></field>
+  <field name="sHudIconName" type="String"></field>
+  <field name="bIsLootItem" type="Boolean">False</field>
+  <field name="bIsTreasureMap" type="Boolean">False</field>
+  <field name="bIsRareItem" type="Boolean">False</field>
+  <field name="selCollectibleType" type="Enum">Invalid</field>
+  <field name="bIsWeaponStatistics" type="Boolean">False</field>
+  <field name="sULC_Name" type="String"></field>
+  <field name="wikiItemId" type="Int32">-1</field>
+  <object name="DefaultPositionOnScreen">
+    <field name="vectorDisplayDefaultPosition" type="Vector3">0,0,0</field>
+    <field name="DisplayDefaultAngles" type="Vector3">0,0,0</field>
+    <field name="vectorDisplayDefaultPositionWithSilencer" type="Vector3">0,0,0</field>
+    <field name="DisplayDefaultAnglesWithSilencer" type="Vector3">0,0,0</field>
+  </object>
+  <object name="CategoryPositionOnScreen">
+    <field name="bDisplayAsDefaultItem" type="Boolean">False</field>
+    <field name="vectorDisplayDefaultCategoryPosition" type="Vector3">0,0,0</field>
+    <field name="DisplayDefaultCategoryAngles" type="Vector3">0,0,0</field>
+    <object name="DefaultAttachmentsNames">
+      <object name="DefaultAttachmentName">
+        <field name="text_Name" type="String"></field>
+        <field name="Name" type="Hash32">FFFFFFFF</field>
+      </object>
+    </object>
+  </object>
+  <object name="PositionOnFullScreen">
+    <field name="FullscreenpAngles" type="Vector3">0,0,0</field>
+    <field name="vectorFullscreenCenterOffset" type="Vector3">0,0,0</field>
+  </object>
+</object>

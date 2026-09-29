@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7707386579855</field>
+  <field name="Name" type="String">FC3/Frag_Grenade.Frag_Grenade_NPC</field>
+  <object name="Entity">
+    <field name="hidName" type="String">gadgets:FC3/Frag_Grenade.Frag_Grenade_NPC</field>
+    <field name="disEntityId" type="Int64">15047</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">0</field>
+    <field name="hidPos" type="Vector3">0,0,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">0,0,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileName" type="String"></field>
+        <field name="fileName" type="Hash64">FFFFFFFFFFFFFFFF</field>
+        <field name="hidCrcCheck" type="Hash32">FFFFFFFF</field>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bCastShadow" type="Boolean">True</field>
+        <field name="bReceiveShadow" type="Boolean">True</field>
+        <field name="bCastAmbientShadow" type="Boolean">True</field>
+        <field name="olgLightGroup" type="Int32">257</field>
+        <field name="bShowInReflection" type="Boolean">True</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bExcludeFromPortalSystem" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="clrHighLightColor" type="Vector3">1,0.9,0.6</field>
+        <field name="clrHighLightColor2" type="Vector3">0,0,0</field>
+        <field name="fHighLightSpeed" type="Float32">1</field>
+        <field name="bLodDitheringEnable" type="Boolean">True</field>
+        <field name="matIntuitionMaterialName" type="String"></field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field name="bAllowCullBySize" type="Boolean">True</field>
+        <field name="bMotionBlurExclusion" type="Boolean">False</field>
+        <field name="bOverrideLODSphere" type="Boolean">False</field>
+        <field name="fLODSphereRadius" type="Float32">0</field>
+        <field name="vectorAdditionalAABBDimensionForSkin" type="Vector3">1,1,0</field>
+        <field name="text_currentSkin" type="String"></field>
+        <field name="currentSkin" type="Hash32">FFFFFFFF</field>
+        <field name="bUseCurrentSkin" type="Boolean">False</field>
+        <object name="MaterialLightSwitch">
+          <object name="MaterialSlots" />
+        </object>
+        <object name="MaterialOverrides">
+          <object name="MaterialSlots" />
+        </object>
+        <object name="SkinList">
+          <object name="Skin">
+            <field name="text_name" type="String"></field>
+            <field name="name" type="Hash32">FFFFFFFF</field>
+            <field name="locSkinNameId" type="Int32">-1</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">0</field>
+          <field name="text_fileModel" type="String"></field>
+          <field name="fileModel" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String"></field>
+          <field name="hidNodeName" type="Hash32">FFFFFFFF</field>
+          <field name="text_hidNodeNameLOD0" type="String"></field>
+          <field name="hidNodeNameLOD0" type="Hash32">FFFFFFFF</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+      </object>
+      <object name="CGadget">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="iAnimationValue" type="Int32">0</field>
+        <field name="bByPassLockHiresCustom" type="Boolean">False</field>
+        <field name="sName" type="BinHex">467261675F4772656E61646500</field>
+        <field name="locidDisplayName" type="BinHex">FFFFFFFF</field>
+        <field name="selCategory" type="Enum">Grenade</field>
+        <field name="selUseRateMode" type="Enum">Instant</field>
+        <field name="iUseRate" type="BinHex">00007042</field>
+        <field name="selUseStrategy" type="Enum">Throw</field>
+        <field name="iMaxUsesCasual" type="BinHex">02000000</field>
+        <field name="iMaxUsesExperimented" type="BinHex">02000000</field>
+        <field name="iMaxUsesHardcore" type="BinHex">02000000</field>
+        <field name="iMaxUsesInfamous" type="BinHex">02000000</field>
+        <field name="bUnlimitedUses" type="Boolean">False</field>
+        <field name="arkPickupArchetypeName" type="BinHex">9FEE29A3E506E005</field>
+        <field name="fLookSensitivity" type="Float32">1</field>
+        <field name="bUseBothHands" type="Boolean">False</field>
+        <field name="bVisibleHolstered" type="Boolean">True</field>
+        <field name="fMoveSpeedFactor" type="Float32">1</field>
+        <object name="UseStrategy">
+          <field name="arkProjectile" type="Id64">7707386456664</field>
+          <field name="fThrowStrength" type="Float32">16</field>
+          <field name="fThrowAngle" type="Float32">15</field>
+          <field name="fPrimeGrenadeTime" type="Float32">0</field>
+          <field name="fReleaseGrenadeTime" type="Float32">0</field>
+          <field name="vectorMinAngularImpulse" type="Vector3">-10,0,0</field>
+          <field name="vectorMaxAngularImpulse" type="Vector3">-10,20,0</field>
+          <field name="sAmbxScript" type="BinHex">00</field>
+          <field name="vectorCenterThrowAnimOffset" type="Vector3">-0.188,0.12,0.14</field>
+          <field name="vectorLeftThrowAnimOffset" type="Vector3">-0.188,0.12,0.14</field>
+          <field name="vectorRightThrowAnimOffset" type="Vector3">-0.188,0.12,0.14</field>
+          <field name="coverZThrowOffset" type="Float32">0.05</field>
+          <field name="vectorSpawnPosOffset" type="Vector3">0.1,0.03,0.045</field>
+          <field name="vectorSpawnOrientOffset" type="Vector3">90,90,0</field>
+          <field name="bForcePhysicsThrow" type="Boolean">False</field>
+        </object>
+        <object name="StatisticsAndProgressionWiki">
+          <object name="StatisticUsageCount">
+            <field name="selStatisticType" type="Enum">Weapons_NumberOfUtilisation_FragGrenade</field>
+          </object>
+        </object>
+      </object>
+      <object name="CGadgetNetworkComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+      </object>
+    </object>
+  </object>
+</object>

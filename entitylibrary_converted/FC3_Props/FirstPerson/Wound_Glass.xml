@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7724948666849</field>
+  <field name="Name" type="String">FirstPerson/Wound_Glass</field>
+  <object name="Entity">
+    <field name="hidName" type="String">FC3_Props:FirstPerson/Wound_Glass</field>
+    <field name="disEntityId" type="Int64">13904</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">3</field>
+    <field name="hidPos" type="Vector3">0,0,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">0,0,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileName" type="String">graphics\__fc3_graphics\_common\characters\firstperson\fp_propwound_glass.xml</field>
+        <field name="fileName" type="Hash64">3D74D7A23C663DBF</field>
+        <field name="hidDescriptor" type="Rml">
+          <rml>
+            <hidDescriptor>
+              <component class="GraphicComponent" version="2" detail="0">
+                <object index="0" boneName="FP_PropWound_Glass_LOD0" bboxMin="-0.0250996,-0.0228599,-0.0596547" bboxMax="0.093335,0.0279136,-0.0212631" />
+                <resource fileName="graphics\__FC3_Graphics\_Common\Characters\FirstPerson\FP_PropWound_Glass.xbg" bboxMin="-0.0250996,-0.0228599,-0.0596547" bboxMax="0.093335,0.0279136,-0.0212631" />
+                <skeleton_reference_list>
+                  <skeleton name="FP_PropWound_Glass" index="0" pos="0,0,0" rot="1,-0,-0,-0">
+                    <bone name="Hips" pos="2e-005,0.019167,0.975868" rot="0.707107,-0,-0.707106,-0">
+                      <bone name="LeftUpLeg" pos="-0.038658,-0.013934,0.091534" rot="-0.0523273,0.0270249,0.998264,0.000348522">
+                        <bone name="LeftLeg" pos="0.424995,-0,-0" rot="0.996496,0.0018664,-0.00199955,-0.0835937">
+                          <bone name="LeftFoot" pos="0.418652,0,0" rot="0.849125,-0.0952794,-0.0111353,0.519407">
+                            <bone name="LeftToe" pos="0.1376,-0,0" rot="0.958951,-0,-0,0.283572">
+                              <bone name="LeftToeEnd" pos="0.088677,0,0" rot="1,0,0,0" />
+                            </bone>
+                          </bone>
+                        </bone>
+                        <bone name="LeftKnee" pos="0.424995,-1e-006,0" rot="0.734855,2.44161e-005,-0.00273528,0.678218" />
+                      </bone>
+                      <bone name="RightUpLeg" pos="-0.038658,-0.013935,-0.091493" rot="0.0523285,0.0270259,0.998264,-0.000350519">
+                        <bone name="RightLeg" pos="0.424995,-0,0" rot="0.996496,-0.0018664,0.00199955,-0.0835937">
+                          <bone name="RightFoot" pos="0.418652,0,-0" rot="0.849125,0.0952794,0.0111353,0.519407">
+                            <bone name="RightToe" pos="0.1376,-0,-0" rot="0.958951,0,0,0.283572">
+                              <bone name="RightToeEnd" pos="0.088676,-0,-0" rot="1,0,0,0" />
+                            </bone>
+                          </bone>
+                        </bone>
+                        <bone name="RightKnee" pos="0.424995,-1e-006,0" rot="0.678528,0.00560995,-0.00314031,0.734547" />
+                      </bone>
+                      <bone name="Spine" pos="0.074006,-0.009296,7.4e-005" rot="0.999861,-8.82172e-006,0.000181004,0.016676">
+                        <bone name="Spine1" pos="0.100928,-0,-0" rot="0.995759,4.01114e-005,-0.000109662,-0.0919987">
+                          <bone name="Spine2" pos="0.114886,-1e-005,0" rot="0.99991,-1.65283e-005,-7.273e-005,0.0133921">
+                            <bone name="LeftShoulder" pos="0.209004,-6e-006,0.06" rot="-0.0716268,0.685004,-0.0015909,0.725008">
+                              <bone name="LeftArm" pos="0.122029,-0,-0" rot="0.954257,0.0180923,0.293601,-0.0535171">
+                                <bone name="LeftForeArm" pos="0.2682,-1e-006,-0" rot="0.9948,-0.000527173,-0.00522998,-0.101714">
+                                  <bone name="LeftHand" pos="0.245752,-0,-0" rot="0.995247,0.003802,0.0870724,0.0434532">
+                                    <bone name="LeftHandThumb1" pos="0.029466,-0.021152,-0.015138" rot="0.8852,-0.174301,0.110414,-0.416953">
+                                      <bone name="LeftHandThumb2" pos="0.050852,0.000146,5.5e-005" rot="0.963168,-1.58652e-005,5.67381e-005,0.268901">
+                                        <bone name="LeftHandThumb3" pos="0.038727,1e-006,0" rot="0.987418,0,0,0.158131">
+                                          <bone name="LeftHandThumb4" pos="0.035246,0.000334,0" rot="0.996437,-0.000111913,8.93953e-006,-0.0843348" />
+                                        </bone>
+                                      </bone>
+                                      <bone name="LeftHandThumbHelper" pos="-0.01578,0.015281,0.002591" rot="0.920566,-0.229706,-0.237649,0.208127" />
+                                    </bone>
+                                    <bone name="LeftHandIndex1" pos="0.102883,-0.034658,-0.003182" rot="0.998775,0.00385195,0.0257405,-0.0420727">
+                                      <bone name="LeftHandIndex2" pos="0.051413,0,0" rot="0.984806,-1.04193e-006,0.173655,1.97967e-005">
+                                        <bone name="LeftHandIndex3" pos="0.024598,-0,0" rot="0.991445,2.74103e-006,0.130525,-6.2652e-006">
+                                          <bone name="LeftHandIndex4" pos="0.031393,-0,0" rot="1,0,0,0" />
+                                        </bone>
+                                      </bone>
+                                    </bone>
+                                    <bone name="LeftHandMiddle1" pos="0.103951,-0.011049,0.000796" rot="0.99914,0.00102523,0.0411428,0.00511562">
+                                      <bone name="LeftHandMiddle2" pos="0.060675,-0,-0" rot="0.984808,8.68234e-007,0.173647,-2.6047e-006">
+                                        <bone name="LeftHandMiddle3" pos="0.029087,0,-1e-006" rot="0.991445,5.22114e-007,0.130529,3.39374e-006">
+                                          <bone name="LeftHandMiddle4" pos="0.031446,0,-0" rot="1,0,0,0" />
+                                        </bone>
+                                      </bone>
+                                    </bone>
+                                    <bone name="LeftMetacarp" pos="0.004867,-7.2e-005,-6.3e-005" rot="0.992855,-2.38656e-007,-2.38656e-007,0.119328">
+                                      <bone name="LeftHandRing1" pos="0.095588,-0.013094,-0.002178" rot="0.998003,0.00201417,0.0391166,-0.0495657">
+                                        <bone name="LeftHandRing2" pos="0.053638,-0,0" rot="0.984807,5.20949e-007,0.17365,-1.7365e-007">
+                                          <bone name="LeftHandRing3" pos="0.028561,-0,-0" rot="0.991445,1.43574e-006,0.130522,-2.61044e-007">
+                                            <bone name="LeftHandRing4" pos="0.029148,-0,0" rot="1,0,0,0" />
+                                          </bone>
+                                        </bone>
+                                      </bone>
+                                      <bone name="LeftHandPinky1" pos="0.093615,0.010772,-0.003391" rot="0.998261,-7.29252e-005,0.034801,-0.0475852">
+                                        <bone name="LeftHandPinky2" pos="0.041413,-1e-006,0" rot="0.984809,-5.20926e-007,0.173642,3.47284e-006">
+                                          <bone name="LeftHandPinky3" pos="0.020639,-0,1e-006" rot="0.991443,2.3497e-006,0.130539,-2.74132e-006">
+                                            <bone name="LeftHandPinky4" pos="0.0251,0,-0" rot="1,0,0,0" />
+                                          </bone>
+                                        </bone>
+                                      </bone>
+                                    </bone>
+                                  </bone>
+                                  <bone name="LeftForeArmTwistA" pos="0.163837,-0,-1e-006" rot="1,0,0,0" />
+                                  <bone name="LeftForeArmTwistB" pos="0.081919,-0,-1e-006" rot="1,0,0,0" />
+                                </bone>
+                                <bone name="LeftArmTwistA" pos="2e-006,-0,-0" rot="1,0,0,0" />
+                                <bone name="LeftArmTwistB" pos="0.089402,-0,-0" rot="1,0,0,0" />
+                                <bone name="LeftElbow" pos="0.268202,-1e-006,-1e-006" rot="0.745689,-0.0020282,-0.0016764,0.666288" />
+                              </bone>
+                            </bone>
+                            <bone name="RightShoulder" pos="0.209004,-5e-006,-0.060001" rot="-0.0716189,-0.685004,0.00158492,0.725008">
+                              <bone name="RightArm" pos="0.122029,-0,1e-006" rot="0.954257,-0.0180923,-0.293601,-0.0535171">
+                                <bone name="RightForeArm" pos="0.2682,-0,0" rot="0.9948,0.00052697,0.00523028,-0.101714">
+                                  <bone name="RightHand" pos="0.245752,-0,0" rot="0.995247,-0.00380181,-0.0870726,0.0434535">
+                                    <bone name="RightHandThumb1" pos="0.029466,-0.021152,0.015138" rot="0.8852,0.1743,-0.110414,-0.416952">
+                                      <bone name="RightHandThumb2" pos="0.050852,0.000145,-5.4e-005" rot="0.963168,1.55963e-005,-5.64692e-005,0.268901">
+                                        <bone name="RightHandThumb3" pos="0.038726,1e-006,-0" rot="0.987418,-4.74396e-007,-1.58132e-007,0.158132">
+                                          <bone name="RightHandThumb4" pos="0.035246,0.000335,-0" rot="0.996437,0.000111828,-8.93953e-006,-0.0843354" />
+                                        </bone>
+                                      </bone>
+                                      <bone name="RightHandThumbHelper" pos="-0.015779,0.01528,-0.00259" rot="0.920566,0.229706,0.237648,0.208126" />
+                                    </bone>
+                                    <bone name="RightHandIndex1" pos="0.102882,-0.034659,0.003182" rot="0.998775,-0.00385245,-0.0257405,-0.0420725">
+                                      <bone name="RightHandIndex2" pos="0.051413,1e-006,0" rot="0.984806,1.04194e-006,-0.173656,1.97968e-005">
+                                        <bone name="RightHandIndex3" pos="0.024598,0,-0" rot="0.991445,-2.87154e-006,-0.130524,-6.65675e-006">
+                                          <bone name="RightHandIndex4" pos="0.031393,-0,-1e-006" rot="1,0,0,0" />
+                                        </bone>
+                                      </bone>
+                                    </bone>
+                                    <bone name="RightHandMiddle1" pos="0.10395,-0.011049,-0.000795" rot="0.99914,-0.00102569,-0.0411423,0.00511612">
+                                      <bone name="RightHandMiddle2" pos="0.060675,-0,-0" rot="0.984808,-3.47294e-007,-0.173647,-2.43106e-006">
+                                        <bone name="RightHandMiddle3" pos="0.029087,-0,0" rot="0.991445,-5.22112e-007,-0.130528,3.39373e-006">
+                                          <bone name="RightHandMiddle4" pos="0.031446,0,0" rot="1,0,0,0" />
+                                        </bone>
+                                      </bone>
+                                    </bone>
+                                    <bone name="RightMetacarp" pos="0.004866,-7.3e-005,6.3e-005" rot="0.992855,3.57985e-007,0,0.119328">
+                                      <bone name="RightHandRing1" pos="0.095588,-0.013094,0.002178" rot="0.998002,-0.00201452,-0.0391163,-0.0495669">
+                                        <bone name="RightHandRing2" pos="0.053638,0,-1e-006" rot="0.984807,-1.7365e-007,-0.17365,1.3892e-006">
+                                          <bone name="RightHandRing3" pos="0.028561,-0,0" rot="0.991446,-1.43573e-006,-0.130521,-2.61042e-007">
+                                            <bone name="RightHandRing4" pos="0.029148,-0,-0" rot="1,0,0,0" />
+                                          </bone>
+                                        </bone>
+                                      </bone>
+                                      <bone name="RightHandPinky1" pos="0.093615,0.010771,0.003391" rot="0.998261,7.24536e-005,-0.034801,-0.0475858">
+                                        <bone name="RightHandPinky2" pos="0.041412,-0,-1e-006" rot="0.984809,6.94567e-007,-0.173642,4.51469e-006">
+                                          <bone name="RightHandPinky3" pos="0.020638,-0,-1e-006" rot="0.991443,-2.48022e-006,-0.130538,-3.7856e-006">
+                                            <bone name="RightHandPinky4" pos="0.0251,0,0" rot="1,0,0,0" />
+                                          </bone>
+                                        </bone>
+                                      </bone>
+                                    </bone>
+                                    <bone name="RightHand_GunPlacement" pos="0.085026,-0.003472,0.028632" rot="0.519396,0.518205,0.4888,-0.47198" />
+                                  </bone>
+                                  <bone name="RightForeArmTwistA" pos="0.163836,-0,1e-006" rot="1,0,0,0" />
+                                  <bone name="RightForeArmTwistB" pos="0.081919,-0,1e-006" rot="1,0,0,0" />
+                                </bone>
+                                <bone name="RightArmTwistA" pos="2e-006,-0,0" rot="1,0,0,0" />
+                                <bone name="RightArmTwistB" pos="0.089402,-0,0" rot="1,0,0,0" />
+                                <bone name="RightElbow" pos="0.268202,-1e-006,1e-006" rot="0.745689,0.0020282,0.00167573,0.666289" />
+                              </bone>
+                            </bone>
+                            <bone name="Neck" pos="0.243133,-0.000867,0" rot="0.978235,2.09576e-005,7.05503e-006,0.207501">
+                              <bone name="Head" pos="0.115761,-3.1e-005,0" rot="0.999373,-2.96104e-005,-2.44392e-006,-0.0354185">
+                                <bone name="HeadEnd" pos="0.188967,-0,-0" rot="0.993663,-6.18189e-006,-1.57357e-006,-0.112398" />
+                                <bone name="Camera" pos="0.030239,0.030981,-0" rot="0.702515,0.080462,0.702515,-0.0804435" />
+                                <bone name="RightEyeRoot" pos="0.090449,0.068018,-0.028146" rot="0.702714,0.0787117,0.702713,-0.0786939" />
+                                <bone name="LeftEyeRoot" pos="0.090449,0.068017,0.02815" rot="0.702713,0.0787117,0.702714,-0.078694" />
+                                <bone name="Jaw" pos="0.04096,0.032385,2e-006" rot="-0.441209,0.552515,0.44128,0.55257">
+                                  <bone name="LeftLowLipOut" pos="0.022087,-0.033942,0.065912" rot="-0.274347,0.275111,0.651756,0.651354">
+                                    <bone name="LeftLowLipOutPinch" pos="3e-006,-0.006895,-2e-006" rot="1,0,0,0" />
+                                  </bone>
+                                  <bone name="LeftLowLipIn" pos="0.015602,-0.034,0.072879" rot="-0.238989,0.200239,0.665471,0.678187">
+                                    <bone name="LeftLowLipInPinch" pos="-7e-006,-0.008661,-1e-006" rot="1,0,0,0" />
+                                  </bone>
+                                  <bone name="MidLowLip" pos="-0,-0.034469,0.078686" rot="0.000141339,-0.000291,0.707045,0.707169">
+                                    <bone name="MidLowLipPinch" pos="6e-006,-0.010502,0" rot="1,0,0,0" />
+                                  </bone>
+                                  <bone name="RightLowLipIn" pos="-0.015579,-0.033999,0.072879" rot="0.238884,-0.200309,0.665451,0.678223">
+                                    <bone name="RightLowLipInPinch" pos="7e-006,-0.008661,2e-006" rot="1,0,0,0" />
+                                  </bone>
+                                  <bone name="RightLowLipOut" pos="-0.022064,-0.033941,0.065912" rot="0.274245,-0.27518,0.651727,0.651396">
+                                    <bone name="RightLowLipOutPinch" pos="-3e-006,-0.006895,1e-006" rot="1,0,0,0" />
+                                  </bone>
+                                  <bone name="RightLipCorner" pos="-0.027013,-0.032067,0.061955" rot="0.43831,-0.257893,0.58916,0.627906" />
+                                  <bone name="RightCreux" pos="-0.041182,-0.03096,0.05323" rot="0.446168,-0.223943,0.519893,0.693177" />
+                                  <bone name="RightAngLabi" pos="-0.0332,-0.050301,0.054472" rot="0.170635,-0.455295,0.591335,0.643361" />
+                                  <bone name="RightDepLabii" pos="-0.025097,-0.04459,0.066864" rot="0.330665,-0.171391,0.55575,0.743255" />
+                                  <bone name="Chin" pos="-1e-006,-0.06619,0.075827" rot="0.000159816,-0.00026,0.707069,0.707145" />
+                                  <bone name="LeftDepLabii" pos="0.025126,-0.044592,0.066863" rot="-0.330775,0.171338,0.555764,0.743207" />
+                                  <bone name="LeftAngLabi" pos="0.033231,-0.050303,0.054471" rot="-0.170734,0.455235,0.591388,0.643327" />
+                                  <bone name="LeftLipCorner" pos="0.027034,-0.032069,0.061954" rot="-0.438406,0.257833,0.589182,0.627842" />
+                                  <bone name="LeftCreux" pos="0.041202,-0.030963,0.053229" rot="-0.446272,0.223893,0.51991,0.693114" />
+                                  <bone name="LeftMasseter" pos="0.053065,-0.017932,0.032337" rot="-0.415042,0.238882,0.454829,0.75087" />
+                                  <bone name="LeftParotid" pos="0.063062,-0.009019,0.009313" rot="-0.48761,0.304506,0.436505,0.69208" />
+                                  <bone name="RightMasseter" pos="-0.053055,-0.017928,0.032338" rot="0.414933,-0.238923,0.454809,0.75093" />
+                                  <bone name="RightParotid" pos="-0.063059,-0.009015,0.009315" rot="0.48751,-0.304545,0.436478,0.692151" />
+                                  <bone name="MidLaryngeal" pos="-4e-006,-0.080167,0.019764" rot="3.08315e-005,-0.000338,0.427162,0.904175" />
+                                  <bone name="TongBo1" pos="-3e-006,-0.039818,0.021379" rot="9.58006e-005,-0.000307,0.707041,0.707172">
+                                    <bone name="TongBo2" pos="-1.8e-005,0.02921,0.001823" rot="1,0,0,0" />
+                                  </bone>
+                                </bone>
+                                <bone name="UpLipMid" pos="0.033291,0.116983,3e-006" rot="0.703142,0.0747149,0.703156,-0.0747014">
+                                  <bone name="UpLipMidPinch" pos="0,-0.010823,-5e-006" rot="1,0,0,0" />
+                                </bone>
+                                <bone name="LeftSterno" pos="0.010992,-0.007845,0.058948" rot="0.516638,0.58512,0.397032,0.482789" />
+                                <bone name="LeftUpLipIn" pos="0.030872,0.112418,0.014547" rot="0.697859,0.268742,0.65352,0.116973">
+                                  <bone name="LeftUpLipInPinch" pos="-0,-0.008661,-0" rot="1,0,0,0" />
+                                </bone>
+                                <bone name="LeftUpLipOut" pos="0.027505,0.103785,0.023317" rot="0.669037,0.372536,0.600669,0.229788">
+                                  <bone name="LeftUpLipOutPinch" pos="0,-0.006896,-0" rot="1,0,0,0" />
+                                </bone>
+                                <bone name="Philtrum" pos="0.04291,0.117712,3e-006" rot="0.702797,0.0780203,0.702784,-0.0779968" />
+                                <bone name="LeftLevLabii" pos="0.039533,0.102032,0.02806" rot="0.619717,0.315266,0.684491,0.219159" />
+                                <bone name="LeftEar" pos="0.080202,-0.011164,0.08163" rot="0.611014,0.502145,0.495931,0.358559" />
+                                <bone name="LeftTempSup" pos="0.104487,0.029192,0.065218" rot="0.778264,0.58312,0.214767,0.0902779" />
+                                <bone name="LeftForeHead" pos="0.139723,0.064074,0.039943" rot="0.694771,0.459862,0.550086,0.0567847" />
+                                <bone name="NoseTip" pos="0.067568,0.129137,4e-006" rot="0.702784,0.0780153,0.702797,-0.0780025" />
+                                <bone name="BrowFurrow" pos="0.115402,0.092349,3e-006" rot="0.701918,0.0854624,0.70193,-0.0854496" />
+                                <bone name="NoseMid" pos="0.094988,0.101123,3e-006" rot="0.652497,0.272472,0.652512,-0.272462" />
+                                <bone name="LeftZig2Nas" pos="0.051407,0.093416,0.034832" rot="0.340889,0.235617,0.894424,0.168181" />
+                                <bone name="LeftNostril" pos="0.058829,0.108358,0.0167" rot="0.628364,0.485154,0.514913,0.323495" />
+                                <bone name="LeftLidBttmOut" pos="0.087973,0.085361,0.02939" rot="0.707226,-0.0034706,0.697557,0.115038" />
+                                <bone name="LeftNasalis" pos="0.071447,0.096466,0.021392" rot="0.215808,0.281866,0.906004,0.230513" />
+                                <bone name="LeftLidBttm" pos="0.078665,0.086215,0.025431" rot="0.77144,0.0915485,0.626374,-0.0644542" />
+                                <bone name="LeftBrowIn" pos="0.11003,0.091615,0.016467" rot="0.660962,0.0669067,0.746655,0.0340488" />
+                                <bone name="LeftBrowOutUnder" pos="0.100718,0.084065,0.036812" rot="0.767928,0.248542,0.583081,0.0923648" />
+                                <bone name="LeftLidTop" pos="0.096977,0.084037,0.030006" rot="0.714109,0.122755,0.684475,-0.0804535" />
+                                <bone name="LeftBrowMid" pos="0.110465,0.083107,0.040902" rot="0.698349,0.397367,0.593713,0.0437234" />
+                                <bone name="LeftBrowOut" pos="0.098164,0.06855,0.053396" rot="0.746547,0.522801,0.368052,0.184078" />
+                                <bone name="LeftZigBone" pos="0.076065,0.064811,0.056396" rot="0.292782,0.269532,0.838762,0.371632" />
+                                <bone name="LeftZigMinus" pos="0.059792,0.080022,0.04926" rot="0.414951,0.236362,0.826407,0.298326" />
+                                <bone name="ForeHeadMid" pos="0.136834,0.082706,2e-006" rot="0.688072,0.162996,0.688062,-0.162971" />
+                                <bone name="RightSterno" pos="0.010993,-0.007842,-0.058949" rot="-0.397046,0.482777,-0.516651,0.585109" />
+                                <bone name="RightZigBone" pos="0.076065,0.064814,-0.056392" rot="0.838772,-0.371609,0.292786,-0.269525" />
+                                <bone name="RightUpLipIn" pos="0.030872,0.112419,-0.014542" rot="0.653525,-0.116955,0.697864,-0.268725">
+                                  <bone name="RightUpLipInPinch" pos="-0,-0.008661,-0" rot="1,0,0,0" />
+                                </bone>
+                                <bone name="RightBrowOut" pos="0.098165,0.068553,-0.053392" rot="0.368058,-0.184067,0.746559,-0.522783" />
+                                <bone name="RightUpLipOut" pos="0.027506,0.103786,-0.023312" rot="0.600677,-0.229772,0.669045,-0.37252">
+                                  <bone name="RightUpLipOutPinch" pos="-0,-0.006896,0" rot="1,0,0,0" />
+                                </bone>
+                                <bone name="RightLevLabii" pos="0.039532,0.102034,-0.028055" rot="0.684499,-0.21914,0.619722,-0.31525" />
+                                <bone name="RightEar" pos="0.080202,-0.01116,-0.081631" rot="0.495941,-0.358545,0.611026,-0.50213" />
+                                <bone name="RightTempSup" pos="0.104487,0.029195,-0.065216" rot="0.214772,-0.0902711,0.778278,-0.583101" />
+                                <bone name="RightForeHead" pos="0.139724,0.064076,-0.03994" rot="0.55009,-0.0567696,0.694781,-0.459845" />
+                                <bone name="RightZig2Nas" pos="0.051408,0.093418,-0.034827" rot="0.894429,-0.168157,0.340892,-0.23561" />
+                                <bone name="RightNostril" pos="0.058829,0.108359,-0.016695" rot="0.514923,-0.32348,0.628375,-0.485139" />
+                                <bone name="RightLidBttmOut" pos="0.087973,0.085363,-0.029386" rot="0.697562,-0.11502,0.707224,0.00348876" />
+                                <bone name="RightNasalis" pos="0.071448,0.096467,-0.021387" rot="0.90601,-0.230489,0.215813,-0.281862" />
+                                <bone name="RightLidBttm" pos="0.078665,0.086216,-0.025426" rot="0.626374,0.0644704,0.771441,-0.0915292" />
+                                <bone name="RightBrowIn" pos="0.11003,0.091616,-0.016462" rot="0.746658,-0.0340294,0.660961,-0.06689" />
+                                <bone name="RightBrowOutUnder" pos="0.100718,0.084066,-0.036807" rot="0.583085,-0.0923492,0.767932,-0.248522" />
+                                <bone name="RightLidTop" pos="0.096977,0.084039,-0.030001" rot="0.684475,0.080471,0.714111,-0.122737" />
+                                <bone name="RightBrowMid" pos="0.110465,0.083109,-0.040898" rot="0.593717,-0.0437067,0.698358,-0.39735" />
+                                <bone name="RightZigMinus" pos="0.059792,0.080025,-0.049256" rot="0.826417,-0.298305,0.414955,-0.236352" />
+                              </bone>
+                              <bone name="RightSternoLower" pos="0.07095,0.016478,-0.05067" rot="0.435623,-0.297948,0.645498,-0.55208" />
+                              <bone name="LeftSternoLower" pos="0.07095,0.016482,0.050669" rot="0.64552,0.552055,0.435628,0.297938" />
+                              <bone name="Laryngeal" pos="0.061305,0.063725,-0.000103" rot="0.698765,-0.108242,0.698778,0.108266" />
+                            </bone>
+                          </bone>
+                        </bone>
+                      </bone>
+                      <bone name="0_Displacement_Ref" pos="0,0,0" rot="1,0,0,0" />
+                    </bone>
+                  </skeleton>
+                </skeleton_reference_list>
+                <material_reference_list>
+                  <material name="FP_Arm_Scratches" shader_name="Blended" ref_shader_id="slabreche-M-2012061337665077" />
+                </material_reference_list>
+              </component>
+              <component class="InteriorVolumeComponent" version="1" detail="0" />
+            </hidDescriptor>
+          </rml>
+        </field>
+        <field name="hidCrcCheck" type="Hash32">FFFFFFFF</field>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bCastShadow" type="Boolean">True</field>
+        <field name="bReceiveShadow" type="Boolean">True</field>
+        <field name="bCastAmbientShadow" type="Boolean">True</field>
+        <field name="olgLightGroup" type="Int32">1</field>
+        <field name="bShowInReflection" type="Boolean">True</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bExcludeFromPortalSystem" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="clrHighLightColor" type="Vector3">1,0.903545,0.604147</field>
+        <field name="clrHighLightColor2" type="Vector3">0,0,0</field>
+        <field name="fHighLightSpeed" type="Float32">1</field>
+        <field name="bLodDitheringEnable" type="Boolean">True</field>
+        <field name="matIntuitionMaterialName" type="String">graphics\_materials\jprajotte-M-20100916104744.material.xml</field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field name="bAllowCullBySize" type="Boolean">True</field>
+        <field name="bMotionBlurExclusion" type="Boolean">False</field>
+        <field name="bOverrideLODSphere" type="Boolean">False</field>
+        <field name="fLODSphereRadius" type="Float32">0</field>
+        <field name="vectorAdditionalAABBDimensionForSkin" type="Vector3">1,1,0</field>
+        <field name="text_currentSkin" type="String"></field>
+        <field name="currentSkin" type="Hash32">FFFFFFFF</field>
+        <field name="bUseCurrentSkin" type="Boolean">False</field>
+        <object name="MaterialLightSwitch">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">slabreche-m-2012061337665077</field>
+              <field name="disSlotId" type="Hash32">54C353D1</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="MaterialOverrides">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">slabreche-m-2012061337665077</field>
+              <field name="disSlotId" type="Hash32">54C353D1</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="SkinList">
+          <object name="Skin">
+            <field name="text_name" type="String"></field>
+            <field name="name" type="Hash32">FFFFFFFF</field>
+            <field name="locSkinNameId" type="Int32">-1</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">0</field>
+          <field name="text_fileModel" type="String">graphics\__fc3_graphics\_common\characters\firstperson\fp_propwound_glass.xbg</field>
+          <field name="fileModel" type="Hash64">322D47A23C663DBF</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">FP_PropWound_Glass</field>
+          <field name="hidNodeName" type="Hash32">C42A5BE1</field>
+          <field name="text_hidNodeNameLOD0" type="String">FP_PropWound_Glass_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">F75D8F62</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">1</field>
+          <field name="text_fileModel" type="String"></field>
+          <field name="fileModel" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">FP_PropWound_Glass</field>
+          <field name="hidNodeName" type="Hash32">C42A5BE1</field>
+          <field name="text_hidNodeNameLOD0" type="String">FP_PropWound_Glass_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">F75D8F62</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+      </object>
+      <object name="CSimpleAnimationComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileSkeleton" type="String">graphics\__fc3_graphics\_common\characters\firstperson\fp_propwound_glass_ref.skeleton</field>
+        <field name="fileSkeleton" type="Hash64">D3C9C8D612AE3A94</field>
+        <field name="text_sPackage" type="String"></field>
+        <field name="sPackage" type="Hash64">FFFFFFFFFFFFFFFF</field>
+        <field name="AutoApplyDisplacement" type="Boolean">False</field>
+        <field name="sPartName" type="String">fp_propwound_glass</field>
+        <field name="bEnableEvents" type="Boolean">False</field>
+        <field name="bRandomStart" type="Boolean">False</field>
+        <field name="text_Animation" type="String"></field>
+        <field name="Animation" type="Hash64">FFFFFFFFFFFFFFFF</field>
+      </object>
+      <object hash="E683B521">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="2BA6E1A6" type="BinHex">FFFFFFFF00000000</field>
+      </object>
+    </object>
+  </object>
+</object>

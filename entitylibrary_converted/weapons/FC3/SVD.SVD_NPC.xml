@@ -1,0 +1,1400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7655438275586</field>
+  <field name="Name" type="String">FC3/SVD.SVD_NPC</field>
+  <object name="Entity">
+    <field name="hidName" type="String">weapons:FC3/SVD.SVD_NPC</field>
+    <field name="disEntityId" type="Int64">20280</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">36</field>
+    <field name="hidPos" type="Vector3">0,0,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">0,0,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileName" type="String">graphics\__fc3_graphics\_common\weapons\svd\svd.xml</field>
+        <field name="fileName" type="Hash64">FBB980F9E06482BE</field>
+        <field name="hidDescriptor" type="Rml">
+          <rml>
+            <hidDescriptor>
+              <component class="GraphicComponent" version="2" detail="0">
+                <object index="0" meshName="FRAME" boneName="FRAME" bboxMin="-0.0241028,-0.264373,-0.058661" bboxMax="0.0295339,0.856761,0.154696" />
+                <object index="1" meshName="CLIP" boneName="CLIP" bboxMin="-0.0122718,-0.0493109,-0.0565652" bboxMax="0.0110644,0.0493109,0.0565652" />
+                <object index="2" meshName="SLIDE" boneName="SLIDE" bboxMin="-0.0214075,-0.0632961,-0.0161393" bboxMax="0.0214075,0.0632961,0.0161393" />
+                <object index="3" meshName="MAGAZINERELEASE" boneName="MAGAZINERELEASE" bboxMin="-0.00688314,-0.00347581,-0.0228306" bboxMax="0.0068831,0.00147878,0.00287264" />
+                <object index="4" meshName="SCOPE_HI" boneName="SCOPE_HI" bboxMin="-0.0175872,-0.0221714,-0.0177112" bboxMax="0.017362,-0.00242857,0.0172381" />
+                <object index="5" meshName="SHELL" boneName="SHELL" bboxMin="-0.00509313,-6.56699e-009,-0.00509313" bboxMax="0.00509314,0.0711396,0.00509313" />
+                <resource fileName="graphics\__FC3_Graphics\_Common\Weapons\Svd\SVD.xbg" bboxMin="-0.0354727,-0.264373,-0.058661" bboxMax="0.0295339,0.856761,0.154696" />
+                <skeleton_reference_list>
+                  <skeleton name="SVD" index="0" pos="0,0,0" rot="1,-0,-0,-0">
+                    <bone name="FRAME" pos="0,0,0" rot="1,0,0,0" />
+                    <bone name="CLIP" pos="-0.000326,0.207454,0.005497" rot="1,0,0,0" />
+                    <bone name="FX_FIRE" pos="0,0.801114,0.070771" rot="1,0,0,0" />
+                    <bone name="FX_CASING" pos="-0.023617,0.199208,0.081295" rot="0.696364,0.122788,0.122788,0.696365" />
+                    <bone name="IK_LeftHand" pos="0,0.418131,0.046005" rot="1,0,0,0" />
+                    <bone name="SLIDE" pos="-0.014065,0.22863,0.079777" rot="1,0,0,0" />
+                    <bone name="ATTACH_UPGRADE" pos="-0,0.228901,0.126947" rot="1,0,0,0" />
+                    <bone name="MAGAZINERELEASE" pos="-0,0.156064,0.015123" rot="1,0,0,0" />
+                    <bone name="SCOPE_HI" pos="0,0.030301,0.126947" rot="1,0,0,0">
+                      <bone name="CROSSHAIR" pos="0,0,0" rot="1,0,0,0" />
+                    </bone>
+                    <bone name="ATTACH_SILENCER" pos="-0,0.766551,0.070189" rot="1,0,0,0" />
+                    <bone name="ATTACH_POINTER" pos="-0.017108,0.582678,0.073437" rot="1,0,0,0" />
+                    <bone name="SHELL" pos="-0.000326,0.16907,0.055929" rot="1,0,0,0" />
+                  </skeleton>
+                </skeleton_reference_list>
+                <material_reference_list>
+                  <material name="illuminated_SVD_02" shader_name="Unlit" ref_shader_id="grassam-M-1702201249812478" />
+                  <material name="illuminated_SVD_01" shader_name="Unlit" ref_shader_id="grassam-M-1702201249725107" />
+                  <material name="SVD_Crosshair_illuminated" shader_name="Unlit" ref_shader_id="grassam-M-2305201240629536" />
+                  <material name="illuminated_SVD_Falloff" shader_name="Unlit" ref_shader_id="grassam-M-2806201256829893" />
+                  <material name="Ammo_Bullets" shader_name="Metal" ref_shader_id="grassam-M-1805201135690580" />
+                  <material name="SVD_Parallax_3" shader_name="Unlit" ref_shader_id="grassam-M-0903201258370429" />
+                  <material name="SVD_Parallax_2" shader_name="Unlit" ref_shader_id="grassam-M-0903201258310622" />
+                  <material name="SVD_Parallax_1" shader_name="Unlit" ref_shader_id="grassam-M-0903201258349124" />
+                  <material name="WeaponScopes_Lens_Center" shader_name="Blended" ref_shader_id="grassam-M-2401201263880344" />
+                  <material name="WeaponScopes_Lens_Edge" shader_name="Blended" ref_shader_id="grassam-M-1601201263322467" />
+                  <material name="_Shared_Knobs" shader_name="Metal" ref_shader_id="grassam-M-2803201135041028" />
+                  <material name="SVD_Decals_02" shader_name="Blended" ref_shader_id="grassam-M-2303201150263488" />
+                  <material name="SVD_01_Grips" shader_name="Metal" ref_shader_id="grassam-M-0903201133986758" />
+                  <material name="SVD_Scope_Rubber" shader_name="Metal" ref_shader_id="grassam-M-1703201137008838" />
+                  <material name="SVD_Scope_Metal" shader_name="Metal" ref_shader_id="grassam-M-1703201136470311" />
+                  <material name="SVD_01_Main" shader_name="Metal" ref_shader_id="grassam-M-0903201133648465" />
+                </material_reference_list>
+              </component>
+              <component class="InteriorVolumeComponent" version="1" detail="0" />
+              <component class="RigidPhysComponent">
+                <resource fileName="graphics\__FC3_Graphics\_Common\Weapons\Svd\SVD.hkx" />
+              </component>
+            </hidDescriptor>
+          </rml>
+        </field>
+        <field name="hidCrcCheck" type="Hash32">FFFFFFFF</field>
+      </object>
+      <object name="CModelSelectorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_DefaultModel" type="String"></field>
+        <field name="DefaultModel" type="Hash32">FFFFFFFF</field>
+        <object name="hidHighResModelInfo">
+          <field name="Detail" type="Boolean">False</field>
+          <field name="Version" type="Int32">2</field>
+          <field name="BBoxMin" type="Vector3">-0.0354727,-0.264373,-0.058661</field>
+          <field name="BBoxMax" type="Vector3">0.0295339,0.856761,0.154696</field>
+          <field name="text_ModelPath" type="String">graphics\__fc3_graphics\_common\weapons\svd\svd.xbg</field>
+          <field name="ModelPath" type="Hash64">F4E010F9E06482BE</field>
+          <field name="text_DescriptorPath" type="String"></field>
+          <field name="DescriptorPath" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <object name="ModelObjectInfos">
+            <object name="Object">
+              <field name="Slot" type="Int32">0</field>
+              <field name="BBoxMin" type="Vector3">-0.0241028,-0.264373,-0.058661</field>
+              <field name="BBoxMax" type="Vector3">0.0295339,0.856761,0.154696</field>
+              <field name="MeshName" type="String">FRAME</field>
+              <field name="text_BoneID" type="String">FRAME</field>
+              <field name="BoneID" type="Hash32">42ACFE7D</field>
+              <field name="text_BoneIDLOD0" type="String">FRAME_LOD0</field>
+              <field name="BoneIDLOD0" type="Hash32">117FF4BB</field>
+            </object>
+            <object name="Object">
+              <field name="Slot" type="Int32">1</field>
+              <field name="BBoxMin" type="Vector3">-0.0122718,-0.0493109,-0.0565652</field>
+              <field name="BBoxMax" type="Vector3">0.0110644,0.0493109,0.0565652</field>
+              <field name="MeshName" type="String">CLIP</field>
+              <field name="text_BoneID" type="String">CLIP</field>
+              <field name="BoneID" type="Hash32">9BB5F9D3</field>
+              <field name="text_BoneIDLOD0" type="String">CLIP_LOD0</field>
+              <field name="BoneIDLOD0" type="Hash32">00B20B5C</field>
+            </object>
+            <object name="Object">
+              <field name="Slot" type="Int32">2</field>
+              <field name="BBoxMin" type="Vector3">-0.0214075,-0.0632961,-0.0161393</field>
+              <field name="BBoxMax" type="Vector3">0.0214075,0.0632961,0.0161393</field>
+              <field name="MeshName" type="String">SLIDE</field>
+              <field name="text_BoneID" type="String">SLIDE</field>
+              <field name="BoneID" type="Hash32">85BB2CD2</field>
+              <field name="text_BoneIDLOD0" type="String">SLIDE_LOD0</field>
+              <field name="BoneIDLOD0" type="Hash32">F2877992</field>
+            </object>
+            <object name="Object">
+              <field name="Slot" type="Int32">3</field>
+              <field name="BBoxMin" type="Vector3">-0.00688314,-0.00347581,-0.0228306</field>
+              <field name="BBoxMax" type="Vector3">0.0068831,0.00147878,0.00287264</field>
+              <field name="MeshName" type="String">MAGAZINERELEASE</field>
+              <field name="text_BoneID" type="String">MAGAZINERELEASE</field>
+              <field name="BoneID" type="Hash32">E555EFD2</field>
+              <field name="text_BoneIDLOD0" type="String">MAGAZINERELEASE_LOD0</field>
+              <field name="BoneIDLOD0" type="Hash32">50FEAE77</field>
+            </object>
+            <object name="Object">
+              <field name="Slot" type="Int32">4</field>
+              <field name="BBoxMin" type="Vector3">-0.0175872,-0.0221714,-0.0177112</field>
+              <field name="BBoxMax" type="Vector3">0.017362,-0.00242857,0.0172381</field>
+              <field name="MeshName" type="String">SCOPE_HI</field>
+              <field name="text_BoneID" type="String">SCOPE_HI</field>
+              <field name="BoneID" type="Hash32">F1FFCE61</field>
+              <field name="text_BoneIDLOD0" type="String">SCOPE_HI_LOD0</field>
+              <field name="BoneIDLOD0" type="Hash32">E5561B0B</field>
+            </object>
+            <object name="Object">
+              <field name="Slot" type="Int32">5</field>
+              <field name="BBoxMin" type="Vector3">-0.00509313,-6.56699E-09,-0.00509313</field>
+              <field name="BBoxMax" type="Vector3">0.00509314,0.0711396,0.00509313</field>
+              <field name="MeshName" type="String">SHELL</field>
+              <field name="text_BoneID" type="String">SHELL</field>
+              <field name="BoneID" type="Hash32">B2C6704D</field>
+              <field name="text_BoneIDLOD0" type="String">SHELL_LOD0</field>
+              <field name="BoneIDLOD0" type="Hash32">EC24227E</field>
+            </object>
+            <object name="Object">
+              <field name="Slot" type="Int32">0</field>
+              <field name="BBoxMin" type="Vector3">0,0,0</field>
+              <field name="BBoxMax" type="Vector3">0,0,0</field>
+              <field name="MeshName" type="String"></field>
+              <field name="text_BoneID" type="String"></field>
+              <field name="BoneID" type="Hash32">FFFFFFFF</field>
+              <field name="text_BoneIDLOD0" type="String"></field>
+              <field name="BoneIDLOD0" type="Hash32">FFFFFFFF</field>
+            </object>
+          </object>
+          <object name="ModelMaterialInfos">
+            <object name="Material">
+              <field name="text_Name" type="String">illuminated_SVD_02</field>
+              <field name="Name" type="Hash32">E6CA945D</field>
+              <field name="RefShaderID" type="String">grassam-M-1702201249812478</field>
+            </object>
+            <object name="Material">
+              <field name="text_Name" type="String">illuminated_SVD_01</field>
+              <field name="Name" type="Hash32">7FC3C5E7</field>
+              <field name="RefShaderID" type="String">grassam-M-1702201249725107</field>
+            </object>
+            <object name="Material">
+              <field name="text_Name" type="String">SVD_Crosshair_illuminated</field>
+              <field name="Name" type="Hash32">0256A9B2</field>
+              <field name="RefShaderID" type="String">grassam-M-2305201240629536</field>
+            </object>
+            <object name="Material">
+              <field name="text_Name" type="String">illuminated_SVD_Falloff</field>
+              <field name="Name" type="Hash32">5CF20486</field>
+              <field name="RefShaderID" type="String">grassam-M-2806201256829893</field>
+            </object>
+            <object name="Material">
+              <field name="text_Name" type="String">Ammo_Bullets</field>
+              <field name="Name" type="Hash32">099C797A</field>
+              <field name="RefShaderID" type="String">grassam-M-1805201135690580</field>
+            </object>
+            <object name="Material">
+              <field name="text_Name" type="String">SVD_Parallax_3</field>
+              <field name="Name" type="Hash32">B25AC43D</field>
+              <field name="RefShaderID" type="String">grassam-M-0903201258370429</field>
+            </object>
+            <object name="Material">
+              <field name="text_Name" type="String">SVD_Parallax_2</field>
+              <field name="Name" type="Hash32">C55DF4AB</field>
+              <field name="RefShaderID" type="String">grassam-M-0903201258310622</field>
+            </object>
+            <object name="Material">
+              <field name="text_Name" type="String">SVD_Parallax_1</field>
+              <field name="Name" type="Hash32">5C54A511</field>
+              <field name="RefShaderID" type="String">grassam-M-0903201258349124</field>
+            </object>
+            <object name="Material">
+              <field name="text_Name" type="String">WeaponScopes_Lens_Center</field>
+              <field name="Name" type="Hash32">565E22E3</field>
+              <field name="RefShaderID" type="String">grassam-M-2401201263880344</field>
+            </object>
+            <object name="Material">
+              <field name="text_Name" type="String">WeaponScopes_Lens_Edge</field>
+              <field name="Name" type="Hash32">A47BABDA</field>
+              <field name="RefShaderID" type="String">grassam-M-1601201263322467</field>
+            </object>
+            <object name="Material">
+              <field name="text_Name" type="String">_Shared_Knobs</field>
+              <field name="Name" type="Hash32">53B0EF87</field>
+              <field name="RefShaderID" type="String">grassam-M-2803201135041028</field>
+            </object>
+            <object name="Material">
+              <field name="text_Name" type="String">SVD_Decals_02</field>
+              <field name="Name" type="Hash32">7146B8EA</field>
+              <field name="RefShaderID" type="String">grassam-M-2303201150263488</field>
+            </object>
+            <object name="Material">
+              <field name="text_Name" type="String">SVD_01_Grips</field>
+              <field name="Name" type="Hash32">665072A1</field>
+              <field name="RefShaderID" type="String">grassam-M-0903201133986758</field>
+            </object>
+            <object name="Material">
+              <field name="text_Name" type="String">SVD_Scope_Rubber</field>
+              <field name="Name" type="Hash32">C42527B6</field>
+              <field name="RefShaderID" type="String">grassam-M-1703201137008838</field>
+            </object>
+            <object name="Material">
+              <field name="text_Name" type="String">SVD_Scope_Metal</field>
+              <field name="Name" type="Hash32">B3F41DC4</field>
+              <field name="RefShaderID" type="String">grassam-M-1703201136470311</field>
+            </object>
+            <object name="Material">
+              <field name="text_Name" type="String">SVD_01_Main</field>
+              <field name="Name" type="Hash32">D2F1DBA1</field>
+              <field name="RefShaderID" type="String">grassam-M-0903201133648465</field>
+            </object>
+            <object name="Material">
+              <field name="text_Name" type="String"></field>
+              <field name="Name" type="Hash32">FFFFFFFF</field>
+              <field name="RefShaderID" type="String"></field>
+            </object>
+          </object>
+        </object>
+        <object name="Models">
+          <object name="Model">
+            <field name="text_Name" type="String"></field>
+            <field name="Name" type="Hash32">FFFFFFFF</field>
+            <field name="text_filePath" type="String">graphics\__fc3_graphics\_common\weapons\svd\svd_tp.xml</field>
+            <field name="filePath" type="Hash64">0D0B2134C87BF950</field>
+          </object>
+          <object name="Model">
+            <field name="text_Name" type="String"></field>
+            <field name="Name" type="Hash32">FFFFFFFF</field>
+            <field name="text_filePath" type="String"></field>
+            <field name="filePath" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          </object>
+        </object>
+        <object name="hidInfos">
+          <object name="ModelInfo">
+            <field name="Detail" type="Boolean">False</field>
+            <field name="Version" type="Int32">2</field>
+            <field name="BBoxMin" type="Vector3">-0.0350664,-0.2643,-0.058661</field>
+            <field name="BBoxMax" type="Vector3">0.0302927,0.85534,0.15305</field>
+            <field name="text_ModelPath" type="String">graphics\__fc3_graphics\_common\weapons\svd\svd_tp.xbg</field>
+            <field name="ModelPath" type="Hash64">0252B134C87BF950</field>
+            <field name="text_DescriptorPath" type="String">graphics\__fc3_graphics\_common\weapons\svd\svd_tp.xml</field>
+            <field name="DescriptorPath" type="Hash64">0D0B2134C87BF950</field>
+            <object name="ModelObjectInfos">
+              <object name="Object">
+                <field name="Slot" type="Int32">0</field>
+                <field name="BBoxMin" type="Vector3">-0.0230527,-0.2643,-0.058661</field>
+                <field name="BBoxMax" type="Vector3">0.0288271,0.85534,0.15305</field>
+                <field name="MeshName" type="String">FRAME</field>
+                <field name="text_BoneID" type="String">FRAME</field>
+                <field name="BoneID" type="Hash32">42ACFE7D</field>
+                <field name="text_BoneIDLOD0" type="String">FRAME_LOD0</field>
+                <field name="BoneIDLOD0" type="Hash32">117FF4BB</field>
+              </object>
+              <object name="Object">
+                <field name="Slot" type="Int32">1</field>
+                <field name="BBoxMin" type="Vector3">-0.0110057,-0.0508035,-0.0565653</field>
+                <field name="BBoxMax" type="Vector3">0.0110644,0.0518035,0.0563505</field>
+                <field name="MeshName" type="String">CLIP</field>
+                <field name="text_BoneID" type="String">CLIP</field>
+                <field name="BoneID" type="Hash32">9BB5F9D3</field>
+                <field name="text_BoneIDLOD0" type="String">CLIP_LOD0</field>
+                <field name="BoneIDLOD0" type="Hash32">00B20B5C</field>
+              </object>
+              <object name="Object">
+                <field name="Slot" type="Int32">2</field>
+                <field name="BBoxMin" type="Vector3">-0.0210012,-0.0632961,-0.0161393</field>
+                <field name="BBoxMax" type="Vector3">0.0214075,0.0632961,0.0161393</field>
+                <field name="MeshName" type="String">SLIDE</field>
+                <field name="text_BoneID" type="String">SLIDE</field>
+                <field name="BoneID" type="Hash32">85BB2CD2</field>
+                <field name="text_BoneIDLOD0" type="String">SLIDE_LOD0</field>
+                <field name="BoneIDLOD0" type="Hash32">F2877992</field>
+              </object>
+              <object name="Object">
+                <field name="Slot" type="Int32">3</field>
+                <field name="BBoxMin" type="Vector3">-0.00658615,-0.00271309,-0.0226307</field>
+                <field name="BBoxMax" type="Vector3">0.00657581,0.000924829,0.00287264</field>
+                <field name="MeshName" type="String">MAGAZINERELEASE</field>
+                <field name="text_BoneID" type="String">MAGAZINERELEASE</field>
+                <field name="BoneID" type="Hash32">E555EFD2</field>
+                <field name="text_BoneIDLOD0" type="String">MAGAZINERELEASE_LOD0</field>
+                <field name="BoneIDLOD0" type="Hash32">50FEAE77</field>
+              </object>
+              <object name="Object">
+                <field name="Slot" type="Int32">0</field>
+                <field name="BBoxMin" type="Vector3">0,0,0</field>
+                <field name="BBoxMax" type="Vector3">0,0,0</field>
+                <field name="MeshName" type="String"></field>
+                <field name="text_BoneID" type="String"></field>
+                <field name="BoneID" type="Hash32">FFFFFFFF</field>
+                <field name="text_BoneIDLOD0" type="String"></field>
+                <field name="BoneIDLOD0" type="Hash32">FFFFFFFF</field>
+              </object>
+            </object>
+            <object name="ModelMaterialInfos">
+              <object name="Material">
+                <field name="text_Name" type="String">_Shared_Knobs</field>
+                <field name="Name" type="Hash32">53B0EF87</field>
+                <field name="RefShaderID" type="String">grassam-M-2803201135041028</field>
+              </object>
+              <object name="Material">
+                <field name="text_Name" type="String">SVD_01_Grips</field>
+                <field name="Name" type="Hash32">665072A1</field>
+                <field name="RefShaderID" type="String">grassam-M-0903201133986758</field>
+              </object>
+              <object name="Material">
+                <field name="text_Name" type="String">SVD_01_CheakRest</field>
+                <field name="Name" type="Hash32">0EC3CE6F</field>
+                <field name="RefShaderID" type="String">grassam-M-0903201134013444</field>
+              </object>
+              <object name="Material">
+                <field name="text_Name" type="String">SVD_Lens_02</field>
+                <field name="Name" type="Hash32">C5C206E3</field>
+                <field name="RefShaderID" type="String">grassam-M-3005201147307642</field>
+              </object>
+              <object name="Material">
+                <field name="text_Name" type="String">SVD_Scope_Rubber</field>
+                <field name="Name" type="Hash32">C42527B6</field>
+                <field name="RefShaderID" type="String">grassam-M-1703201137008838</field>
+              </object>
+              <object name="Material">
+                <field name="text_Name" type="String">SVD_Scope_Metal</field>
+                <field name="Name" type="Hash32">B3F41DC4</field>
+                <field name="RefShaderID" type="String">grassam-M-1703201136470311</field>
+              </object>
+              <object name="Material">
+                <field name="text_Name" type="String">SVD_01_Main</field>
+                <field name="Name" type="Hash32">D2F1DBA1</field>
+                <field name="RefShaderID" type="String">grassam-M-0903201133648465</field>
+              </object>
+              <object name="Material">
+                <field name="text_Name" type="String"></field>
+                <field name="Name" type="Hash32">FFFFFFFF</field>
+                <field name="RefShaderID" type="String"></field>
+              </object>
+            </object>
+          </object>
+          <object name="ModelInfo">
+            <field name="Detail" type="Boolean">False</field>
+            <field name="Version" type="Int32">-1</field>
+            <field name="BBoxMin" type="Vector3">0,0,0</field>
+            <field name="BBoxMax" type="Vector3">0,0,0</field>
+            <field name="text_ModelPath" type="String"></field>
+            <field name="ModelPath" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            <field name="text_DescriptorPath" type="String"></field>
+            <field name="DescriptorPath" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            <object name="ModelObjectInfos">
+              <object name="Object">
+                <field name="Slot" type="Int32">0</field>
+                <field name="BBoxMin" type="Vector3">0,0,0</field>
+                <field name="BBoxMax" type="Vector3">0,0,0</field>
+                <field name="MeshName" type="String"></field>
+                <field name="text_BoneID" type="String"></field>
+                <field name="BoneID" type="Hash32">FFFFFFFF</field>
+                <field name="text_BoneIDLOD0" type="String"></field>
+                <field name="BoneIDLOD0" type="Hash32">FFFFFFFF</field>
+              </object>
+            </object>
+            <object name="ModelMaterialInfos">
+              <object name="Material">
+                <field name="text_Name" type="String"></field>
+                <field name="Name" type="Hash32">FFFFFFFF</field>
+                <field name="RefShaderID" type="String"></field>
+              </object>
+            </object>
+          </object>
+        </object>
+        <object name="FirstPersonModelSkinList">
+          <object name="Skin">
+            <field name="text_Name" type="String"></field>
+            <field name="Name" type="Hash32">FFFFFFFF</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bCastShadow" type="Boolean">True</field>
+        <field name="bReceiveShadow" type="Boolean">True</field>
+        <field name="bCastAmbientShadow" type="Boolean">True</field>
+        <field name="olgLightGroup" type="Int32">1281</field>
+        <field name="bShowInReflection" type="Boolean">False</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bExcludeFromPortalSystem" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="clrHighLightColor" type="Vector3">1,0.9,0.6</field>
+        <field name="clrHighLightColor2" type="Vector3">0,0,0</field>
+        <field name="fHighLightSpeed" type="Float32">1</field>
+        <field name="bLodDitheringEnable" type="Boolean">True</field>
+        <field name="matIntuitionMaterialName" type="String">graphics\_materials\jprajotte-M-20100916104744.material.xml</field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field name="bAllowCullBySize" type="Boolean">True</field>
+        <field name="bMotionBlurExclusion" type="Boolean">False</field>
+        <field name="bOverrideLODSphere" type="Boolean">False</field>
+        <field name="fLODSphereRadius" type="Float32">0</field>
+        <field name="vectorAdditionalAABBDimensionForSkin" type="Vector3">0.1,0.1,0</field>
+        <field name="text_currentSkin" type="String"></field>
+        <field name="currentSkin" type="Hash32">FFFFFFFF</field>
+        <field name="bUseCurrentSkin" type="Boolean">True</field>
+        <object name="MaterialLightSwitch">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-1601201263322467</field>
+              <field name="disSlotId" type="Hash32">04B2378D</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-2305201240629536</field>
+              <field name="disSlotId" type="Hash32">21F7F2D4</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-1703201136470311</field>
+              <field name="disSlotId" type="Hash32">22C1161C</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-1703201137008838</field>
+              <field name="disSlotId" type="Hash32">2F0C9E86</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-0903201133986758</field>
+              <field name="disSlotId" type="Hash32">32FEBEF0</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-1702201249812478</field>
+              <field name="disSlotId" type="Hash32">42157E5B</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-2806201256829893</field>
+              <field name="disSlotId" type="Hash32">55E4E366</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-2803201135041028</field>
+              <field name="disSlotId" type="Hash32">5A537173</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-2303201150263488</field>
+              <field name="disSlotId" type="Hash32">70178B1B</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-2401201263880344</field>
+              <field name="disSlotId" type="Hash32">A1F237BA</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-1702201249725107</field>
+              <field name="disSlotId" type="Hash32">B001C75A</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-0903201133648465</field>
+              <field name="disSlotId" type="Hash32">B15D0730</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-0903201258349124</field>
+              <field name="disSlotId" type="Hash32">B169A727</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-1805201135690580</field>
+              <field name="disSlotId" type="Hash32">B7F4F8C6</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-0903201258310622</field>
+              <field name="disSlotId" type="Hash32">E8ADD46D</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-0903201258370429</field>
+              <field name="disSlotId" type="Hash32">F3BB2C2B</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="MaterialOverrides">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-1601201263322467</field>
+              <field name="disSlotId" type="Hash32">04B2378D</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-2305201240629536</field>
+              <field name="disSlotId" type="Hash32">21F7F2D4</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-1703201136470311</field>
+              <field name="disSlotId" type="Hash32">22C1161C</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-1703201137008838</field>
+              <field name="disSlotId" type="Hash32">2F0C9E86</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-0903201133986758</field>
+              <field name="disSlotId" type="Hash32">32FEBEF0</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-1702201249812478</field>
+              <field name="disSlotId" type="Hash32">42157E5B</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-2806201256829893</field>
+              <field name="disSlotId" type="Hash32">55E4E366</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-2803201135041028</field>
+              <field name="disSlotId" type="Hash32">5A537173</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-2303201150263488</field>
+              <field name="disSlotId" type="Hash32">70178B1B</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-2401201263880344</field>
+              <field name="disSlotId" type="Hash32">A1F237BA</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-1702201249725107</field>
+              <field name="disSlotId" type="Hash32">B001C75A</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-0903201133648465</field>
+              <field name="disSlotId" type="Hash32">B15D0730</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-0903201258349124</field>
+              <field name="disSlotId" type="Hash32">B169A727</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-1805201135690580</field>
+              <field name="disSlotId" type="Hash32">B7F4F8C6</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-0903201258310622</field>
+              <field name="disSlotId" type="Hash32">E8ADD46D</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-0903201258370429</field>
+              <field name="disSlotId" type="Hash32">F3BB2C2B</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="SkinList">
+          <object name="Skin">
+            <field name="text_name" type="String">CAMO_01</field>
+            <field name="name" type="Hash32">A6E7E284</field>
+            <field name="locSkinNameId" type="Int32">167200</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots">
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1601201263322467</field>
+                  <field name="disSlotId" type="Hash32">04B2378D</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2305201240629536</field>
+                  <field name="disSlotId" type="Hash32">21F7F2D4</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1703201136470311</field>
+                  <field name="disSlotId" type="Hash32">22C1161C</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-20120326162025.material.bin</field>
+                  <field name="matMaterial" type="Hash64">135A2A5DBD746711</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1703201137008838</field>
+                  <field name="disSlotId" type="Hash32">2F0C9E86</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201133986758</field>
+                  <field name="disSlotId" type="Hash32">32FEBEF0</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-20120326162202.material.bin</field>
+                  <field name="matMaterial" type="Hash64">C5BA2A5DBD72BE99</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1702201249812478</field>
+                  <field name="disSlotId" type="Hash32">42157E5B</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2806201256829893</field>
+                  <field name="disSlotId" type="Hash32">55E4E366</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2803201135041028</field>
+                  <field name="disSlotId" type="Hash32">5A537173</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-2803201135041028.material.bin</field>
+                  <field name="matMaterial" type="Hash64">498FCE044D41924A</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2303201150263488</field>
+                  <field name="disSlotId" type="Hash32">70178B1B</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2401201263880344</field>
+                  <field name="disSlotId" type="Hash32">A1F237BA</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1702201249725107</field>
+                  <field name="disSlotId" type="Hash32">B001C75A</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201133648465</field>
+                  <field name="disSlotId" type="Hash32">B15D0730</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-20120326161943.material.bin</field>
+                  <field name="matMaterial" type="Hash64">41C7BA5DBD73FE84</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201258349124</field>
+                  <field name="disSlotId" type="Hash32">B169A727</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1805201135690580</field>
+                  <field name="disSlotId" type="Hash32">B7F4F8C6</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201258310622</field>
+                  <field name="disSlotId" type="Hash32">E8ADD46D</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201258370429</field>
+                  <field name="disSlotId" type="Hash32">F3BB2C2B</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object name="Skin">
+            <field name="text_name" type="String">CAMO_02</field>
+            <field name="name" type="Hash32">3FEEB33E</field>
+            <field name="locSkinNameId" type="Int32">167212</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots">
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1601201263322467</field>
+                  <field name="disSlotId" type="Hash32">04B2378D</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2305201240629536</field>
+                  <field name="disSlotId" type="Hash32">21F7F2D4</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1703201136470311</field>
+                  <field name="disSlotId" type="Hash32">22C1161C</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-20120326162405.material.bin</field>
+                  <field name="matMaterial" type="Hash64">0E9A2A5DBD74659E</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1703201137008838</field>
+                  <field name="disSlotId" type="Hash32">2F0C9E86</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-1703201137008838.material.bin</field>
+                  <field name="matMaterial" type="Hash64">7D0853C8086EA005</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201133986758</field>
+                  <field name="disSlotId" type="Hash32">32FEBEF0</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-20120326162452.material.bin</field>
+                  <field name="matMaterial" type="Hash64">0E9A2A5DBD72BACF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1702201249812478</field>
+                  <field name="disSlotId" type="Hash32">42157E5B</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2806201256829893</field>
+                  <field name="disSlotId" type="Hash32">55E4E366</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2803201135041028</field>
+                  <field name="disSlotId" type="Hash32">5A537173</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-2803201135041028.material.bin</field>
+                  <field name="matMaterial" type="Hash64">498FCE044D41924A</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2303201150263488</field>
+                  <field name="disSlotId" type="Hash32">70178B1B</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2401201263880344</field>
+                  <field name="disSlotId" type="Hash32">A1F237BA</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1702201249725107</field>
+                  <field name="disSlotId" type="Hash32">B001C75A</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201133648465</field>
+                  <field name="disSlotId" type="Hash32">B15D0730</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-20120326162317.material.bin</field>
+                  <field name="matMaterial" type="Hash64">AECA2A5DBD76EEDD</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201258349124</field>
+                  <field name="disSlotId" type="Hash32">B169A727</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1805201135690580</field>
+                  <field name="disSlotId" type="Hash32">B7F4F8C6</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201258310622</field>
+                  <field name="disSlotId" type="Hash32">E8ADD46D</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201258370429</field>
+                  <field name="disSlotId" type="Hash32">F3BB2C2B</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object name="Skin">
+            <field name="text_name" type="String">CAMO_03</field>
+            <field name="name" type="Hash32">48E983A8</field>
+            <field name="locSkinNameId" type="Int32">167208</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots">
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1601201263322467</field>
+                  <field name="disSlotId" type="Hash32">04B2378D</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2305201240629536</field>
+                  <field name="disSlotId" type="Hash32">21F7F2D4</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1703201136470311</field>
+                  <field name="disSlotId" type="Hash32">22C1161C</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-1703201136470311.material.bin</field>
+                  <field name="matMaterial" type="Hash64">F5C6D4F41315CF86</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1703201137008838</field>
+                  <field name="disSlotId" type="Hash32">2F0C9E86</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-1703201137008838.material.bin</field>
+                  <field name="matMaterial" type="Hash64">7D0853C8086EA005</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201133986758</field>
+                  <field name="disSlotId" type="Hash32">32FEBEF0</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-20120326162557.material.bin</field>
+                  <field name="matMaterial" type="Hash64">65EA2A5DBD76EBCE</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1702201249812478</field>
+                  <field name="disSlotId" type="Hash32">42157E5B</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2806201256829893</field>
+                  <field name="disSlotId" type="Hash32">55E4E366</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2803201135041028</field>
+                  <field name="disSlotId" type="Hash32">5A537173</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-2803201135041028.material.bin</field>
+                  <field name="matMaterial" type="Hash64">498FCE044D41924A</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2303201150263488</field>
+                  <field name="disSlotId" type="Hash32">70178B1B</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2401201263880344</field>
+                  <field name="disSlotId" type="Hash32">A1F237BA</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1702201249725107</field>
+                  <field name="disSlotId" type="Hash32">B001C75A</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201133648465</field>
+                  <field name="disSlotId" type="Hash32">B15D0730</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-20120326162910.material.bin</field>
+                  <field name="matMaterial" type="Hash64">43AA2A5DBD7035D5</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201258349124</field>
+                  <field name="disSlotId" type="Hash32">B169A727</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1805201135690580</field>
+                  <field name="disSlotId" type="Hash32">B7F4F8C6</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201258310622</field>
+                  <field name="disSlotId" type="Hash32">E8ADD46D</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201258370429</field>
+                  <field name="disSlotId" type="Hash32">F3BB2C2B</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object name="Skin">
+            <field name="text_name" type="String">TONE_01</field>
+            <field name="name" type="Hash32">1689BB00</field>
+            <field name="locSkinNameId" type="Int32">167203</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots">
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1601201263322467</field>
+                  <field name="disSlotId" type="Hash32">04B2378D</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2305201240629536</field>
+                  <field name="disSlotId" type="Hash32">21F7F2D4</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1703201136470311</field>
+                  <field name="disSlotId" type="Hash32">22C1161C</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-1703201136470311.material.bin</field>
+                  <field name="matMaterial" type="Hash64">F5C6D4F41315CF86</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1703201137008838</field>
+                  <field name="disSlotId" type="Hash32">2F0C9E86</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-1703201137008838.material.bin</field>
+                  <field name="matMaterial" type="Hash64">7D0853C8086EA005</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201133986758</field>
+                  <field name="disSlotId" type="Hash32">32FEBEF0</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-20120326163314.material.bin</field>
+                  <field name="matMaterial" type="Hash64">AF115A5DBD7521DD</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1702201249812478</field>
+                  <field name="disSlotId" type="Hash32">42157E5B</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2806201256829893</field>
+                  <field name="disSlotId" type="Hash32">55E4E366</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2803201135041028</field>
+                  <field name="disSlotId" type="Hash32">5A537173</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-2803201135041028.material.bin</field>
+                  <field name="matMaterial" type="Hash64">498FCE044D41924A</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2303201150263488</field>
+                  <field name="disSlotId" type="Hash32">70178B1B</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2401201263880344</field>
+                  <field name="disSlotId" type="Hash32">A1F237BA</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1702201249725107</field>
+                  <field name="disSlotId" type="Hash32">B001C75A</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201133648465</field>
+                  <field name="disSlotId" type="Hash32">B15D0730</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-0903201133648465.material.bin</field>
+                  <field name="matMaterial" type="Hash64">5B4F3ADAA45ECC5B</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201258349124</field>
+                  <field name="disSlotId" type="Hash32">B169A727</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1805201135690580</field>
+                  <field name="disSlotId" type="Hash32">B7F4F8C6</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201258310622</field>
+                  <field name="disSlotId" type="Hash32">E8ADD46D</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201258370429</field>
+                  <field name="disSlotId" type="Hash32">F3BB2C2B</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object name="Skin">
+            <field name="text_name" type="String">TONE_02</field>
+            <field name="name" type="Hash32">8F80EABA</field>
+            <field name="locSkinNameId" type="Int32">167207</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots">
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1601201263322467</field>
+                  <field name="disSlotId" type="Hash32">04B2378D</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2305201240629536</field>
+                  <field name="disSlotId" type="Hash32">21F7F2D4</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1703201136470311</field>
+                  <field name="disSlotId" type="Hash32">22C1161C</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-20120326163624.material.bin</field>
+                  <field name="matMaterial" type="Hash64">D9A15A5DBD752216</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1703201137008838</field>
+                  <field name="disSlotId" type="Hash32">2F0C9E86</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-1703201137008838.material.bin</field>
+                  <field name="matMaterial" type="Hash64">7D0853C8086EA005</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201133986758</field>
+                  <field name="disSlotId" type="Hash32">32FEBEF0</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-0903201133986758.material.bin</field>
+                  <field name="matMaterial" type="Hash64">ECD627417450B697</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1702201249812478</field>
+                  <field name="disSlotId" type="Hash32">42157E5B</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2806201256829893</field>
+                  <field name="disSlotId" type="Hash32">55E4E366</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2803201135041028</field>
+                  <field name="disSlotId" type="Hash32">5A537173</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-2803201135041028.material.bin</field>
+                  <field name="matMaterial" type="Hash64">498FCE044D41924A</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2303201150263488</field>
+                  <field name="disSlotId" type="Hash32">70178B1B</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2401201263880344</field>
+                  <field name="disSlotId" type="Hash32">A1F237BA</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1702201249725107</field>
+                  <field name="disSlotId" type="Hash32">B001C75A</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201133648465</field>
+                  <field name="disSlotId" type="Hash32">B15D0730</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-20120326163512.material.bin</field>
+                  <field name="matMaterial" type="Hash64">64315A5DBD72BFDA</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201258349124</field>
+                  <field name="disSlotId" type="Hash32">B169A727</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1805201135690580</field>
+                  <field name="disSlotId" type="Hash32">B7F4F8C6</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201258310622</field>
+                  <field name="disSlotId" type="Hash32">E8ADD46D</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201258370429</field>
+                  <field name="disSlotId" type="Hash32">F3BB2C2B</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object name="Skin">
+            <field name="text_name" type="String">TONE_03</field>
+            <field name="name" type="Hash32">F887DA2C</field>
+            <field name="locSkinNameId" type="Int32">167205</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots">
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1601201263322467</field>
+                  <field name="disSlotId" type="Hash32">04B2378D</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2305201240629536</field>
+                  <field name="disSlotId" type="Hash32">21F7F2D4</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1703201136470311</field>
+                  <field name="disSlotId" type="Hash32">22C1161C</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-1703201136470311.material.bin</field>
+                  <field name="matMaterial" type="Hash64">F5C6D4F41315CF86</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1703201137008838</field>
+                  <field name="disSlotId" type="Hash32">2F0C9E86</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-1703201137008838.material.bin</field>
+                  <field name="matMaterial" type="Hash64">7D0853C8086EA005</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201133986758</field>
+                  <field name="disSlotId" type="Hash32">32FEBEF0</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-20120326163802.material.bin</field>
+                  <field name="matMaterial" type="Hash64">29015A5DBD72BE91</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1702201249812478</field>
+                  <field name="disSlotId" type="Hash32">42157E5B</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2806201256829893</field>
+                  <field name="disSlotId" type="Hash32">55E4E366</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2803201135041028</field>
+                  <field name="disSlotId" type="Hash32">5A537173</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-2803201135041028.material.bin</field>
+                  <field name="matMaterial" type="Hash64">498FCE044D41924A</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2303201150263488</field>
+                  <field name="disSlotId" type="Hash32">70178B1B</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2401201263880344</field>
+                  <field name="disSlotId" type="Hash32">A1F237BA</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1702201249725107</field>
+                  <field name="disSlotId" type="Hash32">B001C75A</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201133648465</field>
+                  <field name="disSlotId" type="Hash32">B15D0730</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-0903201133648465.material.bin</field>
+                  <field name="matMaterial" type="Hash64">5B4F3ADAA45ECC5B</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201258349124</field>
+                  <field name="disSlotId" type="Hash32">B169A727</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-1805201135690580</field>
+                  <field name="disSlotId" type="Hash32">B7F4F8C6</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201258310622</field>
+                  <field name="disSlotId" type="Hash32">E8ADD46D</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-0903201258370429</field>
+                  <field name="disSlotId" type="Hash32">F3BB2C2B</field>
+                  <field name="text_matMaterial" type="String"></field>
+                  <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object name="Skin">
+            <field name="text_name" type="String"></field>
+            <field name="name" type="Hash32">FFFFFFFF</field>
+            <field name="locSkinNameId" type="Int32">-1</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">0</field>
+          <field name="text_fileModel" type="String">graphics\__fc3_graphics\_common\weapons\svd\svd_tp.xbg</field>
+          <field name="fileModel" type="Hash64">0252B134C87BF950</field>
+          <field name="hidMeshName" type="String">FRAME</field>
+          <field name="text_hidNodeName" type="String">FRAME</field>
+          <field name="hidNodeName" type="Hash32">42ACFE7D</field>
+          <field name="text_hidNodeNameLOD0" type="String">FRAME_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">117FF4BB</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">1</field>
+          <field name="text_fileModel" type="String">graphics\__fc3_graphics\_common\weapons\svd\svd_tp.xbg</field>
+          <field name="fileModel" type="Hash64">0252B134C87BF950</field>
+          <field name="hidMeshName" type="String">CLIP</field>
+          <field name="text_hidNodeName" type="String">CLIP</field>
+          <field name="hidNodeName" type="Hash32">9BB5F9D3</field>
+          <field name="text_hidNodeNameLOD0" type="String">CLIP_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">00B20B5C</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">2</field>
+          <field name="text_fileModel" type="String">graphics\__fc3_graphics\_common\weapons\svd\svd_tp.xbg</field>
+          <field name="fileModel" type="Hash64">0252B134C87BF950</field>
+          <field name="hidMeshName" type="String">SLIDE</field>
+          <field name="text_hidNodeName" type="String">SLIDE</field>
+          <field name="hidNodeName" type="Hash32">85BB2CD2</field>
+          <field name="text_hidNodeNameLOD0" type="String">SLIDE_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">F2877992</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">3</field>
+          <field name="text_fileModel" type="String">graphics\__fc3_graphics\_common\weapons\svd\svd_tp.xbg</field>
+          <field name="fileModel" type="Hash64">0252B134C87BF950</field>
+          <field name="hidMeshName" type="String">MAGAZINERELEASE</field>
+          <field name="text_hidNodeName" type="String">MAGAZINERELEASE</field>
+          <field name="hidNodeName" type="Hash32">E555EFD2</field>
+          <field name="text_hidNodeNameLOD0" type="String">MAGAZINERELEASE_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">50FEAE77</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">4</field>
+          <field name="text_fileModel" type="String"></field>
+          <field name="fileModel" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">MAGAZINERELEASE</field>
+          <field name="hidNodeName" type="Hash32">E555EFD2</field>
+          <field name="text_hidNodeNameLOD0" type="String">MAGAZINERELEASE_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">50FEAE77</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+      </object>
+      <object name="CSimpleAnimationComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileSkeleton" type="String">graphics\__fc3_graphics\_common\weapons\svd\svd_ref.skeleton</field>
+        <field name="fileSkeleton" type="Hash64">113DD6557A5A7908</field>
+        <field name="text_sPackage" type="String">svd</field>
+        <field name="sPackage" type="Hash64">5C84E3D000000000</field>
+        <field name="AutoApplyDisplacement" type="Boolean">False</field>
+        <field name="sPartName" type="String">svd</field>
+        <field name="bEnableEvents" type="Boolean">False</field>
+        <field name="bRandomStart" type="Boolean">False</field>
+        <field name="text_Animation" type="String"></field>
+        <field name="Animation" type="Hash64">FFFFFFFFFFFFFFFF</field>
+      </object>
+      <object name="CFCXWeapon">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="iAnimationValue" type="Int32">26</field>
+        <field name="bByPassLockHiresCustom" type="Boolean">False</field>
+        <field hash="44532B61" type="BinHex">7F7F7F7F7F7F7F7F</field>
+        <field name="bUseHiResScope" type="Boolean">True</field>
+        <field name="fHiResLowResScopeSwitchTransitionPoint" type="Float32">0.958</field>
+        <object hash="E348155E" />
+        <object hash="F4872553">
+          <field hash="38A2468A" type="BinHex">00</field>
+          <field hash="CF1DBEC6" type="BinHex">00</field>
+          <field hash="8D69DE67" type="BinHex">00000000</field>
+          <field hash="AA1EF64D" type="BinHex">00000000</field>
+        </object>
+        <object hash="919A5D44">
+          <field hash="D212B7B7" type="BinHex">00</field>
+          <field hash="795F32D4" type="BinHex">00</field>
+          <field hash="CF1DBEC6" type="BinHex">FFFFFFFF</field>
+          <field hash="C1406A0D" type="BinHex">000000000000000000000000</field>
+          <field hash="5EA6CFE6" type="BinHex">000000000000000000000000</field>
+        </object>
+        <object hash="194EAF85">
+          <object hash="194EAF85">
+            <field hash="795F32D4" type="BinHex">00</field>
+            <field hash="CF1DBEC6" type="BinHex">FFFFFFFF</field>
+            <field hash="C1406A0D" type="BinHex">000000000000000000000000</field>
+            <field hash="5EA6CFE6" type="BinHex">000000000000000000000000</field>
+          </object>
+        </object>
+      </object>
+      <object name="CWeaponNetworkComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+      </object>
+      <object name="CCountersComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+      </object>
+      <object name="CFCXWikiItemEntryComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="hidInjected" type="Boolean">True</field>
+        <field name="wikiItemId" type="BinHex">41000000</field>
+        <field name="bShouldNotifyHud" type="Boolean">True</field>
+      </object>
+      <object hash="5C458446">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="9035A13E" type="BinHex">01</field>
+        <field hash="82A4A97C" type="BinHex">00001643</field>
+      </object>
+    </object>
+  </object>
+</object>

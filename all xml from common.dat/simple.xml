@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materialdescriptor xmlns:xi="#" name="Simple" id="#(0x2af2b8c, 0x857b9252)" version="6">
+
+    <geometryInputs normal="1" tangent="1" binormal="1" color="1" uvChannels="2" />
+
+    <parameter name="TwoSided" type="bool" />
+    <parameter name="AlphaTestEnabled" type="bool" />
+    
+    <parameter name="DiffuseTexture" type="sampler2D" />
+    <parameter name="NormalTexture" type="sampler2D" useDefine="NORMALMAP" />
+    <parameter name="SpecularTexture" type="sampler2D" useDefine="SPECULARMAP" />
+
+    <parameter name="DiffuseColor" type="color4" defaultvalue="1,1,1,1" multiplier="1" />
+
+    <parameter name="Settings" type="float4" defaultvalue="0,0.03,1,1" displayInMax="1" />
+    <parameter name="NormalModifier" type="float" defaultvalue="1" displayInMax="1" />
+    
+    <parameter name="Tiling" type="float4" defaultvalue="1,1,1,1" displayInMax="1" />
+    
+    <parameter name="UVGroupMapChannel0" type="int" />
+    <parameter name="BurnMultiplier" type="float" defaultvalue="1"/>
+
+    <parameterprovider parametersfilename="Mesh_Simple.parameters.inc.fx">
+        <parameter name="DiffuseTexture">
+            <alias name="ShadowTexture" />
+        </parameter>
+        <parameter name="NormalTexture" />
+        <parameter name="SpecularTexture" />
+        <parameter name="DiffuseColor" />
+        <parameter name="Settings" />
+        <parameter name="Tiling" />
+        <parameter name="NormalModifier" />
+        <parameter name="BurnMultiplier" />
+    </parameterprovider>
+
+    <ui>
+
+        <xi:include href="../MaterialUIInclude.xml" />
+
+        <group horizontal="1" label="Settings">
+            <checkbox label="Two sided" dataBindings="TwoSided" />
+            <checkbox label="Alpha test" dataBindings="AlphaTestEnabled" />
+        </group>
+
+        <label>Diffuse Texture</label>
+        <group horizontal="1">
+            <button dataBindings="DiffuseColor" overridableInDerivation="1">
+                <dataBindings type="color" />
+            </button>
+            <button dataBindings="DiffuseTexture" fill="1" />
+            <group>
+                <textbox dataBindings="Tiling.x">
+                    <dataBindings class="Tiling" />
+                </textbox>
+                <textbox dataBindings="Tiling.y">
+                    <dataBindings class="Tiling" />
+                </textbox>
+            </group>
+        </group>
+        <label>Normal Texture</label>
+        <group horizontal="1">
+            <label>Modifier</label>
+            <textbox databindings="NormalModifier" minvalue="0.01" defaultvalue="1" />
+            <button dataBindings="NormalTexture" fill="1" />
+            <group>
+                <textbox dataBindings="Tiling.z">
+                    <dataBindings class="Tiling" />
+                </textbox>
+                <textbox dataBindings="Tiling.w">
+                    <dataBindings class="Tiling" />
+                </textbox>
+            </group>
+        </group>
+        <label>Specular Texture</label>
+        <group horizontal="1">
+            <group label="Specular Info">
+                <label>r = Specular occlusion</label>
+                <label>g = Specular gloss</label>
+                <label>b = Unused</label>
+            </group>
+            <button dataBindings="SpecularTexture" fill="1" />
+            <group>
+                <textbox dataBindings="Settings.z">
+                    <dataBindings class="Tiling" />
+                </textbox>
+                <textbox dataBindings="Settings.w">
+                    <dataBindings class="Tiling" />
+                </textbox>
+            </group>
+        </group>
+        <label>Glossiness</label>
+        <group horizontal="1">
+            <textbox dataBindings="Settings.x" overridableInDerivation="1">
+                <dataBindings minvalue="0.0" maxvalue="1.0" defaultvalue="0.0" />
+            </textbox>
+        </group>
+        <group>
+            <label>Specular Reflectance - THIS SHOULD BE KEPT AT 0.03 FOR EVERY NON-METAL MATERIAL</label>
+        </group>
+        <group horizontal="1">
+            <textbox dataBindings="Settings.y" overridableInDerivation="1">
+                <dataBindings minvalue="0.02" maxvalue="1.0" defaultvalue="0.03" />
+            </textbox>
+        </group>
+        
+    </ui>
+
+</materialdescriptor>

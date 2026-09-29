@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7707272864226</field>
+  <field name="Name" type="String">Jas13_Hotel_Broken_ColumnB</field>
+  <object name="Entity">
+    <field name="hidName" type="String">FC3_Graphics:Singleplayer:Generic:HeroBuildings:Jas13_Hotel:Jas13_Hotel_Broken_ColumnB</field>
+    <field name="disEntityId" type="Int64">8407</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">3</field>
+    <field name="hidPos" type="Vector3">-5121,-5121,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">-5121,-5121,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileName" type="String">graphics\__fc3_graphics\singleplayer\buildings\hotel_jas13_collumn_fall_b.xml</field>
+        <field name="fileName" type="Hash64">70645E66C5F2FB6E</field>
+        <field name="hidDescriptor" type="Rml">
+          <rml>
+            <hidDescriptor>
+              <component class="GraphicComponent" version="2" detail="0">
+                <object index="0" boneName="Hotel_Jas13_Collumn_Fall_B_LOD0" bboxMin="-0.361888,-0.361888,-0.151451" bboxMax="0.361888,0.361888,1.72756" />
+                <resource fileName="graphics\__FC3_Graphics\SinglePlayer\Buildings\Hotel_Jas13_Collumn_Fall_B.xbg" bboxMin="-0.361888,-0.361888,-0.151451" bboxMax="0.361888,0.361888,1.72756" />
+                <skeleton_reference_list>
+                  <skeleton name="Hotel_Jas13_Collumn_Fall_B" index="0" pos="0,0,0" rot="1,-0,-0,-0" />
+                </skeleton_reference_list>
+                <material_reference_list>
+                  <material name="HotelStucco_01" shader_name="Generic_FC3" ref_shader_id="xperreault-M-2012030556365323" />
+                  <material name="ConcreteMossy_01" shader_name="Generic_FC3" ref_shader_id="xperreault-M-2012032740200259" />
+                </material_reference_list>
+              </component>
+              <component class="InteriorVolumeComponent" version="1" detail="0" />
+              <component class="StaticPhysComponent">
+                <resource fileName="graphics\__FC3_Graphics\SinglePlayer\Buildings\Hotel_Jas13_Collumn_Fall_B.hkx" />
+              </component>
+            </hidDescriptor>
+          </rml>
+        </field>
+        <field name="hidCrcCheck" type="Hash32">FFFFFFFF</field>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bCastShadow" type="Boolean">True</field>
+        <field name="bReceiveShadow" type="Boolean">True</field>
+        <field name="bCastAmbientShadow" type="Boolean">True</field>
+        <field name="olgLightGroup" type="Int32">129</field>
+        <field name="bShowInReflection" type="Boolean">False</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bExcludeFromPortalSystem" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="clrHighLightColor" type="Vector3">1,0.903545,0.604147</field>
+        <field name="clrHighLightColor2" type="Vector3">0,0,0</field>
+        <field name="fHighLightSpeed" type="Float32">1</field>
+        <field name="bLodDitheringEnable" type="Boolean">True</field>
+        <field name="matIntuitionMaterialName" type="String"></field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field name="bAllowCullBySize" type="Boolean">True</field>
+        <field name="bMotionBlurExclusion" type="Boolean">False</field>
+        <field name="bOverrideLODSphere" type="Boolean">False</field>
+        <field name="fLODSphereRadius" type="Float32">0</field>
+        <field name="vectorAdditionalAABBDimensionForSkin" type="Vector3">1,1,0</field>
+        <field name="text_currentSkin" type="String"></field>
+        <field name="currentSkin" type="Hash32">FFFFFFFF</field>
+        <field name="bUseCurrentSkin" type="Boolean">False</field>
+        <object name="MaterialLightSwitch">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">xperreault-m-2012032740200259</field>
+              <field name="disSlotId" type="Hash32">06FA1052</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">xperreault-m-2012030556365323</field>
+              <field name="disSlotId" type="Hash32">5E171E94</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="MaterialOverrides">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">xperreault-m-2012032740200259</field>
+              <field name="disSlotId" type="Hash32">06FA1052</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">xperreault-m-2012030556365323</field>
+              <field name="disSlotId" type="Hash32">5E171E94</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="SkinList">
+          <object name="Skin">
+            <field name="text_name" type="String"></field>
+            <field name="name" type="Hash32">FFFFFFFF</field>
+            <field name="locSkinNameId" type="Int32">-1</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">0</field>
+          <field name="text_fileModel" type="String">graphics\__fc3_graphics\singleplayer\buildings\hotel_jas13_collumn_fall_b.xbg</field>
+          <field name="fileModel" type="Hash64">7F3DCE66C5F2FB6E</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">Hotel_Jas13_Collumn_Fall_B</field>
+          <field name="hidNodeName" type="Hash32">B6199365</field>
+          <field name="text_hidNodeNameLOD0" type="String">Hotel_Jas13_Collumn_Fall_B_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">3BE61F64</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">1</field>
+          <field name="text_fileModel" type="String"></field>
+          <field name="fileModel" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">Hotel_Jas13_Collumn_Fall_B</field>
+          <field name="hidNodeName" type="Hash32">B6199365</field>
+          <field name="text_hidNodeNameLOD0" type="String">Hotel_Jas13_Collumn_Fall_B_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">3BE61F64</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+      </object>
+      <object hash="037FB709">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="527E7674" type="BinHex">67726170686963735C5F5F6663335F67726170686963735C73696E676C65706C617965725C6275696C64696E67735C686F74656C5F6A617331335F636F6C6C756D6E5F66616C6C5F622E686B7800</field>
+        <field hash="2E50EB85" type="BinHex">6EFBF2C566E5A16D</field>
+        <field hash="5BABAAC6" type="BinHex">00</field>
+        <field hash="CFA0AA41" type="BinHex">00</field>
+        <field hash="706E541C" type="BinHex">00000000</field>
+        <field hash="0C838A6E" type="BinHex">00</field>
+        <field hash="C784A41F" type="BinHex">00</field>
+        <field hash="BF1EB181" type="BinHex">00</field>
+        <field hash="28429047" type="BinHex">00</field>
+        <field hash="DFF6CC88" type="BinHex">00</field>
+        <field hash="703D17B2" type="BinHex">00</field>
+        <field hash="245BEC5F" type="BinHex">00</field>
+        <field hash="387811D0" type="BinHex">00</field>
+        <field hash="A8699EF0" type="BinHex">00000000</field>
+        <field hash="622700D2" type="BinHex">00</field>
+        <object hash="18327EA1" />
+      </object>
+      <object hash="9717C8A7">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="5CFE93AD" type="BinHex">00</field>
+        <field hash="F5C425C9" type="BinHex">00</field>
+        <field hash="B41FA94F" type="BinHex">0000803F0000803F0000803F</field>
+      </object>
+      <object name="CSimpleAnimationComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileSkeleton" type="String">graphics\characters\_common\singlebone_ref.skeleton</field>
+        <field name="fileSkeleton" type="Hash64">9F5AC43FB55D2FD4</field>
+        <field name="text_sPackage" type="String"></field>
+        <field name="sPackage" type="Hash64">FFFFFFFFFFFFFFFF</field>
+        <field name="AutoApplyDisplacement" type="Boolean">False</field>
+        <field name="sPartName" type="String">hotel_jas13_collumn_fall_b</field>
+        <field name="bEnableEvents" type="Boolean">False</field>
+        <field name="bRandomStart" type="Boolean">False</field>
+        <field name="text_Animation" type="String"></field>
+        <field name="Animation" type="Hash64">FFFFFFFFFFFFFFFF</field>
+      </object>
+      <object hash="E683B521">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="2BA6E1A6" type="BinHex">FFFFFFFF00000000</field>
+      </object>
+    </object>
+  </object>
+</object>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materialdescriptor xmlns:xi="#" name="Decal" version="8">
+    <geometryInputs normal="1" tangent="1" binormal="1" color="1" uvChannels="1" />
+
+    <!-- As of 2009/06/04, the decal shader uses no mask or vertex painting  -->
+
+    <parameter name="TwoSided" type="bool" />
+    <parameter name="BlendingType" type="int" defaultvalue="1" />
+
+    <parameter name="ParallaxHeightAndOffset" type="float2" defaultvalue="0.1,0" />
+
+    <parameter name="DiffuseTexture1" type="sampler2D" />
+    <parameter name="DiffuseTiling1" type="float2" defaultvalue="1,1" />
+    <parameter name="DiffuseColor1" type="color4" defaultvalue="1,1,1,1" multiplier="1" />
+
+    <parameter name="NormalTexture1" type="sampler2D" useDefine="NORMALMAP" />
+    <parameter name="NormalTiling1" type="float2" defaultvalue="1,1" />
+
+    <parameter name="SpecularTexture1" type="sampler2D" useDefine="SPECULARMAP" />
+    <parameter name="SpecularTiling1" type="float2" defaultvalue="1,1" />
+
+    <parameter name="AlphaTexture1" type="sampler2D" useDefine="ALPHAMAP" />
+    
+    <parameter name="HeightTexture1" type="sampler2D" platform="win32" />
+
+    <parameter name="ParallaxScale" type="float4" defaultvalue="1,1,1,1" provideronly="1" />
+    <parameter name="DiffuseAndNormalTiling1" type="float4" defaultvalue="1,1,1,1" provideronly="1" />
+
+    <parameter name="WetnessLightingCffs" type="float4" defaultvalue="0.5,2.0,2.0,0.0"/>
+
+    <parameter name="Settings" type="float4" defaultvalue="1.0,1.0,0.0,0.0" />
+    
+    <parameterprovider parametersfilename="Decal.parameters.inc.fx">
+        <parameter name="ParallaxHeightAndOffset" />
+        <parameter name="ParallaxScale" />
+        <parameter name="DiffuseTexture1">
+            <alias name="DiffuseTexture1Wrap" />
+        </parameter>
+        <parameter name="DiffuseColor1" />
+        <parameter name="NormalTexture1">
+            <alias name="NormalTexture1Wrap" />
+        </parameter>
+        <parameter name="SpecularTexture1">
+            <alias name="SpecularTexture1Wrap" />
+        </parameter>
+        <parameter name="SpecularTiling1" />
+        <parameter name="AlphaTexture1" />
+        <parameter name="HeightTexture1">
+            <alias name="HeightTexture1Wrap" />
+        </parameter>
+        <parameter name="DiffuseAndNormalTiling1" />
+        <parameter name="WetnessLightingCffs" />
+        <parameter name="Settings" />
+    </parameterprovider>
+    
+    <ui>
+        <group horizontal="1" label="Settings">
+            <checkbox label="Two sided" dataBindings="TwoSided" />
+            <group>
+                <label>Blending type</label>
+                <combobox dataBindings="BlendingType">
+                    <comboboxitem value="0">Opaque</comboboxitem>
+                    <comboboxitem value="1">Alpha</comboboxitem>
+                </combobox>
+            </group>
+        </group>
+
+        <group horizontal="1" label="Diffuse">
+            <button dataBindings="DiffuseColor1" overridableInDerivation="1">
+                <dataBindings type="color" />
+            </button>
+            <button dataBindings="DiffuseTexture1" fill="1" />
+            <group>
+                <textbox dataBindings="DiffuseTiling1.x">
+                    <dataBindings type="int" />
+                </textbox>
+                <textbox dataBindings="DiffuseTiling1.y">
+                    <dataBindings type="int" />
+                </textbox>
+            </group>
+        </group>
+
+        <group label="Specular" horizontal="1">
+            <group label="Specular Info">
+                <label>r = Specular occlusion</label>
+                <label>g = Specular gloss</label>
+                <label>b = Unused</label>
+            </group>
+            <label>Glossiness</label>
+            <textbox databindings="Settings.y">
+                <databindings minvalue="0" maxvalue="1" defaultvalue="1" />
+            </textbox>
+            <button dataBindings="SpecularTexture1" fill="1" />
+            <group>
+                <textbox dataBindings="SpecularTiling1.x">
+                    <dataBindings type="int" />
+                </textbox>
+                <textbox dataBindings="SpecularTiling1.y">
+                    <dataBindings type="int" />
+                </textbox>
+            </group>
+        </group>
+
+        <group horizontal="1" label="Normal">
+            <label>Modifier</label>
+            <textbox databindings="Settings.x">
+                <dataBindings minvalue="0" defaultvalue="1" />
+            </textbox>
+            <button dataBindings="NormalTexture1" fill="1" />
+            <group>
+                <textbox dataBindings="NormalTiling1.x">
+                    <dataBindings type="int" />
+                </textbox>
+                <textbox dataBindings="NormalTiling1.y">
+                    <dataBindings type="int" />
+                </textbox>
+            </group>
+        </group>
+
+        <group label="Alpha Texture">
+            <button dataBindings="AlphaTexture1" fill="1" />
+        </group>
+
+        <group label="Rotation">
+            <textbox dataBindings="Settings.z">
+                <dataBindings minvalue="0" maxvalue="360" />
+            </textbox>
+        </group>
+        
+        <group horizontal="1" label="Parallax">
+            <button dataBindings="HeightTexture1" fill="1" />
+            
+            <group>
+                <group horizontal="1">
+                    <label>Height</label>
+                    <textbox dataBindings="ParallaxHeightAndOffset.x" />
+                </group>
+                <group horizontal="1">
+                    <label>Offset</label>
+                    <textbox dataBindings="ParallaxHeightAndOffset.y" />
+                </group>
+            </group>
+        </group>
+
+        <xi:include href="../WetnessUIInclude.xml" />    
+    </ui>
+
+    
+</materialdescriptor>

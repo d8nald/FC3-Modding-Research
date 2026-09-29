@@ -1,0 +1,28 @@
+<graphickit id="12066023111959524352" name="SHA_Deer" unique="0" kittobone="1">
+	<slot name="MainBody" position="0" bonename="Pelvis">
+		<partdatabase name="" weight="0">
+			<part name="Deer" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Deer\Deer.xml" mesh="Deer" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Animal_Grey_ID2" id="jli-M-107201151201026">
+						<materialdatabase name="" weight="0">
+							<material id="yanzhou-M-1407201148998056" name="Deer_eyes" weight="1" file="graphics\_materials\yanzhou-M-1407201148998056.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Animal_Grey_ID1" id="jli-M-107201142503596">
+						<materialdatabase name="" weight="0">
+							<material id="yanzhou-M-2106201150629658" name="Deer_Main_Body" weight="6" file="graphics\_materials\yanzhou-M-2106201150629658.material.xml">
+								<tag name="regular" type="0" />
+								<tag name="rare" type="4" />
+							</material>
+							<material id="yanzhou-M-1701201251840967" name="Deer_Sika_Body" weight="4" file="graphics\_materials\yanzhou-M-1701201251840967.material.xml">
+								<tag name="rare" type="0" />
+								<tag name="regular" type="4" />
+							</material>
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

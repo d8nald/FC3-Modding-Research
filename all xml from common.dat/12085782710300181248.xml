@@ -1,0 +1,36 @@
+<graphickit id="12085782710300181248" name="SHA_Macaque_Bomb" unique="0" kittobone="1">
+	<slot name="Mainbody" position="0" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="Macaque" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Macaque\Macaque.xml" mesh="Macaque" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Macaque_Fur" id="yanzhou-M-1312201138688235">
+						<materialdatabase name="" weight="0">
+							<material id="yanzhou-M-20120213135257" name="Macaque_Fur_White" weight="1" file="graphics\_materials\yanzhou-M-20120213135257.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Macaque_Body" id="yanzhou-M-1312201138659419">
+						<materialdatabase name="" weight="0">
+							<material id="yanzhou-M-20120210171203" name="Macaque_Black_Body" weight="1" file="graphics\_materials\yanzhou-M-20120210171203.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Bomb" position="1" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="Macaque_Bomb" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Macaque\Macaque_Bomb.xml" mesh="Macaque_Bomb" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Macaque_Bomb_02_Light" id="slabreche-M-2012052557086943">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Macaque_Bomb_02" id="slabreche-M-2012052537998685">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

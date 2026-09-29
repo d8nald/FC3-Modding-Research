@@ -1,0 +1,53 @@
+<graphickit id="12066023109812034304" name="Dennis" unique="0" kittobone="1">
+	<slot name="Slot1" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Dennis" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\Dennis\Dennis.xml" mesh="Dennis" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Dennis Pants and accessories" id="cromagnoli-M-2012011161622085">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Dennis_shirt" id="cromagnoli-M-2012011142437371">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Dennis_pants" id="cromagnoli-M-2012011162646721">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Dennis_string" id="cromagnoli-M-2012011164658688">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Dennis_Torso_Generic" id="cromagnoli-M-2012011163425748">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="button" id="cromagnoli-M-2012011264110462">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Dennis_Face" id="cromagnoli-M-2012011856726661">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Dennis_eye" id="akotelnikoff-M-2012060742599880">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-M-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Dennis_glass" id="cromagnoli-M-2012011264976806">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="LeonGakumba_Hairs" id="cromagnoli-M-2012011859578441">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Slot2" position="1" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot3" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot4" position="3" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

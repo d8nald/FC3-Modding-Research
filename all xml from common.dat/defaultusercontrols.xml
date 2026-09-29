@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!-- Note: This file does not actually SET the default key.  The keys set here must match those in the actionmap in order for rebinding to work.
+           The corresponding remap actionmap must be imported for each actionmap that needs these keys remapped. -->
+
+<!-- Note: KeyA and KeyB are considered conflicting if KeyA.group == KeyB.group OR KeyA.group & KeyB.conflictmask is not 0.
+           Groups should be powers of 2. -->
+<!-- I'm now using the following groups:
+      1 = common on foot
+      2 = driving
+      4 = single player exclusive
+      8 = multiplayer exlusive
+-->
+
+<Root>
+  <Category name="CATEGORY_MOVEMENTS">
+    <Control name="OPTIONS_CONTROLS_PC_MOVE_FORWARD"       key1="kb:w"      actionmap="common_move_remap"            group="1" conflictmask="13" oasissection="Controls"/>
+    <Control name="OPTIONS_CONTROLS_PC_MOVE_BACKWARD"      key1="kb:s"      actionmap="common_move_remap"            group="1" conflictmask="13" oasissection="Controls"/>
+    <Control name="OPTIONS_CONTROLS_PC_STRAFE_LEFT"        key1="kb:a"      actionmap="common_move_remap"            group="1" conflictmask="13" oasissection="Controls"/>
+    <Control name="OPTIONS_CONTROLS_PC_STRAFE_RIGHT"       key1="kb:d"      actionmap="common_move_remap"            group="1" conflictmask="13" oasissection="Controls"/>
+    <Control name="OPTIONS_CONTROLS_SHOOT"                 key1="mouse:lb"  actionmap="common_move_remap"            group="1" conflictmask="-1" oasissection="Options - Controls"/>
+    <Control name="OPTIONS_CONTROLS_AIM"                   key1="mouse:rb"  actionmap="common_move_remap"            group="1" conflictmask="-1" oasissection="Options - Controls"/>
+    <Control name="OPTIONS_CONTROLS_PC_SPRINT"             key1="kb:lshift" actionmap="common_move_remap"            group="1" conflictmask="13" oasissection="Controls"/>
+    <Control name="OPTIONS_CONTROLS_JUMP"                  key1="kb:space"  actionmap="common_move_remap"            group="1" conflictmask="13" oasissection="Options - Controls"/>
+    <Control name="OPTIONS_CONTROLS_CROUCH"                key1="kb:c"      actionmap="common_move_remap"            group="1" conflictmask="13" oasissection="Options - Controls"/>
+    <Control name="OPTIONS_CONTROLS_RELOAD"                key1="kb:r"      actionmap="common_weapons_remap"         group="1" conflictmask="13" oasissection="Options - Controls"/>
+    <Control name="OPTIONS_CONTROLS_PC_INTERACT"           key1="kb:e"      actionmap="common_use_remap"             group="1" conflictmask="-1" oasissection="Controls"/>
+    <Control name="OPTIONS_CONTROLS_PC_HEAL"               key1="kb:q"      actionmap="common_heal_remap"            group="1" conflictmask="13" oasissection="Controls"/>
+    <Control name="OPTIONS_CONTROLS_PC_THROW_GRENADE"      key1="mouse:mb"  actionmap="common_move_remap"            group="1" conflictmask="13" oasissection="Controls"/>
+	<Control name="OPTIONS_CONTROLS_THROWROCK"             key1="kb:t"      actionmap="common_singleplayer_remap"    group="4" conflictmask="5"  oasissection="Options - Controls"/>
+    <Control name="OPTIONS_CONTROLS_PC_MELEE"              key1="kb:f"      actionmap="common_weapons_remap"         group="1" conflictmask="13" oasissection="Controls"/>
+    <Control name="OPTIONS_CONTROLS_PC_PRIMARY_WEAPON"     key1="kb:1"      actionmap="common_singleplayer_remap"    group="4" conflictmask="5"  oasissection="Controls"/>
+    <Control name="OPTIONS_CONTROLS_PC_SECONDARY_WEAPON"   key1="kb:2"      actionmap="common_singleplayer_remap"    group="4" conflictmask="5"  oasissection="Controls"/>
+	<Control name="OPTIONS_CONTROLS_PC_WEAPON_3"           key1="kb:3"      actionmap="common_singleplayer_remap"    group="4" conflictmask="5"  oasissection="Controls"/>
+	<Control name="OPTIONS_CONTROLS_PC_WEAPON_4"           key1="kb:4"      actionmap="common_singleplayer_remap"    group="4" conflictmask="5"  oasissection="Controls"/>
+	<Control name="OPTIONS_CONTROLS_PC_C4"                 key1="kb:5"      actionmap="common_singleplayer_remap"    group="4" conflictmask="5"  oasissection="Controls"/>
+	<Control name="OPTIONS_CONTROLS_PC_MINE"               key1="kb:6"      actionmap="common_singleplayer_remap"    group="4" conflictmask="5"  oasissection="Controls"/>
+	<Control name="OPTIONS_CONTROLS_PC_CRAFT_A"            key1="kb:7"      actionmap="common_singleplayer_remap"    group="4" conflictmask="5"  oasissection="Controls"/>
+	<Control name="OPTIONS_CONTROLS_PC_CRAFT_B"            key1="kb:8"      actionmap="common_singleplayer_remap"    group="4" conflictmask="5"  oasissection="Controls"/>
+	<Control name="OPTIONS_CONTROLS_PC_GRENADE"            key1="kb:9"      actionmap="common_singleplayer_remap"    group="4" conflictmask="5"  oasissection="Controls"/>
+	<Control name="OPTIONS_CONTROLS_PC_MOLOTOV"            key1="kb:0"      actionmap="common_singleplayer_remap"    group="4" conflictmask="5"  oasissection="Controls"/>
+	<Control name="OPTIONS_CONTROLS_PREVIOUSWEAPON"        key1="kb:-"      actionmap="common_weapons_remap"         group="1" conflictmask="13" oasissection="Options - Controls"/>
+	<Control name="OPTIONS_CONTROLS_PC_NEXT_WEAPON"        key1="kb:="      actionmap="common_weapons_remap"         group="1" conflictmask="13" oasissection="Controls"/>
+    <Control name="OPTIONS_CONTROLS_PC_LAST_WEAPON"        key1="kb:x"      actionmap="common_weapons_remap"         group="1" conflictmask="13" oasissection="Video"/>
+	<Control name="OPTIONS_CONTROLS_CAMERA"                key1="kb:z"      actionmap="common_singleplayer_remap"    group="4" conflictmask="5"  oasissection="Options - Controls"/>
+	<Control name="OPTIONS_CONTROLS_MAP"                   key1="kb:m"      actionmap="common_map_remap"             group="1" conflictmask="13" oasissection="Options - Controls"/>
+  </Category>
+  <Category name="CATEGORY_VEHICLES">
+    <Control name="OPTIONS_CONTROLS_ACCELERATE"            key1="kb:w"     actionmap="common_driving_remap"          group="2" conflictmask="2"  oasissection="Options - Controls"/>
+    <Control name="OPTIONS_CONTROLS_BRAKE"                 key1="kb:s"     actionmap="common_driving_remap"          group="2" conflictmask="2"  oasissection="Options - Controls"/>
+    <Control name="OPTIONS_CONTROLS_PC_STEER_LEFT"         key1="kb:a"     actionmap="common_driving_remap"          group="2" conflictmask="2"  oasissection="Controls"/>
+    <Control name="OPTIONS_CONTROLS_PC_STEER_RIGHT"        key1="kb:d"     actionmap="common_driving_remap"          group="2" conflictmask="2"  oasissection="Controls"/>
+    <Control name="OPTIONS_CONTROLS_PC_HEADLIGHTS_ONOFF"   key1="kb:g"     actionmap="common_driving_remap"          group="2" conflictmask="2"  oasissection="Controls"/>
+    <Control name="OPTIONS_CONTROLS_HANDBRAKE"             key1="kb:space" actionmap="common_driving_remap"          group="2" conflictmask="2"  oasissection="Options - Controls"/>
+    <Control name="OPTIONS_CONTROLS_SWITCHSEATS"           key1="kb:c"     actionmap="common_changeseat_remap"       group="2" conflictmask="2"  oasissection="Options - Controls"/>
+<!--<Control name="OPTIONS_CONTROLS_PC_EXIT_VEHICLE"       key1="kb:e"     actionmap="common_exitvehicle_remap"      group="2" conflictmask="2"  oasissection="Controls"/> Using the interact button for exiting vehicles now. -->
+	<Control name="OPTIONS_CONTROLS_RADIOONOFF"            key1="kb:r"     actionmap="common_driving_remap"          group="2" conflictmask="2"  oasissection="Options - Controls"/>
+	<Control name="OPTIONS_CONTROLS_NEXTSONG"              key1="kb:t"     actionmap="common_driving_remap"          group="2" conflictmask="2"  oasissection="Options - Controls"/>
+  </Category>
+  <Category name="CATEGORY_MULTIPLAYER">
+	<Control name="OPTIONS_CONTROLS_SCOREBOARD"            key1="kb:tab"   actionmap="common_multiplayer_remap"      group="8" conflictmask="9"  oasissection="Options - Controls"/>
+    <Control name="OPTIONS_CONTROLS_PC_CHAT"               key1="kb:u"     actionmap="common_multiplayer_remap"      group="8" conflictmask="9"  oasissection="Controls"/>
+	<Control name="OPTIONS_CONTROLS_BATTLECRY"             key1="kb:t"     actionmap="common_multiplayer_remap"      group="8" conflictmask="9"  oasissection="Options - Controls"/>
+	<Control name="OPTIONS_CONTROLS_TAGENEMY"              key1="kb:v"     actionmap="common_multiplayer_remap"      group="8" conflictmask="9"  oasissection="Options - Controls"/>
+	<Control name="OPTIONS_CONTROLS_SUPPORTWEAPON"         key1="kb:z"     actionmap="common_multiplayer_remap"      group="8" conflictmask="9"  oasissection="Options - Controls"/>
+    <Control name="OPTIONS_CONTROLS_PC_PRIMARY_WEAPON"     key1="kb:1"     actionmap="common_multiplayer_remap"      group="8" conflictmask="9"  oasissection="Controls"/>
+    <Control name="OPTIONS_CONTROLS_PC_SECONDARY_WEAPON"   key1="kb:2"     actionmap="common_multiplayer_remap"      group="8" conflictmask="9"  oasissection="Controls"/>
+	<Control name="OPTIONS_CONTROLS_C4MINE"                key1="kb:3"     actionmap="common_multiplayer_remap"      group="8" conflictmask="9"  oasissection="Options - Controls"/>
+	<Control name="OPTIONS_CONTROLS_REPAIRTOOL"            key1="kb:4"     actionmap="common_multiplayer_remap"      group="8" conflictmask="9"  oasissection="Options - Controls"/>
+	<Control name="OPTIONS_CONTROLS_PC_BUDDY_BOOST"        key1="kb:5"     actionmap="common_multiplayer_remap"      group="8" conflictmask="9"  oasissection="Controls"/>
+	<Control name="OPTIONS_CONTROLS_PC_CANCEL_BUDDY_BOOST" key1="kb:b"     actionmap="common_multiplayer_remap"      group="8" conflictmask="9"  oasissection="Controls"/>
+	<Control name="OPTIONS_CONTROLS_PC_LOADOUT"            key1="kb:l"     actionmap="common_multiplayer_remap"      group="8" conflictmask="9"  oasissection="Controls"/>
+	<Control name="OPTIONS_CONTROLCS_PC_VOICE_CHAT"        key1="kb:lalt"  actionmap="common_multiplayer_remap"      group="8" conflictmask="9"  oasissection="Controls"/>
+  </Category>
+</Root>

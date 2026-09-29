@@ -1,0 +1,253 @@
+<Profile CustomColors="Count(0) ">
+	<CameraConfig fov="85" zMin="0.25" zMax="10000" />
+	<ResourceCacheConfig thumbnailsVer="1.2" />
+	<JiraConfig connectionString="Driver={MySQL ODBC 5.1 Driver};SERVER=jiradb.ubisoft.org;PORT=3306;Database=jira37;UID=jira37_read;PWD=9lb3r9%id" connectionStringProviderName="System.Data.Odbc" />
+	<CinemaConfig UserProfile="" />
+	<ConfigObjectMap>
+		<MapEntry tag="terrainbrushflatten">
+			<ConfigObject hid_DTCTH_ClassName="CTerrainBrushFlatten">
+				<mapBrushFloatVariables>
+					<Elem Key="Radius" Value="3" />
+					<Elem Key="Opacity" Value="1" />
+					<Elem Key="Height" Value="0" />
+					<Elem Key="Falloff" Value="1" />
+					<Elem Key="Hardness" Value="0.2" />
+				</mapBrushFloatVariables>
+				<mapBrushIntVariables />
+				<mapBrushBoolVariables>
+					<Elem Key="DisplaySlope" Value="0" />
+					<Elem Key="KeepHeight" Value="0" />
+					<Elem Key="DisplayBorders" Value="1" />
+					<Elem Key="ClampBorders" Value="0" />
+				</mapBrushBoolVariables>
+			</ConfigObject>
+		</MapEntry>
+		<MapEntry tag="terrainbrushaverage">
+			<ConfigObject hid_DTCTH_ClassName="CTerrainBrushAverage">
+				<mapBrushFloatVariables>
+					<Elem Key="Radius" Value="3" />
+					<Elem Key="Opacity" Value="1" />
+					<Elem Key="Falloff" Value="1" />
+					<Elem Key="Hardness" Value="0.2" />
+				</mapBrushFloatVariables>
+				<mapBrushIntVariables />
+				<mapBrushBoolVariables>
+					<Elem Key="DisplaySlope" Value="0" />
+					<Elem Key="KeepHeight" Value="0" />
+					<Elem Key="DisplayBorders" Value="1" />
+					<Elem Key="ClampBorders" Value="0" />
+				</mapBrushBoolVariables>
+			</ConfigObject>
+		</MapEntry>
+		<MapEntry tag="terrainbrushpaint">
+			<ConfigObject hid_DTCTH_ClassName="CTerrainBrushPaint">
+				<mapBrushFloatVariables>
+					<Elem Key="Radius" Value="3" />
+					<Elem Key="Opacity" Value="1" />
+					<Elem Key="Amount" Value="1" />
+					<Elem Key="Falloff" Value="1" />
+					<Elem Key="Hardness" Value="0.2" />
+				</mapBrushFloatVariables>
+				<mapBrushIntVariables />
+				<mapBrushBoolVariables>
+					<Elem Key="DisplaySlope" Value="0" />
+					<Elem Key="KeepHeight" Value="0" />
+					<Elem Key="DisplayBorders" Value="1" />
+					<Elem Key="ClampBorders" Value="0" />
+				</mapBrushBoolVariables>
+			</ConfigObject>
+		</MapEntry>
+		<MapEntry tag="terrainbrushramp">
+			<ConfigObject hid_DTCTH_ClassName="CTerrainBrushRamp">
+				<mapBrushFloatVariables>
+					<Elem Key="Radius" Value="3" />
+					<Elem Key="Opacity" Value="1" />
+					<Elem Key="Falloff" Value="1" />
+					<Elem Key="Hardness" Value="0.2" />
+				</mapBrushFloatVariables>
+				<mapBrushIntVariables />
+				<mapBrushBoolVariables>
+					<Elem Key="DisplaySlope" Value="0" />
+					<Elem Key="KeepHeight" Value="0" />
+					<Elem Key="DisplayBorders" Value="1" />
+					<Elem Key="ClampBorders" Value="0" />
+				</mapBrushBoolVariables>
+			</ConfigObject>
+		</MapEntry>
+		<MapEntry tag="flashplayerconfig">
+			<ConfigObject hid_DTCTH_ClassName="CFlashPlayerConfig">
+				<FlashPaths />
+			</ConfigObject>
+		</MapEntry>
+		<MapEntry tag="editsettings">
+			<ConfigObject hid_DTCTH_ClassName="CEditSettings" eSelectedAxis="7" eRefCoordsSys="0">
+				<vecLastAxis>
+					<Elem Value="7" />
+					<Elem Value="7" />
+					<Elem Value="7" />
+					<Elem Value="3" />
+					<Elem Value="4" />
+					<Elem Value="0" />
+					<Elem Value="0" />
+					<Elem Value="0" />
+					<Elem Value="0" />
+					<Elem Value="0" />
+					<Elem Value="0" />
+					<Elem Value="0" />
+					<Elem Value="0" />
+					<Elem Value="0" />
+					<Elem Value="0" />
+					<Elem Value="0" />
+				</vecLastAxis>
+				<vecLastRefCoordsSys>
+					<Elem Value="1" />
+					<Elem Value="1" />
+					<Elem Value="0" />
+					<Elem Value="1" />
+					<Elem Value="1" />
+					<Elem Value="0" />
+					<Elem Value="0" />
+					<Elem Value="0" />
+					<Elem Value="0" />
+					<Elem Value="0" />
+					<Elem Value="0" />
+					<Elem Value="0" />
+					<Elem Value="0" />
+					<Elem Value="0" />
+					<Elem Value="0" />
+					<Elem Value="0" />
+				</vecLastRefCoordsSys>
+			</ConfigObject>
+		</MapEntry>
+		<MapEntry tag="terrainbrushgrab">
+			<ConfigObject hid_DTCTH_ClassName="CTerrainBrushGrab">
+				<mapBrushFloatVariables>
+					<Elem Key="Radius" Value="3" />
+					<Elem Key="Opacity" Value="1" />
+					<Elem Key="Falloff" Value="1" />
+					<Elem Key="Hardness" Value="0.2" />
+				</mapBrushFloatVariables>
+				<mapBrushIntVariables />
+				<mapBrushBoolVariables>
+					<Elem Key="DisplaySlope" Value="0" />
+					<Elem Key="KeepHeight" Value="0" />
+					<Elem Key="DisplayBorders" Value="1" />
+					<Elem Key="ClampBorders" Value="0" />
+				</mapBrushBoolVariables>
+			</ConfigObject>
+		</MapEntry>
+		<MapEntry tag="terrainbrushraiselower">
+			<ConfigObject hid_DTCTH_ClassName="CTerrainBrushRaiseLower">
+				<mapBrushFloatVariables>
+					<Elem Key="Radius" Value="3" />
+					<Elem Key="Opacity" Value="1" />
+					<Elem Key="Amount" Value="1" />
+					<Elem Key="Falloff" Value="1" />
+					<Elem Key="Hardness" Value="0.2" />
+				</mapBrushFloatVariables>
+				<mapBrushIntVariables />
+				<mapBrushBoolVariables>
+					<Elem Key="DisplaySlope" Value="0" />
+					<Elem Key="KeepHeight" Value="0" />
+					<Elem Key="DisplayBorders" Value="1" />
+					<Elem Key="ClampBorders" Value="0" />
+				</mapBrushBoolVariables>
+			</ConfigObject>
+		</MapEntry>
+		<MapEntry tag="paneldisplayrender">
+			<ConfigObject hid_DTCTH_ClassName="CConfigObject" bSkyBox="1" bFog="1" bWater="1" bWaterLevelValidationEnabled="0" bOcean="1" bParticles="1" bTerrain="1" bTerrainDetailTextures="1" bSpline="1" bDecal="1" bCurvedHorizon="1" bBloom="1" bEyeAdaptation="1" bToneMapping="1" bLighting="1" bDynamicShadows="1" bAlphaToCoverage="1" bWireframe="0" bShowOcclusionBuffer="0" bShowSSAOBuffer="0" bShowDeferredAmbientBuffer="0" bShowOccludingTerrain="0" bSolidWireframe="0" bDisplayVistas="1" bResourceLoadErrors="1" bDominoReloadInfo="0" fDisplaySlope="30">
+				<PostEffects bEnableSystem="1" bEnableSSAO="1" bEnableDeferredAmbient="1" bDesaturation="1" bGlowingEyes="1" bRegionBlur="1" bBlur="1" bDepthOfField="1" bRGBSeparation="1" bHueSaturation="1" bNoise="1" bMotionBlur="1" bSourceDistortion="1" bColorBurn="1" bColorMask="1" bDistortion="1" bEdgeDetection="1" />
+			</ConfigObject>
+		</MapEntry>
+		<MapEntry tag="terrainbrushsmooth">
+			<ConfigObject hid_DTCTH_ClassName="CTerrainBrushSmooth">
+				<mapBrushFloatVariables>
+					<Elem Key="Radius" Value="3" />
+					<Elem Key="Opacity" Value="1" />
+					<Elem Key="Falloff" Value="1" />
+					<Elem Key="Hardness" Value="0.2" />
+				</mapBrushFloatVariables>
+				<mapBrushIntVariables />
+				<mapBrushBoolVariables>
+					<Elem Key="DisplaySlope" Value="0" />
+					<Elem Key="KeepHeight" Value="0" />
+					<Elem Key="DisplayBorders" Value="1" />
+					<Elem Key="ClampBorders" Value="0" />
+				</mapBrushBoolVariables>
+			</ConfigObject>
+		</MapEntry>
+		<MapEntry tag="terrainbrushnoise">
+			<ConfigObject hid_DTCTH_ClassName="CTerrainBrushNoise">
+				<mapBrushFloatVariables>
+					<Elem Key="Radius" Value="3" />
+					<Elem Key="Opacity" Value="1" />
+					<Elem Key="Falloff" Value="1" />
+					<Elem Key="Hardness" Value="0.2" />
+					<Elem Key="Persistence" Value="0.5" />
+					<Elem Key="Amplitude" Value="1" />
+					<Elem Key="NoiseSize" Value="64" />
+				</mapBrushFloatVariables>
+				<mapBrushIntVariables>
+					<Elem Key="NoiseType" Value="0" />
+					<Elem Key="NumOctaves" Value="8" />
+				</mapBrushIntVariables>
+				<mapBrushBoolVariables>
+					<Elem Key="DisplaySlope" Value="0" />
+					<Elem Key="KeepHeight" Value="0" />
+					<Elem Key="DisplayBorders" Value="1" />
+					<Elem Key="ClampBorders" Value="0" />
+				</mapBrushBoolVariables>
+			</ConfigObject>
+		</MapEntry>
+		<MapEntry tag="errorreportconfig">
+			<ConfigObject hid_DTCTH_ClassName="CErrorReportConfig" posX="150" posY="150" sizeX="800" sizeY="600" historyDaysCount="10" maxEntries="25000" maxFileSize="2097152" />
+		</MapEntry>
+		<MapEntry tag="terrainbrusherosion">
+			<ConfigObject hid_DTCTH_ClassName="CTerrainBrushErosion">
+				<mapBrushFloatVariables>
+					<Elem Key="Density" Value="0.5" />
+					<Elem Key="Drag" Value="0.25" />
+					<Elem Key="Radius" Value="3" />
+					<Elem Key="Opacity" Value="1" />
+					<Elem Key="Falloff" Value="1" />
+					<Elem Key="Solubility" Value="0.5" />
+					<Elem Key="Softness" Value="0.5" />
+					<Elem Key="Hardness" Value="0.2" />
+				</mapBrushFloatVariables>
+				<mapBrushIntVariables />
+				<mapBrushBoolVariables>
+					<Elem Key="DisplaySlope" Value="0" />
+					<Elem Key="KeepHeight" Value="0" />
+					<Elem Key="DisplayBorders" Value="1" />
+					<Elem Key="ClampBorders" Value="0" />
+				</mapBrushBoolVariables>
+			</ConfigObject>
+		</MapEntry>
+		<MapEntry tag="rulertoolconfig">
+			<ConfigObject hid_DTCTH_ClassName="CRulerToolConfig" LastUsedPresetIndex="0">
+				<RulerToolSpeedPresets>
+					<SpeedPreset PresetName="SinglePlayer" ArchetypeName="player:MainCharacter/PawnPlayer" TemplateName="CountersService:Counters.CountersService" />
+					<SpeedPreset PresetName="Multiplayer" ArchetypeName="player:MainCharacter/PawnPlayerNetworkKit" TemplateName="CountersService:Counters.CountersService.Multi" />
+				</RulerToolSpeedPresets>
+			</ConfigObject>
+		</MapEntry>
+		<MapEntry tag="archetypevisualeditorconfig">
+			<ConfigObject hid_DTCTH_ClassName="CArchetypeVisualEditorConfig" pos="150,150" size="1000,800">
+				<FormSettings GlobalSplitterDistance="-1" />
+			</ConfigObject>
+		</MapEntry>
+		<MapEntry tag="generalsettings">
+			<ConfigObject hid_DTCTH_ClassName="CGeneralSettings">
+				<UserStringMap>
+					<String value="" tag="weapontoolbar_dbgroup" />
+					<String value="" tag="weapontoolbar_showdervivations" />
+				</UserStringMap>
+			</ConfigObject>
+		</MapEntry>
+	</ConfigObjectMap>
+	<PresetCollectionMap>
+		<PresetCollection type="Modify Terrain">
+			<PresetsList />
+		</PresetCollection>
+	</PresetCollectionMap>
+</Profile>

@@ -1,0 +1,891 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7681356456438</field>
+  <field name="Name" type="String">Companions/BaseCompanion_FC3.WIL_050_Olivier</field>
+  <object name="Entity">
+    <field name="hidName" type="String">FC3_NPC:Companions/BaseCompanion_FC3.WIL_050_Olivier</field>
+    <field name="disEntityId" type="Int64">13439</field>
+    <field name="text_hidEntityClass" type="String">CPawnEntity</field>
+    <field name="hidEntityClass" type="Hash32">137B9261</field>
+    <field name="hidResourceCount" type="Int32">17</field>
+    <field name="hidPos" type="Vector3">0,0,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">0,0,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CGroupComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <object name="Groups">
+          <object name="group">
+            <field name="text_group" type="String"></field>
+            <field name="group" type="Hash32">FFFFFFFF</field>
+          </object>
+        </object>
+      </object>
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileName" type="String"></field>
+        <field name="fileName" type="Hash64">FFFFFFFFFFFFFFFF</field>
+        <field name="hidCrcCheck" type="Hash32">FFFFFFFF</field>
+      </object>
+      <object name="CGraphicKitComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="kitidGraphicKit" type="Hash64">A793852680000300</field>
+        <field name="hidGraphicKitIdBkp" type="Hash64">FFFFFFFFFFFFFFFF</field>
+        <field name="bRandomize" type="Boolean">True</field>
+        <field name="bUpdateGfxComponentOnSpawn" type="Boolean">True</field>
+        <field name="bInitiallyLoadAllResources" type="Boolean">False</field>
+        <object name="InitialTags">
+          <object name="InitialTag">
+            <field name="text_tag" type="String"></field>
+            <field name="tag" type="Hash32">FFFFFFFF</field>
+          </object>
+        </object>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bCastShadow" type="Boolean">True</field>
+        <field name="bReceiveShadow" type="Boolean">True</field>
+        <field name="bCastAmbientShadow" type="Boolean">True</field>
+        <field name="olgLightGroup" type="Int32">1</field>
+        <field name="bShowInReflection" type="Boolean">True</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bExcludeFromPortalSystem" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="clrHighLightColor" type="Vector3">0.4,0.364706,0.27451</field>
+        <field name="clrHighLightColor2" type="Vector3">0,0,0</field>
+        <field name="fHighLightSpeed" type="Float32">1</field>
+        <field name="bLodDitheringEnable" type="Boolean">False</field>
+        <field name="matIntuitionMaterialName" type="String"></field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field name="bAllowCullBySize" type="Boolean">True</field>
+        <field name="bMotionBlurExclusion" type="Boolean">False</field>
+        <field name="bOverrideLODSphere" type="Boolean">False</field>
+        <field name="fLODSphereRadius" type="Float32">0</field>
+        <field name="vectorAdditionalAABBDimensionForSkin" type="Vector3">1,1,0</field>
+        <object name="MaterialLightSwitch">
+          <object name="MaterialSlots" />
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">0</field>
+          <field name="text_fileModel" type="String"></field>
+          <field name="fileModel" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String"></field>
+          <field name="hidNodeName" type="Hash32">FFFFFFFF</field>
+          <field name="text_hidNodeNameLOD0" type="String"></field>
+          <field name="hidNodeNameLOD0" type="Hash32">FFFFFFFF</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+      </object>
+      <object name="CPawnSoundComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="sndptSoundPoint" type="BinHex">FFFFFFFF00000000</field>
+        <field name="bStopSoundOnStateChange" type="Boolean">False</field>
+        <field name="bAlwaysUpdate" type="Boolean">False</field>
+      </object>
+      <object name="CDialogComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="CanPlaySystemicDialog" type="Boolean">True</field>
+        <object name="RdmActorList">
+          <object name="RdmActorList">
+            <field name="tmplRdmActorList" type="String">DialogActors:DialogActors.OLIVER</field>
+          </object>
+          <object name="RdmActorList">
+            <field name="tmplRdmActorList" type="String"></field>
+          </object>
+        </object>
+      </object>
+      <object name="CDynamicDeploadComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+      </object>
+      <object name="CAnimationComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileSkeleton" type="String">graphics\actors_\_skeleton_master\narrative_hips_ref.skeleton</field>
+        <field name="fileSkeleton" type="Hash64">17B3C9BC627172ED</field>
+        <field name="text_sPackage" type="String">npc_outsider</field>
+        <field name="sPackage" type="Hash64">C8A46E5225978623</field>
+        <field name="AutoApplyDisplacement" type="Boolean">False</field>
+        <field name="text_fileSkeletonMocap" type="String"></field>
+        <field name="fileSkeletonMocap" type="Hash64">FFFFFFFFFFFFFFFF</field>
+        <field name="bEnableLOD" type="Boolean">True</field>
+        <field name="bEnablePartBlending" type="Boolean">True</field>
+      </object>
+      <object name="CFacialPoseComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="facialposedefinitionFacialPoseDefinition" type="Hash64">00000000288D191D</field>
+        <object name="MercKitFacialPoseDefinitions">
+          <object name="FacialPoseDefinition">
+            <field name="text_sHeadTag" type="String"></field>
+            <field name="sHeadTag" type="Hash32">FFFFFFFF</field>
+            <field name="facialposedefinitionFacialDefinition" type="Hash64">00000000FFFFFFFF</field>
+          </object>
+        </object>
+      </object>
+      <object name="CCharacterPhysComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_hidResourceId" type="String">graphics\actors_\_skeleton_master\fc3_skeleton_ragdoll_master_default.hkx</field>
+        <field name="hidResourceId" type="Hash64">0F308789B174F59B</field>
+        <field name="fileRagdoll" type="String">graphics\actors_\_skeleton_master\fc3_skeleton_ragdoll_master_default.hkx</field>
+        <field name="fileOptionalRagdollRaycast" type="String"></field>
+        <field name="fFloatingTime" type="Float32">10</field>
+        <field name="fFloatingTimeRandom" type="Float32">3</field>
+        <field name="fSinkSpeed" type="Float32">0.2</field>
+        <field name="fWaterForceFactor" type="Float32">1</field>
+        <field name="UsesRagdoll" type="Boolean">True</field>
+        <field name="DestroyCharacterControllerOnRagdoll" type="Boolean">True</field>
+        <field name="bCreateCharacterController" type="Boolean">True</field>
+        <field name="RagdollCollideSpeedLimit" type="Float32">2</field>
+        <field name="text_LockBone" type="String"></field>
+        <field name="LockBone" type="Hash32">FFFFFFFF</field>
+        <object name="LogicMaterialOverrides" />
+        <object name="FloatingBones">
+          <object name="BoneNames">
+            <field name="text_BoneName" type="String">Ragdoll_Pelvis</field>
+            <field name="BoneName" type="Hash32">B1FD480D</field>
+            <field name="fFloatingRatio" type="Float32">5</field>
+          </object>
+          <object name="BoneNames">
+            <field name="text_BoneName" type="String">Ragdoll_Spine</field>
+            <field name="BoneName" type="Hash32">54CA928A</field>
+            <field name="fFloatingRatio" type="Float32">5</field>
+          </object>
+          <object name="BoneNames">
+            <field name="text_BoneName" type="String">Ragdoll_Spine1</field>
+            <field name="BoneName" type="Hash32">8EE54F1B</field>
+            <field name="fFloatingRatio" type="Float32">5</field>
+          </object>
+          <object name="BoneNames">
+            <field name="text_BoneName" type="String">Ragdoll_L Calf</field>
+            <field name="BoneName" type="Hash32">A46847E7</field>
+            <field name="fFloatingRatio" type="Float32">0.85</field>
+          </object>
+          <object name="BoneNames">
+            <field name="text_BoneName" type="String">Ragdoll_R Calf</field>
+            <field name="BoneName" type="Hash32">9DB4240C</field>
+            <field name="fFloatingRatio" type="Float32">0.85</field>
+          </object>
+          <object name="BoneNames">
+            <field name="text_BoneName" type="String"></field>
+            <field name="BoneName" type="Hash32">FFFFFFFF</field>
+            <field name="fFloatingRatio" type="Float32">0</field>
+          </object>
+        </object>
+        <object name="CharacterParams">
+          <field name="fMass" type="Float32">80</field>
+          <field name="bUpdateRotation" type="Boolean">False</field>
+          <field name="bUseRigidBased" type="Boolean">True</field>
+          <field name="bUseLowQualitySim" type="Boolean">False</field>
+          <field name="fMaxLinearVelocity" type="Float32">40</field>
+          <field name="fMaxIntepenetration" type="Float32">0.1</field>
+          <field name="fStickToGroundGravityFactor" type="Float32">0</field>
+          <field name="fMaxSlopeAngle" type="Float32">75</field>
+          <field name="fMaxTerrainSlopeAngle" type="Float32">75</field>
+          <object name="StandDimensions">
+            <field name="vecStandCapsulePointA" type="Vector3">0,0,0.45</field>
+            <field name="vecStandCapsulePointB" type="Vector3">0,0,1.25</field>
+            <field name="fStandCapsuleRadius" type="Float32">0.45</field>
+          </object>
+          <object name="CrouchDimensions">
+            <field name="vecStandCapsulePointA" type="Vector3">0,0,0.45</field>
+            <field name="vecStandCapsulePointB" type="Vector3">0,0,1.05</field>
+            <field name="fStandCapsuleRadius" type="Float32">0.45</field>
+          </object>
+          <object name="SwimDimensions">
+            <field name="vecStandCapsulePointA" type="Vector3">0,0,0.45</field>
+            <field name="vecStandCapsulePointB" type="Vector3">0,0,0.5</field>
+            <field name="fStandCapsuleRadius" type="Float32">0.45</field>
+          </object>
+          <object name="TinyDimensions">
+            <field name="vecStandCapsulePointA" type="Vector3">0,0,0.8</field>
+            <field name="vecStandCapsulePointB" type="Vector3">0,0,0.9</field>
+            <field name="fStandCapsuleRadius" type="Float32">0.1</field>
+          </object>
+        </object>
+        <object name="BonesIgnoringTerrainCollisions">
+          <object name="BoneName">
+            <field name="text_BoneName" type="String">Ragdoll_L Calf</field>
+            <field name="BoneName" type="Hash32">A46847E7</field>
+          </object>
+          <object name="BoneName">
+            <field name="text_BoneName" type="String">Ragdoll_R Calf</field>
+            <field name="BoneName" type="Hash32">9DB4240C</field>
+          </object>
+          <object name="BoneName">
+            <field name="text_BoneName" type="String">Ragdoll_L Foot</field>
+            <field name="BoneName" type="Hash32">41BCB854</field>
+          </object>
+          <object name="BoneName">
+            <field name="text_BoneName" type="String">Ragdoll_R Foot</field>
+            <field name="BoneName" type="Hash32">7860DBBF</field>
+          </object>
+          <object name="BoneName">
+            <field name="text_BoneName" type="String"></field>
+            <field name="BoneName" type="Hash32">FFFFFFFF</field>
+          </object>
+        </object>
+      </object>
+      <object name="CPawn">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bIsAI" type="Boolean">True</field>
+        <field name="text_filePawnStateMachine" type="String">engine\scripts\game\objects\pawn\statemachine\pawn_state_machines.xml</field>
+        <field name="filePawnStateMachine" type="Hash64">B89F59FB2EDB85D8</field>
+        <field name="sCharacterName" type="String">test_character</field>
+        <field name="nCharacterFireID" type="UInt8">0</field>
+        <field name="sCharacterType" type="String">NA</field>
+        <field name="bIsVIP" type="Boolean">False</field>
+        <field name="bIsVIPCoop" type="Boolean">False</field>
+        <field name="Usable" type="Boolean">False</field>
+        <object name="Body">
+          <field name="fJumpHeight" type="Float32">1.2</field>
+          <field name="fJumpHeightExhausted" type="Float32">0.4</field>
+          <field name="fGravity" type="Float32">-9.8</field>
+          <field name="fWalkingMaxSpeed" type="Float32">5</field>
+          <field name="fWalkingMaxSpeedCrouch" type="Float32">3</field>
+          <field name="fWalkingAcceleration" type="Float32">5</field>
+          <field name="fWalkingDeceleration" type="Float32">10</field>
+          <field name="fForwardWalkMultiplier" type="Float32">1</field>
+          <field name="fSprintMultiplier" type="Float32">1</field>
+          <field name="arkSprintCurve" type="Id64">0</field>
+          <field name="fSprintingDeceleration" type="Float32">1</field>
+          <field name="fClickToPressForwardSprintBuffer" type="Float32">0.5</field>
+          <field name="fJumpFromCoverTime" type="Float32">0.25</field>
+          <field name="fBackwardWalkMultiplier" type="Float32">0.7</field>
+          <field name="fBackwardCrouchRunMultiplier" type="Float32">0.5</field>
+          <field name="fSwimmingDepthMin" type="Float32">0.75</field>
+          <field name="fSwimmingMaxSpeed" type="Float32">5</field>
+          <field name="fSwimmingAcceleration" type="Float32">5</field>
+          <field name="fSwimmingDeceleration" type="Float32">10</field>
+          <field name="fDivingMaxSpeed" type="Float32">5</field>
+          <field name="fDivingAcceleration" type="Float32">5</field>
+          <field name="fDivingDeceleration" type="Float32">10</field>
+          <field name="fSprintingTurnModifier" type="Float32">0.5</field>
+          <field name="fSprintingStrafeLimit" type="Float32">0.5</field>
+          <field name="bCanClimbLedges" type="Boolean">True</field>
+          <field name="fGroundClimbMinHeight" type="Float32">0.1</field>
+          <field name="fGroundClimbMaxHeight" type="Float32">1.6</field>
+          <field name="fSwimmingClimbMinHeight" type="Float32">0</field>
+          <field name="fSwimmingClimbMaxHeight" type="Float32">1.6</field>
+          <field name="fJumpClimbMinHeight" type="Float32">-2</field>
+          <field name="fJumpClimbMaxHeight" type="Float32">1.6</field>
+          <field name="fJumpClimbMinHeightAboveGround" type="Float32">2</field>
+          <field name="fClimbWidthNeeded" type="Float32">0.5</field>
+          <field name="fJumpClimbMinVelocity" type="Float32">0</field>
+          <field name="fJumpClimbMaxVelocity" type="Float32">0</field>
+          <object name="LadderParams">
+            <object name="HandsOnSide">
+              <field name="fLadderClimbingSpeed" type="Float32">2</field>
+              <field name="fLadderSlideDownSpeed" type="Float32">4</field>
+              <field name="arkLadderSpeedMultiplierCurve" type="Id64">0</field>
+            </object>
+            <object name="HandOverHand">
+              <field name="fLadderClimbingSpeed" type="Float32">2</field>
+              <field name="fLadderSlideDownSpeed" type="Float32">4</field>
+              <field name="arkLadderSpeedMultiplierCurve" type="Id64">0</field>
+            </object>
+          </object>
+        </object>
+        <object name="Skills" />
+        <object name="Inventory">
+          <field name="text_packInventoryPack" type="String">NPC_Companion_AK47</field>
+          <field name="packInventoryPack" type="Hash32">C31C598B</field>
+          <field name="bUnlimitedAmmo" type="Boolean">True</field>
+          <field name="bAutoReload" type="Boolean">False</field>
+          <field name="bAutoDraw" type="Boolean">False</field>
+          <field name="text_sInitialWeaponCategory" type="String">primary</field>
+          <field name="sInitialWeaponCategory" type="Hash32">1745EA86</field>
+          <field name="NumSlotsUnlocked" type="Int32">4</field>
+          <field name="MaxLoot" type="Int32">50</field>
+          <field name="MaxMoney" type="Int32">200</field>
+          <object name="Archetypes">
+            <object name="Archetype">
+              <field name="arkId" type="Id64">0</field>
+            </object>
+          </object>
+        </object>
+        <object name="Procedural_sway">
+          <field name="sway_horizontal_speed" type="Float32">1</field>
+          <field name="sway_horizontal_amplitude" type="Float32">0.05</field>
+          <field name="sway_vertical_speed" type="Float32">2</field>
+          <field name="sway_vertical_amplitude" type="Float32">0.03</field>
+          <object name="HoldBreathAbility">
+            <field name="fGoingIntoHoldBreathTime" type="Float32">0.5</field>
+            <field name="fHoldBreathMaxTime" type="Float32">5</field>
+            <field name="fGoingOutOfHoldBreathTime" type="Float32">0.3</field>
+            <field name="fCatchingBreathTime" type="Float32">3</field>
+            <field name="fHoldingBreathSpecialSwayModifier" type="Float32">0</field>
+            <field name="fOutOfBreathSpecialSwayModifier" type="Float32">2.5</field>
+            <field name="sndInhaleSound" type="String">0xFFFFFFFF</field>
+            <field name="sndExhaleSound" type="String">0xFFFFFFFF</field>
+            <field name="sndtpSoundType" type="Int32">-1</field>
+          </object>
+        </object>
+        <object name="IdleCycleBreaker">
+          <field name="fMinTime" type="Float32">0</field>
+          <field name="fMaxTime" type="Float32">0</field>
+        </object>
+        <object name="Diving">
+          <field name="fDivingCheckHorizontalOffsetA" type="Float32">0.3</field>
+          <field name="fDivingCheckVerticalOffsetA" type="Float32">1.6</field>
+          <field name="fDivingCheckHorizontalOffsetB" type="Float32">3.4</field>
+          <field name="fDivingCheckVerticalOffsetB" type="Float32">2.4</field>
+          <field name="fDivingCheckHorizontalOffsetC" type="Float32">6</field>
+          <field name="fDivingCheckVerticalOffsetC" type="Float32">1.2</field>
+          <field name="fDivingMaxDistanceToWater" type="Float32">8</field>
+          <field name="fDivingMinWaterDepth" type="Float32">1.5</field>
+          <field name="fDivingCheckRadius" type="Float32">0.8</field>
+        </object>
+        <object name="SlopeBehavior">
+          <field name="fSlideSlopeAngle" type="Float32">45</field>
+          <field name="fFallingSlopeAngle" type="Float32">75</field>
+          <field name="fMinSlideFallAccel" type="Float32">8</field>
+          <field name="fMaxSlideFallAccel" type="Float32">25</field>
+          <field name="fSlideFallDecelOnGround" type="Float32">45</field>
+          <field name="fSlideFallDecelInAir" type="Float32">6</field>
+          <field name="fMinFallSpeedToSlideSpeedMultiplier" type="Float32">0.9</field>
+          <field name="fMaxFallSpeedToSlideSpeedMultiplier" type="Float32">1.5</field>
+          <field name="fSlideSpeedToFallSpeedMultiplier" type="Float32">0.8</field>
+          <field name="fSlideSpeedToFallSpeedSlowDown" type="Float32">0.5</field>
+          <field name="fMaxSlideFallVelocity" type="Float32">20</field>
+          <field name="fSlideFallVelocityReorientSpeed" type="Float32">1</field>
+          <field name="fSlidingTargetInputContribution" type="Float32">0.3</field>
+          <field name="fSlidingInputContributionAccel" type="Float32">2.5</field>
+          <field name="fSlidingInputContributionDecel" type="Float32">1</field>
+          <field name="fMinTimeToUpdateSlidingPMS" type="Float32">0.3</field>
+          <field name="fMinTimeOnGroundToForceUpdateSlidingPMS" type="Float32">0.15</field>
+          <field name="fMinTimeSlidingToForceSlidingPMS" type="Float32">0.15</field>
+          <field name="fMinHeightDiffToSlide" type="Float32">0.25</field>
+          <field name="iMinFramesGroundValidToNavigate" type="Int32">3</field>
+          <field name="fMinSlopeAngleForFrameValidation" type="Float32">25</field>
+          <field name="fAntiStuckMinDisplacement" type="Float32">0.1</field>
+          <field name="fAntiStuckMinTime" type="Float32">2</field>
+        </object>
+        <object name="Falling">
+          <field name="fFallDistanceA" type="Float32">5</field>
+          <field name="fFallDistanceB" type="Float32">10</field>
+          <field name="fFallDistanceC" type="Float32">15</field>
+          <field name="fFallDistanceD" type="Float32">20</field>
+          <field name="fMinHorizontalSpeedToRoll" type="Float32">6</field>
+          <field name="fSpecialFallDistanceA" type="Float32">5</field>
+          <field name="fSpecialFallDistanceB" type="Float32">7</field>
+          <field name="fSpecialFallDistanceC" type="Float32">9</field>
+          <field name="fSpecialFallDistanceD" type="Float32">11.9</field>
+          <field name="fTimeToGroundForLandingAnim" type="Float32">0.15</field>
+          <field name="fTimeToGroundForHolster" type="Float32">0.45</field>
+          <field name="fMinFallDistanceForLandInWater" type="Float32">20</field>
+          <field name="fMinVerticalSpeedToSendStims" type="Float32">5</field>
+          <field name="fEnterWaterStimRadius" type="Float32">10</field>
+          <field name="selEnterWaterStimType" type="Enum">Snap</field>
+          <field name="fFallDistancePawnDamagePercentA" type="Float32">0.2</field>
+          <field name="fFallDistancePawnDamagePercentB" type="Float32">0.6</field>
+          <field name="fFallDistancePawnDamagePercentC" type="Float32">0.8</field>
+          <field name="fStimsOnObjectsRadius" type="Float32">0.5</field>
+          <field name="fHorizontalSpeedFactor" type="Float32">1.25</field>
+          <field name="fHorizontalSpeedAccel" type="Float32">25</field>
+          <field name="fHorizontalSpeedDecel" type="Float32">25</field>
+          <field name="fDiveSprintHorizontalSpeedFactor" type="Float32">1.25</field>
+          <field name="fDiveSprintHorizontalSpeedAccel" type="Float32">25</field>
+          <field name="fDiveSprintHorizontalSpeedDecel" type="Float32">25</field>
+          <field name="fMinFallDistancetoPlayPostFX" type="Float32">5</field>
+          <field name="fMaxFallDistancetoPlayPostFX" type="Float32">30</field>
+          <field name="fMinFallDistancetoPlaySound" type="Float32">10</field>
+          <field name="sndStartFallSoundID" type="String">0xFFFFFFFF</field>
+          <field name="sndStopFallSoundID" type="String">0xFFFFFFFF</field>
+          <field name="sndtpSoundType" type="Int32">-1</field>
+          <field name="sndmlFallSpeedMultilayer" type="Hash32">FFFFFFFF</field>
+          <field name="mixFallingSoundPreset" type="Hash64">00000000FFFFFFFF</field>
+          <field name="sndvarDistanceShooterToPlayer" type="Hash32">00000000</field>
+          <object name="StimsOnObjectsFallDistanceA">
+            <object name="Stims">
+              <object name="Stim">
+                <field name="selStimType" type="Enum">None</field>
+              </object>
+            </object>
+          </object>
+          <object name="StimsOnObjectsFallDistanceB">
+            <object name="Stims">
+              <object name="Stim">
+                <field name="selStimType" type="Enum">None</field>
+              </object>
+            </object>
+          </object>
+          <object name="StimsOnObjectsFallDistanceC">
+            <object name="Stims">
+              <object name="Stim">
+                <field name="selStimType" type="Enum">None</field>
+              </object>
+            </object>
+          </object>
+          <object name="StimsOnObjectsFallDistanceD">
+            <object name="Stims">
+              <object name="Stim">
+                <field name="selStimType" type="Enum">None</field>
+              </object>
+            </object>
+          </object>
+        </object>
+        <object name="Wingsuit">
+          <field name="fFallTimeNeededToDeployWingsuit" type="Float32">0</field>
+          <field name="fDistanceNeededToDeployWingsuit" type="Float32">0.01</field>
+          <field name="fHSpeedNeededToDeployWingsuit" type="Float32">5</field>
+          <field name="fVSpeedNeededToDeployWingsuit" type="Float32">3</field>
+          <field name="fDivingDistanceToWaterNeededToDeployWingsuit" type="Float32">10</field>
+          <field name="fFrontRayCastLength" type="Float32">6</field>
+          <field name="fFrontRayCastAngle" type="Float32">-30</field>
+        </object>
+        <object name="DiveSprinting">
+          <field name="fDiveSprintBufferTime" type="Float32">0.3</field>
+          <field name="fForwardRaycastLength" type="Float32">12</field>
+          <field name="fDownwardRaycastLength" type="Float32">6</field>
+          <field name="fDownwardRaycastAngle" type="Float32">-75</field>
+          <field name="fMaxGroundAngle" type="Float32">20</field>
+        </object>
+        <object name="VehicleCollisionDamage">
+          <field name="fHealthPercentageRemovedAtMaxCrushLevel" type="Float32">10</field>
+          <field name="fMaxHealthRemoved" type="Float32">5</field>
+        </object>
+        <object name="PlayerIndoorOutdoor">
+          <field name="sndswtpIndoorOutdoorSwitchType" type="Hash32">FFFFFFFF</field>
+          <field name="sndswvlSoundSwitchPlayerIndoor" type="Hash32">FFFFFFFF</field>
+          <field name="sndswvlSoundSwitchPlayerOutdoor" type="Hash32">FFFFFFFF</field>
+        </object>
+        <object name="DropInfos">
+          <field name="bDropPrimary" type="Boolean">True</field>
+          <field name="bDropSecondary" type="Boolean">True</field>
+          <field name="bDropSpecial" type="Boolean">True</field>
+          <field name="bDropGadget" type="Boolean">False</field>
+          <field name="bDropHand" type="Boolean">False</field>
+        </object>
+      </object>
+      <object name="CFCXPawn">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+      </object>
+      <object name="CPawnNetworkComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bIsCinemaPawn" type="Boolean">False</field>
+      </object>
+      <object name="CPawnBeautifierComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+      </object>
+      <object name="CFCXAIComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_Type" type="String">CPawnAgent</field>
+        <field name="Type" type="Hash32">C24DF18D</field>
+        <field name="selCharacterType" type="Enum">Companion</field>
+        <field name="selGenderType" type="Enum">Male</field>
+        <field name="selMetaCharacterType" type="Enum">None</field>
+        <field name="arkPistolTakedownArchetype" type="Id64">0</field>
+        <field name="fMaxLookAngle" type="Float32">90</field>
+        <field name="fMaxAimAngle" type="Float32">90</field>
+        <object name="AIObject">
+          <field hash="F932DF61" type="BinHex">00</field>
+          <object hash="19669DE5">
+            <field hash="E79280E8" type="BinHex">3A3A436F6D70616E696F6E427261696E2F436F6D70616E696F6E427261696E2F526F6F7400</field>
+            <field hash="51D00CFA" type="BinHex">A9BB1274</field>
+            <field hash="071B548C" type="BinHex">656E67696E655C736372697074735C67616D655C6E6577627261696E735C636F6D70616E696F6E627261696E2E61692E726D6C00</field>
+            <field hash="8C3C4908" type="BinHex">96C2014F2C3D1597</field>
+            <field hash="58E30292" type="BinHex">00000000</field>
+          </object>
+          <object hash="A385ED76">
+            <field hash="84C3FECA" type="BinHex">0000403F</field>
+            <field hash="5901C307" type="BinHex">0000803F</field>
+            <field hash="94A2C6D3" type="BinHex">0000A03F</field>
+            <field hash="23FC7BA2" type="BinHex">000080BF</field>
+            <field hash="69F7F238" type="BinHex">0000A0BF</field>
+            <field hash="339D43BB" type="BinHex">0000C0BF</field>
+            <field hash="4D55A7E3" type="BinHex">92EE29A3E506A003</field>
+            <field hash="E3915A7C" type="BinHex">0000003F</field>
+            <field hash="111303B0" type="BinHex">0000803F</field>
+            <field hash="00CD58B3" type="BinHex">00004040</field>
+            <field hash="DB09E804" type="BinHex">00008040</field>
+            <field hash="E5500704" type="BinHex">0000A040</field>
+            <field hash="2642C34D" type="BinHex">00000000</field>
+            <field hash="9AEBCC74" type="BinHex">00000000</field>
+            <field hash="46BA76E9" type="BinHex">00000000</field>
+            <field hash="9D7EC65E" type="BinHex">00000000</field>
+            <field hash="411D4197" type="BinHex">00000000</field>
+            <field hash="7AD4D99E" type="BinHex">01</field>
+          </object>
+          <object hash="1126D0BD">
+            <field hash="E075C4B5" type="BinHex">00</field>
+            <field hash="D5FA2962" type="BinHex">00</field>
+          </object>
+          <object hash="D199FF04">
+            <object hash="69C6B530">
+              <field hash="795F32D4" type="BinHex">00</field>
+              <field hash="CF1DBEC6" type="BinHex">FFFFFFFF</field>
+              <field hash="9A6EC8E4" type="BinHex">00000000</field>
+            </object>
+          </object>
+          <object hash="C24DF18D">
+            <field hash="1D2BF8FB" type="BinHex">4149506572736F6E616C6974793A506572736F6E616C6974792E42617365427564647900</field>
+            <field hash="2D870A80" type="BinHex">0000803F</field>
+            <field hash="C9404E79" type="BinHex">03000000</field>
+            <field hash="BE914A80" type="BinHex">00000000</field>
+            <field hash="96831FFD" type="BinHex">02000000</field>
+            <field hash="8B318CEC" type="BinHex">00</field>
+            <field hash="40284CF9" type="BinHex">00</field>
+            <field hash="9D62E9B0" type="BinHex">FFFFFFFF</field>
+            <field hash="82F48AC1" type="BinHex">00000000</field>
+            <object hash="F80D407D">
+              <field hash="83978991" type="BinHex">414953686F6F74657250726566733A53686F6F74696E67507265666572656E6365732E41737361756C745269666C6500</field>
+              <field hash="0212546F" type="BinHex">414953686F6F74657250726566733A53686F6F74696E67507265666572656E6365732E556E7573656400</field>
+              <field hash="BABFFE0D" type="BinHex">414953686F6F74657250726566733A53686F6F74696E67507265666572656E6365732E556E7573656400</field>
+              <field hash="3BF08C2A" type="BinHex">414953686F6F74657250726566733A53686F6F74696E67507265666572656E6365732E4D6F756E746564576561706F6E00</field>
+              <field hash="E741D80D" type="BinHex">414953686F6F74657250726566733A53686F6F74696E67507265666572656E6365732E4D616368696E6547756E2E426C61636B4861636B00</field>
+            </object>
+            <object hash="B79AC429">
+              <field hash="83978991" type="BinHex">414953686F6F74657250726566735F4D756C74693A53686F6F74696E67507265666572656E6365732E41737361756C745269666C6500</field>
+              <field hash="0212546F" type="BinHex">414953686F6F74657250726566733A53686F6F74696E67507265666572656E6365732E534D4700</field>
+              <field hash="BABFFE0D" type="BinHex">414953686F6F74657250726566735F4D756C74693A53686F6F74696E67507265666572656E6365732E52504700</field>
+              <field hash="3BF08C2A" type="BinHex">414953686F6F74657250726566735F4D756C74693A53686F6F74696E67507265666572656E6365732E4D6F756E746564576561706F6E00</field>
+              <field hash="E741D80D" type="BinHex">414953686F6F74657250726566733A53686F6F74696E67507265666572656E6365732E4D6F756E746564576561706F6E00</field>
+            </object>
+            <object hash="7F657DFE">
+              <field hash="00A40BC7" type="BinHex">616973656E736F727973797374656D3A64656661756C742E64656661756C7400</field>
+              <field hash="F2D64D09" type="BinHex">D2670D44</field>
+              <field hash="399FF28E" type="BinHex">616973656E736F727973797374656D3A64656661756C742E64656661756C742E73636F70656400</field>
+              <field hash="B2B8EF0A" type="BinHex">BE7C60F1</field>
+              <field hash="32E7B58A" type="BinHex">616973656E736F727973797374656D3A64656661756C742E76656869636C6500</field>
+              <field hash="D8B9D5AE" type="BinHex">8B83D3BC</field>
+              <field hash="BF521F60" type="BinHex">616973656E736F727973797374656D3A64656661756C742E64656661756C742E7265647563656400</field>
+              <field hash="550C7F44" type="BinHex">42D04399</field>
+            </object>
+            <object hash="F5D7855E">
+              <field hash="3D793B45" type="BinHex">00</field>
+              <field hash="B1B459A9" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="99D0B39F" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="881126B8" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="ED18EFCC" type="BinHex">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object hash="C032D74A">
+              <object hash="B4E9908B">
+                <field hash="3A9069A6" type="BinHex">01</field>
+                <field hash="8D0620E9" type="BinHex">01</field>
+                <field hash="453559F0" type="BinHex">00</field>
+                <field hash="01197BBD" type="BinHex">00</field>
+                <field hash="238739CA" type="BinHex">00</field>
+                <field hash="E72FCAB8" type="BinHex">00</field>
+              </object>
+              <object hash="2FF5DACD">
+                <field hash="3A9069A6" type="BinHex">00</field>
+                <field hash="8D0620E9" type="BinHex">00</field>
+                <field hash="453559F0" type="BinHex">01</field>
+                <field hash="01197BBD" type="BinHex">01</field>
+                <field hash="238739CA" type="BinHex">00</field>
+                <field hash="E72FCAB8" type="BinHex">00</field>
+              </object>
+            </object>
+            <object hash="3C6E9FCA">
+              <field hash="3A9069A6" type="BinHex">01</field>
+              <field hash="8D0620E9" type="BinHex">01</field>
+              <field hash="453559F0" type="BinHex">00</field>
+              <field hash="01197BBD" type="BinHex">00</field>
+              <field hash="238739CA" type="BinHex">00</field>
+              <field hash="E72FCAB8" type="BinHex">00</field>
+            </object>
+            <object hash="E841433A">
+              <field hash="3A9069A6" type="BinHex">00</field>
+              <field hash="8D0620E9" type="BinHex">00</field>
+              <field hash="453559F0" type="BinHex">01</field>
+              <field hash="01197BBD" type="BinHex">01</field>
+              <field hash="238739CA" type="BinHex">00</field>
+              <field hash="E72FCAB8" type="BinHex">00</field>
+            </object>
+            <object hash="DA6793C5">
+              <field hash="24977E99" type="BinHex">02000000</field>
+              <object hash="DA6793C5">
+                <object hash="F3484E3A">
+                  <object hash="2CE33943">
+                    <field hash="F50038BB" type="BinHex">00000000</field>
+                    <field hash="3446C27D" type="BinHex">00000041</field>
+                    <field hash="CD9FC546" type="BinHex">00008040</field>
+                    <field hash="CCC9FA71" type="BinHex">00000040</field>
+                    <object hash="F6143239">
+                      <object hash="9535DEE3">
+                        <field hash="A3AB9B05" type="BinHex">0000A041</field>
+                        <field hash="2ED2AF58" type="BinHex">00002041</field>
+                        <field hash="B4E69618" type="BinHex">0000803F</field>
+                      </object>
+                      <object hash="C1DF4081">
+                        <field hash="A3AB9B05" type="BinHex">00000C42</field>
+                        <field hash="2ED2AF58" type="BinHex">00002041</field>
+                        <field hash="B4E69618" type="BinHex">00004040</field>
+                      </object>
+                      <object hash="8554E6FA">
+                        <field hash="A3AB9B05" type="BinHex">00004842</field>
+                        <field hash="2ED2AF58" type="BinHex">00002041</field>
+                        <field hash="B4E69618" type="BinHex">0000A040</field>
+                      </object>
+                    </object>
+                  </object>
+                  <object hash="995CACCA">
+                    <field hash="F50038BB" type="BinHex">03000000</field>
+                    <field hash="3446C27D" type="BinHex">00002041</field>
+                    <field hash="CD9FC546" type="BinHex">00008040</field>
+                    <field hash="CCC9FA71" type="BinHex">00000040</field>
+                    <object hash="F6143239">
+                      <object hash="9535DEE3">
+                        <field hash="A3AB9B05" type="BinHex">00002041</field>
+                        <field hash="2ED2AF58" type="BinHex">00002041</field>
+                        <field hash="B4E69618" type="BinHex">00002041</field>
+                      </object>
+                      <object hash="C1DF4081">
+                        <field hash="A3AB9B05" type="BinHex">0000C841</field>
+                        <field hash="2ED2AF58" type="BinHex">00002041</field>
+                        <field hash="B4E69618" type="BinHex">00002041</field>
+                      </object>
+                      <object hash="8554E6FA">
+                        <field hash="A3AB9B05" type="BinHex">00004842</field>
+                        <field hash="2ED2AF58" type="BinHex">00002041</field>
+                        <field hash="B4E69618" type="BinHex">00002041</field>
+                      </object>
+                    </object>
+                  </object>
+                </object>
+              </object>
+            </object>
+          </object>
+        </object>
+      </object>
+      <object name="CFCXCountersComponentAI">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="fFullBodyDamageMultiplier" type="Float32">1</field>
+        <field name="text_sCoopChallengeFullBodyDamageSetting" type="String"></field>
+        <field name="sCoopChallengeFullBodyDamageSetting" type="Hash32">FFFFFFFF</field>
+        <field name="bIsInvincibleExceptToPlayer" type="Boolean">False</field>
+        <field name="bIsInvincibleToAI" type="Boolean">False</field>
+        <field name="bIsInvincibleToPlayer" type="Boolean">True</field>
+        <field name="WeaponJamProbabilityScale" type="Float32">1</field>
+        <field name="bEnableHitLocations" type="Boolean">False</field>
+        <field name="XpGiven" type="Int32">10</field>
+        <field name="AvengeKillMaxTime" type="Float32">4</field>
+        <field name="fAgentHealthOverride" type="Float32">-1</field>
+        <field name="bShowHealthBar" type="Boolean">False</field>
+        <object name="Multipliers">
+          <object name="Head">
+            <field name="fHeadArmorPierceStimModifier" type="Float32">1</field>
+          </object>
+          <object name="Torso">
+            <field name="fTorsoArmorPierceStimModifier" type="Float32">1</field>
+          </object>
+          <object name="Legs">
+            <field name="fLegsArmorPierceStimModifier" type="Float32">1</field>
+          </object>
+          <object name="GlobalMultipliers">
+            <object name="Stims">
+              <field name="fPierceStimModifier" type="Float32">1</field>
+              <field name="fCutStimModifier" type="Float32">0.25</field>
+              <field name="fCrushStimModifier" type="Float32">0.001</field>
+              <field name="fBurnStimModifier" type="Float32">0.2</field>
+              <field name="fExplosionStimModifier" type="Float32">0.2</field>
+              <field name="fExplosionGrenadesStimModifier" type="Float32">1</field>
+              <field name="fExplosionRPGStimModifier" type="Float32">0.2</field>
+              <field name="fExplosionIEDStimModifier" type="Float32">1</field>
+              <field name="fExplosionSplashStimModifier" type="Float32">0</field>
+              <field name="fArrowStimModifier" type="Float32">1</field>
+            </object>
+          </object>
+        </object>
+        <object name="Burn">
+          <field name="fBurnDamageAccumulateTime" type="Float32">8</field>
+          <field name="fAccumulatedDamageBeforeBurning" type="Float32">50</field>
+        </object>
+        <object name="HealthRegen">
+          <field name="bEnabled" type="Boolean">True</field>
+          <field name="fStartCooldown" type="Float32">5</field>
+          <field name="fHealRate" type="Float32">10</field>
+        </object>
+      </object>
+      <object name="CAISoundAndFXComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="fFootstepsAudibleDistance" type="Float32">20</field>
+        <field name="mpbarkEnemySpotted" type="BinHex">00</field>
+        <object name="CreatureSoundAndFXComponent">
+          <object hash="D93CA11D">
+            <field hash="9045EF6D" type="BinHex">0000803F</field>
+            <field hash="2F1569B4" type="BinHex">00000000</field>
+            <field hash="E8F06BF8" type="BinHex">00000000</field>
+            <field hash="35A360CF" type="BinHex">00000000</field>
+            <field hash="A36FF6FA" type="BinHex">FFFFFFFF</field>
+            <field hash="20221E55" type="BinHex">3078464646464646464600</field>
+            <field hash="4A272259" type="BinHex">3078464646464646464600</field>
+            <field hash="B231F23B" type="BinHex">3078464646464646464600</field>
+          </object>
+          <object hash="7698E78F">
+            <field hash="8EE199B5" type="BinHex">0000E040</field>
+            <field hash="416FE967" type="BinHex">0000803E</field>
+            <field hash="4170A37A" type="BinHex">00</field>
+            <object hash="214DAC7F">
+              <field hash="1CF7E9BC" type="BinHex">00</field>
+              <field hash="097B704F" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="84CAB079" type="BinHex">0000803F</field>
+              <field hash="9BE6E8FB" type="BinHex">000000000000000000000000</field>
+            </object>
+          </object>
+        </object>
+        <object name="PawnSoundAndFXComponent">
+          <field hash="625342A7" type="BinHex">01</field>
+          <field hash="7A2708B1" type="BinHex">0000A040</field>
+          <field hash="C077DDA6" type="BinHex">ADED455500000000</field>
+          <field hash="931F2BC1" type="BinHex">60BF8D6800000000</field>
+          <field hash="E5673BC4" type="BinHex">ADED455500000000</field>
+          <field hash="38463A4B" type="BinHex">70556CEF00000000</field>
+          <field hash="0AB1DF5C" type="BinHex">FFFFFFFF</field>
+          <field hash="5E392839" type="BinHex">F44A4E00</field>
+          <field hash="2AC20D9A" type="BinHex">5D68CCF900000000</field>
+          <field hash="B261CD77" type="BinHex">3078464646464646464600</field>
+          <field hash="5CD95CBE" type="BinHex">FFFFFFFF</field>
+          <field hash="4EFDA4FC" type="BinHex">3078464646464646464600</field>
+          <field hash="3BD63EC5" type="BinHex">FFFFFFFF</field>
+          <field hash="19E6A39A" type="BinHex">FFFFFFFF00000000</field>
+          <field hash="882E5969" type="BinHex">00000000</field>
+          <field hash="BFD0DE19" type="BinHex">00</field>
+          <field hash="3CC99D32" type="BinHex">FFFFFFFFFFFFFFFF</field>
+          <field hash="22BA5E56" type="BinHex">00</field>
+          <field hash="A1A31D7D" type="BinHex">FFFFFFFFFFFFFFFF</field>
+          <field hash="7CF850C3" type="BinHex">00</field>
+          <field hash="FFE113E8" type="BinHex">FFFFFFFFFFFFFFFF</field>
+          <field hash="E192D08C" type="BinHex">00</field>
+          <field hash="628B93A7" type="BinHex">FFFFFFFFFFFFFFFF</field>
+          <field hash="110F8FFE" type="BinHex">00</field>
+          <field hash="8DF58664" type="BinHex">FFFFFFFFFFFFFFFF</field>
+          <field hash="4D99DED8" type="BinHex">00</field>
+          <field hash="D163D742" type="BinHex">FFFFFFFFFFFFFFFF</field>
+          <field hash="D06EF3C6" type="BinHex">00</field>
+          <field hash="662C7FD4" type="BinHex">FFFFFFFFFFFFFFFF</field>
+          <field hash="22150D93" type="BinHex">00</field>
+          <field hash="BEEF0409" type="BinHex">FFFFFFFFFFFFFFFF</field>
+          <field hash="2E7C5759" type="BinHex">00</field>
+          <field hash="0ADD7866" type="BinHex">FFFFFFFFFFFFFFFF</field>
+          <object hash="993C6BE1">
+            <field hash="18BB55E8" type="BinHex">01</field>
+            <field hash="B2CE197A" type="BinHex">3078464646464646464600</field>
+            <field hash="B07CD497" type="BinHex">FFFFFFFF</field>
+            <field hash="AB0114A5" type="BinHex">3078464646464646464600</field>
+            <field hash="A4A162EC" type="BinHex">FFFFFFFF</field>
+            <field hash="60D1818B" type="BinHex">3078464646464646464600</field>
+            <field hash="F02B38AA" type="BinHex">FFFFFFFF</field>
+          </object>
+          <object hash="49B86EE9">
+            <object hash="49B86EE9">
+              <field hash="8DF982AB" type="BinHex">00000000</field>
+              <field hash="58E610EA" type="BinHex">FFFFFFFF</field>
+              <field hash="1E04678E" type="BinHex">FFFFFFFF</field>
+            </object>
+          </object>
+          <object hash="A7C80E0B">
+            <field hash="7EB0146A" type="BinHex">3078464646464646464600</field>
+            <field hash="6400D06D" type="BinHex">3078464646464646464600</field>
+            <field hash="C887A342" type="BinHex">FFFFFFFF</field>
+            <field hash="73AA9BDD" type="BinHex">00</field>
+            <field hash="81D8DD13" type="BinHex">FFFFFFFFFFFFFFFF</field>
+          </object>
+          <object hash="38F38F93">
+            <field hash="27247D8C" type="BinHex">3078464646464646464600</field>
+            <field hash="1FEC5E1B" type="BinHex">FFFFFFFF</field>
+            <field hash="8AB26869" type="BinHex">3078464646464646464600</field>
+            <field hash="2FF5EDA3" type="BinHex">FFFFFFFF</field>
+          </object>
+          <object hash="5E1D7D85">
+            <field hash="562DB7D8" type="BinHex">3078464646464646464600</field>
+            <field hash="2B224642" type="BinHex">FFFFFFFF</field>
+          </object>
+        </object>
+        <object name="StunIndicator">
+          <field hash="71C2A70A" type="BinHex">01</field>
+          <field hash="88DD142E" type="BinHex">0000A040</field>
+          <field hash="9B98F285" type="BinHex">00004041</field>
+          <field hash="65F11CC6" type="BinHex">00</field>
+          <field hash="97835A08" type="BinHex">FFFFFFFFFFFFFFFF</field>
+          <field hash="9EEF3563" type="BinHex">CDCCCC3D</field>
+          <field hash="E9E805F5" type="BinHex">CDCCCC3D</field>
+          <field hash="0AA73FA0" type="BinHex">3333B33E</field>
+        </object>
+      </object>
+      <object name="COcclusionQueryComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bComponentEnabled" type="Boolean">True</field>
+      </object>
+      <object name="CTaggableComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="fIdentificationRadiusModifier" type="Float32">1</field>
+        <field name="bEnable" type="Boolean">True</field>
+        <field name="bDisableTaggingByCameraAndIronsight" type="Boolean">False</field>
+        <field name="fHighlightFadeOutTime" type="Float32">2</field>
+        <field name="selTagType" type="Enum">Enemy</field>
+        <object name="TagIndicator">
+          <field name="bSizeDependsOnDistance" type="Boolean">False</field>
+          <field name="text_sTexturePath" type="String">graphics\__fc3_graphics\_common\_textures\ui\tagindicators\tx_tagged_normal.xbt</field>
+          <field name="sTexturePath" type="Hash64">AAA5A52AD1F39EC6</field>
+          <field name="fScaleX" type="Float32">0.04</field>
+          <field name="fScaleY" type="Float32">0.04</field>
+          <field name="fVerticalOffset" type="Float32">0.25</field>
+          <field name="sMinimapFrameLabel" type="String"></field>
+        </object>
+      </object>
+      <object name="CFCXPawnLootComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="fLootRadius" type="Float32">1</field>
+        <field name="sndPickupAmmoSound" type="String">0xFFFFFFFF</field>
+        <field name="sndtpRareAnimalSoundType" type="Hash32">FFFFFFFF</field>
+        <field name="sndRareAnimalSound" type="String">0xFFFFFFFF</field>
+        <field name="selObjectType" type="Enum">Human</field>
+        <field name="text_Bone1" type="String">Spine2</field>
+        <field name="Bone1" type="Hash32">1630ABF4</field>
+        <field name="text_Bone2" type="String">Head</field>
+        <field name="Bone2" type="Hash32">07C159A2</field>
+        <field name="text_BloodMaterial" type="String"></field>
+        <field name="BloodMaterial" type="Hash32">FFFFFFFF</field>
+        <field name="locidLootPromptId" type="Int32">59889</field>
+        <object name="LootGroups">
+          <object name="Group">
+            <field name="percent" type="Float32">0</field>
+            <field name="lootGroup" type="Int32">0</field>
+          </object>
+          <object name="Group">
+            <field name="percent" type="Float32">-1</field>
+            <field name="lootGroup" type="Int32">0</field>
+          </object>
+        </object>
+        <object name="AlternativeBloodMaterials">
+          <object name="AlternativeBloodMaterial">
+            <field name="text_AlternativeBloodMaterial" type="String"></field>
+            <field name="AlternativeBloodMaterial" type="Hash32">FFFFFFFF</field>
+          </object>
+        </object>
+        <object name="LootMultipliers">
+          <field name="bForceAlwaysLootable" type="BinHex">00</field>
+          <object name="StimTypeMultipliers">
+            <object name="StimTypeMultiplier">
+              <field hash="01A1F2E2" type="BinHex">00000000</field>
+              <field hash="7B69D7B1" type="BinHex">00000000</field>
+              <field hash="9C3C1047" type="BinHex">000080BF</field>
+              <field hash="DBAB2F6A" type="BinHex">01000000</field>
+            </object>
+          </object>
+          <object name="HitLocationMultipliers">
+            <object name="HitLocationMultiplier">
+              <field hash="57CDD6A0" type="BinHex">00000000</field>
+              <field hash="DBAB2F6A" type="BinHex">01000000</field>
+            </object>
+          </object>
+        </object>
+      </object>
+      <object name="CMissionComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="hidMissionLayerId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+        <field name="text_hidCategory" type="String"></field>
+        <field name="hidCategory" type="Hash32">FFFFFFFF</field>
+        <field name="ForceMerge" type="Boolean">True</field>
+      </object>
+      <object name="CFCXChallengeBonusComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="hidInjected" type="Boolean">True</field>
+        <field name="selIncrementType" type="BinHex">01000000</field>
+      </object>
+    </object>
+  </object>
+</object>

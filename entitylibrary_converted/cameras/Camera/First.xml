@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">540439538639171213</field>
+  <field name="Name" type="String">Camera/First</field>
+  <object name="Entity">
+    <field name="hidName" type="String">cameras:Camera/First</field>
+    <field name="disEntityId" type="Int64">16</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">0</field>
+    <field name="hidPos" type="Vector3">0,0,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">0,0,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CCameraPawnComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="fCameraBlendTime" type="Float32">0.5</field>
+        <field name="fNearDistance" type="Float32">0.1</field>
+        <field name="fFarDistance" type="Float32">1000</field>
+        <field name="fFOV" type="Float32">75</field>
+        <field name="fNearFOV" type="Float32">65</field>
+        <field name="text_Bone" type="String">Camera</field>
+        <field name="Bone" type="Hash32">3CB0EB33</field>
+        <field name="DebugOffset" type="Vector3">0,0,0</field>
+        <field name="NoiseFOVEnabled" type="Boolean">False</field>
+        <field name="NoiseFOVTimeCount" type="BinHex">00000000</field>
+        <field name="NoiseFOVTarget" type="BinHex">00000000</field>
+        <field name="NoiseFOVCurrent" type="BinHex">00000000</field>
+        <field name="fCloseUpNearDistance" type="Float32">0.01</field>
+        <field name="fRegularNearDistance" type="Float32">0.1</field>
+        <field name="fZoomedNearDistance" type="Float32">0.6</field>
+        <field name="fZoomedNearDistanceOverride" type="Float32">6</field>
+        <field name="fGotoFirstPersonTime" type="Float32">0.3</field>
+        <field name="bEnableSeparateNearFOV" type="Boolean">True</field>
+      </object>
+      <object name="CPersistComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="selLevel" type="Enum">Limited</field>
+        <field name="bDontPersistIfChild" type="Boolean">True</field>
+        <field name="bIgnoreEntityLimiter" type="Boolean">False</field>
+      </object>
+    </object>
+  </object>
+</object>

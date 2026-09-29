@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7707936916503</field>
+  <field name="Name" type="String">Exotic/Parachute</field>
+  <object name="Entity">
+    <field name="hidName" type="String">FC3_Props:Exotic/Parachute</field>
+    <field name="disEntityId" type="Int64">13855</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">2</field>
+    <field name="hidPos" type="Vector3">-5121,-5121,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">-5121,-5121,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileName" type="String">graphics\__fc3_graphics\_common\props\misc\parachute.xml</field>
+        <field name="fileName" type="Hash64">CC90967CFC5DFF08</field>
+        <field name="hidDescriptor" type="Rml">
+          <rml>
+            <hidDescriptor>
+              <component class="GraphicComponent" version="2" detail="0">
+                <object index="0" boneName="Parachute_LOD0" bboxMin="-0.216308,0.250939,-0.00915743" bboxMax="-0.185024,0.28898,0.585944" />
+                <resource fileName="graphics\__FC3_Graphics\_Common\Props\Misc\Parachute.xbg" bboxMin="-2.48627,-0.991887,-0.00915743" bboxMax="2.48572,0.965319,7.1999" />
+                <skeleton_reference_list>
+                  <skeleton name="Parachute" index="0" pos="0,0,0" rot="1,-0,-0,-0">
+                    <bone name="root" pos="0,0,0" rot="-1.62921e-007,0,0,1">
+                      <bone name="fabric_root" pos="0,0,5.5" rot="1,0,0,0">
+                        <bone name="Chute_Bottom_Front04" pos="-0.275585,-0.936244,1.30032" rot="1,0,0,0">
+                          <bone name="Chute_Top_Front04" pos="0,0.00877,0.340939" rot="1,0,0,0" />
+                          <bone name="Chute_Bottom_Front03" pos="-0.551169,0,0" rot="1,0,0,0">
+                            <bone name="Chute_Top_Front03" pos="0,0.00877,0.340939" rot="1,0,0,0" />
+                            <bone name="Chute_Bottom_Front02" pos="-0.551169,0,0" rot="1,0,0,0">
+                              <bone name="Chute_Top_Front02" pos="0,0.00877,0.340939" rot="1,0,0,0" />
+                              <bone name="Chute_Bottom_Front01" pos="-0.551169,0,0" rot="1,0,0,0">
+                                <bone name="Chute_Top_Front01" pos="0,0.00877,0.340939" rot="1,0,0,0" />
+                                <bone name="Chute_Bottom_Front00" pos="-0.551169,0,0" rot="1,0,0,0">
+                                  <bone name="Chute_Top_Front00" pos="0,0.00877,0.340939" rot="1,0,0,0" />
+                                </bone>
+                              </bone>
+                            </bone>
+                          </bone>
+                        </bone>
+                        <bone name="Chute_Bottom_Front05" pos="0.275585,-0.936244,1.30032" rot="1,0,0,0">
+                          <bone name="Chute_Top_Front05" pos="0,0.00877,0.340939" rot="1,0,0,0" />
+                          <bone name="Chute_Bottom_Front06" pos="0.552557,-0,0" rot="1,0,0,0">
+                            <bone name="Chute_Top_Front06" pos="0,0.00877,0.340939" rot="1,0,0,0" />
+                            <bone name="Chute_Bottom_Front07" pos="0.551169,-0,0" rot="1,0,0,0">
+                              <bone name="Chute_Top_Front07" pos="0,0.00877,0.340939" rot="1,0,0,0" />
+                              <bone name="Chute_Bottom_Front08" pos="0.551169,-0,0" rot="1,0,0,0">
+                                <bone name="Chute_Top_Front08" pos="0,0.00877,0.340939" rot="1,0,0,0" />
+                                <bone name="Chute_Bottom_Front09" pos="0.551169,-0,0" rot="1,0,0,0">
+                                  <bone name="Chute_Top_Front09" pos="0,0.00877,0.340939" rot="1,0,0,0" />
+                                </bone>
+                              </bone>
+                            </bone>
+                          </bone>
+                        </bone>
+                        <bone name="Chute_Bottom_Back04" pos="-0.275585,1.01157,1.30032" rot="1,0,0,0">
+                          <bone name="Chute_Top_Back04" pos="0,-0,0.209531" rot="1,0,0,0" />
+                          <bone name="Chute_Bottom_Back03" pos="-0.551168,0,0" rot="1,0,0,0">
+                            <bone name="Chute_Top_Back03" pos="0,-0,0.209531" rot="1,0,0,0" />
+                            <bone name="Chute_Bottom_Back02" pos="-0.551169,0,0" rot="1,0,0,0">
+                              <bone name="Chute_Top_Back02" pos="-1e-006,-0,0.209531" rot="1,0,0,0" />
+                              <bone name="Chute_Bottom_Back01" pos="-0.551169,0,0" rot="1,0,0,0">
+                                <bone name="Chute_Top_Back01" pos="-1e-006,-0,0.209531" rot="1,0,0,0" />
+                                <bone name="Chute_Bottom_Back00" pos="-0.551169,0,0" rot="1,0,0,0">
+                                  <bone name="Chute_Top_Back00" pos="0,-0,0.209531" rot="1,0,0,0" />
+                                </bone>
+                              </bone>
+                            </bone>
+                          </bone>
+                        </bone>
+                        <bone name="Chute_Bottom_Back05" pos="0.275586,1.01157,1.30032" rot="1,0,0,0">
+                          <bone name="Chute_Top_Back05" pos="0,-0,0.209531" rot="1,0,0,0" />
+                          <bone name="Chute_Bottom_Back06" pos="0.551074,-0,0" rot="1,0,0,0">
+                            <bone name="Chute_Top_Back06" pos="0.001784,-0,0.209531" rot="1,0,0,0" />
+                            <bone name="Chute_Bottom_Back07" pos="0.551264,-0,0" rot="1,0,0,0">
+                              <bone name="Chute_Top_Back07" pos="0,-0,0.209531" rot="1,0,0,0" />
+                              <bone name="Chute_Bottom_Back08" pos="0.551171,-0,0" rot="1,0,0,0">
+                                <bone name="Chute_Top_Back08" pos="0,-1e-006,0.209531" rot="1,0,0,0" />
+                                <bone name="Chute_Bottom_Back09" pos="0.551168,-0,0" rot="1,0,0,0">
+                                  <bone name="Chute_Top_Back09" pos="0,-0,0.209531" rot="1,0,0,0" />
+                                </bone>
+                              </bone>
+                            </bone>
+                          </bone>
+                        </bone>
+                      </bone>
+                      <bone name="ClothFR" pos="-0.291748,-0.198694,3.64014" rot="1,0,0,0" />
+                      <bone name="ClothBR" pos="-0.291748,0.198694,3.64014" rot="1,0,0,0" />
+                      <bone name="ClothBL" pos="0.291748,0.198694,3.64014" rot="1,0,0,0" />
+                      <bone name="ClothFL" pos="0.291748,-0.198694,3.64014" rot="1,0,0,0" />
+                      <bone name="StrapBottomBR" pos="-0.24275,0.1575,0.019952" rot="1,0,0,0" />
+                      <bone name="StrapTop_BR" pos="-0.24275,0.1575,0.598166" rot="1,0,0,0" />
+                      <bone name="Rope01BR" pos="-0.24275,0.1575,0.647045" rot="1,0,0,0" />
+                      <bone name="Rope02BR" pos="-0.24275,0.1575,1.64399" rot="1,0,0,0" />
+                      <bone name="Rope03BR" pos="-0.24275,0.1575,2.64212" rot="1,0,0,0" />
+                      <bone name="Rope04BR" pos="-0.24275,0.1575,3.64095" rot="1,0,0,0" />
+                      <bone name="StrapBottomBL" pos="0.24275,0.1575,0.019952" rot="1,0,0,0" />
+                      <bone name="StrapTop_BL" pos="0.24275,0.1575,0.598166" rot="1,0,0,0" />
+                      <bone name="Rope01BL" pos="0.24275,0.1575,0.647045" rot="1,0,0,0" />
+                      <bone name="Rope02BL" pos="0.24275,0.1575,1.64399" rot="1,0,0,0" />
+                      <bone name="Rope03BL" pos="0.24275,0.1575,2.64212" rot="1,0,0,0" />
+                      <bone name="Rope04BL" pos="0.24275,0.1575,3.64095" rot="1,0,0,0" />
+                      <bone name="StrapBottomFR" pos="-0.24275,-0.1575,0.019952" rot="1,0,0,0" />
+                      <bone name="StrapTop_FR" pos="-0.24275,-0.1575,0.598166" rot="1,0,0,0" />
+                      <bone name="Rope01FR" pos="-0.24275,-0.1575,0.647045" rot="1,0,0,0" />
+                      <bone name="Rope02FR" pos="-0.24275,-0.1575,1.64399" rot="1,0,0,0" />
+                      <bone name="Rope03FR" pos="-0.24275,-0.1575,2.64212" rot="1,0,0,0" />
+                      <bone name="Rope04FR" pos="-0.24275,-0.1575,3.64095" rot="1,0,0,0" />
+                      <bone name="StrapBottomFL" pos="0.24275,-0.1575,0.019952" rot="1,0,0,0" />
+                      <bone name="StrapTop_FL" pos="0.24275,-0.1575,0.598166" rot="1,0,0,0" />
+                      <bone name="Rope01FL" pos="0.24275,-0.1575,0.647045" rot="1,0,0,0" />
+                      <bone name="Rope02FL" pos="0.24275,-0.1575,1.64399" rot="1,0,0,0" />
+                      <bone name="Rope03FL" pos="0.24275,-0.1575,2.64212" rot="1,0,0,0" />
+                      <bone name="Rope04FL" pos="0.24275,-0.1575,3.64095" rot="1,0,0,0" />
+                      <bone name="HandleRootRight" pos="-0.2,-0.25,0.25" rot="1,0,0,0">
+                        <bone name="HandleMiddleBackRight" pos="0,0.012685,-0.138691" rot="1,0,0,0" />
+                        <bone name="HandleMiddleFrontRight" pos="0,-0.013676,-0.138691" rot="1,0,0,0" />
+                        <bone name="HandleBottomBackRight" pos="0,0.016892,-0.227906" rot="1,0,0,0" />
+                        <bone name="HandleBottomFrontRight" pos="0,-0.016603,-0.227906" rot="1,0,0,0" />
+                        <bone name="HandleBottomRight" pos="0,0,-0.255354" rot="1,0,0,0" />
+                        <bone name="HandleTopRight" pos="0,0,0.129713" rot="1,0,0,0" />
+                        <bone name="HandleTopRopeRight" pos="0,0,0.335332" rot="1,0,0,0" />
+                      </bone>
+                      <bone name="HandleRootLeft" pos="0.2,-0.25,0.25" rot="1,0,0,0">
+                        <bone name="HandleMiddleBackLeft" pos="0,0.012685,-0.138691" rot="1,0,0,0" />
+                        <bone name="HandleMiddleFrontLeft" pos="0,-0.013676,-0.138691" rot="1,0,0,0" />
+                        <bone name="HandleBottomBackLeft" pos="0,0.016892,-0.227906" rot="1,0,0,0" />
+                        <bone name="HandleBottomFrontLeft" pos="0,-0.016603,-0.227906" rot="1,0,0,0" />
+                        <bone name="HandleBottomLeft" pos="0,0,-0.255354" rot="1,0,0,0" />
+                        <bone name="HandleTopLeft" pos="0,0,0.129713" rot="1,0,0,0" />
+                        <bone name="HandleTopRopeLeft" pos="0,0,0.335332" rot="1,0,0,0" />
+                      </bone>
+                    </bone>
+                  </skeleton>
+                </skeleton_reference_list>
+                <material_reference_list>
+                  <material name="material3" shader_name="Cloth_FC3" ref_shader_id="bwaddingham-M-2012050353567758" />
+                  <material name="Gray_ShadedMetal_AsCopy_AsCopy" shader_name="Generic_FC3" ref_shader_id="bwaddingham-M-2012050836084135" />
+                </material_reference_list>
+              </component>
+              <component class="InteriorVolumeComponent" version="1" detail="0" />
+            </hidDescriptor>
+          </rml>
+        </field>
+        <field name="hidCrcCheck" type="Hash32">FFFFFFFF</field>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bCastShadow" type="Boolean">True</field>
+        <field name="bReceiveShadow" type="Boolean">True</field>
+        <field name="bCastAmbientShadow" type="Boolean">True</field>
+        <field name="olgLightGroup" type="Int32">129</field>
+        <field name="bShowInReflection" type="Boolean">True</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bExcludeFromPortalSystem" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="clrHighLightColor" type="Vector3">1,0.903545,0.604147</field>
+        <field name="clrHighLightColor2" type="Vector3">0,0,0</field>
+        <field name="fHighLightSpeed" type="Float32">1</field>
+        <field name="bLodDitheringEnable" type="Boolean">True</field>
+        <field name="matIntuitionMaterialName" type="String"></field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field name="bAllowCullBySize" type="Boolean">True</field>
+        <field name="bMotionBlurExclusion" type="Boolean">False</field>
+        <field name="bOverrideLODSphere" type="Boolean">False</field>
+        <field name="fLODSphereRadius" type="Float32">0</field>
+        <field name="vectorAdditionalAABBDimensionForSkin" type="Vector3">1,1,0</field>
+        <field name="text_currentSkin" type="String"></field>
+        <field name="currentSkin" type="Hash32">FFFFFFFF</field>
+        <field name="bUseCurrentSkin" type="Boolean">False</field>
+        <object name="MaterialLightSwitch">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">bwaddingham-m-2012050836084135</field>
+              <field name="disSlotId" type="Hash32">0900A946</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">bwaddingham-m-2012050353567758</field>
+              <field name="disSlotId" type="Hash32">CE2C360E</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="MaterialOverrides">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">bwaddingham-m-2012050836084135</field>
+              <field name="disSlotId" type="Hash32">0900A946</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">bwaddingham-m-2012050353567758</field>
+              <field name="disSlotId" type="Hash32">CE2C360E</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="SkinList">
+          <object name="Skin">
+            <field name="text_name" type="String"></field>
+            <field name="name" type="Hash32">FFFFFFFF</field>
+            <field name="locSkinNameId" type="Int32">-1</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">0</field>
+          <field name="text_fileModel" type="String">graphics\__fc3_graphics\_common\props\misc\parachute.xbg</field>
+          <field name="fileModel" type="Hash64">C3C9067CFC5DFF08</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">Parachute</field>
+          <field name="hidNodeName" type="Hash32">34F4B9EF</field>
+          <field name="text_hidNodeNameLOD0" type="String">Parachute_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">A7B04137</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">1</field>
+          <field name="text_fileModel" type="String"></field>
+          <field name="fileModel" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">Parachute</field>
+          <field name="hidNodeName" type="Hash32">34F4B9EF</field>
+          <field name="text_hidNodeNameLOD0" type="String">Parachute_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">A7B04137</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+      </object>
+      <object name="CSimpleAnimationComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileSkeleton" type="String">graphics\__fc3_graphics\_common\props\misc\parachute.skeleton</field>
+        <field name="fileSkeleton" type="Hash64">6FA1EAFDBC00A539</field>
+        <field name="text_sPackage" type="String"></field>
+        <field name="sPackage" type="Hash64">FFFFFFFFFFFFFFFF</field>
+        <field name="AutoApplyDisplacement" type="Boolean">False</field>
+        <field name="sPartName" type="String">root</field>
+        <field name="bEnableEvents" type="Boolean">False</field>
+        <field name="bRandomStart" type="Boolean">False</field>
+        <field name="text_Animation" type="String"></field>
+        <field name="Animation" type="Hash64">FFFFFFFFFFFFFFFF</field>
+      </object>
+      <object hash="E683B521">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="2BA6E1A6" type="BinHex">FFFFFFFF00000000</field>
+      </object>
+    </object>
+  </object>
+</object>

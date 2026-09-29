@@ -1,0 +1,47 @@
+<!-- Protocol types for anything at the online session level : 
+message
+broadcast
+memento
+descriptor
+-->
+<NetPeerChannelRegistry version="1.0" >
+    <NetPeerChannel name="NetPeerChannel.DuniaClient.Batch" netDataCtnPostFix="_RdV">
+        <NetProtocol>
+          <Entry type="unicast"   name="ClientInfo_Unicast" transportMode="ReliableOrdered" netDataContainerClassId="CClientDescriptor"/>
+        </NetProtocol>
+    </NetPeerChannel>
+    
+    <NetPeerChannel name="NetPeerChannel.DuniaClient" netDataCtnPostFix="_RdV">
+        <NetProtocol>
+			<Entry type="broadcast" name="ClientInfo_Broadcast" transportMode="ReliableOrdered" netDataContainerClassId="CClientDescriptor"/>
+		</NetProtocol>
+    </NetPeerChannel>
+
+	<NetPeerChannel name="NetPeerChannel.HostSelection">
+		<NetProtocol>
+            <Entry type="unicast"   name="PeerConnectionInfo_Unicast"       transportMode="ReliableOrdered" netDataContainerClassId="CPeerConnectionInfo"/>
+            <Entry type="broadcast" name="CPing_Broadcast"                  transportMode="ReliableOrdered" netDataContainerClassId="CHostSelectionPing"/>
+            <Entry type="unicast"   name="CPong_Unicast"                    transportMode="ReliableOrdered" netDataContainerClassId="CHostSelectionPing"/>
+        </NetProtocol>
+	</NetPeerChannel>
+    
+    <NetPeerChannel name="NetPeerChannel.DuniaClient.Ack" >
+        <NetProtocol>
+          <Entry type="unicast" name="PeerChannel_Ack" transportMode="ReliableOrdered" netDataContainerClassId="storm::DataContainerEmpty"/>
+        </NetProtocol>
+    </NetPeerChannel>
+    
+    <NetPeerChannel name="NetPeerChannel.Migration">
+        <NetProtocol>
+          <Entry type="broadcast" name="MigrationData_Broadcast" transportMode="ReliableOrdered" netDataContainerClassId="CMigrationNetData"/>
+          <Entry type="broadcast" name="MigrationDone_Broadcast" transportMode="ReliableOrdered" netDataContainerClassId="CMigrationDoneNetData"/>
+          <Entry type="unicast"   name="Migration_Unicast" transportMode="ReliableOrdered" netDataContainerClassId="CMigrationMsg"/>
+        </NetProtocol>
+    </NetPeerChannel>
+
+    <NetPeerChannel name="NetPeerChannel.Punkbuster">
+        <NetProtocol>
+          <Entry type="unicast"   name="Punkbuster_Unicast" transportMode="Unreliable" netDataContainerClassId="CPunkbusterMsg"/>
+        </NetProtocol>
+    </NetPeerChannel>
+</NetPeerChannelRegistry>

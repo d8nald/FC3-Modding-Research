@@ -1,0 +1,27 @@
+<graphickit id="12080269222127601920" name="SHA_Vulture" unique="0" kittobone="1">
+	<slot name="Mainbody" position="0" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="Vulture" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\vulture\Vulture.xml" mesh="Vulture" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Animal_Grey_ID1" id="jli-M-107201142503596">
+						<materialdatabase name="" weight="0">
+							<material id="yanzhou-M-0811201153918833" name="Vulture" weight="5" file="graphics\_materials\yanzhou-M-0811201153918833.material.xml">
+								<tag name="ulc" type="0" />
+								<tag name="red" type="0" />
+								<tag name="regular" type="4" />
+								<tag name="brown" type="4" />
+							</material>
+							<material id="yanzhou-M-20120306134417" name="Vulture_B" weight="5" file="graphics\_materials\yanzhou-M-20120306134417.material.xml">
+								<tag name="regular" type="0" />
+								<tag name="brown" type="0" />
+								<tag name="ulc" type="0" />
+								<tag name="red" type="4" />
+							</material>
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

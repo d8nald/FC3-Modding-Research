@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materialdescriptor xmlns:xi="#" name="Road" version="7">
+    <geometryInputs normal="1" tangent="1" binormal="1" color="1" uvChannels="1" />
+
+    <parameter name="AlphaTestEnabled" type="bool" />
+    <parameter name="TwoSided" type="bool" />
+    <parameter name="DisableLayerOffset" type="bool" />
+    <parameter name="DisableAlphaMask" type="bool" />
+
+    <parameter name="BlendingType" type="int" defaultvalue="1" />
+
+    <parameter name="DiffuseTexture1" type="sampler2D"/>
+    <parameter name="DiffuseTiling1" type="float2" />
+    <parameter name="DiffuseColor1" type="color4" defaultvalue="1,1,1,1" />
+
+    <parameter name="DiffuseTexture2" type="sampler2D" />
+    <parameter name="DiffuseTiling2" type="float2" />
+    <parameter name="DiffuseColor2" type="color4" defaultvalue="1,1,1,1" />
+
+    <parameter name="SpecularTexture1" type="sampler2D" useDefine="SPECULARMAP"/>
+    <parameter name="SpecularTiling1" type="float2" />
+    <parameter name="Settings" type="float4" defaultvalue="0.3,1,1,1" />
+
+    <parameter name="NormalTexture1" type="sampler2D" />
+    <parameter name="NormalTiling1" type="float2" />
+
+    <parameter name="HeightTexture1" type="sampler2D" platform="win32" />
+    <parameter name="ParallaxHeightAndOffset" type="float2" defaultvalue="-0.1,0" />
+    <parameter name="ParallaxScaleDiffuse" type="float4" defaultvalue="1,1,1,1" provideronly="1" />
+    <parameter name="ParallaxScaleMaskSpecular" type="float4" defaultvalue="1,1,1,1" provideronly="1" />
+
+    <parameter name="DiffuseTilings" type="float4" defaultvalue="1,1,1,1" provideronly="1" />
+    <parameter name="NormalAndSpecularTilings" type="float4" defaultvalue="1,1,1,1" provideronly="1" />
+
+    <parameterprovider parametersfilename="Road.parameters.inc.fx">
+        <parameter name="DisableLayerOffset" />
+        <parameter name="DisableAlphaMask" />
+        <parameter name="DiffuseTexture1" />
+        <parameter name="DiffuseColor1" />
+        <parameter name="DiffuseTexture2" />
+        <parameter name="DiffuseColor2" />
+    
+        <parameter name="SpecularTexture1" />
+        <parameter name="Settings" />
+
+        <parameter name="NormalTexture1" />
+    
+        <parameter name="HeightTexture1" />
+        <parameter name="ParallaxHeightAndOffset" />
+        <parameter name="ParallaxScaleDiffuse" />
+        <parameter name="ParallaxScaleMaskSpecular" />
+    
+        <parameter name="DiffuseTilings" />
+        <parameter name="NormalAndSpecularTilings" />
+        
+    </parameterprovider>
+
+    <ui>
+        <group horizontal="1" label="Settings">
+            <group>
+                <checkbox label="Two sided" dataBindings="TwoSided" />
+                <checkbox label="Alpha test" dataBindings="AlphaTestEnabled" />
+            </group>
+        </group>
+
+        <group label="Diffuse">
+            <label>Texture 2</label>
+            <group horizontal="1">
+                <button dataBindings="DiffuseColor2">
+                    <dataBindings type="color" />
+                </button>
+                <button dataBindings="DiffuseTexture2" fill="1" />
+                <group>
+                    <textbox dataBindings="DiffuseTiling2.x">
+                        <dataBindings type="int" />
+                    </textbox>
+                    <textbox dataBindings="DiffuseTiling2.y">
+                        <dataBindings type="int" />
+                    </textbox>
+                </group>
+            </group>
+
+            <label>Texture 1</label>
+            <group horizontal="1">
+                <button dataBindings="DiffuseColor1">
+                    <dataBindings type="color" />
+                </button>
+                <button dataBindings="DiffuseTexture1" fill="1" />
+                <group>
+                    <textbox dataBindings="DiffuseTiling1.x">
+                        <dataBindings type="int" />
+                    </textbox>
+                    <textbox dataBindings="DiffuseTiling1.y">
+                        <dataBindings type="int" />
+                    </textbox>
+                </group>
+            </group>
+        </group>
+
+        <group label="Glossiness">
+            <group horizontal="1">
+                <button dataBindings="SpecularTexture1" fill="1" />
+                <group label="Specular Info">
+                    <label>r = Specular occlusion</label>
+                    <label>g = Specular gloss</label>
+                    <label>b = Unused</label>
+                </group>
+                <group>
+                    <textbox dataBindings="SpecularTiling1.x">
+                        <dataBindings type="int" />
+                    </textbox>
+                    <textbox dataBindings="SpecularTiling1.y">
+                        <dataBindings type="int" />
+                    </textbox>
+                </group>
+            </group>
+            <group horizontal="1">
+                <label>Glossiness</label>
+                <textbox dataBindings="Settings.x" overridableInDerivation="1">
+                    <dataBindings minvalue="0.0" maxvalue="1.0" defaultvalue="0.3" />
+                </textbox>
+            </group>
+        </group>
+        <group horizontal="1" label="Normal">
+            <button dataBindings="NormalTexture1" fill="1" />
+            <group>
+                <textbox dataBindings="NormalTiling1.x">
+                    <dataBindings type="int" />
+                </textbox>
+                <textbox dataBindings="NormalTiling1.y">
+                    <dataBindings type="int" />
+                </textbox>
+            </group>
+            <label>Modifier</label>
+            <group horizontal="1">
+                <textbox dataBindings="Settings.y" overridableInDerivation="1">
+                    <dataBindings minvalue="0.001" maxvalue="10.0" defaultvalue="1.0" />
+                </textbox>
+            </group>
+        </group>
+
+        <group horizontal="1" label="Parallax">
+            <button dataBindings="HeightTexture1" fill="1" />
+            <group>
+                <group horizontal="1">
+                    <label>Height</label>
+                    <textbox dataBindings="ParallaxHeightAndOffset.x" />
+                </group>
+                <group horizontal="1">
+                    <label>Offset</label>
+                    <textbox dataBindings="ParallaxHeightAndOffset.y" />
+                </group>
+            </group>
+        </group>
+    </ui>
+    
+</materialdescriptor>

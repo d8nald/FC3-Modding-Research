@@ -1,0 +1,58 @@
+<graphickit id="12100305609635660032" name="Yuriy_DLC_01" unique="0" kittobone="1">
+	<slot name="3RD" position="0" bonename="Spine2">
+		<partdatabase name="" weight="0">
+			<part name="Yuriy2" ref="graphics\__FC3_Graphics\_Common\Characters\Multiplayer\Coop\Yuriy2\Yuriy2.xml" mesh="Yuriy2" weight="1" version="1" allowcullbysize="1">
+				<tag name="firstperson" type="4" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Yuriy_Eyes" id="NicholasCort-M-2011021449031806">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Yuriy Iris" id="oskarlundqvist-M-2011111652143367">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Yuriy_Cloth" id="NicholasCort-M-2011021449685748">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Yuriy2_Body" id="ecourcelles-M-20120525161007">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Yuriy2_Head" id="ecourcelles-M-20120524154157">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Yuriy2_Hair" id="ecourcelles-M-20120530160903">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Yuriy2_Clothing" id="ecourcelles-M-20120523163044">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="FPS" position="1" bonename="Spine2">
+		<partdatabase name="" weight="0">
+			<part name="Yuriy2_FPS" ref="graphics\__FC3_Graphics\_Common\Characters\Multiplayer\Coop\Yuriy2\Yuriy2_FPS.xml" mesh="Yuriy2_FPS" weight="1" version="1" allowcullbysize="1">
+				<tag name="firstperson" type="2" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Yuriy_Cloth" id="NicholasCort-M-2011021449685748">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Yuriy2_Body" id="ecourcelles-M-20120525161007">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Yuriy2_Clothing" id="ecourcelles-M-20120523163044">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="RifleStrap" position="2" bonename="Spine2">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot4" position="3" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

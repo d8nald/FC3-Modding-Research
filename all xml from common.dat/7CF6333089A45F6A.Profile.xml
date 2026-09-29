@@ -1,0 +1,32 @@
+<Profile
+    >
+    <QcConfig 
+        HostIp="localhost" 
+        GatherFPS="1" 
+        GatherAICnt="1" 
+        StatServerIp="10.133.4.114" 
+        IsQcTester="0" />
+
+  <!-- WorldConfig -->
+  <!-- RingData: entities, landmarkNear, landmarkFar, terrain, preload -->
+  <!-- RingLod: Hires, physic -->
+  <!-- RingData="4,5,10,20,1" -->
+    <WorldConfig 
+    RingData="4,1,4,10,1"
+    RingLod="1,4">
+    </WorldConfig>
+    
+    <PhysicConfig 
+        QualitySetting = "Medium">
+    </PhysicConfig>
+    
+    <InputConfig>
+        <PresetList>
+            <Preset File="ActionMaps\Presets\Xenon\Default.xml" LocID="160796" />
+            <Preset File="ActionMaps\Presets\Xenon\LeftyShoulders.xml" LocID="172391" />
+            <Preset File="ActionMaps\Presets\Xenon\Lefty.xml" LocID="156372" />
+            <Preset File="ActionMaps\Presets\Xenon\LeftySticks.xml" LocID="156361" />
+        </PresetList>
+    </InputConfig>
+
+</Profile>

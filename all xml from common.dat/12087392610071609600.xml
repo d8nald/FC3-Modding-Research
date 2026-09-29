@@ -1,0 +1,59 @@
+<graphickit id="12087392610071609600" name="Jason_SkyDiving" unique="0" kittobone="1">
+	<slot name="Body" position="0" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="SkyDiving_Jason" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\Sky_Diving\SkyDiving_Jason.xml" mesh="SkyDiving_Jason" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Jason_beard" id="akotelnikoff-M-2012050338194444">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Jason_head" id="akotelnikoff-M-2012050333591068">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Jason_eyelashes" id="akotelnikoff-M-2012050140115793">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Jason_eye" id="akotelnikoff-M-2012050139687118">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Jason_Teeth" id="kosullivan-M-0705201271987785">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Eye_shadow" id="akotelnikoff-M-2011083067336073">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Jason Glasses" id="cromagnoli-M-2012040560109582">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="SkyDiving_Helmet_jason" id="cromagnoli-M-2012040560105135">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Bambi_Body_Generic_2" id="cromagnoli-M-2012032836675881">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Bambi_Body_Generic_1" id="cromagnoli-M-2012031650937186">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Grant_SkyDiving_Backpack" id="vfortin-M-2012040457673892">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Jason_SkyDiving_Shoe" id="cromagnoli-M-2012040560089092">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Jasont_SkyDiving_Sui" id="cromagnoli-M-2012040560080591">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Slot2" position="1" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot3" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot4" position="3" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

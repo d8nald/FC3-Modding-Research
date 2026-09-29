@@ -1,0 +1,71 @@
+<graphickit id="12104443400455979264" name="Pirate_assault_Commander" unique="0" kittobone="1">
+	<slot name="Body" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Pirate_Assault_Commander" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Pirate_Assault_Commander.xml" mesh="Pirate_Assault_Commander" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Pirates_Straps_Trim" id="cromagnoli-M-2011111061597741">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Accessories_04" id="cromagnoli-M-2011111061269757">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Shoes_03" id="cromagnoli-M-2011111062641074">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="VIP_Badges_01" id="slabreche-M-2011080348102720">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebels_Eye_AsCopy" id="cromagnoli-m-2011061062171770">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Berserker face" id="cromagnoli-m-2011061062146058">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_SNIPER_Shirt_01_AsCopy" id="cromagnoli-m-2011061062142201">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="VIP_01_Hat_Accessories_03" id="slabreche-m-2011080549369174">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="assault pirate commander bullet" id="cromagnoli-M-2012070649224591">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirate_pants_AsCopy_AsCopy" id="cromagnoli-M-2012070664296349">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Torso_Generic_Assault_Commander" id="vfortin-M-2012070949995398">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Shotgun Pirate vest frayed" id="vrizzi-m-1005201153577694">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirate_molotove_Vest_02_AsCopy" id="cromagnoli-M-2012070664001929">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Generic_Torso_Black_AsCopy_AsCopy" id="vfortin-M-2012070950126212">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Molotov_Accesories gloves 1_AsCopy" id="cromagnoli-M-2012070664124241">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="HeavyGunnerEye" id="vrizzi-m-0804201151366045">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-m-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Slot2" position="1" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot3" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot4" position="3" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

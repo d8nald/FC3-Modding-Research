@@ -1,0 +1,588 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">495403542517206553</field>
+  <field name="Name" type="String">FC3/VZ61</field>
+  <object name="Entity">
+    <field name="hidName" type="String">weapons:FC3/VZ61</field>
+    <field name="disEntityId" type="Int64">20311</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">18</field>
+    <field name="hidPos" type="Vector3">0,0,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">0,0,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileName" type="String">graphics\__fc3_graphics\_common\weapons\vz61\vz61.xml</field>
+        <field name="fileName" type="Hash64">AEA9E882088E7344</field>
+        <field name="hidDescriptor" type="Rml">
+          <rml>
+            <hidDescriptor>
+              <component class="GraphicComponent" version="2" detail="0">
+                <object index="0" meshName="CLIP" boneName="CLIP" bboxMin="-0.0085306,-0.0194551,-0.0831567" bboxMax="0.0085306,0.0379741,0.0418105" />
+                <object index="1" meshName="SLIDE" boneName="SLIDE" bboxMin="-0.0214721,-0.0295414,-0.019198" bboxMax="0.0214721,0.0777685,-5.00679e-007" />
+                <object index="2" meshName="FRAME" boneName="FRAME" bboxMin="-0.0166252,0.0109215,-0.118533" bboxMax="0.0166252,0.294284,0.0559813" />
+                <object index="3" meshName="STOCK" boneName="STOCK" bboxMin="-0.0167622,-0.0059948,-0.0431245" bboxMax="0.0167622,0.272417,0.0278198" />
+                <resource fileName="graphics\__FC3_Graphics\_Common\Weapons\Vz61\VZ61.xbg" bboxMin="-0.0214721,-0.0328998,-0.0628038" bboxMax="0.0214721,0.250463,0.11171" />
+                <skeleton_reference_list>
+                  <skeleton name="VZ61" index="0" pos="0,0,0" rot="1,-0,-0,-0">
+                    <bone name="CLIP" pos="0,0.111213,0.034815" rot="1,0,0,0" />
+                    <bone name="SLIDE" pos="0,0.099388,0.097926" rot="1,0,0,0" />
+                    <bone name="FRAME" pos="-0,-0.043821,0.055729" rot="1,0,0,0" />
+                    <bone name="FX_CASING" pos="0.002537,0.102473,0.107895" rot="-0.0933012,0.146453,0.830578,0.529137" />
+                    <bone name="FX_FIRE" pos="0,0.251772,0.077928" rot="1,0,0,0" />
+                    <bone name="STOCK" pos="-0,-0.025469,0.079472" rot="1,0,0,0" />
+                    <bone name="IK_LeftHand" pos="-0,0.176339,0.061878" rot="1,0,0,0" />
+                    <bone name="ATTACH_SCOPE" pos="-2.2e-005,0.047651,0.107122" rot="1,0,0,0" />
+                    <bone name="ATTACH_SILENCER" pos="0,0.249146,0.07791" rot="1,0,0,0" />
+                    <bone name="IRONSIGHT" pos="0,0.178825,0.110935" rot="1,0,0,0" />
+                  </skeleton>
+                </skeleton_reference_list>
+                <material_reference_list>
+                  <material name="VZ61_Wood" shader_name="Metal" ref_shader_id="grassam-M-2203201242371655" />
+                  <material name="VZ61_Metal_01" shader_name="Metal" ref_shader_id="xperreault-M-2010100650726236" />
+                </material_reference_list>
+              </component>
+              <component class="InteriorVolumeComponent" version="1" detail="0" />
+              <component class="RigidPhysComponent">
+                <resource fileName="graphics\__FC3_Graphics\_Common\Weapons\Vz61\VZ61.hkx" />
+              </component>
+            </hidDescriptor>
+          </rml>
+        </field>
+        <field name="hidCrcCheck" type="Hash32">FFFFFFFF</field>
+      </object>
+      <object name="CModelSelectorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_DefaultModel" type="String"></field>
+        <field name="DefaultModel" type="Hash32">FFFFFFFF</field>
+        <object name="hidHighResModelInfo">
+          <field name="Detail" type="Boolean">False</field>
+          <field name="Version" type="Int32">2</field>
+          <field name="BBoxMin" type="Vector3">-0.0214721,-0.0328998,-0.0628038</field>
+          <field name="BBoxMax" type="Vector3">0.0214721,0.250463,0.11171</field>
+          <field name="text_ModelPath" type="String">graphics\__fc3_graphics\_common\weapons\vz61\vz61.xbg</field>
+          <field name="ModelPath" type="Hash64">A1F07882088E7344</field>
+          <field name="text_DescriptorPath" type="String"></field>
+          <field name="DescriptorPath" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <object name="ModelObjectInfos">
+            <object name="Object">
+              <field name="Slot" type="Int32">0</field>
+              <field name="BBoxMin" type="Vector3">-0.0085306,-0.0194551,-0.0831567</field>
+              <field name="BBoxMax" type="Vector3">0.0085306,0.0379741,0.0418105</field>
+              <field name="MeshName" type="String">CLIP</field>
+              <field name="text_BoneID" type="String">CLIP</field>
+              <field name="BoneID" type="Hash32">9BB5F9D3</field>
+              <field name="text_BoneIDLOD0" type="String">CLIP_LOD0</field>
+              <field name="BoneIDLOD0" type="Hash32">00B20B5C</field>
+            </object>
+            <object name="Object">
+              <field name="Slot" type="Int32">1</field>
+              <field name="BBoxMin" type="Vector3">-0.0214721,-0.0295414,-0.019198</field>
+              <field name="BBoxMax" type="Vector3">0.0214721,0.0777685,-5.00679E-07</field>
+              <field name="MeshName" type="String">SLIDE</field>
+              <field name="text_BoneID" type="String">SLIDE</field>
+              <field name="BoneID" type="Hash32">85BB2CD2</field>
+              <field name="text_BoneIDLOD0" type="String">SLIDE_LOD0</field>
+              <field name="BoneIDLOD0" type="Hash32">F2877992</field>
+            </object>
+            <object name="Object">
+              <field name="Slot" type="Int32">2</field>
+              <field name="BBoxMin" type="Vector3">-0.0166252,0.0109215,-0.118533</field>
+              <field name="BBoxMax" type="Vector3">0.0166252,0.294284,0.0559813</field>
+              <field name="MeshName" type="String">FRAME</field>
+              <field name="text_BoneID" type="String">FRAME</field>
+              <field name="BoneID" type="Hash32">42ACFE7D</field>
+              <field name="text_BoneIDLOD0" type="String">FRAME_LOD0</field>
+              <field name="BoneIDLOD0" type="Hash32">117FF4BB</field>
+            </object>
+            <object name="Object">
+              <field name="Slot" type="Int32">3</field>
+              <field name="BBoxMin" type="Vector3">-0.0167622,-0.0059948,-0.0431245</field>
+              <field name="BBoxMax" type="Vector3">0.0167622,0.272417,0.0278198</field>
+              <field name="MeshName" type="String">STOCK</field>
+              <field name="text_BoneID" type="String">STOCK</field>
+              <field name="BoneID" type="Hash32">BC6294D0</field>
+              <field name="text_BoneIDLOD0" type="String">STOCK_LOD0</field>
+              <field name="BoneIDLOD0" type="Hash32">DC5DCF82</field>
+            </object>
+            <object name="Object">
+              <field name="Slot" type="Int32">0</field>
+              <field name="BBoxMin" type="Vector3">0,0,0</field>
+              <field name="BBoxMax" type="Vector3">0,0,0</field>
+              <field name="MeshName" type="String"></field>
+              <field name="text_BoneID" type="String"></field>
+              <field name="BoneID" type="Hash32">FFFFFFFF</field>
+              <field name="text_BoneIDLOD0" type="String"></field>
+              <field name="BoneIDLOD0" type="Hash32">FFFFFFFF</field>
+            </object>
+          </object>
+          <object name="ModelMaterialInfos">
+            <object name="Material">
+              <field name="text_Name" type="String">VZ61_Wood</field>
+              <field name="Name" type="Hash32">209AB609</field>
+              <field name="RefShaderID" type="String">grassam-M-2203201242371655</field>
+            </object>
+            <object name="Material">
+              <field name="text_Name" type="String">VZ61_Metal_01</field>
+              <field name="Name" type="Hash32">5D2D4816</field>
+              <field name="RefShaderID" type="String">xperreault-M-2010100650726236</field>
+            </object>
+            <object name="Material">
+              <field name="text_Name" type="String"></field>
+              <field name="Name" type="Hash32">FFFFFFFF</field>
+              <field name="RefShaderID" type="String"></field>
+            </object>
+          </object>
+        </object>
+        <object name="Models">
+          <object name="Model">
+            <field name="text_Name" type="String"></field>
+            <field name="Name" type="Hash32">FFFFFFFF</field>
+            <field name="text_filePath" type="String">graphics\__fc3_graphics\_common\weapons\vz61\vz61_tp.xml</field>
+            <field name="filePath" type="Hash64">81730681D81382B8</field>
+          </object>
+          <object name="Model">
+            <field name="text_Name" type="String"></field>
+            <field name="Name" type="Hash32">FFFFFFFF</field>
+            <field name="text_filePath" type="String"></field>
+            <field name="filePath" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          </object>
+        </object>
+        <object name="hidInfos">
+          <object name="ModelInfo">
+            <field name="Detail" type="Boolean">False</field>
+            <field name="Version" type="Int32">2</field>
+            <field name="BBoxMin" type="Vector3">-0.0214715,-0.0328373,-0.0617993</field>
+            <field name="BBoxMax" type="Vector3">0.0214688,0.25046,0.111708</field>
+            <field name="text_ModelPath" type="String">graphics\__fc3_graphics\_common\weapons\vz61\vz61_tp.xbg</field>
+            <field name="ModelPath" type="Hash64">8E2A9681D81382B8</field>
+            <field name="text_DescriptorPath" type="String">graphics\__fc3_graphics\_common\weapons\vz61\vz61_tp.xml</field>
+            <field name="DescriptorPath" type="Hash64">81730681D81382B8</field>
+            <object name="ModelObjectInfos">
+              <object name="Object">
+                <field name="Slot" type="Int32">0</field>
+                <field name="BBoxMin" type="Vector3">-0.00853043,-0.0194545,-0.0830468</field>
+                <field name="BBoxMax" type="Vector3">0.00852919,0.0379694,0.0390929</field>
+                <field name="MeshName" type="String">CLIP</field>
+                <field name="text_BoneID" type="String">CLIP</field>
+                <field name="BoneID" type="Hash32">9BB5F9D3</field>
+                <field name="text_BoneIDLOD0" type="String">CLIP_LOD0</field>
+                <field name="BoneIDLOD0" type="Hash32">00B20B5C</field>
+              </object>
+              <object name="Object">
+                <field name="Slot" type="Int32">1</field>
+                <field name="BBoxMin" type="Vector3">-0.0214715,-0.0295414,-0.0191606</field>
+                <field name="BBoxMax" type="Vector3">0.0214688,0.0777328,-5.00679E-07</field>
+                <field name="MeshName" type="String">SLIDE</field>
+                <field name="text_BoneID" type="String">SLIDE</field>
+                <field name="BoneID" type="Hash32">85BB2CD2</field>
+                <field name="text_BoneIDLOD0" type="String">SLIDE_LOD0</field>
+                <field name="BoneIDLOD0" type="Hash32">F2877992</field>
+              </object>
+              <object name="Object">
+                <field name="Slot" type="Int32">2</field>
+                <field name="BBoxMin" type="Vector3">-0.0166136,0.0113938,-0.117528</field>
+                <field name="BBoxMax" type="Vector3">0.0166109,0.294281,0.0559789</field>
+                <field name="MeshName" type="String">FRAME</field>
+                <field name="text_BoneID" type="String">FRAME</field>
+                <field name="BoneID" type="Hash32">42ACFE7D</field>
+                <field name="text_BoneIDLOD0" type="String">FRAME_LOD0</field>
+                <field name="BoneIDLOD0" type="Hash32">117FF4BB</field>
+              </object>
+              <object name="Object">
+                <field name="Slot" type="Int32">3</field>
+                <field name="BBoxMin" type="Vector3">-0.0165319,-0.00541899,-0.04181</field>
+                <field name="BBoxMax" type="Vector3">0.0165292,0.271261,0.0272849</field>
+                <field name="MeshName" type="String">STOCK</field>
+                <field name="text_BoneID" type="String">STOCK</field>
+                <field name="BoneID" type="Hash32">BC6294D0</field>
+                <field name="text_BoneIDLOD0" type="String">STOCK_LOD0</field>
+                <field name="BoneIDLOD0" type="Hash32">DC5DCF82</field>
+              </object>
+              <object name="Object">
+                <field name="Slot" type="Int32">0</field>
+                <field name="BBoxMin" type="Vector3">0,0,0</field>
+                <field name="BBoxMax" type="Vector3">0,0,0</field>
+                <field name="MeshName" type="String"></field>
+                <field name="text_BoneID" type="String"></field>
+                <field name="BoneID" type="Hash32">FFFFFFFF</field>
+                <field name="text_BoneIDLOD0" type="String"></field>
+                <field name="BoneIDLOD0" type="Hash32">FFFFFFFF</field>
+              </object>
+            </object>
+            <object name="ModelMaterialInfos">
+              <object name="Material">
+                <field name="text_Name" type="String">VZ61_Wood</field>
+                <field name="Name" type="Hash32">209AB609</field>
+                <field name="RefShaderID" type="String">grassam-M-2203201242371655</field>
+              </object>
+              <object name="Material">
+                <field name="text_Name" type="String">VZ61_Metal_01</field>
+                <field name="Name" type="Hash32">5D2D4816</field>
+                <field name="RefShaderID" type="String">xperreault-M-2010100650726236</field>
+              </object>
+              <object name="Material">
+                <field name="text_Name" type="String"></field>
+                <field name="Name" type="Hash32">FFFFFFFF</field>
+                <field name="RefShaderID" type="String"></field>
+              </object>
+            </object>
+          </object>
+          <object name="ModelInfo">
+            <field name="Detail" type="Boolean">False</field>
+            <field name="Version" type="Int32">-1</field>
+            <field name="BBoxMin" type="Vector3">0,0,0</field>
+            <field name="BBoxMax" type="Vector3">0,0,0</field>
+            <field name="text_ModelPath" type="String"></field>
+            <field name="ModelPath" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            <field name="text_DescriptorPath" type="String"></field>
+            <field name="DescriptorPath" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            <object name="ModelObjectInfos">
+              <object name="Object">
+                <field name="Slot" type="Int32">0</field>
+                <field name="BBoxMin" type="Vector3">0,0,0</field>
+                <field name="BBoxMax" type="Vector3">0,0,0</field>
+                <field name="MeshName" type="String"></field>
+                <field name="text_BoneID" type="String"></field>
+                <field name="BoneID" type="Hash32">FFFFFFFF</field>
+                <field name="text_BoneIDLOD0" type="String"></field>
+                <field name="BoneIDLOD0" type="Hash32">FFFFFFFF</field>
+              </object>
+            </object>
+            <object name="ModelMaterialInfos">
+              <object name="Material">
+                <field name="text_Name" type="String"></field>
+                <field name="Name" type="Hash32">FFFFFFFF</field>
+                <field name="RefShaderID" type="String"></field>
+              </object>
+            </object>
+          </object>
+        </object>
+        <object name="FirstPersonModelSkinList">
+          <object name="Skin">
+            <field name="text_Name" type="String"></field>
+            <field name="Name" type="Hash32">FFFFFFFF</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bCastShadow" type="Boolean">True</field>
+        <field name="bReceiveShadow" type="Boolean">True</field>
+        <field name="bCastAmbientShadow" type="Boolean">True</field>
+        <field name="olgLightGroup" type="Int32">1281</field>
+        <field name="bShowInReflection" type="Boolean">False</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bExcludeFromPortalSystem" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="clrHighLightColor" type="Vector3">1,0.9,0.6</field>
+        <field name="clrHighLightColor2" type="Vector3">0,0,0</field>
+        <field name="fHighLightSpeed" type="Float32">1</field>
+        <field name="bLodDitheringEnable" type="Boolean">True</field>
+        <field name="matIntuitionMaterialName" type="String">graphics\_materials\jprajotte-M-20100916104744.material.xml</field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field name="bAllowCullBySize" type="Boolean">True</field>
+        <field name="bMotionBlurExclusion" type="Boolean">False</field>
+        <field name="bOverrideLODSphere" type="Boolean">False</field>
+        <field name="fLODSphereRadius" type="Float32">0</field>
+        <field name="vectorAdditionalAABBDimensionForSkin" type="Vector3">0.1,0.1,0</field>
+        <field name="text_currentSkin" type="String"></field>
+        <field name="currentSkin" type="Hash32">FFFFFFFF</field>
+        <field name="bUseCurrentSkin" type="Boolean">True</field>
+        <object name="MaterialLightSwitch">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-2203201242371655</field>
+              <field name="disSlotId" type="Hash32">3FFA9981</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">xperreault-m-2010100650726236</field>
+              <field name="disSlotId" type="Hash32">72466C8F</field>
+              <field name="text_matMaterial" type="String">graphics\_materials\xperreault-m-2010100650726236.material.bin</field>
+              <field name="matMaterial" type="Hash64">160E99B4545E8296</field>
+            </object>
+          </object>
+        </object>
+        <object name="MaterialOverrides">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-2203201242371655</field>
+              <field name="disSlotId" type="Hash32">3FFA9981</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">xperreault-m-2010100650726236</field>
+              <field name="disSlotId" type="Hash32">72466C8F</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="SkinList">
+          <object name="Skin">
+            <field name="text_name" type="String">CAMO_01</field>
+            <field name="name" type="Hash32">A6E7E284</field>
+            <field name="locSkinNameId" type="Int32">167200</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots">
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2203201242371655</field>
+                  <field name="disSlotId" type="Hash32">3FFA9981</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-20120724112544.material.bin</field>
+                  <field name="matMaterial" type="Hash64">65EF2A0E0B92484B</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">xperreault-m-2010100650726236</field>
+                  <field name="disSlotId" type="Hash32">72466C8F</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-20120326165902.material.bin</field>
+                  <field name="matMaterial" type="Hash64">46AA7A5DBD72BE90</field>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object name="Skin">
+            <field name="text_name" type="String">CAMO_02</field>
+            <field name="name" type="Hash32">3FEEB33E</field>
+            <field name="locSkinNameId" type="Int32">167212</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots">
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2203201242371655</field>
+                  <field name="disSlotId" type="Hash32">3FFA9981</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-20120724112544.material.bin</field>
+                  <field name="matMaterial" type="Hash64">65EF2A0E0B92484B</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">xperreault-m-2010100650726236</field>
+                  <field name="disSlotId" type="Hash32">72466C8F</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-20120326165958.material.bin</field>
+                  <field name="matMaterial" type="Hash64">46AA7A5DBD7A18C1</field>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object name="Skin">
+            <field name="text_name" type="String">CAMO_03</field>
+            <field name="name" type="Hash32">48E983A8</field>
+            <field name="locSkinNameId" type="Int32">167197</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots">
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2203201242371655</field>
+                  <field name="disSlotId" type="Hash32">3FFA9981</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-20120724103247.material.bin</field>
+                  <field name="matMaterial" type="Hash64">C465817E0B91874D</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">xperreault-m-2010100650726236</field>
+                  <field name="disSlotId" type="Hash32">72466C8F</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-20120326170059.material.bin</field>
+                  <field name="matMaterial" type="Hash64">10ED112DBD7B5DCA</field>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object name="Skin">
+            <field name="text_name" type="String">TONE_01</field>
+            <field name="name" type="Hash32">1689BB00</field>
+            <field name="locSkinNameId" type="Int32">167199</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots">
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2203201242371655</field>
+                  <field name="disSlotId" type="Hash32">3FFA9981</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-20120724103247.material.bin</field>
+                  <field name="matMaterial" type="Hash64">C465817E0B91874D</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">xperreault-m-2010100650726236</field>
+                  <field name="disSlotId" type="Hash32">72466C8F</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-20120326170242.material.bin</field>
+                  <field name="matMaterial" type="Hash64">C60D112DBD72BB8D</field>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object name="Skin">
+            <field name="text_name" type="String">TONE_02</field>
+            <field name="name" type="Hash32">8F80EABA</field>
+            <field name="locSkinNameId" type="Int32">167208</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots">
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2203201242371655</field>
+                  <field name="disSlotId" type="Hash32">3FFA9981</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-20120326170508.material.bin</field>
+                  <field name="matMaterial" type="Hash64">665D112DBD7A1C9F</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">xperreault-m-2010100650726236</field>
+                  <field name="disSlotId" type="Hash32">72466C8F</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-20120326170554.material.bin</field>
+                  <field name="matMaterial" type="Hash64">665D112DBD7524CE</field>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object name="Skin">
+            <field name="text_name" type="String">TONE_03</field>
+            <field name="name" type="Hash32">F887DA2C</field>
+            <field name="locSkinNameId" type="Int32">167196</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots">
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">grassam-m-2203201242371655</field>
+                  <field name="disSlotId" type="Hash32">3FFA9981</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-20120724103247.material.bin</field>
+                  <field name="matMaterial" type="Hash64">C465817E0B91874D</field>
+                </object>
+                <object name="Material">
+                  <field name="text_disSlotId" type="String">xperreault-m-2010100650726236</field>
+                  <field name="disSlotId" type="Hash32">72466C8F</field>
+                  <field name="text_matMaterial" type="String">graphics\_materials\grassam-m-20120326170637.material.bin</field>
+                  <field name="matMaterial" type="Hash64">DBCD112DBD76EC53</field>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object name="Skin">
+            <field name="text_name" type="String"></field>
+            <field name="name" type="Hash32">FFFFFFFF</field>
+            <field name="locSkinNameId" type="Int32">-1</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">0</field>
+          <field name="text_fileModel" type="String">graphics\__fc3_graphics\_common\weapons\vz61\vz61_tp.xbg</field>
+          <field name="fileModel" type="Hash64">8E2A9681D81382B8</field>
+          <field name="hidMeshName" type="String">CLIP</field>
+          <field name="text_hidNodeName" type="String">CLIP</field>
+          <field name="hidNodeName" type="Hash32">9BB5F9D3</field>
+          <field name="text_hidNodeNameLOD0" type="String">CLIP_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">00B20B5C</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">1</field>
+          <field name="text_fileModel" type="String">graphics\__fc3_graphics\_common\weapons\vz61\vz61_tp.xbg</field>
+          <field name="fileModel" type="Hash64">8E2A9681D81382B8</field>
+          <field name="hidMeshName" type="String">SLIDE</field>
+          <field name="text_hidNodeName" type="String">SLIDE</field>
+          <field name="hidNodeName" type="Hash32">85BB2CD2</field>
+          <field name="text_hidNodeNameLOD0" type="String">SLIDE_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">F2877992</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">2</field>
+          <field name="text_fileModel" type="String">graphics\__fc3_graphics\_common\weapons\vz61\vz61_tp.xbg</field>
+          <field name="fileModel" type="Hash64">8E2A9681D81382B8</field>
+          <field name="hidMeshName" type="String">FRAME</field>
+          <field name="text_hidNodeName" type="String">FRAME</field>
+          <field name="hidNodeName" type="Hash32">42ACFE7D</field>
+          <field name="text_hidNodeNameLOD0" type="String">FRAME_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">117FF4BB</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">3</field>
+          <field name="text_fileModel" type="String">graphics\__fc3_graphics\_common\weapons\vz61\vz61_tp.xbg</field>
+          <field name="fileModel" type="Hash64">8E2A9681D81382B8</field>
+          <field name="hidMeshName" type="String">STOCK</field>
+          <field name="text_hidNodeName" type="String">STOCK</field>
+          <field name="hidNodeName" type="Hash32">BC6294D0</field>
+          <field name="text_hidNodeNameLOD0" type="String">STOCK_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">DC5DCF82</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">4</field>
+          <field name="text_fileModel" type="String"></field>
+          <field name="fileModel" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">STOCK</field>
+          <field name="hidNodeName" type="Hash32">BC6294D0</field>
+          <field name="text_hidNodeNameLOD0" type="String">STOCK_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">DC5DCF82</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+      </object>
+      <object name="CSimpleAnimationComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileSkeleton" type="String">graphics\__fc3_graphics\_common\weapons\vz61\vz61_ref.skeleton</field>
+        <field name="fileSkeleton" type="Hash64">23DFBD02B4857570</field>
+        <field name="text_sPackage" type="String">vz61</field>
+        <field name="sPackage" type="Hash64">2C98EFA4A0000000</field>
+        <field name="AutoApplyDisplacement" type="Boolean">False</field>
+        <field name="sPartName" type="String">vz61</field>
+        <field name="bEnableEvents" type="Boolean">False</field>
+        <field name="bRandomStart" type="Boolean">False</field>
+        <field name="text_Animation" type="String"></field>
+        <field name="Animation" type="Hash64">FFFFFFFFFFFFFFFF</field>
+      </object>
+      <object name="CFCXWeapon">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="iAnimationValue" type="Int32">16</field>
+        <field name="bByPassLockHiresCustom" type="Boolean">False</field>
+        <field hash="44532B61" type="BinHex">7F7F7F7F7F7F7F7F</field>
+        <field name="bUseHiResScope" type="Boolean">False</field>
+        <field name="fHiResLowResScopeSwitchTransitionPoint" type="Float32">0.5</field>
+        <object hash="E348155E" />
+        <object hash="F4872553">
+          <field hash="38A2468A" type="BinHex">00</field>
+          <field hash="CF1DBEC6" type="BinHex">00</field>
+          <field hash="8D69DE67" type="BinHex">00000000</field>
+          <field hash="AA1EF64D" type="BinHex">00000000</field>
+        </object>
+        <object hash="919A5D44">
+          <field hash="D212B7B7" type="BinHex">00</field>
+          <field hash="795F32D4" type="BinHex">00</field>
+          <field hash="CF1DBEC6" type="BinHex">FFFFFFFF</field>
+          <field hash="C1406A0D" type="BinHex">000000000000000000000000</field>
+          <field hash="5EA6CFE6" type="BinHex">000000000000000000000000</field>
+        </object>
+        <object hash="194EAF85">
+          <object hash="194EAF85">
+            <field hash="795F32D4" type="BinHex">00</field>
+            <field hash="CF1DBEC6" type="BinHex">FFFFFFFF</field>
+            <field hash="C1406A0D" type="BinHex">000000000000000000000000</field>
+            <field hash="5EA6CFE6" type="BinHex">000000000000000000000000</field>
+          </object>
+        </object>
+      </object>
+      <object name="CWeaponNetworkComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+      </object>
+      <object name="CCountersComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+      </object>
+      <object name="CFCXWikiItemEntryComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="hidInjected" type="Boolean">True</field>
+        <field name="wikiItemId" type="BinHex">B5040000</field>
+        <field name="bShouldNotifyHud" type="Boolean">True</field>
+      </object>
+    </object>
+  </object>
+</object>

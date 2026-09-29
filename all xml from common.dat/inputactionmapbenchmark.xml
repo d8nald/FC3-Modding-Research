@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Root>
+
+	<!-- ******************************************************************************** -->
+	<ActionMap name="default" resendOnChange="0">
+		<Binding input="kb:escape" action="press" signal="cancel_benchmark"/>
+	</ActionMap>
+
+</Root>

@@ -1,0 +1,25 @@
+<graphickit id="12066023109812032256" name="PittBull" unique="0" kittobone="1">
+	<slot name="Pitbull" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Dog_Pitbull" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Dog_Pitbull\Dog_Pitbull.xml" mesh="Dog_Pitbull" weight="9" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="DogEyes" id="vfortin-m-2011031466903677">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pitbull_beige" id="vfortin-m-2011021158983774">
+						<materialdatabase name="" weight="0">
+							<material id="cromagnoli-M-20110616100311" name="Pitbull_Stripes" weight="1" file="graphics\_materials\cromagnoli-M-20110616100311.material.xml" />
+							<material id="cromagnoli-M-20110615111340" name="Pitbull_brown" weight="1" file="graphics\_materials\cromagnoli-M-20110615111340.material.xml" />
+							<material id="cromagnoli-M-20110615111327" name="Pitbull_black" weight="1" file="graphics\_materials\cromagnoli-M-20110615111327.material.xml" />
+							<material id="Vfortin-M-2011021158983774" name="Pitbull_beige" weight="6" file="graphics\_materials\Vfortin-M-2011021158983774.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="DogCollar" id="vfortin-m-2011032866396580">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

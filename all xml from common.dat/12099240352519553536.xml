@@ -1,0 +1,35 @@
+<graphickit id="12099240352519553536" name="Coop_FP_Tisha2" unique="0" kittobone="1">
+	<slot name="Body" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Coop_Trish2_FPS" ref="graphics\__FC3_Graphics\_Common\Characters\Multiplayer\Coop\Trish2\Coop_Trish2_FPS.xml" mesh="Coop_Trish2_FPS" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Trish2_Shoes" id="ecourcelles-M-20120606132832">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Trish2_Arms" id="ecourcelles-M-20120607125452">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Trish2_Hair" id="ecourcelles-M-20120523172640">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Trish2_Strap" id="ecourcelles-M-20120605163532">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Kebe_gears" id="akotelnikoff-M-2011092961010966">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Trish2_Shirt" id="ecourcelles-M-20120530141054">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Trish2_Pants" id="ecourcelles-M-20120605170040">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Trish2_Body" id="ecourcelles-M-20120606132657">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

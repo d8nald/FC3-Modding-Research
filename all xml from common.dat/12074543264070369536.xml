@@ -1,0 +1,302 @@
+<graphickit id="12074543264070369536" name="SV_Males" unique="0" kittobone="1">
+	<slot name="Shirt" position="0" bonename="Spine2">
+		<partdatabase name="" weight="0">
+			<part name="SV_Male_Shirt_01" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Male_Shirt_01.xml" mesh="SV_Male_Shirt_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Material #135_AsCopy" id="slabreche-M-2012011958344325">
+						<materialdatabase name="" weight="0">
+							<material id="slabreche-M-2012011958344325" name="Male Tshirt - 1" weight="1" file="graphics\_materials\slabreche-M-2012011958344325.material.xml" />
+							<material id="cromagnoli-M-20120315140657" name="Male Tshirt - 2" weight="1" file="graphics\_materials\cromagnoli-M-20120315140657.material.xml" />
+							<material id="cromagnoli-M-20120315140701" name="Male Tshirt - 3" weight="1" file="graphics\_materials\cromagnoli-M-20120315140701.material.xml" />
+							<material id="cromagnoli-M-20120315140706" name="Male Tshirt - 4" weight="1" file="graphics\_materials\cromagnoli-M-20120315140706.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Material #125_AsCopy" id="slabreche-M-2012011958287050">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="SV_Male_Shirt_02" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Male_Shirt_02.xml" mesh="SV_Male_Shirt_02" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Material #135_AsCopy" id="slabreche-M-2012011958344325">
+						<materialdatabase name="" weight="0">
+							<material id="cromagnoli-M-20120315140706" name="Male Tshirt - 4" weight="1" file="graphics\_materials\cromagnoli-M-20120315140706.material.xml" />
+							<material id="cromagnoli-M-20120315140701" name="Male Tshirt - 3" weight="1" file="graphics\_materials\cromagnoli-M-20120315140701.material.xml" />
+							<material id="cromagnoli-M-20120315140657" name="Male Tshirt - 2" weight="1" file="graphics\_materials\cromagnoli-M-20120315140657.material.xml" />
+							<material id="slabreche-M-2012011958344325" name="Male Tshirt - 1" weight="1" file="graphics\_materials\slabreche-M-2012011958344325.material.xml" />
+							<material id="cromagnoli-M-20120726125734" name="Male Tshirt - 5" weight="1" file="graphics\_materials\cromagnoli-M-20120726125734.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Material #125_AsCopy" id="slabreche-M-2012011958287050">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="SV_Male_Vest_01" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Male_Vest_01.xml" mesh="SV_Male_Vest_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Material #131_AsCopy" id="slabreche-M-2012011958327381">
+						<materialdatabase name="" weight="0">
+							<material id="cromagnoli-M-20120315133848" name="SV_Male_Vests_07" weight="1" file="graphics\_materials\cromagnoli-M-20120315133848.material.xml" />
+							<material id="slabreche-M-2012011958327381" name="SV_Male_Vests_01" weight="1" file="graphics\_materials\slabreche-M-2012011958327381.material.xml" />
+							<material id="cromagnoli-M-20120315111556" name="SV_Male_Vests_02" weight="1" file="graphics\_materials\cromagnoli-M-20120315111556.material.xml" />
+							<material id="cromagnoli-M-20120315112322" name="SV_Male_Vests_03" weight="1" file="graphics\_materials\cromagnoli-M-20120315112322.material.xml" />
+							<material id="cromagnoli-M-20120314185428" name="SV_Male_Vests_05" weight="1" file="graphics\_materials\cromagnoli-M-20120314185428.material.xml" />
+							<material id="cromagnoli-M-20120315115625" name="SV_Male_Vests_06" weight="1" file="graphics\_materials\cromagnoli-M-20120315115625.material.xml" />
+							<material id="cromagnoli-M-20120314185444" name="SV_Male_Vests_04" weight="1" file="graphics\_materials\cromagnoli-M-20120314185444.material.xml" />
+							<material id="cromagnoli-M-20120726130847" name="SV_Male_Vests_01 - Copy - Copy" weight="1" file="graphics\_materials\cromagnoli-M-20120726130847.material.xml" />
+							<material id="cromagnoli-M-20120726130747" name="SV_Male_Vests_01 - Copy" weight="1" file="graphics\_materials\cromagnoli-M-20120726130747.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Material #135_AsCopy" id="slabreche-M-2012011958344325">
+						<materialdatabase name="" weight="0">
+							<material id="slabreche-M-2012011958344325" name="Male Tshirt - 1" weight="1" file="graphics\_materials\slabreche-M-2012011958344325.material.xml" />
+							<material id="cromagnoli-M-20120315140657" name="Male Tshirt - 2" weight="1" file="graphics\_materials\cromagnoli-M-20120315140657.material.xml" />
+							<material id="cromagnoli-M-20120315140701" name="Male Tshirt - 3" weight="1" file="graphics\_materials\cromagnoli-M-20120315140701.material.xml" />
+							<material id="cromagnoli-M-20120315140706" name="Male Tshirt - 4" weight="1" file="graphics\_materials\cromagnoli-M-20120315140706.material.xml" />
+							<material id="cromagnoli-M-20120726125734" name="Male Tshirt - 5" weight="1" file="graphics\_materials\cromagnoli-M-20120726125734.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Material #125_AsCopy" id="slabreche-M-2012011958287050">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="SV_Male_Vest_02" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Male_Vest_02.xml" mesh="SV_Male_Vest_02" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Material #131_AsCopy" id="slabreche-M-2012011958327381">
+						<materialdatabase name="" weight="0">
+							<material id="slabreche-M-2012011958327381" name="SV_Male_Vests_01" weight="1" file="graphics\_materials\slabreche-M-2012011958327381.material.xml" />
+							<material id="cromagnoli-M-20120315111556" name="SV_Male_Vests_02" weight="1" file="graphics\_materials\cromagnoli-M-20120315111556.material.xml" />
+							<material id="cromagnoli-M-20120315112322" name="SV_Male_Vests_03" weight="1" file="graphics\_materials\cromagnoli-M-20120315112322.material.xml" />
+							<material id="cromagnoli-M-20120314185444" name="SV_Male_Vests_04" weight="1" file="graphics\_materials\cromagnoli-M-20120314185444.material.xml" />
+							<material id="cromagnoli-M-20120314185428" name="SV_Male_Vests_05" weight="1" file="graphics\_materials\cromagnoli-M-20120314185428.material.xml" />
+							<material id="cromagnoli-M-20120315115625" name="SV_Male_Vests_06" weight="1" file="graphics\_materials\cromagnoli-M-20120315115625.material.xml" />
+							<material id="cromagnoli-M-20120315133848" name="SV_Male_Vests_07" weight="1" file="graphics\_materials\cromagnoli-M-20120315133848.material.xml" />
+							<material id="cromagnoli-M-20120726130747" name="SV_Male_Vests_01 - Copy" weight="1" file="graphics\_materials\cromagnoli-M-20120726130747.material.xml" />
+							<material id="cromagnoli-M-20120726130847" name="SV_Male_Vests_01 - Copy - Copy" weight="1" file="graphics\_materials\cromagnoli-M-20120726130847.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Material #135_AsCopy" id="slabreche-M-2012011958344325">
+						<materialdatabase name="" weight="0">
+							<material id="slabreche-M-2012011958344325" name="Male Tshirt - 1" weight="1" file="graphics\_materials\slabreche-M-2012011958344325.material.xml" />
+							<material id="cromagnoli-M-20120315140657" name="Male Tshirt - 2" weight="1" file="graphics\_materials\cromagnoli-M-20120315140657.material.xml" />
+							<material id="cromagnoli-M-20120315140701" name="Male Tshirt - 3" weight="1" file="graphics\_materials\cromagnoli-M-20120315140701.material.xml" />
+							<material id="cromagnoli-M-20120315140706" name="Male Tshirt - 4" weight="1" file="graphics\_materials\cromagnoli-M-20120315140706.material.xml" />
+							<material id="cromagnoli-M-20120726125734" name="Male Tshirt - 5" weight="1" file="graphics\_materials\cromagnoli-M-20120726125734.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Material #125_AsCopy" id="slabreche-M-2012011958287050">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Pants" position="1" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="SV_Male_Pants_01" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Male_Pants_01.xml" mesh="SV_Male_Pants_01" weight="2" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Material #131" id="slabreche-M-2012011958300332">
+						<materialdatabase name="" weight="0">
+							<material id="cromagnoli-M-20120314173025" name="SV_Male_Pants_01 - Copy - Copy" weight="1" file="graphics\_materials\cromagnoli-M-20120314173025.material.xml" />
+							<material id="cromagnoli-M-20120314172941" name="SV_Male_Pants_01 - Copy" weight="1" file="graphics\_materials\cromagnoli-M-20120314172941.material.xml" />
+							<material id="slabreche-M-2012011958300332" name="SV_Male_Pants_01" weight="1" file="graphics\_materials\slabreche-M-2012011958300332.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="SV_Male_Pants_02" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Male_Pants_02.xml" mesh="SV_Male_Pants_02" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Material #131" id="slabreche-M-2012011958300332">
+						<materialdatabase name="" weight="0">
+							<material id="cromagnoli-M-20120314182425" name="SV_Male_jeans" weight="1" file="graphics\_materials\cromagnoli-M-20120314182425.material.xml" />
+							<material id="bgauthierleblanc-M-20120412151941" name="SV_Male_jeans - Copy" weight="1" file="graphics\_materials\bgauthierleblanc-M-20120412151941.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Shoes" position="2" bonename="LeftFoot">
+		<partdatabase name="" weight="0">
+			<part name="SV_Male_Feet_01" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Male_Feet_01.xml" mesh="SV_Male_Feet_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Material #125_AsCopy" id="slabreche-M-2012011958287050">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="SV_Male_Sandals_01" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Male_Sandals_01.xml" mesh="SV_Male_Sandals_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="SV_Female_Shirts_01" id="slabreche-M-2012010961859612">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Material #125_AsCopy" id="slabreche-M-2012011958287050">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="SV_Male_Shoes_01" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Male_Shoes_01.xml" mesh="SV_Male_Shoes_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="SV_Male_Shoes_01" id="slabreche-M-2012012740181205">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Eyes" position="3" bonename="Head">
+		<partdatabase name="" weight="0">
+			<part name="SV_Male_Eye_01" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Male_Eye_01.xml" mesh="SV_Male_Eye_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="SV_Men_Eye" id="kosullivan-M-20120807194839">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Head" position="4" bonename="Head">
+		<partdatabase name="" weight="0">
+			<part name="SV_Male_Head" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Male_Head.xml" mesh="SV_Male_Head" weight="1" version="1" allowcullbysize="1">
+				<tag name="head01" type="3" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-m-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="SV_Male_Head_01" id="slabreche-M-2012011958278199">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Material #125_AsCopy" id="slabreche-M-2012011958287050">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="SV_Male_Head" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Male_Head.xml" mesh="SV_Male_Head" weight="1" version="1" allowcullbysize="1">
+				<tag name="head02" type="3" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-m-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="SV_Male_Head_01" id="slabreche-M-2012011958278199">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Material #125_AsCopy" id="slabreche-M-2012011958287050">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="SV_Male_Head" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Male_Head.xml" mesh="SV_Male_Head" weight="1" version="1" allowcullbysize="1">
+				<tag name="head03" type="3" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-m-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="SV_Male_Head_01" id="slabreche-M-2012011958278199">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Material #125_AsCopy" id="slabreche-M-2012011958287050">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="SV_Male_Head" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Male_Head.xml" mesh="SV_Male_Head" weight="1" version="1" allowcullbysize="1">
+				<tag name="head04" type="3" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-m-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="SV_Male_Head_01" id="slabreche-M-2012011958278199">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Material #125_AsCopy" id="slabreche-M-2012011958287050">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Hair" position="5" bonename="Head">
+		<partdatabase name="" weight="0">
+			<part name="SV_Male_Fauxhawk" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Male_Fauxhawk.xml" mesh="SV_Male_Fauxhawk" weight="2" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="SV_Male_Head_01" id="slabreche-M-2012011958278199">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="SV_Male_Hair_02" id="kosullivan-M-1308201265380793">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="SV_Males_Invis" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Males_Invis.xml" mesh="SV_Males_Invis" weight="2" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Material #131_AsCopy" id="slabreche-M-2012011958327381">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Goatee" position="6" bonename="Head">
+		<partdatabase name="" weight="0">
+			<part name="SV_Males_Invis" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Males_Invis.xml" mesh="SV_Males_Invis" weight="2" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Material #131_AsCopy" id="slabreche-M-2012011958327381">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="SV_Male_Goatee02" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Male_Goatee02.xml" mesh="SV_Male_Goatee02" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="SV_Male_Hair_02" id="kosullivan-M-1308201265380793">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="SV_Male_Head_01" id="slabreche-M-2012011958278199">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="SoulPatch" position="7" bonename="Head">
+		<partdatabase name="" weight="0">
+			<part name="SV_Male_Goatee01" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Male_Goatee01.xml" mesh="SV_Male_Goatee01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="SV_Male_Head_01" id="slabreche-M-2012011958278199">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="SV_Male_Hair_02" id="kosullivan-M-1308201265380793">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="SV_Males_Invis" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Males_Invis.xml" mesh="SV_Males_Invis" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Material #131_AsCopy" id="slabreche-M-2012011958327381">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

@@ -1,0 +1,145 @@
+<graphickit id="12066023109812028928" name="Pirate_sniper" unique="0" kittobone="1">
+	<slot name="Head" position="0" bonename="Head">
+		<partdatabase name="" weight="0">
+			<part name="Pirate_Sniper_Head01" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Pirate_Sniper_Head01.xml" mesh="Pirate_Sniper_Head01" weight="1" version="1" allowcullbysize="1">
+				<tag name="no_sunglass" type="0" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Pirate_Sniper_Scarf" id="cromagnoli-M-2011111439171373">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Benchmark_Face_AsCopy" id="vfortin-M-2011110452595323">
+						<materialdatabase name="" weight="0">
+							<material id="cromagnoli-M-2011110260867829" name="Generic_Head_Black" weight="1" file="graphics\_materials\cromagnoli-M-2011110260867829.material.xml">
+								<tag name="black" type="0" />
+							</material>
+							<material id="cromagnoli-M-20120302151336" name="Generic_Head_Brown" weight="1" file="graphics\_materials\cromagnoli-M-20120302151336.material.xml">
+								<tag name="brown" type="0" />
+							</material>
+							<material id="cromagnoli-M-2011121537518234" name="Generic_Head_White" weight="1" file="graphics\_materials\cromagnoli-M-2011121537518234.material.xml">
+								<tag name="white" type="0" />
+							</material>
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="HeavyGunnerEye" id="vrizzi-m-0804201151366045">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Arms" position="1" bonename="Spine2">
+		<partdatabase name="" weight="0">
+			<part name="Pirate_Sniper_Arms01" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Pirate_Sniper_Arms01.xml" mesh="Pirate_Sniper_Arms01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Pirates_Body_Generic" id="slabreche-m-2011041129267145">
+						<materialdatabase name="" weight="0">
+							<material id="slabreche-M-2011041129267145" name="Generic_Torso_Black" weight="1" file="graphics\_materials\slabreche-M-2011041129267145.material.xml">
+								<tag name="black" type="2" />
+							</material>
+							<material id="cromagnoli-M-20120302151311" name="Generic_Torso_Brown" weight="1" file="graphics\_materials\cromagnoli-M-20120302151311.material.xml">
+								<tag name="brown" type="2" />
+							</material>
+							<material id="cromagnoli-M-2011121343191460" name="Generic_Torso_White" weight="1" file="graphics\_materials\cromagnoli-M-2011121343191460.material.xml">
+								<tag name="white" type="2" />
+							</material>
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Pirates_TShirt_02" id="slabreche-m-2011040741668834">
+						<materialdatabase name="" weight="0">
+							<material id="slabreche-M-20110502131307" name="Pirates_SNIPER_Shirt_02" weight="1" file="graphics\_materials\slabreche-M-20110502131307.material.xml" />
+							<material id="cromagnoli-M-20120821134850" name="Pirates_SNIPER_Shirt_02 - Copy" weight="1" file="graphics\_materials\cromagnoli-M-20120821134850.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Torso" position="2" bonename="Spine">
+		<partdatabase name="" weight="0">
+			<part name="Pirate_Sniper_Torso01" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Pirate_Sniper_Torso01.xml" mesh="Pirate_Sniper_Torso01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Pirates_TShirt_02" id="slabreche-m-2011040741668834">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Accessories_04" id="slabreche-M-2011040741519213">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Shoes_03" id="slabreche-M-2011040741635817">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Straps_Trim" id="slabreche-M-2011041128130062">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Body_Generic" id="slabreche-m-2011041129267145">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Pants" position="3" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="Pirate_Pants01" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Pirate_Pants01.xml" mesh="Pirate_Pants01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Pirates_Straps_Trim" id="cromagnoli-M-2011111061597741">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Accessories_04" id="cromagnoli-M-2011111061269757">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Shoes_03" id="cromagnoli-M-2011111062641074">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirate_pants_AsCopy" id="cromagnoli-M-2011111062719075">
+						<materialdatabase name="" weight="0">
+							<material id="bgauthierleblanc-M-20120307182543" name="Pirate_pants_Sniper" weight="1" file="graphics\_materials\bgauthierleblanc-M-20120307182543.material.xml" />
+							<material id="cromagnoli-M-20120821132839" name="Pirate_pants_Sniper - Copy" weight="1" file="graphics\_materials\cromagnoli-M-20120821132839.material.xml" />
+							<material id="cromagnoli-M-20120821132916" name="Pirate_pants_Sniper - Copy - Copy" weight="1" file="graphics\_materials\cromagnoli-M-20120821132916.material.xml" />
+							<material id="cromagnoli-M-20120821134303" name="Pirate_pants_Sniper - Copy (2)" weight="1" file="graphics\_materials\cromagnoli-M-20120821134303.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Accessories" position="4" bonename="Spine2">
+		<partdatabase name="" weight="0">
+			<part name="Sniper_bandeau_A" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Sniper_bandeau_A.xml" mesh="Sniper_bandeau_A" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="red bandana." id="cromagnoli-M-2011111154303447">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="Sniper_bandeau_B" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Sniper_bandeau_B.xml" mesh="Sniper_bandeau_B" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="red bandana." id="cromagnoli-M-2011111154303447">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="Sniper_bandeau_C" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Sniper_bandeau_C.xml" mesh="Sniper_bandeau_C" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="red bandana." id="cromagnoli-M-2011111154303447">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="Sniper_bandeau_D" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Sniper_bandeau_D.xml" mesh="Sniper_bandeau_D" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="red bandana." id="cromagnoli-M-2011111154303447">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

@@ -1,0 +1,53 @@
+<graphickit id="12066023109812032512" name="Shopkeeper" unique="0" kittobone="1">
+	<slot name="Slot1" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="ShopKeeper_Female" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\ShopKeeper\ShopKeeper_Female.xml" mesh="ShopKeeper_Female" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="villagerHair" id="cromagnoli-M-2011101362149785">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Shopkeeper_string_Neckless" id="cromagnoli-M-2011102149627967">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Shopkeeper_Shell_Neckless" id="cromagnoli-M-2011102152184922">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name=" Shop keeper glasses_frame string" id="cromagnoli-M-2011102439754155">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Female_Body_Native_01" id="slabreche-m-2011081055364901">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="localwomaneye_Shopkeeper" id="cromagnoli-m-2011072540866896">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="localshopkeeperfemale_head" id="cromagnoli-m-2011072540859593">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Women_Villager_Shirt_01" id="slabreche-m-2011081036310066">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="frames" id="cromagnoli-M-2011102439628160">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="villagerHair." id="cromagnoli-M-2011101361297292">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Local_woman_Pants2_C" id="cromagnoli-m-2011081637121641">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-M-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Slot2" position="1" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot3" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

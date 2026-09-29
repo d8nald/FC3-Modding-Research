@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7668309339747</field>
+  <field name="Name" type="String">Camera/CameraOrbital</field>
+  <object name="Entity">
+    <field name="hidName" type="String">cameras:Camera/CameraOrbital</field>
+    <field name="disEntityId" type="Int64">10</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">0</field>
+    <field name="hidPos" type="Vector3">-65,-65,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">-65,-65,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CCameraOrbitalComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="fCameraBlendTime" type="Float32">0</field>
+        <field name="fNearDistance" type="Float32">0.25</field>
+        <field name="fFarDistance" type="Float32">1000</field>
+        <field name="fFOV" type="Float32">75</field>
+        <field name="fNearFOV" type="Float32">65</field>
+        <field name="fCameraSpeed" type="Float32">5</field>
+        <field name="fCameraAcceleration" type="Float32">1.5</field>
+        <field name="fOrbitalCameraRotationSpeed" type="Float32">1.5</field>
+      </object>
+      <object name="CPersistComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="selLevel" type="Enum">None</field>
+        <field name="bDontPersistIfChild" type="Boolean">True</field>
+        <field name="bIgnoreEntityLimiter" type="Boolean">False</field>
+      </object>
+    </object>
+  </object>
+</object>

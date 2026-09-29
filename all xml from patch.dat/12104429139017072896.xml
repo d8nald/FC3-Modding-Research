@@ -1,0 +1,68 @@
+<graphickit id="12104429139017072896" name="Privateer_Sniper_Commander" unique="0" kittobone="1">
+	<slot name="Body" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Privateer_Sniper_Commander" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Privateers\Privateer_Sniper_Commander.xml" mesh="Privateer_Sniper_Commander" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Pirates_Body_Generic_AsCopy" id="cromagnoli-M-2011120958430390">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="eye" id="cromagnoli-M-2011120962900465">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirate_Pilot_metal" id="bwaddingham-m-2011040851748947">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirate_Pilot_Lens" id="bwaddingham-m-2011040852435361">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="VIP_03_Beard_AsCopy" id="cromagnoli-M-2012070640152975">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="VIP_03_Face_new" id="slabreche-M-2012061357144290">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="VIP_Badges_01" id="slabreche-M-2011080348102720">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="VIP_03_Body" id="slabreche-M-2012060633173206">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="VIP_01_HatVIP_03_Accessoires_AsCopy_AsCopy" id="cromagnoli-M-2012070640171809">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="VIP_01_Shirt_01" id="slabreche-m-2011080330264360">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Shoes_03" id="cromagnoli-M-2011120957323383">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="VIP_01_Shirt_01" id="slabreche-m-2011080330264360">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privater Sniper DefBackPack_AsCopy" id="cromagnoli-M-2012070639651841">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="VIP_01_Shirt_01" id="slabreche-m-2011080330264360">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privater_Sniper_Jacke_Commander" id="cromagnoli-M-2012070639608141">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privater_Sniper_Pants_02_Commander" id="cromagnoli-M-2012070639585108">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Slot2" position="1" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot3" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot4" position="3" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

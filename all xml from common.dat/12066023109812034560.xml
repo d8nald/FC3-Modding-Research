@@ -1,0 +1,41 @@
+<graphickit id="12066023109812034560" name="Amputee" unique="0" kittobone="1">
+	<slot name="" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Amputee" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\Amputee\Amputee.xml" mesh="Amputee" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-m-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebels_Hats_01" id="slabreche-m-2011041440486567">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Native_Head_01" id="slabreche-m-2011071854261895">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebels_Shirt_02" id="slabreche-m-2011041450133314">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Native_Body_01_Amputee" id="cromagnoli-M-2011081859731508">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Native_Eyes" id="slabreche-m-20110719115948">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Amputee_shorts" id="vrizzi-M-1108201160361739">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Slot2" position="1" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot3" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot4" position="3" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

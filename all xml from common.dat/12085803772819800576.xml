@@ -1,0 +1,23 @@
+<graphickit id="12085803772819800576" name="SHA_JellyFish" unique="0" kittobone="1">
+	<slot name="Mainbody" position="0" bonename="Spine">
+		<partdatabase name="" weight="0">
+			<part name="Jellyfish" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Jelly_Fish\Jellyfish.xml" mesh="Jellyfish" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Jelly_Fish" id="yanzhou-M-0911201150953068">
+						<materialdatabase name="" weight="0">
+							<material id="yanzhou-M-0911201150953068" name="Jelly_Fish" weight="7" file="graphics\_materials\yanzhou-M-0911201150953068.material.xml">
+								<tag name="regular" type="0" />
+								<tag name="red" type="4" />
+							</material>
+							<material id="yanzhou-M-20120319161940" name="Jelly_Fish_Orange" weight="3" file="graphics\_materials\yanzhou-M-20120319161940.material.xml">
+								<tag name="red" type="0" />
+								<tag name="regular" type="4" />
+							</material>
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

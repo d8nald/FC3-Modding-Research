@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<materialdescriptor name="Error" version="6">
+    <geometryInputs normal="1" tangent="0" binormal="0" color="1" uvChannels="1" />
+
+    <parameterprovider>
+    </parameterprovider>
+    
+    <ui>
+    </ui>
+</materialdescriptor>

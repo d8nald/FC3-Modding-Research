@@ -1,0 +1,44 @@
+<graphickit id="12080399995291828736" name="SHA_DogRacing" unique="0" kittobone="1">
+	<slot name="Mainbody" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="RDog_01" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Rabid_dog\RDog_01.xml" mesh="RDog_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Animal_Grey_ID3" id="yanzhou-M-3101201251837020">
+						<materialdatabase name="" weight="0">
+							<material id="yanzhou-M-3101201251217937" name="Racing_dog_No2" weight="1" file="graphics\_materials\yanzhou-M-3101201251217937.material.xml">
+								<tag name="no2" type="0" />
+							</material>
+							<material id="yanzhou-M-20120201135420" name="Racing_dog_No5" weight="1" file="graphics\_materials\yanzhou-M-20120201135420.material.xml">
+								<tag name="no5" type="0" />
+							</material>
+							<material id="yanzhou-M-20120131160150" name="Racing_dog_No7" weight="1" file="graphics\_materials\yanzhou-M-20120131160150.material.xml">
+								<tag name="no7" type="0" />
+							</material>
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Animal_Grey_ID2" id="jli-M-107201151201026">
+						<materialdatabase name="" weight="0">
+							<material id="yanzhou-M-1509201154195320" name="SHA_dog_eyes_Regular" weight="1" file="graphics\_materials\yanzhou-M-1509201154195320.material.xml" />
+							<material id="yanzhou-M-1210201140253441" name="SHA_dog_eyes_Bloody" weight="1" file="graphics\_materials\yanzhou-M-1210201140253441.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Animal_Grey_ID1" id="jli-M-107201142503596">
+						<materialdatabase name="" weight="0">
+							<material id="yanzhou-M-3001201261988013" name="Racing_dog_Mainbody_Base" weight="1" file="graphics\_materials\yanzhou-M-3001201261988013.material.xml" />
+							<material id="yanzhou-M-1409201155345250" name="Wild_dog_Mainbody_Dark" weight="1" file="graphics\_materials\yanzhou-M-1409201155345250.material.xml" />
+							<material id="yanzhou-M-20120220153927" name="Wild_Dog_MainBody_Brown" weight="1" file="graphics\_materials\yanzhou-M-20120220153927.material.xml" />
+							<material id="yanzhou-M-20120220155932" name="Wild_dog_Mainbody_BrownLight" weight="1" file="graphics\_materials\yanzhou-M-20120220155932.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Tail" position="1" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Belt" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

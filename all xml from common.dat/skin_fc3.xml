@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<materialdescriptor xmlns:xi="#" name="Skin_FC3" id="#(0x757b4a7b, 0x5f18d0e4)" version="6">
+    <geometryInputs normal="1" tangent="1" binormal="1" color="1" uvChannels="2" />
+    <features rimLighting="1" />
+    
+    <!--   Vertex color : not use for now
+         - Mask Texture: RED
+         - Mask channel: GREEN 
+         - Mask channel: BLUE
+    -->
+    <parameter name="AlphaTestEnabled" type="bool" />
+    <parameter name="TwoSided" type="bool" />
+
+<parameter name="BlendingType" type="int" />
+
+    <!-- DIFFUSE BASE COLOR -->
+    <parameter name="DiffuseTexture1" type="sampler2D" tilingName="DiffuseTiling1" UvName="UVGroupMapChannel1" VCMaskChannel="9" />
+    <parameter name="DiffuseTiling1" type="float2" defaultvalue="1,1" />
+    <parameter name="DiffuseColor1" type="color4" defaultvalue="1,1,1,1" />
+    <parameter name="DiffuseTexture1Priority" type="int" defaultvalue="1" />
+    
+    <!-- DIFFUSE SUBSURFACE SCATTERING -->
+    <parameter name="DiffuseColor2" type="color4" defaultvalue="1,1,1,1" />
+
+    <!-- DIFFUSE DETAIL: USe to apply a tint on the diffuse-->
+    <parameter name="DiffDetailColor1" type="color4" />
+
+    <!-- Mask Texture:     RED     modulate the Specular Power (Gloss) and the specularColor
+                             GREEN     modulate the diffuse subsurface scattering
+                             BLUE     modulate the diff detail
+    -->
+    <parameter name="MaskTexture1" type="sampler2D" tilingName="MaskTiling1" UvName="UVGroupMapChannel0" />
+    <parameter name="MaskTiling1" type="float2" ignore="1" defaultvalue="1,1" />
+    <parameter name="MaskTexture1Priority" type="int" defaultvalue="2" />
+
+    <!--  
+         - Spec Texture:     RED     specular detail
+                             GREEN     diffuse detail
+                             BLUE     not use
+    -->
+    <parameter name="SpecularTexture1" type="sampler2D" tilingName="SpecularTiling1" UvName="UVGroupMapChannel1" VCMaskChannel="7" />
+    <parameter name="SpecularTiling1" type="float2" defaultvalue="1,1" />
+    <parameter name="SpecularColor1" type="color4" />
+    <parameter name="SpecularPower" type="float" defaultvalue="16" displayInMax="1" />
+    <parameter name="SpecularTexture1Priority" type="int" defaultvalue="4" />
+    <parameter name="AmbientSpecularMultiplier" type="float" defaultvalue="0.05" />
+    <parameter name="RimLightColor" type="color4" defaultvalue="0.5, 0.5, 0.5, 1.0" />
+    <parameter name="RimLightBias" type="float" defaultvalue="1" />
+    <parameter name="RimLightEnable" type="bool" defaultvalue="0" />
+    
+    <!-- SPEC DETAIL: Use to apply a tint on the spec-->
+    <parameter name="SpecDiffDetail" type="float" displayInMax="1" />
+    
+    <!--  
+         - Normal Texture
+    -->
+    <parameter name="NormalTexture1" type="sampler2D" tilingName="NormalTiling1" UvName="UVGroupMapChannel3" VCMaskChannel="9" />
+    <parameter name="NormalTiling1" type="float2" defaultvalue="1,1" />
+    <parameter name="NormalTexture1Priority" type="int" defaultvalue="3" />
+
+    <!-- BUMP the normal -->
+    <parameter name="BumpNormalCffs" type="float2" defaultvalue="0.5,2.0"/>
+
+    <parameter name="UVGroupMapChannel0" type="int" />
+    <!-- UVGroupMapChannel1 is used by two textures! -->
+    <parameter name="UVGroupMapChannel1" type="int" />
+    <parameter name="UVGroupMapChannel3" type="int" />
+    
+    <parameter name="DiffuseTiling1AndGroup1" type="float4" defaultvalue="1,1,0,0" provideronly="1" />
+    <parameter name="NormalTiling1AndGroup3" type="float4" defaultvalue="1,1,0,0" provideronly="1" />
+    <parameter name="SpecularTiling1AndGroup1" type="float4" defaultvalue="1,1,0,0" provideronly="1" />
+    <parameter name="MaskTiling1AndGroup0" type="float4" defaultvalue="1,1,0,0" provideronly="1" /> 
+        
+    <parameterprovider parametersfilename="Mesh_Skin_FC3.parameters.inc.fx">
+        <parameter name="DiffuseTexture1" />
+        <parameter name="DiffuseColor1" />
+        <parameter name="DiffuseColor2" /> 
+        <parameter name="DiffDetailColor1" />    
+        <parameter name="MaskTexture1" />
+        <parameter name="SpecularTexture1" />
+        <parameter name="SpecularColor1" />
+        <parameter name="SpecularPower" />
+        <parameter name="SpecDiffDetail" />
+        <parameter name="NormalTexture1" />
+        <parameter name="DiffuseTiling1AndGroup1" />
+        <parameter name="NormalTiling1AndGroup3" />
+        <parameter name="SpecularTiling1AndGroup1" />
+        <parameter name="MaskTiling1AndGroup0" />
+        <parameter name="BumpNormalCffs" />
+        <parameter name="AmbientSpecularMultiplier" />
+        <parameter name="RimLightColor" />
+        <parameter name="RimLightBias" />
+        <parameter name="RimLightEnable" />
+    </parameterprovider>
+
+    <ui>
+        <xi:include href="../MaterialUIInclude.xml" />
+        
+        <group horizontal="1" label="Settings">
+            <group>
+                <checkbox label="Two sided" dataBindings="TwoSided" />
+                <checkbox label="Alpha test" dataBindings="AlphaTestEnabled" />
+            </group>
+        </group>
+
+        <group label="Mask">
+                <label>r = Spec, g = SSS, b = diffuse detail, a = AO </label>
+           <group horizontal="1">
+                   <button dataBindings="MaskTexture1" fill="1" />
+                <textbox dataBindings="UVGroupMapChannel0">
+                    <dataBindings class="UVChannel" />
+                </textbox>
+                             </group>
+                              <group horizontal="1">       
+                <textbox dataBindings="MaskTiling1.x">
+                    <dataBindings class="Tiling" />
+                </textbox>
+                <textbox dataBindings="MaskTiling1.y">
+                    <dataBindings class="Tiling" />
+                </textbox>
+            </group>
+        </group>
+
+        <group label="Diffuse">
+            <label>Subsurface Scattering color</label>
+            <group horizontal="1">
+                <button dataBindings="DiffuseColor2">
+                    <dataBindings type="color" />
+                </button>
+            </group>
+
+            <label>Texture 1</label>
+            <group horizontal="1">
+                <button dataBindings="DiffuseColor1">
+                    <dataBindings type="color" />
+                </button>
+                <button dataBindings="DiffuseTexture1" fill="1" />
+                <textbox dataBindings="UVGroupMapChannel3">
+                    <dataBindings class="UVChannel" />
+                </textbox>
+                <group>
+                    <textbox dataBindings="DiffuseTiling1.x">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                    <textbox dataBindings="DiffuseTiling1.y">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                </group>
+            </group>          
+        </group>
+
+        <group label="Specular r = spec detail, g = diffuse detail">
+            <group horizontal="1">
+                <button dataBindings="SpecularColor1">
+                    <dataBindings type="color" />
+                </button>
+
+                <button dataBindings="SpecularTexture1" fill="1" />
+                <group>
+                    <textbox dataBindings="SpecularTiling1.x">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                    <textbox dataBindings="SpecularTiling1.y">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                </group>
+
+            </group>
+
+            <group horizontal="1">
+                <label>Gloss</label>
+                <textbox databindings="SpecularPower">
+                    <dataBindings class="ZeroPositiveCff" />
+                </textbox>
+                <label>Ambient Specular Multiplier</label>
+                <textbox databindings="AmbientSpecularMultiplier" />
+            </group>
+        </group>
+
+        <group horizontal="1" label="Normal">
+            <button dataBindings="NormalTexture1" fill="1" />
+
+            <textbox dataBindings="UVGroupMapChannel3">
+                <dataBindings class="UVChannel" />
+            </textbox>
+            <group>
+                <textbox dataBindings="NormalTiling1.x">
+                    <dataBindings class="Tiling" />
+                </textbox>
+                <textbox dataBindings="NormalTiling1.y">
+                    <dataBindings class="Tiling" />
+                </textbox>
+            </group>
+
+        </group>
+
+    <group horizontal="1" label="Modifiers">
+        <label>Normal1 modifier</label> <textbox databindings="BumpNormalCffs.x" minvalue="0.01" defaultvalue="0.5" />
+        <label>Spec multiplier</label> <textbox databindings="BumpNormalCffs.y" minvalue="0.01" defaultvalue="2" />
+        <label>Spec modulates diffuse</label> <textbox databindings="SpecDiffDetail" minvalue="0.01" defaultvalue="2" />
+        <button dataBindings="DiffDetailColor1">
+            <dataBindings type="color" />
+        </button>
+    </group>
+    
+    <group horizontal="1" label="Rim lighting">
+        <checkbox label="Enable" dataBindings="RimLightEnable" tooltip="Enable rim lighting." />
+        <label>Color</label>
+        <button dataBindings="RimLightColor" >
+            <dataBindings type="color" />
+        </button>
+        <label>Bias</label> <textbox databindings="RimLightBias" minvalue="0.01" maxvalue="5.00" defaultvalue="1" />
+    </group>
+</ui>
+    
+</materialdescriptor>

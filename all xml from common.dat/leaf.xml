@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materialdescriptor xmlns:xi="#" name="Leaf" id="#(0xe757680, 0x855b0001)" version="6">
+    <geometryInputs normal="1" tangent="0" binormal="0" color="1" uvChannels="1" />
+
+    <!-- As of 2009/06/04, the leaf shader uses no vertex painting or masks -->
+
+    <parameter name="TwoSided" type="bool" />
+    <parameter name="EnableDithering" type="bool" defaultvalue="0" />
+
+    <parameter name="NormalTexture" type="sampler2D" useDefine="NORMALMAP" />
+
+    <parameter name="DiffuseTexture1" type="sampler2D" />
+    <parameter name="BurnNoiseTexture" type="sampler2D" replaceTexture="perlinNoise" />
+    
+    <parameter name="Settings" type="float4" defaultvalue="0.0, 0.5, 0.3, 2.0"/>
+    <parameter name="Settings2" type="float4" defaultvalue="1.0, 5.0, 0.0, 0.0"/>
+
+    <parameter name="TintThresholds" type="float3" defaultvalue="0,0,0" />
+    <parameter name="TintMultipliers" type="float3" defaultvalue="0,0,0" />
+    
+    <parameterprovider parametersfilename="Realtree_Leaf.parameters.inc.fx">
+        <parameter name="DiffuseTexture1">
+            <alias name="DiffuseTexture1Shadow" />
+        </parameter>
+        <parameter name="NormalTexture" />
+        <parameter name="BurnNoiseTexture" />
+        <parameter name="TintThresholds" />
+        <parameter name="TintMultipliers" />
+        <parameter name="EnableDithering" />
+        <parameter name="Settings" />
+        <parameter name="Settings2" />
+    </parameterprovider>
+
+    <ui>
+        <xi:include href="../MaterialUIInclude.xml" />
+        <group label="Settings">
+            <group horizontal="0">
+                <checkbox label="Two sided" dataBindings="TwoSided" />
+                <checkbox label="Dithering" dataBindings="EnableDithering" />
+            </group>
+        </group>
+
+        <group label="Settings" horizontal="0">
+            <group horizontal="1">
+                <label>Glossiness</label>
+                <textbox dataBindings="Settings.x" overridableInDerivation="1">
+                    <dataBindings minvalue="0.0" maxvalue="1.0" defaultvalue="0.0" />
+                </textbox>
+            </group>
+            <group horizontal="1">
+                <label>Specular volume occlusion</label>
+                <textbox dataBindings="Settings2.x" overridableInDerivation="1">
+                    <dataBindings minvalue="0.0" maxvalue="2.0" defaultvalue="1" />
+                </textbox>
+            </group>
+            <group horizontal="1">
+                <label>TranslucencySSS</label>
+                <textbox dataBindings="Settings.y" overridableInDerivation="1">
+                    <dataBindings minvalue="0.0" maxvalue="1.0" defaultvalue="0.30" />
+                </textbox>
+            </group>
+            <group horizontal="1">
+                <label>TranslucencySSSExponent</label>
+                <textbox dataBindings="Settings2.y" overridableInDerivation="1">
+                    <dataBindings minvalue="0.1" maxvalue="20.0" defaultvalue="5.0" />
+                </textbox>
+            </group>
+            <group horizontal="1">
+                <label>Ambient occlusion instensity</label>
+                <textbox dataBindings="Settings.z" overridableInDerivation="1">
+                    <dataBindings minvalue="0.0" maxvalue="1.0" defaultvalue="0.2" />
+                </textbox>
+            </group>
+            <group horizontal="1">
+                <label>Normalmap scale</label>
+                <textbox dataBindings="Settings.w" overridableInDerivation="1">
+                    <dataBindings minvalue="0.0" maxvalue="8.0" defaultvalue="2.0" />
+                </textbox>
+            </group>
+        </group>
+
+        <group label="Diffuse Texture">
+            <button dataBindings="DiffuseTexture1" fill="1" />
+        </group>
+        <group horizontal="1" label="Tint Seetings">
+            <group horizontal="1" label="Red Channel">
+                <label>Multiplier</label>
+                <textbox databindings="TintMultipliers.x" />
+                <label>Threshold</label>
+                <textbox databindings="TintThresholds.x" >
+                    <dataBindings class="SingleColorChannel" />
+                </textbox>
+            </group>
+            <group horizontal="1" label="Green Channel">
+                <label>Multiplier</label>
+                <textbox databindings="TintMultipliers.y" />
+                <label>Threshold</label>
+                <textbox databindings="TintThresholds.y">
+                    <dataBindings class="SingleColorChannel" />
+                </textbox>
+            </group>
+            <group horizontal="1" label="Blue Channel">
+                <label>Multiplier</label>
+                <textbox databindings="TintMultipliers.z" />
+                <label>Threshold</label>
+                <textbox databindings="TintThresholds.z" >
+                    <dataBindings class="SingleColorChannel" />
+                </textbox>
+            </group>
+        </group>
+        <group label="NormalMap">
+            <group label="NormalMap">
+                <label>RGB = Normal</label>
+                <label>A = Gloss</label>
+            </group>
+            <group horizontal="1">
+                <button dataBindings="NormalTexture" fill="1" />
+            </group>
+        </group>          
+
+        </ui>
+    
+</materialdescriptor>

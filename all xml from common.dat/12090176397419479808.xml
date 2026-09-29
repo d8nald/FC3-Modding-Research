@@ -1,0 +1,44 @@
+<graphickit id="12090176397419479808" name="Jason_FP_FingerCut" unique="0" kittobone="1">
+	<slot name="Body" position="0" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="Jason_FP_Dirty_CutFinger" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\Jason\Jason_FP_Dirty_CutFinger.xml" mesh="Jason_FP_Dirty_CutFinger" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Arm_Dlc_Tattoo" id="cromagnoli-M-2012040456382693">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Arm_Normal_Tattoo" id="cromagnoli-M-2012040456408373">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Arm_Dlc_Tattoo_Blood" id="cromagnoli-M-2012042061147267">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Material #129" id="cromagnoli-M-2012031648824635">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Jason_Cloth_Shirt" id="cromagnoli-M-2012031648806038">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Boots" position="1" bonename="LeftFoot">
+		<partdatabase name="" weight="0">
+			<part name="JasonsBoots" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\Jason\JasonsBoots.xml" mesh="JasonsBoots" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Jason_leatherboots" id="cromagnoli-M-2012051063612514">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Slot3" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot4" position="3" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

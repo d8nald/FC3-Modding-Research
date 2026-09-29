@@ -1,0 +1,54 @@
+<graphickit id="12085806667627758848" name="SHA_CoralReefFish" unique="0" kittobone="1">
+	<slot name="Mainbody" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Coral_reef_fish_Red" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Fish_Coral_Reef\Coral_reef_fish_Red.xml" mesh="Coral_reef_fish_Red" weight="1" version="1" allowcullbysize="1">
+				<tag name="amphiprioninae" type="0" />
+				<tag name="regular" type="4" />
+				<tag name="emperor" type="4" />
+				<tag name="french" type="4" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Coral_reef_fish_Red" id="yanzhou-m-2106201156042104">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="Coral_reef_fish_Yellow" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Fish_Coral_Reef\Coral_reef_fish_Yellow.xml" mesh="Coral_reef_fish_Yellow" weight="1" version="1" allowcullbysize="1">
+				<tag name="regular" type="0" />
+				<tag name="amphiprioninae" type="4" />
+				<tag name="emperor" type="4" />
+				<tag name="french" type="4" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Coral_reef_fish_Yellow" id="yanzhou-M-2206201139124569">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="Emperor_angel" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Fish_Coral_Reef\Emperor_angel.xml" mesh="Emperor_angel" weight="1" version="1" allowcullbysize="1">
+				<tag name="emperor" type="0" />
+				<tag name="regular" type="4" />
+				<tag name="french" type="4" />
+				<tag name="amphiprioninae" type="4" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Emperor_angel" id="yanzhou-m-2706201154138062">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="French_Angel" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Fish_Coral_Reef\French_Angel.xml" mesh="French_Angel" weight="1" version="1" allowcullbysize="1">
+				<tag name="french" type="0" />
+				<tag name="regular" type="4" />
+				<tag name="emperor" type="4" />
+				<tag name="amphiprioninae" type="4" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="French_Angel" id="yanzhou-m-2706201154839751">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

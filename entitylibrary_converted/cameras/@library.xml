@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object name="EntityLibrary">
+  <field name="Name" type="String">cameras</field>
+  <object external="Camera\Bone.xml" />
+  <object external="Camera\CameraDebug.xml" />
+  <object external="Camera\CameraEndEvent.xml" />
+  <object external="Camera\CameraFireStorm.xml" />
+  <object external="Camera\CameraFocusedFree.xml" />
+  <object external="Camera\CameraHelicopter.xml" />
+  <object external="Camera\CameraKillCam.xml" />
+  <object external="Camera\CameraMPCinematic.xml" />
+  <object external="Camera\CameraOrbital.xml" />
+  <object external="Camera\CameraOverview.xml" />
+  <object external="Camera\CameraSpectatorMP.xml" />
+  <object external="Camera\Cinematic.xml" />
+  <object external="Camera\Cinematic.NoBlendTime.xml" />
+  <object external="Camera\Editor.xml" />
+  <object external="Camera\First.xml" />
+  <object external="Camera\Free.xml" />
+  <object external="Camera\Ghost.xml" />
+  <object external="Camera\Marketing.xml" />
+  <object external="Camera\Passenger.xml" />
+  <object external="Camera\Spectator.xml" />
+  <object external="Camera\SupportWeapon.xml" />
+  <object external="Camera\Third.xml" />
+  <object external="Camera\ThirdVehicle.xml" />
+</object>

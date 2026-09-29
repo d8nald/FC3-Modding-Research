@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<TattooInstance xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ActiveIndex>1</ActiveIndex>
+  <Layers>
+    <TattooLayer>
+      <ImageID>0</ImageID>
+      <ColourID>0</ColourID>
+      <Translation>
+        <X>-0.0415512472</X>
+        <Y>-0.007102273</Y>
+      </Translation>
+      <Rotation>0</Rotation>
+      <Scale>
+        <X>1.03047085</X>
+        <Y>1.07954526</Y>
+      </Scale>
+      <FlipImage>false</FlipImage>
+      <Name>Layer 0</Name>
+    </TattooLayer>
+    <TattooLayer>
+      <ImageID>2</ImageID>
+      <ColourID>1</ColourID>
+      <Translation>
+        <X>0.256232619</X>
+        <Y>-0.338068217</Y>
+      </Translation>
+      <Rotation>-0.7573865</Rotation>
+      <Scale>
+        <X>0.40997228</X>
+        <Y>1.38210237</Y>
+      </Scale>
+      <FlipImage>false</FlipImage>
+      <Name>Layer 1</Name>
+    </TattooLayer>
+    <TattooLayer>
+      <ImageID>0</ImageID>
+      <ColourID>1</ColourID>
+      <Translation>
+        <X>0.0318559557</X>
+        <Y>0.1065342</Y>
+      </Translation>
+      <Rotation>0.6066761</Rotation>
+      <Scale>
+        <X>0.42797783</X>
+        <Y>0.265625119</Y>
+      </Scale>
+      <FlipImage>false</FlipImage>
+      <Name>Layer 2</Name>
+    </TattooLayer>
+  </Layers>
+  <ActiveOperation>TO_Scale</ActiveOperation>
+</TattooInstance>

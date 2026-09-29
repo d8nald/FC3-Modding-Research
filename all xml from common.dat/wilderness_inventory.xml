@@ -1,0 +1,4 @@
+<WildernessInventory>
+	<Entry Id="Mainland_Mountains" Display="Mainland Mountains" ScriptPath="ingameeditor\wilderness\mainland_mountains.lua" />
+	<Entry Id="Tropical_Islands" Display="Tropical Islands" ScriptPath="ingameeditor\wilderness\tropical_islands.lua" />
+</WildernessInventory>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object name="EntityLibrary">
+  <field name="Name" type="String">FC3_Animals</field>
+  <object external="FC3_Domestic\Chicken.Chicken_bald.xml" />
+  <object external="FC3_Quadrupeds\AttackDog_FC3.xml" />
+  <object external="FC3_Quadrupeds\Buffalo.xml" />
+  <object external="FC3_Quadrupeds\Buffalo.Normal.xml" />
+  <object external="FC3_Quadrupeds\DeerFC3.xml" />
+  <object external="FC3_Quadrupeds\DeerFC3.Deer_Normal.xml" />
+  <object external="FC3_Quadrupeds\Dogs_Rapid.xml" />
+  <object external="FC3_Quadrupeds\Dogs_Rapid.Black.xml" />
+  <object external="FC3_Quadrupeds\Dogs_Rapid.Brown.xml" />
+  <object external="FC3_Quadrupeds\Dogs_Rapid.Dingo_black_Legacy.xml" />
+  <object external="FC3_Quadrupeds\Dogs_Rapid.Dingo_brown_Legacy.xml" />
+  <object external="FC3_Quadrupeds\Dogs_Rapid.Dingo_normal_Legacy.xml" />
+  <object external="FC3_Quadrupeds\Goat.xml" />
+  <object external="FC3_Quadrupeds\KomodoDragon.xml" />
+  <object external="FC3_Quadrupeds\KomodoDragon.Komodo_green.xml" />
+  <object external="FC3_Quadrupeds\KomodoDragon.Komodo_normal.xml" />
+  <object external="FC3_Quadrupeds\Leopard.xml" />
+  <object external="FC3_Quadrupeds\Macaque.xml" />
+  <object external="FC3_Quadrupeds\Macaque.Macaque_bomb.xml" />
+  <object external="SimpleAnimal\ShootingGalleryBird_BirdOfParadise.xml" />
+  <object external="SimpleAnimal\ShootingGalleryBird_BirdOfParadise.ShootingGalleryBird_Crow.xml" />
+  <object external="SimpleAnimal\ShootingGalleryBird_BirdOfParadise.ShootingGalleryBird_Seagull.xml" />
+  <object external="SimpleAnimal\Snake.xml" />
+  <object external="Winged\BlackEagle.xml" />
+</object>

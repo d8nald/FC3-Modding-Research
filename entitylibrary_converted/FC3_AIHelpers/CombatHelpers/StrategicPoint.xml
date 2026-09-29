@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7589937556734</field>
+  <field name="Name" type="String">CombatHelpers/StrategicPoint</field>
+  <object name="Entity">
+    <field name="hidName" type="String">FC3_AIHelpers:CombatHelpers/StrategicPoint</field>
+    <field name="disEntityId" type="Int64">297</field>
+    <field name="text_hidEntityClass" type="String">CStrategicPoint</field>
+    <field name="hidEntityClass" type="Hash32">6729AB70</field>
+    <field name="hidResourceCount" type="Int32">0</field>
+    <field name="hidPos" type="Vector3">-4999,-4999,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">-4999,-4999,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <field name="Action" type="String">TAGPOINT_NOACTION</field>
+    <field name="fRadius" type="Float32">10</field>
+    <field name="fMovementRadius" type="Float32">0</field>
+    <field name="selStrategyType" type="Enum">Defensive</field>
+    <field name="selArmy" type="Enum">Blue</field>
+    <field name="nMaxDefensive" type="BinHex">01000000</field>
+    <object name="Components" />
+  </object>
+</object>

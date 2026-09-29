@@ -1,0 +1,8 @@
+<Profile
+    MasterLine="0" 
+    MusicEnabled="1"
+    MasterVolume="100.0"    
+	MicEnabled="1"
+	IncomingVoiceEnabled="1"
+    >
+</Profile>

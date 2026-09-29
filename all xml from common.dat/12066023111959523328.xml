@@ -1,0 +1,63 @@
+<graphickit id="12066023111959523328" name="Privateer_Sniper" unique="0" kittobone="1">
+	<slot name="Body" position="0" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="Privateer_Sniper" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Privateers\Privateer_Sniper.xml" mesh="Privateer_Sniper" weight="4" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Privater_Sniper_Pants_02" id="cromagnoli-M-2011121240249505">
+						<materialdatabase name="" weight="0">
+							<material id="cromagnoli-M-2011121341271598" name="Privater_Sniper_Pants_01" weight="1" file="graphics\_materials\cromagnoli-M-2011121341271598.material.xml" />
+							<material id="cromagnoli-M-2011121240249505" name="Privater_Sniper_Pants_02" weight="1" file="graphics\_materials\cromagnoli-M-2011121240249505.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Privater_Sniper_Jacke" id="cromagnoli-M-2011121240285009">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privater_RPG_shirt_05" id="cromagnoli-M-2011121240829544">
+						<materialdatabase name="" weight="0">
+							<material id="cromagnoli-M-2011121240829544" name="Privater_RPG_shirt_05" weight="1" file="graphics\_materials\cromagnoli-M-2011121240829544.material.xml" />
+							<material id="cromagnoli-M-2011121341284520" name="Privater_RPG_shirt_01" weight="1" file="graphics\_materials\cromagnoli-M-2011121341284520.material.xml" />
+							<material id="bgauthierleblanc-M-20120315184239" name="Privater_RPG_shirt_02" weight="1" file="graphics\_materials\bgauthierleblanc-M-20120315184239.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Privater Sniper DefBackPack" id="cromagnoli-M-2011121241682959">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="PrivateerCap_03" id="cromagnoli-M-2011121250550267">
+						<materialdatabase name="" weight="0">
+							<material id="vfortin-M-2012041663682758" name="PrivateerCap_01" weight="1" file="graphics\_materials\vfortin-M-2012041663682758.material.xml" />
+							<material id="cromagnoli-M-2011121341298014" name="PrivateerCap_02" weight="1" file="graphics\_materials\cromagnoli-M-2011121341298014.material.xml" />
+							<material id="cromagnoli-M-2011121250550267" name="PrivateerCap_03" weight="1" file="graphics\_materials\cromagnoli-M-2011121250550267.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Privater_RPG_shirt_AsCopy_AsCopy" id="cromagnoli-M-2011121250642440">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Shoes_03" id="cromagnoli-M-2011120957323383">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="HeavyGunnerEye" id="slabreche-M-20110512155823">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privateer_Torso_Brown" id="kosullivan-M-20120621152001">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privater_Sniper_Shirt_Gloves" id="cromagnoli-M-2011121253415206">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Berserker face_AsCopy" id="cromagnoli-M-2011121263061329">
+						<materialdatabase name="" weight="0">
+							<material id="cromagnoli-M-2011061062146058" name="Pirates_Berserker face" weight="1" file="graphics\_materials\cromagnoli-M-2011061062146058.material.xml" />
+							<material id="cromagnoli-M-20120821142712" name="Pirates_Berserker face - Copy" weight="1" file="graphics\_materials\cromagnoli-M-20120821142712.material.xml" />
+							<material id="cromagnoli-M-20120821142720" name="Pirates_Berserker face - Copy - Copy" weight="1" file="graphics\_materials\cromagnoli-M-20120821142720.material.xml" />
+							<material id="cromagnoli-M-20120821142725" name="Pirates_Berserker face - Copy - Copy - Copy" weight="1" file="graphics\_materials\cromagnoli-M-20120821142725.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-m-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

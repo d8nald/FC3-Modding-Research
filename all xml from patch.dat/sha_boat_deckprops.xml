@@ -1,0 +1,31 @@
+<entities source_file="graphics\__FC3_Graphics\SideQuests\Vehicles\Sea\SHA_Boat_01.max" objectName="SHA_Boat_DeckProps" model_file="graphics\__FC3_Graphics\SideQuests\Vehicles\Sea\SHA_Boat_DeckProps.glm" havok_file="d:\fc3-sub-win32\data\graphics\__FC3_Graphics\SideQuests\Vehicles\Sea\SHA_Boat_DeckProps">
+    <primitivelod name="SHA_Boat_DeckProps" lod0="140.000000" lod1="300.000000" lod2="1000.000000" lod3="0.000000" lod4="0.000000" lod5="0.000000" />
+    <material_reference_list>
+        <material name="Metal_BodyBoat_01 - DarkRed" shader_name="Generic_FC3" ref_shader_id="sdesjardins-M-20120329154106" />
+        <material name="Metal_Boat_01" shader_name="Generic_FC3" ref_shader_id="sdesjardins-M-2012011361442971" />
+    </material_reference_list>
+    <skeleton_reference_list>
+        <skeleton index="0" pos="0,0,0" rot="1,-0,-0,-0" />
+    </skeleton_reference_list>
+    <trimesh mesh_name="SHA_Boat_DeckProps_LOD0" num_tvertex_channel="2" num_cvertex_channel="1" max_uv_channels="4" negative_scale="0" bboxMin="-2.0585,-27.9174,15.3612" bboxMax="2.04917,-6.44177,21.5778" worldBboxMin="-2.0585,-27.9174,15.3612" worldBboxMax="2.04917,-6.44177,21.5778" />
+    <trimesh mesh_name="SHA_Boat_DeckProps_LOD1" num_tvertex_channel="2" num_cvertex_channel="1" max_uv_channels="4" negative_scale="0" bboxMin="-2.08741,-27.9197,15.4167" bboxMax="2.09364,-6.44008,21.5346" worldBboxMin="-2.08741,-27.9197,15.4167" worldBboxMax="2.09364,-6.44008,21.5346" />
+    <trimesh mesh_name="SHA_Boat_DeckProps_LOD2" num_tvertex_channel="2" num_cvertex_channel="1" max_uv_channels="4" negative_scale="0" bboxMin="-1.79124,-27.7097,15.4167" bboxMax="1.89264,-6.57353,21.5346" worldBboxMin="-1.79124,-27.7097,15.4167" worldBboxMax="1.89264,-6.57353,21.5346" />
+    <havok_primitive name="SHA_Boat_DeckProps" id="xperreault-P-2011081937722076" rigid="0" hasSimpleCol="1" hasComplexCol="1" />
+    <descriptor>
+        <component class="GraphicComponent" version="2" detail="0">
+            <object index="0" boneName="SHA_Boat_DeckProps_LOD0" bboxMin="-2.0585,-27.9174,15.3612" bboxMax="2.04917,-6.44177,21.5778" />
+            <resource fileName="graphics\__FC3_Graphics\SideQuests\Vehicles\Sea\SHA_Boat_DeckProps.xbg" bboxMin="-2.08741,-27.9197,15.3612" bboxMax="2.09364,-6.44008,21.5778" />
+            <skeleton_reference_list>
+                <skeleton name="SHA_Boat_DeckProps" index="0" pos="0,0,0" rot="1,-0,-0,-0" />
+            </skeleton_reference_list>
+            <material_reference_list>
+                <material name="Metal_BodyBoat_01 - DarkRed" shader_name="Generic_FC3" ref_shader_id="sdesjardins-M-20120329154106" />
+                <material name="Metal_Boat_01" shader_name="Generic_FC3" ref_shader_id="sdesjardins-M-2012011361442971" />
+            </material_reference_list>
+        </component>
+        <component class="InteriorVolumeComponent" version="1" detail="0" />
+        <component class="StaticPhysComponent">
+            <resource fileName="graphics\__FC3_Graphics\SideQuests\Vehicles\Sea\SHA_Boat_DeckProps.hkx" />
+        </component>
+    </descriptor>
+</entities>

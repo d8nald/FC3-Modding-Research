@@ -1,0 +1,53 @@
+<graphickit id="12088851485908009216" name="Privateer_VIP" unique="0" kittobone="1">
+	<slot name="Slot1" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Privateer_VIP" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Privateers\Privateer_VIP.xml" mesh="Privateer_VIP" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="VIP_Privateer_Bracers" id="vfortin-M-2012041264499529">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privateer_VIP_Eyes" id="vfortin-M-2012041258947859">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privateer_VIP_Torso" id="vfortin-M-2012041258927984">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privateer_VIP_Shoes" id="vfortin-M-2012041258903784">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privateer_VIP_Shirt" id="vfortin-M-2012041258877128">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privateer_VIP_Jacket" id="vfortin-M-2012041258862631">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privateer_VIP_Pants" id="vfortin-M-2012041258824670">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="VIP_Badges_01" id="slabreche-m-2011080348102720">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Body_Generic" id="slabreche-m-2011041129267145">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privateer_Shirt_VIP" id="vfortin-M-2012041264344081">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privateer_VIP" id="vfortin-M-2012041260884168">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Slot2" position="1" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot3" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot4" position="3" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

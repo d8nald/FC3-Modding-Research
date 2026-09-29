@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7703089382868</field>
+  <field name="Name" type="String">Vehicles/BoatWaterFrictionCurve</field>
+  <object name="Entity">
+    <field name="hidName" type="String">Curves:Vehicles/BoatWaterFrictionCurve</field>
+    <field name="disEntityId" type="Int64">255</field>
+    <field name="text_hidEntityClass" type="String">CCurve</field>
+    <field name="hidEntityClass" type="Hash32">68745CCF</field>
+    <object name="curveCurve">
+      <field name="hidNumKnots" type="Int32">10</field>
+      <field name="hidAllowedTypes" type="Int32">7</field>
+      <object name="Knots">
+        <object name="Knot">
+          <field name="Value" type="Vector4">0,0,0.00825593,8.5824</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">0</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">0.75,25,-0.273335,-8.25708</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">0</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">0.75,25,1.5257,46.0892</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">1</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">5,75,-1.42656,-5.03701</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">1</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">5,75,1.27399,4.49832</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">1</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">12.014,152.071,-6.20425,-38.7839</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">1</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">12.014,152.071,3.08371,19.2768</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">1</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">16,192,-1.61725,-10.978</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">1</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">16,192,2.85066,19.3506</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">1</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">25,250,-3.11069,-19.4733</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">1</field>
+        </object>
+      </object>
+    </object>
+  </object>
+</object>

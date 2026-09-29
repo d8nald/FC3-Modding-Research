@@ -1,0 +1,126 @@
+<graphickit id="12066238124464818432" name="Local_Women" unique="0" kittobone="1">
+	<slot name="Head" position="0" bonename="Head">
+		<partdatabase name="" weight="0">
+			<part name="Native_Woman_Head_01" ref="graphics\__FC3_Graphics\_Common\Characters\Locals\Native_Woman_Head_01.xml" mesh="Native_Woman_Head_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Women_Villager_Head_01" id="slabreche-m-2011081035976975">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Female_Body_Native_01" id="slabreche-m-2011081055364901">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Torso" position="1" bonename="Spine">
+		<partdatabase name="" weight="0">
+			<part name="Native_Woman_Shirt_01" ref="graphics\__FC3_Graphics\_Common\Characters\Locals\Native_Woman_Shirt_01.xml" mesh="Native_Woman_Shirt_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Women_Villager_Shirt_01" id="slabreche-m-2011081036310066">
+						<materialdatabase name="" weight="0">
+							<material id="bgauthierleblanc-M-20120314181916" name="Women_Villager_Shirt_01 - Copy" weight="1" file="graphics\_materials\bgauthierleblanc-M-20120314181916.material.xml" />
+							<material id="slabreche-M-2011081036310066" name="Women_Villager_Shirt_01" weight="1" file="graphics\_materials\slabreche-M-2011081036310066.material.xml" />
+							<material id="bgauthierleblanc-M-20120314182056" name="Women_Villager_Shirt_01 - Copy" weight="1" file="graphics\_materials\bgauthierleblanc-M-20120314182056.material.xml" />
+							<material id="bgauthierleblanc-M-20120412111852" name="Women_Villager_Shirt_03 - Copy" weight="1" file="graphics\_materials\bgauthierleblanc-M-20120412111852.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Legs" position="2" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="Native_Women_Pants_A" ref="graphics\__FC3_Graphics\_Common\Characters\Locals\Native_Women_Pants_A.xml" mesh="Native_Women_Pants_A" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Local_woman_Pants2_C" id="cromagnoli-m-2011081637121641">
+						<materialdatabase name="" weight="0">
+							<material id="bgauthierleblanc-M-20120412112753" name="Local_woman_Pants3_C - Copy" weight="1" file="graphics\_materials\bgauthierleblanc-M-20120412112753.material.xml" />
+							<material id="cromagnoli-M-2011081637121641" name="Local_woman_Pants2_C" weight="1" file="graphics\_materials\cromagnoli-M-2011081637121641.material.xml" />
+							<material id="cromagnoli-M-20120723135937" name="Local_woman_Pants3_C - Copy - Copy" weight="1" file="graphics\_materials\cromagnoli-M-20120723135937.material.xml" />
+							<material id="cromagnoli-M-20120723140046" name="Local_woman_Pants3_C - Copy - Copy - Copy" weight="1" file="graphics\_materials\cromagnoli-M-20120723140046.material.xml" />
+							<material id="cromagnoli-M-20120723140715" name="Local_woman_Pants3_C - Copy - Copy - Copy - Copy" weight="1" file="graphics\_materials\cromagnoli-M-20120723140715.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Female_Body_Native_01" id="slabreche-m-2011081055364901">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Sandals" position="3" bonename="RightFoot">
+		<partdatabase name="" weight="0">
+			<part name="Native_Woman_Sandals_01" ref="graphics\__FC3_Graphics\_Common\Characters\Locals\Native_Woman_Sandals_01.xml" mesh="Native_Woman_Sandals_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Pirates_Shoes_03" id="cromagnoli-m-20110505121012">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="arms" position="4" bonename="Spine">
+		<partdatabase name="" weight="0">
+			<part name="Native_Woman_Arms_01" ref="graphics\__FC3_Graphics\_Common\Characters\Locals\Native_Woman_Arms_01.xml" mesh="Native_Woman_Arms_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Female_Body_Native_01" id="slabreche-m-2011081055364901">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="hair" position="5" bonename="Head">
+		<partdatabase name="" weight="0">
+			<part name="Native_Woman_Hair_00" ref="graphics\__FC3_Graphics\_Common\Characters\Locals\Native_Woman_Hair_00.xml" mesh="Native_Woman_Hair_00" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="villagerHair." id="cromagnoli-M-2011101361297292">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="villagerHair" id="cromagnoli-M-2011101362149785">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="Native_Woman_Hair_01" ref="graphics\__FC3_Graphics\_Common\Characters\Locals\Native_Woman_Hair_01.xml" mesh="Native_Woman_Hair_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="villagerHair." id="cromagnoli-M-2011101361297292">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="eyes" position="6" bonename="Head">
+		<partdatabase name="" weight="0">
+			<part name="NativeWoman_Eyes" ref="graphics\__FC3_Graphics\_Common\Characters\Locals\NativeWoman_Eyes.xml" mesh="NativeWoman_Eyes" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Native Woman Eye" id="slabreche-m-20110719115948">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="teeth" position="7" bonename="Head">
+		<partdatabase name="" weight="0">
+			<part name="Native_Woman_Teeth" ref="graphics\__FC3_Graphics\_Common\Characters\Locals\Native_Woman_Teeth.xml" mesh="Native_Woman_Teeth" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-m-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

@@ -1,0 +1,62 @@
+<graphickit id="12066023111959525632" name="SHA_Chicken" unique="0" kittobone="1">
+	<slot name="MainBody" position="0" bonename="Pelvis">
+		<partdatabase name="" weight="0">
+			<part name="Chicken_A" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Chicken\Chicken_A.xml" mesh="Chicken_A" weight="9" version="1" allowcullbysize="1">
+				<tag name="regular" type="0" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Animal_Grey_ID2" id="jli-M-107201151201026">
+						<materialdatabase name="" weight="0">
+							<material id="yanzhou-M-1908201167717987" name="Chicken_A1_fur" weight="4" file="graphics\_materials\yanzhou-M-1908201167717987.material.xml">
+								<tag name="brown" type="0" />
+								<tag name="pale" type="4" />
+								<tag name="white" type="4" />
+							</material>
+							<material id="yanzhou-M-1708201159458723" name="Chicken_A2_fur" weight="1" file="graphics\_materials\yanzhou-M-1708201159458723.material.xml">
+								<tag name="pale" type="0" />
+								<tag name="white" type="4" />
+								<tag name="brown" type="4" />
+							</material>
+							<material id="yanzhou-M-1908201168434578" name="Chicken_A3_fur" weight="4" file="graphics\_materials\yanzhou-M-1908201168434578.material.xml">
+								<tag name="white" type="0" />
+								<tag name="pale" type="4" />
+								<tag name="brown" type="4" />
+							</material>
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Animal_Grey_ID1" id="jli-M-107201142503596">
+						<materialdatabase name="" weight="0">
+							<material id="yanzhou-M-1908201167678161" name="Chicken_A1_body" weight="4" file="graphics\_materials\yanzhou-M-1908201167678161.material.xml">
+								<tag name="brown" type="0" />
+								<tag name="pale" type="4" />
+								<tag name="white" type="4" />
+							</material>
+							<material id="yanzhou-M-1708201159004362" name="Chicken_A2_body" weight="1" file="graphics\_materials\yanzhou-M-1708201159004362.material.xml">
+								<tag name="pale" type="0" />
+								<tag name="white" type="4" />
+								<tag name="brown" type="4" />
+							</material>
+							<material id="yanzhou-M-1908201168399237" name="Chicken_A3_body" weight="4" file="graphics\_materials\yanzhou-M-1908201168399237.material.xml">
+								<tag name="white" type="0" />
+								<tag name="brown" type="4" />
+								<tag name="pale" type="4" />
+							</material>
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="Ugly_Chicken" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Chicken\Ugly_Chicken.xml" mesh="Ugly_Chicken" weight="1" version="1" allowcullbysize="1">
+				<tag name="rare" type="0" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="UglyChicken_Alpha" id="yanzhou-M-1309201140224991">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Chicken_Ugly_body" id="yanzhou-M-1309201139388697">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

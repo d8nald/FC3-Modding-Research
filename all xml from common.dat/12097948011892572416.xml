@@ -1,0 +1,50 @@
+<graphickit id="12097948011892572416" name="Riley_BeatenUp" unique="0" kittobone="1">
+	<slot name="Body" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Riley_beaten" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\riley\Riley_beaten.xml" mesh="Riley_beaten" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Riley_hairs" id="akotelnikoff-M-2011113064747709">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Riley_gekko" id="akotelnikoff-M-2011121255788339">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-M-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Riley_tshirt" id="akotelnikoff-M-2011112154820645">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Riley_eyelashes" id="akotelnikoff-M-2012010358285380">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Eye_shadow" id="akotelnikoff-M-2011083067336073">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Bullet_blood" id="cromagnoli-M-2012033053221578">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Riley_head_bloody" id="akotelnikoff-M-2012053166285381">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Riley_tshirt_blood" id="akotelnikoff-M-2012053165923317">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Riley_eyes" id="akotelnikoff-M-2012071767123285">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Riley_shoes_dirty" id="akotelnikoff-M-2012071839893788">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Riley_body_dirty" id="akotelnikoff-M-2012071841466478">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Riley_pants_dirty" id="akotelnikoff-M-2012071839765929">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

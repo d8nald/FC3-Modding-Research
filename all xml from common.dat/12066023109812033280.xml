@@ -1,0 +1,59 @@
+<graphickit id="12066023109812033280" name="Earnhardt" unique="0" kittobone="1">
+	<slot name="Slot1" position="0" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="Earnhardt" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\Earnhardt\Earnhardt.xml" mesh="Earnhardt" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Earnhardt_eyeshadow" id="akotelnikoff-M-2012030930338777">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Earnhardt_eyelashes" id="akotelnikoff-M-2012030930655873">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Earnhardt_epingle" id="akotelnikoff-M-2012030849836429">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Earnhardt_glass_AsCopy" id="akotelnikoff-M-2012030848966509">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Earnhardt_pen" id="akotelnikoff-M-2012030848887811">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Earnhardt_Teeth" id="kosullivan-M-2907201160271758">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Earnhardt_shoes" id="akotelnikoff-M-2012030761806808">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Earnhardt_pants" id="akotelnikoff-M-2012030761672587">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Earnhardt_shirt" id="akotelnikoff-M-2012030761649671">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Earnhardt_body" id="akotelnikoff-M-2012030761574682">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Earnhardt_hairs" id="akotelnikoff-M-2012022269097380">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Earnhardt_head_mirror" id="akotelnikoff-M-2012022268765883">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="DocE_eyes" id="akotelnikoff-M-2012062038493371">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Slot2" position="1" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot3" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot4" position="3" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

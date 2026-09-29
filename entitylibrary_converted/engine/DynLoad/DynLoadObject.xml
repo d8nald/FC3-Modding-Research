@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">648525929696063133</field>
+  <field name="Name" type="String">DynLoad/DynLoadObject</field>
+  <object name="Entity">
+    <field name="hidName" type="String">engine:DynLoad/DynLoadObject</field>
+    <field name="disEntityId" type="Int64">280</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">0</field>
+    <field name="hidPos" type="Vector3">0,0,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">0,0,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CDynLoadComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+      </object>
+    </object>
+  </object>
+</object>

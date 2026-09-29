@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">9014782609452713</field>
+  <field name="Name" type="String">Equipped/Binoculars</field>
+  <object name="Entity">
+    <field name="hidName" type="String">gadgets:Equipped/Binoculars</field>
+    <field name="disEntityId" type="Int64">15025</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">7</field>
+    <field name="hidPos" type="Vector3">0,0,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">0,0,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileName" type="String">graphics\__fc3_graphics\_common\props\equipment\camera.xml</field>
+        <field name="fileName" type="Hash64">38E9DE6F10D9B244</field>
+        <field name="hidDescriptor" type="Rml">
+          <rml>
+            <hidDescriptor>
+              <component class="GraphicComponent" version="2" detail="0">
+                <object index="0" meshName="FRAME" boneName="FRAME" bboxMin="-0.102319,-0.233173,-0.0976891" bboxMax="0.0731355,0.00425909,0.0776369" />
+                <resource fileName="graphics\__FC3_Graphics\_Common\Props\Equipment\CAMERA.xbg" bboxMin="-0.102319,-0.233173,-0.0976891" bboxMax="0.0731355,0.00425909,0.0776369" />
+                <skeleton_reference_list>
+                  <skeleton name="CAMERA" index="0" pos="0,0,0" rot="1,-0,-0,-0">
+                    <bone name="FRAME" pos="0,0,0" rot="1,0,0,0" />
+                  </skeleton>
+                </skeleton_reference_list>
+                <material_reference_list>
+                  <material name="Camera_Objectif" shader_name="Metal" ref_shader_id="jfduval-M-2011050455692412" />
+                  <material name="Camera_Rubber" shader_name="Metal" ref_shader_id="jfduval-M-2011050455741354" />
+                  <material name="Camera_Decals" shader_name="Generic_FC3" ref_shader_id="jfduval-M-2011050447342670" />
+                  <material name="Camera_Metal" shader_name="Metal" ref_shader_id="jfduval-M-2011050265311308" />
+                  <material name="Camera_Glass" shader_name="Metal" ref_shader_id="jfduval-M-2011050262695207" />
+                  <material name="Camera_Leather_Dark" shader_name="Metal" ref_shader_id="jfduval-M-2011050262609610" />
+                  <material name="Camera_Buttons" shader_name="Metal" ref_shader_id="jfduval-M-2011050261252064" />
+                  <material name="Camera_Plastic_Dark" shader_name="Metal" ref_shader_id="jfduval-M-2011050261225127" />
+                </material_reference_list>
+              </component>
+              <component class="RigidPhysComponent">
+                <resource fileName="graphics\__FC3_Graphics\_Common\Props\Equipment\CAMERA.hkx" />
+              </component>
+            </hidDescriptor>
+          </rml>
+        </field>
+        <field name="hidCrcCheck" type="Hash32">FFFFFFFF</field>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bCastShadow" type="Boolean">True</field>
+        <field name="bReceiveShadow" type="Boolean">True</field>
+        <field name="bCastAmbientShadow" type="Boolean">True</field>
+        <field name="olgLightGroup" type="Int32">1281</field>
+        <field name="bShowInReflection" type="Boolean">True</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bExcludeFromPortalSystem" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="clrHighLightColor" type="Vector3">1,0.9,0.6</field>
+        <field name="clrHighLightColor2" type="Vector3">0,0,0</field>
+        <field name="fHighLightSpeed" type="Float32">1</field>
+        <field name="bLodDitheringEnable" type="Boolean">True</field>
+        <field name="matIntuitionMaterialName" type="String"></field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field name="bAllowCullBySize" type="Boolean">True</field>
+        <field name="bMotionBlurExclusion" type="Boolean">False</field>
+        <field name="bOverrideLODSphere" type="Boolean">False</field>
+        <field name="fLODSphereRadius" type="Float32">0</field>
+        <field name="vectorAdditionalAABBDimensionForSkin" type="Vector3">1,1,0</field>
+        <field name="text_currentSkin" type="String"></field>
+        <field name="currentSkin" type="Hash32">FFFFFFFF</field>
+        <field name="bUseCurrentSkin" type="Boolean">False</field>
+        <object name="MaterialLightSwitch">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">jfduval-m-2011050265311308</field>
+              <field name="disSlotId" type="Hash32">0543966A</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">jfduval-m-2011050447342670</field>
+              <field name="disSlotId" type="Hash32">3EE70534</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">jfduval-m-2011050261225127</field>
+              <field name="disSlotId" type="Hash32">539F2726</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">jfduval-m-2011050455692412</field>
+              <field name="disSlotId" type="Hash32">765F5345</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">jfduval-m-2011050262609610</field>
+              <field name="disSlotId" type="Hash32">79F64390</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">jfduval-m-2011050261252064</field>
+              <field name="disSlotId" type="Hash32">80CF3D06</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">jfduval-m-2011050262695207</field>
+              <field name="disSlotId" type="Hash32">BE469267</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">jfduval-m-2011050455741354</field>
+              <field name="disSlotId" type="Hash32">DF669D0B</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="MaterialOverrides">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">jfduval-m-2011050265311308</field>
+              <field name="disSlotId" type="Hash32">0543966A</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">jfduval-m-2011050447342670</field>
+              <field name="disSlotId" type="Hash32">3EE70534</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">jfduval-m-2011050261225127</field>
+              <field name="disSlotId" type="Hash32">539F2726</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">jfduval-m-2011050455692412</field>
+              <field name="disSlotId" type="Hash32">765F5345</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">jfduval-m-2011050262609610</field>
+              <field name="disSlotId" type="Hash32">79F64390</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">jfduval-m-2011050261252064</field>
+              <field name="disSlotId" type="Hash32">80CF3D06</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">jfduval-m-2011050262695207</field>
+              <field name="disSlotId" type="Hash32">BE469267</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">jfduval-m-2011050455741354</field>
+              <field name="disSlotId" type="Hash32">DF669D0B</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="SkinList">
+          <object name="Skin">
+            <field name="text_name" type="String"></field>
+            <field name="name" type="Hash32">FFFFFFFF</field>
+            <field name="locSkinNameId" type="Int32">-1</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">0</field>
+          <field name="text_fileModel" type="String">graphics\__fc3_graphics\_common\props\equipment\camera.xbg</field>
+          <field name="fileModel" type="Hash64">37B04E6F10D9B244</field>
+          <field name="hidMeshName" type="String">FRAME</field>
+          <field name="text_hidNodeName" type="String">FRAME</field>
+          <field name="hidNodeName" type="Hash32">42ACFE7D</field>
+          <field name="text_hidNodeNameLOD0" type="String">FRAME_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">117FF4BB</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">1</field>
+          <field name="text_fileModel" type="String"></field>
+          <field name="fileModel" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">FRAME</field>
+          <field name="hidNodeName" type="Hash32">42ACFE7D</field>
+          <field name="text_hidNodeNameLOD0" type="String">FRAME_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">117FF4BB</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+      </object>
+      <object name="CSimpleAnimationComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileSkeleton" type="String">graphics\__fc3_graphics\_common\props\equipment\camera_ref.skeleton</field>
+        <field name="fileSkeleton" type="Hash64">D619712A9C6386D5</field>
+        <field name="text_sPackage" type="String"></field>
+        <field name="sPackage" type="Hash64">FFFFFFFFFFFFFFFF</field>
+        <field name="AutoApplyDisplacement" type="Boolean">False</field>
+        <field name="sPartName" type="String">monocular</field>
+        <field name="bEnableEvents" type="Boolean">False</field>
+        <field name="bRandomStart" type="Boolean">False</field>
+        <field name="text_Animation" type="String"></field>
+        <field name="Animation" type="Hash64">FFFFFFFFFFFFFFFF</field>
+      </object>
+      <object name="CGadget">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="iAnimationValue" type="Int32">6</field>
+        <field name="bByPassLockHiresCustom" type="Boolean">False</field>
+        <field name="sName" type="BinHex">62696E6F63756C61727300</field>
+        <field name="locidDisplayName" type="BinHex">666E0000</field>
+        <field name="selCategory" type="Enum">Binoculars</field>
+        <field name="selUseRateMode" type="Enum">Continuous</field>
+        <field name="iUseRate" type="BinHex">00007042</field>
+        <field name="selUseStrategy" type="Enum">Binoculars</field>
+        <field name="iMaxUsesCasual" type="BinHex">01000000</field>
+        <field name="iMaxUsesExperimented" type="BinHex">01000000</field>
+        <field name="iMaxUsesHardcore" type="BinHex">01000000</field>
+        <field name="iMaxUsesInfamous" type="BinHex">01000000</field>
+        <field name="bUnlimitedUses" type="Boolean">True</field>
+        <field name="arkPickupArchetypeName" type="BinHex">0000000000000000</field>
+        <field name="fLookSensitivity" type="Float32">1</field>
+        <field name="bUseBothHands" type="Boolean">False</field>
+        <field name="bVisibleHolstered" type="Boolean">True</field>
+        <field name="fMoveSpeedFactor" type="Float32">0.75</field>
+        <object name="UseStrategy">
+          <object hash="1719D64A">
+            <field hash="11EF2868" type="BinHex">FFFF9542</field>
+            <field hash="819C3882" type="BinHex">FFFF9F41</field>
+            <field hash="3EAF89ED" type="BinHex">0000003F</field>
+            <field hash="0885811A" type="BinHex">CDCCCC3E</field>
+            <field hash="96D1E68F" type="BinHex">184E35ACE5062000</field>
+            <field hash="8FE2BF28" type="BinHex">626C61636B73637265656E667800</field>
+            <field hash="7D90F9E6" type="BinHex">24A14E95</field>
+            <field hash="02519192" type="BinHex">63616D6572615F7A6F6F6D667800</field>
+            <field hash="F023D75C" type="BinHex">6452554B</field>
+            <field hash="FECD25A9" type="BinHex">63616D6572615F7A6F6F6D667800</field>
+            <field hash="82E3B858" type="BinHex">6452554B</field>
+            <object hash="20CAA674">
+              <field hash="AECEF355" type="BinHex">02000000</field>
+              <field hash="BD01F867" type="BinHex">07000000</field>
+              <object hash="F32C0E1C">
+                <object hash="9A152447">
+                  <field hash="DCB67730" type="BinHex">6F12833A3333333FC2D9213F00000000</field>
+                  <field hash="6BBB9E69" type="BinHex">F90FC9400000803F0000000000000000</field>
+                  <field hash="2CECF817" type="BinHex">00000000</field>
+                </object>
+                <object hash="9A152447">
+                  <field hash="DCB67730" type="BinHex">0000803F0000003F041B13BF76C6CF3E</field>
+                  <field hash="6BBB9E69" type="BinHex">F90FC9400000803F0000000000000000</field>
+                  <field hash="2CECF817" type="BinHex">00000000</field>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object hash="2CCAFDE2">
+            <field hash="DEB4263C" type="BinHex">0000403F</field>
+            <field hash="8D123ED8" type="BinHex">9A99993E</field>
+          </object>
+          <object hash="6B13E8BF">
+            <field hash="7908F279" type="BinHex">00009643</field>
+            <field hash="183C965A" type="BinHex">0000C040</field>
+            <field hash="E232F7C1" type="BinHex">0AD7A33C</field>
+            <field hash="F5690D98" type="BinHex">00008043</field>
+            <field hash="B308B26B" type="BinHex">00008043</field>
+          </object>
+          <object hash="01C3A843">
+            <field hash="2BFCDBA2" type="BinHex">00004040</field>
+            <field hash="04009FC3" type="BinHex">0000A041</field>
+            <field hash="AB32112B" type="BinHex">00</field>
+          </object>
+          <object hash="394FEC80">
+            <field hash="2AE1CEB5" type="BinHex">3078303030333031453500</field>
+            <field hash="DC8D03E1" type="BinHex">0C000000</field>
+            <field hash="967392C9" type="BinHex">82250500</field>
+            <field hash="5E0E55A2" type="BinHex">3078303030333031453700</field>
+            <field hash="3C332A98" type="BinHex">0C000000</field>
+            <field hash="70618710" type="BinHex">3078303030333031453300</field>
+            <field hash="E3F220D1" type="BinHex">0C000000</field>
+            <field hash="D7563DBD" type="BinHex">3078303030343732324600</field>
+            <field hash="6475993D" type="BinHex">0C000000</field>
+          </object>
+          <object hash="7965C3EC">
+            <field hash="3924E150" type="BinHex">67726170686963735C5F5F6663335F67726170686963735C5F636F6D6D6F6E5C5F74657874757265735C66785C6663335F6766785F6C69676874666C617265676C6F7730312E78627400</field>
+            <field hash="A5DEE8CA" type="BinHex">0963D39B5E89F2EB</field>
+            <field hash="9EC0592A" type="BinHex">3078303031433234334500</field>
+            <field hash="D3D97558" type="BinHex">0C000000</field>
+            <object hash="87281FA5">
+              <field hash="F407C49F" type="BinHex">00000000</field>
+              <field hash="7E756F9C" type="BinHex">00000000</field>
+              <field hash="72AEEBD4" type="BinHex">CDCCCC3D</field>
+              <field hash="05A9DB42" type="BinHex">CDCCCC3D</field>
+              <field hash="15E2FF25" type="BinHex">00000000</field>
+              <field hash="500F629A" type="BinHex">0000803F0000803F0000803F</field>
+              <field hash="160F3BD0" type="BinHex">CDCC4C3E</field>
+              <field hash="2F09F5EC" type="BinHex">00000000</field>
+              <field hash="B76DA2C6" type="BinHex">00008040</field>
+              <field hash="6BD18397" type="BinHex">0000803F</field>
+              <field hash="A1585FB6" type="BinHex">00008047</field>
+              <field hash="3166F8B3" type="BinHex">00000000</field>
+              <field hash="8D4DBEBD" type="BinHex">00000000</field>
+              <field hash="4291D307" type="BinHex">00000000</field>
+            </object>
+            <object hash="EBBBD43D">
+              <object hash="FA3B473B">
+                <field hash="5EA07879" type="BinHex">00000000</field>
+                <field hash="8D040286" type="BinHex">00008044</field>
+                <field hash="446C504A" type="BinHex">000080400000804000008040</field>
+              </object>
+              <object hash="FA3B473B">
+                <field hash="5EA07879" type="BinHex">00008044</field>
+                <field hash="8D040286" type="BinHex">00008045</field>
+                <field hash="446C504A" type="BinHex">000000410000004100000041</field>
+              </object>
+              <object hash="FA3B473B">
+                <field hash="5EA07879" type="BinHex">00008045</field>
+                <field hash="8D040286" type="BinHex">00008046</field>
+                <field hash="446C504A" type="BinHex">000080410000804100008041</field>
+              </object>
+              <object hash="FA3B473B">
+                <field hash="5EA07879" type="BinHex">00008046</field>
+                <field hash="8D040286" type="BinHex">00008047</field>
+                <field hash="446C504A" type="BinHex">0000A0410000A0410000A041</field>
+              </object>
+              <object hash="FA3B473B">
+                <field hash="5EA07879" type="BinHex">00008047</field>
+                <field hash="8D040286" type="BinHex">EEFF7F7F</field>
+                <field hash="446C504A" type="BinHex">000000420000004200000042</field>
+              </object>
+            </object>
+          </object>
+        </object>
+        <object name="StatisticsAndProgressionWiki">
+          <object name="StatisticUsageCount">
+            <field name="selStatisticType" type="Enum">None</field>
+          </object>
+        </object>
+      </object>
+      <object name="CFlashToTextureComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="fActivationDistance" type="Float32">0</field>
+        <object name="TagTextMaterial">
+          <field name="bIsActive" type="Boolean">False</field>
+          <field name="sMaterial" type="String"></field>
+          <field name="sTexture" type="String"></field>
+        </object>
+        <object name="FlashProperties">
+          <field name="selTextureType" type="Enum">None</field>
+          <field name="sflashName" type="String"></field>
+          <field name="sflashDescription" type="String"></field>
+          <field name="iViewportSizeX" type="Int32">512</field>
+          <field name="iViewportSizeY" type="Int32">512</field>
+          <field name="iVideoSizeX" type="Int32">512</field>
+          <field name="iVideoSizeY" type="Int32">512</field>
+        </object>
+        <object name="SoundProperties">
+          <field name="sndAmbientPlay" type="String">0xFFFFFFFF</field>
+          <field name="sndAmbientStop" type="String">0xFFFFFFFF</field>
+          <field name="sndtpAmbientSoundType" type="Hash32">FFFFFFFF</field>
+        </object>
+      </object>
+      <object name="CGadgetNetworkComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+      </object>
+      <object name="CDynamicDeploadComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+      </object>
+    </object>
+  </object>
+</object>

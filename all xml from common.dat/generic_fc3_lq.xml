@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materialdescriptor xmlns:xi="#" name="Generic_FC3_LQ" id="#(0x3ae2b8e, 0x757a9254)" version="6">
+    <geometryInputs normal="1" uvChannels="1" />
+
+    <parameter name="AlphaTestEnabled" type="bool" />
+    <parameter name="TwoSided" type="bool" />
+    <parameter name="EnableCollectionDithering" type="bool" />
+    
+
+    <parameter name="UVsTiling" type="float2" defaultvalue="1,1" />
+
+    <parameter name="DiffuseTexture1" type="sampler2D" tilingName="UVsTiling" />
+    <parameter name="DiffuseColor1" type="color4" defaultvalue="1,1,1,1" multiplier="1" />
+    <parameter name="DiffuseTexture1Priority" type="int" defaultvalue="1" />
+
+    <parameter name="SpecularTexture1" type="sampler2D" tilingName="UVsTiling" />
+    <parameter name="SpecularColor1" type="color4" />
+    <parameter name="SpecularTexture1Priority" type="int" defaultvalue="1" />
+  
+    <parameter name="SpecularPower" type="float" defaultvalue="16" displayInMax="1" />
+
+    <parameter name="SpecMultiplier" type="float" defaultvalue="1.0" displayInMax="1"/>
+    <parameter name="BurnMultiplier" type="float" defaultvalue="1"/>
+    
+    <parameterprovider parametersfilename="Mesh_Generic_FC3_LQ.parameters.inc.fx">
+        <parameter name="DiffuseTexture1">
+            <alias name="DiffuseTexture1Shadow" />
+        </parameter>
+        <parameter name="DiffuseColor1" />
+        <parameter name="UVsTiling" />
+        <parameter name="SpecularTexture1" />
+        <parameter name="SpecularColor1" />
+        <parameter name="SpecularPower" />
+        <parameter name="SpecMultiplier" />
+        <parameter name="EnableCollectionDithering" />
+        <parameter name="BurnMultiplier" />
+    </parameterprovider>
+
+    <ui>
+        <xi:include href="../MaterialUIInclude.xml" />
+        
+        <group horizontal="0" label="Settings">
+            <group>
+                <checkbox label="Two sided" dataBindings="TwoSided" />
+                <checkbox label="Alpha test" dataBindings="AlphaTestEnabled" />
+            </group>
+            <group>
+                  <textbox label="Tiling U" dataBindings="UVsTiling.x">
+                    <dataBindings class="Tiling" />
+                  </textbox>
+                  <textbox label="Tiling V" dataBindings="UVsTiling.y">
+                    <dataBindings class="Tiling" />
+                  </textbox>
+            </group>
+          <group>
+            <label>Tiling U</label>
+            <label>Tiling V</label>
+          </group>
+        </group>
+
+        <group label="Diffuse">
+            <group horizontal="1">
+                <button dataBindings="DiffuseColor1" overridableInDerivation="1">
+                    <dataBindings type="color" />
+                </button>
+                <button dataBindings="DiffuseTexture1" fill="1" />
+            </group>
+        </group>
+
+        <group label="Specular">
+            <group horizontal="1">
+                <button dataBindings="SpecularColor1" overridableInDerivation="1">
+                    <dataBindings type="color" />
+                </button>
+                <button dataBindings="SpecularTexture1" fill="1" />
+            </group>
+            <group horizontal="1">
+                <label>Gloss</label>
+                <textbox databindings="SpecularPower" overridableInDerivation="1">
+                    <dataBindings class="ZeroPositiveCff" />
+                </textbox>
+            </group>
+        </group>
+    </ui>
+</materialdescriptor>

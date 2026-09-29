@@ -1,0 +1,59 @@
+<graphickit id="12081805022975754496" name="bambi short" unique="0" kittobone="0">
+	<slot name="Slot1" position="0" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="Bambi_Shorts" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\Bambi\Bambi_Shorts.xml" mesh="Bambi_Shorts" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="bambi eye" id="cromagnoli-M-2011091360784343">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="bambi IRIS" id="cromagnoli-M-2011091361171498">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="NC_teeth" id="akotelnikoff-m-2010072781344791">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Bambeard" id="cromagnoli-M-2012022336252058">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Standard_7_AsCopy" id="cromagnoli-M-2012022350906390">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Bambi Shirt" id="vfortin-M-2012030562346963">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Bambi Legs" id="vfortin-M-2012030640794167">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Shoes Bambi" id="vfortin-M-2012030561825650">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Bambi Shorts" id="vfortin-M-2012030560024028">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Bambi_Cloths_Leather" id="bwaddingham-m-2011090249493003">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Bambi_Body_Generic" id="bwaddingham-m-2011090238689715">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Bambi_Chains_Metal" id="bwaddingham-m-2011090249482350">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Bambi_Head_Temp" id="kosullivan-m-0109201140209205">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Slot2" position="1" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot3" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot4" position="3" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

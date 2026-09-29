@@ -1,0 +1,38 @@
+<graphickit id="12066023111959525376" name="SHA_Crocodile" unique="0" kittobone="1">
+	<slot name="MainBody" position="0" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="Crocodile" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Crocodile\Crocodile.xml" mesh="Crocodile" weight="4" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Animal_Grey_ID2" id="jli-M-107201151201026">
+						<materialdatabase name="" weight="0">
+							<material id="yanzhou-M-2907201161545826" name="Crocodile_eyes" weight="1" file="graphics\_materials\yanzhou-M-2907201161545826.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Animal_Grey_ID1" id="jli-M-107201142503596">
+						<materialdatabase name="" weight="0">
+							<material id="yanzhou-M-2107201165520254" name="Crocodile" weight="6" file="graphics\_materials\yanzhou-M-2107201165520254.material.xml">
+								<tag name="regular" type="0" />
+								<tag name="green" type="4" />
+								<tag name="white" type="4" />
+								<tag name="brown" type="0" />
+							</material>
+							<material id="yanzhou-M-1801201261584295" name="Crocodile_Green" weight="4" file="graphics\_materials\yanzhou-M-1801201261584295.material.xml">
+								<tag name="green" type="0" />
+								<tag name="white" type="4" />
+								<tag name="regular" type="0" />
+								<tag name="brown" type="4" />
+							</material>
+							<material id="yanzhou-M-1801201263226736" name="Crocodile_white" weight="1" file="graphics\_materials\yanzhou-M-1801201263226736.material.xml">
+								<tag name="white" type="0" />
+								<tag name="green" type="4" />
+								<tag name="regular" type="4" />
+								<tag name="brown" type="4" />
+							</material>
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

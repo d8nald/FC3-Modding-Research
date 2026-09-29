@@ -1,0 +1,49 @@
+<graphickit id="12066023111959528192" name="SHA_Leopard" unique="0" kittobone="1">
+	<slot name="MainBody" position="0" bonename="Pelvis">
+		<partdatabase name="" weight="0">
+			<part name="Leopard_01" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Leopard\Leopard_01.xml" mesh="Leopard_01" weight="1" version="1" allowcullbysize="1">
+				<tag name="puma" type="4" />
+				<tag name="panther" type="4" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Leopard_Skin" id="vfortin-M-2012080852401359">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="LeopardEyes" id="vfortin-M-2012080846015555">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Leopard_Teeth" id="vfortin-M-2012080852523889">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="Leopard_02" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Leopard\Leopard_02.xml" mesh="Leopard_02" weight="1" version="1" allowcullbysize="1">
+				<tag name="leopard" type="4" />
+				<tag name="ulc" type="4" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="LeopardEyes" id="vfortin-M-2012080846015555">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Leopard_Teeth" id="vfortin-M-2012080852523889">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Panther_Skin02" id="vfortin-M-2012081049357038">
+						<materialdatabase name="" weight="0">
+							<material id="vfortin-M-20120810160850" name="Puma_Skin" weight="1" file="graphics\_materials\vfortin-M-20120810160850.material.xml">
+								<tag name="panther" type="4" />
+								<tag name="leopard" type="4" />
+								<tag name="ulc" type="4" />
+							</material>
+							<material id="vfortin-M-2012081049357038" name="Panther_Skin02" weight="1" file="graphics\_materials\vfortin-M-2012081049357038.material.xml">
+								<tag name="puma" type="4" />
+								<tag name="leopard" type="4" />
+								<tag name="ulc" type="4" />
+							</material>
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

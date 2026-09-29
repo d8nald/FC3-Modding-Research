@@ -1,0 +1,85 @@
+<graphickit id="12082174710138274304" name="Rebel_Defender_NoTattoo" unique="0" kittobone="1">
+	<slot name="Body" position="0" bonename="Spine2">
+		<partdatabase name="" weight="0">
+			<part name="Rebel_Defender_Body" ref="graphics\__FC3_Graphics\_Common\Characters\Rebels\Rebel_Defender_Body.xml" mesh="Rebel_Defender_Body" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Rebel_Defender_gloves" id="vrizzi-M-1210201137456460">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebel_Defender_Rope" id="vrizzi-M-1210201137821243">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebel_Defender_Arms" id="vrizzi-M-1710201153179438">
+						<materialdatabase name="" weight="0">
+							<material id="vfortin-M-20120308141020" name="Rebel_Defender_Arms_NoTattoo" weight="1" file="graphics\_materials\vfortin-M-20120308141020.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-m-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebels_shirt_collar" id="vrizzi-M-2909201132465112">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebels_shirt" id="vrizzi-M-2909201132712619">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebel_vest_buttons" id="vrizzi-M-2909201132928684">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebel_vest" id="vrizzi-M-2809201162167792">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebel_ammo_pouch" id="vrizzi-M-2909201132362296">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebels_Defender_Bandana" id="vrizzi-M-1410201159264952">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Pants" position="1" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="Rebel_Pants" ref="graphics\__FC3_Graphics\_Common\Characters\Rebels\Rebel_Pants.xml" mesh="Rebel_Pants" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Rebels_NPC_Pants_01" id="slabreche-M-2011111751362114">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Material #1328_AsCopy" id="slabreche-m-2011090151899407">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebels_Assaulter_Body_01" id="slabreche-m-2011090259311431">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Head" position="2" bonename="Head">
+		<partdatabase name="" weight="0">
+			<part name="Rebel_Defender_Head_01" ref="graphics\__FC3_Graphics\_Common\Characters\Rebels\Rebel_Defender_Head_01.xml" mesh="Rebel_Defender_Head_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Native Woman Eye" id="slabreche-m-20110719115948">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebel_Defender_Arms" id="vrizzi-M-1710201153179438">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Native_Head_01" id="slabreche-m-2011071854261895">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebel_Defender_Hair" id="vrizzi-M-1310201162323158">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebel_Defender_beard" id="vrizzi-M-1310201155822523">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

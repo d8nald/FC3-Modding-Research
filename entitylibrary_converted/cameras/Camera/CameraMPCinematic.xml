@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7646025432513</field>
+  <field name="Name" type="String">Camera/CameraMPCinematic</field>
+  <object name="Entity">
+    <field name="hidName" type="String">cameras:Camera/CameraMPCinematic</field>
+    <field name="disEntityId" type="Int64">9</field>
+    <field name="text_hidEntityClass" type="String">COmniMapEntity</field>
+    <field name="hidEntityClass" type="Hash32">888164B2</field>
+    <field name="hidResourceCount" type="Int32">2</field>
+    <field name="hidPos" type="Vector3">-129,-129,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">-129,-129,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CFCXAnimatableCameraComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="fCameraBlendTime" type="Float32">0</field>
+        <field name="fNearDistance" type="Float32">0.25</field>
+        <field name="fFarDistance" type="Float32">1000</field>
+        <field name="fFOV" type="Float32">75</field>
+        <field name="fNearFOV" type="Float32">65</field>
+      </object>
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="hidInjected" type="Boolean">True</field>
+        <field name="text_fileName" type="String">graphics\__fc3_graphics\_common\characters\animals\bird\bird.xml</field>
+        <field name="fileName" type="Hash64">35BAE98208E66D84</field>
+        <field name="hidDescriptor" type="Rml">
+          <rml>
+            <hidDescriptor>
+              <component class="GraphicComponent" version="2" detail="0">
+                <object index="0" boneName="Bird_LOD0" bboxMin="-0.652399,-0.44199,0.000509567" bboxMax="0.652399,0.213814,0.393996" />
+                <resource fileName="graphics\__FC3_Graphics\_Common\Characters\Animals\Bird\Bird.xbg" bboxMin="-0.652399,-0.44199,0.000509567" bboxMax="0.652399,0.213814,0.393996" />
+                <skeleton_reference_list>
+                  <skeleton name="Bird" index="0" pos="0,0,0" rot="1,-0,-0,-0">
+                    <bone name="Hips" pos="0,-0.112415,0.126372" rot="0.390609,0.589427,0.390609,0.589427">
+                      <bone name="Spine" pos="0.077895,-0,0" rot="0.99964,0,-0,0.0268335">
+                        <bone name="Neck" pos="0.125174,0,0" rot="0.993166,-0,0,0.116713">
+                          <bone name="Head" pos="0.04903,0,0" rot="0.952211,-1.22176e-006,-6.10882e-007,-0.305441" />
+                        </bone>
+                        <bone name="LeftArm" pos="0.083432,-0.005101,0" rot="0.841819,-0.239869,0.264349,0.404874">
+                          <bone name="LeftForearm" pos="0.13628,0,-0" rot="0.986849,-0.000823734,0.161534,0.0058927">
+                            <bone name="LeftHand" pos="0.158174,0,-0" rot="0.970178,4.8479e-007,0.242395,2.42395e-007" />
+                          </bone>
+                        </bone>
+                        <bone name="RightArm" pos="0.083432,-0.005101,-0" rot="-0.239869,0.841819,0.404874,0.264349">
+                          <bone name="RightForearm" pos="0.13628,-0,-0" rot="0.986063,0.000574643,0.166197,-0.00758">
+                            <bone name="RightHand" pos="0.160742,0,-0" rot="0.971346,0.000516696,0.237661,0.00206916" />
+                          </bone>
+                        </bone>
+                      </bone>
+                      <bone name="Tail" pos="-0.009503,0.000491,-0" rot="0.0849707,-0,9.96383e-007,0.996383">
+                        <bone name="Tail_nub" pos="0.334769,0,0" rot="1,0,0,0" />
+                      </bone>
+                      <bone name="RightUpperLeg" pos="0.049588,-0.032848,0.03337" rot="0.730838,0,-0,-0.682551" />
+                      <bone name="LeftUpperLeg" pos="0.049588,-0.032848,-0.03337" rot="-1.62921e-007,0.730838,-0.682551,0" />
+                    </bone>
+                  </skeleton>
+                </skeleton_reference_list>
+                <material_reference_list>
+                  <material name="testBird" shader_name="Generic_FC3" ref_shader_id="Vfortin-M-2011032246212114" />
+                </material_reference_list>
+              </component>
+              <component class="RigidPhysComponent">
+                <resource fileName="graphics\__FC3_Graphics\_Common\Characters\Animals\Bird\Bird.hkx" />
+              </component>
+            </hidDescriptor>
+          </rml>
+        </field>
+        <field name="hidCrcCheck" type="Hash32">FFFFFFFF</field>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="hidInjected" type="Boolean">True</field>
+        <field name="bCastShadow" type="Boolean">False</field>
+        <field name="bReceiveShadow" type="Boolean">False</field>
+        <field name="bCastAmbientShadow" type="Boolean">False</field>
+        <field name="olgLightGroup" type="Int32">129</field>
+        <field name="bShowInReflection" type="Boolean">False</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bExcludeFromPortalSystem" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="clrHighLightColor" type="Vector3">1,0.903545,0.604147</field>
+        <field name="clrHighLightColor2" type="Vector3">0,0,0</field>
+        <field name="fHighLightSpeed" type="Float32">1</field>
+        <field name="bLodDitheringEnable" type="Boolean">True</field>
+        <field name="matIntuitionMaterialName" type="String"></field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field name="bAllowCullBySize" type="Boolean">True</field>
+        <field name="bMotionBlurExclusion" type="Boolean">False</field>
+        <field name="bOverrideLODSphere" type="Boolean">False</field>
+        <field name="fLODSphereRadius" type="Float32">0</field>
+        <field name="vectorAdditionalAABBDimensionForSkin" type="Vector3">1,1,0</field>
+        <field name="text_currentSkin" type="String"></field>
+        <field name="currentSkin" type="Hash32">FFFFFFFF</field>
+        <field name="bUseCurrentSkin" type="Boolean">False</field>
+        <object name="MaterialLightSwitch">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">vfortin-m-2011032246212114</field>
+              <field name="disSlotId" type="Hash32">B8271FE3</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="MaterialOverrides">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">vfortin-m-2011032246212114</field>
+              <field name="disSlotId" type="Hash32">B8271FE3</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="SkinList">
+          <object name="Skin">
+            <field name="text_name" type="String"></field>
+            <field name="name" type="Hash32">FFFFFFFF</field>
+            <field name="locSkinNameId" type="Int32">-1</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">0</field>
+          <field name="text_fileModel" type="String">graphics\__fc3_graphics\_common\characters\animals\bird\bird.xbg</field>
+          <field name="fileModel" type="Hash64">3AE3798208E66D84</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">Bird</field>
+          <field name="hidNodeName" type="Hash32">00890130</field>
+          <field name="text_hidNodeNameLOD0" type="String">Bird_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">93D0C73E</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">1</field>
+          <field name="text_fileModel" type="String"></field>
+          <field name="fileModel" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">Bird</field>
+          <field name="hidNodeName" type="Hash32">00890130</field>
+          <field name="text_hidNodeNameLOD0" type="String">Bird_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">93D0C73E</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+      </object>
+      <object name="CSimpleAnimationComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="hidInjected" type="Boolean">True</field>
+        <field name="text_fileSkeleton" type="String">graphics\__fc3_graphics\_common\characters\animals\bird\hips_ref.skeleton</field>
+        <field name="fileSkeleton" type="Hash64">EBBE94D30497AB69</field>
+        <field name="text_sPackage" type="String"></field>
+        <field name="sPackage" type="Hash64">FFFFFFFFFFFFFFFF</field>
+        <field name="AutoApplyDisplacement" type="Boolean">False</field>
+        <field name="sPartName" type="String"></field>
+        <field name="bEnableEvents" type="Boolean">False</field>
+        <field name="bRandomStart" type="Boolean">False</field>
+        <field name="text_Animation" type="String"></field>
+        <field name="Animation" type="Hash64">FFFFFFFFFFFFFFFF</field>
+      </object>
+    </object>
+  </object>
+</object>

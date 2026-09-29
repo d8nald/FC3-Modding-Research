@@ -1,0 +1,60 @@
+<graphickit id="12066023109812038656" name="Privateer_Defender" unique="0" kittobone="1">
+	<slot name="Body" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Privateer_Defender" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Privateers\Privateer_Defender.xml" mesh="Privateer_Defender" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Pirates_Benchmark_Face_AsCopy_AsCopy_AsCopy" id="cromagnoli-M-2011120959210487">
+						<materialdatabase name="" weight="0">
+							<material id="cromagnoli-M-2011120959210487" name="Pirates_Benchmark_Face_AsCopy_AsCopy_AsCopy" weight="1" file="graphics\_materials\cromagnoli-M-2011120959210487.material.xml" />
+							<material id="cromagnoli-M-2011120958620073" name="Pirates_Benchmark_Face_AsCopy_AsCopy" weight="1" file="graphics\_materials\cromagnoli-M-2011120958620073.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Privateer_HeavyFlamer_Vest_01" id="slabreche-M-2011120251945987">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privateer_Heavy_Vest" id="slabreche-M-2011121934271497">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="eye" id="cromagnoli-M-2011120962900465">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Shoes_03_AsCopy" id="cromagnoli-M-2011121341310943">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privater_Sniper_Jacke" id="cromagnoli-M-2011121240285009">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privater_RPG_Helmet" id="cromagnoli-M-2011120952033140">
+						<materialdatabase name="" weight="0">
+							<material id="bgauthierleblanc-M-20120314144343" name="Privater_Helmet_Defender" weight="1" file="graphics\_materials\bgauthierleblanc-M-20120314144343.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Privater_RPG_shirt_AsCopy" id="vfortin-M-2012011158138492">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privater_Sniper_Jacke_AsCopy" id="vfortin-M-2012011158125716">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privater_Sniper_Pants_AsCopy" id="vfortin-M-2012011157805231">
+						<materialdatabase name="" weight="0">
+							<material id="cromagnoli-M-2011121341271598" name="Privater_Sniper_Pants_01" weight="1" file="graphics\_materials\cromagnoli-M-2011121341271598.material.xml" />
+							<material id="cromagnoli-M-2011121240249505" name="Privater_Sniper_Pants_02" weight="1" file="graphics\_materials\cromagnoli-M-2011121240249505.material.xml" />
+							<material id="cromagnoli-M-20120615110353" name="Privater_Sniper_Pants_02" weight="1" file="graphics\_materials\cromagnoli-M-20120615110353.material.xml" />
+							<material id="cromagnoli-M-2012041052894348" name="Privater_Sniper_Pants_AsCopy_AsCopy" weight="1" file="graphics\_materials\cromagnoli-M-2012041052894348.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Slot2" position="1" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot3" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot4" position="3" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

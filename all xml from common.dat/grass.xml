@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<materialdescriptor xmlns:xi="#" name="Grass" id="#(0x286f55b9, 0x6fc41d9)" version="6">
+    <geometryInputs normal="1" tangent="0" binormal="0" color="1" uvChannels="1" />
+
+    <!-- As of 2009/06/04, the grass shader uses no vertex painting or masks -->
+
+    <parameter name="AlphaTestEnabled" type="bool" />
+    <parameter name="TwoSided" type="bool" />
+    <parameter name="EnableBillboarding" type="bool" useDefine="ENABLE_BILLBOARDING" />
+    <parameter name="EnableCollectionDithering" type="bool" />
+    <parameter name="EnableInstanceFollowTerrain" type="bool" useDefine="ENABLE_INSTANCE_FOLLOW_TERRAIN" />
+
+    <parameter name="DiffuseTexture1" type="sampler2D" tilingName="DiffuseTiling1" />
+    <parameter name="SpecularTexture" type="sampler2D" tilingName="DiffuseTiling1" useDefine="SPECULARMAP" />
+    <parameter name="BurnNoiseTexture" type="sampler2D" tilingName="DiffuseTiling1" replaceTexture="perlinNoise" />
+    <parameter name="DiffuseTiling1" type="float2" /> 
+    <parameter name="BlendWithTerrain" type="bool" defaultvalue="1"/>
+    <parameter name="BlendColor" type="color4" defaultvalue="0.5,0.5,0.5,1" />
+    <parameter name="TranslucencySSS" type="float" defaultvalue="1.0"/>
+    <parameter name="GrassHeight" type="float" defaultvalue="2.0"/>
+    <parameter name="SpecularSettings" type="float4" defaultvalue="0.0,0.0,0.0,0.0" displayInMax="1" />
+    <parameter name="NormalGeneration" type="int" defaultvalue="1" />
+    <parameter name="CastAmbientShadows" type="bool" defaultvalue="0"/>
+
+    <parameterprovider parametersfilename="Mesh_Grass.parameters.inc.fx">
+        <parameter name="AlphaTestEnabled" />
+        <parameter name="DiffuseTexture1" />
+        <parameter name="SpecularTexture" />
+        <parameter name="BurnNoiseTexture" />
+        <parameter name="DiffuseTiling1" />        
+        <parameter name="BlendWithTerrain" />
+        <parameter name="GrassHeight" />
+        <parameter name="BlendColor" />
+        <parameter name="TranslucencySSS" />
+        <parameter name="SpecularSettings" />
+        <parameter name="NormalGeneration" />
+        <parameter name="EnableCollectionDithering" />
+        <parameter name="CastAmbientShadows" />
+    </parameterprovider>
+
+    <ui>
+        <group horizontal="0" label="Settings">
+            <checkbox label="Two sided" dataBindings="TwoSided" />
+            <checkbox label="Alpha test" dataBindings="AlphaTestEnabled" />
+            <checkbox label="Enable billboarding" dataBindings="EnableBillboarding" />
+            <checkbox label="Enable instance follow terrain" dataBindings="EnableInstanceFollowTerrain" />
+            <checkbox label="Ambient shadow casting" dataBindings="CastAmbientShadows" />
+            <group horizontal="0" label="Color modulation">
+                <checkbox label="Blend with terrain (otherwise uses BlendColor)" dataBindings="BlendWithTerrain" />
+                <group horizontal="1">
+                    <label>BlendColor</label>
+                    <button dataBindings="BlendColor">
+                        <dataBindings type="color" />
+                    </button>
+                </group>                
+            </group>
+            <group horizontal="1">
+                <label>How to generate normals</label>
+                <combobox dataBindings="NormalGeneration">
+                    <comboboxitem value="0">FromGeometryVertex</comboboxitem>
+                    <comboboxitem value="1">FromTerrainSlope</comboboxitem>
+                    <comboboxitem value="2">VistaTrees</comboboxitem>
+                    <!-- see NomadClamp( normalGenerationValue, 0, 2); in scenematerialprivatedata.cpp -->
+                </combobox>
+            </group>
+            <group horizontal="1">
+                <label>Translucency of the SSS</label>
+                <textbox label="Translucency of the SSS" dataBindings="TranslucencySSS">
+                    <dataBindings minvalue="0.0" maxvalue="1.0" defaultvalue="1.0" />
+                </textbox>
+            </group>
+            <group horizontal="1">
+                <label>Grass Height</label>
+                <textbox label="Perceived height of grass" dataBindings="GrassHeight" width="100">
+                    <dataBindings minvalue="0.0" maxvalue="10000000.0" defaultvalue="2.0" />
+                </textbox>
+            </group>
+        </group>    
+
+        <group horizontal="1" label="Diffuse">
+            <button dataBindings="DiffuseTexture1" fill="1" />
+            <group>
+                <textbox dataBindings="DiffuseTiling1.x">
+                    <dataBindings type="int" />
+                </textbox>
+                <textbox dataBindings="DiffuseTiling1.y">
+                    <dataBindings type="int" />
+                </textbox>
+            </group>
+        </group>
+        <group horizontal="0" label="Specular settings">
+            <group horizontal="1" label="SpecularMask">
+                <button dataBindings="SpecularTexture" fill="1" />
+            </group>
+            <group horizontal="1">
+                <label>Glossiness</label>
+                <textbox dataBindings="SpecularSettings.x" overridableInDerivation="1">
+                    <dataBindings minvalue="0.0" maxvalue="1.0" defaultvalue="0.5" />
+                </textbox>
+            </group>
+        </group>
+    </ui>
+    
+</materialdescriptor>

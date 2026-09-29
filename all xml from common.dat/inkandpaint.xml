@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<materialdescriptor xmlns:xi="#" name="InkAndPaint" id="#(0x759b4c7c, 0x5c18d2e8)" version="1">
+    <geometryInputs normal="1" tangent="1" binormal="1" color="1" uvChannels="2" />
+
+    <!-- Textrues -->
+    <parameter name="OutlineShapePatternTexture" type="sampler2D" UvName="UVGroupMapChannel0" useDefine="OUTLINE_SHAPE_TEXTURE"/>
+    <parameter name="OutlineVisualTexture" type="sampler2D" UvName="UVGroupMapChannel0" useDefine="OUTLINE_VISUAL_TEXTURE" />
+    <parameter name="OutlineColor" type="color4" defaultvalue="0,0,0,1" />
+    
+    <!-- Uv group and tiling -->
+    <parameter name="OutlineShapePatternTiling" type="float2" defaultvalue="1,1" />
+    <parameter name="OutlineVisualTiling" type="float2" defaultvalue="1,1" />
+    
+    <!-- Colors and spec params -->
+    <parameter name="InteriorColor" type="color4" defaultvalue="0,0,0,1" />
+    <parameter name="BehindObjectColor" type="color4" defaultvalue="1,0,0,1" />
+    <parameter name="UseBehindObjectColor" type="bool" useDefine="USE_BEHIND_OBJECT_COLOR" defaultvalue="false" />
+    <!-- 
+        x : interior opacity
+         y : line width
+         z : Sharpness
+         w : Pattern width
+    --> 
+    <parameter name="InkAndPaintParams" type="float4" defaultvalue="0,1,1,0.2" />
+
+    <parameterprovider parametersfilename="InkAndPaint.parameters.inc.fx">
+        <!-- Textures -->
+        <parameter name="OutlineShapePatternTexture" />
+        <parameter name="OutlineVisualTexture" />
+        <parameter name="OutlineShapePatternTiling" />
+        <parameter name="OutlineVisualTiling" />
+        <parameter name="OutlineColor" />
+        <parameter name="InteriorColor" />
+        <parameter name="InkAndPaintParams" />
+        <parameter name="BehindObjectColor" />
+    </parameterprovider>
+
+    <ui>
+        <xi:include href="../MaterialUIInclude.xml" />
+        
+        <group label="Outline" horizontal="0">
+            <group label="Outline Shape Pattern" horizontal="1">
+                <label>Line width</label>
+                <textbox dataBindings="InkAndPaintParams.y" />
+                <button dataBindings="OutlineShapePatternTexture" fill="1" />
+                <group horizontal="0">
+                    <textbox dataBindings="OutlineShapePatternTiling.x">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                    <textbox dataBindings="OutlineShapePatternTiling.y">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                </group>
+                <label>Pattern width</label>
+                <textbox dataBindings="InkAndPaintParams.w" />
+            </group>
+            
+            <group label="Outline visual" horizontal="1">
+                <button dataBindings="OutlineColor" >
+                    <dataBindings type="color" />
+                </button>
+                <label>Outline sharpness</label>
+                <textbox dataBindings="InkAndPaintParams.z" />
+                <button dataBindings="OutlineVisualTexture" fill="1" />
+                <group horizontal="0">
+                    <textbox dataBindings="OutlineVisualTiling.x">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                    <textbox dataBindings="OutlineVisualTiling.y">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                </group>
+            </group>
+        </group>
+        
+        <group label="Interior" horizontal="1">
+            <button dataBindings="InteriorColor" >
+                <dataBindings type="color" />
+            </button>
+            <label>Opacity</label>
+            <textbox dataBindings="InkAndPaintParams.x">
+                <dataBindings class="CffHighPrecision" />
+            </textbox>
+        </group>
+        <group label="Behind object color" horizontal="1">
+            <button dataBindings="BehindObjectColor" >
+                <dataBindings type="color" />
+            </button>
+            <checkbox label="Render a different color where the object is hidden" dataBindings="UseBehindObjectColor" tooltip="Render a different color where the object is hidden" />
+        </group>
+    </ui>
+</materialdescriptor>

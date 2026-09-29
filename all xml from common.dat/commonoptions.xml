@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<metashader>
+    <define name="SHADOW" />
+    <define name="RECEIVE_SHADOWS" />
+    <define name="RECEIVE_SINGLE_CASCADE" />
+    <define name="HW_SM_COMPARE" />
+    <define name="FETCH4" />
+    <define name="SIMPLE_SHADOWMAP" />
+
+    <define name="DEPTH" />
+    <define name="DEPTH_ENCODE" />
+
+    <define name="INSTANCING" />
+    <define name="VERTEX_CST_INSTANCING" />
+    <define name="TBUFFER_INSTANCING" />
+
+    <define name="SKINNING" />
+
+    <define name="SUN" />
+    <define name="OMNI" />
+    <define name="DIRECTIONAL" />
+    <define name="SPOT" />
+    
+    <define name="ALPHA_TEST" />
+    <define name="PICKING" />
+    <define name="ALPHA_TO_COVERAGE" />
+
+    <define name="TEXTURELIGHTING" />
+    <define name="PROJECTED_TEXTURE" />
+    <define name="OUTPUT_GBUFFER" />
+    
+    <define name="PARTICLES_SMALL_BUFFER" />
+</metashader>

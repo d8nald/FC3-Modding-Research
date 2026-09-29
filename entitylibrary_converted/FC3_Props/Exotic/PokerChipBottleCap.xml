@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7669421091683</field>
+  <field name="Name" type="String">Exotic/PokerChipBottleCap</field>
+  <object name="Entity">
+    <field name="hidName" type="String">FC3_Props:Exotic/PokerChipBottleCap</field>
+    <field name="disEntityId" type="Int64">13875</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">1</field>
+    <field name="hidPos" type="Vector3">-769,-769,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">-769,-769,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileName" type="String">graphics\__fc3_graphics\singleplayer\props\misc\pokerbottlecap01.xml</field>
+        <field name="fileName" type="Hash64">FF3A3B2C5995C312</field>
+        <field name="hidDescriptor" type="Rml">
+          <rml>
+            <hidDescriptor>
+              <component class="GraphicComponent" version="2" detail="0">
+                <object index="0" boneName="PokerBottleCap01_LOD0" bboxMin="-0.0173486,-0.0171941,-0.00257134" bboxMax="0.0172189,0.0172145,0.00773222" />
+                <resource fileName="graphics\__FC3_Graphics\SinglePlayer\Props\Misc\PokerBottleCap01.xbg" bboxMin="-0.0173486,-0.0171941,-0.00257134" bboxMax="0.0172189,0.0172145,0.00773222" />
+                <skeleton_reference_list>
+                  <skeleton name="PokerBottleCap01" index="0" pos="0,0,0" rot="1,-0,-0,-0" />
+                </skeleton_reference_list>
+                <material_reference_list>
+                  <material name="PokerBottleCaps01" shader_name="Generic_FC3" ref_shader_id="gjoliat-M-2011092059790970" />
+                </material_reference_list>
+              </component>
+              <component class="StaticPhysComponent">
+                <resource fileName="graphics\__FC3_Graphics\SinglePlayer\Props\Misc\PokerBottleCap01.hkx" />
+              </component>
+            </hidDescriptor>
+          </rml>
+        </field>
+        <field name="hidCrcCheck" type="Hash32">FFFFFFFF</field>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">True</field>
+        <field name="hidComponentClassName" type="BinHex">4353746174696347726170686963436F6D706F6E656E7400</field>
+        <field name="bCastShadow" type="Boolean">True</field>
+        <field name="bReceiveShadow" type="Boolean">True</field>
+        <field name="bCastAmbientShadow" type="Boolean">True</field>
+        <field name="olgLightGroup" type="Int32">129</field>
+        <field name="bShowInReflection" type="Boolean">True</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bExcludeFromPortalSystem" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="clrHighLightColor" type="Vector3">1,0.9,0.6</field>
+        <field name="clrHighLightColor2" type="Vector3">1,0.9,0.6</field>
+        <field name="fHighLightSpeed" type="Float32">1</field>
+        <field name="bLodDitheringEnable" type="Boolean">True</field>
+        <field name="matIntuitionMaterialName" type="String"></field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field hash="6CF79F05" type="BinHex">00000000</field>
+        <field hash="3182766C" type="BinHex">67726170686963735C5F5F6663335F67726170686963735C73696E676C65706C617965725C70726F70735C6D6973635C706F6B6572626F74746C6563617030312E78626700</field>
+        <field hash="C28D45A8" type="BinHex">12C395592CAB63F0</field>
+        <field hash="3D5AC03A" type="BinHex">00</field>
+        <object name="MaterialLightSwitch">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">gjoliat-m-2011092059790970</field>
+              <field name="disSlotId" type="Hash32">64E83517</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="MaterialOverrides">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">gjoliat-m-2011092059790970</field>
+              <field name="disSlotId" type="Hash32">64E83517</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object hash="0C176DC5" />
+        <object hash="E1FF9F74" />
+      </object>
+      <object hash="E683B521">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="2BA6E1A6" type="BinHex">FFFFFFFF00000000</field>
+      </object>
+    </object>
+  </object>
+</object>

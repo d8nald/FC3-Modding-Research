@@ -1,0 +1,65 @@
+<graphickit id="12075141641061532928" name="Vince" unique="0" kittobone="1">
+	<slot name="Slot1" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Vince" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\vince\Vince.xml" mesh="Vince" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-M-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Vince_glass" id="akotelnikoff-M-2012041860984262">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Eye_shadow" id="akotelnikoff-M-2011083067336073">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Vince_eyelashes" id="akotelnikoff-M-2012041352401941">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Vince_tshirt" id="akotelnikoff-M-2012041260547572">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Vince_eye" id="akotelnikoff-M-2012041260023725">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Vince_iris" id="akotelnikoff-M-2012041259969948">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Vince_frame" id="akotelnikoff-M-2012041861029936">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Vince Shoes" id="vfortin-M-2012021754057001">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Vince_jumper" id="vfortin-M-2012021753606074">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Vince_pants" id="vfortin-M-2012021753658338">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Vince_Beanie" id="vfortin-M-2012021754261137">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Vince Hairs" id="vfortin-M-2012021753833646">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Vince Face" id="vfortin-M-2012021753570960">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Vince_Body" id="vfortin-M-2012021753467599">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Slot2" position="1" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot3" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot4" position="3" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

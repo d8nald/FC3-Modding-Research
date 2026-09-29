@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materialdescriptor xmlns:xi="#" name="RealtreeTrunk" id="#(0x18748ca4, 0x5bb67cc0)" version="6">
+    <geometryInputs normal="1" tangent="1" binormal="1" color="1" uvChannels="2" />
+
+    <!-- As of 2009/11/24, the trunk shader uses
+         - Vertex color GREEN to modulate the diffuse color with the DiffuseTexture2
+         - Vertex color BLUE to modulate the diffuse color with the BurntDiffuseTexture
+    -->
+
+    <parameter name="TwoSided" type="bool" />
+
+    <parameter name="DiffuseTexture1" type="sampler2D" tilingName="DiffuseTiling1" />
+    <parameter name="DiffuseColor1" type="color4" defaultvalue="1,1,1,1" />
+    <parameter name="DiffuseTiling1" type="float2" defaultvalue="1,1" />
+    <parameter name="DiffuseTexture2" type="sampler2D" tilingName="DiffuseTiling2" VCMaskChannel="13" />
+    <parameter name="DiffuseColor2" type="color4" defaultvalue="1,1,1,1" />
+    <parameter name="DiffuseTiling2" type="float2" defaultvalue="1,1" />
+    <parameter name="BurntDiffuseTexture" type="sampler2D" tilingName="BurntDiffuseTiling" VCMaskChannel="14" />
+    <parameter name="BurntDiffuseColor" type="color4" />
+    <parameter name="BurntDiffuseTiling" type="float2" defaultvalue="1,1" />
+
+    <parameter name="SpecularTexture1" type="sampler2D" tilingName="SpecularTiling1" />
+    <parameter name="SpecularTiling1" type="float2" defaultvalue="1,1" />
+    <parameter name="Glossiness" type="float" defaultvalue="0.3" displayInMax="1" />
+    <parameter name="NormalTexture1" type="sampler2D" tilingName="NormalTiling1" />
+    <parameter name="NormalTiling1" type="float2" defaultvalue="1,1" />
+    <parameter name="NormalModifier" type="float" defaultvalue="1.0" displayInMax="1"/>
+
+    <parameter name="OcclusionIntensity" type="float" defaultvalue="1" />
+
+    <parameterprovider parametersfilename="Realtree_Trunk.parameters.inc.fx">
+        <parameter name="DiffuseTexture1" />
+        <parameter name="DiffuseColor1" />
+        <parameter name="DiffuseTiling1" />
+        <parameter name="DiffuseTexture2" />
+        <parameter name="DiffuseColor2" />
+        <parameter name="DiffuseTiling2" />
+        <parameter name="BurntDiffuseTexture" />
+        <parameter name="BurntDiffuseColor" />
+        <parameter name="BurntDiffuseTiling" />
+        <parameter name="Glossiness" />
+        <parameter name="SpecularTexture1" />
+        <parameter name="SpecularTiling1" />
+        <parameter name="NormalTexture1" />
+        <parameter name="NormalTiling1" />
+        <parameter name="OcclusionIntensity" />
+        <parameter name="NormalModifier" />
+    </parameterprovider>
+    
+    <ui>
+        <group horizontal="1" label="Settings">
+            <checkbox label="Two sided" dataBindings="TwoSided" />
+            <label>Occlusion Intensity</label>
+            <textbox dataBindings="OcclusionIntensity">
+                <dataBindings maxValue="1" />
+            </textbox>
+        </group>
+
+        <group label="Diffuse">
+            <label>Texture 1</label>
+            <group horizontal="1">
+                <button dataBindings="DiffuseColor1">
+                    <dataBindings type="color" />
+                </button>
+                <button dataBindings="DiffuseTexture1" fill="1" />
+                <group>
+                    <textbox dataBindings="DiffuseTiling1.x">
+                        <dataBindings type="int" />
+                    </textbox>
+                    <textbox dataBindings="DiffuseTiling1.y">
+                        <dataBindings type="int" />
+                    </textbox>
+                </group>
+            </group>
+            
+            <label>Texture 2</label>
+            <group horizontal="1">
+                <button dataBindings="DiffuseColor2">
+                    <dataBindings type="color" />
+                </button>
+                <button dataBindings="DiffuseTexture2" fill="1" />
+                <group>
+                    <textbox dataBindings="DiffuseTiling2.x">
+                        <dataBindings type="int" />
+                    </textbox>
+                    <textbox dataBindings="DiffuseTiling2.y">
+                        <dataBindings type="int" />
+                    </textbox>
+                </group>
+            </group>
+        </group>
+
+        <group label="Specular">
+            <group horizontal="1">
+                <button dataBindings="SpecularTexture1" fill="1" />
+                <group>
+                    <textbox dataBindings="SpecularTiling1.x">
+                        <dataBindings type="int" />
+                    </textbox>
+                    <textbox dataBindings="SpecularTiling1.y">
+                        <dataBindings type="int" />
+                    </textbox>
+                </group>
+            </group>
+
+            <group horizontal="1">
+                <label>Glossiness</label>
+                <textbox dataBindings="Glossiness" overridableInDerivation="1">
+                    <dataBindings minvalue="0.0" maxvalue="1.0" defaultvalue="0.3" />
+                </textbox>
+            </group>
+        </group>
+
+        <group label="Burnt">
+            <group horizontal="1">
+                <button dataBindings="BurntDiffuseColor">
+                    <dataBindings type="color" />
+                </button>
+                <button dataBindings="BurntDiffuseTexture" fill="1" />
+                <group>
+                    <textbox dataBindings="BurntDiffuseTiling.x">
+                        <dataBindings type="int" />
+                    </textbox>
+                    <textbox dataBindings="BurntDiffuseTiling.y">
+                        <dataBindings type="int" />
+                    </textbox>
+                </group>
+            </group>
+        </group>
+
+        <group horizontal="1" label="Normal">
+            <button dataBindings="NormalTexture1" fill="1" />
+            <group>
+                <textbox dataBindings="NormalTiling1.x">
+                    <dataBindings type="int" />
+                </textbox>
+                <textbox dataBindings="NormalTiling1.y">
+                    <dataBindings type="int" />
+                </textbox>
+                <label>Normal modifier</label>
+                <textbox databindings="NormalModifier" minvalue="0.01" defaultvalue="1" />
+            </group>
+        </group>
+    </ui>
+    
+</materialdescriptor>

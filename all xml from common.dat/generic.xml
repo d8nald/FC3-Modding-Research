@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materialdescriptor xmlns:xi="#" name="Generic" id="#(0x2af2b8a, 0x857b9250)" version="6">
+    <geometryInputs normal="1" tangent="1" binormal="1" color="1" uvChannels="2" />
+
+    <parameter name="AlphaTestEnabled" type="bool" />
+    <parameter name="TwoSided" type="bool" />
+    <parameter name="BlendingType" type="int" />
+    <parameter name="Billboard" type="bool" />
+    <parameter name="Map" type="bool" />
+    <parameter name="Eyes" type="bool" />
+    <parameter name="Maskable" type="bool" />
+    <parameter name="SpecialPickup" type="bool" />
+    
+    <!-- As of 2009/06/04, the generic shader uses
+         - Mask channel BLUE and vertex color BLUE to modulate the DiffuseTexture1 (COLOR = DiffuseTexture1 * lerp( DiffuseColorBase, DiffuseColor1, MASK_BLUE*VERTEX_BLUE ))
+         - Mask channel GREEN and vertex color GREEN to modulate the DiffuseTexture2 (COLOR = lerp( COLOR, DiffuseTexture2 * COLOR2, MASK_GREEN*VERTEX_GREEN ))
+         - Mask channel RED and vertex color RED to modulate the SpecularTexture1 (COLOR = lerp( SpecularColorBase, SpecularTexture1 * SpecularColor1, MASK_RED*VERTEX_RED ))
+         - Mask channel BLUE and vertex color BLUE to modulate the normal (NORMAL = lerp(float3(0, 0, 1), NormalTexture1, MASK_BLUE*VERTEX_BLUE))
+    -->
+    <parameter name="DiffuseTexture1" type="sampler2D" tilingName="DiffuseTiling1" UvName="UVGroupMapChannel1" VCMaskChannel="9" />
+    <parameter name="DiffuseTiling1" type="float2" defaultvalue="1,1" />
+    <parameter name="DiffuseColorBase" type="color4" defaultvalue="1,1,1,1" />
+    <parameter name="DiffuseColor1" type="color4" defaultvalue="1,1,1,1" />
+    <parameter name="DiffuseTexture1Priority" type="int" defaultvalue="1" />
+    <parameter name="DiffuseTexture2" type="sampler2D" tilingName="DiffuseTiling2" UvName="UVGroupMapChannel2" VCMaskChannel="8" />
+    <parameter name="DiffuseTiling2" type="float2" defaultvalue="1,1" />
+    <parameter name="DiffuseColor2" type="color4" defaultvalue="1,1,1,1" />
+    <parameter name="DiffuseTexture2Priority" type="int" defaultvalue="2" />
+
+    <parameter name="MaskTexture1" type="sampler2D" tilingName="MaskTiling1" UvName="UVGroupMapChannel0" />
+    <parameter name="MaskTiling1" type="float2" ignore="1" defaultvalue="1,1" />
+    <parameter name="MaskTexture1Priority" type="int" defaultvalue="2" />
+
+    <parameter name="SpecularTexture1" type="sampler2D" tilingName="SpecularTiling1" UvName="UVGroupMapChannel1" VCMaskChannel="7" />
+    <parameter name="SpecularTiling1" type="float2" defaultvalue="1,1" />
+    <parameter name="SpecularColorBase" type="color4" />
+    <parameter name="SpecularColor1" type="color4" />
+    <parameter name="SpecularPower" type="float" defaultvalue="16" displayInMax="1" />
+    <parameter name="SpecularTexture1Priority" type="int" defaultvalue="4" />
+
+    <parameter name="NormalTexture1" type="sampler2D" tilingName="NormalTiling1" UvName="UVGroupMapChannel3" VCMaskChannel="9" />
+    <parameter name="NormalTiling1" type="float2" defaultvalue="1,1" />
+    <parameter name="NormalTexture1Priority" type="int" defaultvalue="3" />
+
+    <parameter name="ReflectionTexture" type="samplerCUBE" VCMaskChannel="7" />
+    <parameter name="ReflectionPower" type="float" />
+    <parameter name="ReflectionTexturePriority" type="int" defaultvalue="5" />
+
+    <parameter name="UVGroupMapChannel0" type="int" />
+    <!-- UVGroupMapChannel1 is used by two textures! -->
+    <parameter name="UVGroupMapChannel1" type="int" />
+    <parameter name="UVGroupMapChannel2" type="int" />
+    <parameter name="UVGroupMapChannel3" type="int" />
+
+    <parameter name="DiffuseTiling1AndGroup1" type="float4" defaultvalue="1,1,0,0" provideronly="1" />
+    <parameter name="DiffuseTiling2AndGroup2" type="float4" defaultvalue="1,1,0,0" provideronly="1" />
+    <parameter name="NormalTiling1AndGroup3" type="float4" defaultvalue="1,1,0,0" provideronly="1" />
+    <parameter name="SpecularTiling1AndGroup1" type="float4" defaultvalue="1,1,0,0" provideronly="1" />
+    <parameter name="MaskTiling1AndGroup0" type="float4" defaultvalue="1,1,0,0" provideronly="1" />
+    
+    <parameter name="WetnessLightingCffs" type="float4" defaultvalue="0.5,2.0,2.0,0.0"/>
+    
+    <parameterprovider parametersfilename="Mesh_Generic.parameters.inc.fx">
+        <parameter name="Billboard" />
+        <parameter name="Map" />
+        <parameter name="Eyes" />
+        <parameter name="DiffuseTexture1" />
+        <parameter name="DiffuseColorBase" />
+        <parameter name="DiffuseColor1" />
+        <parameter name="DiffuseTexture2" />
+        <parameter name="DiffuseColor2" />
+        <parameter name="MaskTexture1" />
+        <parameter name="SpecularTexture1" />
+        <parameter name="SpecularColorBase" />
+        <parameter name="SpecularColor1" />
+        <parameter name="SpecularPower" />
+        <parameter name="NormalTexture1" />
+        <parameter name="ReflectionTexture" />
+        <parameter name="ReflectionPower" />
+        <parameter name="DiffuseTiling1AndGroup1" />
+        <parameter name="DiffuseTiling2AndGroup2" />
+        <parameter name="NormalTiling1AndGroup3" />
+        <parameter name="SpecularTiling1AndGroup1" />
+        <parameter name="MaskTiling1AndGroup0" />
+        <parameter name="WetnessLightingCffs" />
+    </parameterprovider>
+
+    <ui>
+        <xi:include href="../MaterialUIInclude.xml" />
+        
+        <group horizontal="1" label="Settings">
+            <group>
+                <checkbox label="Two sided" dataBindings="TwoSided" />
+                <checkbox label="Alpha test" dataBindings="AlphaTestEnabled" />
+            </group>
+            <group>
+                <checkbox label="Map" dataBindings="Map" tooltip="Check only for FarCry first-person map" />
+                <checkbox label="Eyes" dataBindings="Eyes" tooltip="Check only on materials used on eyes" />
+            </group>
+            <group>
+                <checkbox label="Maskable" dataBindings="Maskable" tooltip="Check when geometry can be masked by Z-Mask geometry" />
+                <checkbox label="Special Pickup" dataBindings="SpecialPickup" />
+            </group>
+        </group>
+
+        <group horizontal="1" label="Mask">
+            <button dataBindings="MaskTexture1" fill="1" />
+            <textbox dataBindings="UVGroupMapChannel0">
+                <dataBindings class="UVChannel" />
+            </textbox>
+            <group>
+                <textbox dataBindings="MaskTiling1.x">
+                    <dataBindings class="Tiling" />
+                </textbox>
+                <textbox dataBindings="MaskTiling1.y">
+                    <dataBindings class="Tiling" />
+                </textbox>
+            </group>
+        </group>
+
+        <group label="Diffuse">
+            <label>Texture 2</label>
+            <group horizontal="1">
+                <button dataBindings="DiffuseColor2">
+                    <dataBindings type="color" />
+                </button>
+                <button dataBindings="DiffuseTexture2" fill="1" />
+                <textbox dataBindings="UVGroupMapChannel2">
+                    <dataBindings class="UVChannel" />
+                </textbox>
+                <group>
+                    <textbox dataBindings="DiffuseTiling2.x">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                    <textbox dataBindings="DiffuseTiling2.y">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                </group>
+            </group>
+
+            <label>Texture 1</label>
+            <group horizontal="1">
+                <button dataBindings="DiffuseColor1">
+                    <dataBindings type="color" />
+                </button>
+                <button dataBindings="DiffuseTexture1" fill="1" />
+                <textbox dataBindings="UVGroupMapChannel1">
+                    <dataBindings class="UVChannel" />
+                </textbox>
+                <group>
+                    <textbox dataBindings="DiffuseTiling1.x">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                    <textbox dataBindings="DiffuseTiling1.y">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                </group>
+            </group>
+
+            <button dataBindings="DiffuseColorBase" fill="1">
+                <dataBindings type="color" />
+            </button>
+        </group>
+
+        <group label="Specular">
+            <group horizontal="1">
+                <button dataBindings="SpecularColor1">
+                    <dataBindings type="color" />
+                </button>
+                <button dataBindings="SpecularTexture1" fill="1" />
+                <group>
+                    <textbox dataBindings="SpecularTiling1.x">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                    <textbox dataBindings="SpecularTiling1.y">
+                        <dataBindings class="Tiling" />
+                    </textbox>
+                </group>
+            </group>
+
+            <group horizontal="1">
+                <button dataBindings="SpecularColorBase" fill="1" >
+                    <dataBindings type="color" />
+                </button>
+                <label>Power</label>
+                <textbox databindings="SpecularPower" />
+            </group>
+        </group>
+
+        <group horizontal="1" label="Normal">
+            <button dataBindings="NormalTexture1" fill="1" />
+            <textbox dataBindings="UVGroupMapChannel3">
+                <dataBindings class="UVChannel" />
+            </textbox>
+            <group>
+                <textbox dataBindings="NormalTiling1.x">
+                    <dataBindings class="Tiling" />
+                </textbox>
+                <textbox dataBindings="NormalTiling1.y">
+                    <dataBindings class="Tiling" />
+                </textbox>
+            </group>
+        </group>
+
+        <group horizontal="1" label="Cubemap">
+            <button dataBindings="ReflectionTexture" fill="1" />
+            <textbox databindings="ReflectionPower" />
+        </group>
+        
+        <xi:include href="../WetnessUIInclude.xml" />
+    </ui>
+    
+</materialdescriptor>

@@ -1,0 +1,32 @@
+<graphickit id="12099247516525003264" name="Coop_FP_Leonard2" unique="0" kittobone="1">
+	<slot name="Body" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Leonard2_FPS" ref="graphics\__FC3_Graphics\_Common\Characters\Multiplayer\Coop\Leonard2\Leonard2_FPS.xml" mesh="Leonard2_FPS" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Leonard2_Arms" id="ecourcelles-M-20120601153904">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Leonard2_Head" id="ecourcelles-M-20120601124537">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Leonard2_Shoes" id="ecourcelles-M-20120604133100">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Leonard2_Pants" id="ecourcelles-M-20120601172022">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Leonard2_Shirt" id="ecourcelles-M-20120523104635">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Leonard2__Jacket" id="ecourcelles-M-20120523162249">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Leonard FPS arms" id="oskarlundqvist-m-2011042739375529">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

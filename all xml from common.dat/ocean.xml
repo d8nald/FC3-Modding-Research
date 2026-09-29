@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materialdescriptor xmlns:xi="#" name="Ocean" version="6">
+    <geometryInputs/>
+
+    <parameter name="NormalTexture" type="sampler2D" defaultvalue="graphics\__FC3_Graphics\_Common\_Textures\Generic\Water\OceanMediumWaves_02_N.png"/>
+    <parameter name="NormalMaskTexture" type="sampler2D" defaultvalue="graphics\_Textures\Mask\Generic04_M.png"/>
+    <parameter name="CausticsTexture" type="sampler2D" provideronly="1" />
+    <parameter name="FoamTexture1" type="sampler2D" defaultvalue="graphics\__FC3_Graphics\_Common\_Textures\Generic\Water\WaterFoamTopWaves_01_D.png" />
+    <parameter name="FoamTexture2" type="sampler2D" defaultvalue="graphics\__FC3_Graphics\_Common\_Textures\Generic\Water\WaterFoamTopWaves_01_D.png" />
+    <parameter name="DisplacementTexture" type="sampler2D" defaultvalue="graphics\__FC3_Graphics\SinglePlayer\_Textures\Generic\Noise\Perlin_Noise.png" />
+
+    <parameter name="NormalMapParams1" type="float4" defaultvalue="0.0095,-0.023,0.56,1" />
+    <parameter name="NormalMapParams2" type="float4" defaultvalue="0.0092,0.026,-0.56,1" />
+    <parameter name="NormalMapParams3" type="float4" defaultvalue="0.0075,0.013,0.74,1" />
+    <parameter name="NormalMapParams4" type="float4" defaultvalue="0.0077,-0.012,-0.61,1" />
+    <parameter name="Octave1Params" type="float4" defaultvalue="0.74,23.768,2.017,8.106" />
+    <parameter name="Octave1Dir" type="float2" defaultvalue="0.09,1" />
+    <parameter name="Octave2Params" type="float4" defaultvalue="0.97,3.314,1.136,4.343" />
+    <parameter name="Octave2Dir" type="float2" defaultvalue="0.19,1" />
+    <parameter name="Octave3Params" type="float4" defaultvalue="1.17,3.737,0.779,5.346" />
+    <parameter name="Octave3Dir" type="float2" defaultvalue="-0.24,1" />
+    <parameter name="Octave4Params" type="float4" defaultvalue="1.7,1.903,0.808,4.392" />
+    <parameter name="Octave4Dir" type="float2" defaultvalue="-0.17,1" />
+
+    <parameter name="Octave5Params" type="float4" defaultvalue="1.98,0.45,0.563,2.318" />
+    <parameter name="Octave5Dir" type="float2" defaultvalue="-0.3,-1" />
+    <parameter name="Octave6Params" type="float4" defaultvalue="2.85,0.524,0.423,1.917" />
+    <parameter name="Octave6Dir" type="float2" defaultvalue="0.39,-0.96" />
+    <parameter name="Octave7Params" type="float4" defaultvalue="3.24,0.58,0.37,1.411" />
+    <parameter name="Octave7Dir" type="float2" defaultvalue="-0.36,1" />
+    <parameter name="Octave8Params" type="float4" defaultvalue="3.99,0.547,0.252,1.022" />
+    <parameter name="Octave8Dir" type="float2" defaultvalue="0.62,1" />
+
+    <parameter name="NormalsScale" type="float" defaultvalue="0.2082" />
+    <parameter name="HighNormalsScale" type="float" defaultvalue="0.2026" />
+    <parameter name="WavesFade" type="float2" defaultvalue="1500,2" />
+    <parameter name="WavesHiResFade" type="float2" defaultvalue="450,1" />
+
+    <parameter name="TexGeoWavesBlendCff" type="float" defaultvalue="0.136" />
+    <parameter name="DepthDistanceCff" type="float" defaultvalue="0.07" />
+
+    <parameter name="Smoothness" type="float2" defaultvalue="0.6, 0.9" />
+    
+    <parameter name="CausticsParams" type="float2" defaultvalue="0.01,1.0" />
+    <parameter name="CausticsDepthFade" type="float2" defaultvalue="1.0,5.0" />
+    <parameter name="CausticsRcpDepthFade" type="float2" />
+
+    <parameter name="FoamLayer1Params" type="float4" defaultvalue="0.01,1.0,1.0,0.15" />
+    <parameter name="FoamLayer2Params" type="float4" defaultvalue="0.012,1.1,1.0,-0.15" />
+    <parameter name="FoamSettings" type="float4" defaultvalue="0.50, 2.0, 5.0, 0.02" />
+    <parameter name="FoamParams" type="float4" defaultvalue="4.0, 1.0, 4.0, 0.3" />
+
+    <parameter name="NormalsMaskParams" type="float4" defaultvalue="0.12,1.1,1.0,-0.15" />
+
+    <parameter name="OceanColorShallow" type="color3" defaultvalue="0.0,0.089,0.125" />
+    <parameter name="OceanColorDeep" type="color3" defaultvalue="0.0,0.07375,0.15625" />
+    <parameter name="DampingFadeOut" type="float" defaultvalue="45.0" />
+    <parameter name="ShallowWaterDepth" type="float" defaultvalue="100.0" />
+    <parameter name="RimLightWidth" type="float" defaultvalue="0.25" />
+    <parameter name="RimLightIntensity" type="float" defaultvalue="0.5" />
+
+    <parameter name="DisplacementParams" type="float3" defaultvalue="1.0,1.0,0.2" />
+    
+    <parameter name="WavesCrestWeights" type="float4" defaultvalue="1,1,1,1" />
+    
+    <parameterprovider parametersfilename="Ocean.parameters.inc.fx">
+        <parameter name="NormalTexture" />
+        <parameter name="NormalMaskTexture" />
+        <parameter name="CausticsTexture" />
+        <parameter name="FoamTexture1" />
+        <parameter name="FoamTexture2" />
+        <parameter name="TexGeoWavesBlendCff" />
+        <parameter name="NormalMapParams1" />
+        <parameter name="NormalMapParams2" />
+        <parameter name="NormalMapParams3" />
+        <parameter name="NormalMapParams4" />
+        <parameter name="NormalsScale" />
+        <parameter name="HighNormalsScale" />
+        <parameter name="WavesFade" />
+        <parameter name="WavesHiResFade" />
+        <parameter name="Octave1Params" />
+        <parameter name="Octave1Dir" />
+        <parameter name="Octave2Params" />
+        <parameter name="Octave2Dir" />
+        <parameter name="Octave3Params" />
+        <parameter name="Octave3Dir" />
+        <parameter name="Octave4Params" />
+        <parameter name="Octave4Dir" />
+        <parameter name="Octave5Params" />
+        <parameter name="Octave5Dir" />
+        <parameter name="Octave6Params" />
+        <parameter name="Octave6Dir" />
+        <parameter name="Octave7Params" />
+        <parameter name="Octave7Dir" />
+        <parameter name="Octave8Params" />
+        <parameter name="Octave8Dir" />
+        <parameter name="DepthDistanceCff" />
+        <parameter name="Smoothness" />
+        <parameter name="CausticsParams" />
+        <parameter name="CausticsDepthFade" />
+        <parameter name="CausticsRcpDepthFade" />
+        <parameter name="FoamLayer1Params" />
+        <parameter name="FoamLayer2Params" />
+        <parameter name="FoamSettings" />
+        <parameter name="FoamParams" />
+        <parameter name="NormalsMaskParams" />
+        <parameter name="OceanColorShallow" />
+        <parameter name="OceanColorDeep" />
+        <parameter name="DampingFadeOut" />
+        <parameter name="ShallowWaterDepth" />
+        <parameter name="WavesCrestWeights" />
+        <parameter name="RimLightWidth" />
+        <parameter name="RimLightIntensity" />
+        <parameter name="DisplacementParams" />
+        <parameter name="DisplacementTexture" />
+    </parameterprovider>
+
+    <ui>
+        <xi:include href="../MaterialUIInclude.xml" />
+        <label>Waves fade</label>
+        <group horizontal="1">
+            <label>Waves fade</label>
+            <textbox dataBindings="WavesFade.x">
+                <dataBindings class="PositiveCff" />
+            </textbox>
+            <label>Waves fade power</label>
+            <textbox dataBindings="WavesFade.y">
+                <dataBindings class="PositiveCff" />
+            </textbox>
+            <label>HighRes waves fade</label>
+            <textbox dataBindings="WavesHiResFade.x">
+                <dataBindings class="PositiveCff" />
+            </textbox>
+            <label>HighRes Waves fade power</label>
+            <textbox dataBindings="WavesHiResFade.y">
+                <dataBindings class="PositiveCff" />
+            </textbox>
+        </group>
+        <label>Normals control</label>
+        <group horizontal="1">
+            <label>Low frequency</label>
+            <textbox dataBindings="NormalsScale" >
+                <dataBindings class="HighPrecisionPositive" />
+            </textbox>
+            <label>High frequency</label>
+            <textbox dataBindings="HighNormalsScale" >
+                <dataBindings class="HighPrecisionPositive" />
+            </textbox>
+            <label>Texture to geometry blend</label>
+            <textbox dataBindings="TexGeoWavesBlendCff" >
+                <dataBindings class="ZeroPositiveCff" />
+            </textbox>
+        </group>
+        <label>Smoothness</label>
+        <group horizontal="1">
+            <label>Smoothness minimum</label>
+            <textbox dataBindings="Smoothness.x" >
+                <dataBindings class="ZeroPositiveCff" />
+            </textbox>
+            <label>Smoothness maximum</label>
+            <textbox dataBindings="Smoothness.y" >
+                <dataBindings class="ZeroPositiveCff" />
+            </textbox>
+        </group>
+        <label>Depth attenuation</label>
+        <group horizontal="1">
+            <label>Scale</label>
+            <textbox dataBindings="DepthDistanceCff" >
+                <dataBindings class="HighPrecisionPositive" />
+            </textbox>
+            <label>Shallow water color</label>
+            <button dataBindings="OceanColorShallow" >
+                <dataBindings type="color" />
+            </button>
+            <label>Deep water color</label>
+            <button dataBindings="OceanColorDeep" >
+                <dataBindings type="color" />
+            </button>
+            <label>Damping fade out</label>
+            <textbox dataBindings="DampingFadeOut" >
+                <dataBindings class="PositiveCff" />
+            </textbox>
+            <label>Shallow water depth</label>
+            <textbox dataBindings="ShallowWaterDepth" >
+                <dataBindings class="PositiveCff" />
+            </textbox>
+        </group>
+        <label>Caustics</label>
+        <group horizontal="1">
+            <label>Scale</label>
+            <textbox dataBindings="CausticsParams.x" >
+                <dataBindings class="ZeroPositiveCff" />
+            </textbox>
+            <label>Intensity</label>
+            <textbox dataBindings="CausticsParams.y" >
+                <dataBindings class="ZeroPositiveCff" />
+            </textbox>
+            <label>Start depth</label>
+            <textbox dataBindings="CausticsDepthFade.x" >
+                <dataBindings class="ZeroPositiveCff" />
+            </textbox>
+            <label>End depth</label>
+            <textbox dataBindings="CausticsDepthFade.y" >
+                <dataBindings class="ZeroPositiveCff" />
+            </textbox>
+        </group>
+        <label>Foam</label>
+        <group>
+            <group horizontal="1">
+                <label>Foam intensity</label>
+                <textbox dataBindings="FoamSettings.x" >
+                    <dataBindings class="PositiveCff" />
+                </textbox>
+                <label>Foam blend offset</label>
+                <textbox dataBindings="FoamSettings.y" >
+                    <dataBindings class="PositiveCff" />
+                </textbox>
+                <label>Foam blend scale</label>
+                <textbox dataBindings="FoamSettings.z" >
+                    <dataBindings class="PositiveCff" />
+                </textbox>
+                <label>Foam normal distortion</label>
+                <textbox dataBindings="FoamSettings.w" >
+                    <dataBindings class="ZeroPositiveCff" />
+                </textbox>
+            </group>
+            <group horizontal="1">
+                <label>Border Foam Width</label>
+                <textbox dataBindings="FoamParams.x" >
+                    <dataBindings class="PositiveCff" />
+                </textbox>
+                <label>Border Foam Intensity</label>
+                <textbox dataBindings="FoamParams.y" >
+                    <dataBindings class="ZeroPositiveCff" />
+                </textbox>
+                <label>Crest Foam Width</label>
+                <textbox dataBindings="FoamParams.z" >
+                    <dataBindings class="PositiveCff" />
+                </textbox>
+                <label>Crest Foam Intensity</label>
+                <textbox dataBindings="FoamParams.w" >
+                    <dataBindings class="ZeroPositiveCff" />
+                </textbox>
+            </group>
+            <group horizontal="1">
+                <label>Rim Light width</label>
+                <textbox dataBindings="RimLightWidth" >
+                    <dataBindings class="HighPrecisionFloat" />
+                </textbox>
+                <label>Rim Light intensity</label>
+                <textbox dataBindings="RimLightIntensity" >
+                    <dataBindings class="ZeroPositiveCff" />
+                </textbox>
+            </group>
+            <group horizontal="1">
+                <label>Foam texture 1</label>
+                <button dataBindings="FoamTexture1" fill="1" />
+            </group>
+            <group horizontal="1">
+                <label>Foam texture 2</label>
+                <button dataBindings="FoamTexture2" fill="1" />
+            </group>
+            <group horizontal="1">
+                <label>Waves crest weights</label>
+                <textbox dataBindings="WavesCrestWeights.x" >
+                    <dataBindings class="CffHighPrecision" />
+                </textbox>
+                <textbox dataBindings="WavesCrestWeights.y" >
+                    <dataBindings class="CffHighPrecision" />
+                </textbox>
+                <textbox dataBindings="WavesCrestWeights.z" >
+                    <dataBindings class="CffHighPrecision" />
+                </textbox>
+                <textbox dataBindings="WavesCrestWeights.w" >
+                    <dataBindings class="CffHighPrecision" />
+                </textbox>
+            </group>
+        </group>
+        <group horizontal="1">
+            <label>Layer1</label>
+            <group>
+                <label>scale</label>
+                <textbox dataBindings="FoamLayer1Params.x" >
+                    <dataBindings class="HighPrecisionPositive" />
+                </textbox>
+            </group>
+            <group>
+                <label>speed</label>
+                <textbox dataBindings="FoamLayer1Params.y" >
+                    <dataBindings class="HighPrecisionFloat" />
+                </textbox>
+            </group>
+            <group>
+                <label>direction</label>
+                <textbox dataBindings="FoamLayer1Params.z" >
+                    <dataBindings class="HighPrecisionFloat" />
+                </textbox>
+                <textbox dataBindings="FoamLayer1Params.w" >
+                    <dataBindings class="HighPrecisionFloat" />
+                </textbox>
+            </group>
+        </group>
+        <group horizontal="1">
+            <label>Layer2</label>
+            <group>
+                <label>scale</label>
+                <textbox dataBindings="FoamLayer2Params.x" >
+                    <dataBindings class="HighPrecisionPositive" />
+                </textbox>
+            </group>
+            <group>
+                <label>speed</label>
+                <textbox dataBindings="FoamLayer2Params.y" >
+                    <dataBindings class="HighPrecisionFloat" />
+                </textbox>
+            </group>
+            <group>
+                <label>direction</label>
+                <textbox dataBindings="FoamLayer2Params.z" >
+                    <dataBindings class="HighPrecisionFloat" />
+                </textbox>
+                <textbox dataBindings="FoamLayer2Params.w" >
+                    <dataBindings class="HighPrecisionFloat" />
+                </textbox>
+            </group>
+        </group>
+        <label>Wave parameters</label>
+        <group>
+            <group horizontal="1">
+                <label>Octave 1</label>
+                <group>
+                    <label>WaveSpeed</label>
+                    <textbox dataBindings="Octave1Params.x">
+                    </textbox>
+                </group>
+                <group>
+                    <label>AmplitudeH</label>
+                    <textbox dataBindings="Octave1Params.y" >
+                        <dataBindings class="ZeroPositiveCff" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>AmplitudeV</label>
+                    <textbox dataBindings="Octave1Params.z" >
+                        <dataBindings class="ZeroPositiveCff" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>WaveLength</label>
+                    <textbox dataBindings="Octave1Params.w" >
+                        <dataBindings class="PositiveCff" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>WaveDir</label>
+                    <textbox dataBindings="Octave1Dir.x" >
+                        <dataBindings class="DirectionComponent" />
+                    </textbox>
+                    <textbox dataBindings="Octave1Dir.y" >
+                        <dataBindings class="DirectionComponent" />
+                    </textbox>
+                </group>
+            </group>
+
+            <group horizontal="1">
+                <label>Octave 2</label>
+                <group>
+                    <label>WaveSpeed</label>
+                    <textbox dataBindings="Octave2Params.x">
+                    </textbox>
+                </group>
+                <group>
+                    <label>AmplitudeH</label>
+                    <textbox dataBindings="Octave2Params.y" >
+                        <dataBindings class="ZeroPositiveCff" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>AmplitudeV</label>
+                    <textbox dataBindings="Octave2Params.z" >
+                        <dataBindings class="ZeroPositiveCff" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>WaveLength</label>
+                    <textbox dataBindings="Octave2Params.w" >
+                        <dataBindings class="PositiveCff" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>WaveDir</label>
+                    <textbox dataBindings="Octave2Dir.x" >
+                        <dataBindings class="DirectionComponent" />
+                    </textbox>
+                    <textbox dataBindings="Octave2Dir.y" >
+                        <dataBindings class="DirectionComponent" />
+                    </textbox>
+                </group>
+            </group>
+
+            <group horizontal="1">
+                <label>Octave 3</label>
+                <group>
+                    <label>WaveSpeed</label>
+                    <textbox dataBindings="Octave3Params.x">
+                    </textbox>
+                </group>
+                <group>
+                    <label>AmplitudeH</label>
+                    <textbox dataBindings="Octave3Params.y" >
+                        <dataBindings class="ZeroPositiveCff" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>AmplitudeV</label>
+                    <textbox dataBindings="Octave3Params.z" >
+                        <dataBindings class="ZeroPositiveCff" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>WaveLength</label>
+                    <textbox dataBindings="Octave3Params.w" >
+                        <dataBindings class="PositiveCff" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>WaveDir</label>
+                    <textbox dataBindings="Octave3Dir.x" >
+                        <dataBindings class="DirectionComponent" />
+                    </textbox>
+                    <textbox dataBindings="Octave3Dir.y" >
+                        <dataBindings class="DirectionComponent" />
+                    </textbox>
+                </group>
+            </group>
+
+            <group horizontal="1">
+                <label>Octave 4</label>
+                <group>
+                    <label>WaveSpeed</label>
+                    <textbox dataBindings="Octave4Params.x">
+                    </textbox>
+                </group>
+                <group>
+                    <label>AmplitudeH</label>
+                    <textbox dataBindings="Octave4Params.y" >
+                        <dataBindings class="ZeroPositiveCff" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>AmplitudeV</label>
+                    <textbox dataBindings="Octave4Params.z" >
+                        <dataBindings class="ZeroPositiveCff" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>WaveLength</label>
+                    <textbox dataBindings="Octave4Params.w" >
+                        <dataBindings class="PositiveCff" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>WaveDir</label>
+                    <textbox dataBindings="Octave4Dir.x" >
+                        <dataBindings class="DirectionComponent" />
+                    </textbox>
+                    <textbox dataBindings="Octave4Dir.y" >
+                        <dataBindings class="DirectionComponent" />
+                    </textbox>
+                </group>
+            </group>
+
+            <label>Hi res</label>
+
+            <group horizontal="1">
+                <label>Octave 5</label>
+                <group>
+                    <label>WaveSpeed</label>
+                    <textbox dataBindings="Octave5Params.x">
+                    </textbox>
+                </group>
+                <group>
+                    <label>AmplitudeH</label>
+                    <textbox dataBindings="Octave5Params.y" >
+                        <dataBindings class="ZeroPositiveCff" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>AmplitudeV</label>
+                    <textbox dataBindings="Octave5Params.z" >
+                        <dataBindings class="ZeroPositiveCff" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>WaveLength</label>
+                    <textbox dataBindings="Octave5Params.w" >
+                        <dataBindings class="PositiveCff" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>WaveDir</label>
+                    <textbox dataBindings="Octave5Dir.x" >
+                        <dataBindings class="DirectionComponent" />
+                    </textbox>
+                    <textbox dataBindings="Octave5Dir.y" >
+                        <dataBindings class="DirectionComponent" />
+                    </textbox>
+                </group>
+            </group>
+
+            <group horizontal="1">
+                <label>Octave 6</label>
+                <group>
+                    <label>WaveSpeed</label>
+                    <textbox dataBindings="Octave6Params.x">
+                    </textbox>
+                </group>
+                <group>
+                    <label>AmplitudeH</label>
+                    <textbox dataBindings="Octave6Params.y" >
+                        <dataBindings class="ZeroPositiveCff" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>AmplitudeV</label>
+                    <textbox dataBindings="Octave6Params.z" >
+                        <dataBindings class="ZeroPositiveCff" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>WaveLength</label>
+                    <textbox dataBindings="Octave6Params.w" >
+                        <dataBindings class="PositiveCff" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>WaveDir</label>
+                    <textbox dataBindings="Octave6Dir.x" >
+                        <dataBindings class="DirectionComponent" />
+                    </textbox>
+                    <textbox dataBindings="Octave6Dir.y" >
+                        <dataBindings class="DirectionComponent" />
+                    </textbox>
+                </group>
+            </group>
+
+            <group horizontal="1">
+                <label>Octave 7</label>
+                <group>
+                    <label>WaveSpeed</label>
+                    <textbox dataBindings="Octave7Params.x">
+                    </textbox>
+                </group>
+                <group>
+                    <label>AmplitudeH</label>
+                    <textbox dataBindings="Octave7Params.y" >
+                        <dataBindings class="ZeroPositiveCff" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>AmplitudeV</label>
+                    <textbox dataBindings="Octave7Params.z" >
+                        <dataBindings class="ZeroPositiveCff" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>WaveLength</label>
+                    <textbox dataBindings="Octave7Params.w" >
+                        <dataBindings class="PositiveCff" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>WaveDir</label>
+                    <textbox dataBindings="Octave7Dir.x" >
+                        <dataBindings class="DirectionComponent" />
+                    </textbox>
+                    <textbox dataBindings="Octave7Dir.y" >
+                        <dataBindings class="DirectionComponent" />
+                    </textbox>
+                </group>
+            </group>
+
+            <group horizontal="1">
+                <label>Octave 8</label>
+                <group>
+                    <label>WaveSpeed</label>
+                    <textbox dataBindings="Octave8Params.x">
+                    </textbox>
+                </group>
+                <group>
+                    <label>AmplitudeH</label>
+                    <textbox dataBindings="Octave8Params.y" >
+                        <dataBindings class="ZeroPositiveCff" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>AmplitudeV</label>
+                    <textbox dataBindings="Octave8Params.z" >
+                        <dataBindings class="ZeroPositiveCff" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>WaveLength</label>
+                    <textbox dataBindings="Octave8Params.w" >
+                        <dataBindings class="PositiveCff" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>WaveDir</label>
+                    <textbox dataBindings="Octave8Dir.x" >
+                        <dataBindings class="DirectionComponent" />
+                    </textbox>
+                    <textbox dataBindings="Octave8Dir.y" >
+                        <dataBindings class="DirectionComponent" />
+                    </textbox>
+                </group>
+            </group>
+        </group>
+
+        <group>
+            <group>
+                <label>Normalmap mask</label>
+                <button dataBindings="NormalMaskTexture" fill="1" />
+            </group>
+            <group horizontal="1">
+                <label>Mask</label>
+                <group>
+                    <label>scale</label>
+                    <textbox dataBindings="NormalsMaskParams.x" >
+                        <dataBindings class="MaskScale" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>speed</label>
+                    <textbox dataBindings="NormalsMaskParams.y" >
+                        <dataBindings class="HighPrecisionFloat" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>direction</label>
+                    <textbox dataBindings="NormalsMaskParams.z" >
+                        <dataBindings class="HighPrecisionFloat" />
+                    </textbox>
+                    <textbox dataBindings="NormalsMaskParams.w" >
+                        <dataBindings class="HighPrecisionFloat" />
+                    </textbox>
+                </group>
+            </group>
+
+            <label>Wave normalmap</label>
+            <button dataBindings="NormalTexture" fill="1" />
+            <group horizontal="1">
+                <label>NormalMap1</label>
+                <group>
+                    <label>Scale</label>
+                    <textbox dataBindings="NormalMapParams1.x" >
+                        <dataBindings class="HighPrecisionPositive" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>Speed</label>
+                    <textbox dataBindings="NormalMapParams1.y" >
+                        <dataBindings class="HighPrecisionFloat" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>Dir</label>
+                    <textbox dataBindings="NormalMapParams1.z" >
+                        <dataBindings class="DirectionComponent" />
+                    </textbox>
+                    <textbox dataBindings="NormalMapParams1.w" >
+                        <dataBindings class="DirectionComponent" />
+                    </textbox>
+                </group>
+            </group>
+            <group horizontal="1">
+                <label>NormalMap2</label>
+                <group>
+                    <label>Scale</label>
+                    <textbox dataBindings="NormalMapParams2.x" >
+                        <dataBindings class="HighPrecisionPositive" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>Speed</label>
+                    <textbox dataBindings="NormalMapParams2.y" >
+                        <dataBindings class="HighPrecisionFloat" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>Dir</label>
+                    <textbox dataBindings="NormalMapParams2.z" >
+                        <dataBindings class="DirectionComponent" />
+                    </textbox>
+                    <textbox dataBindings="NormalMapParams2.w" >
+                        <dataBindings class="DirectionComponent" />
+                    </textbox>
+                </group>
+            </group>
+            <group horizontal="1">
+                <label>NormalMap3</label>
+                <group>
+                    <label>Scale</label>
+                    <textbox dataBindings="NormalMapParams3.x" >
+                        <dataBindings class="HighPrecisionPositive" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>Speed</label>
+                    <textbox dataBindings="NormalMapParams3.y" >
+                        <dataBindings class="HighPrecisionFloat" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>Dir</label>
+                    <textbox dataBindings="NormalMapParams3.z" >
+                        <dataBindings class="DirectionComponent" />
+                    </textbox>
+                    <textbox dataBindings="NormalMapParams3.w" >
+                        <dataBindings class="DirectionComponent" />
+                    </textbox>
+                </group>
+            </group>
+            <group horizontal="1">
+                <label>NormalMap4</label>
+                <group>
+                    <label>Scale</label>
+                    <textbox dataBindings="NormalMapParams4.x" >
+                        <dataBindings class="HighPrecisionPositive" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>Speed</label>
+                    <textbox dataBindings="NormalMapParams4.y" >
+                        <dataBindings class="HighPrecisionFloat" />
+                    </textbox>
+                </group>
+                <group>
+                    <label>Dir</label>
+                    <textbox dataBindings="NormalMapParams4.z" >
+                        <dataBindings class="DirectionComponent" />
+                    </textbox>
+                    <textbox dataBindings="NormalMapParams4.w" >
+                        <dataBindings class="DirectionComponent" />
+                    </textbox>
+                </group>
+            </group>
+            <label>Proto Displacement</label>
+            <group horizontal="1">
+                <label>Scale</label>
+                <textbox dataBindings="DisplacementParams.x" >
+                    <dataBindings class="ZeroPositiveCff" />
+                </textbox>
+                <label>Intensity</label>
+                <textbox dataBindings="DisplacementParams.y" >
+                    <dataBindings class="ZeroPositiveCff" />
+                </textbox>
+                <label>Speed</label>
+                <textbox dataBindings="DisplacementParams.z" >
+                    <dataBindings class="ZeroPositiveCff" />
+                </textbox>
+                <group>
+                    <label>Texture</label>
+                    <button dataBindings="DisplacementTexture" fill="1" />
+                </group>
+            </group>
+        </group>
+    </ui>
+</materialdescriptor>

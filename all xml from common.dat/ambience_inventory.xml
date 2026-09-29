@@ -1,0 +1,10 @@
+<AmbienceInventory>
+    <Entry Id="None" Display="None" AmbienceId="15"/>
+	<Entry Id="Desert" Display="Desert" AmbienceId="0"/>
+	<Entry Id="Jungle" Display="Jungle" AmbienceId="1"/>
+	<Entry Id="Savannah" Display="Savannah" AmbienceId="2"/>
+	<Entry Id="DesertJungle" Display="Desert/Jungle" AmbienceId="3"/>
+	<Entry Id="JungleSavannah" Display="Jungle/Savannah" AmbienceId="4"/>
+	<Entry Id="DesertSavannah" Display="Desert/Savannah" AmbienceId="5"/>
+	<Entry Id="Lake" Display="Lake" AmbienceId="6"/>
+</AmbienceInventory>

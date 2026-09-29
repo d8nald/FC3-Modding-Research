@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7590515533642</field>
+  <field name="Name" type="String">CameraShakeAndRumble/HITPitch_Curve</field>
+  <object name="Entity">
+    <field name="hidName" type="String">Curves:CameraShakeAndRumble/HITPitch_Curve</field>
+    <field name="disEntityId" type="Int64">69</field>
+    <field name="text_hidEntityClass" type="String">CCurve</field>
+    <field name="hidEntityClass" type="Hash32">68745CCF</field>
+    <object name="curveCurve">
+      <field name="hidNumKnots" type="Int32">6</field>
+      <field name="hidAllowedTypes" type="Int32">7</field>
+      <object name="Knots">
+        <object name="Knot">
+          <field name="Value" type="Vector4">0,0,0.079999,0.00230158</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">0</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">0.08,-8,-0.0652552,0</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">0</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">0.08,-8,0.113249,0</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">1</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">0.231,0,-0.103698,-2.2889</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">1</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">0.231,0,0.0764571,1.68762</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">1</field>
+        </object>
+        <object name="Knot">
+          <field name="Value" type="Vector4">0.4,0,-0.0809485,-0.0128179</field>
+          <field name="Info" type="Vector4">6.2832,1,0,0</field>
+          <field name="Type" type="Int32">1</field>
+        </object>
+      </object>
+    </object>
+  </object>
+</object>

@@ -1,0 +1,153 @@
+<graphickit id="12074347205255758336" name="PvP_Pirates_Shotgun" unique="0" kittobone="1">
+	<slot name="FPS" position="0" bonename="Spine2">
+		<partdatabase name="" weight="0">
+			<part name="Pirate_Assault_FpsArms" ref="graphics\__FC3_Graphics\_Common\Characters\Multiplayer\PvP\Pirates\Pirate_Assault_FpsArms.xml" mesh="Pirate_Assault_FpsArms" weight="1" version="1" allowcullbysize="1">
+				<tag name="firstperson" type="2" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="PvP_Pirates_FpsArms" id="oskarlundqvist-M-2012020151145439">
+						<materialdatabase name="" weight="0">
+							<material id="oskarlundqvist-M-20120307165316" name="PvP_Pirates_FpsArms_Black" weight="1" file="graphics\_materials\oskarlundqvist-M-20120307165316.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Pirates_Straps_Trim_AsCopy_AsCopy" id="cromagnoli-M-2011111061597741">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Accessories_04_AsCopy" id="cromagnoli-M-2011111061269757">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Shoes_03" id="cromagnoli-M-2011111062641074">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirate_pants_AsCopy" id="cromagnoli-M-2011111062719075">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Torso" position="1" bonename="Spine1">
+		<partdatabase name="" weight="0">
+			<part name="Pirate_Shotgunner_torso01" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Pirate_Shotgunner_torso01.xml" mesh="Pirate_Shotgunner_torso01" weight="1" version="1" allowcullbysize="1">
+				<tag name="firstperson" type="4" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Shotgun_Bullet_Metal_02_A" id="cromagnoli-m-2011061062174792">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="ShotgunPiratevestfrayed_AsCopy" id="cromagnoli-m-2011061062159194">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirate_Shotgunner_Vest_02_A" id="cromagnoli-m-2011061062155393">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Straps_Trim_01_A" id="cromagnoli-m-2011061062152377">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebels_Eye_AsCopy" id="cromagnoli-m-2011061062171770">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirate_Pilot_metal" id="bwaddingham-m-2011040851748947">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirate_Pilot_Lens" id="bwaddingham-m-2011040852435361">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Body_Generic_AsCopy_AsCopy" id="cromagnoli-M-2012052257492519">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Berserker face" id="cromagnoli-m-2011061062146058">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_SNIPER_Shirt_01_AsCopy" id="cromagnoli-m-2011061062142201">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="accesories" position="2" bonename="Spine1">
+		<partdatabase name="" weight="0">
+			<part name="Pirate_Shotgunner_armbullet" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Pirate_Shotgunner_armbullet.xml" mesh="Pirate_Shotgunner_armbullet" weight="1" version="1" allowcullbysize="1">
+				<tag name="firstperson" type="4" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Shotgun_Bullet_Metal_02_A" id="cromagnoli-m-2011061062174792">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Straps_Trim_01_A" id="cromagnoli-m-2011061062152377">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="Pirate_Shotgunner_NoHair" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Pirate_Shotgunner_NoHair.xml" mesh="Pirate_Shotgunner_NoHair" weight="1" version="1" allowcullbysize="1">
+				<tag name="firstperson" type="4" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="HeavyGunnerHair" id="vrizzi-m-0804201152014126">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="Pirate_Shotgunner_Hair01" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Pirate_Shotgunner_Hair01.xml" mesh="Pirate_Shotgunner_Hair01" weight="1" version="1" allowcullbysize="1">
+				<tag name="firstperson" type="4" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="HeavyGunnerHair" id="vrizzi-m-0804201152014126">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirate_ShotGunner_Bandana_01_AsCopy" id="cromagnoli-m-2011061062177915">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="Pirate_Shotgunner_Hair02" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Pirate_Shotgunner_Hair02.xml" mesh="Pirate_Shotgunner_Hair02" weight="1" version="1" allowcullbysize="1">
+				<tag name="firstperson" type="4" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="dreadlocks hair" id="cromagnoli-M-2011110461685612">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirate_ShotGunner_Bandana_01_AsCopy" id="cromagnoli-m-2011061062177915">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Legs" position="3" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="Pirate_Pants01" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Pirate_Pants01.xml" mesh="Pirate_Pants01" weight="1" version="1" allowcullbysize="1">
+				<tag name="firstperson" type="4" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Pirates_Straps_Trim" id="cromagnoli-M-2011111061597741">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Accessories_04" id="cromagnoli-M-2011111061269757">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Shoes_03" id="cromagnoli-M-2011111062641074">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirate_pants_AsCopy" id="cromagnoli-M-2011111062719075">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Teeth" position="4" bonename="Head">
+		<partdatabase name="" weight="0">
+			<part name="Pirate_Shotgunner_Teeth" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Pirate_Shotgunner_Teeth.xml" mesh="Pirate_Shotgunner_Teeth" weight="1" version="1" allowcullbysize="1">
+				<tag name="firstperson" type="4" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-M-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

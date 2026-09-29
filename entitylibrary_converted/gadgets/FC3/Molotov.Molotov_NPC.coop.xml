@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7739069884849</field>
+  <field name="Name" type="String">FC3/Molotov.Molotov_NPC.coop</field>
+  <object name="Entity">
+    <field name="hidName" type="String">gadgets:FC3/Molotov.Molotov_NPC.coop</field>
+    <field name="disEntityId" type="Int64">15074</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">3</field>
+    <field name="hidPos" type="Vector3">0,0,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">0,0,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileName" type="String">graphics\__fc3_graphics\_common\weapons\molotov\molotov.xml</field>
+        <field name="fileName" type="Hash64">18E2EE025A6AF7EA</field>
+        <field name="hidDescriptor" type="Rml">
+          <rml>
+            <hidDescriptor>
+              <component class="GraphicComponent" version="2" detail="0">
+                <object index="0" meshName="FRAME" boneName="FRAME" bboxMin="-0.0372496,-0.0556203,-0.0135161" bboxMax="0.0372497,0.0372496,0.287604" />
+                <resource fileName="graphics\__FC3_Graphics\_Common\Weapons\Molotov\Molotov.xbg" bboxMin="-0.0372496,-0.0556203,-0.0135161" bboxMax="0.0372497,0.0372496,0.287604" />
+                <skeleton_reference_list>
+                  <skeleton name="Molotov" index="0" pos="0,0,0" rot="1,-0,-0,-0">
+                    <bone name="FRAME" pos="0,0,0" rot="1,0,0,0" />
+                    <bone name="FX_FIRE" pos="0,-0.024668,0.24621" rot="0.707107,0.707107,0,0" />
+                    <bone name="GENERICBONE_02" pos="0,-0.03549,0.198165" rot="1,0,0,0" />
+                    <bone name="AnchorBone" pos="0,0,0" rot="1,0,0,0" />
+                  </skeleton>
+                </skeleton_reference_list>
+                <material_reference_list>
+                  <material name="Molotov_Cloth" shader_name="Cloth_FC3" ref_shader_id="grassam-M-1606201159901180" />
+                  <material name="Molotov_Glass" shader_name="Metal" ref_shader_id="grassam-M-1606201159886378" />
+                </material_reference_list>
+              </component>
+              <component class="InteriorVolumeComponent" version="1" detail="0" />
+              <component class="RigidPhysComponent">
+                <resource fileName="graphics\__FC3_Graphics\_Common\Weapons\Molotov\Molotov.hkx" />
+              </component>
+            </hidDescriptor>
+          </rml>
+        </field>
+        <field name="hidCrcCheck" type="Hash32">FFFFFFFF</field>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bCastShadow" type="Boolean">True</field>
+        <field name="bReceiveShadow" type="Boolean">True</field>
+        <field name="bCastAmbientShadow" type="Boolean">True</field>
+        <field name="olgLightGroup" type="Int32">257</field>
+        <field name="bShowInReflection" type="Boolean">True</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bExcludeFromPortalSystem" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="clrHighLightColor" type="Vector3">1,0.9,0.6</field>
+        <field name="clrHighLightColor2" type="Vector3">0,0,0</field>
+        <field name="fHighLightSpeed" type="Float32">1</field>
+        <field name="bLodDitheringEnable" type="Boolean">True</field>
+        <field name="matIntuitionMaterialName" type="String">graphics\_materials\jprajotte-M-20100916104744.material.xml</field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field name="bAllowCullBySize" type="Boolean">True</field>
+        <field name="bMotionBlurExclusion" type="Boolean">False</field>
+        <field name="bOverrideLODSphere" type="Boolean">False</field>
+        <field name="fLODSphereRadius" type="Float32">0</field>
+        <field name="vectorAdditionalAABBDimensionForSkin" type="Vector3">1,1,0</field>
+        <field name="text_currentSkin" type="String"></field>
+        <field name="currentSkin" type="Hash32">FFFFFFFF</field>
+        <field name="bUseCurrentSkin" type="Boolean">False</field>
+        <object name="MaterialLightSwitch">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-1606201159886378</field>
+              <field name="disSlotId" type="Hash32">494D10DD</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-1606201159901180</field>
+              <field name="disSlotId" type="Hash32">A571F093</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="MaterialOverrides">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-1606201159886378</field>
+              <field name="disSlotId" type="Hash32">494D10DD</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-1606201159901180</field>
+              <field name="disSlotId" type="Hash32">A571F093</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="SkinList">
+          <object name="Skin">
+            <field name="text_name" type="String"></field>
+            <field name="name" type="Hash32">FFFFFFFF</field>
+            <field name="locSkinNameId" type="Int32">-1</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">0</field>
+          <field name="text_fileModel" type="String">graphics\__fc3_graphics\_common\weapons\molotov\molotov.xbg</field>
+          <field name="fileModel" type="Hash64">17BB7E025A6AF7EA</field>
+          <field name="hidMeshName" type="String">FRAME</field>
+          <field name="text_hidNodeName" type="String">FRAME</field>
+          <field name="hidNodeName" type="Hash32">42ACFE7D</field>
+          <field name="text_hidNodeNameLOD0" type="String">FRAME_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">117FF4BB</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">1</field>
+          <field name="text_fileModel" type="String"></field>
+          <field name="fileModel" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">FRAME</field>
+          <field name="hidNodeName" type="Hash32">42ACFE7D</field>
+          <field name="text_hidNodeNameLOD0" type="String">FRAME_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">117FF4BB</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+      </object>
+      <object name="CSimpleAnimationComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileSkeleton" type="String">graphics\__fc3_graphics\_common\weapons\molotov\molotov_ref.skeleton</field>
+        <field name="fileSkeleton" type="Hash64">10B97E57CCF1916E</field>
+        <field name="text_sPackage" type="String"></field>
+        <field name="sPackage" type="Hash64">FFFFFFFFFFFFFFFF</field>
+        <field name="AutoApplyDisplacement" type="Boolean">False</field>
+        <field name="sPartName" type="String">molotov</field>
+        <field name="bEnableEvents" type="Boolean">False</field>
+        <field name="bRandomStart" type="Boolean">False</field>
+        <field name="text_Animation" type="String"></field>
+        <field name="Animation" type="Hash64">FFFFFFFFFFFFFFFF</field>
+      </object>
+      <object name="CGadget">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="iAnimationValue" type="Int32">0</field>
+        <field name="bByPassLockHiresCustom" type="Boolean">False</field>
+        <field name="sName" type="BinHex">6D6F6C6F746F7600</field>
+        <field name="locidDisplayName" type="BinHex">FFFFFFFF</field>
+        <field name="selCategory" type="Enum">Molotov</field>
+        <field name="selUseRateMode" type="Enum">Instant</field>
+        <field name="iUseRate" type="BinHex">00007042</field>
+        <field name="selUseStrategy" type="Enum">Throw</field>
+        <field name="iMaxUsesCasual" type="BinHex">02000000</field>
+        <field name="iMaxUsesExperimented" type="BinHex">02000000</field>
+        <field name="iMaxUsesHardcore" type="BinHex">02000000</field>
+        <field name="iMaxUsesInfamous" type="BinHex">02000000</field>
+        <field name="bUnlimitedUses" type="Boolean">False</field>
+        <field name="arkPickupArchetypeName" type="BinHex">9FEE29A3E506C006</field>
+        <field name="fLookSensitivity" type="Float32">1</field>
+        <field name="bUseBothHands" type="Boolean">False</field>
+        <field name="bVisibleHolstered" type="Boolean">True</field>
+        <field name="fMoveSpeedFactor" type="Float32">1</field>
+        <object name="UseStrategy">
+          <field name="arkProjectile" type="Id64">7739069842035</field>
+          <field name="fThrowStrength" type="Float32">16</field>
+          <field name="fThrowAngle" type="Float32">15</field>
+          <field name="fPrimeGrenadeTime" type="Float32">0</field>
+          <field name="fReleaseGrenadeTime" type="Float32">0</field>
+          <field name="vectorMinAngularImpulse" type="Vector3">-100,-20,0</field>
+          <field name="vectorMaxAngularImpulse" type="Vector3">-30,20,0</field>
+          <field name="sAmbxScript" type="BinHex">00</field>
+          <field name="vectorCenterThrowAnimOffset" type="Vector3">-0.188,0,0.14</field>
+          <field name="vectorLeftThrowAnimOffset" type="Vector3">-0.188,0,0.14</field>
+          <field name="vectorRightThrowAnimOffset" type="Vector3">-0.188,0,0.14</field>
+          <field name="coverZThrowOffset" type="Float32">0.05</field>
+          <field name="vectorSpawnPosOffset" type="Vector3">0.1,0,0.06</field>
+          <field name="vectorSpawnOrientOffset" type="Vector3">-90,0,-150</field>
+          <field name="bForcePhysicsThrow" type="Boolean">False</field>
+        </object>
+        <object name="StatisticsAndProgressionWiki">
+          <object name="StatisticUsageCount">
+            <field name="selStatisticType" type="Enum">Weapons_NumberOfUtilisation_Molotov</field>
+          </object>
+        </object>
+      </object>
+      <object name="CFlashToTextureComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="fActivationDistance" type="Float32">0</field>
+        <object name="TagTextMaterial">
+          <field name="bIsActive" type="Boolean">False</field>
+          <field name="sMaterial" type="String"></field>
+          <field name="sTexture" type="String"></field>
+        </object>
+        <object name="FlashProperties">
+          <field name="selTextureType" type="Enum">None</field>
+          <field name="sflashName" type="String"></field>
+          <field name="sflashDescription" type="String"></field>
+          <field name="iViewportSizeX" type="Int32">512</field>
+          <field name="iViewportSizeY" type="Int32">512</field>
+          <field name="iVideoSizeX" type="Int32">512</field>
+          <field name="iVideoSizeY" type="Int32">512</field>
+        </object>
+        <object name="SoundProperties">
+          <field name="sndAmbientPlay" type="String">0xFFFFFFFF</field>
+          <field name="sndAmbientStop" type="String">0xFFFFFFFF</field>
+          <field name="sndtpAmbientSoundType" type="Hash32">FFFFFFFF</field>
+        </object>
+      </object>
+      <object name="CGadgetNetworkComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+      </object>
+      <object name="CDynamicDeploadComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+      </object>
+    </object>
+  </object>
+</object>

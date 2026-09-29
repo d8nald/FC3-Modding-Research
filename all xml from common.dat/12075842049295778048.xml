@@ -1,0 +1,59 @@
+<graphickit id="12075842049295778048" name="Seto" unique="0" kittobone="1">
+	<slot name="Slot1" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Seto" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\Seto\Seto.xml" mesh="Seto" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Seto_Metal" id="oskarlundqvist-M-2012030240148138">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Seto_Iris" id="oskarlundqvist-M-2012020445411848">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Seto_Eyes" id="oskarlundqvist-M-2012020445552981">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Seto_Teeth" id="oskarlundqvist-M-2012020448793934">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Seto_Hair" id="oskarlundqvist-M-2012030253440511">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Seto_Bottle" id="ecourcelles-M-20120423155654">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Seto_Shirt" id="oskarlundqvist-M-2012020262629467">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirate_Pilot_Lens" id="bwaddingham-M-2011040852435361">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Headwraper 01" id="cromagnoli-M-2011100545728328">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Seto_Hat" id="oskarlundqvist-M-2012020357329224">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Seto_Shorts" id="oskarlundqvist-M-2012020140142952">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Seto_Body" id="oskarlundqvist-M-2012020139617403">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Seto_Head" id="oskarlundqvist-M-2012020357236637">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Slot2" position="1" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot3" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot4" position="3" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

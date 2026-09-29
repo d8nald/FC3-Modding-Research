@@ -1,0 +1,65 @@
+<graphickit id="12088861875433898752" name="Jason_Privateer_3rd" unique="0" kittobone="1">
+	<slot name="Body" position="0" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="Jason_3rd_Privateer" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\Jason\Jason_3rd_Privateer.xml" mesh="Jason_3rd_Privateer" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Pirates_Shoes_03" id="cromagnoli-M-2011120957323383">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privater_RPG_shirt_AsCopy_AsCopy" id="cromagnoli-M-2011121250642440">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privater Sniper DefBackPack" id="cromagnoli-M-2011121241682959">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privater_RPG_shirt_05" id="cromagnoli-M-2011121240829544">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privater_Sniper_Jacke" id="cromagnoli-M-2011121240285009">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Jason_beard" id="akotelnikoff-M-2012050338194444">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="02 - Default" id="akotelnikoff-M-2012042757760083">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Jason_head" id="akotelnikoff-M-2012050333591068">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Jason_eyelashes" id="akotelnikoff-M-2012050140115793">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Jason_eye" id="akotelnikoff-M-2012050139687118">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Eye_shadow" id="akotelnikoff-M-2011083067336073">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Jason_Teeth" id="kosullivan-M-0705201271987785">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privater_Sniper_Pants_02" id="cromagnoli-M-2011121240249505">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privateer_Arm_Skin" id="slabreche-M-2012050950526077">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Privateer_Arm_Cloth" id="slabreche-M-2012050737692515">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Boots" position="1" bonename="Hips">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot3" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot4" position="3" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

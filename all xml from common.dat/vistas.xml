@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materialdescriptor xmlns:xi="#" name="Vistas" version="6">
+  <geometryInputs/>
+  
+  <parameter name="EnabledSeparateStreams" type="bool" defaultvalue="1" useDefine="SEPARATE_STREAMS" />
+
+  <parameter name="NormalTexture" type="sampler2D" provideronly="1" />
+  <parameter name="DiffuseTexture" type="sampler2D" provideronly="1" />
+  <parameter name="ShadowTexture" type="sampler2D" provideronly="1" />
+  <parameter name="NoiseTexture" type="sampler2D" provideronly="1" />
+  <parameter name="StaticShadowParams" type="float4" defaultvalue="0.0,0.0,1.0,0.0" provideronly="1" />
+
+  <parameterprovider parametersfilename="Vistas.parameters.inc.fx">
+    <parameter name="NormalTexture" />
+    <parameter name="StaticShadowParams" />
+    <parameter name="DiffuseTexture" />
+    <parameter name="ShadowTexture" />
+    <parameter name="NoiseTexture" />
+    <parameter name="EnabledSeparateStreams" />
+
+
+</parameterprovider>    
+    
+        
+</materialdescriptor>        

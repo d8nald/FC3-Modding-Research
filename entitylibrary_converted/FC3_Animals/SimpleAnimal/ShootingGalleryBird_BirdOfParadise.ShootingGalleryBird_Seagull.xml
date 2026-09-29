@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7720019308850</field>
+  <field name="Name" type="String">SimpleAnimal/ShootingGalleryBird_BirdOfParadise.ShootingGalleryBird_Seagull</field>
+  <object name="Entity">
+    <field name="hidName" type="String">FC3_Animals:SimpleAnimal/ShootingGalleryBird_BirdOfParadise.ShootingGalleryBird_Seagull</field>
+    <field name="disEntityId" type="Int64">456</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">3</field>
+    <field name="hidPos" type="Vector3">-769,-769,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">-769,-769,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CSoundComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="sndptSoundPoint" type="BinHex">FFFFFFFF00000000</field>
+        <field name="bStopSoundOnStateChange" type="Boolean">False</field>
+        <field name="bAlwaysUpdate" type="Boolean">False</field>
+      </object>
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileName" type="String">graphics\__fc3_graphics\_common\characters\animals\bird_seagull\bird_seagull.xml</field>
+        <field name="fileName" type="Hash64">833693E8F11C84DC</field>
+        <field name="hidDescriptor" type="Rml">
+          <rml>
+            <hidDescriptor>
+              <component class="GraphicComponent" version="2" detail="0">
+                <object index="0" boneName="Bird_Seagull_LOD0" bboxMin="-0.581825,-0.205796,-0.00133478" bboxMax="0.581825,0.200257,0.33333" />
+                <resource fileName="graphics\__FC3_Graphics\_Common\Characters\Animals\Bird_Seagull\Bird_Seagull.xbg" bboxMin="-0.582031,-0.205796,-0.00133478" bboxMax="0.582031,0.200797,0.333701" />
+                <skeleton_reference_list>
+                  <skeleton name="Bird_Seagull" index="0" pos="0,0,0" rot="1,-0,-0,-0">
+                    <bone name="Bip01" pos="-0,-0.041265,0.131245" rot="0.707107,0,0,0.707107">
+                      <bone name="Pelvis" pos="0,0,0" rot="0.500001,-0.499999,-0.5,-0.5">
+                        <bone name="Spine" pos="0.025862,0.031077,-0" rot="0.900091,-2.17851e-006,-2.17851e-006,0.435701">
+                          <bone name="Spine1" pos="0.052047,-5.3e-005,-0" rot="1,0,0,0">
+                            <bone name="Neck" pos="0.069848,-0.002435,-0" rot="0.994949,2.00768e-007,-6.02305e-007,0.100384">
+                              <bone name="Head" pos="0.04897,0,0" rot="0.999914,-2.75134e-007,1.96524e-007,-0.0131021">
+                                <bone name="Xtra01" pos="0.02025,0.020008,0" rot="0.90231,1.29326e-006,-3.01761e-006,0.431087" />
+                              </bone>
+                              <bone name="LClavicle" pos="-0.022202,-0.010616,0.020641" rot="0.0712618,0.703507,-0.0712634,0.703506">
+                                <bone name="LUpperArm" pos="0.025709,-0,-0" rot="0.747592,-0.634893,-0.1928,0.0290788">
+                                  <bone name="LForearm" pos="0.102748,0,0" rot="0.989371,0,0,-0.145411">
+                                    <bone name="LHand" pos="0.10879,-0,-0" rot="0.679923,-0.632313,-0.154021,0.337879">
+                                      <bone name="LFinger0" pos="0.053529,0,0" rot="0.994002,-0.000395791,-0.109364,4.35272e-005">
+                                        <bone name="L Finger01" pos="0.110758,0,0" rot="0.999893,1.46195e-008,-0,0.0146205" />
+                                      </bone>
+                                      <bone name="Xtra05" pos="0,2.1e-005,0" rot="7.43429e-005,0.00199,0.999998,0.000165" />
+                                    </bone>
+                                    <bone name="Bone09" pos="9.7e-005,0.084552,0.003638" rot="-0.000233694,0.707892,0.706321,6.8e-005" />
+                                    <bone name="Xtra04" pos="0.117196,-4.7e-005,0" rot="0.000106768,1,-0.000398,-0.000385" />
+                                  </bone>
+                                  <bone name="Xtra03" pos="-1e-006,4.3e-005,0" rot="-4.91579e-005,-0.012197,0.999926,0.00025" />
+                                  <bone name="Bone07" pos="0.04466,0.096123,0.006423" rot="-0.0228272,0.707522,0.705956,0.0227661" />
+                                </bone>
+                              </bone>
+                              <bone name="RClavicle" pos="-0.022202,-0.010616,-0.020641" rot="0.0712634,-0.703506,0.0712614,0.703507">
+                                <bone name="RUpperArm" pos="0.025709,-0,0" rot="0.747593,0.634893,0.192798,0.0290795">
+                                  <bone name="RForearm" pos="0.102748,0,0" rot="0.989371,-0,-0,-0.145411">
+                                    <bone name="RHand" pos="0.10879,-0,0" rot="0.679923,0.632313,0.154021,0.337879">
+                                      <bone name="RFinger0" pos="0.053529,0,0" rot="0.994002,0.000395791,0.109364,4.35272e-005">
+                                        <bone name="R Finger01" pos="0.110758,0,0" rot="0.999893,-1.46195e-008,0,0.0146205" />
+                                      </bone>
+                                      <bone name="Xtra05Opp" pos="0.006057,-0.002224,0.005388" rot="0.631986,0.680069,-0.338127,0.154178" />
+                                    </bone>
+                                    <bone name="Bone13" pos="9.7e-005,0.084552,-0.003638" rot="-0.000360652,0.707579,0.706635,0.000104" />
+                                    <bone name="Xtra04Opp" pos="0.108785,-1e-006,2e-005" rot="-0.155674,-0.336824,0.680245,0.632125" />
+                                  </bone>
+                                  <bone name="Bone11" pos="0.04466,0.096123,-0.006423" rot="0.022327,0.707223,0.706283,-0.0223964" />
+                                  <bone name="Xtra03Opp" pos="-1e-006,4.3e-005,0" rot="-7.81258e-005,-0.012639,0.99992,0.000366" />
+                                </bone>
+                              </bone>
+                            </bone>
+                          </bone>
+                          <bone name="LThigh" pos="-0.040418,0.001006,0.025137" rot="-0.00571169,0.552952,0.833192,0.00158797">
+                            <bone name="LCalf" pos="0.038217,0,0" rot="0.948615,0,0,-0.316431">
+                              <bone name="LFoot" pos="0.036616,0,0" rot="0.927615,-0.0334883,0.0382046,-0.370066">
+                                <bone name="LToe0" pos="0.003386,0.061409,-6.8e-005" rot="0.260805,-0.0530454,-0.0510325,0.962581" />
+                              </bone>
+                            </bone>
+                          </bone>
+                          <bone name="RThigh" pos="-0.040418,0.001007,-0.025137" rot="0.00570779,0.552952,0.833192,-0.00158597">
+                            <bone name="RCalf" pos="0.038217,0,-0" rot="0.948615,-0,-0,-0.316431">
+                              <bone name="RFoot" pos="0.036616,0,0" rot="0.927615,0.0334883,-0.0382046,-0.370066">
+                                <bone name="RToe0" pos="0.003386,0.061409,6.8e-005" rot="0.260805,0.0530454,0.0510325,0.962581" />
+                              </bone>
+                            </bone>
+                          </bone>
+                        </bone>
+                        <bone name="Xtra02" pos="0.015823,-0.048652,0.031115" rot="0.65246,-0.181831,-0.200484,-0.707842" />
+                        <bone name="Xtra02Opp" pos="0.015823,-0.048652,-0.031115" rot="0.652461,0.18183,0.200484,-0.707841" />
+                      </bone>
+                    </bone>
+                  </skeleton>
+                </skeleton_reference_list>
+                <material_reference_list>
+                  <material name="Bird_Seagull" shader_name="Generic_FC3" ref_shader_id="yanzhou-M-2706201164652412" />
+                </material_reference_list>
+              </component>
+              <component class="InteriorVolumeComponent" version="1" detail="0" />
+              <component class="RigidPhysComponent">
+                <resource fileName="graphics\__FC3_Graphics\_Common\Characters\Animals\Bird_Seagull\Bird_Seagull.hkx" />
+              </component>
+            </hidDescriptor>
+          </rml>
+        </field>
+        <field name="hidCrcCheck" type="Hash32">FFFFFFFF</field>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bCastShadow" type="Boolean">True</field>
+        <field name="bReceiveShadow" type="Boolean">True</field>
+        <field name="bCastAmbientShadow" type="Boolean">True</field>
+        <field name="olgLightGroup" type="Int32">129</field>
+        <field name="bShowInReflection" type="Boolean">True</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bExcludeFromPortalSystem" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="clrHighLightColor" type="Vector3">1,0.903545,0.604147</field>
+        <field name="clrHighLightColor2" type="Vector3">0,0,0</field>
+        <field name="fHighLightSpeed" type="Float32">1</field>
+        <field name="bLodDitheringEnable" type="Boolean">True</field>
+        <field name="matIntuitionMaterialName" type="String"></field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field name="bAllowCullBySize" type="Boolean">True</field>
+        <field name="bMotionBlurExclusion" type="Boolean">False</field>
+        <field name="bOverrideLODSphere" type="Boolean">False</field>
+        <field name="fLODSphereRadius" type="Float32">0</field>
+        <field name="vectorAdditionalAABBDimensionForSkin" type="Vector3">1,1,0</field>
+        <field name="text_currentSkin" type="String"></field>
+        <field name="currentSkin" type="Hash32">FFFFFFFF</field>
+        <field name="bUseCurrentSkin" type="Boolean">False</field>
+        <object name="MaterialLightSwitch">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">yanzhou-m-2706201164652412</field>
+              <field name="disSlotId" type="Hash32">9A805B3A</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="MaterialOverrides">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">yanzhou-m-2706201164652412</field>
+              <field name="disSlotId" type="Hash32">9A805B3A</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="SkinList">
+          <object name="Skin">
+            <field name="text_name" type="String"></field>
+            <field name="name" type="Hash32">FFFFFFFF</field>
+            <field name="locSkinNameId" type="Int32">-1</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">0</field>
+          <field name="text_fileModel" type="String">graphics\__fc3_graphics\_common\characters\animals\bird_seagull\bird_seagull.xbg</field>
+          <field name="fileModel" type="Hash64">8C6F03E8F11C84DC</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">Bird_Seagull</field>
+          <field name="hidNodeName" type="Hash32">64F07C3D</field>
+          <field name="text_hidNodeNameLOD0" type="String">Bird_Seagull_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">A8A486B2</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">1</field>
+          <field name="text_fileModel" type="String"></field>
+          <field name="fileModel" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">Bird_Seagull</field>
+          <field name="hidNodeName" type="Hash32">64F07C3D</field>
+          <field name="text_hidNodeNameLOD0" type="String">Bird_Seagull_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">A8A486B2</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+      </object>
+      <object name="CSimpleAnimationComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileSkeleton" type="String">graphics\__fc3_graphics\_common\characters\animals\bird_seagull\pelvis_ref.skeleton</field>
+        <field name="fileSkeleton" type="Hash64">646E26D34C6048EB</field>
+        <field name="text_sPackage" type="String"></field>
+        <field name="sPackage" type="Hash64">FFFFFFFFFFFFFFFF</field>
+        <field name="AutoApplyDisplacement" type="Boolean">False</field>
+        <field name="sPartName" type="String"></field>
+        <field name="bEnableEvents" type="Boolean">False</field>
+        <field name="bRandomStart" type="Boolean">False</field>
+        <field name="text_Animation" type="String"></field>
+        <field name="Animation" type="Hash64">FFFFFFFFFFFFFFFF</field>
+      </object>
+      <object hash="40B958BA">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="527E7674" type="BinHex">67726170686963735C5F5F6663335F67726170686963735C5F636F6D6D6F6E5C636861726163746572735C616E696D616C735C626972645F73656167756C6C5C626972645F73656167756C6C2E686B7800</field>
+        <field hash="2E50EB85" type="BinHex">DC841CF1E828F39E</field>
+        <field hash="EFFCA0CA" type="BinHex">00</field>
+        <field hash="976F114C" type="BinHex">00</field>
+        <field hash="1CFFDBEC" type="BinHex">00</field>
+        <field hash="68C1CF4F" type="BinHex">00</field>
+        <field hash="6EB9AFAA" type="BinHex">01</field>
+        <field hash="CAA1B825" type="BinHex">01</field>
+        <field hash="CD8C3274" type="BinHex">00</field>
+        <field hash="5BABAAC6" type="BinHex">00</field>
+        <field hash="0DBE2127" type="BinHex">0000A040</field>
+        <field hash="43EBE31F" type="BinHex">00007A44</field>
+        <field hash="9EBBF0BE" type="BinHex">00004843</field>
+        <field hash="5E9FE0F4" type="BinHex">01000000</field>
+        <field hash="A0C9D351" type="BinHex">00000000</field>
+        <field hash="3D255EB4" type="BinHex">000080BF</field>
+        <field hash="6979CD98" type="BinHex">000080BF</field>
+        <field hash="10544067" type="BinHex">0000803F</field>
+        <field hash="19373762" type="BinHex">0000803F</field>
+        <field hash="6C655DC9" type="BinHex">000000000000000000000000</field>
+        <field hash="2FAB0399" type="BinHex">CDCCCC3D</field>
+        <field hash="4B920C34" type="BinHex">00000040</field>
+        <field hash="E7CD1E54" type="BinHex">00007A44</field>
+        <field hash="377CBB2A" type="BinHex">3078464646464646464600</field>
+        <field hash="46C19CCF" type="BinHex">FFFFFFFF</field>
+        <field hash="1B5C5211" type="BinHex">00</field>
+        <field hash="B2AC9745" type="BinHex">00</field>
+        <object hash="18327EA1" />
+        <object hash="F8CD54EF" />
+        <object hash="2C3872D7">
+          <field hash="1BD9687D" type="BinHex">01</field>
+          <field hash="3CC3447B" type="BinHex">0000803F</field>
+          <field hash="A82A04B0" type="BinHex">01</field>
+          <field hash="7E69602B" type="BinHex">0000803F</field>
+          <field hash="2CE04FBD" type="BinHex">01</field>
+          <field hash="0FD3A7FE" type="BinHex">0000803F</field>
+          <field hash="66E259A4" type="BinHex">01</field>
+          <field hash="AF05B5DA" type="BinHex">0000803F</field>
+          <field hash="D0D0214E" type="BinHex">01</field>
+          <field hash="EF60D3E5" type="BinHex">0000803F</field>
+          <field hash="84C61665" type="BinHex">01</field>
+          <field hash="0E383244" type="BinHex">0000803F</field>
+          <field hash="F5A437A9" type="BinHex">01</field>
+          <field hash="2E4EF419" type="BinHex">0000803F</field>
+          <field hash="CD44BAF4" type="BinHex">00</field>
+          <field hash="B400C023" type="BinHex">0000803F</field>
+          <field hash="D5DFD00B" type="BinHex">01</field>
+          <field hash="331A65A7" type="BinHex">0000803F</field>
+          <field hash="D8CE60FD" type="BinHex">01</field>
+          <field hash="EC4E2508" type="BinHex">0000803F</field>
+          <field hash="7B2F6D28" type="BinHex">0000803F</field>
+          <field hash="FA5898B1" type="BinHex">0000803F</field>
+        </object>
+      </object>
+      <object hash="28DB2B66">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="D31D8CE5" type="BinHex">0000803F</field>
+        <field hash="27099C90" type="BinHex">00</field>
+        <field hash="DE6FE9FB" type="BinHex">FFFFFFFF</field>
+        <field hash="3DED5A88" type="BinHex">00</field>
+        <field hash="C729E709" type="BinHex">00</field>
+        <field hash="0E37A34A" type="BinHex">00</field>
+        <field hash="2D6DDF89" type="BinHex">0000803F</field>
+        <field hash="F0A9E476" type="BinHex">00</field>
+        <field hash="C8758EE0" type="BinHex">00000000</field>
+        <field hash="4ECA9E52" type="BinHex">00008040</field>
+        <field hash="2B41D37D" type="BinHex">0000803F</field>
+        <field hash="FFEEA751" type="BinHex">0000C842</field>
+        <field hash="BD8D62E9" type="BinHex">0000803F</field>
+        <object hash="A568BA00">
+          <object hash="0395B00E">
+            <field hash="16ACDBFE" type="BinHex">0000803F</field>
+            <field hash="FB47F10E" type="BinHex">0000803F</field>
+            <field hash="9DB86C1E" type="BinHex">0000803F</field>
+            <field hash="CC048305" type="BinHex">0000803F</field>
+            <field hash="DBDC55DD" type="BinHex">0000803F</field>
+            <field hash="A4626FBC" type="BinHex">0000803F</field>
+            <field hash="B6A61D80" type="BinHex">0000803F</field>
+            <field hash="73EB1AFE" type="BinHex">0000803F</field>
+            <field hash="2E762191" type="BinHex">0000803F</field>
+            <field hash="0DB52D6D" type="BinHex">0000803F</field>
+          </object>
+        </object>
+      </object>
+      <object name="CFCXPawnLootComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="hidInjected" type="Boolean">True</field>
+        <field name="fLootRadius" type="Float32">2</field>
+        <field name="sndPickupAmmoSound" type="String">0xFFFFFFFF</field>
+        <field name="sndtpRareAnimalSoundType" type="Hash32">FFFFFFFF</field>
+        <field name="sndRareAnimalSound" type="String">0xFFFFFFFF</field>
+        <field name="selObjectType" type="Enum">Generic</field>
+        <field name="text_Bone1" type="String">Head</field>
+        <field name="Bone1" type="Hash32">07C159A2</field>
+        <field name="text_Bone2" type="String">Spine</field>
+        <field name="Bone2" type="Hash32">530EC1CB</field>
+        <field name="text_BloodMaterial" type="String"></field>
+        <field name="BloodMaterial" type="Hash32">FFFFFFFF</field>
+        <field name="locidLootPromptId" type="Int32">104575</field>
+        <object name="LootGroups">
+          <object name="Group">
+            <field name="percent" type="Float32">-1</field>
+            <field name="lootGroup" type="Int32">0</field>
+          </object>
+        </object>
+        <object name="AlternativeBloodMaterials">
+          <object name="AlternativeBloodMaterial">
+            <field name="text_AlternativeBloodMaterial" type="String"></field>
+            <field name="AlternativeBloodMaterial" type="Hash32">FFFFFFFF</field>
+          </object>
+        </object>
+        <object name="LootMultipliers">
+          <field name="bForceAlwaysLootable" type="BinHex">00</field>
+          <object name="StimTypeMultipliers">
+            <object name="StimTypeMultiplier">
+              <field hash="01A1F2E2" type="BinHex">00000000</field>
+              <field hash="7B69D7B1" type="BinHex">00000000</field>
+              <field hash="9C3C1047" type="BinHex">000080BF</field>
+              <field hash="DBAB2F6A" type="BinHex">01000000</field>
+            </object>
+          </object>
+          <object name="HitLocationMultipliers">
+            <object name="HitLocationMultiplier">
+              <field hash="57CDD6A0" type="BinHex">00000000</field>
+              <field hash="DBAB2F6A" type="BinHex">01000000</field>
+            </object>
+          </object>
+        </object>
+      </object>
+      <object name="CTaggableComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="hidInjected" type="Boolean">True</field>
+        <field name="fIdentificationRadiusModifier" type="Float32">1</field>
+        <field name="bEnable" type="Boolean">True</field>
+        <field name="bDisableTaggingByCameraAndIronsight" type="Boolean">True</field>
+        <field name="fHighlightFadeOutTime" type="Float32">2</field>
+        <field name="selTagType" type="Enum">Animal</field>
+        <object name="TagIndicator">
+          <field name="bSizeDependsOnDistance" type="Boolean">False</field>
+          <field name="text_sTexturePath" type="String"></field>
+          <field name="sTexturePath" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="fScaleX" type="Float32">0.04</field>
+          <field name="fScaleY" type="Float32">0.04</field>
+          <field name="fVerticalOffset" type="Float32">0.5</field>
+          <field name="sMinimapFrameLabel" type="String"></field>
+        </object>
+      </object>
+    </object>
+  </object>
+</object>

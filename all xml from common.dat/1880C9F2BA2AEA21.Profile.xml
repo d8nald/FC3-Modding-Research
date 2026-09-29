@@ -1,0 +1,22 @@
+<Profile 
+  Quality="high" 
+    AllowAsynchShaderLoading="1"
+    Fullscreen="1"
+    DisableMeshMerging="1"
+    MultiSampleMode="0"
+    MultiSampleLevel="0"
+    AlphaToCoverage="1"
+    AlwaysMip0Loading="0"
+    GammaRamp="1.0"
+    MaxShadersToPreload="2600"
+    MaxShadersToPreloadPerFrame="100"
+    MaxShaderObjectToCreateRuntime="5"
+    MaxShaderObjectToCreateLoadtime="15"
+    MaxShaderObjectToProcessLoadtime="100"
+    SafeAreaBlackBorderPercentHDX="0.3"
+    SafeAreaBlackBorderPercentHDY="1.3"
+    SafeAreaBlackBorderPercentSDX="0"
+    SafeAreaBlackBorderPercentSDY="2"
+    EnableSubResolution="0"
+    >
+</Profile>

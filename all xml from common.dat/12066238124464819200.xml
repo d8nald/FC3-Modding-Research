@@ -1,0 +1,80 @@
+<graphickit id="12066238124464819200" name="Blind_local_woman" unique="0" kittobone="1">
+	<slot name="hair" position="0" bonename="Head">
+		<partdatabase name="" weight="0">
+			<part name="Native_Woman_Hair_02" ref="graphics\__FC3_Graphics\_Common\Characters\Locals\Native_Woman_Hair_02.xml" mesh="Native_Woman_Hair_02" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="villagerHair." id="cromagnoli-M-2011101361297292">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="head" position="1" bonename="Head">
+		<partdatabase name="" weight="0">
+			<part name="Native_Woman_Head_01" ref="graphics\__FC3_Graphics\_Common\Characters\Locals\Native_Woman_Head_01.xml" mesh="Native_Woman_Head_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Women_Villager_Head_01" id="slabreche-m-2011081035976975">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Female_Body_Native_01" id="slabreche-m-2011081055364901">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="accessories" position="2" bonename="Head">
+		<partdatabase name="" weight="0">
+			<part name="Native_Woman_Bandeau" ref="graphics\__FC3_Graphics\_Common\Characters\Locals\Native_Woman_Bandeau.xml" mesh="Native_Woman_Bandeau" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="01 - Default" id="cromagnoli-m-2011090651138758">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="arms" position="3" bonename="Spine2">
+		<partdatabase name="" weight="0">
+			<part name="Native_Woman_Arms_01" ref="graphics\__FC3_Graphics\_Common\Characters\Locals\Native_Woman_Arms_01.xml" mesh="Native_Woman_Arms_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Female_Body_Native_01" id="slabreche-m-2011081055364901">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="legs" position="4" bonename="LeftLeg">
+		<partdatabase name="" weight="0">
+			<part name="Native_Woman_Skirt_01" ref="graphics\__FC3_Graphics\_Common\Characters\Locals\Native_Woman_Skirt_01.xml" mesh="Native_Woman_Skirt_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="local woman Skirt 1" id="vfortin-m-2011041862526692">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Female_Body_Native_01" id="slabreche-m-2011081055364901">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="torso" position="5" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Native_Woman_Shirt_01" ref="graphics\__FC3_Graphics\_Common\Characters\Locals\Native_Woman_Shirt_01.xml" mesh="Native_Woman_Shirt_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Women_Villager_Shirt_01" id="slabreche-m-2011081036310066">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

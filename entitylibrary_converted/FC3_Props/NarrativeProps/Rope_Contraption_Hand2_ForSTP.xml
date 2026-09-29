@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7717882127282</field>
+  <field name="Name" type="String">NarrativeProps/Rope_Contraption_Hand2_ForSTP</field>
+  <object name="Entity">
+    <field name="hidName" type="String">FC3_Props:NarrativeProps/Rope_Contraption_Hand2_ForSTP</field>
+    <field name="disEntityId" type="Int64">13965</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">2</field>
+    <field name="hidPos" type="Vector3">0,0,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">0,0,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileName" type="String">graphics\__fc3_graphics\singleplayer\prototypes\rope_contraption_hand.xml</field>
+        <field name="fileName" type="Hash64">CE3F213318CB08A7</field>
+        <field name="hidDescriptor" type="Rml">
+          <rml>
+            <hidDescriptor>
+              <component class="GraphicComponent" version="2" detail="0">
+                <object index="0" boneName="Rope_Contraption_Hand_LOD0" bboxMin="-0.122638,-0.0445166,-0.105515" bboxMax="0.132093,0.0257474,0.0571065" />
+                <resource fileName="graphics\__FC3_Graphics\SinglePlayer\Prototypes\Rope_Contraption_Hand.xbg" bboxMin="-0.122638,-0.0445166,-0.105515" bboxMax="0.132093,0.0257474,0.0571065" />
+                <skeleton_reference_list>
+                  <skeleton name="Rope_Contraption_Hand" index="0" pos="0,0,0" rot="1,-0,-0,-0">
+                    <bone name="Main" pos="0,0,0" rot="1,0,0,0">
+                      <bone name="Knot" pos="-0,0,0" rot="1,0,0,0">
+                        <bone name="Knot_Left_Top" pos="-0.017823,-0.000728,0.023978" rot="1,0,0,0" />
+                        <bone name="Knot_Left_Bottom" pos="-0.012706,0.017581,-0.010705" rot="1,0,0,0" />
+                        <bone name="Knot_Right_Top_Back" pos="0.031055,0.014087,0.016422" rot="1,0,0,0" />
+                        <bone name="Knot_Right_Top_Front" pos="0.023944,-0.014406,0.007809" rot="1,0,0,0" />
+                        <bone name="Left_End_1" pos="-0.032275,-0.002821,-0.025998" rot="0.972581,0.0850899,0.215616,-0.018864">
+                          <bone name="Left_End_2" pos="0.002822,-0.000534,-0.035134" rot="0.984808,0,-0.173648,-1.73648e-007" />
+                        </bone>
+                        <bone name="Right_End_1" pos="0.00664,-0.002358,-0.017898" rot="0.98106,-0.0858316,-0.172987,-0.0151344">
+                          <bone name="Right_End_2" pos="-0.000609,-0.001659,-0.026868" rot="0.998097,0.0435777,0.0435777,-0.00190262" />
+                        </bone>
+                      </bone>
+                      <bone name="left_Wrist" pos="-0.074135,-0.012362,0.00282" rot="1,0,0,0">
+                        <bone name="left_Wrist_6" pos="-0.022456,0,0.038551" rot="1,0,0,0" />
+                        <bone name="left_Wrist_1" pos="0.019252,0.002484,0.036616" rot="1,0,0,0" />
+                        <bone name="left_Wrist_2" pos="0.037595,0.0044,-0.001519" rot="1,0,0,0" />
+                        <bone name="left_Wrist_3" pos="0.025706,0,-0.034934" rot="1,0,0,0" />
+                        <bone name="left_Wrist_4" pos="-0.026536,0,-0.036545" rot="1,0,0,0" />
+                        <bone name="left_Wrist_5" pos="-0.039952,0,-0.002801" rot="1,0,0,0" />
+                        <bone name="Left_Knot_Top" pos="0.019244,0.019852,0.034925" rot="1,0,0,0" />
+                        <bone name="Left_Knot_Bottom" pos="0.03133,-0.014983,-0.029272" rot="1,0,0,0" />
+                      </bone>
+                      <bone name="Right_Wrist" pos="0.084113,-0.012362,0.00282" rot="1,0,0,0">
+                        <bone name="Right_Wrist_6" pos="-0.022456,0,0.038551" rot="1,0,0,0" />
+                        <bone name="Right_Wrist_1" pos="0.021724,0,0.037529" rot="1,0,0,0" />
+                        <bone name="Right_Wrist_2" pos="0.040012,0,-0.001519" rot="1,0,0,0" />
+                        <bone name="Right_Wrist_3" pos="0.025706,0,-0.034934" rot="1,0,0,0" />
+                        <bone name="Right_Wrist_4" pos="-0.027348,0,-0.038248" rot="1,0,0,0" />
+                        <bone name="Right_Wrist_5" pos="-0.039952,0,-0.002801" rot="1,0,0,0" />
+                        <bone name="Right_Knot_Top_Front" pos="-0.012082,0.009387,0.049164" rot="1,0,0,0" />
+                        <bone name="Right_Knot_Top_Back" pos="-0.019222,0.029779,0.034242" rot="1,0,0,0" />
+                        <bone name="Right_Knot_Bottom" pos="-0.039499,0.012129,-0.029095" rot="1,0,0,0" />
+                      </bone>
+                    </bone>
+                  </skeleton>
+                </skeleton_reference_list>
+                <material_reference_list>
+                  <material name="Rope_Climbable" shader_name="Generic_FC3" ref_shader_id="jfduval-M-2011090738682689" />
+                </material_reference_list>
+              </component>
+              <component class="InteriorVolumeComponent" version="1" detail="0" />
+            </hidDescriptor>
+          </rml>
+        </field>
+        <field name="hidCrcCheck" type="Hash32">FFFFFFFF</field>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bCastShadow" type="Boolean">True</field>
+        <field name="bReceiveShadow" type="Boolean">True</field>
+        <field name="bCastAmbientShadow" type="Boolean">True</field>
+        <field name="olgLightGroup" type="Int32">129</field>
+        <field name="bShowInReflection" type="Boolean">True</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bExcludeFromPortalSystem" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="clrHighLightColor" type="Vector3">1,0.903545,0.604147</field>
+        <field name="clrHighLightColor2" type="Vector3">0,0,0</field>
+        <field name="fHighLightSpeed" type="Float32">1</field>
+        <field name="bLodDitheringEnable" type="Boolean">True</field>
+        <field name="matIntuitionMaterialName" type="String"></field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field name="bAllowCullBySize" type="Boolean">True</field>
+        <field name="bMotionBlurExclusion" type="Boolean">False</field>
+        <field name="bOverrideLODSphere" type="Boolean">False</field>
+        <field name="fLODSphereRadius" type="Float32">0</field>
+        <field name="vectorAdditionalAABBDimensionForSkin" type="Vector3">1,1,0</field>
+        <field name="text_currentSkin" type="String"></field>
+        <field name="currentSkin" type="Hash32">FFFFFFFF</field>
+        <field name="bUseCurrentSkin" type="Boolean">False</field>
+        <object name="MaterialLightSwitch">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">jfduval-m-2011090738682689</field>
+              <field name="disSlotId" type="Hash32">9A840A1F</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="MaterialOverrides">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">jfduval-m-2011090738682689</field>
+              <field name="disSlotId" type="Hash32">9A840A1F</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="SkinList">
+          <object name="Skin">
+            <field name="text_name" type="String"></field>
+            <field name="name" type="Hash32">FFFFFFFF</field>
+            <field name="locSkinNameId" type="Int32">-1</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">0</field>
+          <field name="text_fileModel" type="String">graphics\__fc3_graphics\singleplayer\prototypes\rope_contraption_hand.xbg</field>
+          <field name="fileModel" type="Hash64">C166B13318CB08A7</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">Rope_Contraption_Hand</field>
+          <field name="hidNodeName" type="Hash32">0CE11614</field>
+          <field name="text_hidNodeNameLOD0" type="String">Rope_Contraption_Hand_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">802EF448</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">1</field>
+          <field name="text_fileModel" type="String"></field>
+          <field name="fileModel" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">Rope_Contraption_Hand</field>
+          <field name="hidNodeName" type="Hash32">0CE11614</field>
+          <field name="text_hidNodeNameLOD0" type="String">Rope_Contraption_Hand_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">802EF448</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+      </object>
+      <object name="CSimpleAnimationComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileSkeleton" type="String">graphics\__fc3_graphics\singleplayer\prototypes\rope_contraption_hand2_main_ref.skeleton</field>
+        <field name="fileSkeleton" type="Hash64">933F743390A7A5D7</field>
+        <field name="text_sPackage" type="String"></field>
+        <field name="sPackage" type="Hash64">FFFFFFFFFFFFFFFF</field>
+        <field name="AutoApplyDisplacement" type="Boolean">False</field>
+        <field name="sPartName" type="String">main2</field>
+        <field name="bEnableEvents" type="Boolean">False</field>
+        <field name="bRandomStart" type="Boolean">False</field>
+        <field name="text_Animation" type="String"></field>
+        <field name="Animation" type="Hash64">FFFFFFFFFFFFFFFF</field>
+      </object>
+      <object hash="E683B521">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="2BA6E1A6" type="BinHex">FFFFFFFF00000000</field>
+      </object>
+    </object>
+  </object>
+</object>

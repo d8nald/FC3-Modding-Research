@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7655844810282</field>
+  <field name="Name" type="String">FC3_Quadrupeds/AttackDog_FC3</field>
+  <object name="Entity">
+    <field name="hidName" type="String">FC3_Animals:FC3_Quadrupeds/AttackDog_FC3</field>
+    <field name="disEntityId" type="Int64">349</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">36</field>
+    <field name="hidPos" type="Vector3">-513,-513,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">-513,-513,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CGroupComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <object name="Groups">
+          <object name="group">
+            <field name="text_group" type="String"></field>
+            <field name="group" type="Hash32">FFFFFFFF</field>
+          </object>
+        </object>
+      </object>
+      <object name="CSoundComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="sndptSoundPoint" type="BinHex">FFFFFFFF00000000</field>
+        <field name="bStopSoundOnStateChange" type="Boolean">False</field>
+        <field name="bAlwaysUpdate" type="Boolean">False</field>
+      </object>
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileName" type="String"></field>
+        <field name="fileName" type="Hash64">FFFFFFFFFFFFFFFF</field>
+        <field name="hidCrcCheck" type="Hash32">FFFFFFFF</field>
+      </object>
+      <object name="CGraphicKitComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="kitidGraphicKit" type="Hash64">A773201700001300</field>
+        <field name="hidGraphicKitIdBkp" type="Hash64">FFFFFFFFFFFFFFFF</field>
+        <field name="bRandomize" type="Boolean">True</field>
+        <field name="bUpdateGfxComponentOnSpawn" type="Boolean">True</field>
+        <field name="bInitiallyLoadAllResources" type="Boolean">False</field>
+        <object name="InitialTags">
+          <object name="InitialTag">
+            <field name="text_tag" type="String"></field>
+            <field name="tag" type="Hash32">FFFFFFFF</field>
+          </object>
+        </object>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bCastShadow" type="Boolean">True</field>
+        <field name="bReceiveShadow" type="Boolean">True</field>
+        <field name="bCastAmbientShadow" type="Boolean">True</field>
+        <field name="olgLightGroup" type="Int32">129</field>
+        <field name="bShowInReflection" type="Boolean">True</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bExcludeFromPortalSystem" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="clrHighLightColor" type="Vector3">0.4,0.364706,0.27451</field>
+        <field name="clrHighLightColor2" type="Vector3">0,0,0</field>
+        <field name="fHighLightSpeed" type="Float32">1</field>
+        <field name="bLodDitheringEnable" type="Boolean">True</field>
+        <field name="matIntuitionMaterialName" type="String">graphics\_materials\jprajotte-M-20100916104744.material.xml</field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field name="bAllowCullBySize" type="Boolean">True</field>
+        <field name="bMotionBlurExclusion" type="Boolean">False</field>
+        <field name="bOverrideLODSphere" type="Boolean">False</field>
+        <field name="fLODSphereRadius" type="Float32">0</field>
+        <field name="vectorAdditionalAABBDimensionForSkin" type="Vector3">1,1,0</field>
+        <object name="MaterialLightSwitch">
+          <object name="MaterialSlots" />
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">0</field>
+          <field name="text_fileModel" type="String"></field>
+          <field name="fileModel" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String"></field>
+          <field name="hidNodeName" type="Hash32">FFFFFFFF</field>
+          <field name="text_hidNodeNameLOD0" type="String"></field>
+          <field name="hidNodeNameLOD0" type="Hash32">FFFFFFFF</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+      </object>
+      <object name="CDynamicDeploadComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+      </object>
+      <object name="CAnimationComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileSkeleton" type="String">graphics\__fc3_graphics\_common\characters\animals\dog_pitbull\hips_ref.skeleton</field>
+        <field name="fileSkeleton" type="Hash64">031745EDC7F30A39</field>
+        <field name="text_sPackage" type="String">pitbull</field>
+        <field name="sPackage" type="Hash64">5111062927967100</field>
+        <field name="AutoApplyDisplacement" type="Boolean">False</field>
+        <field name="text_fileSkeletonMocap" type="String"></field>
+        <field name="fileSkeletonMocap" type="Hash64">FFFFFFFFFFFFFFFF</field>
+        <field name="bEnableLOD" type="Boolean">True</field>
+        <field name="bEnablePartBlending" type="Boolean">True</field>
+      </object>
+      <object name="CCharacterPhysComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_hidResourceId" type="String">graphics\__fc3_graphics\_common\characters\animals\dog_pitbull\dog_pitbull.hkx</field>
+        <field name="hidResourceId" type="Hash64">EFAD7224D0B71555</field>
+        <field name="fileRagdoll" type="String">graphics\__fc3_graphics\_common\characters\animals\dog_pitbull\dog_pitbull.hkr</field>
+        <field name="fileOptionalRagdollRaycast" type="String"></field>
+        <field name="fFloatingTime" type="Float32">10</field>
+        <field name="fFloatingTimeRandom" type="Float32">3</field>
+        <field name="fSinkSpeed" type="Float32">0.2</field>
+        <field name="fWaterForceFactor" type="Float32">1</field>
+        <field name="UsesRagdoll" type="Boolean">True</field>
+        <field name="DestroyCharacterControllerOnRagdoll" type="Boolean">True</field>
+        <field name="bCreateCharacterController" type="Boolean">True</field>
+        <field name="RagdollCollideSpeedLimit" type="Float32">2</field>
+        <field name="text_LockBone" type="String"></field>
+        <field name="LockBone" type="Hash32">FFFFFFFF</field>
+        <object name="LogicMaterialOverrides" />
+        <object name="FloatingBones">
+          <object name="BoneNames">
+            <field name="text_BoneName" type="String"></field>
+            <field name="BoneName" type="Hash32">FFFFFFFF</field>
+            <field name="fFloatingRatio" type="Float32">0</field>
+          </object>
+        </object>
+        <object name="CharacterParams">
+          <field name="fMass" type="Float32">80</field>
+          <field name="bUpdateRotation" type="Boolean">True</field>
+          <field name="bUseRigidBased" type="Boolean">True</field>
+          <field name="bUseLowQualitySim" type="Boolean">False</field>
+          <field name="fMaxLinearVelocity" type="Float32">40</field>
+          <field name="fMaxIntepenetration" type="Float32">0.1</field>
+          <field name="fStickToGroundGravityFactor" type="Float32">0</field>
+          <field name="fMaxSlopeAngle" type="Float32">75</field>
+          <field name="fMaxTerrainSlopeAngle" type="Float32">75</field>
+          <object name="StandDimensions">
+            <field name="vecStandCapsulePointA" type="Vector3">0,0.2,0.465</field>
+            <field name="vecStandCapsulePointB" type="Vector3">0,0,0.465</field>
+            <field name="fStandCapsuleRadius" type="Float32">0.45</field>
+          </object>
+          <object name="CrouchDimensions">
+            <field name="vecStandCapsulePointA" type="Vector3">0,0,0.45</field>
+            <field name="vecStandCapsulePointB" type="Vector3">0,0,1.25</field>
+            <field name="fStandCapsuleRadius" type="Float32">0.45</field>
+          </object>
+          <object name="SwimDimensions">
+            <field name="vecStandCapsulePointA" type="Vector3">0,0,0.45</field>
+            <field name="vecStandCapsulePointB" type="Vector3">0,0,1.25</field>
+            <field name="fStandCapsuleRadius" type="Float32">0.45</field>
+          </object>
+          <object name="TinyDimensions">
+            <field name="vecStandCapsulePointA" type="Vector3">0,0,0.45</field>
+            <field name="vecStandCapsulePointB" type="Vector3">0,0,1.25</field>
+            <field name="fStandCapsuleRadius" type="Float32">0.45</field>
+          </object>
+        </object>
+        <object name="BonesIgnoringTerrainCollisions">
+          <object name="BoneName">
+            <field name="text_BoneName" type="String"></field>
+            <field name="BoneName" type="Hash32">FFFFFFFF</field>
+          </object>
+        </object>
+      </object>
+      <object name="CFCXAIComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_Type" type="String">CAttackDogAgent</field>
+        <field name="Type" type="Hash32">1CEECA72</field>
+        <field name="selCharacterType" type="Enum">GenericNPC</field>
+        <field name="selGenderType" type="Enum">Male</field>
+        <field name="selMetaCharacterType" type="Enum">None</field>
+        <field name="arkPistolTakedownArchetype" type="Id64">0</field>
+        <field name="fMaxLookAngle" type="Float32">90</field>
+        <field name="fMaxAimAngle" type="Float32">90</field>
+        <object name="AIObject">
+          <field hash="F932DF61" type="BinHex">00</field>
+          <field hash="FEC64307" type="BinHex">00000000</field>
+          <object hash="19669DE5">
+            <field hash="E79280E8" type="BinHex">3A3A446F67427261696E2F446F67427261696E547265652F526F6F7400</field>
+            <field hash="51D00CFA" type="BinHex">1602741B</field>
+            <field hash="071B548C" type="BinHex">656E67696E655C736372697074735C67616D655C6E6577627261696E735C646F67627261696E2E61692E726D6C00</field>
+            <field hash="8C3C4908" type="BinHex">10A99E0861B6F808</field>
+            <field hash="58E30292" type="BinHex">00000000</field>
+          </object>
+          <object hash="A385ED76">
+            <field hash="84C3FECA" type="BinHex">00000040</field>
+            <field hash="5901C307" type="BinHex">00008040</field>
+            <field hash="94A2C6D3" type="BinHex">00000841</field>
+            <field hash="23FC7BA2" type="BinHex">000000C0</field>
+            <field hash="69F7F238" type="BinHex">000080C0</field>
+            <field hash="339D43BB" type="BinHex">0000C0C0</field>
+            <field hash="4D55A7E3" type="BinHex">92EE29A3E506A003</field>
+            <field hash="E3915A7C" type="BinHex">9A99993F</field>
+            <field hash="111303B0" type="BinHex">9A99993F</field>
+            <field hash="00CD58B3" type="BinHex">00004040</field>
+            <field hash="DB09E804" type="BinHex">0000B040</field>
+            <field hash="E5500704" type="BinHex">00000041</field>
+            <field hash="2642C34D" type="BinHex">00000000</field>
+            <field hash="9AEBCC74" type="BinHex">00000000</field>
+            <field hash="46BA76E9" type="BinHex">00000000</field>
+            <field hash="9D7EC65E" type="BinHex">00000000</field>
+            <field hash="411D4197" type="BinHex">00000000</field>
+            <field hash="7AD4D99E" type="BinHex">01</field>
+          </object>
+          <object hash="1126D0BD">
+            <field hash="E075C4B5" type="BinHex">00</field>
+            <field hash="D5FA2962" type="BinHex">00</field>
+          </object>
+          <object hash="D199FF04">
+            <object hash="69C6B530">
+              <field hash="795F32D4" type="BinHex">5370696E6500</field>
+              <field hash="CF1DBEC6" type="BinHex">CBC10E53</field>
+              <field hash="9A6EC8E4" type="BinHex">9A99993E</field>
+            </object>
+            <object hash="69C6B530">
+              <field hash="795F32D4" type="BinHex">00</field>
+              <field hash="CF1DBEC6" type="BinHex">FFFFFFFF</field>
+              <field hash="9A6EC8E4" type="BinHex">00000000</field>
+            </object>
+          </object>
+          <object hash="AFEC1E66">
+            <field hash="CBB5FBC9" type="BinHex">01000000</field>
+            <field hash="821DE014" type="BinHex">00000000</field>
+            <field hash="58FE4874" type="BinHex">02000000</field>
+            <field hash="11BB5F26" type="BinHex">00000000</field>
+            <field hash="F77598DF" type="BinHex">6169706572736F6E616C6974793A616E696D616C706572736F6E616C6974792E61747461636B646F6700</field>
+            <field hash="1D2BF8FB" type="BinHex">5C473668</field>
+            <field hash="DFB5D1D3" type="BinHex">00</field>
+            <field hash="D25213F0" type="BinHex">FFFFFFFF</field>
+            <field hash="00A40BC7" type="BinHex">616973656E736F727973797374656D3A64656661756C742E64656661756C742E61747461636B646F6700</field>
+            <field hash="F2D64D09" type="BinHex">0D13EC0E</field>
+            <field hash="399FF28E" type="BinHex">00</field>
+            <field hash="B2B8EF0A" type="BinHex">FFFFFFFF</field>
+            <field hash="32E7B58A" type="BinHex">00</field>
+            <field hash="D8B9D5AE" type="BinHex">FFFFFFFF</field>
+            <field hash="BF521F60" type="BinHex">00</field>
+            <field hash="550C7F44" type="BinHex">FFFFFFFF</field>
+            <field hash="40284CF9" type="BinHex">00</field>
+            <field hash="1FA0AB94" type="BinHex">00</field>
+            <field hash="218B8D64" type="BinHex">00</field>
+            <field hash="70D14633" type="BinHex">00000000</field>
+            <field hash="F905FDAA" type="BinHex">00000000</field>
+            <field hash="5652CA3D" type="BinHex">00000000</field>
+            <field hash="652CD3CD" type="BinHex">00</field>
+            <field hash="D9BA3E30" type="BinHex">01000000</field>
+            <object hash="0DABF7A1">
+              <field hash="9591C43E" type="BinHex">0000803F</field>
+              <field hash="F11FF660" type="BinHex">0000803E</field>
+              <field hash="0F194245" type="BinHex">CDCCCC3D</field>
+              <field hash="6DAC5979" type="BinHex">CDCCCC3D</field>
+              <field hash="DB5783C5" type="BinHex">000080BF</field>
+              <field hash="BD292A27" type="BinHex">02000000</field>
+              <field hash="9A0DF042" type="BinHex">0000403F</field>
+              <field hash="9D9B9E65" type="BinHex">00</field>
+              <field hash="4932BD1D" type="BinHex">01</field>
+              <field hash="185595F9" type="BinHex">01</field>
+              <field hash="F39D59E1" type="BinHex">00000040</field>
+              <field hash="DAE3A4F9" type="BinHex">00004040</field>
+              <field hash="2C410230" type="BinHex">01</field>
+            </object>
+            <object hash="394FEC80">
+              <field hash="46E1E835" type="BinHex">03000000</field>
+              <field hash="D9774FF3" type="BinHex">03000000</field>
+              <field hash="E7DCA5E3" type="BinHex">0F000000</field>
+              <field hash="48D5606F" type="BinHex">00004842</field>
+              <field hash="273302D8" type="BinHex">0000A040</field>
+              <field hash="1B3E3D81" type="BinHex">00007041</field>
+              <field hash="3F7D34A7" type="BinHex">3078303031313342423800</field>
+              <field hash="677C27FC" type="BinHex">3078303030343737333100</field>
+              <field hash="B72DADE2" type="BinHex">3078303030343737313500</field>
+              <field hash="0C7C2AB5" type="BinHex">3078303030343737323600</field>
+              <field hash="AA661233" type="BinHex">3078303030413741424100</field>
+              <field hash="75B7296A" type="BinHex">3078303030343737353100</field>
+              <field hash="E69E0D8D" type="BinHex">3078303030343737433800</field>
+              <field hash="A6B9A510" type="BinHex">3078303030413741424100</field>
+              <field hash="716AC21D" type="BinHex">3078303030343737353300</field>
+              <field hash="706E17B7" type="BinHex">3078464646464646464600</field>
+              <field hash="91400ACB" type="BinHex">FFFFFFFF</field>
+              <field hash="718397E8" type="BinHex">3078464646464646464600</field>
+              <field hash="3CD3BC07" type="BinHex">0C000000</field>
+              <field hash="9E540EE8" type="BinHex">3078303031423032344100</field>
+            </object>
+            <object hash="DAD07EFD">
+              <field hash="2FAECAFB" type="BinHex">3078464646464646464600</field>
+              <field hash="571965BC" type="BinHex">FFFFFFFF</field>
+            </object>
+            <object hash="C032D74A">
+              <object hash="B4E9908B">
+                <field hash="3A9069A6" type="BinHex">00</field>
+                <field hash="8D0620E9" type="BinHex">00</field>
+                <field hash="453559F0" type="BinHex">00</field>
+                <field hash="01197BBD" type="BinHex">00</field>
+                <field hash="238739CA" type="BinHex">00</field>
+                <field hash="E72FCAB8" type="BinHex">00</field>
+              </object>
+            </object>
+            <object hash="3C6E9FCA">
+              <field hash="3A9069A6" type="BinHex">00</field>
+              <field hash="8D0620E9" type="BinHex">00</field>
+              <field hash="453559F0" type="BinHex">00</field>
+              <field hash="01197BBD" type="BinHex">00</field>
+              <field hash="238739CA" type="BinHex">00</field>
+              <field hash="E72FCAB8" type="BinHex">00</field>
+            </object>
+            <object hash="0776A358">
+              <field hash="D04359BE" type="BinHex">0000403F</field>
+              <field hash="14E2ADA8" type="BinHex">9A99993E</field>
+              <field hash="A46A89C8" type="BinHex">9A99193F</field>
+              <field hash="556B4A31" type="BinHex">0000C03F</field>
+              <field hash="155209CC" type="BinHex">3333333F</field>
+              <field hash="A5DA2DAC" type="BinHex">0000803F</field>
+              <field hash="7617B9D5" type="BinHex">5370696E6500</field>
+              <field hash="85188A11" type="BinHex">CBC10E53</field>
+              <field hash="CBA4BF2D" type="BinHex">00</field>
+              <field hash="A49FB4C4" type="BinHex">00</field>
+            </object>
+            <object hash="62C0E891">
+              <field hash="06E6242D" type="BinHex">0000803F</field>
+              <field hash="8E5EE7BC" type="BinHex">0000803F</field>
+              <field hash="DD07610F" type="BinHex">000000000000000000000000</field>
+              <field hash="17BF0EC4" type="BinHex">01</field>
+              <field hash="3B008894" type="BinHex">0000803F</field>
+              <field hash="DC94CC33" type="BinHex">0000803F</field>
+              <field hash="7617B9D5" type="BinHex">5370696E6500</field>
+              <field hash="85188A11" type="BinHex">CBC10E53</field>
+              <field hash="497C256D" type="BinHex">CDCCCC3E</field>
+              <field hash="C67E2DED" type="BinHex">CDCC4C3E</field>
+              <field hash="4128043D" type="BinHex">CDCCCCBD</field>
+              <field hash="F1A0205D" type="BinHex">CDCCCC3D</field>
+            </object>
+            <object hash="521ACB44">
+              <field hash="E2B6EC35" type="BinHex">0000803F</field>
+              <field hash="7953B333" type="BinHex">154E778B00000000</field>
+            </object>
+          </object>
+          <object hash="F5D7855E">
+            <field hash="3D793B45" type="BinHex">00</field>
+            <field hash="B1B459A9" type="BinHex">FFFFFFFFFFFFFFFF</field>
+            <field hash="99D0B39F" type="BinHex">FFFFFFFFFFFFFFFF</field>
+            <field hash="881126B8" type="BinHex">FFFFFFFFFFFFFFFF</field>
+            <field hash="ED18EFCC" type="BinHex">FFFFFFFFFFFFFFFF</field>
+          </object>
+          <object hash="1CEECA72" />
+        </object>
+      </object>
+      <object hash="28DB2B66">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="D31D8CE5" type="BinHex">0000803F</field>
+        <field hash="27099C90" type="BinHex">00</field>
+        <field hash="DE6FE9FB" type="BinHex">FFFFFFFF</field>
+        <field hash="3DED5A88" type="BinHex">00</field>
+        <field hash="C729E709" type="BinHex">00</field>
+        <field hash="0E37A34A" type="BinHex">00</field>
+        <field hash="2D6DDF89" type="BinHex">0000803F</field>
+        <field hash="F0A9E476" type="BinHex">00</field>
+        <field hash="C8758EE0" type="BinHex">00000000</field>
+        <field hash="4ECA9E52" type="BinHex">00008040</field>
+        <field hash="2B41D37D" type="BinHex">0000C842</field>
+        <field hash="FFEEA751" type="BinHex">0000C842</field>
+        <field hash="BD8D62E9" type="BinHex">0000803F</field>
+        <object hash="A568BA00">
+          <object hash="0395B00E">
+            <field hash="16ACDBFE" type="BinHex">0000803F</field>
+            <field hash="FB47F10E" type="BinHex">0000803F</field>
+            <field hash="9DB86C1E" type="BinHex">0000803F</field>
+            <field hash="CC048305" type="BinHex">0000803F</field>
+            <field hash="DBDC55DD" type="BinHex">0000803F</field>
+            <field hash="A4626FBC" type="BinHex">0000803F</field>
+            <field hash="B6A61D80" type="BinHex">0000803F</field>
+            <field hash="73EB1AFE" type="BinHex">0000803F</field>
+            <field hash="2E762191" type="BinHex">0000803F</field>
+            <field hash="0DB52D6D" type="BinHex">0000803F</field>
+          </object>
+        </object>
+      </object>
+      <object name="COcclusionQueryComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bComponentEnabled" type="Boolean">True</field>
+      </object>
+      <object hash="FC0EEB30">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+      </object>
+      <object hash="A84B7770">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+      </object>
+      <object hash="6F69F20D">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="DE03C53C" type="BinHex">0000803F0000000000000000</field>
+      </object>
+      <object hash="11270BB3">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <object hash="87B60536">
+          <field hash="1EB8D1A8" type="BinHex">00</field>
+          <field hash="0EFE51FB" type="BinHex">FFFFFFFFFFFFFFFF</field>
+        </object>
+        <object hash="0C3DB6CB">
+          <field hash="B5808A5E" type="BinHex">00008040</field>
+          <field hash="DF281023" type="BinHex">00000040</field>
+          <field hash="41BAF3CE" type="BinHex">00000040</field>
+          <field hash="19C07394" type="BinHex">00002041</field>
+        </object>
+      </object>
+      <object name="CTaggableComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="hidInjected" type="Boolean">True</field>
+        <field name="fIdentificationRadiusModifier" type="Float32">1</field>
+        <field name="bEnable" type="Boolean">True</field>
+        <field name="bDisableTaggingByCameraAndIronsight" type="Boolean">False</field>
+        <field name="fHighlightFadeOutTime" type="Float32">2</field>
+        <field name="selTagType" type="Enum">Animal</field>
+        <object name="TagIndicator">
+          <field name="bSizeDependsOnDistance" type="Boolean">False</field>
+          <field name="text_sTexturePath" type="String">graphics\__fc3_graphics\_common\_textures\ui\tagindicators\tx_tagged_animal_agressive.xbt</field>
+          <field name="sTexturePath" type="Hash64">921824ED01FD4D58</field>
+          <field name="fScaleX" type="Float32">0.04</field>
+          <field name="fScaleY" type="Float32">0.04</field>
+          <field name="fVerticalOffset" type="Float32">0.5</field>
+          <field name="sMinimapFrameLabel" type="String">enemy</field>
+        </object>
+      </object>
+      <object hash="8B7F82D9">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="9035A13E" type="BinHex">01</field>
+        <object hash="41C32ACA">
+          <field hash="7C35DA25" type="BinHex">00</field>
+          <field hash="1BBC7AC0" type="BinHex">01</field>
+          <field hash="83B55C3B" type="BinHex">01</field>
+          <field hash="7F2C5982" type="BinHex">03000000</field>
+          <field hash="C9404E79" type="BinHex">01000000</field>
+          <field hash="34A69254" type="BinHex">00</field>
+          <field hash="24E01207" type="BinHex">FFFFFFFF</field>
+          <field hash="253C7111" type="BinHex">00004842</field>
+          <field hash="FC7145C1" type="BinHex">05000000</field>
+        </object>
+      </object>
+      <object name="CFCXPawnLootComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="hidInjected" type="Boolean">True</field>
+        <field name="fLootRadius" type="Float32">2</field>
+        <field name="sndPickupAmmoSound" type="String">0xFFFFFFFF</field>
+        <field name="sndtpRareAnimalSoundType" type="Hash32">FFFFFFFF</field>
+        <field name="sndRareAnimalSound" type="String">0xFFFFFFFF</field>
+        <field name="selObjectType" type="Enum">AnimalMedium</field>
+        <field name="text_Bone1" type="String">Neck</field>
+        <field name="Bone1" type="Hash32">8023796D</field>
+        <field name="text_Bone2" type="String">Hips</field>
+        <field name="Bone2" type="Hash32">DED10611</field>
+        <field name="text_BloodMaterial" type="String"></field>
+        <field name="BloodMaterial" type="Hash32">FFFFFFFF</field>
+        <field name="locidLootPromptId" type="Int32">104575</field>
+        <object name="LootGroups">
+          <object name="Group">
+            <field name="percent" type="Float32">100</field>
+            <field name="lootGroup" type="Int32">1285</field>
+          </object>
+          <object name="Group">
+            <field name="percent" type="Float32">-1</field>
+            <field name="lootGroup" type="Int32">0</field>
+          </object>
+        </object>
+        <object name="AlternativeBloodMaterials">
+          <object name="AlternativeBloodMaterial">
+            <field name="text_AlternativeBloodMaterial" type="String"></field>
+            <field name="AlternativeBloodMaterial" type="Hash32">FFFFFFFF</field>
+          </object>
+        </object>
+        <object name="LootMultipliers">
+          <field name="bForceAlwaysLootable" type="BinHex">00</field>
+          <object name="StimTypeMultipliers">
+            <object name="StimTypeMultiplier">
+              <field hash="01A1F2E2" type="BinHex">00000000</field>
+              <field hash="7B69D7B1" type="BinHex">00000000</field>
+              <field hash="9C3C1047" type="BinHex">000080BF</field>
+              <field hash="DBAB2F6A" type="BinHex">01000000</field>
+            </object>
+          </object>
+          <object name="HitLocationMultipliers">
+            <object name="HitLocationMultiplier">
+              <field hash="57CDD6A0" type="BinHex">00000000</field>
+              <field hash="DBAB2F6A" type="BinHex">01000000</field>
+            </object>
+          </object>
+        </object>
+      </object>
+      <object name="CFCXPhotographyComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="hidInjected" type="Boolean">True</field>
+        <field name="fIdentificationRadiusModifier" type="Float32">1</field>
+        <field name="selPhotoCategory" type="Enum">NpcClasse_Dog</field>
+        <field name="sDBGTitle" type="String"></field>
+        <field name="sDBGDescription" type="String"></field>
+        <field name="locidTitle" type="Id32">92762</field>
+        <field name="locidDescription" type="Id32">110688</field>
+      </object>
+      <object name="CCreatureSoundAndFXComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="hidInjected" type="Boolean">True</field>
+        <object name="CreatureSoundAndFXComponent">
+          <object hash="D93CA11D">
+            <field hash="9045EF6D" type="BinHex">0000803F</field>
+            <field hash="2F1569B4" type="BinHex">00000000</field>
+            <field hash="E8F06BF8" type="BinHex">00000000</field>
+            <field hash="35A360CF" type="BinHex">00000000</field>
+            <field hash="A36FF6FA" type="BinHex">FFFFFFFF</field>
+            <field hash="20221E55" type="BinHex">3078464646464646464600</field>
+            <field hash="4A272259" type="BinHex">3078464646464646464600</field>
+            <field hash="B231F23B" type="BinHex">3078464646464646464600</field>
+          </object>
+          <object hash="7698E78F">
+            <field hash="8EE199B5" type="BinHex">0000E040</field>
+            <field hash="416FE967" type="BinHex">0000803E</field>
+            <field hash="4170A37A" type="BinHex">00</field>
+            <object hash="214DAC7F">
+              <field hash="1CF7E9BC" type="BinHex">00</field>
+              <field hash="097B704F" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="84CAB079" type="BinHex">0000803F</field>
+              <field hash="9BE6E8FB" type="BinHex">000000000000000000000000</field>
+            </object>
+          </object>
+        </object>
+      </object>
+    </object>
+  </object>
+</object>

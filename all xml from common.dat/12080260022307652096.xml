@@ -1,0 +1,54 @@
+<graphickit id="12080260022307652096" name="SHA_Buffalo" unique="0" kittobone="1">
+	<slot name="Mainbody" position="0" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="Water_Buffalo" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Water_Buffalo\Water_Buffalo.xml" mesh="Water_Buffalo" weight="10" version="1" allowcullbysize="1">
+				<tag name="regular" type="0" />
+				<tag name="painted" type="4" />
+				<tag name="onehorn" type="4" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="water_buffalo" id="yanzhou-M-0711201152981604">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="Water_Buffalo_BH" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Water_Buffalo\Water_Buffalo_BH.xml" mesh="Water_Buffalo_BH" weight="1" version="1" allowcullbysize="1">
+				<tag name="regular" type="4" />
+				<tag name="onehorn" type="0" />
+				<tag name="painted" type="4" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="water_buffalo_eyes" id="yanzhou-M-0711201160398488">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="water_buffalo" id="yanzhou-M-0711201152981604">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="Water_Buffalo_NB" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Water_Buffalo\Water_Buffalo_NB.xml" mesh="Water_Buffalo_NB" weight="0" version="1" allowcullbysize="1">
+				<tag name="painted" type="0" />
+				<tag name="regular" type="4" />
+				<tag name="onehorn" type="4" />
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="water_buffalo_circle" id="yanzhou-M-2202201263573259">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="water_buffalo_eyes" id="yanzhou-M-0711201160398488">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="water_buffalo - NB" id="yanzhou-M-20120222144415">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Horns" position="1" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Props" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

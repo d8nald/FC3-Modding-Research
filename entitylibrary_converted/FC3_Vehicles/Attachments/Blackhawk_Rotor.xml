@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7729275620321</field>
+  <field name="Name" type="String">Attachments/Blackhawk_Rotor</field>
+  <object name="Entity">
+    <field name="hidName" type="String">FC3_Vehicles:Attachments/Blackhawk_Rotor</field>
+    <field name="disEntityId" type="Int64">14920</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">2</field>
+    <field name="hidPos" type="Vector3">-256,-256,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">-256,-256,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileName" type="String">graphics\__fc3_graphics\_common\vehicles\air\blackhawk\blackhawk_rotor.xml</field>
+        <field name="fileName" type="Hash64">BEA4D7589C18C436</field>
+        <field name="hidDescriptor" type="Rml">
+          <rml>
+            <hidDescriptor>
+              <component class="GraphicComponent" version="2" detail="0">
+                <object index="0" boneName="BlackHawk_Rotor_LOD0" bboxMin="-9.90003,-9.8847,-0.55401" bboxMax="9.90003,9.89676,0.554009" />
+                <resource fileName="graphics\__FC3_Graphics\_Common\Vehicles\Air\BlackHawk\BlackHawk_Rotor.xbg" bboxMin="-10.9135,-11.7441,-0.55401" bboxMax="10.4121,10.5342,0.55401" />
+                <skeleton_reference_list>
+                  <skeleton name="BlackHawk_Rotor" index="0" pos="0,0,0" rot="1,-0,-0,-0" />
+                </skeleton_reference_list>
+                <material_reference_list>
+                  <material name="Rotor_Motion_01" shader_name="Blended" ref_shader_id="hlevasseur-M-2011051350488434" />
+                  <material name="Blackhawk_Exterior_Decals" shader_name="Generic_FC3" ref_shader_id="fmadore-M-2011041556960863" />
+                  <material name="Blackhawk_Chrome" shader_name="Metal" ref_shader_id="fmadore-M-2011032249076522" />
+                  <material name="Blackhawk_Metal" shader_name="Metal" ref_shader_id="fmadore-M-2011032234238882" />
+                  <material name="BlackhawkRotor_01" shader_name="Blended" ref_shader_id="Mckoung-M-20120703123326" />
+                </material_reference_list>
+              </component>
+              <component class="InteriorVolumeComponent" version="1" detail="0" />
+            </hidDescriptor>
+          </rml>
+        </field>
+        <field name="hidCrcCheck" type="Hash32">FFFFFFFF</field>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bCastShadow" type="Boolean">True</field>
+        <field name="bReceiveShadow" type="Boolean">True</field>
+        <field name="bCastAmbientShadow" type="Boolean">True</field>
+        <field name="olgLightGroup" type="Int32">129</field>
+        <field name="bShowInReflection" type="Boolean">True</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bExcludeFromPortalSystem" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="clrHighLightColor" type="Vector3">1,0.903545,0.604147</field>
+        <field name="clrHighLightColor2" type="Vector3">0,0,0</field>
+        <field name="fHighLightSpeed" type="Float32">1</field>
+        <field name="bLodDitheringEnable" type="Boolean">True</field>
+        <field name="matIntuitionMaterialName" type="String"></field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field name="bAllowCullBySize" type="Boolean">True</field>
+        <field name="bMotionBlurExclusion" type="Boolean">False</field>
+        <field name="bOverrideLODSphere" type="Boolean">False</field>
+        <field name="fLODSphereRadius" type="Float32">0</field>
+        <field name="vectorAdditionalAABBDimensionForSkin" type="Vector3">1,1,0</field>
+        <field name="text_currentSkin" type="String"></field>
+        <field name="currentSkin" type="Hash32">FFFFFFFF</field>
+        <field name="bUseCurrentSkin" type="Boolean">False</field>
+        <object name="MaterialLightSwitch">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">hlevasseur-m-2011051350488434</field>
+              <field name="disSlotId" type="Hash32">08240B06</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">fmadore-m-2011032234238882</field>
+              <field name="disSlotId" type="Hash32">34FAB660</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">fmadore-m-2011041556960863</field>
+              <field name="disSlotId" type="Hash32">4D7027C3</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">mckoung-m-20120703123326</field>
+              <field name="disSlotId" type="Hash32">C668FB73</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">fmadore-m-2011032249076522</field>
+              <field name="disSlotId" type="Hash32">F548D598</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="MaterialOverrides">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">hlevasseur-m-2011051350488434</field>
+              <field name="disSlotId" type="Hash32">08240B06</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">fmadore-m-2011032234238882</field>
+              <field name="disSlotId" type="Hash32">34FAB660</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">fmadore-m-2011041556960863</field>
+              <field name="disSlotId" type="Hash32">4D7027C3</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">mckoung-m-20120703123326</field>
+              <field name="disSlotId" type="Hash32">C668FB73</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">fmadore-m-2011032249076522</field>
+              <field name="disSlotId" type="Hash32">F548D598</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="SkinList">
+          <object name="Skin">
+            <field name="text_name" type="String"></field>
+            <field name="name" type="Hash32">FFFFFFFF</field>
+            <field name="locSkinNameId" type="Int32">-1</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">0</field>
+          <field name="text_fileModel" type="String">graphics\__fc3_graphics\_common\vehicles\air\blackhawk\blackhawk_rotor.xbg</field>
+          <field name="fileModel" type="Hash64">B1FD47589C18C436</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">BlackHawk_Rotor</field>
+          <field name="hidNodeName" type="Hash32">D6534F5D</field>
+          <field name="text_hidNodeNameLOD0" type="String">BlackHawk_Rotor_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">DEC589B3</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">1</field>
+          <field name="text_fileModel" type="String"></field>
+          <field name="fileModel" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">BlackHawk_Rotor</field>
+          <field name="hidNodeName" type="Hash32">D6534F5D</field>
+          <field name="text_hidNodeNameLOD0" type="String">BlackHawk_Rotor_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">DEC589B3</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+      </object>
+      <object name="CSimpleAnimationComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileSkeleton" type="String">graphics\characters\_common\singlebone_ref.skeleton</field>
+        <field name="fileSkeleton" type="Hash64">9F5AC43FB55D2FD4</field>
+        <field name="text_sPackage" type="String"></field>
+        <field name="sPackage" type="Hash64">FFFFFFFFFFFFFFFF</field>
+        <field name="AutoApplyDisplacement" type="Boolean">False</field>
+        <field name="sPartName" type="String"></field>
+        <field name="bEnableEvents" type="Boolean">False</field>
+        <field name="bRandomStart" type="Boolean">False</field>
+        <field name="text_Animation" type="String"></field>
+        <field name="Animation" type="Hash64">FFFFFFFFFFFFFFFF</field>
+      </object>
+      <object hash="E683B521">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="2BA6E1A6" type="BinHex">FFFFFFFF00000000</field>
+      </object>
+    </object>
+  </object>
+</object>

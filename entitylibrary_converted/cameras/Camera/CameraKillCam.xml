@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7604559624371</field>
+  <field name="Name" type="String">Camera/CameraKillCam</field>
+  <object name="Entity">
+    <field name="hidName" type="String">cameras:Camera/CameraKillCam</field>
+    <field name="disEntityId" type="Int64">8</field>
+    <field name="text_hidEntityClass" type="String">COmniMapEntity</field>
+    <field name="hidEntityClass" type="Hash32">888164B2</field>
+    <field name="hidResourceCount" type="Int32">0</field>
+    <field name="hidPos" type="Vector3">-4999,-4999,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">-4999,-4999,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CFCXKillCamComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="fCameraBlendTime" type="Float32">0.1</field>
+        <field name="fNearDistance" type="Float32">0.25</field>
+        <field name="fFarDistance" type="Float32">1000</field>
+        <field name="fFOV" type="Float32">75</field>
+        <field name="fNearFOV" type="Float32">65</field>
+        <field name="fStartTime" type="Float32">2.5</field>
+        <field name="fToTargetTravelTime" type="Float32">0.3</field>
+        <field name="fEndTime" type="Float32">8</field>
+        <field name="fStartReturnTime" type="Float32">8.1</field>
+        <field name="fEndReturnTime" type="Float32">8.5</field>
+        <field name="fDistanceToRotateAroundPoint" type="Float32">2</field>
+        <field name="fDistanceFromTargetToStartRotatePrecentage" type="Float32">0.45</field>
+        <field name="fMaxDistanceToStartRotation" type="Float32">3</field>
+        <field name="OffsetForCameraOverShoulder" type="Vector3">0.5,-2.5,0.7</field>
+        <field name="fAbortReturnSpeed" type="Float32">1</field>
+        <field name="fMaxUpPitch" type="Float32">0.65</field>
+        <field name="fMaxDownPitch" type="Float32">0.6</field>
+        <field name="fMinWaitBeforeCancel" type="Float32">1</field>
+        <field name="fTimeToReachBehind" type="Float32">3.3</field>
+        <field name="fTimeToStayBehind" type="Float32">2.8</field>
+        <object name="curveGrenadeSpeedCurve">
+          <field name="hidNumKnots" type="Int32">6</field>
+          <field name="hidAllowedTypes" type="Int32">7</field>
+          <object name="Knots">
+            <object name="Knot">
+              <field name="Value" type="Vector4">0,0,0.833333,0</field>
+              <field name="Info" type="Vector4">6.2832,1,0,0</field>
+              <field name="Type" type="Int32">0</field>
+            </object>
+            <object name="Knot">
+              <field name="Value" type="Vector4">2.5,0,-0.833333,-0.000106917</field>
+              <field name="Info" type="Vector4">6.2832,1,0,0</field>
+              <field name="Type" type="Int32">0</field>
+            </object>
+            <object name="Knot">
+              <field name="Value" type="Vector4">2.5,0,1.54397,0.000198092</field>
+              <field name="Info" type="Vector4">6.2832,1,0,0</field>
+              <field name="Type" type="Int32">1</field>
+            </object>
+            <object name="Knot">
+              <field name="Value" type="Vector4">6,1,-1.74036,0.00122157</field>
+              <field name="Info" type="Vector4">6.2832,1,0,0</field>
+              <field name="Type" type="Int32">1</field>
+            </object>
+            <object name="Knot">
+              <field name="Value" type="Vector4">6,1,1.33886,-0.000939755</field>
+              <field name="Info" type="Vector4">6.2832,1,0,0</field>
+              <field name="Type" type="Int32">0</field>
+            </object>
+            <object name="Knot">
+              <field name="Value" type="Vector4">10.0166,1,-1.33886,0</field>
+              <field name="Info" type="Vector4">6.2832,1,0,0</field>
+              <field name="Type" type="Int32">0</field>
+            </object>
+          </object>
+        </object>
+        <object name="curveGrenadeRotationBlendCurve">
+          <field name="hidNumKnots" type="Int32">10</field>
+          <field name="hidAllowedTypes" type="Int32">7</field>
+          <object name="Knots">
+            <object name="Knot">
+              <field name="Value" type="Vector4">0,1,0.9,0</field>
+              <field name="Info" type="Vector4">6.2832,1,0,0</field>
+              <field name="Type" type="Int32">0</field>
+            </object>
+            <object name="Knot">
+              <field name="Value" type="Vector4">2.7,1,-0.9,0.00431883</field>
+              <field name="Info" type="Vector4">6.2832,1,0,0</field>
+              <field name="Type" type="Int32">0</field>
+            </object>
+            <object name="Knot">
+              <field name="Value" type="Vector4">2.7,1,0.846246,-0.00406088</field>
+              <field name="Info" type="Vector4">6.2832,1,0,0</field>
+              <field name="Type" type="Int32">1</field>
+            </object>
+            <object name="Knot">
+              <field name="Value" type="Vector4">3.71261,0.000198092,-0.337537,0</field>
+              <field name="Info" type="Vector4">6.2832,1,0,0</field>
+              <field name="Type" type="Int32">1</field>
+            </object>
+            <object name="Knot">
+              <field name="Value" type="Vector4">3.71261,0.000198092,0.429131,0</field>
+              <field name="Info" type="Vector4">6.2832,1,0,0</field>
+              <field name="Type" type="Int32">0</field>
+            </object>
+            <object name="Knot">
+              <field name="Value" type="Vector4">5,0,-0.429131,-0.000144282</field>
+              <field name="Info" type="Vector4">6.2832,1,0,0</field>
+              <field name="Type" type="Int32">0</field>
+            </object>
+            <object name="Knot">
+              <field name="Value" type="Vector4">5,0,0.589175,0.000198092</field>
+              <field name="Info" type="Vector4">6.2832,1,0,0</field>
+              <field name="Type" type="Int32">1</field>
+            </object>
+            <object name="Knot">
+              <field name="Value" type="Vector4">6,1,-0.709457,0.00122157</field>
+              <field name="Info" type="Vector4">6.2832,1,0,0</field>
+              <field name="Type" type="Int32">1</field>
+            </object>
+            <object name="Knot">
+              <field name="Value" type="Vector4">6,1,1.33334,-0.00229579</field>
+              <field name="Info" type="Vector4">6.2832,1,0,0</field>
+              <field name="Type" type="Int32">0</field>
+            </object>
+            <object name="Knot">
+              <field name="Value" type="Vector4">10,1,-1.33334,0</field>
+              <field name="Info" type="Vector4">6.2832,1,0,0</field>
+              <field name="Type" type="Int32">0</field>
+            </object>
+          </object>
+        </object>
+      </object>
+    </object>
+  </object>
+</object>

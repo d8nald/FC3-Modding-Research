@@ -1,0 +1,77 @@
+<graphickit id="12066023109812036608" name="Rebel_Beheader" unique="0" kittobone="1">
+	<slot name="Hair" position="0" bonename="Head">
+		<partdatabase name="" weight="0">
+			<part name="Rebel_Beheader_Hair01" ref="graphics\__FC3_Graphics\_Common\Characters\Rebels\Rebel_Beheader_Hair01.xml" mesh="Rebel_Beheader_Hair01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Rebel_Beserker_Hair_01" id="slabreche-M-2011092752220495">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="torso" position="1" bonename="Spine2">
+		<partdatabase name="" weight="0">
+			<part name="Rebel_Beheader_Body01" ref="graphics\__FC3_Graphics\_Common\Characters\Rebels\Rebel_Beheader_Body01.xml" mesh="Rebel_Beheader_Body01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Rebel_HolsterMachete_01" id="slabreche-M-2011092854246213">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Native Woman Eye" id="slabreche-m-20110719115948">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebels_Body_Tattoos_01_Beheader" id="slabreche-m-2011091655801200">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebels_Head_Tattoos_01_Beheader" id="vfortin-M-2011110755877259">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebels_Straps_Trim_" id="slabreche-m-2011091655324313">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebels_Beheader_Wrappings_01" id="slabreche-m-2011091655298830">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebels_Beheader_Pants_01" id="slabreche-m-2011091654599690">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-m-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Shirt" position="2" bonename="Spine2">
+		<partdatabase name="" weight="0">
+			<part name="Rebel_Beheader_Shirt02" ref="graphics\__FC3_Graphics\_Common\Characters\Rebels\Rebel_Beheader_Shirt02.xml" mesh="Rebel_Beheader_Shirt02" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Rebels_Beserker_Shirt_01" id="slabreche-m-2011091654557267">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Pants" position="3" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="Rebel_Pants" ref="graphics\__FC3_Graphics\_Common\Characters\Rebels\Rebel_Pants.xml" mesh="Rebel_Pants" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Rebels_NPC_Pants_01" id="slabreche-M-2011111751362114">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Material #1328_AsCopy" id="slabreche-m-2011090151899407">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebels_Assaulter_Body_01" id="slabreche-m-2011090259311431">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

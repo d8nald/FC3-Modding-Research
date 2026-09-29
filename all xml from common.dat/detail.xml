@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materialdescriptor xmlns:xi="#" name="Detail" id="#(0x2af2b8b, 0x857b9251)" version="6">
+
+    <geometryInputs normal="1" tangent="1" binormal="1" color="1" uvChannels="1" />
+
+    <parameter name="AlbedoTexture" type="sampler2D" UvName="UVGroupMapChannel0" />
+    <parameter name="NormalTexture" type="sampler2D" UvName="UVGroupMapChannel0" />
+
+    <parameter name="DetailAlbedoTexture" type="sampler2D" UvName="UVGroupMapChannel0" />
+    <parameter name="DetailNormalTexture" type="sampler2D" UvName="UVGroupMapChannel0" />
+
+    <parameter name="DetailMaskAlbedoTexture" type="sampler2D" UvName="UVGroupMapChannel0" useDefine="DETAIL_MASK" />
+    <parameter name="DetailMaskNormalTexture" type="sampler2D" UvName="UVGroupMapChannel0" useDefine="DETAIL_MASK" />
+
+    <parameter name="BaseTiling" type="float2" defaultvalue="1.0, 1.0" />
+    <parameter name="DetailTiling" type="float4" defaultvalue="1.0, 1.0, 1.0, 1.0" />
+
+    <parameter name="NormalModifier" type="float3" defaultvalue="1.0, 1.0, 1.0" />
+    <parameter name="Glossiness" type="float3" defaultvalue="0.0, 0.0, 0.0" />
+
+    <parameter name="BaseDiffuseColor" type="color3" defaultvalue="1.0, 1.0, 1.0" />
+    <parameter name="DetailDiffuseColor" type="color3" defaultvalue="1.0, 1.0, 1.0" />
+    <parameter name="DetailMaskDiffuseColor" type="color3" defaultvalue="1.0, 1.0, 1.0" />
+    
+    <parameter name="UVGroupMapChannel0" type="int" />
+
+    <parameterprovider parametersfilename="Mesh_Detail.parameters.inc.fx">
+        <parameter name="AlbedoTexture" />
+        <parameter name="NormalTexture" />
+        <parameter name="DetailAlbedoTexture" />
+        <parameter name="DetailNormalTexture" />
+        <parameter name="DetailMaskAlbedoTexture" />
+        <parameter name="DetailMaskNormalTexture" />
+        <parameter name="BaseTiling" />
+        <parameter name="DetailTiling" />
+        <parameter name="NormalModifier" />
+        <parameter name="Glossiness" />
+        <parameter name="BaseDiffuseColor" />
+        <parameter name="DetailDiffuseColor" />
+        <parameter name="DetailMaskDiffuseColor" />
+    </parameterprovider>
+
+    <ui>
+
+        <xi:include href="../MaterialUIInclude.xml" />
+
+        <group label="Mid-Range Layer">
+            <label>Diffuse Texture</label>
+            <group horizontal="1">
+                <button dataBindings="BaseDiffuseColor" overridableInDerivation="1">
+                    <dataBindings type="color" />
+                </button>
+                <button dataBindings="AlbedoTexture" fill="1" />
+                <group>
+                    <textbox dataBindings="BaseTiling.x">
+                        <dataBindings minvalue="0.0" />
+                    </textbox>
+                    <textbox dataBindings="BaseTiling.y">
+                        <dataBindings minvalue="0.0" />
+                    </textbox>
+                </group>
+            </group>
+            <label>Normal Texture</label>
+            <group horizontal="1">
+                <button dataBindings="NormalTexture" fill="1" />
+            </group>
+            <group horizontal="1">
+                <label>Normal Modifier</label>
+                <group>
+                    <textbox dataBindings="NormalModifier.x">
+                        <dataBindings minvalue="0.0" />
+                    </textbox>
+                </group>
+            </group>
+        </group>
+
+        <group label="Detail Layer">
+            <label>Diffuse Texture</label>
+            <group horizontal="1">
+                <button dataBindings="DetailDiffuseColor" overridableInDerivation="1">
+                    <dataBindings type="color" />
+                </button>
+                <button dataBindings="DetailAlbedoTexture" fill="1" />
+                <group>
+                    <textbox dataBindings="DetailTiling.x">
+                        <dataBindings minvalue="0.0" />
+                    </textbox>
+                    <textbox dataBindings="DetailTiling.y">
+                        <dataBindings minvalue="0.0" />
+                    </textbox>
+                </group>
+            </group>
+            <label>Normal Texture</label>
+            <group horizontal="1">
+                <button dataBindings="DetailNormalTexture" fill="1" />
+            </group>
+            <group horizontal="1">
+                <label>Normal Modifier</label>
+                <group>
+                    <textbox dataBindings="NormalModifier.y">
+                        <dataBindings minvalue="0.0" />
+                    </textbox>
+                </group>
+                <label>Glossiness</label>
+                <group>
+                    <textbox dataBindings="Glossiness.y">
+                        <dataBindings minvalue="0.0" maxvalue="1.0" />
+                    </textbox>
+                </group>
+            </group>
+        </group>
+
+        <group label="Detail Mask Layer">
+            <label>Diffuse Texture</label>
+            <group horizontal="1">
+                <button dataBindings="DetailMaskDiffuseColor" overridableInDerivation="1">
+                    <dataBindings type="color" />
+                </button>
+                <button dataBindings="DetailMaskAlbedoTexture" fill="1" />
+                <group>
+                    <textbox dataBindings="DetailTiling.z">
+                        <dataBindings minvalue="0.0" />
+                    </textbox>
+                    <textbox dataBindings="DetailTiling.w">
+                        <dataBindings minvalue="0.0" />
+                    </textbox>
+                </group>
+            </group>
+            <label>Normal Texture</label>
+            <group horizontal="1">
+                <button dataBindings="DetailMaskNormalTexture" fill="1" />
+            </group>
+            <group horizontal="1">
+                <label>Normal Modifier</label>
+                <group>
+                    <textbox dataBindings="NormalModifier.z">
+                        <dataBindings minvalue="0.0" />
+                    </textbox>
+                </group>
+                <label>Glossiness</label>
+                <group>
+                    <textbox dataBindings="Glossiness.z">
+                        <dataBindings minvalue="0.0" maxvalue="1.0" />
+                    </textbox>
+                </group>
+            </group>
+        </group>
+
+    </ui>
+
+</materialdescriptor>

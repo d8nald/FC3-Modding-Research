@@ -1,0 +1,56 @@
+<graphickit id="12070667363175891200" name="Willis" unique="0" kittobone="1">
+	<slot name="Body" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Willis" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\Willis\Willis.xml" mesh="Willis" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Willis_body" id="akotelnikoff-M-2011121865955619">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Willis_chain" id="akotelnikoff-M-2011121942580315">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Willis_shoes" id="akotelnikoff-M-2011121866026663">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Willis_pants" id="akotelnikoff-M-2011121865992881">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Willis_teeth" id="akotelnikoff-M-2012010450777406">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Willis_jacket" id="akotelnikoff-M-2011121866060958">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Willis_hairs" id="akotelnikoff-M-2012031651246199">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Willis_glass" id="akotelnikoff-M-2011121937090688">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Willis_frame_black" id="akotelnikoff-M-2012031464416825">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Willis_frame" id="akotelnikoff-M-2011121936973698">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Willis_head" id="akotelnikoff-M-2011121865570250">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Willis_eyes" id="akotelnikoff-M-2012062954518326">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Slot2" position="1" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot3" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot4" position="3" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

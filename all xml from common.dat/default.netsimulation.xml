@@ -1,0 +1,23 @@
+<NetSimulation version="1.0">
+
+  <!-- FPS -->
+  <NetSimulation.Camera Type="Dunia.NetSimulation.Camera.FPS"
+                                            MinimalVisibilityConeRadius="160.0"
+                                            MinimalVisibilityConeAngleInDeg="50.0"
+                                            OptimalVisibilityConeRadius="100.0"
+                                            OptimalVisibilityConeAngleInDeg="22.0"
+                                            MinimalSurroundingSphereRadius="35.0"
+                                            OptimalSurroundingSphereRadius="15.0" />
+
+  <!-- Sniper NOT USED-->
+  <NetSimulation.Camera Type="Dunia.NetSimulation.Camera.Sniper"
+                                            MinimalVisibilityConeRadius="120.0"
+                                            MinimalVisibilityConeAngleInDeg="80.0"
+                                            OptimalVisibilityConeRadius="80.0"
+                                            OptimalVisibilityConeAngleInDeg="45.0"
+                                            MinimalSurroundingSphereRadius="40.0"
+                                            OptimalSurroundingSphereRadius="20.0" />
+
+  
+</NetSimulation>
+

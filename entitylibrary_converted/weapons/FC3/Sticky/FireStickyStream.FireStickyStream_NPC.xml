@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7682015272262</field>
+  <field name="Name" type="String">FC3/Sticky/FireStickyStream.FireStickyStream_NPC</field>
+  <object name="Entity">
+    <field name="hidName" type="String">weapons:FC3/Sticky/FireStickyStream.FireStickyStream_NPC</field>
+    <field name="disEntityId" type="Int64">20268</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">0</field>
+    <field name="hidPos" type="Vector3">0,0,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">0,0,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object hash="87D98816">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="749F916A" type="BinHex">B5B3718300000000</field>
+        <field hash="406846E7" type="BinHex">FFFFFFFF00000000</field>
+      </object>
+      <object hash="6FA01D17">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+      </object>
+    </object>
+  </object>
+</object>

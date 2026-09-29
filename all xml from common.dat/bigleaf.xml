@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materialdescriptor xmlns:xi="#" name="BigLeaf" id="#(0x224c4b1f, 0x8ad8bdd2)" version="6">
+    <geometryInputs normal="1" tangent="1" binormal="1" color="1" uvChannels="2" />
+
+    <!-- As of 2009/06/04, the bigleaf shader uses 
+         - Mask channel GREEN to modulate the specular color (COLOR = SpecularColor1 * tex2D( SpecMaskTexture, input.uv0 * SpecularTiling1 ) * mask.g)
+    -->
+
+    <parameter name="AlphaTestValue" type="int" />
+    <parameter name="TwoSided" type="bool" />
+    <parameter name="EnableDithering" type="bool" defaultvalue="0" />
+    
+    <parameter name="DiffuseTexture1" type="sampler2D" />
+    <parameter name="MaskTexture" type="sampler2D" />
+    <parameter name="BurnNoiseTexture" type="sampler2D" replaceTexture="perlinNoise" />
+
+    <parameter name="TranslucencyEnabled" type="bool" defaultvalue="0" useDefine="TRANSLUCENCY" />
+    <parameter name="SpecularMapEnabled" type="bool" defaultvalue="0" useDefine="SPECULAR_MASK" />
+
+    <parameter name="NormalTexture1" type="sampler2D" replaceTexture="normal"/>
+    
+    <parameter name="SpecularTexture1" type="sampler2D" tilingName="SpecularTiling1" VCMaskChannel="2" />
+    <parameter name="SpecularTiling1" type="float2" />
+    <parameter name="Glossiness" type="float" defaultvalue="0.5"/>
+
+
+    <parameterprovider parametersfilename="Realtree_BigLeaf.parameters.inc.fx">
+        <parameter name="DiffuseTexture1">
+            <alias name="DiffuseTexture1Shadow" />
+        </parameter>
+        <parameter name="Glossiness" />
+        <parameter name="NormalTexture1" />
+        <parameter name="SpecularTexture1" />
+        <parameter name="MaskTexture" />
+        <parameter name="BurnNoiseTexture" />
+        <parameter name="SpecularTiling1" />
+        <parameter name="EnableDithering" />
+  </parameterprovider>
+    
+    <ui>
+        <group label="Settings">
+            <group horizontal="0">
+                <checkbox label="Two sided" dataBindings="TwoSided" />
+                <checkbox label="Translucency" dataBindings="TranslucencyEnabled" />
+                <checkbox label="SpecularMap" dataBindings="SpecularMapEnabled" />
+                <checkbox label="Dithering" dataBindings="EnableDithering" />
+            </group>
+            <group horizontal="1">
+                <label>Alpha Test Value</label>
+                <textbox dataBindings="AlphaTestValue">
+                    <dataBindings maxvalue="255" />
+                </textbox>
+            </group>
+        </group>
+
+        <group label="Textures">
+            <label>Diffuse</label>
+            <button dataBindings="DiffuseTexture1" fill="1" />
+            <label>Normal</label>
+            <button dataBindings="NormalTexture1" fill="1" />
+        </group>
+
+        <group label="Specular">
+            <group horizontal="1">
+                <label>Specular Mask</label>
+                <button dataBindings="SpecularTexture1" fill="1" />
+                <group>
+                    <textbox dataBindings="SpecularTiling1.x">
+                        <dataBindings type="int" />
+                    </textbox>
+                    <textbox dataBindings="SpecularTiling1.y">
+                        <dataBindings type="int" />
+                    </textbox>
+                </group>
+            </group>
+
+            <label>Glossiness</label>
+            <group horizontal="1">
+                <textbox dataBindings="Glossiness" overridableInDerivation="1">
+                    <dataBindings minvalue="0.0" maxvalue="1.0" defaultvalue="0.6" />
+                </textbox>
+            </group>
+        </group>
+        <group label="Masks">
+            <group label="Mask Map Info">
+                <label>R = Translucency Mask</label>
+                <label>G = not used</label>
+                <label>B = not used</label>
+            </group>
+
+            <group horizontal="1">
+                <button dataBindings="MaskTexture" fill="1" />
+            </group>
+       </group>
+
+    </ui>
+</materialdescriptor>

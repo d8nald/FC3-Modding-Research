@@ -1,0 +1,40 @@
+<graphickit id="12080399649546961152" name="SHA_DogRapid" unique="0" kittobone="1">
+	<slot name="Mainbody" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="RDog_01" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Rabid_dog\RDog_01.xml" mesh="RDog_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Animal_Grey_ID3" id="yanzhou-M-3101201251837020">
+						<materialdatabase name="" weight="0">
+							<material id="yanzhou-M-3001201261509122" name="SHA_Animal_EmptyMask" weight="1" file="graphics\_materials\yanzhou-M-3001201261509122.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Animal_Grey_ID2" id="jli-M-107201151201026">
+						<materialdatabase name="" weight="0">
+							<material id="yanzhou-M-1210201140253441" name="SHA_dog_eyes_Bloody" weight="2" file="graphics\_materials\yanzhou-M-1210201140253441.material.xml" />
+							<material id="yanzhou-M-1509201154195320" name="SHA_dog_eyes_Regular" weight="1" file="graphics\_materials\yanzhou-M-1509201154195320.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Animal_Grey_ID1" id="jli-M-107201142503596">
+						<materialdatabase name="" weight="0">
+							<material id="yanzhou-M-0909201161474399" name="Rabid_dog_Mainbody" weight="6" file="graphics\_materials\yanzhou-M-0909201161474399.material.xml">
+								<tag name="regular" type="0" />
+								<tag name="rare" type="4" />
+							</material>
+							<material id="jli-M-20120419143911" name="Rabid_dog_Mainbody_BrownLight" weight="4" file="graphics\_materials\jli-M-20120419143911.material.xml">
+								<tag name="rare" type="0" />
+								<tag name="regular" type="4" />
+							</material>
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Ear" position="1" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Tail" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

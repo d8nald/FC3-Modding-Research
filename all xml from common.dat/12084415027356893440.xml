@@ -1,0 +1,96 @@
+<graphickit id="12084415027356893440" name="Rebel_Guard" unique="0" kittobone="1">
+	<slot name="Body" position="0" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="Rebel_Guard" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\Rebel_Guard\Rebel_Guard.xml" mesh="Rebel_Guard" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Rebel_Guard_Pants" id="bwaddingham-M-2012031240017055">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebel_Guard_Cloths" id="bwaddingham-M-2012031238651138">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebel_Guard_Body" id="bwaddingham-M-2012031237667190">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Hairs" position="1" bonename="Head">
+		<partdatabase name="" weight="0">
+			<part name="Rebel_Guard_Hair01" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\Rebel_Guard\Rebel_Guard_Hair01.xml" mesh="Rebel_Guard_Hair01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Rebel_Beserker_Hair_01" id="slabreche-M-2011092752220495">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="Rebel_Guard_HeadBand" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\Rebel_Guard\Rebel_Guard_HeadBand.xml" mesh="Rebel_Guard_HeadBand" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="RebelGuard_Bandana" id="vfortin-M-2012041756455050">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="SV_Males_Invis" ref="graphics\__FC3_Graphics\_Common\Characters\Civilians\SexyVillagers\SV_Males_Invis.xml" mesh="SV_Males_Invis" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Material #131_AsCopy" id="slabreche-M-2012011958327381">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Head" position="2" bonename="Head">
+		<partdatabase name="" weight="0">
+			<part name="Head01" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\Rebel_Guard\Head01.xml" mesh="Head01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Rebel_Guard_Face" id="cromagnoli-M-2012042046377958">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebel_Gaurd_Eye" id="kosullivan-M-0305201244134877">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="Head02" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\Rebel_Guard\Head02.xml" mesh="Head02" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Rebel_Gaurd_Eye" id="kosullivan-M-0305201244134877">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="SV_Male_Head_02" id="vfortin-M-2012050250962890">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="Head03" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\Rebel_Guard\Head03.xml" mesh="Head03" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Rebel_Gaurd_Eye" id="kosullivan-M-0305201244134877">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="SV_Male_Head_03" id="vfortin-M-2012050251019451">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+			<part name="Head04" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\Rebel_Guard\Head04.xml" mesh="Head04" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="SV_Male_Head_04" id="vfortin-M-2012050251073412">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebel_Gaurd_Eye" id="kosullivan-M-0305201244134877">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

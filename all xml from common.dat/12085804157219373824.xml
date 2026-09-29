@@ -1,0 +1,14 @@
+<graphickit id="12085804157219373824" name="SHA_MantaRay" unique="0" kittobone="1">
+	<slot name="Mainbody" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Manta_Ray" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Manta_Ray\Manta_Ray.xml" mesh="Manta_Ray" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Manta_Ray" id="yanzhou-M-0711201156863794">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

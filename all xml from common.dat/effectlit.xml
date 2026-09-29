@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materialdescriptor name="EffectLit" version="1">
+    <geometryInputs normal="1" tangent="1" binormal="1" color="1" uvChannels="1" />
+
+    <parameter name="BlendingType" type="int" />
+    <parameter name="Particles" type="bool" />
+    <parameter name="EnableInteriorAmbient" type="bool" defaultvalue="1" />
+    
+    <parameter name="Settings" type="float4" defaultvalue="1.0, 1.0, 0.9, 0.1" />
+    
+    <parameter name="DiffuseTexture1" type="sampler2D" UvName="UVGroupMapChannel0" />
+    <parameter name="DiffuseTexture2" type="sampler2D" UvName="UVGroupMapChannel0" />
+
+    <parameter name="DiffuseParameters1" type="float4" defaultvalue="1, 1, 0, 0" />
+    <parameter name="DiffuseParameters2" type="float4" defaultvalue="1, 1, 0, 0" />
+
+    <parameter name="DiffuseColor" type="color4" defaultvalue="0.30, 0.73, 0.63, 1.00" />
+
+    <parameter name="MaskTexture" type="sampler2D" UvName="UVGroupMapChannel0" />
+    <parameter name="MaskParameters" type="float4" defaultvalue="1, 1, 0, 0" />
+    
+    <parameter name="NormalTexture1" type="sampler2D" UvName="UVGroupMapChannel0" />
+    <parameter name="NormalTexture2" type="sampler2D" UvName="UVGroupMapChannel0" />
+
+    <parameter name="NormalParameters1" type="float4" defaultvalue="1, 1, 0, 0" />
+    <parameter name="NormalParameters2" type="float4" defaultvalue="1, 1, 0, 0" />
+    <parameter name="NormalParameters" type="float3" defaultvalue="1, 1, 0" />
+    
+    <parameter name="ReflectionCubeTexture" type="samplerCUBE" />
+    
+    <parameter name="UVGroupMapChannel0" type="int" />
+
+    <parameterprovider parametersfilename="EffectLit.parameters.inc.fx">
+        <parameter name="Settings" />
+        <parameter name="DiffuseTexture1" />
+        <parameter name="DiffuseTexture2" />
+        <parameter name="DiffuseParameters1" />
+        <parameter name="DiffuseParameters2" />
+        <parameter name="DiffuseColor" />
+        <parameter name="MaskTexture" />
+        <parameter name="MaskParameters" />
+        <parameter name="NormalTexture1" />
+        <parameter name="NormalTexture2" />
+        <parameter name="NormalParameters1" />
+        <parameter name="NormalParameters2" />
+        <parameter name="NormalParameters" />
+        <parameter name="ReflectionCubeTexture" />
+        <parameter name="Particles" />
+        <parameter name="EnableInteriorAmbient" />
+    </parameterprovider>
+
+    <ui>
+        <xi:include href="../MaterialUIInclude.xml" />
+
+        <group horizontal="1" label="Settings">
+            <group>
+                <label>Blending Type:</label>
+                <combobox dataBindings="BlendingType">
+                    <comboboxitem value="1">Alpha</comboboxitem>
+                </combobox>
+                <checkbox label="Sort With Particles" dataBindings="Particles" />
+                <checkbox label="Enable Interior Ambient" dataBindings="EnableInteriorAmbient" />
+                <label>Depth Fade Distance:</label>
+                <textbox dataBindings="Settings.x">
+                    <dataBindings class="PositiveCff" />
+                </textbox>
+            </group>
+        </group>
+
+        <group label="Diffuse">
+            <label>Diffuse 1:</label>
+            <group horizontal="1">
+                <button dataBindings="DiffuseTexture1" fill="1" />
+                <textbox dataBindings="UVGroupMapChannel0">
+                    <dataBindings class="UVChannel" />
+                </textbox>
+                <label>Tiling:</label>
+                <group>
+                    <textbox dataBindings="DiffuseParameters1.x">
+                        <dataBindings class="HighPrecisionFloat" />
+                    </textbox>
+                    <textbox dataBindings="DiffuseParameters1.y">
+                        <dataBindings class="HighPrecisionFloat" />
+                    </textbox>
+                </group>
+                <label>Speed:</label>
+                <group>
+                    <textbox dataBindings="DiffuseParameters1.z">
+                        <dataBindings class="HighPrecisionFloat" />
+                    </textbox>
+                    <textbox dataBindings="DiffuseParameters1.w">
+                        <dataBindings class="HighPrecisionFloat" />
+                    </textbox>
+                </group>
+            </group>
+            <label>Diffuse 2:</label>
+            <group horizontal="1">
+                <button dataBindings="DiffuseTexture2" fill="1" />
+                <textbox dataBindings="UVGroupMapChannel0">
+                    <dataBindings class="UVChannel" />
+                </textbox>
+                <label>Tiling:</label>
+                <group>
+                    <textbox dataBindings="DiffuseParameters2.x">
+                        <dataBindings class="HighPrecisionFloat" />
+                    </textbox>
+                    <textbox dataBindings="DiffuseParameters2.y">
+                        <dataBindings class="HighPrecisionFloat" />
+                    </textbox>
+                </group>
+                <label>Speed:</label>
+                <group>
+                    <textbox dataBindings="DiffuseParameters2.z">
+                        <dataBindings class="HighPrecisionFloat" />
+                    </textbox>
+                    <textbox dataBindings="DiffuseParameters2.w">
+                        <dataBindings class="HighPrecisionFloat" />
+                    </textbox>
+                </group>
+            </group>
+            <group horizontal="1">
+                <label>Diffuse Color:</label>
+                <button dataBindings="DiffuseColor">
+                    <dataBindings type="color" />
+                </button>
+                <label>Diffuse Alpha:</label>
+                <textbox dataBindings="Settings.y">
+                    <dataBindings class="ZeroPositiveCff" />
+                </textbox>
+            </group>
+        </group>
+
+        <group label="Mask">
+            <group horizontal="1">
+                <button dataBindings="MaskTexture" fill="1" />
+                <textbox dataBindings="UVGroupMapChannel0">
+                    <dataBindings class="UVChannel" />
+                </textbox>
+                <label>Tiling:</label>
+                <group>
+                    <textbox dataBindings="MaskParameters.x">
+                        <dataBindings class="HighPrecisionFloat" />
+                    </textbox>
+                    <textbox dataBindings="MaskParameters.y">
+                        <dataBindings class="HighPrecisionFloat" />
+                    </textbox>
+                </group>
+                <label>Speed:</label>
+                <group>
+                    <textbox dataBindings="MaskParameters.z">
+                        <dataBindings class="HighPrecisionFloat" />
+                    </textbox>
+                    <textbox dataBindings="MaskParameters.w">
+                        <dataBindings class="HighPrecisionFloat" />
+                    </textbox>
+                </group>
+            </group>
+        </group>
+
+        <group label="Normal">
+            <label>Normal 1:</label>
+            <group horizontal="1">
+                <button dataBindings="NormalTexture1" fill="1" />
+                <textbox dataBindings="UVGroupMapChannel0">
+                    <dataBindings class="UVChannel" />
+                </textbox>
+                <label>Tiling:</label>
+                <group>
+                    <textbox dataBindings="NormalParameters1.x">
+                        <dataBindings class="HighPrecisionFloat" />
+                    </textbox>
+                    <textbox dataBindings="NormalParameters1.y">
+                        <dataBindings class="HighPrecisionFloat" />
+                    </textbox>
+                </group>
+                <label>Speed:</label>
+                <group>
+                    <textbox dataBindings="NormalParameters1.z">
+                        <dataBindings class="HighPrecisionFloat" />
+                    </textbox>
+                    <textbox dataBindings="NormalParameters1.w">
+                        <dataBindings class="HighPrecisionFloat" />
+                    </textbox>
+                </group>
+                <label>Strength:</label>
+                <group>
+                    <textbox dataBindings="NormalParameters.x">
+                        <dataBindings class="ZeroPositiveCff" />
+                    </textbox>
+                </group>
+            </group>
+            <label>Normal 2:</label>
+            <group horizontal="1">
+                <button dataBindings="NormalTexture2" fill="1" />
+                <textbox dataBindings="UVGroupMapChannel0">
+                    <dataBindings class="UVChannel" />
+                </textbox>
+                <label>Tiling:</label>
+                <group>
+                    <textbox dataBindings="NormalParameters2.x">
+                        <dataBindings class="HighPrecisionFloat" />
+                    </textbox>
+                    <textbox dataBindings="NormalParameters2.y">
+                        <dataBindings class="HighPrecisionFloat" />
+                    </textbox>
+                </group>
+                <label>Speed:</label>
+                <group>
+                    <textbox dataBindings="NormalParameters2.z">
+                        <dataBindings class="HighPrecisionFloat" />
+                    </textbox>
+                    <textbox dataBindings="NormalParameters2.w">
+                        <dataBindings class="HighPrecisionFloat" />
+                    </textbox>
+                </group>
+                <label>Strength:</label>
+                <group>
+                    <textbox dataBindings="NormalParameters.y">
+                        <dataBindings class="ZeroPositiveCff" />
+                    </textbox>
+                </group>
+            </group>
+            <label>Distortion:</label>
+            <group>
+                <textbox dataBindings="NormalParameters.z">
+                    <dataBindings class="HighPrecisionFloat" />
+                </textbox>
+            </group>
+        </group>
+
+        <group label="Specular">
+            <group horizontal="1">
+                <label>Reflection Cube Texture:</label>
+                <button dataBindings="ReflectionCubeTexture" fill="1" />
+                <label>Glossiness:</label>
+                <textbox dataBindings="Settings.z">
+                    <dataBindings minvalue="0.0" maxvalue="1.0" defaultvalue="1.0" />
+                </textbox>
+                <label>Specular Alpha Threshold:</label>
+                <textbox dataBindings="Settings.w">
+                    <dataBindings class="ZeroPositiveCff" />
+                </textbox>
+            </group>
+        </group>
+        
+    </ui>
+</materialdescriptor>

@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7706460062982</field>
+  <field name="Name" type="String">BrPart_GlassPlate_05</field>
+  <object name="Entity">
+    <field name="hidName" type="String">FC3_Graphics:Singleplayer:Generic:BreakableParts:BrPart_GlassPlate_05</field>
+    <field name="disEntityId" type="Int64">8094</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">3</field>
+    <field name="hidPos" type="Vector3">-129,-129,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">-129,-129,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileName" type="String">graphics\__fc3_graphics\singleplayer\props\misc\brpart_glassplate_05.xml</field>
+        <field name="fileName" type="Hash64">77FF6463E248EDEC</field>
+        <field name="hidDescriptor" type="Rml">
+          <rml>
+            <hidDescriptor>
+              <component class="GraphicComponent" version="2" detail="0">
+                <object index="0" boneName="BrPart_GlassPlate_05_LOD0" bboxMin="-0.538124,-0.00319535,-0.626366" bboxMax="0.538124,-0.00151537,0.626366" />
+                <resource fileName="graphics\__FC3_Graphics\SinglePlayer\Props\Misc\BrPart_GlassPlate_05.xbg" bboxMin="-0.538124,-0.00319535,-0.626366" bboxMax="0.538124,-0.00151537,0.626366" />
+                <skeleton_reference_list>
+                  <skeleton name="BrPart_GlassPlate_05" index="0" pos="0,0,0" rot="1,-0,-0,-0" />
+                </skeleton_reference_list>
+                <material_reference_list>
+                  <material name="DirtyGlass_01" shader_name="Blended" ref_shader_id="xperreault-M-2011081243220728" />
+                </material_reference_list>
+              </component>
+              <component class="InteriorVolumeComponent" version="1" detail="0" />
+              <component class="RigidPhysComponent">
+                <resource fileName="graphics\__FC3_Graphics\SinglePlayer\Props\Misc\BrPart_GlassPlate_05.hkx" />
+              </component>
+            </hidDescriptor>
+          </rml>
+        </field>
+        <field name="hidCrcCheck" type="Hash32">FFFFFFFF</field>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">True</field>
+        <field name="hidComponentClassName" type="BinHex">43526967696447726170686963436F6D706F6E656E7400</field>
+        <field name="bCastShadow" type="Boolean">True</field>
+        <field name="bReceiveShadow" type="Boolean">True</field>
+        <field name="bCastAmbientShadow" type="Boolean">True</field>
+        <field name="olgLightGroup" type="Int32">129</field>
+        <field name="bShowInReflection" type="Boolean">False</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bExcludeFromPortalSystem" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="clrHighLightColor" type="Vector3">1,0.9,0.6</field>
+        <field name="clrHighLightColor2" type="Vector3">1,0.9,0.6</field>
+        <field name="fHighLightSpeed" type="Float32">1</field>
+        <field name="bLodDitheringEnable" type="Boolean">True</field>
+        <field name="matIntuitionMaterialName" type="String"></field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field hash="6CF79F05" type="BinHex">00000000</field>
+        <field hash="3182766C" type="BinHex">67726170686963735C5F5F6663335F67726170686963735C73696E676C65706C617965725C70726F70735C6D6973635C6272706172745F676C617373706C6174655F30352E78626700</field>
+        <field hash="C28D45A8" type="BinHex">ECED48E263F4A678</field>
+        <field hash="3D5AC03A" type="BinHex">00</field>
+        <object name="MaterialLightSwitch">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">xperreault-m-2011081243220728</field>
+              <field name="disSlotId" type="Hash32">4C1428D3</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="MaterialOverrides">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">xperreault-m-2011081243220728</field>
+              <field name="disSlotId" type="Hash32">4C1428D3</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object hash="0C176DC5" />
+        <object hash="E1FF9F74" />
+      </object>
+      <object hash="FE7AD4CF">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+      </object>
+      <object hash="40B958BA">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="527E7674" type="BinHex">67726170686963735C5F5F6663335F67726170686963735C73696E676C65706C617965725C70726F70735C6D6973635C6272706172745F676C617373706C6174655F30352E686B7800</field>
+        <field hash="2E50EB85" type="BinHex">ECED48E263DF3A6A</field>
+        <field hash="EFFCA0CA" type="BinHex">00</field>
+        <field hash="976F114C" type="BinHex">00</field>
+        <field hash="1CFFDBEC" type="BinHex">00</field>
+        <field hash="68C1CF4F" type="BinHex">00</field>
+        <field hash="6EB9AFAA" type="BinHex">01</field>
+        <field hash="CAA1B825" type="BinHex">01</field>
+        <field hash="CD8C3274" type="BinHex">00</field>
+        <field hash="5BABAAC6" type="BinHex">00</field>
+        <field hash="0DBE2127" type="BinHex">0000C842</field>
+        <field hash="43EBE31F" type="BinHex">0000C040</field>
+        <field hash="9EBBF0BE" type="BinHex">00004843</field>
+        <field hash="5E9FE0F4" type="BinHex">01000000</field>
+        <field hash="A0C9D351" type="BinHex">00000000</field>
+        <field hash="3D255EB4" type="BinHex">0000A040</field>
+        <field hash="6979CD98" type="BinHex">000080BF</field>
+        <field hash="10544067" type="BinHex">0000803F</field>
+        <field hash="19373762" type="BinHex">0000803F</field>
+        <field hash="6C655DC9" type="BinHex">000000000000000000000000</field>
+        <field hash="2FAB0399" type="BinHex">00000000</field>
+        <field hash="4B920C34" type="BinHex">00000040</field>
+        <field hash="E7CD1E54" type="BinHex">00007A44</field>
+        <field hash="377CBB2A" type="BinHex">3078464646464646464600</field>
+        <field hash="46C19CCF" type="BinHex">FFFFFFFF</field>
+        <field hash="1B5C5211" type="BinHex">00</field>
+        <field hash="B2AC9745" type="BinHex">00</field>
+        <object hash="18327EA1" />
+        <object hash="F8CD54EF" />
+        <object hash="2C3872D7">
+          <field hash="1BD9687D" type="BinHex">01</field>
+          <field hash="3CC3447B" type="BinHex">0000803F</field>
+          <field hash="A82A04B0" type="BinHex">01</field>
+          <field hash="7E69602B" type="BinHex">0000803F</field>
+          <field hash="2CE04FBD" type="BinHex">01</field>
+          <field hash="0FD3A7FE" type="BinHex">0000803F</field>
+          <field hash="66E259A4" type="BinHex">01</field>
+          <field hash="AF05B5DA" type="BinHex">0000803F</field>
+          <field hash="D0D0214E" type="BinHex">01</field>
+          <field hash="EF60D3E5" type="BinHex">0000803F</field>
+          <field hash="84C61665" type="BinHex">01</field>
+          <field hash="0E383244" type="BinHex">0000803F</field>
+          <field hash="F5A437A9" type="BinHex">01</field>
+          <field hash="2E4EF419" type="BinHex">0000803F</field>
+          <field hash="CD44BAF4" type="BinHex">00</field>
+          <field hash="B400C023" type="BinHex">0000803F</field>
+          <field hash="D5DFD00B" type="BinHex">01</field>
+          <field hash="331A65A7" type="BinHex">0000803F</field>
+          <field hash="D8CE60FD" type="BinHex">01</field>
+          <field hash="EC4E2508" type="BinHex">0000803F</field>
+          <field hash="7B2F6D28" type="BinHex">0000803F</field>
+          <field hash="FA5898B1" type="BinHex">0000803F</field>
+        </object>
+      </object>
+      <object name="CParticleFXComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bAutoStart" type="Boolean">False</field>
+        <object name="ParticleSystems" />
+      </object>
+      <object name="CObjectSoundAndFXComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <object name="Impact">
+          <field name="matimpDropImpact" type="BinHex">6461CB6E00000000</field>
+          <field name="fSpeedForMaxDropImpactVolume" type="BinHex">00000000</field>
+          <field name="fMinimalCollisionSpeed" type="BinHex">0000A040</field>
+          <field name="bIsSingleDropImpactObject" type="BinHex">01</field>
+          <object name="MovementSound">
+            <field name="sndRollingSound" type="BinHex">3078464646464646464600</field>
+            <field name="sndRollingSoundEnd" type="BinHex">3078464646464646464600</field>
+            <field name="sndtpRollingSoundType" type="BinHex">FFFFFFFF</field>
+            <field name="sndSlidingSound" type="BinHex">3078464646464646464600</field>
+            <field name="sndSlidingSoundEnd" type="BinHex">3078464646464646464600</field>
+            <field name="sndtpSlidingSoundType" type="BinHex">FFFFFFFF</field>
+            <field name="sndmlObjectMovementMultilayer" type="BinHex">FFFFFFFF</field>
+          </object>
+        </object>
+        <object name="Falling">
+          <field name="bAllowAfterCollision" type="BinHex">00</field>
+          <field name="sndFallingSound" type="BinHex">3078464646464646464600</field>
+          <field name="sndtpFallingType" type="BinHex">FFFFFFFF</field>
+          <field name="fSpeedToPlayFallingSound" type="BinHex">00000000</field>
+          <field name="FallingSoundTimeTrigger" type="BinHex">00000000</field>
+        </object>
+        <object name="Water">
+          <field name="fZMinSpeedToTriggerSplash" type="BinHex">0000803F</field>
+          <field name="fZMaxSpeedToTriggerSplash" type="BinHex">0000A040</field>
+          <field name="fZMinSplashScale" type="BinHex">0000803F</field>
+          <field name="fZMaxSplashScale" type="BinHex">9A99993F</field>
+          <field name="fZSpeedForMaxSplashVolume" type="BinHex">00000000</field>
+        </object>
+      </object>
+      <object name="CCountersComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+      </object>
+      <object hash="CC25F26C">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="60B6CA4B" type="BinHex">00</field>
+      </object>
+      <object name="CSoundComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="sndptSoundPoint" type="BinHex">FFFFFFFF00000000</field>
+        <field name="bStopSoundOnStateChange" type="Boolean">False</field>
+        <field name="bAlwaysUpdate" type="Boolean">False</field>
+      </object>
+    </object>
+  </object>
+</object>

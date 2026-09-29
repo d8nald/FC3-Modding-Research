@@ -1,0 +1,490 @@
+<TextureInventory>
+  <Directory Id="Ground" Display="Ground">
+    <!-- GRASS -->
+    <Entry Id="biomes/coastal/terrain/coastalgrass" Display="Coastal Grass 1" TextureId="coastalgrass" Resolution="2048">
+      <Color Value="156,159,108" />
+      <Color Value="155,159,110" />
+      <Color Value="155,159,108" />
+      <Color Value="155,159,108" />
+      <Color Value="156,160,110" />
+      <Color Value="156,159,108" />
+      <Color Value="156,160,110" />
+      <Color Value="156,159,108" />
+      <Color Value="156,159,108" />
+      <Color Value="156,160,110" />
+    </Entry>
+    <Entry Id="generic/ground/coastal/coastalgrassa" Display="Coastal Grass 2" TextureId="coastalgrassa" Resolution="2048">
+      <Color Value="193,185,130" />
+      <Color Value="200,192,135" />
+      <Color Value="204,194,139" />
+      <Color Value="198,190,134" />
+      <Color Value="206,197,141" />
+      <Color Value="198,189,134" />
+      <Color Value="196,190,132" />
+      <Color Value="198,190,135" />
+      <Color Value="194,188,130" />
+      <Color Value="204,194,139" />
+    </Entry>
+    <Entry Id="biomes/coastal/terrain/coastalgrassnorth" Display="Coastal Grass 3" TextureId="coastalgrassnorth" Resolution="2048">
+      <Color Value="97,113,64" />
+      <Color Value="98,113,64" />
+      <Color Value="97,113,64" />
+      <Color Value="97,113,64" />
+      <Color Value="97,113,63" />
+      <Color Value="97,113,64" />
+      <Color Value="98,113,64" />
+      <Color Value="101,115,67" />
+      <Color Value="98,113,64" />
+      <Color Value="95,111,63" />
+    </Entry>
+    <Entry Id="biomes/coastal/terrain/coastalgrasssouth" Display="Coastal Grass 4" TextureId="coastalgrasssouth" Resolution="2048" ProjectionX="grasslandgrass_01_X" ProjectionY="grasslandgrass_01_Y">
+      <Color Value="61,69,36" />
+      <Color Value="61,69,36" />
+      <Color Value="61,67,36" />
+      <Color Value="61,69,36" />
+      <Color Value="63,69,36" />
+      <Color Value="61,69,36" />
+      <Color Value="61,69,36" />
+      <Color Value="63,69,36" />
+      <Color Value="63,69,36" />
+      <Color Value="61,69,36" />
+    </Entry>
+    <Entry Id="biomes/grassland/terrain/grasslandgrass_01" Display="Grass" TextureId="grasslandgrass_01" ProjectionX="grasslandgrass_01_X" ProjectionY="grasslandgrass_01_Y" Resolution="2048">
+      <Color Value="155,155,110" />
+      <Color Value="155,155,108" />
+      <Color Value="155,155,110" />
+      <Color Value="155,155,108" />
+      <Color Value="155,155,110" />
+      <Color Value="156,156,111" />
+      <Color Value="155,155,108" />
+      <Color Value="155,155,107" />
+      <Color Value="155,153,108" />
+      <Color Value="155,155,108" />
+    </Entry>
+    <Entry Id="biomes/jungle/terrain/jungle_leaves_grass" Display="Jungle Grass 1" TextureId="jungle_leaves_grass" Resolution="2048">
+      <Color Value="131,125,84" />
+      <Color Value="128,124,82" />
+      <Color Value="128,123,82" />
+      <Color Value="128,123,82" />
+      <Color Value="130,124,84" />
+      <Color Value="130,125,84" />
+      <Color Value="130,124,82" />
+      <Color Value="130,124,84" />
+      <Color Value="128,124,82" />
+      <Color Value="130,124,84" />
+    </Entry>
+    <Entry Id="biomes/jungle/terrain/junglefoliageground_01" Display="Jungle Grass 2" TextureId="junglefoliageground_01" ProjectionX="junglefoliageground_01_X" ProjectionY="junglefoliageground_01_Y" Resolution="2048">
+      <Color Value="101,123,78" />
+      <Color Value="101,123,78" />
+      <Color Value="101,123,78" />
+      <Color Value="101,123,78" />
+      <Color Value="101,123,78" />
+      <Color Value="101,123,78" />
+      <Color Value="101,123,78" />
+      <Color Value="101,123,78" />
+      <Color Value="101,123,78" />
+      <Color Value="101,123,78" />
+    </Entry>
+    <Entry Id="biomes/jungle/terrain/jungleundergrowthgrass_01" Display="Jungle Grass 3" TextureId="jungleundergrowthgrass_01" Resolution="2048">
+      <Color Value="101,104,69" />
+      <Color Value="104,105,69" />
+      <Color Value="100,101,69" />
+      <Color Value="103,104,69" />
+      <Color Value="100,103,69" />
+      <Color Value="104,105,69" />
+      <Color Value="98,103,69" />
+      <Color Value="98,103,69" />
+      <Color Value="101,101,67" />
+      <Color Value="101,105,69" />
+    </Entry>
+    <!-- MUD/DIRT -->
+    <Entry Id="biomes/grassland/terrain/grasslandgound_01" Display="Dirt 1" TextureId="grasslandgound_01" Resolution="2048">
+      <Color Value="120,101,91" />
+      <Color Value="120,101,91" />
+      <Color Value="121,101,91" />
+      <Color Value="120,100,91" />
+      <Color Value="120,101,91" />
+      <Color Value="121,101,91" />
+      <Color Value="120,101,91" />
+      <Color Value="120,100,91" />
+      <Color Value="120,101,91" />
+      <Color Value="121,100,91" />
+    </Entry>
+    <Entry Id="biomes/grassland/terrain/grasslandground_02" Display="Dirt 2" TextureId="grasslandground_02" Resolution="2048">
+      <Color Value="128,107,85" />
+      <Color Value="128,107,87" />
+      <Color Value="127,105,85" />
+      <Color Value="130,110,88" />
+      <Color Value="123,101,82" />
+      <Color Value="127,107,87" />
+      <Color Value="127,107,85" />
+      <Color Value="125,105,85" />
+      <Color Value="128,105,85" />
+      <Color Value="130,108,85" />
+    </Entry>
+    <Entry Id="biomes/jungle/terrain/bamboodryleaves_01" Display="Jungle Dirt 1" TextureId="bamboodryleaves_01" Resolution="1024">
+      <Color Value="146,118,88" />
+      <Color Value="151,125,94" />
+      <Color Value="146,118,88" />
+      <Color Value="152,125,94" />
+      <Color Value="148,120,88" />
+      <Color Value="146,118,88" />
+      <Color Value="153,127,95" />
+      <Color Value="152,125,92" />
+      <Color Value="151,124,92" />
+      <Color Value="145,118,87" />
+    </Entry>
+    <Entry Id="biomes/jungle/terrain/jungleground_01" Display="Jungle Dirt 2" TextureId="jungleground_01" Resolution="2048">
+      <Color Value="135,120,105" />
+      <Color Value="131,118,105" />
+      <Color Value="134,121,108" />
+      <Color Value="132,118,105" />
+      <Color Value="132,120,107" />
+      <Color Value="134,120,105" />
+      <Color Value="131,118,105" />
+      <Color Value="134,120,107" />
+      <Color Value="132,120,107" />
+      <Color Value="132,118,107" />
+    </Entry>
+    <Entry Id="biomes/jungle/terrain/jungleground_02" Display="Jungle Dirt 3" TextureId="jungleground_02" ProjectionX="jungleground_02_X" ProjectionY="jungleground_02_Y" Resolution="2048">
+      <Color Value="162,148,125" />
+      <Color Value="166,152,130" />
+      <Color Value="166,152,128" />
+      <Color Value="159,144,123" />
+      <Color Value="166,152,130" />
+      <Color Value="164,149,128" />
+      <Color Value="166,152,130" />
+      <Color Value="160,146,125" />
+      <Color Value="166,152,130" />
+      <Color Value="167,153,131" />
+    </Entry>
+    <Entry Id="biomes/jungle/terrain/jungleground_02b" Display="Jungle Dirt 4" TextureId="jungleground_02b" Resolution="2048">
+      <Color Value="179,145,110" />
+      <Color Value="178,144,110" />
+      <Color Value="179,144,110" />
+      <Color Value="179,144,110" />
+      <Color Value="179,145,113" />
+      <Color Value="179,145,111" />
+      <Color Value="178,144,110" />
+      <Color Value="178,144,110" />
+      <Color Value="178,144,110" />
+      <Color Value="178,144,110" />
+    </Entry>
+    <Entry Id="biomes/jungle/terrain/mudslide" Display="Mud" TextureId="mudslide" Resolution="2048">
+      <Color Value="135,123,104" />
+      <Color Value="135,123,104" />
+      <Color Value="135,123,104" />
+      <Color Value="135,123,104" />
+      <Color Value="135,123,104" />
+      <Color Value="135,123,104" />
+      <Color Value="135,123,104" />
+      <Color Value="135,123,105" />
+      <Color Value="135,123,104" />
+      <Color Value="135,123,104" />
+    </Entry>
+    <!-- SAND -->
+    <Entry Id="biomes/coastal/terrain/sandbeach" Display="Beach Sand" TextureId="sandbeach" Resolution="2048">
+      <Color Value="232,219,196" />
+      <Color Value="233,220,198" />
+      <Color Value="232,219,197" />
+      <Color Value="232,219,196" />
+      <Color Value="232,219,197" />
+      <Color Value="232,219,197" />
+      <Color Value="232,219,197" />
+      <Color Value="232,219,197" />
+      <Color Value="232,219,197" />
+      <Color Value="233,220,198" />
+    </Entry>
+    <Entry Id="biomes/coastal/terrain/coastalsandsouth" Display="Black Sand" TextureId="coastalsandsouth" Resolution="2048">
+      <Color Value="69,66,61" />
+      <Color Value="72,70,64" />
+      <Color Value="69,66,61" />
+      <Color Value="67,64,60" />
+      <Color Value="69,67,61" />
+      <Color Value="69,66,60" />
+      <Color Value="69,66,60" />
+      <Color Value="69,67,61" />
+      <Color Value="75,72,66" />
+      <Color Value="72,69,63" />
+    </Entry>
+    <Entry Id="biomes/coastal/terrain/sandbumpy" Display="Bumpy Sand" TextureId="sandbumpy" Resolution="2048">
+      <Color Value="208,193,164" />
+      <Color Value="208,193,164" />
+      <Color Value="209,193,164" />
+      <Color Value="208,193,166" />
+      <Color Value="208,193,164" />
+      <Color Value="208,192,164" />
+      <Color Value="208,193,166" />
+      <Color Value="209,193,166" />
+      <Color Value="208,192,164" />
+      <Color Value="209,193,166" />
+    </Entry>
+    <Entry Id="biomes/coastal/terrain/sandsmooth" Display="Smooth Sand" TextureId="sandsmooth" Resolution="2048">
+      <Color Value="208,194,170" />
+      <Color Value="205,193,168" />
+      <Color Value="206,193,168" />
+      <Color Value="205,193,168" />
+      <Color Value="205,193,168" />
+      <Color Value="208,193,170" />
+      <Color Value="206,193,168" />
+      <Color Value="208,194,170" />
+      <Color Value="208,194,170" />
+      <Color Value="205,193,168" />
+    </Entry>
+    <Entry Id="biomes/coastal/terrain/coastalwetsand" Display="Wet Sand" TextureId="coastalwetsand" Resolution="2048">
+      <Color Value="166,155,138" />
+      <Color Value="166,155,138" />
+      <Color Value="166,155,138" />
+      <Color Value="167,155,138" />
+      <Color Value="167,155,138" />
+      <Color Value="167,155,138" />
+      <Color Value="166,155,138" />
+      <Color Value="167,155,138" />
+      <Color Value="167,155,138" />
+      <Color Value="167,155,138" />
+    </Entry>
+    <Entry Id="biomes/coastal/terrain/coral_01" Display="Coral" TextureId="coral_01" Resolution="2048">
+      <Color Value="107,105,91" />
+      <Color Value="108,105,92" />
+      <Color Value="107,105,92" />
+      <Color Value="101,98,88" />
+      <Color Value="110,107,94" />
+      <Color Value="105,101,89" />
+      <Color Value="110,107,92" />
+      <Color Value="107,103,91" />
+      <Color Value="110,107,92" />
+      <Color Value="110,107,94" />
+    </Entry>
+    <!-- ROCKY -->
+    <Entry Id="biomes/coastal/terrain/coastalgravel_01" Display="Gravel 1" TextureId="coastalgravel_01" Resolution="2048">
+      <Color Value="123,120,105" />
+      <Color Value="128,125,113" />
+      <Color Value="127,124,111" />
+      <Color Value="120,118,101" />
+      <Color Value="124,121,107" />
+      <Color Value="123,120,105" />
+      <Color Value="125,123,110" />
+      <Color Value="124,121,107" />
+      <Color Value="130,128,115" />
+      <Color Value="124,121,108" />
+    </Entry>
+    <Entry Id="biomes/coastal/terrain/coastalgravel_02" Display="Gravel 2" TextureId="coastalgravel_02" Resolution="2048">
+      <Color Value="95,95,91" />
+      <Color Value="100,100,94" />
+      <Color Value="95,94,89" />
+      <Color Value="101,101,95" />
+      <Color Value="100,100,94" />
+      <Color Value="104,103,98" />
+      <Color Value="101,101,95" />
+      <Color Value="103,103,98" />
+      <Color Value="101,101,95" />
+      <Color Value="95,95,89" />
+    </Entry>
+    <Entry Id="biomes/coastal/terrain/coastalsanddebris" Display="Gravel 3" TextureId="coastalsanddebris" Resolution="2048">
+      <Color Value="208,200,197" />
+      <Color Value="213,205,201" />
+      <Color Value="211,201,198" />
+      <Color Value="213,205,201" />
+      <Color Value="216,206,202" />
+      <Color Value="212,202,198" />
+      <Color Value="209,201,197" />
+      <Color Value="208,200,197" />
+      <Color Value="213,204,200" />
+      <Color Value="208,198,194" />
+    </Entry>
+    <Entry Id="biomes/jungle/terrain/mudsliderubble" Display="Rubble" TextureId="mudsliderubble" Resolution="2048">
+      <Color Value="159,151,139" />
+      <Color Value="159,149,138" />
+      <Color Value="156,145,134" />
+      <Color Value="155,146,134" />
+      <Color Value="155,145,132" />
+      <Color Value="155,145,132" />
+      <Color Value="151,139,127" />
+      <Color Value="153,144,131" />
+      <Color Value="155,145,132" />
+      <Color Value="160,152,139" />
+    </Entry>
+    <Entry Id="biomes/coastal/rock/coastalrock_01" Display="Rock 1" TextureId="coastalrock_01" ProjectionX="coastalrock_01_X" ProjectionY="coastalrock_01_Y" Resolution="1024">
+      <Color Value="104,95,81" />
+      <Color Value="103,94,81" />
+      <Color Value="101,92,79" />
+      <Color Value="100,91,78" />
+      <Color Value="100,92,79" />
+      <Color Value="98,91,78" />
+      <Color Value="103,94,81" />
+      <Color Value="101,92,79" />
+      <Color Value="103,94,81" />
+      <Color Value="101,92,79" />
+    </Entry>
+    <Entry Id="biomes/lavadesert/terrain/lavadesertground_01" Display="Rock 2" TextureId="lavadesertground_01" ProjectionX="lavadesertground_01_X" ProjectionY="lavadesertground_01_Y" Resolution="2048">
+      <Color Value="132,121,110" />
+      <Color Value="145,131,120" />
+      <Color Value="131,118,108" />
+      <Color Value="130,118,107" />
+      <Color Value="131,118,108" />
+      <Color Value="135,124,113" />
+      <Color Value="141,128,117" />
+      <Color Value="134,123,111" />
+      <Color Value="130,118,108" />
+      <Color Value="139,127,115" />
+    </Entry>
+    <Entry Id="biomes/lavadesert/terrain/lavadesertrockyground_01" Display="Rock 3" TextureId="lavadesertrockyground_01" Resolution="2048">
+      <Color Value="110,107,98" />
+      <Color Value="108,105,97" />
+      <Color Value="104,101,92" />
+      <Color Value="108,105,97" />
+      <Color Value="104,101,92" />
+      <Color Value="105,103,94" />
+      <Color Value="110,107,98" />
+      <Color Value="107,104,95" />
+      <Color Value="105,103,94" />
+      <Color Value="110,108,100" />
+    </Entry>
+    <Entry Id="biomes/grassland/terrain/grasslandvolcanicground_01" Display="Volcanic Rock" TextureId="grasslandvolcanicground_01" Resolution="2048" ProjectionX="lavadesertground_01_X" ProjectionY="lavadesertground_01_Y">
+      <Color Value="67,67,63" />
+      <Color Value="69,69,64" />
+      <Color Value="69,69,64" />
+      <Color Value="67,67,64" />
+      <Color Value="67,69,64" />
+      <Color Value="66,67,63" />
+      <Color Value="66,66,63" />
+      <Color Value="66,66,63" />
+      <Color Value="66,66,63" />
+      <Color Value="66,66,63" />
+    </Entry>
+    <Entry Id="terrain/roads/tiles_mossy_straight" Display="Mossy Tiles" TextureId="tiles_mossy_straight" Resolution="2048">
+      <Color Value="163,157,135" />
+      <Color Value="156,151,124" />
+      <Color Value="160,155,128" />
+      <Color Value="160,156,132" />
+      <Color Value="163,159,137" />
+      <Color Value="160,156,131" />
+      <Color Value="153,148,121" />
+      <Color Value="160,155,128" />
+      <Color Value="156,152,125" />
+      <Color Value="159,153,130" />
+    </Entry>
+    <Entry Id="leveldesigntextures/dev_passableground" Display="Grid 1 Meter" TextureId="dev_passableground" Resolution="1024">
+      <Color Value="105,120,60" />
+      <Color Value="100,113,54" />
+      <Color Value="101,114,54" />
+      <Color Value="100,113,54" />
+      <Color Value="104,117,58" />
+      <Color Value="101,113,54" />
+      <Color Value="101,114,54" />
+      <Color Value="105,118,60" />
+      <Color Value="104,117,58" />
+      <Color Value="104,117,57" />
+    </Entry>
+    <Entry Id="generic/colors/oceanblue" Display="Ocean Blue" TextureId="oceanblue" Resolution="256">
+      <Color Value="49,69,97" />
+      <Color Value="52,66,85" />
+      <Color Value="51,66,87" />
+      <Color Value="47,69,100" />
+      <Color Value="49,69,97" />
+      <Color Value="51,69,94" />
+      <Color Value="47,69,100" />
+      <Color Value="52,70,98" />
+      <Color Value="49,70,100" />
+      <Color Value="52,66,87" />
+    </Entry>
+  </Directory>
+  <Directory Id="Cliff" Display="Cliff">
+    <Entry Id="biomes/coastal/terrain/coastalblackcliff" Display="Black Cliff" TextureId="coastalblackcliff" ProjectionX="coastalrock_01_X" ProjectionY="coastalrock_01_Y" Resolution="2048">
+      <Color Value="46,47,35" />
+      <Color Value="46,47,35" />
+      <Color Value="44,46,35" />
+      <Color Value="46,47,35" />
+      <Color Value="47,49,36" />
+      <Color Value="46,47,33" />
+      <Color Value="47,49,35" />
+      <Color Value="44,46,33" />
+      <Color Value="46,47,35" />
+      <Color Value="47,51,35" />
+    </Entry>
+    <Entry Id="biomes/coastal/terrain/coastalmoosycliff_01" Display="Mossy Cliff" TextureId="coastalmoosycliff_01" ProjectionX="coastalmoosycliff_01_X" ProjectionY="coastalmoosycliff_01_Y" Resolution="2048">
+      <Color Value="117,118,94" />
+      <Color Value="115,117,92" />
+      <Color Value="114,115,91" />
+      <Color Value="113,114,89" />
+      <Color Value="114,115,92" />
+      <Color Value="120,120,98" />
+      <Color Value="111,114,88" />
+      <Color Value="114,117,89" />
+      <Color Value="111,114,89" />
+      <Color Value="118,118,98" />
+    </Entry>
+    <Entry Id="biomes/coastal/rock/coastalcliff_01" Display="Cliff 1" TextureId="coastalcliff_01" ProjectionX="coastalcliff_01_X" ProjectionY="coastalcliff_01_Y" Resolution="2048">
+      <Color Value="127,123,115" />
+      <Color Value="123,120,115" />
+      <Color Value="128,124,118" />
+      <Color Value="128,124,118" />
+      <Color Value="123,120,114" />
+      <Color Value="128,124,118" />
+      <Color Value="127,124,118" />
+      <Color Value="127,123,115" />
+      <Color Value="123,118,113" />
+      <Color Value="123,120,114" />
+    </Entry>
+    <Entry Id="biomes/coastal/rock/coastalrock_02" Display="Cliff 2" TextureId="coastalrock_02" ProjectionX="coastalrock_02_X" ProjectionY="coastalrock_02_Y" Resolution="2048">
+      <Color Value="118,111,95" />
+      <Color Value="130,120,103" />
+      <Color Value="121,113,97" />
+      <Color Value="121,113,97" />
+      <Color Value="130,120,104" />
+      <Color Value="123,114,97" />
+      <Color Value="117,111,95" />
+      <Color Value="120,111,95" />
+      <Color Value="120,111,95" />
+      <Color Value="121,113,97" />
+    </Entry>
+    <Entry Id="biomes/grassland/rock/grasslandcliff_01" Display="Cliff 3" TextureId="grasslandcliff_01" Resolution="2048">
+      <Color Value="142,144,132" />
+      <Color Value="141,144,132" />
+      <Color Value="139,141,130" />
+      <Color Value="142,145,134" />
+      <Color Value="137,139,130" />
+      <Color Value="142,144,134" />
+      <Color Value="141,142,131" />
+      <Color Value="144,145,135" />
+      <Color Value="145,146,135" />
+      <Color Value="144,145,134" />
+    </Entry>
+    <Entry Id="biomes/jungle/rock/cenotee_01" Display="Cliff 4" TextureId="cenotee_01" ProjectionX="cenotee_01_X" ProjectionY="cenotee_01_Y" Resolution="1024">
+      <Color Value="144,137,125" />
+      <Color Value="141,134,123" />
+      <Color Value="137,130,118" />
+      <Color Value="146,138,128" />
+      <Color Value="142,135,125" />
+      <Color Value="145,137,125" />
+      <Color Value="141,134,124" />
+      <Color Value="144,135,124" />
+      <Color Value="141,132,121" />
+      <Color Value="142,134,123" />
+    </Entry>
+    <Entry Id="biomes/jungle/rock/cenoteerock_01" Display="Cliff 5" TextureId="cenoteerock_01" ProjectionX="cenoteerock_01_X" ProjectionY="cenoteerock_01_Y" Resolution="1024">
+      <Color Value="142,134,123" />
+      <Color Value="142,134,124" />
+      <Color Value="148,137,124" />
+      <Color Value="144,135,125" />
+      <Color Value="142,134,125" />
+      <Color Value="142,135,125" />
+      <Color Value="142,134,124" />
+      <Color Value="142,135,125" />
+      <Color Value="142,134,124" />
+      <Color Value="139,132,123" />
+    </Entry>
+    <Entry Id="generic/rock/genericrock_01" Display="Cliff 6" TextureId="genericrock_01" ProjectionX="genericrock_01_X" ProjectionY="genericrock_01_Y" Resolution="1024">
+      <Color Value="149,141,135" />
+      <Color Value="155,145,137" />
+      <Color Value="152,142,134" />
+      <Color Value="152,142,137" />
+      <Color Value="151,142,135" />
+      <Color Value="152,142,134" />
+      <Color Value="152,142,135" />
+      <Color Value="152,141,135" />
+      <Color Value="151,141,135" />
+      <Color Value="149,141,135" />
+    </Entry>
+  </Directory>
+</TextureInventory>

@@ -1,0 +1,86 @@
+<Profile>
+
+    <EngineConfig>
+                <QcConfig 
+                    DvdSimuEnabled="0" 
+                    DvdSimuThroughput="-1" 
+                    />
+
+        <!-- WorldConfig -->
+        <!-- RingData: entities, landmarkNear, landmarkFar, terrain, preload -->
+        <WorldConfig 
+            SupportUnusedMapSector="1"
+            BudgetTimerEnabled="0"
+            SectorLinksRelax="0"
+            RingData="4,1,8,20,0">
+        </WorldConfig>
+    </EngineConfig>
+    
+    <!--  increment thumbnailsVer value to invalidate all thumbnails in resource cache -->
+    <ResourceCacheConfig
+        thumbnailsVer="1.2" 
+    />
+    
+    <JiraConfig
+        connectionString="Driver={MySQL ODBC 5.1 Driver};SERVER=jiradb.ubisoft.org;PORT=3306;Database=jira37;UID=jira37_read;PWD=9lb3r9%id" 
+        connectionStringProviderName="System.Data.Odbc" 
+    />
+
+    <CameraConfig
+        fov="85.0"
+        zMin="0.25"
+        zMax="10000.0"
+    />
+
+    <MinimapConfig >
+        <MinimapPalettes>
+            <MinimapPalette name="Default">
+                <!-- Top color is color at height 1024 (max height) and zero color is at ocean level (max - Ocean lvl) -->
+                <TerrainColorInfos Granularity="4" BottomColor="dbe4cf" TopColor="1f3025" >
+                    <ColorInfos>
+                        <ColorHeight HeightPlateau="10" Color="bdd0a7" />
+                        <ColorHeight HeightPlateau="20" Color="a2bc84" />
+                        <ColorHeight HeightPlateau="30" Color="71886b" />
+                        <ColorHeight HeightPlateau="40" Color="43594a" />
+                    </ColorInfos>
+                </TerrainColorInfos>
+
+                <!-- Top color is color at ocean level and bottom color is at 0 height -->
+                <OceanColorInfos Granularity="2" BottomColor="000000" TopColor="c0e0db" >
+                    <ColorInfos>
+                        <ColorHeight HeightPlateau="-5" Color="61b9b0" />
+                        <ColorHeight HeightPlateau="-10" Color="1e7c71" />
+                        <ColorHeight HeightPlateau="-15" Color="0c4d46" />
+                    </ColorInfos>
+                </OceanColorInfos>
+
+                <!-- Top color is color at a sector water level and bottom color is at ocean level height -->
+                <WaterColorInfos Granularity="1" BottomColor="1e7c71" TopColor="c0e0db" >
+                    <ColorInfos>
+                        <ColorHeight HeightPlateau="-5" Color="61b9b0" />
+                    </ColorInfos>
+                </WaterColorInfos>            
+            </MinimapPalette>
+        </MinimapPalettes>
+
+        <MinimapGenerate>
+            <MinimapGen Name="5" TexSize="512,512" MeterPerPixel="0.5" Palette="Default" InvertY="1" />
+            <MinimapGen Name="4" TexSize="512,512" MeterPerPixel="1" Palette="Default" InvertY="1" />
+            <MinimapGen Name="3" TexSize="512,512" MeterPerPixel="2" Palette="Default" InvertY="1" />
+            <MinimapGen Name="2" TexSize="512,512" MeterPerPixel="4" Palette="Default" InvertY="1" />
+            <MinimapGen name="1" texSize="128,128" MeterPerPixel="0.5" palette="Default" InvertY="1" DirOutput="MiniMaps/%1%/" FileOutput="%2%.png" SectorNumConvert="%i" CoordConvert="%02i"/>
+        </MinimapGenerate>
+    </MinimapConfig>
+    
+    <ConfigObjectMap>
+        <MapEntry tag="rulertoolconfig">
+            <ConfigObject hid_DTCTH_ClassName="CRulerToolConfig" LastUsedPresetIndex="0">
+                <RulerToolSpeedPresets>
+                    <SpeedPreset PresetName="SinglePlayer" ArchetypeName="player:MainCharacter/PawnPlayer" TemplateName="CountersService:Counters.CountersService" />
+                    <SpeedPreset PresetName="Multiplayer" ArchetypeName="player:MainCharacter/PawnPlayerNetworkKit" TemplateName="CountersService:Counters.CountersService.Multi" />
+                </RulerToolSpeedPresets>
+            </ConfigObject>
+        </MapEntry>
+    </ConfigObjectMap>
+    
+</Profile>

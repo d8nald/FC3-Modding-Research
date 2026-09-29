@@ -1,0 +1,40 @@
+<NetChannels version="1.0">
+  <!-- Online engine -->
+  <NetChannel name="NetChannel.Service.OnlineEngine" type="Service" OptimalPeriodMs="100" MinimalPeriodMs="100"  />
+  <NetChannel name="NetChannel.Service.OnlineEngine.TestSystem" type="Service" OptimalPeriodMs="100" MinimalPeriodMs="100"  />
+  <NetChannel name="NetChannel.Service.OnlineEngine.TestLibrary" type="Service" OptimalPeriodMs="100" MinimalPeriodMs="200"  />
+  <NetChannel name="NetChannel.Service.OnlineEngine.TestLibrarySimulation" type="Simulation" OptimalPeriodMs="100" MinimalPeriodMs="200" BackgroundOptimalPeriodMs="500" />
+
+  <!-- Online session -->
+  <NetChannel name="NetChannel.Service.Session" type="Service" OptimalPeriodMs="100" MinimalPeriodMs="200"  />
+
+  <!-- Game mode system-->
+  <NetChannel name="NetChannel.Service.GameMode" type="Service" OptimalPeriodMs="100" MinimalPeriodMs="250"  />
+  <NetChannel name="NetChannel.Simulation.GameMode" type="Simulation" OptimalPeriodMs="100" MinimalPeriodMs="250" BackgroundOptimalPeriodMs="333" />
+  <NetChannel name="NetChannel.Service.StatisticsLowPrio" type="Service" OptimalPeriodMs="1000" MinimalPeriodMs="3000"  />
+  <NetChannel name="NetChannel.Service.StatisticsHighPrio" type="Service" OptimalPeriodMs="250" MinimalPeriodMs="500"  />
+  <NetChannel name="NetChannel.Service.GameManager" type="Service" OptimalPeriodMs="100" MinimalPeriodMs="200"  />
+
+  <!-- Pawn and controller-->
+  <NetChannel name="NetChannel.Service.GameplayHiPrioHost" type="Service" OptimalPeriodMs="33" MinimalPeriodMs="33"  />
+  <NetChannel name="NetChannel.Service.GameplayHiPrioController" type="Service" OptimalPeriodMs="33" MinimalPeriodMs="33"  />
+  <NetChannel name="NetChannel.Simulation.GameplayHiPrioThirdParty" type="Simulation" OptimalPeriodMs="33" MinimalPeriodMs="33" BackgroundOptimalPeriodMs="100" />
+  
+  <NetChannel name="NetChannel.Service.GameplayHost" type="Service" OptimalPeriodMs="100" MinimalPeriodMs="100"  />
+  <NetChannel name="NetChannel.Service.GameplayController" type="Service" OptimalPeriodMs="100" MinimalPeriodMs="100"  />
+  <NetChannel name="NetChannel.Simulation.GameplayThirdParty" type="Simulation" OptimalPeriodMs="100" MinimalPeriodMs="100" BackgroundOptimalPeriodMs="100" />
+
+  <!-- Gameplay -->
+  <NetChannel name="NetChannel.Service.Gameplay" type="Service" OptimalPeriodMs="100" MinimalPeriodMs="250"  />
+  <NetChannel name="NetChannel.Simulation.Gameplay" type="Simulation" OptimalPeriodMs="100" MinimalPeriodMs="200" BackgroundOptimalPeriodMs="1000"  />
+  <NetChannel name="NetChannel.Simulation.Projectile" type="Simulation" OptimalPeriodMs="100" MinimalPeriodMs="100" BackgroundOptimalPeriodMs="100" />
+
+  <!-- Physic -->
+  <NetChannel name="NetChannel.Simulation.PhysicObject" type="Simulation" OptimalPeriodMs="125" MinimalPeriodMs="250" BackgroundOptimalPeriodMs="750" />
+
+  <!-- Environment -->
+  <NetChannel name="NetChannel.Simulation.Fire" type="Simulation" OptimalPeriodMs="250" MinimalPeriodMs="666" BackgroundOptimalPeriodMs="1500" />
+  <NetChannel name="NetChannel.Service.Realtree" type="Service" OptimalPeriodMs="100" MinimalPeriodMs="250" />
+  
+</NetChannels>
+

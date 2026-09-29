@@ -1,0 +1,44 @@
+<graphickit id="12081806461789799680" name="Barman" unique="0" kittobone="1">
+	<slot name="Slot1" position="0" bonename="Spine2">
+		<partdatabase name="" weight="0">
+			<part name="Barman" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\Bartender\Barman.xml" mesh="Barman" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-m-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Hoyt_eye" id="akotelnikoff-M-2012030951258527">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Barman Eyes" id="vfortin-M-2012032255807060">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Shoes" id="bwaddingham-M-2012032157584918">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="hand" id="bwaddingham-M-2012032157890880">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Bartender_Pants" id="bwaddingham-M-2012032155686409">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Bartender_Face" id="bwaddingham-M-2012032158150942">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="bartender_Vest_Cloths" id="bwaddingham-M-2012032156745096">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Slot2" position="1" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot3" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot4" position="3" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

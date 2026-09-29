@@ -1,0 +1,190 @@
+<Profile Quality="High">
+
+    <VeryHighQuality
+        Fire="1"
+        Destruction="1"
+        Simulation="1"
+        Softbody="1"
+        TreeLODAgressivity="1"
+        PlantLODAgressivity="1"
+        FixedDeltatime="-1.0"
+        FireParticleScale="1.0"
+             
+        BudgetManagementOn="0"
+        BudgetSimulation="500000"
+        BudgetUnique="500000"
+        BudgetRestore="500000"
+        BudgetIdentity="500000"
+        BudgetRegen="500000"
+             
+        LifeTimeUniqueSim="6.0"
+        LifeTimeRestoreSim="8.0"
+        LifeTimeSimNotRender="12.0"
+        LifeTimeBrokenSimNotRender="30.0"
+
+        DestructionNbMaxBrokenBranches="50"
+        DestructionStormRadius="10.0"
+
+        NbRotationSmallTrees="3.0"
+        NbRotationMediumTrees="2.0"
+        NbRotationLargeTrees="2.0"
+
+        RegenSpeed=" 0.02"
+        ScaleOutSpeed="0.05"
+            
+        ResponseToAnimal="1"
+             
+        MultiEnable="1"
+        MultiDestruction="0"
+        MultiLifeTimeUniqueSim="8.0"
+        MultiLifeTimeRestoreSim="10.0"
+        MultiRegenSpeed="0.06"
+        MultiScaleOutSpeed="0.90"
+        MultiNbBrokenBranchesPerSeconds="10"
+        MultiNbBrokenBranchesMaxPerdestruction="4"
+        MultiNbMaxSimultanenousBrokenBranches="15"
+        LeavesRatio="1.0"
+        ShadowLeavesRatio="1.0"
+    />
+
+    <HighQuality 
+        Fire="1" 
+        Destruction="1" 
+        Simulation="1" 
+        Softbody="1" 
+        TreeLODAgressivity="1" 
+        PlantLODAgressivity="1" 
+        FixedDeltatime="-1.0"
+        FireParticleScale="1.0"
+             
+        BudgetManagementOn="0"
+        BudgetSimulation="500000"
+        BudgetUnique="500000"
+        BudgetRestore="500000"
+        BudgetIdentity="500000"
+        BudgetRegen="500000"
+             
+        LifeTimeUniqueSim="6.0"
+        LifeTimeRestoreSim="8.0"
+        LifeTimeSimNotRender="12.0"
+        LifeTimeBrokenSimNotRender="30.0"
+
+        DestructionNbMaxBrokenBranches="50"
+        DestructionStormRadius="10.0"    
+
+        NbRotationSmallTrees="3.0"
+        NbRotationMediumTrees="2.0"
+        NbRotationLargeTrees="2.0"                        
+
+        RegenSpeed=" 0.02"
+        ScaleOutSpeed="0.05"                                    
+            
+        ResponseToAnimal="1"
+             
+        MultiEnable="1"
+        MultiDestruction="0"
+        MultiLifeTimeUniqueSim="8.0"
+        MultiLifeTimeRestoreSim="10.0"
+        MultiRegenSpeed="0.06"
+        MultiScaleOutSpeed="0.90"                        
+        MultiNbBrokenBranchesPerSeconds="10"
+        MultiNbBrokenBranchesMaxPerdestruction="4"
+        MultiNbMaxSimultanenousBrokenBranches="15"
+        LeavesRatio="1.0"
+        ShadowLeavesRatio="1.0"
+    />
+    
+    <MediumQuality 
+        Fire="1" 
+        Destruction="1" 
+        Simulation="1" 
+        Softbody="1" 
+        TreeLODAgressivity="1" 
+        PlantLODAgressivity="1" 
+        FixedDeltatime="-1.0"
+        FireParticleScale="1.0"
+             
+        BudgetManagementOn="0"
+        BudgetSimulation="500000"
+        BudgetUnique="500000"
+        BudgetRestore="500000"
+        BudgetIdentity="500000"
+        BudgetRegen="500000"
+             
+        LifeTimeUniqueSim="6.0"
+        LifeTimeRestoreSim="8.0"
+        LifeTimeSimNotRender="12.0"
+        LifeTimeBrokenSimNotRender="30.0"
+
+        DestructionNbMaxBrokenBranches="50"
+        DestructionStormRadius="10.0"    
+
+        NbRotationSmallTrees="3.0"
+        NbRotationMediumTrees="2.0"
+        NbRotationLargeTrees="2.0"                        
+
+        RegenSpeed=" 0.02"
+        ScaleOutSpeed="0.05"                                    
+            
+        ResponseToAnimal="1"
+             
+        MultiEnable="1"
+        MultiDestruction="0"
+        MultiLifeTimeUniqueSim="8.0"
+        MultiLifeTimeRestoreSim="10.0"
+        MultiRegenSpeed="0.06"
+        MultiScaleOutSpeed="0.90"                        
+        MultiNbBrokenBranchesPerSeconds="10"
+        MultiNbBrokenBranchesMaxPerdestruction="4"
+        MultiNbMaxSimultanenousBrokenBranches="15"
+        LeavesRatio="1.0"
+        ShadowLeavesRatio="0.8"
+    />
+
+    <LowQuality 
+        Fire="1" 
+        Destruction="1" 
+        Simulation="1" 
+        Softbody="1" 
+        TreeLODAgressivity="1" 
+        PlantLODAgressivity="1" 
+        FixedDeltatime="-1.0"
+        FireParticleScale="1.0"            
+             
+        BudgetManagementOn="0"             
+        BudgetSimulation="500000"
+        BudgetUnique="300000"
+        BudgetRestore="300000"
+        BudgetIdentity="300000"
+        BudgetRegen="300000"
+             
+        LifeTimeUniqueSim="5.0"
+        LifeTimeRestoreSim="7.0"
+        LifeTimeSimNotRender="12.0"
+        LifeTimeBrokenSimNotRender="30.0"
+             
+        DestructionNbMaxBrokenBranches="15"
+        DestructionStormRadius="10.0"
+                         
+        NbRotationSmallTrees="3.0"
+        NbRotationMediumTrees="2.0"
+        NbRotationLargeTrees="1.0"                        
+
+        ScaleOutSpeed="0.05"                        
+        RegenSpeed=" 0.02"
+        ResponseToAnimal="1"                          
+             
+        MultiEnable="1"
+        MultiDestruction="0"
+        MultiLifeTimeUniqueSim="8.0"
+        MultiLifeTimeRestoreSim="10.0"
+        MultiRegenSpeed="0.06"
+        MultiScaleOutSpeed="0.90"                        
+        MultiNbBrokenBranchesPerSeconds="10"
+        MultiNbBrokenBranchesMaxPerdestruction="4"
+        MultiNbMaxSimultanenousBrokenBranches="15"
+        LeavesRatio="1.0"
+        ShadowLeavesRatio="0.2"
+    />
+    
+</Profile>

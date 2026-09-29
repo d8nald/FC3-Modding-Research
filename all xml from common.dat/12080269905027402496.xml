@@ -1,0 +1,40 @@
+<graphickit id="12080269905027402496" name="SHA_BearScaled" unique="0" kittobone="1">
+	<slot name="Mainbody" position="0" bonename="Hips_Big">
+		<partdatabase name="" weight="0">
+			<part name="AB_Bear_Big" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Asian_black_bear\AB_Bear_Big.xml" mesh="AB_Bear_Big" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Animal_Grey_ID3" id="yanzhou-M-3101201251837020">
+						<materialdatabase name="" weight="0">
+							<material id="yanzhou-M-3001201261509122" name="SHA_Animal_EmptyMask" weight="10" file="graphics\_materials\yanzhou-M-3001201261509122.material.xml">
+								<tag name="regular" type="0" />
+								<tag name="rare" type="4" />
+							</material>
+							<material id="yanzhou-M-20120203143354" name="Asian_BlackBear_Hurt" weight="1" file="graphics\_materials\yanzhou-M-20120203143354.material.xml">
+								<tag name="rare" type="0" />
+								<tag name="regular" type="4" />
+							</material>
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Animal_Grey_ID2" id="jli-M-107201151201026">
+						<materialdatabase name="" weight="0">
+							<material id="yanzhou-M-0711201160915577" name="Asian_black_bear_eyes" weight="1" file="graphics\_materials\yanzhou-M-0711201160915577.material.xml" />
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Animal_Grey_ID1" id="jli-M-107201142503596">
+						<materialdatabase name="" weight="0">
+							<material id="yanzhou-M-0711201150689792" name="Asian_black_bear" weight="10" file="graphics\_materials\yanzhou-M-0711201150689792.material.xml">
+								<tag name="regular" type="0" />
+								<tag name="rare" type="4" />
+							</material>
+							<material id="jli-M-20120509165448" name="Asian_black_bear_boss" weight="1" file="graphics\_materials\jli-M-20120509165448.material.xml">
+								<tag name="rare" type="0" />
+								<tag name="regular" type="4" />
+							</material>
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

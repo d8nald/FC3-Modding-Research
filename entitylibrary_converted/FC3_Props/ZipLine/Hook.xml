@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7592783408142</field>
+  <field name="Name" type="String">ZipLine/Hook</field>
+  <object name="Entity">
+    <field name="hidName" type="String">FC3_Props:ZipLine/Hook</field>
+    <field name="disEntityId" type="Int64">14115</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">3</field>
+    <field name="hidPos" type="Vector3">0,0,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">0,0,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileName" type="String">graphics\__fc3_graphics\singleplayer\props\equipment\zipeline.xml</field>
+        <field name="fileName" type="Hash64">BEDD4295C15A4336</field>
+        <field name="hidDescriptor" type="Rml">
+          <rml>
+            <hidDescriptor>
+              <component class="GraphicComponent" version="2" detail="0">
+                <object index="0" meshName="Handle" boneName="Handle" bboxMin="-0.0217323,-0.0562708,-0.132422" bboxMax="0.0225486,0.0917367,-0.0156855" />
+                <object index="1" meshName="Frame" boneName="Frame" bboxMin="-0.0362835,-0.0881456,-0.12998" bboxMax="0.0283365,0.087635,0.0612837" />
+                <resource fileName="graphics\__FC3_Graphics\SinglePlayer\Props\Equipment\Zipeline.xbg" bboxMin="-0.0362835,-0.0881456,-0.246717" bboxMax="0.0283365,0.0918223,0.0612837" />
+                <skeleton_reference_list>
+                  <skeleton name="Zipeline" index="0" pos="0,0,0" rot="1,-0,-0,-0">
+                    <bone name="Handle" pos="-0.014551,8.6e-005,-0.114295" rot="1,0,0,0" />
+                    <bone name="Frame" pos="0,0,0" rot="1,0,0,0" />
+                  </skeleton>
+                </skeleton_reference_list>
+                <material_reference_list>
+                  <material name="Zipline_01" shader_name="Metal" ref_shader_id="xperreault-M-2010082641609956" />
+                </material_reference_list>
+              </component>
+              <component class="RigidPhysComponent">
+                <resource fileName="graphics\__FC3_Graphics\SinglePlayer\Props\Equipment\Zipeline.hkx" />
+              </component>
+            </hidDescriptor>
+          </rml>
+        </field>
+        <field name="hidCrcCheck" type="Hash32">FFFFFFFF</field>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bCastShadow" type="Boolean">True</field>
+        <field name="bReceiveShadow" type="Boolean">True</field>
+        <field name="bCastAmbientShadow" type="Boolean">True</field>
+        <field name="olgLightGroup" type="Int32">1</field>
+        <field name="bShowInReflection" type="Boolean">True</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bExcludeFromPortalSystem" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="clrHighLightColor" type="Vector3">1,0.903545,0.604147</field>
+        <field name="clrHighLightColor2" type="Vector3">0,0,0</field>
+        <field name="fHighLightSpeed" type="Float32">1</field>
+        <field name="bLodDitheringEnable" type="Boolean">True</field>
+        <field name="matIntuitionMaterialName" type="String">graphics\_materials\jprajotte-M-20100916104744.material.xml</field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field name="bAllowCullBySize" type="Boolean">True</field>
+        <field name="bMotionBlurExclusion" type="Boolean">False</field>
+        <field name="bOverrideLODSphere" type="Boolean">False</field>
+        <field name="fLODSphereRadius" type="Float32">0</field>
+        <field name="vectorAdditionalAABBDimensionForSkin" type="Vector3">1,1,0</field>
+        <field name="text_currentSkin" type="String"></field>
+        <field name="currentSkin" type="Hash32">FFFFFFFF</field>
+        <field name="bUseCurrentSkin" type="Boolean">False</field>
+        <object name="MaterialLightSwitch">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">xperreault-m-2010082641609956</field>
+              <field name="disSlotId" type="Hash32">8EF8C246</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="MaterialOverrides">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">xperreault-m-2010082641609956</field>
+              <field name="disSlotId" type="Hash32">8EF8C246</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="SkinList">
+          <object name="Skin">
+            <field name="text_name" type="String"></field>
+            <field name="name" type="Hash32">FFFFFFFF</field>
+            <field name="locSkinNameId" type="Int32">-1</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">0</field>
+          <field name="text_fileModel" type="String">graphics\__fc3_graphics\singleplayer\props\equipment\zipeline.xbg</field>
+          <field name="fileModel" type="Hash64">B184D295C15A4336</field>
+          <field name="hidMeshName" type="String">Handle</field>
+          <field name="text_hidNodeName" type="String">Handle</field>
+          <field name="hidNodeName" type="Hash32">962C25EF</field>
+          <field name="text_hidNodeNameLOD0" type="String">Handle_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">4F8DA5C8</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">1</field>
+          <field name="text_fileModel" type="String">graphics\__fc3_graphics\singleplayer\props\equipment\zipeline.xbg</field>
+          <field name="fileModel" type="Hash64">B184D295C15A4336</field>
+          <field name="hidMeshName" type="String">Frame</field>
+          <field name="text_hidNodeName" type="String">Frame</field>
+          <field name="hidNodeName" type="Hash32">743913C9</field>
+          <field name="text_hidNodeNameLOD0" type="String">Frame_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">A2E928E4</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">2</field>
+          <field name="text_fileModel" type="String"></field>
+          <field name="fileModel" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">Frame</field>
+          <field name="hidNodeName" type="Hash32">743913C9</field>
+          <field name="text_hidNodeNameLOD0" type="String">Frame_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">A2E928E4</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+      </object>
+      <object name="CSimpleAnimationComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileSkeleton" type="String">graphics\__fc3_graphics\singleplayer\props\equipment\zipeline_ref.skeleton</field>
+        <field name="fileSkeleton" type="Hash64">4CFEFA224B2DEC9D</field>
+        <field name="text_sPackage" type="String"></field>
+        <field name="sPackage" type="Hash64">FFFFFFFFFFFFFFFF</field>
+        <field name="AutoApplyDisplacement" type="Boolean">False</field>
+        <field name="sPartName" type="String">hook</field>
+        <field name="bEnableEvents" type="Boolean">False</field>
+        <field name="bRandomStart" type="Boolean">False</field>
+        <field name="text_Animation" type="String"></field>
+        <field name="Animation" type="Hash64">FFFFFFFFFFFFFFFF</field>
+      </object>
+      <object hash="E683B521">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="2BA6E1A6" type="BinHex">FFFFFFFF00000000</field>
+      </object>
+    </object>
+  </object>
+</object>

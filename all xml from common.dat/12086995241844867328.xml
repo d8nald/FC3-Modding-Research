@@ -1,0 +1,56 @@
+<graphickit id="12086995241844867328" name="Riley_SkyDiving" unique="0" kittobone="1">
+	<slot name="Slot1" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="SkyDiving_Riley" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\Sky_Diving\SkyDiving_Riley.xml" mesh="SkyDiving_Riley" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-M-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Riley_body" id="akotelnikoff-M-2011112158900854">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Riley_SkyDiving_Suit" id="vfortin-M-2012040348513640">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Riley_SkyDiving_Shoes" id="vfortin-M-2012040348981248">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Riley_SkyDiving_Backpack" id="vfortin-M-2012040349004017">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="SkyDiving_Helmet_Riley_AsCopy" id="cromagnoli-M-2012042465285803">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Riley Glasses" id="cromagnoli-M-2012040553118225">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Riley_head" id="akotelnikoff-M-2011112159365257">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Riley_caps" id="akotelnikoff-M-2011112154932996">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Eye_shadow" id="akotelnikoff-M-2011083067336073">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Riley_eyelashes" id="akotelnikoff-M-2012010358285380">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Riley_eyes" id="akotelnikoff-M-2012071767123285">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Slot2" position="1" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot3" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot4" position="3" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

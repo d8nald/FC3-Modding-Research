@@ -1,0 +1,47 @@
+<graphickit id="12088873959324386304" name="Jason_Casual_3rd_Clean" unique="0" kittobone="1">
+	<slot name="Body" position="0" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="Jason_3rd_Clean" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\Jason\Jason_3rd_Clean.xml" mesh="Jason_3rd_Clean" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Jason_beard" id="akotelnikoff-M-2012050338194444">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="02 - Default" id="akotelnikoff-M-2012042757760083">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Jason_head" id="akotelnikoff-M-2012050333591068">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Jason_eyelashes" id="akotelnikoff-M-2012050140115793">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Jason_eye" id="akotelnikoff-M-2012050139687118">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Jason_Teeth" id="kosullivan-M-0705201271987785">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Eye_shadow" id="akotelnikoff-M-2011083067336073">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Bambi_Body_Generic_2" id="cromagnoli-M-2012032836675881">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Bambi_Body_Generic_1" id="cromagnoli-M-2012031650937186">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Material #129" id="cromagnoli-M-2012031648824635">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Jason_Cloth_Shirt" id="cromagnoli-M-2012031648806038">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Jason_leatherboots" id="cromagnoli-M-2012051063612514">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

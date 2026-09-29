@@ -1,0 +1,59 @@
+<graphickit id="12091636473699238144" name="Douglas" unique="0" kittobone="1">
+	<slot name="Body" position="0" bonename="Hips">
+		<partdatabase name="" weight="0">
+			<part name="Doug" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\Doug\Doug.xml" mesh="Doug" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-M-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Keith_eyelashes" id="akotelnikoff-M-2012041036832794">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Eye_shadow" id="akotelnikoff-M-2011083067336073">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Keith_iris" id="akotelnikoff-M-2012040653420472">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Keith_eyes" id="akotelnikoff-M-2012040653387305">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Doug_body" id="bwaddingham-M-2012042650875849">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Material #686" id="bwaddingham-M-2012042557113551">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Doug_shoes" id="bwaddingham-M-2012042557072737">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Doug_pants" id="bwaddingham-M-2012042556965359">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Material #683" id="bwaddingham-M-2012042557056530">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Doug_ttop" id="bwaddingham-M-2012042556901885">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Material #681" id="bwaddingham-M-2012042556501613">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Material #680" id="bwaddingham-M-2012042556371672">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Slot2" position="1" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot3" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot4" position="3" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

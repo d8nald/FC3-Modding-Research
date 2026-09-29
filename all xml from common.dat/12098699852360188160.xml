@@ -1,0 +1,56 @@
+<graphickit id="12098699852360188160" name="EvilJason" unique="0" kittobone="1">
+	<slot name="Slot1" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="EvilJason" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\EvilJason\EvilJason.xml" mesh="EvilJason" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Jason_leatherboots" id="cromagnoli-M-2012051063612514">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Jason_Cloth_Shirt" id="cromagnoli-M-2012031648806038">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Material #129" id="cromagnoli-M-2012031648824635">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Arm_Normal_Tattoo" id="cromagnoli-M-2012040456408373">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Evil Arm_Dlc_Tattoo" id="cromagnoli-M-2012040456382693">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="02 - Default" id="akotelnikoff-M-2012042757760083">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="EvilJason_head" id="cromagnoli-M-2012060140010293">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Eye_shadow" id="akotelnikoff-M-2011083067336073">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Jason_eyelashes" id="akotelnikoff-M-2012050140115793">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Jason_eye" id="akotelnikoff-M-2012050139687118">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Jason_Teeth" id="kosullivan-M-0705201271987785">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Jason_beard" id="akotelnikoff-M-2012050338194444">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Slot2" position="1" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot3" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot4" position="3" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

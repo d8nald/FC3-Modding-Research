@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7710356334528</field>
+  <field name="Name" type="String">Pickups/Ammo/Arrow_Bundle_Pickup</field>
+  <object name="Entity">
+    <field name="hidName" type="String">FC3_Interactive:Pickups/Ammo/Arrow_Bundle_Pickup</field>
+    <field name="disEntityId" type="Int64">11189</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">5</field>
+    <field name="hidPos" type="Vector3">0,0,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">0,0,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object hash="CEAC4BA6">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="C48BEE15" type="BinHex">01</field>
+        <field hash="3DDE91B5" type="BinHex">00000000</field>
+        <field hash="9BB2FE1D" type="BinHex">01</field>
+        <field hash="B41FA94F" type="BinHex">0000A03F0000A03F0000803F</field>
+        <field hash="22F0A675" type="BinHex">00000000000000000000803E</field>
+        <field hash="B3F80271" type="BinHex">01</field>
+        <field hash="834F4280" type="BinHex">01</field>
+        <field hash="5CFE93AD" type="BinHex">00</field>
+        <field hash="368A3C98" type="BinHex">00000000</field>
+        <field hash="D34BE8AC" type="BinHex">00</field>
+        <field hash="9BD0BE71" type="BinHex">00000000</field>
+        <field hash="CA4E7031" type="BinHex">00</field>
+        <field hash="C1CAB5E3" type="BinHex">01</field>
+        <field hash="BEBF4938" type="BinHex">01</field>
+        <field hash="01C0E344" type="BinHex">00</field>
+        <field hash="4BBA67A7" type="BinHex">01</field>
+        <field hash="328B1F2E" type="BinHex">00</field>
+        <field hash="8F545A17" type="BinHex">00</field>
+        <field hash="6C6FC049" type="BinHex">5069636B55705F416D6D6F00</field>
+        <object hash="F68F03C7">
+          <field hash="7DD97794" type="BinHex">3078303031313632364200</field>
+          <field hash="A57B9EFC" type="BinHex">0F000000</field>
+          <field hash="7AF182DF" type="BinHex">3078303034463031323900</field>
+          <field hash="A2536BB7" type="BinHex">0E000000</field>
+          <field hash="76EFA64C" type="BinHex">3078303031313632364200</field>
+          <field hash="5D822A3D" type="BinHex">0F000000</field>
+          <field hash="71C75307" type="BinHex">3078464646464646464600</field>
+          <field hash="5AAADF76" type="BinHex">FFFFFFFF</field>
+          <field hash="C2D6DE63" type="BinHex">00</field>
+        </object>
+        <object hash="DE337C1A">
+          <object hash="5B0F6343">
+            <field hash="AB258E09" type="BinHex">6172726F7700</field>
+            <field hash="5957C8C7" type="BinHex">3EEE37D8</field>
+            <field hash="12F0DC28" type="BinHex">0A000000</field>
+            <field hash="0A8C4D27" type="BinHex">00</field>
+          </object>
+          <object hash="5B0F6343">
+            <field hash="AB258E09" type="BinHex">6E6F6E6500</field>
+            <field hash="5957C8C7" type="BinHex">CF00907F</field>
+            <field hash="12F0DC28" type="BinHex">00000000</field>
+            <field hash="0A8C4D27" type="BinHex">00</field>
+          </object>
+        </object>
+      </object>
+      <object name="CSoundComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="sndptSoundPoint" type="BinHex">FFFFFFFF00000000</field>
+        <field name="bStopSoundOnStateChange" type="Boolean">False</field>
+        <field name="bAlwaysUpdate" type="Boolean">False</field>
+      </object>
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileName" type="String">graphics\__fc3_graphics\_common\weapons\bow\arrow_ammo_pack.xml</field>
+        <field name="fileName" type="Hash64">B181DF084D2E2E5B</field>
+        <field name="hidDescriptor" type="Rml">
+          <rml>
+            <hidDescriptor>
+              <component class="GraphicComponent" version="2" detail="0">
+                <object index="0" boneName="ARROW_AMMO_PACK_LOD0" bboxMin="-0.0428958,-0.50923,-0.0432225" bboxMax="0.0575832,0.395878,0.0505195" />
+                <resource fileName="graphics\__FC3_Graphics\_Common\Weapons\Bow\ARROW_AMMO_PACK.xbg" bboxMin="-0.0428958,-0.50923,-0.0432225" bboxMax="0.0575832,0.395878,0.0505195" />
+                <skeleton_reference_list>
+                  <skeleton name="ARROW_AMMO_PACK" index="0" pos="0,0,0" rot="1,-0,-0,-0" />
+                </skeleton_reference_list>
+                <material_reference_list>
+                  <material name="ARROW_PACK_CLOTH_2" shader_name="Metal" ref_shader_id="grassam-M-0603201252168430" />
+                  <material name="ARROW_PACK_CLOTH_1" shader_name="Metal" ref_shader_id="grassam-M-0603201252137770" />
+                  <material name="BOW_FLETCH" shader_name="Metal" ref_shader_id="grassam-M-3101201246150554" />
+                  <material name="BOW_METAL" shader_name="Metal" ref_shader_id="grassam-M-0911201151290642" />
+                </material_reference_list>
+              </component>
+              <component class="InteriorVolumeComponent" version="1" detail="0" />
+              <component class="RigidPhysComponent">
+                <resource fileName="graphics\__FC3_Graphics\_Common\Weapons\Bow\ARROW_AMMO_PACK.hkx" />
+              </component>
+            </hidDescriptor>
+          </rml>
+        </field>
+        <field name="hidCrcCheck" type="Hash32">FFFFFFFF</field>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bCastShadow" type="Boolean">True</field>
+        <field name="bReceiveShadow" type="Boolean">True</field>
+        <field name="bCastAmbientShadow" type="Boolean">True</field>
+        <field name="olgLightGroup" type="Int32">385</field>
+        <field name="bShowInReflection" type="Boolean">True</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bExcludeFromPortalSystem" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="clrHighLightColor" type="Vector3">0.4,0.368627,0.27451</field>
+        <field name="clrHighLightColor2" type="Vector3">0,0,0</field>
+        <field name="fHighLightSpeed" type="Float32">1</field>
+        <field name="bLodDitheringEnable" type="Boolean">True</field>
+        <field name="matIntuitionMaterialName" type="String">graphics\_materials\jprajotte-M-20100916104744.material.xml</field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field name="bAllowCullBySize" type="Boolean">True</field>
+        <field name="bMotionBlurExclusion" type="Boolean">False</field>
+        <field name="bOverrideLODSphere" type="Boolean">False</field>
+        <field name="fLODSphereRadius" type="Float32">0</field>
+        <field name="vectorAdditionalAABBDimensionForSkin" type="Vector3">1,1,0</field>
+        <field name="text_currentSkin" type="String"></field>
+        <field name="currentSkin" type="Hash32">FFFFFFFF</field>
+        <field name="bUseCurrentSkin" type="Boolean">False</field>
+        <object name="MaterialLightSwitch">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-0911201151290642</field>
+              <field name="disSlotId" type="Hash32">149DC6A4</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-0603201252137770</field>
+              <field name="disSlotId" type="Hash32">20317D32</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-0603201252168430</field>
+              <field name="disSlotId" type="Hash32">D6989949</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-3101201246150554</field>
+              <field name="disSlotId" type="Hash32">EE09E8F0</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="MaterialOverrides">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-0911201151290642</field>
+              <field name="disSlotId" type="Hash32">149DC6A4</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-0603201252137770</field>
+              <field name="disSlotId" type="Hash32">20317D32</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-0603201252168430</field>
+              <field name="disSlotId" type="Hash32">D6989949</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-3101201246150554</field>
+              <field name="disSlotId" type="Hash32">EE09E8F0</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="SkinList">
+          <object name="Skin">
+            <field name="text_name" type="String"></field>
+            <field name="name" type="Hash32">FFFFFFFF</field>
+            <field name="locSkinNameId" type="Int32">-1</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">0</field>
+          <field name="text_fileModel" type="String">graphics\__fc3_graphics\_common\weapons\bow\arrow_ammo_pack.xbg</field>
+          <field name="fileModel" type="Hash64">BED84F084D2E2E5B</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">ARROW_AMMO_PACK</field>
+          <field name="hidNodeName" type="Hash32">CAE24B72</field>
+          <field name="text_hidNodeNameLOD0" type="String">ARROW_AMMO_PACK_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">30DD6F4B</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">1</field>
+          <field name="text_fileModel" type="String"></field>
+          <field name="fileModel" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">ARROW_AMMO_PACK</field>
+          <field name="hidNodeName" type="Hash32">CAE24B72</field>
+          <field name="text_hidNodeNameLOD0" type="String">ARROW_AMMO_PACK_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">30DD6F4B</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+      </object>
+      <object hash="40B958BA">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="527E7674" type="BinHex">67726170686963735C5F5F6663335F67726170686963735C5F636F6D6D6F6E5C776561706F6E735C626F775C6172726F775F616D6D6F5F7061636B2E686B7800</field>
+        <field hash="2E50EB85" type="BinHex">5B2E2E4D086444AC</field>
+        <field hash="EFFCA0CA" type="BinHex">00</field>
+        <field hash="976F114C" type="BinHex">00</field>
+        <field hash="1CFFDBEC" type="BinHex">00</field>
+        <field hash="68C1CF4F" type="BinHex">00</field>
+        <field hash="6EB9AFAA" type="BinHex">01</field>
+        <field hash="CAA1B825" type="BinHex">01</field>
+        <field hash="CD8C3274" type="BinHex">00</field>
+        <field hash="5BABAAC6" type="BinHex">00</field>
+        <field hash="0DBE2127" type="BinHex">0000C842</field>
+        <field hash="43EBE31F" type="BinHex">0000C040</field>
+        <field hash="9EBBF0BE" type="BinHex">00004843</field>
+        <field hash="5E9FE0F4" type="BinHex">02000000</field>
+        <field hash="A0C9D351" type="BinHex">00000000</field>
+        <field hash="3D255EB4" type="BinHex">000080BF</field>
+        <field hash="6979CD98" type="BinHex">000080BF</field>
+        <field hash="10544067" type="BinHex">0000803F</field>
+        <field hash="19373762" type="BinHex">0000803F</field>
+        <field hash="6C655DC9" type="BinHex">000000000000000000000000</field>
+        <field hash="2FAB0399" type="BinHex">CDCCCC3E</field>
+        <field hash="4B920C34" type="BinHex">CDCC4C3E</field>
+        <field hash="E7CD1E54" type="BinHex">00007A44</field>
+        <field hash="377CBB2A" type="BinHex">3078464646464646464600</field>
+        <field hash="46C19CCF" type="BinHex">FFFFFFFF</field>
+        <field hash="1B5C5211" type="BinHex">00</field>
+        <field hash="B2AC9745" type="BinHex">00</field>
+        <object hash="18327EA1" />
+        <object hash="F8CD54EF" />
+        <object hash="2C3872D7">
+          <field hash="1BD9687D" type="BinHex">01</field>
+          <field hash="3CC3447B" type="BinHex">0000803F</field>
+          <field hash="A82A04B0" type="BinHex">01</field>
+          <field hash="7E69602B" type="BinHex">0000803F</field>
+          <field hash="2CE04FBD" type="BinHex">01</field>
+          <field hash="0FD3A7FE" type="BinHex">0000803F</field>
+          <field hash="66E259A4" type="BinHex">01</field>
+          <field hash="AF05B5DA" type="BinHex">0000803F</field>
+          <field hash="D0D0214E" type="BinHex">01</field>
+          <field hash="EF60D3E5" type="BinHex">0000803F</field>
+          <field hash="84C61665" type="BinHex">01</field>
+          <field hash="0E383244" type="BinHex">0000803F</field>
+          <field hash="F5A437A9" type="BinHex">01</field>
+          <field hash="2E4EF419" type="BinHex">0000803F</field>
+          <field hash="CD44BAF4" type="BinHex">00</field>
+          <field hash="B400C023" type="BinHex">0000803F</field>
+          <field hash="D5DFD00B" type="BinHex">01</field>
+          <field hash="331A65A7" type="BinHex">0000803F</field>
+          <field hash="D8CE60FD" type="BinHex">01</field>
+          <field hash="EC4E2508" type="BinHex">0000803F</field>
+          <field hash="7B2F6D28" type="BinHex">0000803F</field>
+          <field hash="FA5898B1" type="BinHex">0000803F</field>
+        </object>
+      </object>
+      <object hash="004F6538">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="60B6CA4B" type="BinHex">00</field>
+      </object>
+      <object name="CObjectSoundAndFXComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <object name="Impact">
+          <field name="matimpDropImpact" type="BinHex">FFFFFFFF00000000</field>
+          <field name="fSpeedForMaxDropImpactVolume" type="BinHex">00000000</field>
+          <field name="fMinimalCollisionSpeed" type="BinHex">0000803F</field>
+          <field name="bIsSingleDropImpactObject" type="BinHex">00</field>
+          <object name="MovementSound">
+            <field name="sndRollingSound" type="BinHex">3078464646464646464600</field>
+            <field name="sndRollingSoundEnd" type="BinHex">3078464646464646464600</field>
+            <field name="sndtpRollingSoundType" type="BinHex">FFFFFFFF</field>
+            <field name="sndSlidingSound" type="BinHex">3078464646464646464600</field>
+            <field name="sndSlidingSoundEnd" type="BinHex">3078464646464646464600</field>
+            <field name="sndtpSlidingSoundType" type="BinHex">FFFFFFFF</field>
+            <field name="sndmlObjectMovementMultilayer" type="BinHex">FFFFFFFF</field>
+          </object>
+        </object>
+        <object name="Falling">
+          <field name="bAllowAfterCollision" type="BinHex">00</field>
+          <field name="sndFallingSound" type="BinHex">3078464646464646464600</field>
+          <field name="sndtpFallingType" type="BinHex">FFFFFFFF</field>
+          <field name="fSpeedToPlayFallingSound" type="BinHex">00000000</field>
+          <field name="FallingSoundTimeTrigger" type="BinHex">00000000</field>
+        </object>
+        <object name="Water">
+          <field name="fZMinSpeedToTriggerSplash" type="BinHex">0000803F</field>
+          <field name="fZMaxSpeedToTriggerSplash" type="BinHex">0000A040</field>
+          <field name="fZMinSplashScale" type="BinHex">0000803F</field>
+          <field name="fZMaxSplashScale" type="BinHex">9A99993F</field>
+          <field name="fZSpeedForMaxSplashVolume" type="BinHex">00000000</field>
+        </object>
+      </object>
+    </object>
+  </object>
+</object>

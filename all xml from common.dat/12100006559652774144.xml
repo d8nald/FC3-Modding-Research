@@ -1,0 +1,38 @@
+<graphickit id="12100006559652774144" name="Coop_3rd_Callum2" unique="0" kittobone="1">
+	<slot name="Body" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Callum2_3RD" ref="graphics\__FC3_Graphics\_Common\Characters\Multiplayer\Coop\Callum2\Callum2_3RD.xml" mesh="Callum2_3RD" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Coop_Teeth" id="oskarlundqvist-M-2011101953276037">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Callum Iris" id="oskarlundqvist-M-2011120250019001">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Callum_Eyes" id="oskarlundqvist-M-2011120249974654">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="CallumHair" id="oskarlundqvist-M-2012030852291094">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Callum Head" id="oskarlundqvist-M-2011120162510196">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Callum2_Pants" id="ecourcelles-M-20120612104950">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Callum2_Accessories" id="ecourcelles-M-20120612105012">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Callum2_Body" id="ecourcelles-M-20120612131035">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Callum2_TShirt" id="ecourcelles-M-20120612105002">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

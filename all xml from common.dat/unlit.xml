@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<materialdescriptor name="Unlit" id="#(0xb806207, 0x34c944d0)" version="6">
+    <geometryInputs normal="1" tangent="0" binormal="0" color="1" uvChannels="1" />
+
+    <!-- As of 2009/06/04, the unlit shader uses no vertex painting or masks -->
+
+    <parameter name="AlphaTestEnabled" type="bool" useDefine="ALPHA_TEST" />
+    <parameter name="TwoSided" type="bool" useDefine="TWO_SIDED" />
+    <parameter name="BlendingType" type="int" />
+    <parameter name="NoDepthTest" type="bool" useDefine="NO_DEPTH_TEST" />
+    <parameter name="UI" type="bool" useDefine="USERINTERFACE" />
+    
+    <parameter name="AnimType" type="int" defaultvalue="1" />
+    <parameter name="USpeed" type="float" />
+    <parameter name="VSpeed" type="float" />
+    <parameter name="AngularSpeed" type="float" />
+    <parameter name="NbFrames" type="int" />
+
+    <parameter name="DiffuseTexture1" type="sampler2D" tilingName="DiffuseTiling1" />
+    <parameter name="BinkYSampler" type="sampler2D_handle" tilingName="DiffuseTiling1" />
+    <parameter name="BinkCRSampler" type="sampler2D_handle" tilingName="DiffuseTiling1" />
+    <parameter name="BinkCBSampler" type="sampler2D_handle" tilingName="DiffuseTiling1" />
+    <parameter name="BinkASampler" type="sampler2D_handle" tilingName="DiffuseTiling1" />
+
+    <parameter name="DiffuseTiling1" type="float2" />
+    <parameter name="DiffuseColor1" type="color4" defaultvalue="1,1,1,1" />
+
+    <parameter name="NormalAttenuationPower" type="float" />
+    <parameter name="HDRMul" type="float" defaultvalue="1" />
+
+    <parameter name="UVAnimControlFlags" type="float4" provideronly="1" />
+    <parameter name="UVAnimControlParams" type="float4" provideronly="1" />
+
+    <parameterprovider parametersfilename="Mesh_Unlit.parameters.inc.fx">
+        <parameter name="DiffuseTexture1" />
+        <parameter name="DiffuseTiling1" />
+        <parameter name="DiffuseColor1" />
+        <parameter name="NormalAttenuationPower" />
+        <parameter name="UVAnimControlFlags" />
+        <parameter name="UVAnimControlParams" />
+        <parameter name="HDRMul" />
+        <parameter name="BinkYSampler" />
+        <parameter name="BinkCRSampler" />
+        <parameter name="BinkCBSampler" />
+        <parameter name="BinkASampler" />
+        <parameter name="NoDepthTest" />
+        <parameter name="UI" />
+    </parameterprovider>
+    
+    <ui>
+        <group horizontal="1" label="Settings" tooltip="Settings">
+            <group>
+                <checkbox label="Two sided" dataBindings="TwoSided" />
+                <checkbox label="Alpha test" dataBindings="AlphaTestEnabled" />
+                <checkbox label="No depth test" dataBindings="NoDepthTest" />
+                <checkbox label="UI" dataBindings="UI" />
+            </group>
+            <group>
+                <label>Blending type</label>
+                <combobox dataBindings="BlendingType">
+                    <comboboxitem value="0">Opaque</comboboxitem>
+                    <comboboxitem value="1">Alpha</comboboxitem>
+                    <comboboxitem value="2">Additive</comboboxitem>
+                    <comboboxitem value="3">Screen</comboboxitem>
+                    <comboboxitem value="4">Pre-multiplied Alpha</comboboxitem>
+                    <comboboxitem value="5">Multiply add</comboboxitem>
+                    <comboboxitem value="6">ZMask</comboboxitem>
+                </combobox>
+            </group>
+        </group>
+
+        <group label="Diffuse" horizontal="1">
+            <button dataBindings="DiffuseColor1">
+                <dataBindings type="color" />
+            </button>
+            <button dataBindings="DiffuseTexture1" fill="1" />
+            <group>
+                <textbox dataBindings="DiffuseTiling1.x">
+                    <dataBindings type="int" />
+                </textbox>
+                <textbox dataBindings="DiffuseTiling1.y">
+                    <dataBindings type="int" />
+                </textbox>
+            </group>
+        </group>
+
+        <label>Animation type</label>
+        <combobox dataBindings="AnimType">
+            <comboboxitem value="0">None</comboboxitem>
+            <comboboxitem value="1">UV Scrolling</comboboxitem>
+            <comboboxitem value="2">UV Offset Scrolling</comboboxitem>
+            <comboboxitem value="3">UV PingPong Scrolling</comboboxitem>
+            <comboboxitem value="4">UV Rotation</comboboxitem>
+        </combobox>
+
+        <label>Scrolling speed</label>
+        <group horizontal="1">
+            <label>U</label>
+            <textbox dataBindings="USpeed" />
+            <label>V</label>
+            <textbox dataBindings="VSpeed" />
+        </group>
+
+        <label>Angular Speed</label>
+        <textbox dataBindings="AngularSpeed" />
+
+        <label>Number of frames</label>
+        <textbox dataBindings="NbFrames" />
+
+        <label>Normal attenuation power</label>
+        <textbox dataBindings="NormalAttenuationPower" />
+
+        <label>HDR Multiplier</label>
+        <textbox dataBindings="HDRMul" />
+    </ui>
+    
+</materialdescriptor>

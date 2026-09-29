@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7656525232264</field>
+  <field name="Name" type="String">FC3/Ping_Pong_Ball</field>
+  <object name="Entity">
+    <field name="hidName" type="String">gadgets:FC3/Ping_Pong_Ball</field>
+    <field name="disEntityId" type="Int64">15087</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">1</field>
+    <field name="hidPos" type="Vector3">-769,-769,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">-769,-769,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileName" type="String">graphics\__fc3_graphics\singleplayer\props\misc\beerpong_ball01.xml</field>
+        <field name="fileName" type="Hash64">D0D36ADA7A5463B0</field>
+        <field name="hidDescriptor" type="Rml">
+          <rml>
+            <hidDescriptor>
+              <component class="GraphicComponent" version="2" detail="0">
+                <object index="0" boneName="BeerPong_Ball01_LOD0" bboxMin="-0.019,-0.019,-0.019" bboxMax="0.019,0.019,0.019" />
+                <resource fileName="graphics\__FC3_Graphics\SinglePlayer\Props\Misc\BeerPong_Ball01.xbg" bboxMin="-0.019,-0.019,-0.019" bboxMax="0.019,0.019,0.019" />
+                <skeleton_reference_list>
+                  <skeleton name="BeerPong_Ball01" index="0" pos="0,0,0" rot="1,-0,-0,-0" />
+                </skeleton_reference_list>
+                <material_reference_list>
+                  <material name="WhitePlastic" shader_name="Generic_FC3" ref_shader_id="MM_Generic_Plastic_WhitePlastic" />
+                </material_reference_list>
+              </component>
+              <component class="InteriorVolumeComponent" version="1" detail="0" />
+              <component class="RigidPhysComponent">
+                <resource fileName="graphics\__FC3_Graphics\SinglePlayer\Props\Misc\BeerPong_Ball01.hkx" />
+              </component>
+            </hidDescriptor>
+          </rml>
+        </field>
+        <field name="hidCrcCheck" type="Hash32">FFFFFFFF</field>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bCastShadow" type="Boolean">True</field>
+        <field name="bReceiveShadow" type="Boolean">True</field>
+        <field name="bCastAmbientShadow" type="Boolean">True</field>
+        <field name="olgLightGroup" type="Int32">129</field>
+        <field name="bShowInReflection" type="Boolean">True</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bExcludeFromPortalSystem" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="clrHighLightColor" type="Vector3">1,0.903545,0.604147</field>
+        <field name="clrHighLightColor2" type="Vector3">0,0,0</field>
+        <field name="fHighLightSpeed" type="Float32">1</field>
+        <field name="bLodDitheringEnable" type="Boolean">True</field>
+        <field name="matIntuitionMaterialName" type="String"></field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field name="bAllowCullBySize" type="Boolean">True</field>
+        <field name="bMotionBlurExclusion" type="Boolean">False</field>
+        <field name="bOverrideLODSphere" type="Boolean">False</field>
+        <field name="fLODSphereRadius" type="Float32">0</field>
+        <field name="vectorAdditionalAABBDimensionForSkin" type="Vector3">1,1,0</field>
+        <field name="text_currentSkin" type="String"></field>
+        <field name="currentSkin" type="Hash32">FFFFFFFF</field>
+        <field name="bUseCurrentSkin" type="Boolean">False</field>
+        <object name="MaterialLightSwitch">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">mm_generic_plastic_whiteplastic</field>
+              <field name="disSlotId" type="Hash32">96F4CD0E</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="MaterialOverrides">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">mm_generic_plastic_whiteplastic</field>
+              <field name="disSlotId" type="Hash32">96F4CD0E</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="SkinList">
+          <object name="Skin">
+            <field name="text_name" type="String"></field>
+            <field name="name" type="Hash32">FFFFFFFF</field>
+            <field name="locSkinNameId" type="Int32">-1</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">0</field>
+          <field name="text_fileModel" type="String">graphics\__fc3_graphics\singleplayer\props\misc\beerpong_ball01.xbg</field>
+          <field name="fileModel" type="Hash64">DF8AFADA7A5463B0</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">BeerPong_Ball01</field>
+          <field name="hidNodeName" type="Hash32">FD5A0FD6</field>
+          <field name="text_hidNodeNameLOD0" type="String">BeerPong_Ball01_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">FA4696EB</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">1</field>
+          <field name="text_fileModel" type="String"></field>
+          <field name="fileModel" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">BeerPong_Ball01</field>
+          <field name="hidNodeName" type="Hash32">FD5A0FD6</field>
+          <field name="text_hidNodeNameLOD0" type="String">BeerPong_Ball01_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">FA4696EB</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+      </object>
+      <object name="CGadget">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="iAnimationValue" type="Int32">0</field>
+        <field name="bByPassLockHiresCustom" type="Boolean">False</field>
+        <field name="sName" type="BinHex">50696E675F506F6E675F42616C6C00</field>
+        <field name="locidDisplayName" type="BinHex">FFFFFFFF</field>
+        <field name="selCategory" type="Enum">PingPong</field>
+        <field name="selUseRateMode" type="Enum">Instant</field>
+        <field name="iUseRate" type="BinHex">00007042</field>
+        <field name="selUseStrategy" type="Enum">Throw</field>
+        <field name="iMaxUsesCasual" type="BinHex">0A000000</field>
+        <field name="iMaxUsesExperimented" type="BinHex">0A000000</field>
+        <field name="iMaxUsesHardcore" type="BinHex">0A000000</field>
+        <field name="iMaxUsesInfamous" type="BinHex">0A000000</field>
+        <field name="bUnlimitedUses" type="Boolean">True</field>
+        <field name="arkPickupArchetypeName" type="BinHex">7D17559DE7060000</field>
+        <field name="fLookSensitivity" type="Float32">0</field>
+        <field name="bUseBothHands" type="Boolean">False</field>
+        <field name="bVisibleHolstered" type="Boolean">True</field>
+        <field name="fMoveSpeedFactor" type="Float32">0</field>
+        <object name="UseStrategy">
+          <field name="arkProjectile" type="Id64">7660557776453</field>
+          <field name="fThrowStrength" type="Float32">3.35</field>
+          <field name="fThrowAngle" type="Float32">50</field>
+          <field name="fPrimeGrenadeTime" type="Float32">0</field>
+          <field name="fReleaseGrenadeTime" type="Float32">0</field>
+          <field name="vectorMinAngularImpulse" type="Vector3">0,0,0</field>
+          <field name="vectorMaxAngularImpulse" type="Vector3">0,0,0</field>
+          <field name="sAmbxScript" type="BinHex">00</field>
+          <field name="vectorCenterThrowAnimOffset" type="Vector3">0,0,0</field>
+          <field name="vectorLeftThrowAnimOffset" type="Vector3">0,0,0</field>
+          <field name="vectorRightThrowAnimOffset" type="Vector3">0,0,0</field>
+          <field name="coverZThrowOffset" type="Float32">0</field>
+          <field name="vectorSpawnPosOffset" type="Vector3">0,0,0</field>
+          <field name="vectorSpawnOrientOffset" type="Vector3">0,0,0</field>
+          <field name="bForcePhysicsThrow" type="Boolean">True</field>
+        </object>
+        <object name="StatisticsAndProgressionWiki">
+          <object name="StatisticUsageCount">
+            <field name="selStatisticType" type="Enum">None</field>
+          </object>
+        </object>
+      </object>
+      <object name="CGadgetNetworkComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+      </object>
+    </object>
+  </object>
+</object>

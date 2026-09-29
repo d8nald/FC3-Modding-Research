@@ -1,0 +1,50 @@
+<graphickit id="12102929439516524800" name="Hunting_Villager" unique="0" kittobone="1">
+	<slot name="Body" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Hunting" ref="graphics\__FC3_Graphics\_Common\Characters\Locals\Hunting.xml" mesh="Hunting" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Native Woman Eye" id="slabreche-m-20110719115948">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-m-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="villagerHair." id="cromagnoli-M-2011101361297292">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="SV_Male_Shoes_01_AsCopy" id="vfortin-M-2012071651011930">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="SV_Male_Pants_01_AsCopy" id="vfortin-M-2012071650987926">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Hunting dude hat" id="vfortin-M-2012071651085196">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Native_Head_01_AsCopy" id="vfortin-M-2012071651102189">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebel_Defender_Arms_AsCopy" id="vfortin-M-2012071651036724">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Hunting dude Vest" id="vfortin-M-2012071650721747">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Hunting dude Shirt" id="vfortin-M-2012071650690268">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebels_shirt_collar_AsCopy" id="vfortin-M-2012071650700155">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebels_Assaulter_Body_01_AsCopy" id="vfortin-M-2012071653543670">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Material #1981" id="cromagnoli-M-2012071948851088">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

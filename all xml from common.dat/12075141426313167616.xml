@@ -1,0 +1,59 @@
+<graphickit id="12075141426313167616" name="Oliver" unique="0" kittobone="1">
+	<slot name="Slot1" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Oliver" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\oliver\Oliver.xml" mesh="Oliver" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Oliver Body" id="vfortin-M-2012021761088167">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Oliver Shirt" id="vfortin-M-2012021761225441">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Oliver Pants" id="vfortin-M-2012021761265244">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Oliver Hat" id="vfortin-M-2012021761310777">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Oliver Shoes" id="akotelnikoff-M-2012032958698722">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Oliver_chain" id="akotelnikoff-M-2012032958930709">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Oliver_head" id="akotelnikoff-M-2012032853418676">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Oliver_eye" id="akotelnikoff-M-2012032658142950">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Oliver_iris" id="akotelnikoff-M-2012032658113239">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-M-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Eye_shadow" id="akotelnikoff-M-2011083067336073">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Oliver_eyelashes" id="akotelnikoff-M-2012033042389177">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Oliver_hairs" id="akotelnikoff-M-2012032867350667">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Slot2" position="1" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot3" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot4" position="3" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

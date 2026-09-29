@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7587105397263</field>
+  <field name="Name" type="String">Camera/CameraEndEvent</field>
+  <object name="Entity">
+    <field name="hidName" type="String">cameras:Camera/CameraEndEvent</field>
+    <field name="disEntityId" type="Int64">4</field>
+    <field name="text_hidEntityClass" type="String">COmniMapEntity</field>
+    <field name="hidEntityClass" type="Hash32">888164B2</field>
+    <field name="hidResourceCount" type="Int32">0</field>
+    <field name="hidPos" type="Vector3">-4999,-4999,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">-4999,-4999,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CFCXEndEventCameraComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="fCameraBlendTime" type="Float32">0</field>
+        <field name="fNearDistance" type="Float32">0.25</field>
+        <field name="fFarDistance" type="Float32">1000</field>
+        <field name="fFOV" type="Float32">75</field>
+        <field name="fNearFOV" type="Float32">65</field>
+      </object>
+    </object>
+  </object>
+</object>

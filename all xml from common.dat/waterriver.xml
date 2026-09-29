@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materialdescriptor xmlns:xi="#" name="WaterRiver" version="6">
+    <geometryInputs normal="1" tangent="1" binormal="1" color="1" uvChannels="1" />
+
+    <parameter name="AlphaTestEnabled" type="bool" />
+    <parameter name="TwoSided" type="bool" />
+    <parameter name="ReflectionQuality" type="int" defaultvalue="100" />
+    <parameter name="ReflectionMinRadius" type="float" />
+    <parameter name="NormalTexture" type="sampler2D" />
+    <parameter name="NormalOffsetScale" type="float" defaultvalue="0.2"/>
+    <parameter name="CenterTiling1" type="float2" defaultvalue="2.0,5.0" />
+    <parameter name="CenterDir" type="float2" defaultvalue="0.01,-0.2" />
+    <parameter name="LayerSpeed" type="float3" defaultvalue="0.01,0.04,0.1" />
+    <parameter name="LayerBlendCff" type="float3" defaultvalue="2,4,8" />
+
+    <parameter name="CausticsIntensity" type="float" defaultvalue="1.1"/>
+    <parameter name="CausticsScale" type="float" defaultvalue="0.4"/>
+    <parameter name="CausticsTexture" type="sampler2D" />
+
+    <parameter name="ReflectionCubeTexture" type="samplerCUBE" />
+    <parameter name="ReflectionNormalOffsetScale" type="float" defaultvalue="0.4"/>
+
+    <parameter name="DiffuseTexture" type="sampler2D" />
+    <parameter name="DiffuseTiling" type="float2" defaultvalue="1.0,1.0" />
+    <parameter name="DiffuseSpeedFactor" type="float" defaultvalue="1.0" />
+
+    <parameter name="WaterColor" type="color4" defaultvalue="0.12,0.14,0.07,1" />
+    <parameter name="UnderwaterColor" type="color4" defaultvalue="0.11,0.18,0.14,1" />
+    <parameter name="Specular" type="float4" defaultvalue="1.0, 0.0, 0.0, 0.0" />
+
+    <parameter name="BaseTiling" type="float2" defaultvalue="2.2,10.2" />
+    <parameter name="RefractionWaveInfo" type="float4" defaultvalue="8.0,1.0,6.0,22.3" />
+
+    <parameter name="NormalModifier" type="float" defaultvalue="1.0"/>
+
+    <parameter name="Extinctions" type="float4" defaultvalue="1.0, 1.0, 0.1, 1.0" />
+    
+    <parameterprovider parametersfilename="WaterRiver.parameters.inc.fx">
+        <parameter name="NormalTexture" />
+        <parameter name="NormalOffsetScale" />
+        <parameter name="CenterTiling1" />
+        <parameter name="CenterDir" />
+        <parameter name="LayerSpeed" />
+        <parameter name="LayerBlendCff" />
+        <parameter name="CausticsIntensity" />
+        <parameter name="CausticsScale" />
+        <parameter name="CausticsTexture" />
+        <parameter name="ReflectionCubeTexture" />
+        <parameter name="ReflectionNormalOffsetScale" />
+        <parameter name="DiffuseTexture" />
+        <parameter name="DiffuseTiling" />
+        <parameter name="DiffuseSpeedFactor" />
+        <parameter name="WaterColor" />
+        <parameter name="UnderwaterColor" />
+        <parameter name="Specular" />
+        <parameter name="BaseTiling" />
+        <parameter name="RefractionWaveInfo" />
+        <parameter name="NormalModifier" />
+        <parameter name="Extinctions" />
+    </parameterprovider>
+    
+    <ui>
+        <xi:include href="../MaterialUIInclude.xml" />
+
+        <checkbox label="Alpha test" dataBindings="AlphaTestEnabled" />
+        <checkbox label="Two sided" dataBindings="TwoSided" />
+
+        <combobox dataBindings="ReflectionQuality">
+            <comboboxitem value="0">None</comboboxitem>
+            <comboboxitem value="10">Static</comboboxitem>
+            <comboboxitem value="20">Sky</comboboxitem>
+            <comboboxitem value="30">Sky, terrain</comboboxitem>
+            <comboboxitem value="40">Sky, terrain, objects</comboboxitem>
+            <comboboxitem value="50">Sky, terrain, vegetation</comboboxitem>
+            <comboboxitem value="60">Sky, terrain, vegetation, objects</comboboxitem>
+            <comboboxitem value="100">Maximum</comboboxitem>
+        </combobox>
+
+        <label>Reflection min radius</label>
+        <textbox dataBindings="ReflectionMinRadius">
+            <dataBindings minvalue="0.01" />
+        </textbox>
+
+        <group horizontal="1" label="Refraction">
+            <label>Speed</label>
+            <textbox dataBindings="RefractionWaveInfo.x" />
+            <label>Amplitude</label>
+            <textbox dataBindings="RefractionWaveInfo.y" />
+            <label>Frequencies</label>
+            <textbox dataBindings="RefractionWaveInfo.z" />
+            <textbox dataBindings="RefractionWaveInfo.w" />
+        </group>
+
+        <group label="Extinction factors" horizontal="1">
+            <label>Water Extinction</label>
+            <textbox dataBindings="Extinctions.x" overridableInDerivation="1">
+                <dataBindings minvalue="0.0" defaultvalue="1.0" />
+            </textbox>
+            <label>Caustics Extinction</label>
+            <textbox dataBindings="Extinctions.y" overridableInDerivation="1">
+                <dataBindings minvalue="0.0" defaultvalue="1.0" />
+            </textbox>
+            <label>Underwater Extinction</label>
+            <textbox dataBindings="Extinctions.z" overridableInDerivation="1">
+                <dataBindings minvalue="0.0" defaultvalue="0.05" />
+            </textbox>
+            <label>Underwater Depth Extinction</label>
+            <textbox dataBindings="Extinctions.w" overridableInDerivation="1">
+                <dataBindings minvalue="0.0" defaultvalue="1.0" />
+            </textbox>
+        </group>
+        
+        <label>Normal texture</label>
+        <button dataBindings="NormalTexture" fill="1" />
+        
+        <group horizontal="1">
+            <label>Center tiling</label>
+            <group>
+                <textbox dataBindings="CenterTiling1.x">
+                    <dataBindings class="Tiling" />
+                </textbox>
+                <textbox dataBindings="CenterTiling1.y">
+                    <dataBindings class="Tiling" />
+                </textbox>
+            </group>
+            <label>Center direction</label>
+            <group>
+                <textbox dataBindings="CenterDir.x">
+                    <dataBindings class="Tiling" />
+                </textbox>
+                <textbox dataBindings="CenterDir.y">
+                    <dataBindings class="Tiling" />
+                </textbox>
+            </group>
+            
+        </group>
+
+        <group horizontal="1">
+            <label>LayerSpeed1</label>
+            <textbox dataBindings="LayerSpeed.x">
+                <dataBindings class="HighPrecisionFloat" />
+            </textbox>
+            <label>LayerSpeed2</label>
+            <textbox dataBindings="LayerSpeed.y">
+                <dataBindings class="HighPrecisionFloat" />
+            </textbox>
+            <label>LayerSpeed3</label>
+            <textbox dataBindings="LayerSpeed.z">
+                <dataBindings class="HighPrecisionFloat" />
+            </textbox>
+        </group>
+
+        <group horizontal="1">
+            <label>LayerBlendCff1</label>
+            <textbox dataBindings="LayerBlendCff.x">
+                <dataBindings class="HighPrecisionFloat" />
+            </textbox>
+            <label>LayerBlendCff2</label>
+            <textbox dataBindings="LayerBlendCff.y">
+                <dataBindings class="HighPrecisionFloat" />
+            </textbox>
+            <label>LayerBlendCff3</label>
+            <textbox dataBindings="LayerBlendCff.z">
+                <dataBindings class="HighPrecisionFloat" />
+            </textbox>
+        </group>
+
+        <group horizontal="1">
+            <label>Normal offset scale</label>
+            <textbox dataBindings="NormalOffsetScale" />
+        </group>
+
+        <group horizontal="1">
+            <label>Normal strength</label>
+            <textbox databindings="NormalModifier" />
+        </group>
+
+        <group horizontal="1">
+            <label>Caustics intensity</label>
+            <textbox dataBindings="CausticsIntensity" />
+        </group>
+
+        <group horizontal="1">
+            <label>Caustics scale</label>
+            <textbox dataBindings="CausticsScale" />
+        </group>
+
+        <label>Reflection cube texture</label>
+        <button dataBindings="ReflectionCubeTexture" fill="1" />
+
+        <group horizontal="1">
+            <label>Reflection normal offset scale</label>
+            <textbox dataBindings="ReflectionNormalOffsetScale" />
+        </group>
+
+        <label>Diffuse texture</label>
+        <group horizontal="1">
+            <button dataBindings="DiffuseTexture" fill="1" />
+            <group>
+                <textbox dataBindings="DiffuseTiling.x">
+                    <dataBindings class="Tiling" />
+                </textbox>
+                <textbox dataBindings="DiffuseTiling.y">
+                    <dataBindings class="Tiling" />
+                </textbox>
+            </group>
+        </group>
+
+        <group horizontal="1">
+            <label>Diffuse speed factor</label>
+            <textbox dataBindings="DiffuseSpeedFactor" />
+        </group>
+
+        <group horizontal="1">
+            <label>Water color</label>
+            <button dataBindings="WaterColor" >
+                <dataBindings type="color" />
+            </button>
+            <label>Underwater color</label>
+            <button dataBindings="UnderwaterColor" >
+                <dataBindings type="color" />
+            </button>
+        </group>
+
+        <group horizontal="1">
+            <label>Glossiness</label>
+            <textbox dataBindings="Specular.x">
+                <dataBindings minvalue="0.0" maxvalue="1.0" defaultvalue="1.0" />
+            </textbox>
+        </group>
+
+        <label>Base tiling</label>
+        <group horizontal="1">
+            <textbox dataBindings="BaseTiling.x">
+                <dataBindings class="Tiling" />
+            </textbox>
+            <textbox dataBindings="BaseTiling.y">
+                <dataBindings class="Tiling" />
+            </textbox>
+        </group>
+
+    </ui>
+</materialdescriptor>

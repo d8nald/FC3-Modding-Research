@@ -1,0 +1,49 @@
+<graphickit id="12109365246146117888" name="SHA_ParadiseB" unique="0" kittobone="0">
+	<slot name="Mainbody" position="0" bonename="Pelvis">
+		<partdatabase name="" weight="0">
+			<part name="Paradise_01" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Paradise\Paradise_01.xml" mesh="Paradise_01" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Animal_Grey_ID2" id="jli-M-107201151201026">
+						<materialdatabase name="" weight="0">
+							<material id="yanzhou-M-0507201164710761" name="Bird_Of_Paradise03_Alpha" weight="1" file="graphics\_materials\yanzhou-M-0507201164710761.material.xml">
+								<tag name="blue" type="0" />
+								<tag name="lesser" type="4" />
+								<tag name="raggiana" type="4" />
+							</material>
+							<material id="yanzhou-M-0507201163459828" name="Bird_Of_Paradise02_Alpha" weight="1" file="graphics\_materials\yanzhou-M-0507201163459828.material.xml">
+								<tag name="lesser" type="0" />
+								<tag name="raggiana" type="4" />
+								<tag name="blue" type="4" />
+							</material>
+							<material id="yanzhou-M-0507201162404729" name="Bird_Of_Paradise_Alpha_01" weight="1" file="graphics\_materials\yanzhou-M-0507201162404729.material.xml">
+								<tag name="raggiana" type="0" />
+								<tag name="lesser" type="4" />
+								<tag name="blue" type="4" />
+							</material>
+						</materialdatabase>
+					</overrideslot>
+					<overrideslot name="Animal_Grey_ID1" id="jli-M-107201142503596">
+						<materialdatabase name="" weight="0">
+							<material id="yanzhou-M-0507201164581656" name="Bird_Of_Paradise03" weight="1" file="graphics\_materials\yanzhou-M-0507201164581656.material.xml">
+								<tag name="blue" type="0" />
+								<tag name="lesser" type="4" />
+								<tag name="raggiana" type="4" />
+							</material>
+							<material id="yanzhou-M-0507201163354390" name="Bird_Of_Paradise02" weight="1" file="graphics\_materials\yanzhou-M-0507201163354390.material.xml">
+								<tag name="lesser" type="0" />
+								<tag name="blue" type="4" />
+								<tag name="raggiana" type="4" />
+							</material>
+							<material id="yanzhou-M-1606201157252474" name="Bird_Of_Paradise_01" weight="1" file="graphics\_materials\yanzhou-M-1606201157252474.material.xml">
+								<tag name="raggiana" type="0" />
+								<tag name="lesser" type="4" />
+								<tag name="blue" type="4" />
+							</material>
+						</materialdatabase>
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

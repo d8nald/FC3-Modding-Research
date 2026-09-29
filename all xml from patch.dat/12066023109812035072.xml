@@ -1,0 +1,62 @@
+<graphickit id="12066023109812035072" name="VIP_1" unique="0" kittobone="1">
+	<slot name="Slot1" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="VIP_01_Pirate" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\VIP_01_Pirate.xml" mesh="VIP_01_Pirate" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="VIP_01_Shirt_01" id="slabreche-m-2011080330264360">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="VIP_01_Hat_Accessories_01" id="slabreche-m-2011080249079822">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Body_Generic" id="slabreche-m-2011041129267145">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="VIP_01_Pants_01" id="slabreche-m-2011080330306291">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="VIP_Badges_01" id="slabreche-m-2011080348102720">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="VIP_Face_01" id="slabreche-m-2011080355261007">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirate_pants_AsCopy" id="cromagnoli-M-2011111062719075">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Shoes_03" id="cromagnoli-M-2011111062641074">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Accessories_04_AsCopy" id="cromagnoli-M-2011111061269757">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirates_Straps_Trim_AsCopy_AsCopy" id="cromagnoli-M-2011111061597741">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Pirate_VIP_01_Eyes" id="vfortin-M-2012041262138990">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Slot2" position="1" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Vip_Eyes" ref="graphics\__FC3_Graphics\_Common\Characters\Enemies\Pirates\GenericPirates\Vip_Eyes.xml" mesh="Vip_Eyes" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Native_Eyes" id="slabreche-m-20110719115948">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Slot3" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot4" position="3" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

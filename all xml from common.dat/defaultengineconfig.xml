@@ -1,0 +1,68 @@
+<Profile>
+    <QcConfig 
+        GatherFPS="1" 
+        GatherAICnt="1" 
+        IsQcTester="0" 
+		JiraDashboardUrl="http://mdc-tomcat-jira37.ubisoft.org/jira/browse/"
+		/>
+  <!-- WorldConfig -->
+  <!-- RingData: entities, landmarkNear, landmarkFar, terrain, preload -->
+  <!-- RingLod: Hires, physic -->
+    <WorldConfig 
+    RingData="4,5,10,20,1"
+    RingLod="2,4">
+    </WorldConfig>
+
+    <ZoneConfig 
+        Density_Clear="0.5"
+        DensityKill_Clear="1.0"
+        Density_Light="1.0"
+        DensityKill_Light="1.0"
+        Density_Medium="1.5"
+        DensityKill_Medium="1.0"
+        Density_Dense="2.0" 
+        DensityKill_Dense="1.0" >
+    </ZoneConfig>
+    
+    <PhysicConfig 
+        QualitySetting = "VeryHigh">
+        <Qualities>
+            <quality id="VeryHigh"
+                MaxSimplePhysObject0="50"
+                MaxSimplePhysObject1="24"
+                MaxPawnRagdoll0="40"
+                MaxPawnRagdoll1="40"
+                MaxAnimalRagdoll0="40"
+                MaxAnimalRagdoll1="40"
+                MaxPickup0="40"
+                MaxPickup1="40"/>
+            <quality id="High"
+                MaxSimplePhysObject0="30"
+                MaxSimplePhysObject1="16"
+                MaxPawnRagdoll0="20"
+                MaxPawnRagdoll1="20"
+                MaxAnimalRagdoll0="15"
+                MaxAnimalRagdoll1="15"
+                MaxPickup0="20"
+                MaxPickup1="20"/>
+            <quality id="Medium"
+                MaxSimplePhysObject0="20"
+                MaxSimplePhysObject1="8"
+                MaxPawnRagdoll0="7"
+                MaxPawnRagdoll1="7"
+                MaxAnimalRagdoll0="4"
+                MaxAnimalRagdoll1="4"
+                MaxPickup0="12"
+                MaxPickup1="12"/>
+            <quality id="Low"
+                MaxSimplePhysObject0="20"
+                MaxSimplePhysObject1="8"
+                MaxPawnRagdoll0="7"
+                MaxPawnRagdoll1="7"
+                MaxAnimalRagdoll0="4"
+                MaxAnimalRagdoll1="4"
+                MaxPickup0="12"
+                MaxPickup1="12"/>
+        </Qualities>
+    </PhysicConfig>
+</Profile>

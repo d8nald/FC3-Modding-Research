@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7739069842035</field>
+  <field name="Name" type="String">FC3/Molotov.Molotov_NPC.coop</field>
+  <object name="Entity">
+    <field name="hidName" type="String">weapons:FC3/Molotov.Molotov_NPC.coop</field>
+    <field name="disEntityId" type="Int64">20200</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">11</field>
+    <field name="hidPos" type="Vector3">0,0,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">0,0,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileName" type="String">graphics\__fc3_graphics\_common\weapons\molotov\molotov.xml</field>
+        <field name="fileName" type="Hash64">18E2EE025A6AF7EA</field>
+        <field name="hidDescriptor" type="Rml">
+          <rml>
+            <hidDescriptor>
+              <component class="GraphicComponent" version="2" detail="0">
+                <object index="0" meshName="FRAME" boneName="FRAME" bboxMin="-0.0372496,-0.0556203,-0.0135161" bboxMax="0.0372497,0.0372496,0.287604" />
+                <resource fileName="graphics\__FC3_Graphics\_Common\Weapons\Molotov\Molotov.xbg" bboxMin="-0.0372496,-0.0556203,-0.0135161" bboxMax="0.0372497,0.0372496,0.287604" />
+                <skeleton_reference_list>
+                  <skeleton name="Molotov" index="0" pos="0,0,0" rot="1,-0,-0,-0">
+                    <bone name="FRAME" pos="0,0,0" rot="1,0,0,0" />
+                    <bone name="FX_FIRE" pos="0,-0.024668,0.24621" rot="0.707107,0.707107,0,0" />
+                    <bone name="GENERICBONE_02" pos="0,-0.03549,0.198165" rot="1,0,0,0" />
+                    <bone name="AnchorBone" pos="0,0,0" rot="1,0,0,0" />
+                  </skeleton>
+                </skeleton_reference_list>
+                <material_reference_list>
+                  <material name="Molotov_Cloth" shader_name="Cloth_FC3" ref_shader_id="grassam-M-1606201159901180" />
+                  <material name="Molotov_Glass" shader_name="Metal" ref_shader_id="grassam-M-1606201159886378" />
+                </material_reference_list>
+              </component>
+              <component class="InteriorVolumeComponent" version="1" detail="0" />
+              <component class="RigidPhysComponent">
+                <resource fileName="graphics\__FC3_Graphics\_Common\Weapons\Molotov\Molotov.hkx" />
+              </component>
+            </hidDescriptor>
+          </rml>
+        </field>
+        <field name="hidCrcCheck" type="Hash32">FFFFFFFF</field>
+      </object>
+      <object name="CSimpleAnimationComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileSkeleton" type="String">graphics\__fc3_graphics\_common\weapons\molotov\molotov_ref.skeleton</field>
+        <field name="fileSkeleton" type="Hash64">10B97E57CCF1916E</field>
+        <field name="text_sPackage" type="String"></field>
+        <field name="sPackage" type="Hash64">FFFFFFFFFFFFFFFF</field>
+        <field name="AutoApplyDisplacement" type="Boolean">False</field>
+        <field name="sPartName" type="String">molotov</field>
+        <field name="bEnableEvents" type="Boolean">False</field>
+        <field name="bRandomStart" type="Boolean">False</field>
+        <field name="text_Animation" type="String"></field>
+        <field name="Animation" type="Hash64">FFFFFFFFFFFFFFFF</field>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bCastShadow" type="Boolean">True</field>
+        <field name="bReceiveShadow" type="Boolean">True</field>
+        <field name="bCastAmbientShadow" type="Boolean">True</field>
+        <field name="olgLightGroup" type="Int32">1281</field>
+        <field name="bShowInReflection" type="Boolean">False</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bExcludeFromPortalSystem" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="clrHighLightColor" type="Vector3">1,0.9,0.6</field>
+        <field name="clrHighLightColor2" type="Vector3">0,0,0</field>
+        <field name="fHighLightSpeed" type="Float32">1</field>
+        <field name="bLodDitheringEnable" type="Boolean">True</field>
+        <field name="matIntuitionMaterialName" type="String">graphics\_materials\jprajotte-M-20100916104744.material.xml</field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field name="bAllowCullBySize" type="Boolean">True</field>
+        <field name="bMotionBlurExclusion" type="Boolean">False</field>
+        <field name="bOverrideLODSphere" type="Boolean">False</field>
+        <field name="fLODSphereRadius" type="Float32">0</field>
+        <field name="vectorAdditionalAABBDimensionForSkin" type="Vector3">0.1,0.1,0</field>
+        <field name="text_currentSkin" type="String"></field>
+        <field name="currentSkin" type="Hash32">FFFFFFFF</field>
+        <field name="bUseCurrentSkin" type="Boolean">False</field>
+        <object name="MaterialLightSwitch">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-1606201159886378</field>
+              <field name="disSlotId" type="Hash32">494D10DD</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-1606201159901180</field>
+              <field name="disSlotId" type="Hash32">A571F093</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="MaterialOverrides">
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-1606201159886378</field>
+              <field name="disSlotId" type="Hash32">494D10DD</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotId" type="String">grassam-m-1606201159901180</field>
+              <field name="disSlotId" type="Hash32">A571F093</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="SkinList">
+          <object name="Skin">
+            <field name="text_name" type="String"></field>
+            <field name="name" type="Hash32">FFFFFFFF</field>
+            <field name="locSkinNameId" type="Int32">-1</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">0</field>
+          <field name="text_fileModel" type="String">graphics\__fc3_graphics\_common\weapons\molotov\molotov.xbg</field>
+          <field name="fileModel" type="Hash64">17BB7E025A6AF7EA</field>
+          <field name="hidMeshName" type="String">FRAME</field>
+          <field name="text_hidNodeName" type="String">FRAME</field>
+          <field name="hidNodeName" type="Hash32">42ACFE7D</field>
+          <field name="text_hidNodeNameLOD0" type="String">FRAME_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">117FF4BB</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">1</field>
+          <field name="text_fileModel" type="String"></field>
+          <field name="fileModel" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String">FRAME</field>
+          <field name="hidNodeName" type="Hash32">42ACFE7D</field>
+          <field name="text_hidNodeNameLOD0" type="String">FRAME_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">117FF4BB</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+      </object>
+      <object name="CSoundComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="sndptSoundPoint" type="BinHex">FFFFFFFF00000000</field>
+        <field name="bStopSoundOnStateChange" type="Boolean">False</field>
+        <field name="bAlwaysUpdate" type="Boolean">False</field>
+      </object>
+      <object name="CExplosive">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="sUseString" type="String"></field>
+        <field name="sCategory" type="String"></field>
+        <field name="selDelayExplodeType" type="Enum">None</field>
+        <field name="fProximityTriggerRadius" type="Float32">0</field>
+        <field name="bProximityTriggerOnNpcs" type="Boolean">False</field>
+        <field name="bProximityTriggerOnPlayers" type="Boolean">False</field>
+        <field name="fPenetrateDistance" type="Float32">0</field>
+        <field name="fDelayRemoveAfterExplosion" type="Float32">0</field>
+        <field name="fDelaySendStimsRemain" type="Float32">0</field>
+        <field name="bApplyRemainStimsOnlyOnce" type="Boolean">False</field>
+        <field name="fTimerSendRemainStims" type="Float32">1</field>
+        <field name="bExplodeOnWaterLevel" type="Boolean">False</field>
+        <field name="bExplodeWhenShot" type="Boolean">True</field>
+        <field name="bExplodeFromNearbyExplosions" type="Boolean">True</field>
+        <field name="bDontExplodeFromNearbyExplosionsOfSameCategory" type="Boolean">False</field>
+        <field name="ExplodeSendEvent" type="BinHex">00</field>
+        <field name="bShouldExplodeUnderwater" type="Boolean">False</field>
+        <field name="bUseOriginForUnderwaterCheck" type="Boolean">False</field>
+        <field name="bSpawnTrailUnderwater" type="Boolean">False</field>
+        <field name="bShotJustMissedIsUsed" type="Boolean">False</field>
+        <field name="fShotJustMissedDistance" type="Float32">50</field>
+        <field name="bActivateOnStart" type="Boolean">False</field>
+        <field name="bAlignTrailWithDirection" type="Boolean">False</field>
+        <field name="arkStickyFireFlame" type="Id64">7739070316031</field>
+        <field name="sStickyFireWeaponName" type="String">molotov</field>
+        <object name="StimsToExplode">
+          <object name="Stim">
+            <field name="selType" type="Enum">Crush</field>
+          </object>
+          <object name="Stim">
+            <field name="selType" type="Enum">Cut</field>
+          </object>
+          <object name="Stim">
+            <field name="selType" type="Enum">Pierce</field>
+          </object>
+          <object name="Stim">
+            <field name="selType" type="Enum">None</field>
+          </object>
+        </object>
+        <object name="Sound">
+          <field name="sndActive" type="String">0x001A4B96</field>
+          <field name="sndtpActive" type="Hash32">0000000B</field>
+          <field name="matimpExplosionFx" type="BinHex">FFFFFFFF00000000</field>
+          <object name="PassBy">
+            <field name="fPassByRange" type="Float32">6</field>
+            <field name="sndPassBySound" type="String">0x00189722</field>
+            <field name="sndtpPassBySound" type="Hash32">0000000B</field>
+            <field name="fMinPassByVelocity" type="Float32">5</field>
+          </object>
+          <object name="DustBlast">
+            <field name="sndLeftSound" type="String">0xFFFFFFFF</field>
+            <field name="sndRightSound" type="String">0xFFFFFFFF</field>
+            <field name="sndtpSoundType" type="Int32">12</field>
+            <field name="fDistance" type="Float32">4</field>
+            <field name="fSoundDuration" type="Float32">4</field>
+          </object>
+          <object name="TrailSound">
+            <field name="sndIndicatorStart" type="String">0xFFFFFFFF</field>
+            <field name="sndIndicatorStop" type="String">0xFFFFFFFF</field>
+            <field name="sndtpIndicatorType" type="Int32">-1</field>
+          </object>
+          <object name="ProximitySound">
+            <field name="sndProximitySound" type="String">0xFFFFFFFF</field>
+            <field name="sndtpProximitySoundType" type="Int32">-1</field>
+          </object>
+          <object name="DelayedActivationSound">
+            <field name="sndDelayedActivationSound" type="String">0xFFFFFFFF</field>
+            <field name="sndtpDelayedActivationSoundType" type="Int32">-1</field>
+          </object>
+          <object name="ExplosionSound">
+            <field name="sndExplosionSound" type="String">0x001035B9</field>
+            <field name="sndtpExplosionSoundType" type="Int32">10</field>
+            <field name="sndInAirExplosionSound" type="String">0xFFFFFFFF</field>
+            <field name="sndtpInAirExplosionSoundType" type="Int32">-1</field>
+            <field name="sndWaterSurfaceExplosionSound" type="String">0xFFFFFFFF</field>
+            <field name="sndtpWaterSurfaceExplosionSoundType" type="Int32">-1</field>
+            <field name="sndLandSoundStart" type="String">0x00005836</field>
+            <field name="sndLandSoundStop" type="String">0xFFFFFFFF</field>
+            <field name="sndtpLandSoundType" type="Int32">12</field>
+            <field name="sndEarsRingingExplosionSound" type="String">0xFFFFFFFF</field>
+            <field name="sndtpEarsRingingExplosionSoundType" type="Int32">-1</field>
+            <field name="sndvarEarsRingingSoundRTPC" type="Hash32">FFFFFFFF</field>
+            <field name="mixExplosionPreset" type="Hash64">00000000FFFFFFFF</field>
+            <field name="fExplosionPresetDistance" type="Float32">7.5</field>
+          </object>
+        </object>
+        <object name="CameraShakeAndRumble">
+          <field name="fNearDistance" type="Float32">10</field>
+          <field name="fNearRumbleMultiplier" type="Float32">1</field>
+          <field name="fFarDistance" type="Float32">15</field>
+          <field name="fFarRumbleMultiplier" type="Float32">0</field>
+        </object>
+        <object name="ExplodeStims">
+          <object name="Stims">
+            <object name="Stim">
+              <field name="selStimType" type="Enum">Explosion</field>
+              <field name="hidEventName" type="String">Stims</field>
+              <field name="bSupportForDualComponent" type="Boolean">False</field>
+              <field name="hidTargetEntityId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="text_sDetail" type="String"></field>
+              <field name="sDetail" type="Hash32">FFFFFFFF</field>
+              <field name="selType" type="Enum">Explosion</field>
+              <field name="selFilterSubType" type="Enum">None</field>
+              <field name="fLevel" type="Float32">10</field>
+              <field name="vectorImpactPos" type="Vector3">0,0,0</field>
+              <field name="fRadius" type="Float32">3</field>
+              <field name="bFalloff" type="Boolean">True</field>
+              <field name="fFalloffMinLevel" type="Float32">5</field>
+              <field name="fFalloffInterpolationFactor" type="Float32">1</field>
+              <field name="bUseNewFalloffCurve" type="Boolean">False</field>
+              <field name="arkFalloffCurve" type="Id64">0</field>
+              <field name="hidShowType" type="Boolean">True</field>
+              <field name="hidShowRadius" type="Boolean">True</field>
+              <field name="fDuration" type="Float32">0</field>
+              <field name="fPhysImpulse" type="Float32">20</field>
+              <field name="fPhysImpulse_z_multiplier" type="Float32">2</field>
+              <field name="fPhysImpulse_x_multiplier" type="Float32">1</field>
+              <field name="fPhysImpulse_y_multiplier" type="Float32">1</field>
+              <field name="fRealTreeImpulseMultiplier" type="Float32">1500</field>
+              <field name="fRealTreeRadiusMultiplier" type="Float32">1</field>
+              <object name="DiceRolls">
+                <object name="Dice">
+                  <field name="fMinValue" type="Float32">0</field>
+                  <field name="fMaxValue" type="Float32">0</field>
+                  <field name="fStepSize" type="Float32">1</field>
+                  <field name="nNbRolls" type="Int32">1</field>
+                </object>
+              </object>
+            </object>
+            <object name="Stim">
+              <field name="selStimType" type="Enum">Generic</field>
+              <field name="hidEventName" type="String">Stims</field>
+              <field name="bSupportForDualComponent" type="Boolean">False</field>
+              <field name="hidTargetEntityId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="text_sDetail" type="String"></field>
+              <field name="sDetail" type="Hash32">FFFFFFFF</field>
+              <field name="selType" type="Enum">Boom</field>
+              <field name="fLevel" type="Float32">11</field>
+              <field name="vectorImpactPos" type="Vector3">0,0,0</field>
+              <field name="fRadius" type="Float32">150</field>
+              <field name="bFalloff" type="Boolean">True</field>
+              <field name="fFalloffMinLevel" type="Float32">1</field>
+              <field name="fFalloffInterpolationFactor" type="Float32">0</field>
+              <field name="bUseNewFalloffCurve" type="Boolean">False</field>
+              <field name="arkFalloffCurve" type="Id64">0</field>
+              <field name="hidShowType" type="Boolean">True</field>
+              <field name="hidShowRadius" type="Boolean">True</field>
+              <field name="fDuration" type="Float32">0</field>
+            </object>
+            <object name="Stim">
+              <field name="selStimType" type="Enum">None</field>
+            </object>
+          </object>
+        </object>
+        <object name="RemainStims">
+          <object name="Stims">
+            <object name="Stim">
+              <field name="selStimType" type="Enum">None</field>
+            </object>
+          </object>
+        </object>
+        <object name="Particles">
+          <field name="bSpawnTrailSeparately" type="Boolean">True</field>
+          <field name="text_psIdle" type="String">fc3_weaponfire_generic.molotov.molotov_idle</field>
+          <field name="psIdle" type="Hash64">FE164F6773311AA6</field>
+          <field name="text_sIdleParticleBone" type="String">GENERICBONE_02</field>
+          <field name="sIdleParticleBone" type="Hash32">55006D1A</field>
+          <field name="text_psTrail" type="String">fc3_weaponfire_generic.molotov.molotov_streak</field>
+          <field name="psTrail" type="Hash64">4000EE0574729331</field>
+          <field name="text_psLand" type="String"></field>
+          <field name="psLand" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="text_psExplosion" type="String">fc3_weaponfire_generic.molotov.molotov_explosion</field>
+          <field name="psExplosion" type="Hash64">6F1C3AD688C2361F</field>
+          <field name="text_psExplosionUnderwater" type="String">fc3_melee_impact.slash.mimp_water</field>
+          <field name="psExplosionUnderwater" type="Hash64">AFAE709D6BE0E7F9</field>
+          <field name="text_psExplosionInAir" type="String"></field>
+          <field name="psExplosionInAir" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="text_psRemains" type="String"></field>
+          <field name="psRemains" type="BinHex">FFFFFFFFFFFFFFFF</field>
+          <object name="Light">
+            <object name="LightExplosion">
+              <field name="bUseLight" type="Boolean">False</field>
+              <field name="fRadius" type="Float32">0</field>
+              <field name="fDuration" type="Float32">0.5</field>
+              <field name="fIntensity" type="Float32">1</field>
+              <field name="clrColor" type="Vector3">1,1,1</field>
+            </object>
+            <object name="LightRemains">
+              <field name="bUseLight" type="Boolean">False</field>
+              <field name="fRadius" type="Float32">0</field>
+              <field name="fDuration" type="Float32">0.5</field>
+              <field name="fIntensity" type="Float32">1</field>
+              <field name="clrColor" type="Vector3">1,1,1</field>
+            </object>
+          </object>
+        </object>
+        <object name="postFxData">
+          <field name="text_sPostFX" type="String">grenade_explosionfx</field>
+          <field name="sPostFX" type="Hash32">01EC3E4C</field>
+          <field name="fMinDistance" type="Float32">4</field>
+          <field name="fMaxDistance" type="Float32">8</field>
+          <field name="fMaxAngleOfVisibility" type="Float32">45</field>
+        </object>
+      </object>
+      <object name="CParticlePhysComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_hidResourceId" type="String"></field>
+        <field name="hidResourceId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+        <field name="bDisabledAtStart" type="BinHex">01</field>
+        <field name="bSendStimOnWaterCollision" type="BinHex">00</field>
+        <object name="LogicMaterialOverrides" />
+        <object hash="8C296190">
+          <field hash="3D255EB4" type="BinHex">0000A040</field>
+          <field hash="F8186C6E" type="BinHex">0000803E</field>
+          <field hash="472849B4" type="BinHex">00000000</field>
+          <field hash="1E091121" type="BinHex">0000803E</field>
+          <field hash="E1982D2F" type="BinHex">0000803F</field>
+          <field hash="F5C425C9" type="BinHex">01</field>
+          <field hash="B6E76F80" type="BinHex">0B000000</field>
+          <field hash="9947AA27" type="BinHex">01</field>
+          <field hash="F718AEDA" type="BinHex">00</field>
+          <field hash="529925EF" type="BinHex">00</field>
+          <field hash="48B5E31B" type="BinHex">0000803F</field>
+        </object>
+      </object>
+      <object name="CObjectSoundAndFXComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <object name="Impact">
+          <field name="matimpDropImpact" type="BinHex">FFFFFFFF00000000</field>
+          <field name="fSpeedForMaxDropImpactVolume" type="BinHex">00000000</field>
+          <field name="fMinimalCollisionSpeed" type="BinHex">0000803F</field>
+          <field name="bIsSingleDropImpactObject" type="BinHex">00</field>
+          <object name="MovementSound">
+            <field name="sndRollingSound" type="BinHex">3078464646464646464600</field>
+            <field name="sndRollingSoundEnd" type="BinHex">3078464646464646464600</field>
+            <field name="sndtpRollingSoundType" type="BinHex">FFFFFFFF</field>
+            <field name="sndSlidingSound" type="BinHex">3078464646464646464600</field>
+            <field name="sndSlidingSoundEnd" type="BinHex">3078464646464646464600</field>
+            <field name="sndtpSlidingSoundType" type="BinHex">FFFFFFFF</field>
+            <field name="sndmlObjectMovementMultilayer" type="BinHex">FFFFFFFF</field>
+          </object>
+        </object>
+        <object name="Falling">
+          <field name="bAllowAfterCollision" type="BinHex">00</field>
+          <field name="sndFallingSound" type="BinHex">3078464646464646464600</field>
+          <field name="sndtpFallingType" type="BinHex">FFFFFFFF</field>
+          <field name="fSpeedToPlayFallingSound" type="BinHex">00000000</field>
+          <field name="FallingSoundTimeTrigger" type="BinHex">00000000</field>
+        </object>
+        <object name="Water">
+          <field name="fZMinSpeedToTriggerSplash" type="BinHex">0000803F</field>
+          <field name="fZMaxSpeedToTriggerSplash" type="BinHex">0000A040</field>
+          <field name="fZMinSplashScale" type="BinHex">0000803F</field>
+          <field name="fZMaxSplashScale" type="BinHex">9A99993F</field>
+          <field name="fZSpeedForMaxSplashVolume" type="BinHex">00000000</field>
+        </object>
+      </object>
+      <object name="CFCXAIComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_Type" type="String">CVisibleObject</field>
+        <field name="Type" type="Hash32">88597E7D</field>
+        <field name="selCharacterType" type="Enum">GenericNPC</field>
+        <field name="selGenderType" type="Enum">Male</field>
+        <field name="selMetaCharacterType" type="Enum">None</field>
+        <field name="arkPistolTakedownArchetype" type="Id64">0</field>
+        <field name="fMaxLookAngle" type="Float32">90</field>
+        <field name="fMaxAimAngle" type="Float32">90</field>
+        <object name="AIObject">
+          <object hash="88597E7D">
+            <field hash="955661EF" type="BinHex">02000000</field>
+            <field hash="6F8C4C70" type="BinHex">000080BF</field>
+          </object>
+        </object>
+      </object>
+      <object name="CCountersComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+      </object>
+      <object hash="25E1DF43">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="3DEE35BA" type="BinHex">00</field>
+      </object>
+      <object name="CFCXWikiItemEntryComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="hidInjected" type="Boolean">True</field>
+        <field name="wikiItemId" type="BinHex">4D000000</field>
+        <field name="bShouldNotifyHud" type="Boolean">True</field>
+      </object>
+    </object>
+  </object>
+</object>

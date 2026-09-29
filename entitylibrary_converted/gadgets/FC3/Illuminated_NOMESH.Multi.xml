@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7718366710976</field>
+  <field name="Name" type="String">FC3/Illuminated_NOMESH.Multi</field>
+  <object name="Entity">
+    <field name="hidName" type="String">gadgets:FC3/Illuminated_NOMESH.Multi</field>
+    <field name="disEntityId" type="Int64">15054</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">0</field>
+    <field name="hidPos" type="Vector3">-129,-129,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">-129,-129,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileName" type="String"></field>
+        <field name="fileName" type="Hash64">FFFFFFFFFFFFFFFF</field>
+        <field name="hidCrcCheck" type="Hash32">FFFFFFFF</field>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bCastShadow" type="Boolean">True</field>
+        <field name="bReceiveShadow" type="Boolean">True</field>
+        <field name="bCastAmbientShadow" type="Boolean">True</field>
+        <field name="olgLightGroup" type="Int32">129</field>
+        <field name="bShowInReflection" type="Boolean">True</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bExcludeFromPortalSystem" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="clrHighLightColor" type="Vector3">1,0.901961,0.603922</field>
+        <field name="clrHighLightColor2" type="Vector3">0,0,0</field>
+        <field name="fHighLightSpeed" type="Float32">1</field>
+        <field name="bLodDitheringEnable" type="Boolean">True</field>
+        <field name="matIntuitionMaterialName" type="String"></field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field name="bAllowCullBySize" type="Boolean">True</field>
+        <field name="bMotionBlurExclusion" type="Boolean">False</field>
+        <field name="bOverrideLODSphere" type="Boolean">False</field>
+        <field name="fLODSphereRadius" type="Float32">0</field>
+        <field name="vectorAdditionalAABBDimensionForSkin" type="Vector3">1,1,0</field>
+        <field name="text_currentSkin" type="String"></field>
+        <field name="currentSkin" type="Hash32">FFFFFFFF</field>
+        <field name="bUseCurrentSkin" type="Boolean">False</field>
+        <object name="MaterialLightSwitch">
+          <object name="MaterialSlots" />
+        </object>
+        <object name="MaterialOverrides">
+          <object name="MaterialSlots" />
+        </object>
+        <object name="SkinList">
+          <object name="Skin">
+            <field name="text_name" type="String"></field>
+            <field name="name" type="Hash32">FFFFFFFF</field>
+            <field name="locSkinNameId" type="Int32">-1</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <object name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">0</field>
+          <field name="text_fileModel" type="String"></field>
+          <field name="fileModel" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String"></field>
+          <field name="hidNodeName" type="Hash32">FFFFFFFF</field>
+          <field name="text_hidNodeNameLOD0" type="String"></field>
+          <field name="hidNodeNameLOD0" type="Hash32">FFFFFFFF</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+      </object>
+      <object name="CPersistComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="selLevel" type="Enum">Limited</field>
+        <field name="bDontPersistIfChild" type="Boolean">False</field>
+        <field name="bIgnoreEntityLimiter" type="Boolean">False</field>
+      </object>
+      <object name="CWeaponAttachmentComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="selType" type="Enum">Magazine</field>
+        <field name="text_sWeaponBoneName" type="String">ATTACH_SCOPE</field>
+        <field name="sWeaponBoneName" type="Hash32">7D95866C</field>
+        <field name="text_sWeaponHandleName" type="String"></field>
+        <field name="sWeaponHandleName" type="Hash32">FFFFFFFF</field>
+        <field name="sBonusPlan" type="String"></field>
+        <field name="iCurrentReticle" type="Int32">0</field>
+        <field name="iCurrentReticleColour" type="Int32">0</field>
+        <object name="Reticle">
+          <field name="selLensShape" type="Enum">Rectangle</field>
+          <field name="fReticleMaxXDist" type="Float32">0.014</field>
+          <field name="fReticleMaxYDist" type="Float32">0.01</field>
+          <field name="fAlphaFalloffPercent" type="Float32">0.7</field>
+          <field name="fReticleDistance" type="Float32">1</field>
+          <object name="ReticleMaterialNames">
+            <object name="MaterialNames">
+              <field name="text_Name" type="String"></field>
+              <field name="Name" type="Hash32">FFFFFFFF</field>
+            </object>
+          </object>
+          <object name="ReticleParticles">
+            <object name="ReticleParticles">
+              <field name="text_psSightParticlesId" type="String"></field>
+              <field name="psSightParticlesId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+        </object>
+        <object name="modifiers">
+          <field name="fLookSpeedMultiplierIronsight" type="Float32">1</field>
+          <field name="fVerticalLookSpeedMultiplierIronsight" type="Float32">1</field>
+          <field name="fLookSpeedMultiplierIronsightMouse" type="Float32">1</field>
+          <field name="fDrawTimeAdd" type="Float32">0</field>
+          <field name="fHolsterTimeAdd" type="Float32">0</field>
+          <field name="fIronsightTransitionTimeAdd" type="Float32">0</field>
+          <field name="fReloadTimeMultiplier" type="Float32">1</field>
+          <field name="fRumbleMultiplier" type="Float32">1</field>
+          <field name="fRumbleMultiplierIronsight" type="Float32">1</field>
+          <field name="text_psMuzzleParticlesId" type="String"></field>
+          <field name="psMuzzleParticlesId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="text_psMuzzleParticlesId_IronSight" type="String"></field>
+          <field name="psMuzzleParticlesId_IronSight" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="text_psMuzzleParticlesId_3rd" type="String"></field>
+          <field name="psMuzzleParticlesId_3rd" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="text_MuzzleBone" type="String">FX_FIRE_ATTACH</field>
+          <field name="MuzzleBone" type="Hash32">5E433DA4</field>
+          <object name="ironsightSwayMultipliers">
+            <field name="fHSizeMultiplier" type="Float32">1</field>
+            <field name="fVSizeMultiplier" type="Float32">1</field>
+            <field name="fHSpeedMultiplier" type="Float32">1</field>
+            <field name="fVSpeedMultiplier" type="Float32">1</field>
+          </object>
+          <object name="snapAimHelperMultipliers">
+            <field name="fInacurracyDistanceMult" type="Float32">1</field>
+            <field name="fFadeOutStartDistanceMult" type="Float32">1</field>
+            <field name="fFadeOutStopDistanceMult" type="Float32">1</field>
+          </object>
+          <object name="weaponOffsetMultipliers">
+            <field name="fPitchSpeedLimitMultiplier" type="Float32">1</field>
+            <field name="fYawSpeedLimitMultiplier" type="Float32">1</field>
+            <field name="fMaxYawMultiplier" type="Float32">1</field>
+            <field name="fMaxPitchMultiplier" type="Float32">1</field>
+            <field name="fMaxRollMultiplier" type="Float32">1</field>
+            <field name="maxTranslateMultiplier" type="Vector3">1,1,1</field>
+          </object>
+          <object name="fovModifiers">
+            <field name="fAdditionalNearFOVDegrees" type="Float32">0</field>
+            <field name="fAdditionalIronsightFOVDegrees" type="Float32">-10</field>
+            <field name="fAdditionalIronsightNearFOVDegrees" type="Float32">0</field>
+            <field name="bCanSwitchIronsight" type="Boolean">False</field>
+            <field name="fTimeToSwitchIronSight" type="Float32">0</field>
+            <field name="sndSwitchZoomSound" type="String">0xFFFFFFFF</field>
+            <field name="sndtpSwitchZoomSoundType" type="Int32">-1</field>
+            <field name="text_sPostFX" type="String"></field>
+            <field name="sPostFX" type="Hash32">FFFFFFFF</field>
+          </object>
+          <object name="recoilModifiers">
+            <field name="fRecoveryTimeMultiplier" type="Float32">1</field>
+            <field name="fAchieveTimeMultiplier" type="Float32">1</field>
+            <field name="fLeftRecoilMultiplierPerShot" type="Float32">1</field>
+            <field name="fRightRecoilMultiplierPerShot" type="Float32">1</field>
+            <field name="fVerticalMultiplierRecoilPerShot" type="Float32">1</field>
+            <field name="fLeftRollMultiplierPerShot" type="Float32">1</field>
+            <field name="fRightRollMultiplierPerShot" type="Float32">1</field>
+            <field name="fRollCurveDuration" type="Float32">0</field>
+            <field name="fIronsightRecoilMultiplier" type="Float32">1</field>
+            <field name="fYOffsetMultiplier" type="Float32">1</field>
+            <field name="fMaxYMultiplier" type="Float32">1</field>
+            <field name="fIronsightYOffsetMultiplier" type="Float32">1</field>
+            <field name="fIronsightMaxYMultiplier" type="Float32">1</field>
+            <field name="fYOffsetRecoveryTimeMultiplier" type="Float32">1</field>
+          </object>
+          <object name="bulletSpreadMultipliers">
+            <field name="fBulletSpread_movementModifier" type="Float32">1</field>
+            <field name="fBulletSpread_maxSpreadModifier" type="Float32">1</field>
+            <field name="fBulletSpread_turnModifier" type="Float32">1</field>
+            <object name="BulletSpread">
+              <field name="fBaseSpread" type="Float32">1</field>
+              <field name="fMaxBulletSpread" type="Float32">1</field>
+            </object>
+            <object name="BulletSpread_ironSight">
+              <field name="fBaseSpread" type="Float32">1</field>
+              <field name="fMaxBulletSpread" type="Float32">1</field>
+            </object>
+          </object>
+          <object name="dof">
+            <object name="ironsight">
+              <field name="fBlur" type="Float32">0</field>
+              <field name="fBlurFactor" type="Float32">0</field>
+              <field name="fFocusDistance" type="Float32">0</field>
+            </object>
+          </object>
+          <object name="MuzzleStim">
+            <object name="StimModifiers">
+              <field name="selType" type="Enum">None</field>
+              <field name="fLevelAdditive" type="Float32">0</field>
+              <field name="fRadiusMultiplier" type="Float32">1</field>
+            </object>
+          </object>
+          <object name="ImpactStimPrimary">
+            <object name="StimModifiers">
+              <field name="selType" type="Enum">None</field>
+              <field name="fLevelAdditive" type="Float32">0</field>
+              <field name="fRadiusMultiplier" type="Float32">1</field>
+            </object>
+          </object>
+          <object name="ImpactStimSecondary">
+            <object name="StimModifiers">
+              <field name="selType" type="Enum">None</field>
+              <field name="fLevelAdditive" type="Float32">0</field>
+              <field name="fRadiusMultiplier" type="Float32">1</field>
+            </object>
+          </object>
+          <object name="baseDamagePrimary">
+            <field name="levelAdditive" type="Float32">0</field>
+            <field name="diceRollMultiplier" type="Float32">1</field>
+          </object>
+          <object name="baseDamageSecondary">
+            <field name="levelAdditive" type="Float32">0</field>
+            <field name="diceRollMultiplier" type="Float32">1</field>
+          </object>
+        </object>
+      </object>
+    </object>
+  </object>
+</object>

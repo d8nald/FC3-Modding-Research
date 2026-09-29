@@ -1,0 +1,14 @@
+<graphickit id="12066023111959527168" name="SHA_FlyingFox" unique="0" kittobone="1">
+	<slot name="MainBody" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Flying_Fox" ref="graphics\__FC3_Graphics\_Common\Characters\Animals\Flying_Fox\Flying_Fox.xml" mesh="Flying_Fox" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Flying_fox" id="yanzhou-M-3008201141201826">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>

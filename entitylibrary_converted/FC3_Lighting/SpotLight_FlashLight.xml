@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object hash="256A1FF9">
+  <field name="disLibItemId" type="Id64">7713573515603</field>
+  <field name="Name" type="String">SpotLight_FlashLight</field>
+  <object name="Entity">
+    <field name="hidName" type="String">FC3_Lighting:LightSources:SpotLight_FlashLight</field>
+    <field name="disEntityId" type="Int64">13238</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">0</field>
+    <field name="hidPos" type="Vector3">-65,-65,0</field>
+    <field name="hidAngles" type="Vector3">0,0,0</field>
+    <field name="hidPos_precise" type="Vector3">-65,-65,0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="hidIsLargeEntity" type="Boolean">False</field>
+    <object name="Components">
+      <object hash="2D603C0D">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="6BD475E8" type="BinHex">03000000</field>
+        <field hash="F8186C6E" type="BinHex">0000F041</field>
+        <field hash="24DEE30A" type="BinHex">00006040</field>
+        <field hash="7A01519D" type="BinHex">17B7D138</field>
+        <field hash="A44AF3A2" type="BinHex">00</field>
+        <field hash="B67FFAD2" type="BinHex">0000BE42</field>
+        <field hash="788F7BDA" type="BinHex">00003442</field>
+        <field hash="F1A5907B" type="BinHex">67726170686963735C5F5F6663335F67726170686963735C73696E676C65706C617965725C5F74657874757265735C6C69676874696E675C70726F6A656374656474657874757265735C70726F6A6563746564746578747572655F31302E78627400</field>
+        <field hash="500F629A" type="BinHex">FAF2723FFAF2723FF2E9693F</field>
+        <field hash="4C4FFE88" type="BinHex">51FA793FA0C7733F2D65483F</field>
+        <field hash="B23932DE" type="BinHex">00008040</field>
+        <field hash="66C2B87B" type="BinHex">00000000</field>
+        <field hash="2EFAFA98" type="BinHex">00000000</field>
+        <field hash="FA3722EA" type="BinHex">01</field>
+        <field hash="4D1C67A7" type="BinHex">00</field>
+        <field hash="232B2FEF" type="BinHex">80000000</field>
+        <field hash="97053A77" type="BinHex">0000803F</field>
+        <field hash="C17FC318" type="BinHex">00007041</field>
+        <field hash="05375BA4" type="BinHex">00000000</field>
+        <field hash="48E57BA6" type="BinHex">00000000</field>
+        <field hash="7F10B812" type="BinHex">00000000</field>
+        <field hash="F5C425C9" type="BinHex">01</field>
+        <field hash="74F99E54" type="BinHex">00000000</field>
+        <field hash="210D364E" type="BinHex">00</field>
+        <field hash="11861037" type="BinHex">FFFFFFFF</field>
+        <field hash="F838CAF7" type="BinHex">3078464646464646464600</field>
+        <field hash="D9B784E6" type="BinHex">3078464646464646464600</field>
+        <field hash="68F738EF" type="BinHex">3078464646464646464600</field>
+        <field hash="76266073" type="BinHex">FFFFFFFF</field>
+      </object>
+      <object hash="8DAB48CC">
+        <field hash="FEE21F0D" type="BinHex">00</field>
+        <field hash="6BD475E8" type="BinHex">00000000</field>
+        <field hash="49BF3666" type="BinHex">00000000</field>
+        <field hash="72AEEBD4" type="BinHex">0000803F</field>
+        <field hash="05A9DB42" type="BinHex">0000803F</field>
+        <field hash="15E2FF25" type="BinHex">00000000</field>
+        <field hash="378AFF83" type="BinHex">0000803F</field>
+        <field hash="160F3BD0" type="BinHex">00000000</field>
+        <field hash="AE18ADE6" type="BinHex">00003443</field>
+        <field hash="500F629A" type="BinHex">0000803F0000803F0000803F</field>
+        <field hash="0CFFF5D2" type="BinHex">00</field>
+        <field hash="A1585FB6" type="BinHex">0000C842</field>
+        <field hash="3166F8B3" type="BinHex">00000000</field>
+        <field hash="8D4DBEBD" type="BinHex">00000000</field>
+        <field hash="4291D307" type="BinHex">00000000</field>
+        <field hash="C48BEE15" type="BinHex">00</field>
+      </object>
+    </object>
+  </object>
+</object>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materialdescriptor xmlns:xi="#" name="Ground_Vegetation" id="#(0x2af2c8f, 0x856b8254)" version="6">
+    <geometryInputs normal="1" uvChannels="1" />
+
+    <parameter name="AlphaTestEnabled" type="bool" />
+    <parameter name="TwoSided" type="bool" />
+
+    <parameter name="UVsTiling" type="float2" defaultvalue="1,1" />
+
+    <parameter name="DiffuseTexture1" type="sampler2D" tilingName="UVsTiling" />
+    <parameter name="DiffuseColor1" type="color4" defaultvalue="1,1,1,1" />
+    <parameter name="DiffuseTexture1Priority" type="int" defaultvalue="1" />
+
+    <parameter name="SpecularTexture1" type="sampler2D" tilingName="UVsTiling" />
+    <parameter name="SpecularColor1" type="color4" />
+    <parameter name="SpecularTexture1Priority" type="int" defaultvalue="1" />
+  
+    <parameter name="SpecularPower" type="float" defaultvalue="16" displayInMax="1" />
+
+    <parameter name="SpecMultiplier" type="float" defaultvalue="1.0" displayInMax="1"/>
+    
+    <parameterprovider parametersfilename="Mesh_Ground_Vegetation.parameters.inc.fx">
+        <parameter name="DiffuseTexture1">
+            <alias name="DiffuseTexture1Shadow" />
+        </parameter>
+        <parameter name="DiffuseColor1" />
+        <parameter name="UVsTiling" />
+        <parameter name="SpecularTexture1" />
+        <parameter name="SpecularColor1" />
+        <parameter name="SpecularPower" />
+        <parameter name="SpecMultiplier" />
+    </parameterprovider>
+
+    <ui>
+        <xi:include href="../MaterialUIInclude.xml" />
+        
+        <group horizontal="1" label="Settings">
+            <group>
+                <checkbox label="Two sided" dataBindings="TwoSided" />
+                <checkbox label="Alpha test" dataBindings="AlphaTestEnabled" />
+            </group>
+            <group>
+                  <textbox label="Tiling U" dataBindings="UVsTiling.x">
+                    <dataBindings class="Tiling" />
+                  </textbox>
+                  <textbox label="Tiling V" dataBindings="UVsTiling.y">
+                    <dataBindings class="Tiling" />
+                  </textbox>
+            </group>
+          <group>
+            <label>Tiling U</label>
+            <label>Tiling V</label>
+          </group>
+
+        </group>
+
+        <group label="Diffuse">
+            <group horizontal="1">
+                <button dataBindings="DiffuseColor1">
+                    <dataBindings type="color" />
+                </button>
+                <button dataBindings="DiffuseTexture1" fill="1" />
+            </group>
+        </group>
+
+        <group label="Specular">
+            <group horizontal="1">
+                <button dataBindings="SpecularColor1">
+                    <dataBindings type="color" />
+                </button>
+                <button dataBindings="SpecularTexture1" fill="1" />
+            </group>
+            <group horizontal="1">
+                <label>Gloss</label>
+                <textbox databindings="SpecularPower">
+                    <dataBindings class="ZeroPositiveCff" />
+                </textbox>
+            </group>
+        </group>
+    </ui>
+</materialdescriptor>

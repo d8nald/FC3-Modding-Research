@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Root>
+    <Import file="ActionMaps\InputActionMapCommon.xml"/>
+    
+    <ActionMap name="showconsole" >
+    
+        <Import actionmap="common_showconsole"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="system" resendOnChange="0" >
+        <UnShift />
+        <Import actionmap="showconsole"/>
+		<Import actionmap="scry_alwaysactive"/>
+        <Import actionmap="common_system"/>
+		<Binding input="pad:start" action="release" signal="toggle_ingame" secondary="1"/>
+        <Binding input="kb:]" action="release" signal="fcxaidebug_toggle"/>
+    </ActionMap>
+        
+    <ActionMap name="kb_move" >
+    
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="move" >
+    
+        <Import actionmap="common_move"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="look" >
+    
+        <Import actionmap="common_look"/>
+        <Import actionmap="system"/>
+
+		<PadFilter name="right_thumb" device="pad" padAccelerationBoostAmplitude="0" >
+			<IronSightHelper>
+			</IronSightHelper>
+			<ShootCorrectionHelper/>
+			<Binding input="right_thumb_leftright" axis="0" sensitivity="1.0" curve="Weapons:AimCurves/Pad_LookLeftRight"/>
+			<Binding input="right_thumb_updown" axis="1" sensitivity="1.0" curve="Weapons:AimCurves/Pad_LookUpDown"/>
+		</PadFilter>
+		<Binding input="pad:right_thumb" action="update" signal="look"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="weapons" >
+    
+        <Import actionmap="common_weapons"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="free_camera" resendOnChange="0">
+    
+        <Import actionmap="system"/>
+		<Import actionmap="kb_move"/>
+        <Import actionmap="common_free_camera"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="menus" resendOnChange="0">
+    
+        <Import actionmap="common_menus"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="spectator_camera" resendOnChange="0">
+    
+        <Import actionmap="common_spectator_camera"/>
+        <Import actionmap="kb_move"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="gameplay" >
+    
+		<Import actionmap="move"/>
+		<Import actionmap="look"/>
+		<Import actionmap="weapons"/>
+        <Import actionmap="common_gameplay"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="default" >
+    
+		<Import actionmap="gameplay"/>
+		<Import actionmap="menus"/>
+        <Import actionmap="common_default"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="basic" >
+    
+		<Import actionmap="menus"/>
+        <Import actionmap="common_basic"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="editor" >
+    
+		<Import actionmap="gameplay"/>
+        <Import actionmap="common_editor"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="multiplayer" >
+    
+		<Import actionmap="move"/>
+		<Import actionmap="look"/>
+		<Import actionmap="weapons"/>
+        <Import actionmap="common_multiplayer"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="cinematic" >
+    
+        <Import actionmap="common_cinematic"/>
+		<Import actionmap="basic"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+        
+    <ActionMap name="lyingdown" resendOnChange="0">
+    
+		<Import actionmap="basic"/>
+		<Import actionmap="look"/>
+        <Import actionmap="common_lyingdown"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="in_vehicle" >
+    
+		<Import actionmap="basic"/>
+        <Import actionmap="common_in_vehicle"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="driving" >
+    
+		<Import actionmap="in_vehicle"/>
+        <Import actionmap="kb_move"/>
+        <Import actionmap="common_driving"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="map_driving" >
+    
+		<Import actionmap="driving"/>
+        <Import actionmap="common_map_driving"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="passenger" >
+    
+		<Import actionmap="basic"/>
+		<Import actionmap="kb_move"/>
+	    <Import actionmap="look"/>
+        <Import actionmap="common_passenger"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="ladder" >
+    
+        <Import actionmap="basic"/>
+        <Import actionmap="look"/>
+        <Import actionmap="common_ladder"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="ied" >
+    
+        <Import actionmap="basic"/>
+        <Import actionmap="gameplay"/>
+		<Import actionmap="weapons"/>
+        <Import actionmap="common_ied"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="ied_in_vehicle">
+        <Import actionmap="passenger"/>
+	</ActionMap>
+    
+    <ActionMap name="mortar" >
+    
+        <Import actionmap="default"/>
+        <Import actionmap="common_mortar"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="mapcompass" >
+    
+		<Import actionmap="default"/>
+        <Import actionmap="common_mapcompass"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="paragliderdriving" >
+    
+		<Import actionmap="in_vehicle"/>
+		<Import actionmap="kb_move"/>
+        <Import actionmap="common_paragliderdriving"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="vehicle_transitions" >
+    
+		<Import actionmap="basic"/>
+        <Import actionmap="common_vehicle_transitions"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="using_mounted_weapon" >
+    
+		<Import actionmap="basic"/>
+		<Import actionmap="weapons"/>
+        <Import actionmap="common_using_mounted_weapon"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="healPlayer" >
+    
+		<Import actionmap="basic"/>
+        <Import actionmap="common_healPlayer"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="pausemenu" >
+    
+        <Import actionmap="showconsole"/>
+        <Import actionmap="common_pausemenu"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="emptyactionmap" resendOnChange="0">
+    
+        <Import actionmap="common_emptyactionmap"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="machete_finish" >
+    
+        <Import actionmap="common_machete_finish"/>
+		<Import actionmap="basic"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="briefinginteraction" >
+    
+		<Import actionmap="basic"/>
+        <Import actionmap="look"/>
+        <Import actionmap="common_briefinginteraction"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="briefing" >
+    
+		<Import actionmap="briefinginteraction"/>
+		<Import actionmap="move"/>
+        <Import actionmap="common_briefing"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="dominoinputlistener" >
+    
+		<Import actionmap="basic"/>
+		<Import actionmap="move"/>
+        <Import actionmap="common_dominoinputlistener"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="watch" >
+    
+		<Import actionmap="basic"/>
+		<Import actionmap="weapons"/>
+        <Import actionmap="common_watch"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="ige_fire_dpad" >
+    
+    	<Binding input="pad:left" action="press" signal="ige_fire_input"/>
+    	<Binding input="pad:right" action="press" signal="ige_fire_input"/>
+    	<Binding input="pad:up" action="press" signal="ige_fire_input"/>
+    	<Binding input="pad:down" action="press" signal="ige_fire_input"/>
+    	
+    	<Binding input="pad:left" action="release" signal="ige_fire_input"/>
+    	<Binding input="pad:right" action="release" signal="ige_fire_input"/>
+    	<Binding input="pad:up" action="release" signal="ige_fire_input"/>
+    	<Binding input="pad:down" action="release" signal="ige_fire_input"/>
+       
+    </ActionMap>
+    
+    <ActionMap name="ige_fire_ab">
+    	<Binding input="pad:a_accept" action="press" signal="ige_fire_input"/>
+    	<Binding input="pad:a_accept" action="release" signal="ige_fire_input"/>
+    	<Binding input="pad:b_back" action="press" signal="ige_fire_input"/>
+    	<Binding input="pad:b_back" action="release" signal="ige_fire_input"/>
+    </ActionMap>
+    
+    <ActionMap name="scry_alwaysactive" >
+    
+        <Import actionmap="common_scry_alwaysactive"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="scry" >
+    
+		<Import actionmap="scry_alwaysactive"/>
+        <Import actionmap="common_scry"/>
+        <Import actionmap="system"/>
+        
+    </ActionMap>
+    
+    <ActionMap name="ige_base" resendOnChange="0">
+    	<AcceptBack />
+    	<Import actionmap="common_showconsole"/>
+    	<Binding input="kb:numpad6" action="release" signal="profiler_data_capture_toggle"/>
+    </ActionMap>
+	
+	<ActionMap name="ige_camera" resendOnChange="0">
+		<Import actionmap="ige_base" />
+		<CompoundInput name="left_thumb" device="pad">
+			<Binding input="left_thumb_leftright" axis="0" />
+			<Binding input="left_thumb_updown" axis="1" />
+		</CompoundInput>
+		<Rename input="pad:left_thumb_leftright_ps3" toInput="pad:left_thumb_leftright"/>
+		<Rename input="pad:left_thumb_updown_ps3" toInput="pad:left_thumb_updown"/>
+		<Binding input="pad:left_thumb" action="update" signal="controller_move"/>
+
+		<!--<Binding input="pad:left_thumb_push" action="press" signal="controller_look_alt_begin"/>
+		<Binding input="pad:left_thumb_push" action="release" signal="controller_look_alt_end"/>
+		<Binding input="pad:left_thumb_push" action="update" signal="controller_speed_boost"/>-->
+		<Binding input="pad:left_thumb_push" action="release" signal="controller_speed_change"/>
+
+		<CompoundInput name="right_thumb" device="pad">
+			<Binding input="right_thumb_leftright" axis="0" />
+			<Binding input="right_thumb_updown" axis="1" />
+		</CompoundInput>
+		<Rename input="pad:right_thumb_leftright_ps3" toInput="pad:right_thumb_leftright"/>
+		<Rename input="pad:right_thumb_updown_ps3" toInput="pad:right_thumb_updown"/>
+
+		<Binding input="pad:right_thumb" action="update" signal="controller_look"/>
+	</ActionMap>
+	
+	<ActionMap name="ige_controller_alt" resendOnChange="0">
+		<CompoundInput name="left_thumb" device="pad">
+			<Binding input="left_thumb_leftright" axis="0" />
+			<Binding input="left_thumb_updown" axis="1" />
+		</CompoundInput>
+		<Rename input="pad:left_thumb_leftright_ps3" toInput="pad:left_thumb_leftright"/>
+		<Rename input="pad:left_thumb_updown_ps3" toInput="pad:left_thumb_updown"/>
+		<Binding input="pad:left_thumb" action="update" signal="controller_move"/>
+		
+		<Binding input="pad:right_thumb_push" action="release" signal="controller_alt_end"/>
+		
+		<Binding input="pad:back" action="release" signal="editor_redo"/>
+
+		<Binding input="pad:start" action="release" signal="toggle_ingame"/>
+	</ActionMap>
+	
+	<ActionMap name="ige_tool_wilderness_generator" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+        <Import actionmap="ige_fire_dpad"/>
+        <Import actionmap="ige_fire_ab"/>
+        <Import actionmap="ige_camera"/>
+
+		<Binding input="pad:start" action="release" signal="generator_cancel"/>
+		<Binding input="pad:y" action="release" signal="generator_accept"/>		
+	</ActionMap>
+	
+	<ActionMap name="ige_tool_base" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<Binding input="pad:left_shoulder" action="release" signal="toolbox_show"/>
+
+		<Binding input="pad:start" action="release" signal="menu_show"/>
+		<Binding input="pad:back" action="release" signal="editor_undo"/>
+		
+		<Binding input="pad:right_thumb_push" action="press" signal="controller_alt_begin"/>
+	</ActionMap>
+	
+	<ActionMap name="ige_tool_default" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+        <Import actionmap="common_showconsole"/>
+        <Import actionmap="ige_camera"/>
+		<Import actionmap="ige_tool_base"/>		
+	</ActionMap>
+
+	<ActionMap name="ige_toolbox" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<CompoundInput name="left_thumb" device="pad">
+			<Binding input="left_thumb_leftright" axis="0" />
+			<Binding input="left_thumb_updown" axis="1" />
+		</CompoundInput>
+		<Rename input="pad:left_thumb_leftright_ps3" toInput="pad:left_thumb_leftright"/>
+		<Rename input="pad:left_thumb_updown_ps3" toInput="pad:left_thumb_updown"/>
+		<Binding input="pad:left_thumb" action="update" signal="toolbox_shortcut"/>
+
+		<Binding input="pad:a_accept" action="release" signal="toolbox_select"/>
+		<Binding input="pad:b_back" action="release" signal="toolbox_back"/>
+		
+		<Binding input="pad:start" action="release" signal="toolbox_close_menu_show"/>
+		
+		<Binding input="pad:left_shoulder" action="release" signal="toolbox_close"/>
+	</ActionMap>
+	
+	<ActionMap name="ige_browser_window" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<Import actionmap="ige_camera"/>
+		<Import actionmap="ige_fire_dpad"/>
+		<Import actionmap="ige_fire_ab"/>
+	
+		<Binding input="pad:y" action="release" signal="browser_clear_slot"/>
+	</ActionMap>
+	
+	<ActionMap name="ige_paint_base" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<Import actionmap="ige_camera"/>
+		<Import actionmap="ige_fire_dpad"/>
+		<Import actionmap="ige_fire_ab"/>
+		
+		<Binding input="pad:right_trigger" action="update" signal="paint_plus"/>
+		<Binding input="pad:left_trigger" action="update" signal="paint_minus"/>
+		
+		<Binding input="pad:right_shoulder" action="press" signal="paint_shortcut_begin"/>
+		
+		<Binding input="pad:x" action="release" signal="controller_cursor_togglecontrol"/>
+		<Binding input="pad:y" action="press" signal="paint_grab_begin"/>
+		
+		<Binding input="pad:right" action="release" signal="open_setting_window"/>
+	</ActionMap>
+	
+	<ActionMap name="ige_paint_base_edit_brush" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<Import actionmap="ige_fire_dpad"/>
+	
+		<Binding input="pad:a_accept" action="release" signal="edit_brush_accept"/>		
+		<Binding input="pad:b_back" action="release" signal="edit_brush_cancel"/>
+		
+	</ActionMap>
+
+	<ActionMap name="ige_paint_base_painting" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<CompoundInput name="left_thumb" device="pad">
+			<Binding input="left_thumb_leftright" axis="0" />
+			<Binding input="left_thumb_updown" axis="1" />
+		</CompoundInput>
+		<Rename input="pad:left_thumb_leftright_ps3" toInput="pad:left_thumb_leftright"/>
+		<Rename input="pad:left_thumb_updown_ps3" toInput="pad:left_thumb_updown"/>
+		<Binding input="pad:left_thumb" action="update" signal="controller_move"/>
+	
+		<CompoundInput name="right_thumb" device="pad">
+			<Binding input="right_thumb_leftright" axis="0" />
+			<Binding input="right_thumb_updown" axis="1" />
+		</CompoundInput>
+		<Rename input="pad:right_thumb_leftright_ps3" toInput="pad:right_thumb_leftright"/>
+		<Rename input="pad:right_thumb_updown_ps3" toInput="pad:right_thumb_updown"/>
+		<Binding input="pad:right_thumb" action="update" signal="controller_look"/>
+
+		<Binding input="pad:right_trigger" action="update" signal="paint_plus"/>
+		<Binding input="pad:left_trigger" action="update" signal="paint_minus"/>
+		<!--<Binding input="pad:right_trigger" action="release" signal="paint_plus_end"/>
+		<Binding input="pad:left_trigger" action="release" signal="paint_minus_end"/>-->
+	</ActionMap>
+	
+	<ActionMap name="ige_paint_base_shortcut" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<CompoundInput name="left_thumb" device="pad">
+			<Binding input="left_thumb_leftright" axis="0" />
+			<Binding input="left_thumb_updown" axis="1" />
+		</CompoundInput>
+		<Rename input="pad:left_thumb_leftright_ps3" toInput="pad:left_thumb_leftright"/>
+		<Rename input="pad:left_thumb_updown_ps3" toInput="pad:left_thumb_updown"/>
+		<Binding input="pad:left_thumb" action="update" signal="paint_shortcut1"/>
+		
+		<CompoundInput name="right_thumb" device="pad">
+			<Binding input="right_thumb_leftright" axis="0" />
+			<Binding input="right_thumb_updown" axis="1" />
+		</CompoundInput>
+		<Rename input="pad:right_thumb_leftright_ps3" toInput="pad:right_thumb_leftright"/>
+		<Rename input="pad:right_thumb_updown_ps3" toInput="pad:right_thumb_updown"/>
+		<Binding input="pad:right_thumb" action="update" signal="paint_shortcut2"/>
+		
+		<Binding input="pad:right_shoulder" action="release" signal="paint_shortcut_end"/>
+	</ActionMap>
+		
+	<ActionMap name="ige_paint_base_grab" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<CompoundInput name="left_thumb" device="pad">
+			<Binding input="left_thumb_leftright" axis="0" />
+			<Binding input="left_thumb_updown" axis="1" />
+		</CompoundInput>
+		<Rename input="pad:left_thumb_leftright_ps3" toInput="pad:left_thumb_leftright"/>
+		<Rename input="pad:left_thumb_updown_ps3" toInput="pad:left_thumb_updown"/>
+		<Binding input="pad:left_thumb" action="update" signal="paint_grab_move"/>
+				
+		<Binding input="pad:y" action="release" signal="paint_grab_end"/>
+	</ActionMap>
+	
+	<ActionMap name="ige_tool_terrain" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<Import actionmap="ige_tool_default"/>
+		<Import actionmap="ige_fire_dpad"/>
+		<Import actionmap="ige_fire_ab"/>
+		<Import actionmap="ige_paint_base"/>
+	</ActionMap>
+	
+	<ActionMap name="ige_tool_terrain_setheight" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<Import actionmap="ige_tool_terrain"/>
+		
+		<Binding input="pad:y" action="release" signal="terrain_getheight"/>		
+	</ActionMap>
+	
+	<ActionMap name="ige_tool_terrain_ramp" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<Import actionmap="ige_tool_default"/>
+		<Import actionmap="ige_fire_dpad"/>
+		<Import actionmap="ige_fire_ab"/>
+		
+		<Binding input="pad:x" action="release" signal="controller_cursor_togglecontrol"/>
+		<Binding input="pad:right_trigger" action="press" signal="terrain_ramp_begin_end"/>
+		<Binding input="pad:left_trigger" action="press" signal="terrain_ramp_cancel"/>
+		<Binding input="pad:right_shoulder" action="press" signal="paint_shortcut_begin"/>
+		<Binding input="pad:right" action="release" signal="open_setting_window"/>
+	</ActionMap>
+	
+	<ActionMap name="ige_tool_water" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<Import actionmap="ige_tool_terrain"/>
+		
+		<Binding input="pad:y" action="release" signal="terrain_getheight"/>		
+	</ActionMap>
+	
+	<ActionMap name="ige_tool_collection" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<Import actionmap="ige_tool_default"/>
+		<Import actionmap="ige_fire_dpad"/>
+		<Import actionmap="ige_fire_ab"/>
+		<Import actionmap="ige_paint_base"/>
+	</ActionMap>
+	
+	<ActionMap name="ige_tool_texture" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<Import actionmap="ige_tool_default"/>
+		<Import actionmap="ige_fire_dpad"/>
+		<Import actionmap="ige_fire_ab"/>
+		<Import actionmap="ige_paint_base"/>
+		
+		<Binding input="pad:right" action="release" signal="open_setting_window"/>
+	</ActionMap>
+	
+	<ActionMap name="ige_texture_edit_constraints" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<Import actionmap="ige_fire_dpad"/>
+	
+		<!--<Binding input="pad:y" action="release" signal="texture_constraints_toggle"/>-->
+		<Binding input="pad:a_accept" action="release" signal="texture_constraints_accept"/>
+		<Binding input="pad:b_back" action="release" signal="texture_constraints_cancel"/>
+	</ActionMap>
+	
+	<ActionMap name="ige_tool_base_select" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<Import actionmap="ige_tool_default"/>
+		<Import actionmap="ige_fire_dpad"/>
+		<Import actionmap="ige_fire_ab"/>
+		
+		<Binding input="pad:x" action="release" signal="controller_cursor_togglecontrol"/>
+		
+		<Binding input="pad:right_trigger" action="press" signal="base_select_plus_start"/>
+		<Binding input="pad:right_trigger" action="release" signal="base_select_end"/>
+		
+		<Binding input="pad:left_trigger" action="press" signal="base_select_minus_start"/>
+		<Binding input="pad:left_trigger" action="release" signal="base_select_end"/>
+
+		<Binding input="pad:right_shoulder" action="release" signal="base_select_clear"/>
+		<Binding input="pad:y" action="release" signal="base_select_delete"/>
+		<Binding input="pad:b_back" action="release" signal="base_select_switch"/>		
+	</ActionMap>
+	
+	<ActionMap name="ige_tool_object_add" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<Import actionmap="ige_tool_default"/>
+		<Import actionmap="ige_fire_dpad"/>
+		<Import actionmap="ige_fire_ab"/>
+
+		<Binding input="pad:right_trigger" action="press" signal="object_add_confirm"/>
+		<Binding input="pad:right_shoulder" action="release" signal="object_add_and_edit"/>
+		<Binding input="pad:left_trigger" action="press" signal="object_rotate_begin"/>
+		
+		<Binding input="pad:x" action="release" signal="controller_cursor_togglecontrol"/>			
+		<Binding input="pad:y" action="release" signal="object_search"/>
+	</ActionMap>
+	
+	<ActionMap name="ige_tool_object_add_preview" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+        <Import actionmap="common_showconsole"/>
+		<Import actionmap="ige_tool_base"/>
+		<Import actionmap="ige_fire_dpad"/>
+		<Import actionmap="ige_fire_ab"/>
+		
+		<CompoundInput name="right_thumb" device="pad">
+			<Binding input="right_thumb_leftright" axis="0" />
+			<Binding input="right_thumb_updown" axis="1" />
+		</CompoundInput>
+		<Rename input="pad:right_thumb_leftright_ps3" toInput="pad:right_thumb_leftright"/>
+		<Rename input="pad:right_thumb_updown_ps3" toInput="pad:right_thumb_updown"/>
+		<Binding input="pad:right_thumb" action="update" signal="object_preview_rotate"/>
+		
+		<Binding input="pad:y" action="release" signal="object_preview_end"/>
+	</ActionMap>
+	
+	<ActionMap name="ige_tool_object_add_rotating" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<CompoundInput name="left_thumb" device="pad">
+			<Binding input="left_thumb_leftright" axis="0" />
+			<Binding input="left_thumb_updown" axis="1" />
+		</CompoundInput>
+		<Rename input="pad:left_thumb_leftright_ps3" toInput="pad:left_thumb_leftright"/>
+		<Rename input="pad:left_thumb_updown_ps3" toInput="pad:left_thumb_updown"/>
+		<Binding input="pad:left_thumb" action="update" signal="object_rotate_z"/>
+	
+		<CompoundInput name="right_thumb" device="pad">
+			<Binding input="right_thumb_leftright" axis="0" />
+			<Binding input="right_thumb_updown" axis="1" />
+		</CompoundInput>
+		<Rename input="pad:right_thumb_leftright_ps3" toInput="pad:right_thumb_leftright"/>
+		<Rename input="pad:right_thumb_updown_ps3" toInput="pad:right_thumb_updown"/>
+		<Binding input="pad:right_thumb" action="update" signal="object_rotate_z"/>
+		
+		<CompoundInput name="dpad" device="pad">
+			<Binding input="left" axis="0" invert="1"/>
+			<Binding input="right" axis="0"/>
+			<Binding input="up" axis="1"/>
+			<Binding input="down" axis="1" invert="1"/>
+		</CompoundInput>
+		<Binding input="pad:dpad" action="update" signal="object_rotate_snap"/>
+
+		<Binding input="pad:left_trigger" action="release" signal="object_rotate_end"/>
+	</ActionMap>
+
+	<ActionMap name="ige_tool_object_move" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<Import actionmap="ige_tool_terrain"/>
+		
+		<!--<Binding input="pad:right_trigger" action="press" signal="object_move_begin"/>
+		<Binding input="pad:left_trigger" action="press" signal="object_rotate_begin"/>
+		<Binding input="pad:right_shoulder" action="press" signal="object_grab_begin"/>-->
+		
+		<!--<Binding input="pad:left_trigger" action="press" signal="object_rotate_begin"/>-->
+		<!--<Binding input="pad:right_trigger" action="update" signal="dummy"/>-->
+		
+		<Binding input="pad:x" action="release" signal="controller_cursor_togglecontrol"/>
+		<Binding input="pad:y" action="release" signal="object_delete"/>
+	</ActionMap>
+	
+	<ActionMap name="ige_tool_object_move_moving" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<Import actionmap="ige_paint_base_painting"/>
+		
+		<Binding input="pad:left_thumb_push" action="release" signal="object_clone"/>
+		
+		<CompoundInput name="right_thumb" device="pad">
+			<Binding input="right_thumb_leftright" axis="0" />
+			<Binding input="right_thumb_updown" axis="1" />
+		</CompoundInput>
+		<Rename input="pad:right_thumb_leftright_ps3" toInput="pad:right_thumb_leftright"/>
+		<Rename input="pad:right_thumb_updown_ps3" toInput="pad:right_thumb_updown"/>
+		<Binding input="pad:right_thumb" action="update" signal="object_rotate_z"/>
+	</ActionMap>
+	
+	<ActionMap name="ige_tool_object_move_rotating" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<CompoundInput name="left_thumb" device="pad">
+			<Binding input="left_thumb_leftright" axis="0" />
+			<Binding input="left_thumb_updown" axis="1" />
+		</CompoundInput>
+		<Rename input="pad:left_thumb_leftright_ps3" toInput="pad:left_thumb_leftright"/>
+		<Rename input="pad:left_thumb_updown_ps3" toInput="pad:left_thumb_updown"/>
+		<Binding input="pad:left_thumb" action="update" signal="object_rotate_z"/>
+	
+		<CompoundInput name="right_thumb" device="pad">
+			<Binding input="right_thumb_leftright" axis="0" />
+			<Binding input="right_thumb_updown" axis="1" />
+		</CompoundInput>
+		<Rename input="pad:right_thumb_leftright_ps3" toInput="pad:right_thumb_leftright"/>
+		<Rename input="pad:right_thumb_updown_ps3" toInput="pad:right_thumb_updown"/>
+		<Binding input="pad:right_thumb" action="update" signal="controller_look"/>
+
+		<CompoundInput name="dpad" device="pad">
+			<Binding input="left" axis="0" invert="1"/>
+			<Binding input="right" axis="0"/>
+			<Binding input="up" axis="1"/>
+			<Binding input="down" axis="1" invert="1"/>
+		</CompoundInput>
+		<Binding input="pad:dpad" action="update" signal="object_rotate_snap"/>
+	
+		<Binding input="pad:left_trigger" action="release" signal="object_rotate_end"/>
+	</ActionMap>
+
+	<ActionMap name="ige_tool_object_edit" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<Import actionmap="ige_tool_default"/>
+		<Import actionmap="ige_fire_dpad"/>
+		
+		<Binding input="pad:right_trigger" action="press" signal="object_move_begin"/>
+		<Binding input="pad:left_trigger" action="press" signal="object_rotate_begin"/>
+		<Binding input="pad:right_shoulder" action="press" signal="object_grab_begin"/>
+		
+		<Binding input="pad:x" action="release" signal="controller_cursor_togglecontrol"/>
+		<Binding input="pad:y" action="release" signal="object_delete"/>
+		<Binding input="pad:b_back" action="release" signal="object_select_switch"/>
+	</ActionMap>
+		
+	<ActionMap name="ige_tool_object_moving" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<CompoundInput name="left_thumb" device="pad">
+			<Binding input="left_thumb_leftright" axis="0" />
+			<Binding input="left_thumb_updown" axis="1" />
+		</CompoundInput>
+		<Binding input="pad:left_thumb" action="update" signal="object_move_xy"/>
+		<Binding input="pad:left_thumb_push" action="release" signal="object_clone"/>
+		
+		<CompoundInput name="dpad" device="pad">
+			<Binding input="left" axis="0" invert="1"/>
+			<Binding input="right" axis="0"/>
+			<Binding input="up" axis="1"/>
+			<Binding input="down" axis="1" invert="1"/>
+		</CompoundInput>
+		<Binding input="pad:dpad" action="update" signal="object_move_snap"/>
+		
+		<CompoundInput name="right_thumb" device="pad">
+			<Binding input="right_thumb_leftright" axis="0" />
+			<Binding input="right_thumb_updown" axis="1" />
+		</CompoundInput>
+		<Rename input="pad:right_thumb_leftright_ps3" toInput="pad:right_thumb_leftright"/>
+		<Rename input="pad:right_thumb_updown_ps3" toInput="pad:right_thumb_updown"/>
+		<Binding input="pad:right_thumb" action="update" signal="object_move_rotate_z"/>
+		<Binding input="pad:right_thumb_push" action="release" signal="object_drop"/>
+	
+		<Binding input="pad:x" action="release" signal="object_drop_individual"/>
+		<Binding input="pad:y" action="release" signal="object_toggle_move_axis"/>
+			
+		<Binding input="pad:right_trigger" action="release" signal="object_move_end"/>
+	</ActionMap>
+	
+	<ActionMap name="ige_tool_object_rotating" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<CompoundInput name="left_thumb" device="pad">
+			<Binding input="left_thumb_leftright" axis="0" />
+			<Binding input="left_thumb_updown" axis="1" />
+		</CompoundInput>
+		<Rename input="pad:left_thumb_leftright_ps3" toInput="pad:left_thumb_leftright"/>
+		<Rename input="pad:left_thumb_updown_ps3" toInput="pad:left_thumb_updown"/>
+		<Binding input="pad:left_thumb" action="update" signal="object_rotate_z"/>
+		
+		<CompoundInput name="right_thumb" device="pad">
+			<Binding input="right_thumb_leftright" axis="0" />
+			<Binding input="right_thumb_updown" axis="1" />
+		</CompoundInput>
+		<Rename input="pad:right_thumb_leftright_ps3" toInput="pad:right_thumb_leftright"/>
+		<Rename input="pad:right_thumb_updown_ps3" toInput="pad:right_thumb_updown"/>
+		<Binding input="pad:right_thumb" action="update" signal="object_rotate_xy"/>
+
+		<Binding input="pad:right_thumb_push" action="release" signal="object_reset_angles"/>
+	
+		<CompoundInput name="dpad" device="pad">
+			<Binding input="left" axis="0" invert="1"/>
+			<Binding input="right" axis="0"/>
+			<Binding input="up" axis="1"/>
+			<Binding input="down" axis="1" invert="1"/>
+		</CompoundInput>
+		<Binding input="pad:dpad" action="update" signal="object_rotate_snap"/>
+		
+		<Binding input="pad:y" action="release" signal="object_toggle_rotate_axis"/>
+	
+		<Binding input="pad:left_trigger" action="release" signal="object_rotate_end"/>
+	</ActionMap>
+	
+	<ActionMap name="ige_tool_object_grabbing" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<CompoundInput name="left_thumb" device="pad">
+			<Binding input="left_thumb_leftright" axis="0" />
+			<Binding input="left_thumb_updown" axis="1" />
+		</CompoundInput>
+		<Binding input="pad:left_thumb" action="update" signal="controller_move"/>
+		
+		<CompoundInput name="right_thumb" device="pad">
+			<Binding input="right_thumb_leftright" axis="0" />
+			<Binding input="right_thumb_updown" axis="1" />
+		</CompoundInput>
+		<Rename input="pad:right_thumb_leftright_ps3" toInput="pad:right_thumb_leftright"/>
+		<Rename input="pad:right_thumb_updown_ps3" toInput="pad:right_thumb_updown"/>
+		<Binding input="pad:right_thumb" action="update" signal="object_rotate_z"/>
+		
+		<Binding input="pad:right_shoulder" action="release" signal="object_grab_end"/>
+	</ActionMap>
+	
+	<ActionMap name="ige_tool_object_snap" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<Import actionmap="ige_tool_default"/>
+		<Import actionmap="ige_fire_dpad"/>
+		<Import actionmap="ige_fire_ab"/>
+		
+		<Binding input="pad:x" action="release" signal="controller_cursor_togglecontrol"/>
+		
+		<Binding input="pad:right_trigger" action="press" signal="object_snap_select_source_pivot"/>
+		<Binding input="pad:left_trigger" action="press" signal="object_snap_select_target_pivot"/>
+		<Binding input="pad:right_shoulder" action="release" signal="object_snap_confirm_snap"/>
+		<Binding input="pad:y" action="release" signal="object_snap_clear_selection"/>
+	</ActionMap>
+	
+	<ActionMap name="ige_tool_environment" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<Import actionmap="ige_tool_default"/>
+		<Import actionmap="ige_fire_dpad"/>
+		<Import actionmap="ige_fire_ab"/>
+		
+		<Binding input="pad:right_trigger" action="update" signal="environment_increase_time"/>
+		<Binding input="pad:left_trigger" action="update" signal="environment_decrease_time"/>
+		<Binding input="pad:right_trigger" action="release" signal="environment_end_time_update"/>
+		<Binding input="pad:left_trigger" action="release" signal="environment_end_time_update"/>
+	</ActionMap>
+	
+	<ActionMap name="ige_tool_spline_edit" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<Import actionmap="ige_tool_terrain"/>
+		<Import actionmap="ige_fire_dpad"/>
+		<Import actionmap="ige_fire_ab"/>
+		
+		<Binding input="pad:y" action="release" signal="spline_select"/>
+	</ActionMap>
+	
+	<ActionMap name="ige_tool_playablezone" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<Import actionmap="ige_tool_spline_edit"/>
+				
+		<Binding input="pad:y" action="release" signal="zone_reset"/>
+	</ActionMap>
+		
+	<ActionMap name="ige_pc" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+        <Import actionmap="common_showconsole"/>
+	</ActionMap>
+	
+	<ActionMap name="ige_tool_snapshot" resendOnChange="0">
+	    <Import actionmap="ige_base" />
+		<Import actionmap="ige_tool_default"/>
+		<Import actionmap="ige_fire_dpad"/>
+		<Import actionmap="ige_fire_ab"/>
+				
+		<Binding input="pad:right_trigger" action="press" signal="snapshot_take_snapshot"/>
+		<Binding input="pad:left_trigger" action="press" signal="snapshot_clear_snapshot"/>
+		<Binding input="pad:right_shoulder" action="release" signal="snapshot_go_to_snapshot_position"/>
+	</ActionMap>
+	
+	<ActionMap name="MessageBox">
+      <Import actionmap="common_MessageBox"/>
+    </ActionMap>
+	
+	<ActionMap name="ige_menus" resendOnChange="0">
+	   <Import actionmap="ige_base" />
+       <Import actionmap="ige_fire_dpad"/>
+	   <Import actionmap="ige_fire_ab"/>
+	   
+	   <Binding input="pad:y" action="press" signal="ige_fire_input"/>
+	   <Binding input="pad:y" action="release" signal="ige_fire_input"/>	
+       
+	   <Binding input="pad:left_thumb_leftright" action="press" axis="0" signal="ige_fire_input"/>
+	   <Binding input="pad:left_thumb_updown" action="press" axis="1" signal="ige_fire_input"/>
+	   <Binding input="pad:left_thumb_leftright" action="release" axis="0" signal="ige_fire_input"/>
+	   <Binding input="pad:left_thumb_updown" action="release" axis="1" signal="ige_fire_input"/>
+       <Binding input="pad:left_thumb_leftright" action="update" axis="0" signal="ige_fire_input"/>
+	   <Binding input="pad:left_thumb_updown" action="update" axis="1" signal="ige_fire_input"/>
+    </ActionMap>
+
+	<!-- HACK: Down below, copy/pasted from single action maps. Not quite sure how dependencies work in this system, but I need these action maps to fix bugs and we really have to ship. -->
+	
+	<ActionMap name="narrative_interact_qte" >
+    <Import actionmap="basic"/>
+    <Import actionmap="system"/>
+		<Import actionmap="narrative_interact"/>
+		<!-- Note: The imports only go 1 level deep, so if you import an action map that imports other action maps, you have to import all the action maps explicitly! -->
+		<Import actionmap="common_gameplay_remap" optional=""/>
+		<Import actionmap="common_move_remap" optional=""/>
+    </ActionMap>
+
+
+  <ActionMap name="narrative_interact" >
+    <Import actionmap="basic"/>
+    <Import actionmap="system"/>
+    <Import actionmap="common_gameplay_remap" optional=""/>
+	<Import actionmap="common_move_remap" optional=""/>
+
+    <!--*** KeyBoard ***  TODO: WARNING, THESE ARE PLACEHOLDERS UNTIL APPROVAL {Peho} DO SUPPORT REMAP-->
+    <CompoundInput name="interact_update_leftthumbstick" device="kb">
+        <Input input="w" axis="1"/>
+        <Input input="a" axis="0" invert="1"/>
+        <Input input="s" axis="1" invert="1"/>
+        <Input input="d" axis="0"/>
+    </CompoundInput>
+
+	<CompoundInput name="moveleftright" device="kb">
+		<Input input="a" axis="0" invert="1"/>
+		<Input input="d" axis="0"/>
+	</CompoundInput>
+
+	<CompoundInput name="moveforwardback" device="kb">
+		<Input input="w" axis="0"/>
+		<Input input="s" axis="0" invert="1"/>
+	</CompoundInput>
+
+    <Binding input="kb:space" 		action="press"      signal="interact_press_a"/>
+    <Binding input="kb:space" 		action="release"    signal="interact_release_a"/>
+    <Binding input="kb:space" 		action="hold"       signal="interact_hold_a"/>
+
+    <Binding input="kb:c" 		action="press" 		signal="interact_press_b"/>
+    <Binding input="kb:c" 		action="release"    signal="interact_release_b"/>
+    <Binding input="kb:c" 		action="hold"       signal="interact_hold_b"/>
+
+    <Binding input="kb:space" 		action="release"  	signal="interact_release_accept" secondary="1"/>
+    <Binding input="kb:space" 		action="hold" 		signal="interact_hold_accept" secondary="1"/>
+    <Binding input="kb:space" 		action="press" 		signal="interact_press_accept" secondary="1"/>
+
+    <Binding input="kb:c" 		action="release" 	signal="interact_release_cancel" secondary="1"/>
+    <Binding input="kb:c" 		action="hold"  		signal="interact_hold_cancel" secondary="1"/>
+    <Binding input="kb:c" 		action="press"		signal="interact_press_cancel" secondary="1"/>
+
+    <Binding input="kb:e" 		action="press" 		signal="interact_press_x"/>
+    <Binding input="kb:e" 		action="release"    signal="interact_release_x"/>
+    <Binding input="kb:e" 		action="hold"       signal="interact_hold_x"/>
+
+    <Binding input="kb:h" 		action="press" 		signal="interact_press_y"/>
+    <Binding input="kb:h" 		action="release"    signal="interact_release_y"/>
+    <Binding input="kb:h" 		action="hold"       signal="interact_hold_y"/>
+
+	<Binding input="kb:up"		action="press"   	signal="interact_press_dpadup"/>
+	<Binding input="kb:up"		action="release" 	signal="interact_release_dpadup"/>
+	<Binding input="kb:up"		action="hold" 	    signal="interact_hold_dpadup"/>
+	<Binding input="kb:down"	action="press"   	signal="interact_press_dpaddown"/>
+	<Binding input="kb:down"	action="release" 	signal="interact_release_dpaddown"/>
+	<Binding input="kb:down"	action="hold"   	signal="interact_hold_dpaddown"/>
+    <Binding input="kb:left"    action="press"   	signal="interact_press_dpadleft"/>
+	<Binding input="kb:left"    action="release" 	signal="interact_release_dpadleft"/>
+	<Binding input="kb:right"   action="press"   	signal="interact_press_dpadright"/>
+	<Binding input="kb:right"   action="release" 	signal="interact_release_dpadright"/>
+
+    <Binding input="mouse:rb" 		action="press" 		signal="interact_press_lefttrigger"/>
+    <Binding input="mouse:rb" 		action="release" 	signal="interact_release_lefttrigger"/>
+    <Binding input="mouse:rb" 		action="hold" 	    signal="interact_hold_lefttrigger"/>
+
+    <Binding input="mouse:lb" 		action="press" 		signal="interact_press_righttrigger"/>
+    <Binding input="mouse:lb" 		action="release" 	signal="interact_release_righttrigger"/>
+    <Binding input="mouse:lb" 		action="hold" 	    signal="interact_hold_righttrigger"/>
+
+    <Binding input="kb:q"      action="press"	signal="interact_press_leftshoulder"/>
+    <Binding input="kb:q"      action="hold"	signal="interact_hold_leftshoulder"/>
+    <Binding input="kb:q"      action="release"	signal="interact_release_leftshoulder"/>
+
+    <Binding input="kb:f"     action="press"	signal="interact_press_rightshoulder"/>
+    <Binding input="kb:f"     action="hold"		signal="interact_hold_rightshoulder"/>
+    <Binding input="kb:f"     action="release"	signal="interact_release_rightshoulder"/>
+
+	<Binding input="kb:moveleftright"			action="press"		signal="interact_update_leftthumbstickleftright"/>
+	<Binding input="kb:moveleftright"			action="release"	signal="interact_update_leftthumbstickleftright"/>
+	<Binding input="kb:moveforwardback"			action="press"		signal="interact_update_leftthumbstickupdown"/>
+	<Binding input="kb:moveforwardback"			action="release"	signal="interact_update_leftthumbstickupdown"/>
+
+    <!--*** Gamepad ***-->
+
+    <Binding input="pad:a" action="press" 		signal="interact_press_a" />
+    <Binding input="pad:a" action="hold" 		signal="interact_hold_a" />
+    <Binding input="pad:a" action="release" 	signal="interact_release_a" />
+
+    <Binding input="pad:b" action="press" 		signal="interact_press_b" />
+    <Binding input="pad:b" action="hold" 		signal="interact_hold_b" />
+    <Binding input="pad:b" action="release" 	signal="interact_release_b" />
+
+    <Binding input="pad:a" action="release" 	signal="interact_release_accept" secondary="1"/>
+    <Binding input="pad:a" action="hold" 		signal="interact_hold_accept" secondary="1"/>
+    <Binding input="pad:a" action="press" 		signal="interact_press_accept" secondary="1"/>
+
+    <Binding input="pad:b" action="release" 	signal="interact_release_cancel" secondary="1"/>
+    <Binding input="pad:b" action="hold" 		signal="interact_hold_cancel" secondary="1"/>
+    <Binding input="pad:b" action="press" 		signal="interact_press_cancel" secondary="1"/>
+
+    <Binding input="pad:x" action="press" 		signal="interact_press_x" />
+    <Binding input="pad:x" action="hold" 		signal="interact_hold_x" />
+    <Binding input="pad:x" action="release" 	signal="interact_release_x" />
+
+    <Binding input="pad:y" action="press" 		signal="interact_press_y" />
+    <Binding input="pad:y" action="hold" 		signal="interact_hold_y" />
+    <Binding input="pad:y" action="release" 	signal="interact_release_y" />
+
+    <Binding input="pad:left_thumb_leftright" 	action="update"     signal="interact_update_leftthumbstickleftright"/>
+    <Binding input="pad:left_thumb_updown" 		action="update"     signal="interact_update_leftthumbstickupdown"/>
+    <Binding input="pad:left_thumb" 		    action="update"     signal="interact_update_leftthumbstick"/>
+    <Binding input="pad:left_thumb_push" 		action="press" 		signal="interact_press_leftthumbstick"/>
+    <Binding input="pad:left_thumb_push" 		action="hold" 		signal="interact_hold_leftthumbstick"/>
+    <Binding input="pad:left_thumb_push" 		action="release" 	signal="interact_release_leftthumbstick"/>
+
+    <Binding input="pad:right_thumb_leftright"	action="update" 	signal="interact_update_rightthumbstickleftright"/>
+    <Binding input="pad:right_thumb_updown" 	action="update" 	signal="interact_update_rightthumbstickupdown"/>
+    <Binding input="pad:right_thumb"            action="update"     signal="interact_update_rightthumbstick"/>
+    <Binding input="pad:right_thumb"            action="update"     signal="look"/>
+    <Binding input="pad:right_thumb_push" 		action="press" 		signal="interact_press_rightthumbstick"/>
+    <Binding input="pad:right_thumb_push" 		action="hold" 		signal="interact_hold_rightthumbstick"/>
+    <Binding input="pad:right_thumb_push" 		action="release" 	signal="interact_release_rightthumbstick"/>
+
+    <Binding input="pad:left_trigger" 			action="update" 	signal="interact_update_lefttrigger"/>
+    <Binding input="pad:left_trigger" 			action="press" 		signal="interact_press_lefttrigger"/>
+    <Binding input="pad:left_trigger" 			action="hold" 		signal="interact_hold_lefttrigger"/>
+    <Binding input="pad:left_trigger" 			action="release" 	signal="interact_release_lefttrigger"/>
+
+    <Binding input="pad:right_trigger"			action="update" 	signal="interact_update_righttrigger"/>
+    <Binding input="pad:right_trigger" 			action="press" 		signal="interact_press_righttrigger"/>
+    <Binding input="pad:right_trigger" 			action="hold" 		signal="interact_hold_righttrigger"/>
+    <Binding input="pad:right_trigger" 			action="release" 	signal="interact_release_righttrigger"/>
+
+    <Binding input="pad:left_shoulder"			action="press"		signal="interact_press_leftshoulder"/>
+    <Binding input="pad:left_shoulder"			action="hold"		signal="interact_hold_leftshoulder"/>
+    <Binding input="pad:left_shoulder"			action="release"	signal="interact_release_leftshoulder"/>
+
+    <Binding input="pad:right_shoulder"			action="press"		signal="interact_press_rightshoulder"/>
+    <Binding input="pad:right_shoulder"			action="hold"		signal="interact_hold_rightshoulder"/>
+    <Binding input="pad:right_shoulder"			action="release"	signal="interact_release_rightshoulder"/>
+
+	<Binding input="pad:up"			action="press"   	signal="interact_press_dpadup"/>
+	<Binding input="pad:up"			action="release" 	signal="interact_release_dpadup"/>
+	<Binding input="pad:up"			action="hold" 	    signal="interact_hold_dpadup"/>
+	<Binding input="pad:down"		action="press"   	signal="interact_press_dpaddown"/>
+	<Binding input="pad:down"		action="release" 	signal="interact_release_dpaddown"/>
+	<Binding input="pad:down"		action="hold" 	    signal="interact_hold_dpaddown"/>
+	<Binding input="pad:left"		action="press"   	signal="interact_press_dpadleft"/>
+	<Binding input="pad:left"		action="release" 	signal="interact_release_dpadleft"/>
+	<Binding input="pad:right"      action="press"   	signal="interact_press_dpadright"/>
+	<Binding input="pad:right"      action="release" 	signal="interact_release_dpadright"/>
+
+	<Binding input="pad:back"   action="press"   	signal="interact_press_back"/>
+	<Binding input="pad:back"   action="hold"   	signal="interact_hold_back"/>
+	<Binding input="pad:back"   action="release"    signal="interact_release_back"/>
+
+	<PadFilter name="right_thumb" device="pad" padAccelerationBoostAmplitude="0" >
+		<Binding input="right_thumb_leftright" axis="0" sensitivity="1.0" curve="FC3_ScriptedEvents:Cinema/PadFilter_Cinematic"/>
+		<Binding input="right_thumb_updown" axis="1" sensitivity="1.0" curve="FC3_ScriptedEvents:Cinema/PadFilter_Cinematic"/>
+    </PadFilter>
+
+    <PadFilter name="left_thumb" device="pad" padAccelerationBoostAmplitude="0" >
+		<Binding input="left_thumb_leftright" axis="0" sensitivity="1.0" curve="FC3_ScriptedEvents:Cinema/PadFilter_Cinematic"/>
+		<Binding input="left_thumb_updown" axis="1" sensitivity="1.0" curve="FC3_ScriptedEvents:Cinema/PadFilter_Cinematic"/>
+    </PadFilter>
+
+    <MouseFilter input="mouse:move" curve="Weapons:AimCurves/Mouse_Curve" sensitivity="1.0" maxOutput="1" />
+	<Binding input="mouse:move" action="update" signal="look"/>
+    <Binding input="mouse:move" action="update" signal="interact_update_rightthumbstick"  secondary="1"/>
+
+  </ActionMap>
+
+</Root>

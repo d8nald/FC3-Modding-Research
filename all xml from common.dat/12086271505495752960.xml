@@ -1,0 +1,56 @@
+<graphickit id="12086271505495752960" name="Bouncer" unique="0" kittobone="1">
+	<slot name="Slot1" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="Bouncer" ref="graphics\__FC3_Graphics\_Common\Characters\Unique\Bouncer\Bouncer.xml" mesh="Bouncer" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Eye_shadow" id="akotelnikoff-M-2011083067336073">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Willis_eyelashes" id="akotelnikoff-M-2012010438496561">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Hoyt_eye" id="akotelnikoff-M-2012030951258527">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Barman Eyes" id="vfortin-M-2012032255807060">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Shoes" id="bwaddingham-M-2012032157584918">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="hand" id="bwaddingham-M-2012032157890880">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Bartender_Pants" id="bwaddingham-M-2012032155686409">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Bartender_Face" id="bwaddingham-M-2012032158150942">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Bouncer_Clothes" id="vfortin-M-2012033061323179">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Willis_glass" id="akotelnikoff-M-2011121937090688">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Willis_frame_black" id="akotelnikoff-M-2012031464416825">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Willis_frame" id="akotelnikoff-M-2011121936973698">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+	<slot name="Slot2" position="1" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot3" position="2" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+	<slot name="Slot4" position="3" bonename="">
+		<partdatabase name="" weight="0" />
+	</slot>
+</graphickit>

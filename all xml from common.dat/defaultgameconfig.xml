@@ -1,0 +1,57 @@
+<Profile
+    Hour = "16"
+    Minutes = "40"
+    Seconds = "0"
+    TimeScale = "1"
+    WindForce = "80"
+    WindDir = "0"
+    DelayShadowMovement = "180"
+    GodMode = "0"
+    UnlimitedAmmo = "0"
+    Sensitivity_x = "1.0"
+    Sensitivity_y = "1.0"
+    Sensitivity = "1.0"
+    Invert_x = "0"
+    Invert_y = "0"
+    Gamepad_vibration = "1"
+    IgnorePlayer = "0"
+    GatherEntitiesForMap = "0"
+    ShowAIInMap = "0"
+    ShowDiamondsInMap = "0"
+    UseMouseSmooth = "0"
+    DifficultyLevel = "1"
+    Machete = "0"
+    UseAmbx = "0"
+    UseSubtitles = "0"    
+    padSensor = "0"
+    UseAimingHelpers = "1"
+    HelpCrosshair = "1"
+    BrightnessCalibrated = "0"
+    ShowSaveLoadMenu = "0"
+    >
+    <FireConfig 
+        QualitySetting = "VeryHigh">
+        <Qualities>
+            <quality id="VeryHigh"
+                FireEnabled="1"
+            MultiCellArraySize="100"
+            FireSmokeEnabled="1"
+            />
+        <quality id="High"
+                FireEnabled="1"
+            MultiCellArraySize="100"
+            FireSmokeEnabled="1"
+            />
+        <quality id="Medium"
+                FireEnabled="1"
+            MultiCellArraySize="100"
+            FireSmokeEnabled="0"
+            />
+        <quality id="Low"
+                FireEnabled="1"
+            MultiCellArraySize="100"
+            FireSmokeEnabled="0"
+            />
+        </Qualities>
+  </FireConfig>
+</Profile>

@@ -1,0 +1,38 @@
+<graphickit id="12097404412914303488" name="VillagerMan_RedStripes" unique="0" kittobone="1">
+	<slot name="Body" position="0" bonename="">
+		<partdatabase name="" weight="0">
+			<part name="NativeMan_RedStripes" ref="graphics\__FC3_Graphics\_Common\Characters\Locals\NativeMan_RedStripes.xml" mesh="NativeMan_RedStripes" weight="1" version="1" allowcullbysize="1">
+				<materialdatabase name="" weight="0" />
+				<defaultmaterials>
+					<overrideslot name="Material #131" id="slabreche-M-2012011958300332">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Rebels_Hats_01" id="slabreche-m-2011041440486567">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="SV_Male_Shoes_01" id="slabreche-M-2012012740181205">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="VillagerMan_RedStripes" id="vfortin-M-2012052961728324">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Buddies_teeth" id="cromagnoli-m-2011041240561553">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Native Woman Eye" id="slabreche-m-20110719115948">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Native_Body_01" id="slabreche-m-2011071854282475">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="Native_Head_01_AsCopy" id="vfortin-M-2011110459040748">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+					<overrideslot name="villagerHair." id="cromagnoli-M-2011101361297292">
+						<materialdatabase name="" weight="0" />
+					</overrideslot>
+				</defaultmaterials>
+			</part>
+		</partdatabase>
+	</slot>
+</graphickit>
